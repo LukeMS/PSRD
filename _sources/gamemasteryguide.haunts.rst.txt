@@ -1,0 +1,184 @@
+
+.. _`gamemasteryguide.haunts`:
+
+.. contents:: \ 
+
+.. _`gamemasteryguide.haunts#haunts`:
+
+Haunts
+*******
+
+The distinction between a trap and an undead creature blurs when you introduce a haunt—a hazardous region created by unquiet spirits that react violently to the presence of the living. The exact conditions that cause a haunt to manifest vary from case to case—but haunts always arise from a source of terrific mental or physical anguish endured by living, tormented creatures. A single, source of suffering can create multiple haunts, or multiple sources could consolidate into a single haunt. The relative power of the source has little bearing on the strength of the resulting haunt—it's the magnitude of the suffering or despair that created the haunt that decides its power. Often, undead inhabit regions infested with haunts—it's even possible for a person who dies to rise as a ghost (or other undead) and trigger the creation of numerous haunts. A haunt infuses a specific area, and often multiple haunted areas exist within a single structure. The classic haunted house isn't a single haunt, but usually a dozen or more haunted areas spread throughout the structure.
+
+.. _`gamemasteryguide.haunts#haunt_rules`:
+
+Haunt Rules
+############
+
+Although haunts function like traps, they are difficult to detect since they cannot be easily observed until the round in which they manifest. :ref:`Detect undead <corerulebook.spells.detectundead#detect_undead>`\  or \ *detect alignment*\  spells of the appropriate type allow an observer a chance to notice a haunt even before it manifests (allowing that character the appropriate check to notice the haunt, but at a –4 penalty).
+
+A haunt can infuse a maximum area with a 5-foot radius per point of CR possessed by the haunt, but the actual area is usually limited by the size of the room in which the haunt is located.
+
+When a haunt is triggered, its effects manifest at initiative rank 10 in a surprise round. All characters in the haunt's proximity can attempt to notice the haunt at the start of this surprise round by making a notice check). All haunts detect life sources and trigger as a result of the approach of or contact with living creatures, but some haunts can be tricked by effects like :ref:`hide from undead <corerulebook.spells.hidefromundead#hide_from_undead>`\  or :ref:`invisibility <corerulebook.spells.invisibility#invisibility>`\ .
+
+On the surprise round in which a haunt manifests, positive energy applied to the haunt (via channeled energy, cure spells, and the like) can damage the haunt's hit points (a haunt never gains a Will save to lessen the damage done by such effects, and attacks that require a successful attack roll to work must strike AC 10 in order to affect the haunt and not merely the physical structure it inhabits). Unless the haunt has an unusual weakness, no other form of attack can reduce its hit points. If the haunt is reduced to 0 hit points by positive energy, it is neutralized—if this occurs before the haunt takes its action at initiative rank 10, its effect does not occur.
+
+A haunt can have virtually any effect identical to an existing spell effect, but often with different—and distinctly more frightening or unnerving—sensory or physical features than that spell effect normally has. (A haunt that has an effect not identical to an existing spell is certainly possible, but this requires designing a new spell effect.) A haunt might cause a room to explode into flames (duplicating :ref:`fireball <corerulebook.spells.fireball#fireball>`\  or :ref:`fire storm <corerulebook.spells.firestorm#fire_storm>`\ ), infuse a chamber with fear (duplicating :ref:`cause fear <corerulebook.spells.causefear#cause_fear>`\ , :ref:`scare <corerulebook.spells.scare#scare>`\ , or :ref:`fear <corerulebook.spells.fear#fear>`\ ), or try to frighten a target to death (duplicating :ref:`phantasmal killer <corerulebook.spells.phantasmalkiller#phantasmal_killer>`\  or :ref:`slay living <corerulebook.spells.slayliving#slay_living>`\ ). How the haunt's effects manifest are left to you to determine.
+
+A neutralized haunt is not destroyed, and can manifest again after a period of time—to destroy a haunt, a specific action must be taken in the region to end the effect forever (such as burning a haunted house to the ground or burying the bones of the slaves who died on the site to create the haunt). This specific act is different for every haunt (although a number of nearby haunts often share the same destruction act).
+
+Some haunts are persistent, and their immediate effects continue beyond the surprise round into actual full rounds. Persistent haunts continue to trigger their haunt effects once per round on their initiative rank until destroyed or they no longer have a target.
+
+All primary effects created by a haunt are mind-affecting fear effects, even those that actually produce physical effects. Immunity to fear grants immunity to a haunt's direct effects, but not to secondary effects that arise as a result of the haunt's attack.
+
+.. _`gamemasteryguide.haunts#elements_of_a_haunt`:
+
+Elements of a Haunt
+####################
+
+.. _`gamemasteryguide.haunts#cr_modifiers_of_haunts`:
+
+.. list-table:: Table: CR Modifiers of Haunts
+   :header-rows: 1
+   :class: contrast-reading-table
+   :widths: auto
+
+   * - Feature Type
+     - CR Modifier
+   * - Persistent
+     - +2
+   * - \ *Notice DC*
+     - 
+   * - 15 or lower
+     - –1
+   * - 16–20
+     - —
+   * - 21–25
+     - +1
+   * - 26–29
+     - +2
+   * - 30 or higher
+     - +3
+   * - \ *Reset Time*
+     - 
+   * - 1 minute
+     - +2
+   * - 1 hour
+     - +1
+   * - 1 day
+     - +0
+   * - 1 week
+     - –1
+   * - \ *Example Weaknesses*
+     - 
+   * - Slow (manifests at Initiative rank 0)
+     - –2
+   * - Susceptible to an additional type of damage
+     - –1 per additional type
+   * - Tricked by :ref:`hide from undead <corerulebook.spells.hidefromundead>`
+     - –2
+   * - Tricked by :ref:`invisibility <corerulebook.spells.invisibility>`
+     - –1
+   * - Tricked by :ref:`Stealth \ <corerulebook.skills.stealth>`
+     - –3
+   * - Triggered by touch
+     - –2
+
+**Notes:**
+
+* The haunt makes a caster level check instead of a :ref:`Perception <corerulebook.skills.perception>`\ check to notice someone using :ref:`Stealth <corerulebook.skills.stealth>`\ .
+
+Haunts are presented in the following format.
+
+.. _`gamemasteryguide.haunts#haunt_name`:
+
+\ **Haunt Name**\ : The haunt's name is followed by its CR.
+
+.. _`gamemasteryguide.haunts#xp`:
+
+\ **XP**\ : This is the amount of XP to award the PCs for surviving the haunt, as determined by its CR.
+
+.. _`gamemasteryguide.haunts#alignment_and_area`:
+
+\ **Alignment and Area**\ : This line gives the haunt's alignment and the dimensions of the area it infuses (up to 5 feet per CR). If a haunt is persistent, this is noted here as well.
+
+.. _`gamemasteryguide.haunts#caster_level`:
+
+\ **Caster Level**\ : This is the haunt's effective caster level for the purposes of dispelling any ongoing effects with :ref:`dispel magic <corerulebook.spells.dispelmagic#dispel_magic>`\ , and for determining the results of spell effects it creates.
+
+.. _`gamemasteryguide.haunts#notice`:
+
+\ **Notice**\ : This indicates the skill check and DC required to notice the haunt in the surprise round before it manifests. The sensory input for what a successful check notices—such as a faint ghostly wailing, a smell of burning flesh, or fresh blood oozing from the walls—is listed in parentheses after the DC.
+
+.. _`gamemasteryguide.haunts#hp`:
+
+\ **hp**\ : This lists the haunt's effective hit points for the purposes of resolving positive energy damage. A haunt's hit points are equal to twice its CR, except in the case of a persistent haunt, in which case its hit points are equal to its CR × 4.5 (round fractions down).
+
+.. _`gamemasteryguide.haunts#weakness`:
+
+\ **Weakness**\ : Any weaknesses the haunt might have, such as for haunts that can be tricked by effects like :ref:`hide from undead <corerulebook.spells.hidefromundead#hide_from_undead>`\  or can be damaged by effects other than positive energy, are listed here.
+
+.. _`gamemasteryguide.haunts#trigger`:
+
+\ **Trigger**\ : The conditions that can cause the haunt to manifest are given here. Proximity-triggered haunts occur as soon as a creature enters the haunt's area. A haunt triggered by touch does not activate until a living creature touches a specific object or location in its area, but it can sense (and thus target with its effects) any creature in its area. 
+
+.. _`gamemasteryguide.haunts#reset`:
+
+\ **Reset**\ : This is the amount of time that must pass before a haunt can attempt to reset. Until it is destroyed, a haunt can reset after this period by succeeding on a DC 10 caster level check—failure indicates the haunt must wait that amount of time again before making another attempt to reset.
+
+.. _`gamemasteryguide.haunts#effect`:
+
+\ **Effect**\ : This details the haunt's exact effects, including a description of how the haunt manifests.
+
+.. _`gamemasteryguide.haunts#destruction`:
+
+\ **Destruction**\ : This describes the act needed to permanently destroy the haunt.
+
+.. _`gamemasteryguide.haunts#creating_a_haunt`:
+
+Creating a Haunt
+#################
+
+To make a haunt like the example below, follow these steps.
+
+.. _`gamemasteryguide.haunts#step_1_determine_base_cr`:
+
+\ **Step 1—Determine Base CR**\ : A haunt's base CR is equal to 1 + the level of the spell it duplicates.
+
+.. _`gamemasteryguide.haunts#step_2_determine_actual_cr`:
+
+\ **Step 2—Determine Actual CR**\ : Select the elements you want the haunt to have and add up the adjustments to its CR to arrive at the haunt's final CR (see Table 8–2: CR Modifiers for Haunts).
+
+.. _`gamemasteryguide.haunts#step_3_determine_caster_level`:
+
+\ **Step 3—Determine Caster Level**\ : A haunt's caster level is equal to its actual CR score.
+
+.. _`gamemasteryguide.haunts#step_4_determine_hit_points`:
+
+\ **Step 4—Determine Hit Points**\ : A haunt's hit points are equal to twice its CR (or equal to its CR × 4.5 if the haunt is persistent).
+
+.. _`gamemasteryguide.haunts#step_5_calculate_attacks_and_save_dcs`:
+
+\ **Step 5—Calculate Attacks and Save DCs**\ : A haunt's attack modifier (if one is needed) is equal to its CR. If a haunt's spell effect allows a saving throw to resist or negate the effect, the save DC is equal to 10 + the level of the spell + the ability modifier of the minimum ability score needed to cast that level of spell.
+
+.. _`gamemasteryguide.haunts#bleeding_walls_cr_5`:
+
+Bleeding Walls CR 5
+====================
+
+.. _`gamemasteryguide.haunts#xp_1600`:
+
+\ **XP 1,600**
+
+CE haunt (5 ft. by 20 ft. hallway)
+
+\ **Caster Level**\ 5th
+
+\ **Notice**\  :ref:`Perception <corerulebook.skills.perception#perception>`\  DC 20 (to hear the sound of soft sobbing)
+
+\ **hp**\  10; \ **Trigger**\  proximity; \ **Reset**\  1 day
+
+\ **Effect**\  When this haunt is triggered, thick rivulets of blood course down the walls accompanied by the shrill shriek of a woman's scream. All creatures in the hallway are targeted by a :ref:`fear <corerulebook.spells.fear#fear>`\  spell (save DC 16).
+
+\ **Destruction**\  The body of the maid entombed behind the walls must be extracted and given a proper burial.
+

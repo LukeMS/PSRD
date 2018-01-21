@@ -1,0 +1,1056 @@
+
+
+
+
+
+<head>
+    <link rel="stylesheet" href="_static/srd.css" type="text/css" />
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/toggle_list.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+
+
+
+<body>
+    <div class="contents topic" id="id1">
+<span id="ultimatecombat-ultimatecombatvehicles"></span><p class="topic-title first"></p>
+<ul class="simple">
+<li><a class="reference internal" href="#vehicles" id="id61">Vehicles</a><ul>
+<li><a class="reference internal" href="#vehicle-basics" id="id62">Vehicle Basics</a></li>
+<li><a class="reference internal" href="#full-vehicle-rules" id="id63">Full Vehicle Rules</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#drivers" id="id64">Drivers</a></li>
+<li><a class="reference internal" href="#occupants" id="id65">Occupants</a></li>
+<li><a class="reference internal" href="#propulsion-and-driving-checks" id="id66">Propulsion and Driving Checks</a></li>
+<li><a class="reference internal" href="#vehicle-size-and-space" id="id67">Vehicle Size and Space</a></li>
+<li><a class="reference internal" href="#vehicle-facing-and-movement" id="id68">Vehicle Facing and Movement</a></li>
+<li><a class="reference internal" href="#driving-vehicles" id="id69">Driving Vehicles</a></li>
+<li><a class="reference internal" href="#vehicles-in-combat" id="id70">Vehicles in Combat</a><ul>
+<li><a class="reference internal" href="#vehicle-statistics" id="id71">Vehicle Statistics</a></li>
+<li><a class="reference internal" href="#land-vehicles" id="id72">Land Vehicles</a><ul>
+<li><a class="reference internal" href="#carriage" id="id73">Carriage</a></li>
+<li><a class="reference internal" href="#defense" id="id74">Defense</a></li>
+<li><a class="reference internal" href="#offense" id="id75">Offense</a></li>
+<li><a class="reference internal" href="#description" id="id76">Description</a></li>
+<li><a class="reference internal" href="#cart" id="id77">Cart</a></li>
+<li><a class="reference internal" href="#id2" id="id78">Defense</a></li>
+<li><a class="reference internal" href="#id3" id="id79">Offense</a></li>
+<li><a class="reference internal" href="#id4" id="id80">Description</a></li>
+<li><a class="reference internal" href="#chariot-light" id="id81">Chariot, Light</a></li>
+<li><a class="reference internal" href="#id5" id="id82">Defense</a></li>
+<li><a class="reference internal" href="#id6" id="id83">Offense</a></li>
+<li><a class="reference internal" href="#id7" id="id84">Description</a></li>
+<li><a class="reference internal" href="#chariot-medium" id="id85">Chariot, Medium</a></li>
+<li><a class="reference internal" href="#id8" id="id86">Defense</a></li>
+<li><a class="reference internal" href="#id9" id="id87">Offense</a></li>
+<li><a class="reference internal" href="#id10" id="id88">Description</a></li>
+<li><a class="reference internal" href="#chariot-heavy" id="id89">Chariot, Heavy</a></li>
+<li><a class="reference internal" href="#id11" id="id90">Defense</a></li>
+<li><a class="reference internal" href="#id12" id="id91">Offense</a></li>
+<li><a class="reference internal" href="#id13" id="id92">Description</a></li>
+<li><a class="reference internal" href="#sleigh" id="id93">Sleigh</a></li>
+<li><a class="reference internal" href="#id14" id="id94">Defense</a></li>
+<li><a class="reference internal" href="#id15" id="id95">Offense</a></li>
+<li><a class="reference internal" href="#id16" id="id96">Description</a></li>
+<li><a class="reference internal" href="#steam-giant" id="id97">Steam Giant</a></li>
+<li><a class="reference internal" href="#id17" id="id98">Defense</a></li>
+<li><a class="reference internal" href="#id18" id="id99">Offense</a></li>
+<li><a class="reference internal" href="#id19" id="id100">Description</a></li>
+<li><a class="reference internal" href="#wagon-light" id="id101">Wagon, Light</a></li>
+<li><a class="reference internal" href="#id20" id="id102">Defense</a></li>
+<li><a class="reference internal" href="#id21" id="id103">Offense</a></li>
+<li><a class="reference internal" href="#id22" id="id104">Description</a></li>
+<li><a class="reference internal" href="#wagon-medium" id="id105">Wagon, Medium</a></li>
+<li><a class="reference internal" href="#id23" id="id106">Defense</a></li>
+<li><a class="reference internal" href="#id24" id="id107">Offense</a></li>
+<li><a class="reference internal" href="#id25" id="id108">Description</a></li>
+<li><a class="reference internal" href="#wagon-heavy" id="id109">Wagon, Heavy</a></li>
+<li><a class="reference internal" href="#id26" id="id110">Defense</a></li>
+<li><a class="reference internal" href="#id27" id="id111">Offense</a></li>
+<li><a class="reference internal" href="#id28" id="id112">Description</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#water-vehicles" id="id113">Water Vehicles</a><ul>
+<li><a class="reference internal" href="#galley" id="id114">Galley</a></li>
+<li><a class="reference internal" href="#id29" id="id115">Defense</a></li>
+<li><a class="reference internal" href="#id30" id="id116">Offense</a></li>
+<li><a class="reference internal" href="#id31" id="id117">Description</a></li>
+<li><a class="reference internal" href="#keelboat" id="id118">Keelboat</a></li>
+<li><a class="reference internal" href="#id32" id="id119">Defense</a></li>
+<li><a class="reference internal" href="#id33" id="id120">Offense</a></li>
+<li><a class="reference internal" href="#id34" id="id121">Description</a></li>
+<li><a class="reference internal" href="#longship" id="id122">Longship</a></li>
+<li><a class="reference internal" href="#id35" id="id123">Defense</a></li>
+<li><a class="reference internal" href="#id36" id="id124">Offense</a></li>
+<li><a class="reference internal" href="#id37" id="id125">Description</a></li>
+<li><a class="reference internal" href="#rowboat" id="id126">Rowboat</a></li>
+<li><a class="reference internal" href="#id38" id="id127">Defense</a></li>
+<li><a class="reference internal" href="#id39" id="id128">Offense</a></li>
+<li><a class="reference internal" href="#id40" id="id129">Description</a></li>
+<li><a class="reference internal" href="#sailing-ship" id="id130">Sailing Ship</a></li>
+<li><a class="reference internal" href="#id41" id="id131">Defense</a></li>
+<li><a class="reference internal" href="#id42" id="id132">Offense</a></li>
+<li><a class="reference internal" href="#id43" id="id133">Description</a></li>
+<li><a class="reference internal" href="#warship" id="id134">Warship</a></li>
+<li><a class="reference internal" href="#id44" id="id135">Defense</a></li>
+<li><a class="reference internal" href="#id45" id="id136">Offense</a></li>
+<li><a class="reference internal" href="#id46" id="id137">Description</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#air-vehicles" id="id138">Air Vehicles</a><ul>
+<li><a class="reference internal" href="#airship" id="id139">Airship</a></li>
+<li><a class="reference internal" href="#id47" id="id140">Defense</a></li>
+<li><a class="reference internal" href="#id48" id="id141">Offense</a></li>
+<li><a class="reference internal" href="#id49" id="id142">Description</a></li>
+<li><a class="reference internal" href="#alchemical-dragon" id="id143">Alchemical Dragon</a></li>
+<li><a class="reference internal" href="#id50" id="id144">Defense</a></li>
+<li><a class="reference internal" href="#id51" id="id145">Offense</a></li>
+<li><a class="reference internal" href="#id52" id="id146">Description</a></li>
+<li><a class="reference internal" href="#glider" id="id147">Glider</a></li>
+<li><a class="reference internal" href="#id53" id="id148">Defense</a></li>
+<li><a class="reference internal" href="#id54" id="id149">Offense</a></li>
+<li><a class="reference internal" href="#id55" id="id150">Description</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#maneuvering-a-vehicle" id="id151">Maneuvering a Vehicle</a></li>
+<li><a class="reference internal" href="#turning-a-vehicle" id="id152">Turning a Vehicle</a></li>
+<li><a class="reference internal" href="#optional-rule-wide-turns" id="id153">Optional Rule: Wide Turns</a></li>
+<li><a class="reference internal" href="#propulsion-devices" id="id154">Propulsion Devices</a></li>
+<li><a class="reference internal" href="#driving-devices" id="id155">Driving Devices</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="vehicles">
+<span id="ultimatecombat-ultimatecombatvehicles-vehicles"></span><h1><a class="toc-backref" href="#id61">Vehicles</a><a class="headerlink" href="#vehicles" title="Permalink to this headline">¶</a></h1>
+<p>In the Pathfinder Roleplaying Game, low-level characters do most of their traveling on their own two feet. At higher levels, magical travel becomes a common occurrence, as does travel by horseback, atop animal companions, or via more exotic mounts. Every so often, travel may involve a vehicle of some sort—the wagons of a caravan, a wind-tossed galley, some fantastic form of aerial transport, or even a planes-hopping device. If you like your games with a dose of weird, such vehicles may be as strange as a crashed space vessel. Whatever the case, vehicles in the PRD are often treated as either mobile terrain or adventure sites in their own right.
+Many of the iconic motifs that inspire roleplaying games touch on vehicular adventures, from the voyages of Jason and the Argonauts to pirate tales, from charioteers in blood-soaked arenas under a drone of cheers to those who would chase and tame dragons. History and fiction are full of interesting vehicles performing death-defying actions. The rules in this chapter allow you to run combats with vehicles in the PRD, rather than just treating them as objects or terrain.
+The following rules attempt to strike a balance between verisimilitude and ease and speed of play during combat. In areas where those two balancing points are conflicted, ease of use should always prevail.</p>
+<div class="section" id="vehicle-basics">
+<span id="ultimatecombat-ultimatecombatvehicles-vehicle-basics"></span><h2><a class="toc-backref" href="#id62">Vehicle Basics</a><a class="headerlink" href="#vehicle-basics" title="Permalink to this headline">¶</a></h2>
+<p>What follow are the basic rules for using vehicles in the Pathfinder Roleplaying Game. They give an overview of the rules that all vehicles use.
+<strong>Drivers</strong>: Drivers control vehicles. A driver is a creature with an Intelligence score of at least 3 who is physically able to manipulate a vehicle’s driving device and who is both within the driving spaces of a vehicle and actively manipulating the driving device.
+<strong>Occupants</strong>: Any creature riding, driving, serving as crew on, or providing propulsion for a vehicle is considered its occupant.
+<strong>Facing</strong>: Unlike characters, vehicles have a forward facing. A vehicle moves best when it moves in the direction of its forward facing.
+<strong>Acceleration/Deceleration</strong>: Vehicles must accelerate to reach their maximum speed. Each round, with the proper driving action and a successful check, the driver can increase the vehicle’s movement by its rate of acceleration, as long that value is no greater than the vehicle’s maximum speed. Vehicles must decelerate to slow down and are hard to stop at an exact point.
+<strong>Initiative</strong>: A vehicle moves at the start of its driver’s turn. If a vehicle has no driver, it moves on the turn of the last creature that was its driver, or on a turn determined by the GM.
+<strong>Controlling a Vehicle</strong>: If a vehicle has a driver, before the driver does anything else on her turn, she must determine what drive action she is taking, and take that action. If the driver takes no action, takes some other action instead of driving the vehicle, or delays or readies an action—or if there is no driver—the vehicle takes the “uncontrolled” action. A driver can only take one action each turn to control a vehicle. Once the driver has selected the action, or takes some other action forcing the vehicle to become uncontrolled, the vehicle moves.
+<strong>Driving Check</strong>: When a driver takes a driving action, she must make a driving check to determine the maneuverability and speed of the vehicle that round. The vehicle’s propulsion determines what skill is used for the driving check. A driver can always make a Wisdom check in place of a driving check. The base DCs for all driving checks are DC 5 and DC 20. Use the lower DC when the driver is not in combat and the higher DC when the driver is in combat.
+<strong>In Combat</strong>: Vehicles, creatures used as propulsion, and crew members do not threaten any area around them, but their drivers and their non-crew occupants do. Vehicles can enter the spaces of objects and creatures smaller than themselves. Vehicles do not have attacks, but they can—and may be required to—make vehicular bull rush, vehicular overrun, and ramming combat maneuvers.</p>
+</div>
+<div class="section" id="full-vehicle-rules">
+<span id="ultimatecombat-ultimatecombatvehicles-full-vehicle-rules"></span><h2><a class="toc-backref" href="#id63">Full Vehicle Rules</a><a class="headerlink" href="#full-vehicle-rules" title="Permalink to this headline">¶</a></h2>
+<p>The basic rules give a general idea of how vehicles act in the structure of the combat round, and how they are different than creatures. The following sections go into greater depth about running vehicles in combat.</p>
+</div>
+</div>
+<div class="section" id="drivers">
+<span id="ultimatecombat-ultimatecombatvehicles-drivers"></span><h1><a class="toc-backref" href="#id64">Drivers</a><a class="headerlink" href="#drivers" title="Permalink to this headline">¶</a></h1>
+<p>A vehicle is a special movable object that requires two things to keep it moving—a driver and a method of propulsion. A driver is a creature with an Intelligence score of 3 or more who is physically able to use the vehicle’s driving mechanism. In other words, the creature needs to be the correct size and have the correct anatomy to use whatever tool is used to drive the vehicle. Sometimes a driving mechanism may have its own requirements for use. The driver uses that mechanism and her skill (or her Wisdom)  to control the vehicle. Without a driver, a vehicle will not move or will continue moving in a straight line, depending on the vehicle’s state when it becomes driverless.
+A creature must be the size of a vehicle or smaller in order to drive it.</p>
+</div>
+<div class="section" id="occupants">
+<span id="ultimatecombat-ultimatecombatvehicles-occupants"></span><h1><a class="toc-backref" href="#id65">Occupants</a><a class="headerlink" href="#occupants" title="Permalink to this headline">¶</a></h1>
+<p>Drivers, riders, any crew, and creatures that serve as propulsion for a vehicle are all considered occupants. All occupants except for crew members and creatures used for propulsion can take actions and threaten areas as regular creatures. Crew members can take no actions nor threaten areas—their actions and concentration are all consumed by the act of providing propulsion or upkeep for the vehicle.</p>
+</div>
+<div class="section" id="propulsion-and-driving-checks">
+<span id="ultimatecombat-ultimatecombatvehicles-propulsion-and-driving-checks"></span><h1><a class="toc-backref" href="#id66">Propulsion and Driving Checks</a><a class="headerlink" href="#propulsion-and-driving-checks" title="Permalink to this headline">¶</a></h1>
+<p>Every vehicle has a method of propulsion. Creatures pull chariots and wagons. Boats and ships are propelled by water currents, wind, muscle, or all three forces. Fantastical airships are held aloft by a variety of propulsion sources, both magical and mundane. The method of propulsion typically affects the speed and maneuverability of a vehicle, but more importantly, a vehicle’s propulsion determines the required skill needed to control a vehicle. The following are the general methods of vehicle propulsion, along with what skills are typically needed to drive such vehicles.</p>
+<p id="ultimatecombat-ultimatecombatvehicles-alchemical"><strong>Alchemical</strong>: Rarely, an alchemical engine may propel a vehicle. Powered by steam or more volatile gases and reagents, a vehicle with an alchemical engine requires either a <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (arcana) or <a class="reference internal" href="corerulebook.skills.craft.html#corerulebook-skills-craft-craft"><span class="std std-ref">Craft</span></a> (alchemy) check to be driven. The base DC to drive an alchemical vehicle is 10 higher than normal. Alchemical engines can be extremely powerful, with the ability to propel vehicles hundreds of times their size. They can also be very fickle when driven by creatures uninitiated in the secrets of alchemy.
+When a driver makes a driving check to control an alchemically propelled vehicle with a Wisdom check or a skill she is not trained in and rolls a natural 1, the vehicle’s alchemical engine gains the broken condition. When it gains the broken condition, the vehicle’s maximum speed and acceleration are both halved, and if the vehicle is currently moving at a rate faster than its new maximum speed, it immediately slows to that speed.</p>
+<p id="ultimatecombat-ultimatecombatvehicles-current"><strong>Current</strong>: From canoes and large ships to winged gliders, vehicles propelled by currents typically manipulate an already existing power source within or outside of nature—an air current, a water current, or more exotic currents, like conduits of magical energy. Usually, manipulating a current-propelled vehicle requires a skill like <a class="reference internal" href="corerulebook.skills.fly.html#corerulebook-skills-fly-fly"><span class="std std-ref">Fly</span></a>, <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (nature), <a class="reference internal" href="corerulebook.skills.profession.html#corerulebook-skills-profession-profession"><span class="std std-ref">Profession</span></a> (sailor), <a class="reference internal" href="corerulebook.skills.survival.html#corerulebook-skills-survival-survival"><span class="std std-ref">Survival</span></a>, or even <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a> or <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (arcana), depending on the nature or makeup of the vehicle and the current the vehicle is manipulating.</p>
+<blockquote id="ultimatecombat-ultimatecombatvehicles-water-current">
+<div><p><em>Water Current</em>: Vehicles that only rely on currents of water for their propulsion are somewhat limited. These vehicles can only move in the direction and at the speed of a current unless they also employ some other means of propulsion or manipulation, and thus often have an additional form of propulsion, such as muscle in the case of a canoe, and wind in the case of a galley. A current-driven ship such as a river barge with a crew of two or more creatures requires either a <a class="reference internal" href="corerulebook.skills.profession.html#corerulebook-skills-profession-profession"><span class="std std-ref">Profession</span></a> (sailor) or <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (nature) check for the driving check, as ships require precision, discipline, and knowledge of the natural world. Smaller water-current vehicles, like canoes, use the <a class="reference internal" href="corerulebook.skills.survival.html#corerulebook-skills-survival-survival"><span class="std std-ref">Survival</span></a> skill as the drive skill, as reading the terrain is a very important aspect of maintaining control over those types of vehicles.</p>
+<p>If it moves with the current, a water-current vehicle’s maximum speed depends on the speed of the current (often as high as 120 feet). The acceleration of a water-current vehicle is 30 feet.</p>
+</div></blockquote>
+<blockquote id="ultimatecombat-ultimatecombatvehicles-air-current">
+<div><p><em>Air Current</em>: Air-current vehicles are rather diverse. They can be sailing ships, airships, land ships, or even gliders. A vehicle propelled by air with a crew of two or more creatures requires a <a class="reference internal" href="corerulebook.skills.profession.html#corerulebook-skills-profession-profession"><span class="std std-ref">Profession</span></a> (sailor) or <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (nature) check as its driving check. Because of their complexity, air-current vehicles always have their driving check DCs increased by 10. Smaller air-current vehicles, such as gliders and wind sleds, use <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a> or <a class="reference internal" href="corerulebook.skills.fly.html#corerulebook-skills-fly-fly"><span class="std std-ref">Fly</span></a> instead. Much of their control depends on knowledge of flight or proper movements of the body to control the vehicle.</p>
+<p>Smaller vehicles (size Large or smaller) can move at a speed of 60 feet, can move at twice that amount when they are moving with the air current, and have an acceleration of 30 feet. Larger vehicles can move at a speed of 90 feet, or twice that amount when they are moving with the air current, and have an acceleration of 30 feet.</p>
+</div></blockquote>
+<blockquote id="ultimatecombat-ultimatecombatvehicles-weird-current">
+<div><p><em>Weird Current</em>: Navigating currents of magical energy, burning magma, or the murky rivers of the Shadow Plane could use a number of skills, but likely use skills similar to those needed to operate water-current and air-current vehicles. Weird-current vehicles always have their driving check DCs increased by 10, and sometimes by 15 in more exotic locales and conditions.</p>
+<p>Weird-current vehicles typically move at the speed of water or air currents, depending on their nature, but have been known to move twice or even triple those speeds.</p>
+</div></blockquote>
+<p id="ultimatecombat-ultimatecombatvehicles-magic"><strong>Magic</strong>: Magic provides some of the most powerful and easy-to-use methods of propelling a vehicle, such as an elemental-powered juggernaut or an airship with an arcane device at its heart. Often simply identifying the properties of the magic item providing propulsion gives a creature the ability to use it, but sometimes more complicated magical devices require <a class="reference internal" href="corerulebook.skills.spellcraft.html#corerulebook-skills-spellcraft-spellcraft"><span class="std std-ref">Spellcraft</span></a> or <a class="reference internal" href="corerulebook.skills.usemagicdevice.html#corerulebook-skills-usemagicdevice-use-magic-device"><span class="std std-ref">Use Magic Device</span></a> to drive properly.</p>
+<p id="ultimatecombat-ultimatecombatvehicles-muscle"><strong>Muscle</strong>: From a chariot to a slave ship filled with captive rowers, moving a vehicle powered by muscle is all about getting a creature or creatures to push, pull, or otherwise propel the vehicle. Based on the type and intelligence of the creatures moving the vehicle, checks for driving muscle-propelled vehicles can use a diverse number of skills, including, but not limited to, <a class="reference internal" href="corerulebook.skills.diplomacy.html#corerulebook-skills-diplomacy-diplomacy"><span class="std std-ref">Diplomacy</span></a>, <a class="reference internal" href="corerulebook.skills.handleanimal.html#corerulebook-skills-handleanimal-handle-animal"><span class="std std-ref">Handle Animal</span></a>, <a class="reference internal" href="corerulebook.skills.intimidate.html#corerulebook-skills-intimidate-intimidate"><span class="std std-ref">Intimidate</span></a>, and <a class="reference internal" href="corerulebook.skills.profession.html#corerulebook-skills-profession-profession"><span class="std std-ref">Profession</span></a> (driver).
+Muscle-propelled vehicles come in two forms: pulled and pushed.</p>
+<blockquote id="ultimatecombat-ultimatecombatvehicles-pulled">
+<div><p><em>Pulled</em>: This type of propulsion involves one or more creature pulling a vehicle. Unless the creature pulling the vehicle is intelligent (Intelligence score of 3 or higher), either <a class="reference internal" href="corerulebook.skills.handleanimal.html#corerulebook-skills-handleanimal-handle-animal"><span class="std std-ref">Handle Animal</span></a> or <a class="reference internal" href="corerulebook.skills.profession.html#corerulebook-skills-profession-profession"><span class="std std-ref">Profession</span></a> (driver) is used for the driving check (driver’s choice). Intelligent creatures must be convinced with a <a class="reference internal" href="corerulebook.skills.diplomacy.html#corerulebook-skills-diplomacy-diplomacy"><span class="std std-ref">Diplomacy</span></a> check (decrease the driving check by 5 if the creature or creatures have the helpful attitude), or forced with an <a class="reference internal" href="corerulebook.skills.intimidate.html#corerulebook-skills-intimidate-intimidate"><span class="std std-ref">Intimidate</span></a> check. Forcing an intelligent creature to pull a vehicle increases the DC by 20.</p>
+<p>A creature can pull a number of vehicle squares equal to the number of squares in the creature’s space to a top speed equal to twice the creature’s speed. It can accelerate its space in vehicle squares up to its speed. For instance, a single horse takes up 4 squares, and can pull a 4-square cart 100 feet each round with an acceleration of 50 feet.</p>
+</div></blockquote>
+<blockquote id="ultimatecombat-ultimatecombatvehicles-pushed">
+<div><p><em>Pushed</em>: Pushed vehicles are the exact opposite of pulled vehicles—vehicles that are pushed by muscle, usually using some form of device manipulated by crew members. Aquatic vehicles are the most likely to be pushed. Lines of rowers use their oars to push the vehicle forward, or a pair of cloud giants may churn a propeller at the aft end of a dirigible. Driving checks for pushed vehicles tend to be <a class="reference internal" href="corerulebook.skills.diplomacy.html#corerulebook-skills-diplomacy-diplomacy"><span class="std std-ref">Diplomacy</span></a>, <a class="reference internal" href="corerulebook.skills.intimidate.html#corerulebook-skills-intimidate-intimidate"><span class="std std-ref">Intimidate</span></a>, or <a class="reference internal" href="corerulebook.skills.handleanimal.html#corerulebook-skills-handleanimal-handle-animal"><span class="std std-ref">Handle Animal</span></a>, depending on the intelligence and attitude of the creatures supplying the muscle for the propulsion.</p>
+<p>For intelligent creatures, use <a class="reference internal" href="corerulebook.skills.diplomacy.html#corerulebook-skills-diplomacy-diplomacy"><span class="std std-ref">Diplomacy</span></a> if the creatures providing the propulsion have an attitude of indifferent, friendly, or helpful. Decrease the <a class="reference internal" href="corerulebook.skills.diplomacy.html#corerulebook-skills-diplomacy-diplomacy"><span class="std std-ref">Diplomacy</span></a> driving check by 5 if the creatures providing the propulsion are friendly. <a class="reference internal" href="corerulebook.skills.intimidate.html#corerulebook-skills-intimidate-intimidate"><span class="std std-ref">Intimidate</span></a> is used for intelligent creatures with an attitude of unfriendly or hostile. <a class="reference internal" href="corerulebook.skills.handleanimal.html#corerulebook-skills-handleanimal-handle-animal"><span class="std std-ref">Handle Animal</span></a> is used if the creatures providing the propulsion are not intelligent.</p>
+<p>A creature that is pushing a vehicle with the proper mechanical help can push between 5 times to 20 times its space in vehicle squares.</p>
+<p>The maximum speed and acceleration of a muscle-propelled vehicle depends on the mechanism used to assist the pushing—see the sample vehicle statistics for examples.</p>
+</div></blockquote>
+<p id="ultimatecombat-ultimatecombatvehicles-mixed-methods-of-propulsion"><strong>Mixed Methods of Propulsion</strong>: Large and complicated vehicles, such as large sailing ships, often use multiple forms of propulsion. Sometimes multiple methods add flexibility, but often they work in concert to create faster movement. A vehicle with multiple methods of propulsion often requires a large crew to get it going and keep it moving. If a vehicle has two methods of propulsion, it uses its fastest speed and acceleration and then adds half the speed and acceleration of the second-fastest propulsion. Nothing is added for a third form of propulsion, except for the flexibility of having a back-up form of propulsion.</p>
+</div>
+<div class="section" id="vehicle-size-and-space">
+<span id="ultimatecombat-ultimatecombatvehicles-vehicle-size-and-space"></span><h1><a class="toc-backref" href="#id67">Vehicle Size and Space</a><a class="headerlink" href="#vehicle-size-and-space" title="Permalink to this headline">¶</a></h1>
+<p>Vehicles have sizes and spaces different from creature sizes and spaces. Many vehicles are long and thin rather than taking up a space of an equal number of squares per side like creatures do. A wagon, for instance, may take up a 10-by-10-foot square, or may be 10 feet wide and 15 feet or more long. Often one of the shorter sides of the vehicle serves as a vehicle’s forward facing.</p>
+<p id="ultimatecombat-ultimatecombatvehicles-size-conversion"><strong>Size Conversion</strong>: Often it is important to know the size category of a vehicle. Use Table 4–1 to determine the size of a vehicle or its propulsion based on the number of squares it occupies.</p>
+<p id="ultimatecombat-ultimatecombatvehicles-driving-space"><strong>Driving Space</strong>: At least one 5-foot-by-5-foot square on each vehicle must be designated as its driving space—often such an area encompasses multiple squares. In order to drive a vehicle, an intelligent creature must be within at least one square of the driving space and able to manipulate its driving device. The typical sizes and locations of driving spaces are detailed in the individual vehicle descriptions.</p>
+<table border="1" class="colwidths-auto contrast-reading-table docutils" id="id57">
+<caption><span class="caption-text">Table: Vehicle Size by Squares</span><a class="headerlink" href="#id57" title="Permalink to this table">¶</a></caption>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Vehicle Squares</th>
+<th class="head">Vehicle Size</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>2–6 squares</td>
+<td>Large vehicle</td>
+</tr>
+<tr class="row-odd"><td>7–12 squares</td>
+<td>Huge vehicle</td>
+</tr>
+<tr class="row-even"><td>13–20 squares</td>
+<td>Gargantuan vehicle</td>
+</tr>
+<tr class="row-odd"><td>21+</td>
+<td>Colossal vehicle</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="vehicle-facing-and-movement">
+<span id="ultimatecombat-ultimatecombatvehicles-vehicle-facing-and-movement"></span><h1><a class="toc-backref" href="#id68">Vehicle Facing and Movement</a><a class="headerlink" href="#vehicle-facing-and-movement" title="Permalink to this headline">¶</a></h1>
+<p>Vehicles do not move like creatures, even when they use creatures as propulsion. They tend to move in the direction of their forward facing, and do so quickly.</p>
+<p id="ultimatecombat-ultimatecombatvehicles-facing"><strong>Facing</strong>: Unlike creatures, most vehicles have a forward facing. The facing of the vehicle determines its best path of propulsion. Vehicles are very good at moving in the direction of their forward facing, but it takes time and skill to move them in other directions. A horse-pulled wagon moves forward quickly and with ease, but turning a corner requires proper timing and a crack of the whip. A ship propelled by an air current can take a great deal of effort to stop, especially once it has reached top speed. Vehicle facing represents the effect of inertia on vehicles.
+When driven correctly, vehicles can move straight ahead, diagonally, or a mix of both within the same movement. Skilled drivers can make a vehicle zigzag in a forward direction with ease.</p>
+<p id="ultimatecombat-ultimatecombatvehicles-movement"><strong>Movement</strong>: Vehicles have a maximum speed and an acceleration listing. The speed is the fastest rate the vehicle can travel. When a creature or creatures pull a vehicle, the vehicle’s maximum speed is equal to twice the speed of the creature providing the propulsion, and its acceleration is the creature’s speed. (Teams of mixed creature types use the slowest creature’s speed.) A vehicle cannot start at its maximum speed, unless it has some form of high-level magic propulsion. Each round, the driver can attempt to accelerate the vehicle or decelerate it by a rate equal to its acceleration (see Driving Vehicles below). The rate at which a vehicle is currently moving is called its current speed.</p>
+</div>
+<div class="section" id="driving-vehicles">
+<span id="ultimatecombat-ultimatecombatvehicles-driving-vehicles"></span><h1><a class="toc-backref" href="#id69">Driving Vehicles</a><a class="headerlink" href="#driving-vehicles" title="Permalink to this headline">¶</a></h1>
+<p>Controlling a vehicle takes common sense, awareness, intuition, and often some amount of skill in its method of propulsion. In the case of muscle propulsion, it is about guiding the creatures to move the vehicle. In the case of current propulsion, it is about using the current and tools like sails, oars, or a rudder to move the vehicle. With magic, it is typically about understanding the magic device that powers the propulsion and using the device properly.</p>
+<p id="ultimatecombat-ultimatecombatvehicles-driving-actions"><strong>Driving Actions</strong>: A driver can, at the start of her turn, before taking any other action, take any of the following actions (except the “uncontrolled” action) to control a vehicle. If the driver does not take an action, takes another action, or delays or readies an action, she loses control of the vehicle and the vehicle takes the “uncontrolled” action.</p>
+<blockquote id="ultimatecombat-ultimatecombatvehicles-accelerate-standard-action">
+<div><em>Accelerate (standard action)</em>: With a successful driving check, the vehicle’s current speed increases up to its acceleration (in 5-foot increments; minimum 5 feet), but no higher than its maximum speed. The vehicle can move forward or forward diagonally. In other words, each time a vehicle enters a new 5-foot square, it can choose any of its forward-facing squares—the ones directly in front or either of the squares directly forward and diagonal. This allows the vehicle to swerve. A driver who fails her driving check can only move into squares directly in front of the vehicle’s forward facing.</div></blockquote>
+<blockquote id="ultimatecombat-ultimatecombatvehicles-decelerate-standard-action">
+<div><em>Decelerate (standard action)</em>: With a successful driving check, the vehicle’s current speed decreases by a rate up to its acceleration (in 5-foot increments; minimum 5 feet). On a failed check, the vehicle does not decelerate. Either way, the vehicle can move forward diagonally. If deceleration reduces a vehicle’s speed to 0, some amount of inertia will continue to move the vehicle forward. The vehicle moves forward (either directly forward or forward diagonally) 1d4 × 5 feet before coming to a complete stop. Having the <a class="reference internal" href="ultimatecombat.ultimatecombatfeats.html#ultimatecombat-ultimatecombatfeats-expert-driver"><span class="std std-ref">Expert Driver</span></a> feat reduces this distance by 10 feet (minimum 0 feet).</div></blockquote>
+<blockquote id="ultimatecombat-ultimatecombatvehicles-keep-it-going-move-action">
+<div><em>Keep It Going (move action)</em>: With a successful driving check, the driver can move the vehicle forward on its current facing at its current speed, and it can move forward diagonally. Failing the check keeps the speed constant, but you cannot move the vehicle forward diagonally.</div></blockquote>
+<blockquote id="ultimatecombat-ultimatecombatvehicles-reverse-standard-action">
+<div><em>Reverse (standard action)</em>: A vehicle may only be moved in reverse if it is at a full stop (movement of 0 feet). On a successful driving check, a vehicle can move backward at half its acceleration, moving either directly backward (the reverse of its forward facing) or backward diagonally. On a failed check, it does not move backward.</div></blockquote>
+<blockquote id="ultimatecombat-ultimatecombatvehicles-turn-standard-action">
+<div><em>Turn (standard action)</em>: The driver takes this action to turn a vehicle’s forward facing 90 degrees. The vehicle moves its current speed. If a vehicle’s current speed is twice its acceleration, the driving check DC increases by 5. If a vehicle’s movement is three times its acceleration, the driving check DC increases by 10. If it is four or more times its acceleration, the DC increases by 20. With a successful driving check, the vehicle changes its facing either left or right by 90 degrees at any point during its movement. Do this by pivoting the vehicle so that the left rear or right rear side of the vehicle takes the place of the vehicle’s former forward facing side. On a failed check, the vehicle does not turn, but can be moved forward diagonally during its movement.</div></blockquote>
+<blockquote id="ultimatecombat-ultimatecombatvehicles-uncontrolled-no-action">
+<div><em>Uncontrolled (no action)</em>: When the driver does nothing or there is no driver, the vehicle is uncontrolled. An uncontrolled vehicle moves forward only (it cannot move forward diagonally). If a vehicle has muscle propulsion, it decelerates a rate equal to its acceleration. If a vehicle is powered by an air current, water current, or some form of weird current, it slows by 10 feet. These decelerations are cumulative. If a vehicle does nothing, it cannot perform vehicular bull rushes, but can still perform a vehicular overrun or a ramming maneuver.</div></blockquote>
+<p id="ultimatecombat-ultimatecombatvehicles-driving-a-vehicle-outside-of-combat"><strong>Driving a Vehicle Outside of Combat</strong>: Since driving a vehicle outside of combat is easily accomplished by taking 10 on the skill check, driving checks are not normally needed. Almost every character can do it with relative ease; the DCs are given only to adjudicate special situations that may come up in your game.</p>
+<p id="ultimatecombat-ultimatecombatvehicles-driving-a-vehicle-with-magic-propulsion"><strong>Driving a Vehicle with Magic Propulsion</strong>: Typically, a vehicle with magic propulsion requires actions but no driving checks in order to drive it. When driving a vehicle with magic propulsion, treat every action as though the driver succeeded at the driving check.</p>
+<p id="ultimatecombat-ultimatecombatvehicles-driving-a-vehicle-without-the-proper-skill"><strong>Driving a Vehicle without the Proper Skill</strong>: If a driver lacks the proper skill to drive a vehicle, the driver can always make a Wisdom ability check instead of the appropriate skill check. The driver can even take 10 or gain the benefits of aid another when using Wisdom instead of the vehicle’s normal driving skill.</p>
+<p id="ultimatecombat-ultimatecombatvehicles-vehicle-crews"><strong>Vehicle Crews</strong>: Some vehicles require a crew. A vehicle with a full crew complement is as easy to control as any other vehicle. A vehicle without a full crew complement, but with at least half its crew, increases all driving check DCs by 10. A vehicle needs at least half its crew complement in order to be driven at all. Crew members can take no action while the vehicle is in motion except to aid in that vehicle’s movement. A crew member does not threaten an area.</p>
+</div>
+<div class="section" id="vehicles-in-combat">
+<span id="ultimatecombat-ultimatecombatvehicles-vehicles-in-combat"></span><h1><a class="toc-backref" href="#id70">Vehicles in Combat</a><a class="headerlink" href="#vehicles-in-combat" title="Permalink to this headline">¶</a></h1>
+<p>A vehicle in combat can become a target for attacks and can affect combatants with special vehicular maneuvers. The following are the rules for how a vehicle acts in the combat round.</p>
+<p id="ultimatecombat-ultimatecombatvehicles-initiative"><strong>Initiative</strong>: A vehicle moves on its driver’s initiative. If a driver delays or readies an action, the vehicle goes out of control, and does nothing except take the uncontrolled action until it stops or someone becomes its new driver.</p>
+<p><strong>Movement</strong>: At the start of the driver’s turn, she makes a driving check to control the vehicle as detailed in the Driving Vehicles section. When doing so, she takes whatever action is required before doing anything else that turn.
+Vehicles usually ignore difficult terrain due to rubble and foliage, but treat steep inclines as difficult terrain, and depending on the vehicle type and GM judgment, they may be affected by other difficult terrain types as well.
+Vehicles and creatures that occupy vehicles can enter the spaces of other vehicles and creatures, though doing so usually provokes a vehicular overrun or ramming maneuver. A vehicle can even end its turn in the space of a creature or another vehicle.</p>
+<p id="ultimatecombat-ultimatecombatvehicles-threatening"><strong>Threatening</strong>: Vehicles cannot threaten areas, but their non-crew occupants can. A character driving a vehicle still threatens the squares around her, though she may have limited options for attack depending on the requirements of the device used to drive the vehicle. Creatures used as propulsion do not threaten areas, and are treated as part of the vehicle for purposes of vehicular combat maneuvers.</p>
+<p id="ultimatecombat-ultimatecombatvehicles-line-of-sight-and-cover"><strong>Line of Sight and Cover</strong>: Vehicles typically grant their occupants partial cover (+2 to AC and +1 on Reflex saving throws) against those outside the vehicle, and may grant partial cover against opponents within the vehicles as well. Vehicles with more protection or internal chambers can offer greater cover and can even block line of sight.</p>
+<p id="ultimatecombat-ultimatecombatvehicles-jumping-on-or-off-a-vehicle"><strong>Jumping On or Off a Vehicle</strong>: Jumping on a vehicle is a normal jump of its distance assuming the vehicle has a deck or handholds within the character’s height from the ground. Increase the DC of the <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a> check by 5 for every 30 feet of the vehicle’s current speed. If the jumping creature is on a moving vehicle, calculate the increase in  the <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a> skill check DC by calculating the difference between the current speeds of the two vehicles. For every difference of 30 feet (round up), the DC increases by 5.
+For example, jumping onto a vehicle with a current speed of 90 feet increases the DC by 15 if the jumper is not also on a moving vehicle. If the jumper is on a moving vehicle, and that vehicle is moving at the same current speed as the vehicle the jumper wants to jump to, there is no increase to the DC. If the difference between their speeds is less than 30 feet, the DC of the <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a> check increases by 5. If it’s between 30 and 60, it increases by 10, and so on.
+Jumping off a vehicle onto the ground is considered a fall, and treated as if the fall were an additional 10 feet farther for every 30 feet of the vehicle’s movement for the purposes of determining damage. <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a> can be used to soften this fall, and magic abilities such as <a class="reference internal" href="corerulebook.spells.featherfall.html#corerulebook-spells-featherfall-feather-fall"><span class="std std-ref">feather fall</span></a> can be used to negate the effects of jumping off a vehicle.</p>
+<p id="ultimatecombat-ultimatecombatvehicles-taking-control-of-a-vehicle"><strong>Taking Control of a Vehicle</strong>: If a vehicle has no driver, any creature can take control of the vehicle as long as the creature is within the driving space of the vehicle and makes a driving check as a free action. The vehicle’s driver can always give over control to another adjacent creature that is within the driving space of the vehicle as a free action. When a new creature becomes the driver, the vehicle moves on the new driver’s turn, but not on the new driver’s first turn after taking control of the vehicle.
+If a creature wants to take control of a vehicle from another forcefully, it must pull the driver off the controls as part of a grapple and take over the driving device as part of a pin. When a creature successfully pins a vehicle’s driver, it can choose to end the grapple immediately. When it does, the creature moves the current driver 5 feet to any unoccupied space within the vehicle (this movement does not provoke attacks of opportunity) and becomes the vehicle’s new driver.</p>
+<p id="ultimatecombat-ultimatecombatvehicles-attacks-against-vehicles"><strong>Attacks against Vehicles</strong>: A vehicle has a base Armor Class based on its size and other defenses the vehicle has. To calculate the vehicle’s actual AC, add the current driver’s driving skill modifier (or Wisdom modifier, if it is using that ability to drive the vehicle) to the vehicle’s base AC. Touch attacks against a vehicle ignore its driver’s driving skill or ability modifier; thus a vehicle’s base AC is its touch AC. A vehicle is never considered flat-footed.
+A vehicle has a base saving throw listed in its stat block. This determines its base Fortitude and Reflex saving throw. A vehicle is immune to effects that require a Will saving throw (though drivers, crew members, passengers, and creatures providing muscle propulsion typically are not). To determine the vehicle’s actual Fortitude and Reflex saving throws, add half the driver’s driving skill modifier (or half the driver’s Wisdom modifier) to the vehicle’s base saving throw.
+Vehicles have hit points, but do not have ability scores, and are immune to ability score damage or drain. They are also immune to bleed damage. A vehicle that takes damage in excess of half its total hit points gains the broken condition. When a vehicle reaches 0 or fewer hit points, but has not yet reached negative hit points equal to the number of squares of its space, it is wrecked. When a vehicle reaches a negative number of hit points equal to the number of squares it takes up, it is destroyed.
+Unlike other objects, vehicles do not take half damage from energy attacks, but do take half damage from all ranged weapons except siege weapons.
+When attacking a vehicle, you can attack the vehicle’s structure, occupant, propulsion, driving device, or conveyance (if any).</p>
+<blockquote id="ultimatecombat-ultimatecombatvehicles-attacking-the-structure">
+<div><em>Attacking the Structure</em>: This is an attack against the vehicle itself. If successful, the vehicle takes damage normally.</div></blockquote>
+<blockquote id="ultimatecombat-ultimatecombatvehicles-attacking-an-occupant">
+<div><em>Attacking an Occupant</em>: This is a normal attack against an occupant creature. Occupants get partial cover or greater if the attack is coming from outside of the vehicle. Grappling the driver is one method for taking control of the vehicle.</div></blockquote>
+<blockquote id="ultimatecombat-ultimatecombatvehicles-attacking-propulsion">
+<div><p><em>Attacking Propulsion</em>: Propulsion often has its own set of statistics, while creatures propelling a vehicle use their own statistics. Other types of propulsion have hit points and hardness determined by multiplying the values listed in the Propulsion Devices sidebar by the vehicle’s total number of squares of that type. Individual vehicle stat blocks also detail their propulsion.</p>
+<p>If a vehicle is being pulled by creatures, and any of those creatures is killed, dazed, stunned, or becomes unconscious, the vehicle comes to a sudden stop. If a vehicle has a crew, and half or more of that crew is killed, dazed, stunned, or rendered unconscious, the vehicle can no longer be controlled.</p>
+</div></blockquote>
+<blockquote id="ultimatecombat-ultimatecombatvehicles-attacking-the-driving-device">
+<div><em>Attacking the Driving Device</em>: A driving device is its own object with its own statistics. When a driving device gains the broken condition or is disabled, all driving checks are increased by 10. When a driving device is destroyed, the vehicle can no longer be driven. Driving devices are typically objects with object immunities and resistances.</div></blockquote>
+<blockquote id="ultimatecombat-ultimatecombatvehicles-attacking-conveyance">
+<div><em>Attacking Conveyance</em>: An attack against wheels, rudders, or similar forms of conveyance takes a –10 penalty on the attack roll, but does maximum damage to the vehicle (no roll necessary). If the attack is a critical hit, multiply this maximum damage by the critical multiplier of the attack. Conveyances are typically objects with object immunities and resistances.</div></blockquote>
+<p id="ultimatecombat-ultimatecombatvehicles-vehicle-combat-maneuvers"><strong>Vehicle Combat Maneuvers</strong>: Vehicles typically don’t have attacks, though some can be fitted with siege weapons. A vehicle can make, and is often required to make, a vehicular bull rush, vehicular overrun, or ramming maneuver as part of its movement. Unlike creatures, a vehicle can enter the space of creatures or objects smaller than it, and when it does, it makes either a vehicular overrun or vehicular bull rush. When a vehicle hits a creature or a vehicle that is its size or larger, or it hits a solid object (a wall or structure that is immobile and has a hardness of 5 or more), it makes a ramming maneuver.</p>
+<blockquote id="ultimatecombat-ultimatecombatvehicles-vehicular-overrun">
+<div><p><em>Vehicular Overrun</em>: Any time any part of a vehicle (including any creatures used as propulsion) enters the space of a creature or vehicle smaller than it, the driver must make a vehicular overrun combat maneuver against the creature or vehicle. This may require the driver to make vehicular overrun checks against the same creature numerous times as new parts of the vehicle enter its square.</p>
+<p>When performing a vehicular overrun, the driver uses the base CMB of the vehicle plus her driving skill modifier (or Wisdom skill modifier if she is using that ability to drive the vehicle) as the CMB of the vehicular overrun. If the driver has feats that improve her CMB when overrunning, like the <a class="reference internal" href="corerulebook.feats.html#improved overrun (combat)"><span class="std std-ref">Improved Overrun</span></a> feat, she may also add those modifiers and benefits to the vehicular overrun. Like a normal overrun, this action provokes an attack of opportunity from the creature being overrun, unless the driver has the <a class="reference internal" href="corerulebook.feats.html#improved overrun (combat)"><span class="std std-ref">Improved Overrun</span></a> feat. The creature being overrun can make this attack of opportunity on any part of the vehicle that is within reach.</p>
+<p>When a vehicular overrun is attempted, the target of the overrun may choose to avoid the vehicle, allowing the vehicle to pass through its space without requiring a vehicular overrun maneuver check. The creature or vehicle cannot avoid a maneuver check if the driver has the <a class="reference internal" href="corerulebook.feats.html#improved overrun (combat)"><span class="std std-ref">Improved Overrun</span></a> feat, the vehicle is two or more size categories larger than the target, or the target creature is confused, dazed, entangled, flat-footed, helpless, paralyzed, prone, or stunned. If the target does not avoid the vehicle, make the combat maneuver check as normal. If the maneuver is successful, the vehicle moves through the target’s space, and the target of the overrun takes the vehicle’s ramming damage. If the driver’s combat maneuver check exceeds the target’s CMD by 5 or more, the target takes twice the vehicle’s ramming damage. If the target is a creature, it is also knocked prone. If the target has more than two legs, it gets a +2 bonus to its CMD for each additional leg it has. Vehicles that are overrun are knocked prone if the opposing driver’s combat maneuver check result exceeds the vehicle’s CMD by 10 or more. A vehicle that is knocked prone makes a sudden stop.</p>
+<p>It takes at least 5 full-round actions and a DC 25 Strength check from creatures adjacent to the vehicle to push a Large land or water vehicle up from being prone. For every size category that the vehicle is larger than size Large, increase the number of full-round actions by three and the Strength check DC by 5. The driver of a prone air vehicle must succeed at a DC 25 <a class="reference internal" href="corerulebook.skills.fly.html#corerulebook-skills-fly-fly"><span class="std std-ref">Fly</span></a> check immediately to avoid falling. A vehicle equipped with a ram deals +2d8 points of damage with a vehicular overrun.</p>
+</div></blockquote>
+<blockquote id="ultimatecombat-ultimatecombatvehicles-vehicular-bull-rush">
+<div><p><em>Vehicular Bull Rush</em>: As a swift action, taken when the driver takes all but the “uncontrolled” action while driving the vehicle, a driver can choose to substitute all or some of her vehicular overruns with vehicular bull rush maneuvers until the end of the vehicle’s movement that turn. A vehicular bull rush pushes a creature or a vehicle away without doing harm. If the driver does not have the <a class="reference internal" href="corerulebook.feats.html#improved bull rush (combat)"><span class="std std-ref">Improved Bull Rush</span></a> feat or a similar ability, initiating a vehicular bull rush provokes an attack of opportunity from the creature being bull rushed with the vehicle.</p>
+<p>If the bull rush is successful, the target of the bull rush is pushed 5 feet away from the vehicle. If you succeed at the check for the vehicular bull rush by 5 or more, you can deal the vehicle’s ramming damage to the creature. For every 5 by which your attack exceeds your opponent’s CMD, you push the target an additional 5 feet away. A creature being moved by a vehicular bull rush does not provoke attacks of opportunity, unless the driver possesses the <a class="reference internal" href="corerulebook.feats.html#greater bull rush (combat)"><span class="std std-ref">Greater Bull Rush</span></a> feat. You cannot bull rush a creature or vehicle into a square that is occupied by an object (including a vehicle). If there is another creature in the way of a bull rush, the driver must immediately make a combat maneuver check to bull rush that creature, taking a –4 penalty on this check for each creature being pushed beyond the first. If successful, the driver can continue to push the creature or vehicle a distance equal to the lesser result.</p>
+</div></blockquote>
+<blockquote id="ultimatecombat-ultimatecombatvehicles-ramming">
+<div><p><em>Ramming</em>: Any time any part of a vehicle (including any creatures used as propulsion) enters the space of a creature or vehicle of its size or larger, or the space of a solid sturdy object (like a wall or a building) no matter the size of that object, it makes a ramming maneuver against that creature or object. There is no maneuver check for a ramming maneuver; its effects happen automatically. When a vehicle makes a ramming maneuver against a creature or an object, the vehicle deals its ramming damage to the creature or object, and the vehicle takes half that damage. The base amount of damage that a ramming vehicle does and takes is determined by its size.</p>
+<p>When a vehicle makes a ramming maneuver against a solid object, to determine how much damage both the solid object and the vehicle take, allow the vehicle to enter the solid object’s space. The vehicle will only travel through that space if the damage is enough to destroy the solid object; in all other cases the vehicle takes the damage and then comes to a sudden stop directly in front of the solid object.</p>
+<p>When a vehicle makes a ramming maneuver against a creature, a nonsolid object, or another vehicle, it can enter the space of the object or the creature, and even end its move within that space.</p>
+<p>A vehicle can have a ram or similar ramming device on its forward facing. If it does, it ignores the damage for the first square it enters of a solid object, and all squares for other objects and creatures. A ram can be added to a Large vehicle for 50 gp, a Huge vehicle for 100 gp, a Gargantuan vehicle for 200 gp, and a Colossal vehicle for 400 gp. A vehicle cannot have a ram if it uses muscle propulsion (pulled).</p>
+<p>If a vehicle is being pulled by a creature or creatures when the vehicle takes damage due to a ramming maneuver, the creatures that are pulling it are damaged as well, and are knocked prone. A successful Reflex saving throw (DC 10 + 1 for every 10 feet of the speed the vehicle was moving when it hit the vehicle, structure, or creature) halves the damage and the creatures pulling it are not knocked prone.</p>
+<p>If the vehicle making the ramming maneuver is a muscle-propelled (pulled) vehicle, the creatures pulling the vehicle attempt to avoid making a ramming maneuver. If a ramming maneuver is imminent, those creatures decelerate at a rate of up to twice their acceleration as an immediate action or attempt to swerve out of the way (automatically moving diagonally to avoid the vehicle or structure even if they were not driven to do so), avoiding the vehicle or structure if possible. The driver chooses which of these options occurs. A skilled driver can attempt to force the creature to continue the ramming maneuver, but doing so requires a DC 30 <a class="reference internal" href="corerulebook.skills.handleanimal.html#corerulebook-skills-handleanimal-handle-animal"><span class="std std-ref">Handle Animal</span></a>, <a class="reference internal" href="corerulebook.skills.diplomacy.html#corerulebook-skills-diplomacy-diplomacy"><span class="std std-ref">Diplomacy</span></a>, or <a class="reference internal" href="corerulebook.skills.intimidate.html#corerulebook-skills-intimidate-intimidate"><span class="std std-ref">Intimidate</span></a> check, depending on the type and intelligence of the creature. The driver makes this check as an immediate action when the creature tries to decelerate or swerve out of the way.</p>
+</div></blockquote>
+<table border="1" class="colwidths-auto contrast-reading-table docutils" id="id58">
+<caption><span class="caption-text">Table: Ramming Damage by Size</span><a class="headerlink" href="#id58" title="Permalink to this table">¶</a></caption>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Vehicle Size</th>
+<th class="head">Damage</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Large vehicle</td>
+<td>1d8</td>
+</tr>
+<tr class="row-odd"><td>Huge vehicle</td>
+<td>2d8</td>
+</tr>
+<tr class="row-even"><td>Gargantuan vehicle</td>
+<td>4d8</td>
+</tr>
+<tr class="row-odd"><td>Colossal vehicle</td>
+<td>8d8</td>
+</tr>
+</tbody>
+</table>
+<p id="ultimatecombat-ultimatecombatvehicles-damaging-a-vehicle"><strong>Damaging a Vehicle</strong>: Vehicles have hit points and hardness based on their primary components. Most vehicles are made of wood. Heavier construction materials are possible, but they at least double the number of squares of propulsion a vehicle requires. Materials like stone or heavy metals quadruple the number of squares of propulsion needed.
+A vehicle has a total number of hit points equal to its base material hit point value times its vehicle’s number of squares. When it is reduced to below half hit points, it becomes broken. When it reaches 0 hit points, it becomes wrecked. When it reaches negative hit points equal to its number of squares, it is destroyed—it is so damaged it cannot even be used for scrap material.</p>
+<table border="1" class="colwidths-auto contrast-reading-table docutils" id="id59">
+<caption><span class="caption-text">Table: Vehicle Hit Points by Material</span><a class="headerlink" href="#id59" title="Permalink to this table">¶</a></caption>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Material</th>
+<th class="head">Hit Points per Square</th>
+<th class="head">Hardness</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Leather</td>
+<td>10</td>
+<td>0</td>
+</tr>
+<tr class="row-odd"><td>Wood</td>
+<td>15</td>
+<td>5</td>
+</tr>
+<tr class="row-even"><td>Stone</td>
+<td>20</td>
+<td>8</td>
+</tr>
+<tr class="row-odd"><td>Metal</td>
+<td>20</td>
+<td>10</td>
+</tr>
+<tr class="row-even"><td>Magically treated</td>
+<td>×2</td>
+<td>×2</td>
+</tr>
+</tbody>
+</table>
+<blockquote id="ultimatecombat-ultimatecombatvehicles-broken-condition">
+<div><em>Broken Condition</em>: Vehicles, and sometimes their methods of propulsion, are objects, and like any other object, when they take damage in excess of half their hit points, they gain the broken condition. When a vehicle gains the broken condition, it takes a –2 penalty to AC, on saving throws, and on combat maneuver checks, and the DC to drive the vehicle increases by 2. If a vehicle or its means of propulsion becomes broken, both the maximum speed and the acceleration of the vehicle are halved until repaired. If the vehicle is in motion, and is traveling faster than its new maximum speed, it automatically decelerates to its new maximum speed.</div></blockquote>
+<blockquote id="ultimatecombat-ultimatecombatvehicles-wrecked-condition">
+<div><p><em>Wrecked Condition</em>: A vehicle gains the wrecked condition if its hit points are reduced to 0 or fewer. A wrecked vehicle cannot be driven and gains the sinking condition (if in the water) or falls (if in the air). An air vehicle that begins to fall does so at a rate of half its maximum speed each round.</p>
+<p>If a means of propulsion is reduced to 0 or fewer hit points, it does not gain the wrecked condition. It is instead destroyed.</p>
+</div></blockquote>
+<blockquote id="ultimatecombat-ultimatecombatvehicles-sinking">
+<div><em>Sinking</em>: A water vehicle that is reduced to 0 or fewer hit points or a vehicle that is not seaworthy that is plunged into water gains the sinking condition. For a water vehicle, this condition ends when a vehicle is brought to 1 or more hit points, but other vehicles must be removed from the water. A sinking ship fully sinks and is destroyed 10 rounds after gaining the sinking condition. Each additional hit on a sinking ship reduces the remaining time for it to sink by 1 round. Alternatively, when a water vehicle is reduced to a negative number of hit points equal to its number of squares, it sinks immediately.</div></blockquote>
+<blockquote id="ultimatecombat-ultimatecombatvehicles-destroyed">
+<div><p><em>Destroyed</em>: A vehicle is destroyed when it is reduced to a number of negative hit points equal to its number of squares. A destroyed vehicle cannot be repaired, and is nothing more than junk.</p>
+<p>If a vehicle’s means of propulsion is an object, it is destroyed when it reaches 0 hit points.</p>
+<p>If either the means of propulsion or the vehicle is destroyed, it comes to a sudden stop if it is not stopped already. Water vehicles sink and drop to the bottom of the body of water. Air vehicles fall.</p>
+</div></blockquote>
+<p id="ultimatecombat-ultimatecombatvehicles-sudden-stops"><strong>Sudden Stops</strong>: When a vehicle comes to a sudden stop—its movement is reduced to 0 in some way other than the driver using a drive action to slow the vehicle—both creatures and items on the vehicle are violently pushed toward the vehicle’s forward facing a number of squares equal to 1/2 the vehicle’s current speed before it came to the sudden stop. This movement does not provoke attacks of opportunity. At the end of this movement, creatures and objects take 1d6 points of damage, and creatures must succeed at a DC 20 Reflex saving throw or be knocked prone. If the movement pushes creatures or objects into solid objects, that creature or object takes an additional 1d6 points of damage for each 5-foot square the push was reduced by the solid object.
+For instance, if a vehicle with a movement of 60 feet makes a sudden stop due to hitting a brick wall, its driver is thrown 30 feet toward the brick wall. If the brick wall was only 5 feet away from the driver at the point of impact, the driver moves forward 5 feet, hits the wall, and takes 5d6 points of damage. She then takes the original 1d6 points of damage, after which she makes a Reflex saving throw to see if she falls prone for the sudden stop.</p>
+<p id="ultimatecombat-ultimatecombatvehicles-repairing-a-vehicle"><strong>Repairing a Vehicle</strong>: The fastest and easiest way to repair a vehicle is with the <a class="reference internal" href="corerulebook.spells.mending.html#corerulebook-spells-mending-mending"><span class="std std-ref">mending</span></a> and <a class="reference internal" href="corerulebook.spells.makewhole.html#corerulebook-spells-makewhole-make-whole"><span class="std std-ref">make whole</span></a> spells, but more mundane methods can also be used. <a class="reference internal" href="corerulebook.skills.craft.html#corerulebook-skills-craft-craft"><span class="std std-ref">Craft</span></a> (carpentry) can be used to repair most vehicles made of wood; because of their specialized construction, water vehicles require <a class="reference internal" href="corerulebook.skills.craft.html#corerulebook-skills-craft-craft"><span class="std std-ref">Craft</span></a> (ships) to repair. Depending on the nature of the damage, such skills like <a class="reference internal" href="corerulebook.skills.craft.html#corerulebook-skills-craft-craft"><span class="std std-ref">Craft</span></a> (cloth), <a class="reference internal" href="corerulebook.skills.craft.html#corerulebook-skills-craft-craft"><span class="std std-ref">Craft</span></a> (alchemy), <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (engineering), and even various professions can be used to repair vehicles, if the GM approves. In general, a day’s worth of work by a single person using the appropriate skill to repair a vehicle requires 10 gp of raw material and a DC 10 skill check, and repairs 10 points of damage on a success, or 5 hit points on a failure.</p>
+<div class="section" id="vehicle-statistics">
+<span id="ultimatecombat-ultimatecombatvehicles-vehicle-statistics"></span><h2><a class="toc-backref" href="#id71">Vehicle Statistics</a><a class="headerlink" href="#vehicle-statistics" title="Permalink to this headline">¶</a></h2>
+<p>Below are explanations of some of the traits noted in vehicle statistics. If information for a given category is not listed in a given stat block, it is not applicable.</p>
+<p id="ultimatecombat-ultimatecombatvehicles-name"><strong>Name</strong>: The name of the vehicle.</p>
+<p id="ultimatecombat-ultimatecombatvehicles-size-and-type"><strong>Size and Type</strong>: Divided into land, sea, and air.</p>
+<p id="ultimatecombat-ultimatecombatvehicles-squares"><strong>Squares</strong>: The typical size of the vehicle is measured in a number of squares, followed by the standard configuration of those squares.</p>
+<p id="ultimatecombat-ultimatecombatvehicles-cost"><strong>Cost</strong>: The vehicle’s cost in gp. Sometimes the description or the weapons section provides possible modifications for the vehicles. These are not included in the cost of the vehicle, nor are additions like rams or siege engines.</p>
+<p id="ultimatecombat-ultimatecombatvehicles-ac-and-hardness"><strong>AC and Hardness</strong>: This is the AC and harness of the vehicle. The AC assumes the vehicle is in motion and the driver has not modified the AC with his driving skill. If the vehicle is not in motion, it has an effective Dexterity of 0 (–5 penalty to AC), and an additional –2 penalty to its AC.</p>
+<p id="ultimatecombat-ultimatecombatvehicles-hp"><strong>hp</strong>: While a vehicle can be attacked in combat, it is often hard to significantly damage large vehicles. When a vehicle reaches the hit point total in the parentheses, it is broken. A vehicle’s hit points not factor in its method of propulsion or the driving device. They have their own statistics.</p>
+<p id="ultimatecombat-ultimatecombatvehicles-base-save"><strong>Base Save</strong>: Each vehicle has a base save modifier. All of the vehicle’s saving throws (Fortitude, Reflex, and Will) have the same value.  This is the vehicle’s save before the  driver modifies it with his driving check.</p>
+<p id="ultimatecombat-ultimatecombatvehicles-maximum-speed"><strong>Maximum Speed</strong>: This is the fastest that a vehicle can move. When a vehicle has more than one method of propulsion, it may also have more than one maximum speed.</p>
+<p id="ultimatecombat-ultimatecombatvehicles-cmb-and-cmd"><strong>CMB and CMD</strong>: The CMB an CMD before the driver modifies it with his driving check modifier.</p>
+<table border="1" class="colwidths-auto contrast-reading-table docutils" id="id60">
+<caption><span class="caption-text">Table: Vehicle AC and CMB Modifier by Size</span><a class="headerlink" href="#id60" title="Permalink to this table">¶</a></caption>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Number of Vehicle Squares</th>
+<th class="head">AC</th>
+<th class="head">CMB Modifier</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Large vehicle</td>
+<td>9</td>
+<td>+1</td>
+</tr>
+<tr class="row-odd"><td>Huge vehicle</td>
+<td>8</td>
+<td>+2</td>
+</tr>
+<tr class="row-even"><td>Gargantuan vehicle</td>
+<td>6</td>
+<td>+4</td>
+</tr>
+<tr class="row-odd"><td>Colossal vehicle</td>
+<td>2</td>
+<td>+8</td>
+</tr>
+</tbody>
+</table>
+<p id="ultimatecombat-ultimatecombatvehicles-acceleration"><strong>Acceleration</strong>: This is how fast a vehicle can increase its speed each round. It also determines the maximum amount a vehicle can safely decelerate each round.</p>
+<p id="ultimatecombat-ultimatecombatvehicles-propulsion"><strong>Propulsion</strong>: The type and amount of propulsion required.</p>
+<p id="ultimatecombat-ultimatecombatvehicles-driving-check"><strong>Driving Check:</strong> The skills typically used to make a vehicle driving check with this vehicle.</p>
+<p id="ultimatecombat-ultimatecombatvehicles-forward-facing"><strong>Forward Facing</strong>: The direction of the vehicle’s forward facing.</p>
+<p id="ultimatecombat-ultimatecombatvehicles-driving-device"><strong>Driving Device</strong>: The typical driving device the driver manipulates when driving the vehicle.</p>
+<p><strong>Driving Space</strong>: The size and the location of the vehicle’s driving space.</p>
+<p id="ultimatecombat-ultimatecombatvehicles-crew"><strong>Crew</strong>: This is the number of crew members, in addition to the driver, needed to move the vehicle.</p>
+<p id="ultimatecombat-ultimatecombatvehicles-decks"><strong>Decks</strong>: The number of decks and any important information about those decks is given in this section.</p>
+<p id="ultimatecombat-ultimatecombatvehicles-weapons"><strong>Weapons</strong>: Some vehicles can be equipped with siege weapons. This is the number of siege or vehicle weapons that a vehicle can have.</p>
+</div>
+<div class="section" id="land-vehicles">
+<span id="ultimatecombat-ultimatecombatvehicles-land-vehicles"></span><h2><a class="toc-backref" href="#id72">Land Vehicles</a><a class="headerlink" href="#land-vehicles" title="Permalink to this headline">¶</a></h2>
+<p>Land vehicles carry occupants and cargo over hard earth or similar terrain. They are typically propelled by muscle, but can be moved by a variety of propulsion methods. The following are the most common types of land vehicles, including all land vehicles that characters can purchase in the <em>Core Rulebook</em>.</p>
+<div class="section" id="carriage">
+<span id="ultimatecombat-ultimatecombatvehicles-carriage"></span><h3><a class="toc-backref" href="#id73">Carriage</a><a class="headerlink" href="#carriage" title="Permalink to this headline">¶</a></h3>
+<p>Large land vehicle
+<strong>Squares</strong> 6 (10 ft. by 15 ft.; 6 feet high); <strong>Cost</strong> 100 gp</p>
+</div>
+<div class="section" id="defense">
+<span id="ultimatecombat-ultimatecombatvehicles-defense"></span><h3><a class="toc-backref" href="#id74">Defense</a><a class="headerlink" href="#defense" title="Permalink to this headline">¶</a></h3>
+<p><strong>AC</strong> 9; <strong>Hardness</strong> 5
+<strong>hp</strong> 90 (44)
+<strong>Base Save</strong> +1</p>
+</div>
+<div class="section" id="offense">
+<span id="ultimatecombat-ultimatecombatvehicles-offense"></span><h3><a class="toc-backref" href="#id75">Offense</a><a class="headerlink" href="#offense" title="Permalink to this headline">¶</a></h3>
+<p><strong>Maximum Speed</strong> twice the speed of the pulling creature(s); <strong>Acceleration</strong> the speed of the pulling creature(s)
+<strong>CMB</strong> +1; <strong>CMD</strong> 11
+<strong>Ramming Damage</strong>1d8</p>
+</div>
+<div class="section" id="description">
+<span id="ultimatecombat-ultimatecombatvehicles-description"></span><h3><a class="toc-backref" href="#id76">Description</a><a class="headerlink" href="#description" title="Permalink to this headline">¶</a></h3>
+<p>This four-wheeled vehicle can transport as many as four people within an enclosed cab, in addition to one driver and one other person seated next to the driver (often armed).  The carriage’s roof can carry 200 pounds of cargo.
+<strong>Propulsion</strong> muscle (pulled; 6 Medium creatures or 2 Large creatures)
+<strong>Driving Check</strong> <a class="reference internal" href="corerulebook.skills.handleanimal.html#corerulebook-skills-handleanimal-handle-animal"><span class="std std-ref">Handle Animal</span></a> or <a class="reference internal" href="corerulebook.skills.profession.html#corerulebook-skills-profession-profession"><span class="std std-ref">Profession</span></a> (driver) (in the case of creatures with <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-animal"><span class="std std-ref">animal</span></a> intelligence pulling the vehicle), <a class="reference internal" href="corerulebook.skills.diplomacy.html#corerulebook-skills-diplomacy-diplomacy"><span class="std std-ref">Diplomacy</span></a> or <a class="reference internal" href="corerulebook.skills.intimidate.html#corerulebook-skills-intimidate-intimidate"><span class="std std-ref">Intimidate</span></a> (in the case of intelligent creatures pulling the vehicle)
+<strong>Forward Facing</strong> toward the creatures pulling the vehicle
+<strong>Driving Device</strong> reins
+<strong>Driving Space</strong> the most forward squares if the carriage’s upper deck.
+<strong>Decks</strong> 2; a lower cab with enough room for four passengers, and an upper deck with room for a driver and another passenger.</p>
+</div>
+<div class="section" id="cart">
+<span id="ultimatecombat-ultimatecombatvehicles-cart"></span><h3><a class="toc-backref" href="#id77">Cart</a><a class="headerlink" href="#cart" title="Permalink to this headline">¶</a></h3>
+<p>Large land vehicle
+<strong>Squares</strong>2 (5 ft. by 10 ft.; 4 feet high); <strong>Cost</strong> 15 gp</p>
+</div>
+<div class="section" id="id2">
+<h3><a class="toc-backref" href="#id78">Defense</a><a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<p><strong>AC</strong> 9; <strong>Hardness</strong> 5
+<strong>hp</strong> 30 (14)
+<strong>Base Save</strong> +0</p>
+</div>
+<div class="section" id="id3">
+<h3><a class="toc-backref" href="#id79">Offense</a><a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<p><strong>Maximum Speed</strong> twice the speed of the pulling creature(s) –10 ft.; <strong>Acceleration</strong> the speed of the pulling creature(s) –5 ft.
+<strong>CMB</strong> +1; <strong>CMD</strong> 11
+<strong>Ramming Damage</strong>1d8</p>
+</div>
+<div class="section" id="id4">
+<h3><a class="toc-backref" href="#id80">Description</a><a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<p>This two-wheeled vehicle is often used to transport small loads of up to 300 pounds of cargo from one settlement to another.
+<strong>Propulsion</strong> muscle (pulled; 2 Medium creatures or 1 Large creature)
+<strong>Driving Check</strong> <a class="reference internal" href="corerulebook.skills.handleanimal.html#corerulebook-skills-handleanimal-handle-animal"><span class="std std-ref">Handle Animal</span></a> or <a class="reference internal" href="corerulebook.skills.profession.html#corerulebook-skills-profession-profession"><span class="std std-ref">Profession</span></a> (driver) (in the case of creatures with <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-animal"><span class="std std-ref">animal</span></a> intelligence pulling the vehicle), <a class="reference internal" href="corerulebook.skills.diplomacy.html#corerulebook-skills-diplomacy-diplomacy"><span class="std std-ref">Diplomacy</span></a> or <a class="reference internal" href="corerulebook.skills.intimidate.html#corerulebook-skills-intimidate-intimidate"><span class="std std-ref">Intimidate</span></a> (in the case of intelligent creatures pulling the vehicle)
+<strong>Forward Facing</strong> toward the creatures pulling the vehicle
+<strong>Driving Device</strong> reins
+<strong>Driving Space</strong> the most forward square of the cart
+<strong>Decks</strong> 1</p>
+</div>
+<div class="section" id="chariot-light">
+<span id="ultimatecombat-ultimatecombatvehicles-chariot-light"></span><h3><a class="toc-backref" href="#id81">Chariot, Light</a><a class="headerlink" href="#chariot-light" title="Permalink to this headline">¶</a></h3>
+<p>Large land vehicle
+<strong>Squares</strong>2 (5 ft. by 10 ft.; 5 feet high); <strong>Cost</strong> 50 gp</p>
+</div>
+<div class="section" id="id5">
+<h3><a class="toc-backref" href="#id82">Defense</a><a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+<p><strong>AC</strong> 9; <strong>Hardness</strong> 5
+<strong>hp</strong> 30 (14)
+<strong>Base Save</strong> +0</p>
+</div>
+<div class="section" id="id6">
+<h3><a class="toc-backref" href="#id83">Offense</a><a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
+<p><strong>Maximum Speed</strong> twice the speed of the pulling creature(s); <strong>Acceleration</strong> the speed of the pulling creature(s)
+<strong>CMB</strong> +1; <strong>CMD</strong> 11
+<strong>Ramming Damage</strong>1d8</p>
+</div>
+<div class="section" id="id7">
+<h3><a class="toc-backref" href="#id84">Description</a><a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
+<p>These two-wheeled vehicles are often used for racing or as the platform for a single archer racing though the battlefield at high speeds.
+<strong>Propulsion</strong> Muscle (pulled; 2 Medium creatures or 1 Large creature)
+<strong>Driving Check</strong> <a class="reference internal" href="corerulebook.skills.handleanimal.html#corerulebook-skills-handleanimal-handle-animal"><span class="std std-ref">Handle Animal</span></a> or <a class="reference internal" href="corerulebook.skills.profession.html#corerulebook-skills-profession-profession"><span class="std std-ref">Profession</span></a> (driver) (in the case of creatures with <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-animal"><span class="std std-ref">animal</span></a> intelligence pulling the vehicle), <a class="reference internal" href="corerulebook.skills.diplomacy.html#corerulebook-skills-diplomacy-diplomacy"><span class="std std-ref">Diplomacy</span></a> or <a class="reference internal" href="corerulebook.skills.intimidate.html#corerulebook-skills-intimidate-intimidate"><span class="std std-ref">Intimidate</span></a> (in the case of intelligent creatures pulling the vehicle)
+<strong>Forward Facing</strong> toward the creatures pulling the vehicle
+<strong>Driving Device</strong> reins
+<strong>Driving Space</strong> the most forward square of the chariot
+<strong>Decks</strong> 1</p>
+</div>
+<div class="section" id="chariot-medium">
+<span id="ultimatecombat-ultimatecombatvehicles-chariot-medium"></span><h3><a class="toc-backref" href="#id85">Chariot, Medium</a><a class="headerlink" href="#chariot-medium" title="Permalink to this headline">¶</a></h3>
+<p>Large land vehicle
+<strong>Squares</strong>4 (10 ft. by 10 ft.; 5 feet high); <strong>Cost</strong> 100 gp</p>
+</div>
+<div class="section" id="id8">
+<h3><a class="toc-backref" href="#id86">Defense</a><a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h3>
+<p><strong>AC</strong> 9; <strong>Hardness</strong> 5
+<strong>hp</strong> 60 (29)
+<strong>Base Save</strong> +1</p>
+</div>
+<div class="section" id="id9">
+<h3><a class="toc-backref" href="#id87">Offense</a><a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h3>
+<p><strong>Maximum Speed</strong> twice the speed of the pulling creature(s); <strong>Acceleration</strong> half the speed of the pulling creature(s)
+<strong>CMB</strong> +1; <strong>CMD</strong> 11
+<strong>Ramming Damage</strong>1d8</p>
+</div>
+<div class="section" id="id10">
+<h3><a class="toc-backref" href="#id88">Description</a><a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h3>
+<p>This two-wheeled vehicle is often used on the battlefield to break apart infantry formations or as a fast-moving fighting platform.
+<strong>Propulsion</strong> muscle (pulled; 4 Medium creatures or 1 Large creature)
+<strong>Driving Check</strong> <a class="reference internal" href="corerulebook.skills.handleanimal.html#corerulebook-skills-handleanimal-handle-animal"><span class="std std-ref">Handle Animal</span></a> or <a class="reference internal" href="corerulebook.skills.profession.html#corerulebook-skills-profession-profession"><span class="std std-ref">Profession</span></a> (driver) (in the case of creatures with <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-animal"><span class="std std-ref">animal</span></a> intelligence pulling the vehicle), <a class="reference internal" href="corerulebook.skills.diplomacy.html#corerulebook-skills-diplomacy-diplomacy"><span class="std std-ref">Diplomacy</span></a> or <a class="reference internal" href="corerulebook.skills.intimidate.html#corerulebook-skills-intimidate-intimidate"><span class="std std-ref">Intimidate</span></a> (in the case of intelligent creatures pulling the vehicle)
+<strong>Forward Facing</strong> toward the creatures pulling the vehicle
+<strong>Driving Device</strong> reins
+<strong>Driving Space</strong> the two most forward squares of the chariot
+<strong>Decks</strong> 1</p>
+</div>
+<div class="section" id="chariot-heavy">
+<span id="ultimatecombat-ultimatecombatvehicles-chariot-heavy"></span><h3><a class="toc-backref" href="#id89">Chariot, Heavy</a><a class="headerlink" href="#chariot-heavy" title="Permalink to this headline">¶</a></h3>
+<p>Large land vehicle
+<strong>Squares</strong> 6 (10 ft. by 15 ft.; 5 feet high); <strong>Cost</strong> 200 gp</p>
+</div>
+<div class="section" id="id11">
+<h3><a class="toc-backref" href="#id90">Defense</a><a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h3>
+<p><strong>AC</strong> 8; <strong>Hardness</strong> 5
+<strong>hp</strong> 80 (44)
+<strong>Base Save</strong> +1</p>
+</div>
+<div class="section" id="id12">
+<h3><a class="toc-backref" href="#id91">Offense</a><a class="headerlink" href="#id12" title="Permalink to this headline">¶</a></h3>
+<p><strong>Maximum Speed</strong> twice the speed of the pulling creature(s); <strong>Acceleration</strong> half the speed of the pulling creature(s)
+<strong>CMB</strong> +2; <strong>CMD</strong> 12
+<strong>Ramming Damage</strong>1d8</p>
+</div>
+<div class="section" id="id13">
+<h3><a class="toc-backref" href="#id92">Description</a><a class="headerlink" href="#id13" title="Permalink to this headline">¶</a></h3>
+<p>This two-wheeled vehicle is sometimes used as a fighting platform or for transporting a light ballista onto the battlefield.</p>
+<p><strong>Propulsion</strong> muscle (pulled; 6 Medium creatures or 2 Large creatures)
+<strong>Driving Check</strong> <a class="reference internal" href="corerulebook.skills.handleanimal.html#corerulebook-skills-handleanimal-handle-animal"><span class="std std-ref">Handle Animal</span></a> or <a class="reference internal" href="corerulebook.skills.profession.html#corerulebook-skills-profession-profession"><span class="std std-ref">Profession</span></a> (driver) (in the case of creatures with <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-animal"><span class="std std-ref">animal</span></a> intelligence pulling the vehicle), <a class="reference internal" href="corerulebook.skills.diplomacy.html#corerulebook-skills-diplomacy-diplomacy"><span class="std std-ref">Diplomacy</span></a> or <a class="reference internal" href="corerulebook.skills.intimidate.html#corerulebook-skills-intimidate-intimidate"><span class="std std-ref">Intimidate</span></a> (in the case of intelligent creatures)
+<strong>Forward Facing</strong> toward the creatures pulling the vehicle
+<strong>Driving Device</strong> reins
+<strong>Driving Space</strong> the two most forward squares of the chariot
+<strong>Decks</strong> 1
+<strong>Weapons</strong> light ballista</p>
+</div>
+<div class="section" id="sleigh">
+<span id="ultimatecombat-ultimatecombatvehicles-sleigh"></span><h3><a class="toc-backref" href="#id93">Sleigh</a><a class="headerlink" href="#sleigh" title="Permalink to this headline">¶</a></h3>
+<p>Large land vehicle
+<strong>Squares</strong>4 (10 ft. by 10 ft.; 3 feet high or 13 feet high with sail); <strong>Cost</strong>100 gp</p>
+</div>
+<div class="section" id="id14">
+<h3><a class="toc-backref" href="#id94">Defense</a><a class="headerlink" href="#id14" title="Permalink to this headline">¶</a></h3>
+<p><strong>AC</strong> 9; <strong>Hardness</strong> 5
+<strong>hp</strong> 60 (29)
+<strong>Base Save</strong> +1</p>
+</div>
+<div class="section" id="id15">
+<h3><a class="toc-backref" href="#id95">Offense</a><a class="headerlink" href="#id15" title="Permalink to this headline">¶</a></h3>
+<p><strong>Maximum Speed</strong> twice the speed of the pulling creature(s) (muscle), or 100 ft. (current); <strong>Acceleration</strong> half the speed of the pulling creature(s) (muscle), or 30 ft. (current)
+<strong>CMB</strong> +1; <strong>CMD</strong> 11
+<strong>Ramming Damage</strong>1d8</p>
+</div>
+<div class="section" id="id16">
+<h3><a class="toc-backref" href="#id96">Description</a><a class="headerlink" href="#id16" title="Permalink to this headline">¶</a></h3>
+<p>This open carriage uses a pair of runners instead of wheels. It is used to travel across snow and ice, and only moves at half speed when used on other surfaces. Sleighs are usually pulled by horses or other suitable creatures, but some are propelled by Huge (8-square) sail mechanisms. If the sleigh uses wind propulsion, it has no space for passengers or cargo.
+<strong>Propulsion</strong> muscle (pulled; 4 Medium creatures or 1 Large creature; on ice, the creatures must be clawed rather than hoofed) or current (air; 8-square sail; hp 40)
+<strong>Driving Check</strong> <a class="reference internal" href="corerulebook.skills.handleanimal.html#corerulebook-skills-handleanimal-handle-animal"><span class="std std-ref">Handle Animal</span></a> or <a class="reference internal" href="corerulebook.skills.profession.html#corerulebook-skills-profession-profession"><span class="std std-ref">Profession</span></a> (driver) (in the case of creatures with <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-animal"><span class="std std-ref">animal</span></a> intelligence), <a class="reference internal" href="corerulebook.skills.diplomacy.html#corerulebook-skills-diplomacy-diplomacy"><span class="std std-ref">Diplomacy</span></a> or <a class="reference internal" href="corerulebook.skills.intimidate.html#corerulebook-skills-intimidate-intimidate"><span class="std std-ref">Intimidate</span></a> (in the case of intelligent creatures pulling the vehicle), or <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a> (in the case of air current; +10 to the DC)
+<strong>Forward Facing</strong> toward the creatures pulling the vehicle or the front of the sleigh in the case of air current propulsion
+<strong>Driving Device</strong> reins (muscle propulsion) or rigging (air current propulsion)
+<strong>Driving Space</strong> the two most forward squares of the sleigh
+<strong>Decks</strong> 1</p>
+</div>
+<div class="section" id="steam-giant">
+<span id="ultimatecombat-ultimatecombatvehicles-steam-giant"></span><h3><a class="toc-backref" href="#id97">Steam Giant</a><a class="headerlink" href="#steam-giant" title="Permalink to this headline">¶</a></h3>
+<p>Gargantuan land vehicle
+<strong>Squares</strong>16 (20 ft. by 20 ft.; 26 feet high); <strong>Cost</strong> 80,000 gp</p>
+</div>
+<div class="section" id="id17">
+<h3><a class="toc-backref" href="#id98">Defense</a><a class="headerlink" href="#id17" title="Permalink to this headline">¶</a></h3>
+<p><strong>AC</strong> 6; <strong>Hardness</strong> 10
+<strong>hp</strong> 320 (159)
+<strong>Base Save</strong> +3</p>
+</div>
+<div class="section" id="id18">
+<h3><a class="toc-backref" href="#id99">Offense</a><a class="headerlink" href="#id18" title="Permalink to this headline">¶</a></h3>
+<p><strong>Maximum Speed</strong> 60 ft.; <strong>Acceleration</strong> 30 ft.
+<strong>CMB</strong> +4; <strong>CMD</strong> 14
+<strong>Ramming Damage</strong>4d8</p>
+</div>
+<div class="section" id="id19">
+<h3><a class="toc-backref" href="#id100">Description</a><a class="headerlink" href="#id19" title="Permalink to this headline">¶</a></h3>
+<p>This thankfully rare and expensive walking monstrosity is one of the more bizarre land vehicles in existence. A giant cauldron of iron atop stubby but effective legs, it hobbles its way across the battlefield at a grinding pace. It costs 100 gp in alchemical reagents to fuel 1 hour of activity. Creatures inside the steam giant gain either total cover (in the lower decks) or improved cover (in the upper viewing and control deck). Only the upper deck has view ports, allowing those inside the steam giant to look out.
+<strong>Propulsion</strong> alchemical (10 squares of alchemical engines; hardness 8, hp 200)
+<strong>Driving Check</strong> <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (arcana) or <a class="reference internal" href="corerulebook.skills.craft.html#corerulebook-skills-craft-craft"><span class="std std-ref">Craft</span></a> (alchemy) +10 to the DC
+<strong>Forward Facing</strong> one side of the square vehicle space
+<strong>Driving Device</strong> two levers used to move the legs
+<strong>Driving Space</strong> a single 5-ft.-by-5-ft. square that contains the two levers that serve as the steam giant’s driving device; these levers are located on the third (top) deck of the vehicle
+<strong>Crew</strong> 4
+<strong>Passengers</strong> 6
+<strong>Decks</strong> 3; The two lower decks give access to the alchemical engine that powers the steam giant. These lower decks have no windows or other way to see outside of the vehicle.  The upper deck is an observation deck that contains the alchemical giant’s driving device and driving square.
+<strong>Weapons</strong> 2 Large direct-fire ranged siege engines on the arms</p>
+</div>
+<div class="section" id="wagon-light">
+<span id="ultimatecombat-ultimatecombatvehicles-wagon-light"></span><h3><a class="toc-backref" href="#id101">Wagon, Light</a><a class="headerlink" href="#wagon-light" title="Permalink to this headline">¶</a></h3>
+<p>Large land vehicle
+<strong>Squares</strong>4 (10 ft. by 10 ft.; 5 feet high); <strong>Cost</strong> 50 gp</p>
+</div>
+<div class="section" id="id20">
+<h3><a class="toc-backref" href="#id102">Defense</a><a class="headerlink" href="#id20" title="Permalink to this headline">¶</a></h3>
+<p><strong>AC</strong> 9; <strong>Hardness</strong> 5
+<strong>hp</strong> 60 (29)
+<strong>Base Save</strong> +1</p>
+</div>
+<div class="section" id="id21">
+<h3><a class="toc-backref" href="#id103">Offense</a><a class="headerlink" href="#id21" title="Permalink to this headline">¶</a></h3>
+<p><strong>Maximum Speed</strong> twice the speed of the pulling creature(s); <strong>Acceleration</strong> half the speed of the pulling creature(s)
+<strong>CMB</strong> +1; <strong>CMD</strong> 11
+<strong>Ramming Damage</strong>1d8</p>
+</div>
+<div class="section" id="id22">
+<h3><a class="toc-backref" href="#id104">Description</a><a class="headerlink" href="#id22" title="Permalink to this headline">¶</a></h3>
+<p>This four-wheeled vehicle is ideal for transporting decent quantities of goods between communities. It can carry up to 1,00o p0unds of cargo.
+<strong>Propulsion</strong> muscle (pulled; 4 Medium creatures or 1 Large creature)
+<strong>Driving Check</strong> <a class="reference internal" href="corerulebook.skills.handleanimal.html#corerulebook-skills-handleanimal-handle-animal"><span class="std std-ref">Handle Animal</span></a> or <a class="reference internal" href="corerulebook.skills.profession.html#corerulebook-skills-profession-profession"><span class="std std-ref">Profession</span></a> (driver) (in the case of creatures with <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-animal"><span class="std std-ref">animal</span></a> intelligence), <a class="reference internal" href="corerulebook.skills.diplomacy.html#corerulebook-skills-diplomacy-diplomacy"><span class="std std-ref">Diplomacy</span></a> or <a class="reference internal" href="corerulebook.skills.intimidate.html#corerulebook-skills-intimidate-intimidate"><span class="std std-ref">Intimidate</span></a> (in the case of intelligent creatures pulling the vehicle)
+<strong>Forward Facing</strong> toward the creatures pulling the vehicle
+<strong>Driving Device</strong> reins
+<strong>Driving Space</strong> the two most forward squares of the wagon
+<strong>Decks</strong> 1</p>
+</div>
+<div class="section" id="wagon-medium">
+<span id="ultimatecombat-ultimatecombatvehicles-wagon-medium"></span><h3><a class="toc-backref" href="#id105">Wagon, Medium</a><a class="headerlink" href="#wagon-medium" title="Permalink to this headline">¶</a></h3>
+<p>Large land vehicle
+<strong>Squares</strong>6 (10 ft. by 15 ft.; 5 feet high); <strong>Cost</strong> 75 gp</p>
+</div>
+<div class="section" id="id23">
+<h3><a class="toc-backref" href="#id106">Defense</a><a class="headerlink" href="#id23" title="Permalink to this headline">¶</a></h3>
+<p><strong>AC</strong> 9; <strong>Hardness</strong> 5
+<strong>hp</strong> 90 (44)
+<strong>Base Save</strong> +1</p>
+</div>
+<div class="section" id="id24">
+<h3><a class="toc-backref" href="#id107">Offense</a><a class="headerlink" href="#id24" title="Permalink to this headline">¶</a></h3>
+<p><strong>Maximum Speed</strong> twice the speed of the pulling creature(s); <strong>Acceleration</strong> half the speed of the pulling creature(s)
+<strong>CMB</strong> +1; <strong>CMD</strong> 11
+<strong>Ramming Damage</strong>1d8</p>
+</div>
+<div class="section" id="id25">
+<h3><a class="toc-backref" href="#id108">Description</a><a class="headerlink" href="#id25" title="Permalink to this headline">¶</a></h3>
+<p>This four-wheeled vehicle is used to transport large amounts of goods between communities, and is sometimes used by caravans. It can carry up to 2,000 pounds of cargo.
+<strong>Propulsion</strong> muscle (pulled; 4 Medium creatures or 1 Large creature)
+<strong>Driving Check</strong> <a class="reference internal" href="corerulebook.skills.handleanimal.html#corerulebook-skills-handleanimal-handle-animal"><span class="std std-ref">Handle Animal</span></a> or <a class="reference internal" href="corerulebook.skills.profession.html#corerulebook-skills-profession-profession"><span class="std std-ref">Profession</span></a> (driver) (in the case of creatures with <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-animal"><span class="std std-ref">animal</span></a> intelligence pulling the vehicle), <a class="reference internal" href="corerulebook.skills.diplomacy.html#corerulebook-skills-diplomacy-diplomacy"><span class="std std-ref">Diplomacy</span></a> or <a class="reference internal" href="corerulebook.skills.intimidate.html#corerulebook-skills-intimidate-intimidate"><span class="std std-ref">Intimidate</span></a> (in the case of intelligent creatures pulling the vehicle)
+<strong>Forward Facing</strong> toward the creatures pulling the vehicle
+<strong>Driving Device</strong> reins
+<strong>Driving Space</strong> the most forward square of the wagon
+<strong>Deck</strong> 1</p>
+</div>
+<div class="section" id="wagon-heavy">
+<span id="ultimatecombat-ultimatecombatvehicles-wagon-heavy"></span><h3><a class="toc-backref" href="#id109">Wagon, Heavy</a><a class="headerlink" href="#wagon-heavy" title="Permalink to this headline">¶</a></h3>
+<p>Huge land vehicle
+<strong>Squares</strong> 8 (10 ft. by 20 ft.; 5 feet high); <strong>Cost</strong> 100 gp</p>
+</div>
+<div class="section" id="id26">
+<h3><a class="toc-backref" href="#id110">Defense</a><a class="headerlink" href="#id26" title="Permalink to this headline">¶</a></h3>
+<p><strong>AC</strong> 9; <strong>Hardness</strong> 5
+<strong>hp</strong> 120 (59)
+<strong>Base Save</strong> +2</p>
+</div>
+<div class="section" id="id27">
+<h3><a class="toc-backref" href="#id111">Offense</a><a class="headerlink" href="#id27" title="Permalink to this headline">¶</a></h3>
+<p><strong>Maximum Speed</strong> twice the speed of the pulling creature(s); <strong>Acceleration</strong> half the speed of the pulling creature(s)
+<strong>CMB</strong> +2; <strong>CMD</strong> 12
+<strong>Ramming Damage</strong>2d8</p>
+</div>
+<div class="section" id="id28">
+<h3><a class="toc-backref" href="#id112">Description</a><a class="headerlink" href="#id28" title="Permalink to this headline">¶</a></h3>
+<p>This large, four-wheeled vehicle is primarily used in caravans to transport goods over long stretches of territory. These wagons can carry up to 4,000 pounds of cargo.
+<strong>Propulsion</strong> muscle (pulled; 4 Medium creatures or 1 Large creature)
+<strong>Driving Check</strong> <a class="reference internal" href="corerulebook.skills.handleanimal.html#corerulebook-skills-handleanimal-handle-animal"><span class="std std-ref">Handle Animal</span></a> or <a class="reference internal" href="corerulebook.skills.profession.html#corerulebook-skills-profession-profession"><span class="std std-ref">Profession</span></a> (driver) (in the case of creatures with <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-animal"><span class="std std-ref">animal</span></a> intelligence pulling the vehicle), <a class="reference internal" href="corerulebook.skills.diplomacy.html#corerulebook-skills-diplomacy-diplomacy"><span class="std std-ref">Diplomacy</span></a> or <a class="reference internal" href="corerulebook.skills.intimidate.html#corerulebook-skills-intimidate-intimidate"><span class="std std-ref">Intimidate</span></a> (in the case of intelligent creatures pulling the vehicle)
+<strong>Forward Facing</strong> toward the creatures pulling the vehicle
+<strong>Driving Device</strong> reins
+<strong>Driving Space</strong> the most forward square of the wagon
+<strong>Decks</strong> 1</p>
+</div>
+</div>
+<div class="section" id="water-vehicles">
+<span id="ultimatecombat-ultimatecombatvehicles-water-vehicles"></span><h2><a class="toc-backref" href="#id113">Water Vehicles</a><a class="headerlink" href="#water-vehicles" title="Permalink to this headline">¶</a></h2>
+<p>Water vehicles move across bodies of water, whether as small as a river or as large as an ocean. They are typically propelled by muscle or sail, but can be moved by a variety of propulsion methods. The following are the most common types of water vehicles, including all water vehicles that characters can purchase in the <em>Core Rulebook</em>.</p>
+<div class="section" id="galley">
+<span id="ultimatecombat-ultimatecombatvehicles-galley"></span><h3><a class="toc-backref" href="#id114">Galley</a><a class="headerlink" href="#galley" title="Permalink to this headline">¶</a></h3>
+<p>Colossal water vehicle
+<strong>Squares</strong>104 (20 ft. by 130 ft.); <strong>Cost</strong> 10,000 gp</p>
+</div>
+<div class="section" id="id29">
+<h3><a class="toc-backref" href="#id115">Defense</a><a class="headerlink" href="#id29" title="Permalink to this headline">¶</a></h3>
+<p><strong>AC</strong> 2; <strong>Hardness</strong> 5
+<strong>hp</strong> 1,560 (779)
+<strong>Base Save</strong> +0</p>
+</div>
+<div class="section" id="id30">
+<h3><a class="toc-backref" href="#id116">Offense</a><a class="headerlink" href="#id30" title="Permalink to this headline">¶</a></h3>
+<p><strong>Maximum Speed</strong> 180 ft. (current) or 60 ft. (muscle); <strong>Acceleration</strong> 30 ft. (current) or 15 ft. (muscle)
+<strong>CMB</strong> +8; <strong>CMD</strong> 18
+<strong>Ramming Damage</strong>8d8</p>
+</div>
+<div class="section" id="id31">
+<h3><a class="toc-backref" href="#id117">Description</a><a class="headerlink" href="#id31" title="Permalink to this headline">¶</a></h3>
+<p>One of the largest sailing ships on the sea, this massive vessel cannot make ocean voyages, and typically sticks to the coast. It can carry 150 tons of cargo or 250 soldiers.
+<strong>Propulsion</strong> current (air; three masts, 60 squares of sails, hp 300), current (water), or muscle (pushed; 140 Medium rowers)
+<strong>Driving Check</strong> <a class="reference internal" href="corerulebook.skills.profession.html#corerulebook-skills-profession-profession"><span class="std std-ref">Profession</span></a> (sailor) or <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (nature) +10 to the DC
+<strong>Forward Facing</strong> the ship’s forward
+<strong>Driving Device</strong> steering wheel
+<strong>Driving Space</strong> the nine squares around the steering wheel, typically located in the aft of the ship
+<strong>Crew</strong> 20 or 160 (if the boat is rowed)
+<strong>Decks</strong> 3
+<strong>Weapons</strong> Up to 40 Large direct-fire siege engines in banks of 20 positioned on the port and starboard sides of the galley, or up to 12 Huge direct-fire siege engines in banks of six on the port and starboard sides of the ship. The siege engines may only fire out the sides of the ship that they are positioned on. They cannot be swiveled to fire toward the forward or aft sides of the ship. These siege engines cannot be used while the galley is being rowed. For 8,000 gp more, the galley can be fitted with a battering ram and castles with firing platforms fore, aft, and amidships. Each of these firing platforms can hold a single Large direct-fire siege engine that can fire either out the sides of the ship or in the direction of its location. An amidships platform can fire out either the port or starboard sides of the galley.</p>
+</div>
+<div class="section" id="keelboat">
+<span id="ultimatecombat-ultimatecombatvehicles-keelboat"></span><h3><a class="toc-backref" href="#id118">Keelboat</a><a class="headerlink" href="#keelboat" title="Permalink to this headline">¶</a></h3>
+<p>Colossal water vehicle
+<strong>Squares</strong>40 (20 ft. by 50 ft.); <strong>Cost</strong> 13,000 gp</p>
+</div>
+<div class="section" id="id32">
+<h3><a class="toc-backref" href="#id119">Defense</a><a class="headerlink" href="#id32" title="Permalink to this headline">¶</a></h3>
+<p><strong>AC</strong> 2; <strong>Hardness</strong> 5
+<strong>hp</strong> 600 (299)
+<strong>Base Save</strong> +4</p>
+</div>
+<div class="section" id="id33">
+<h3><a class="toc-backref" href="#id120">Offense</a><a class="headerlink" href="#id33" title="Permalink to this headline">¶</a></h3>
+<p><strong>Maximum Speed</strong> 60 ft. (current) or 30 ft. (muscle); <strong>Acceleration</strong> 15 ft. (muscle) or 30 ft. (current)
+<strong>CMB</strong> +8; <strong>CMD</strong> 18
+<strong>Ramming Damage</strong>8d8</p>
+</div>
+<div class="section" id="id34">
+<h3><a class="toc-backref" href="#id121">Description</a><a class="headerlink" href="#id34" title="Permalink to this headline">¶</a></h3>
+<p>This long, flat-bottomed ship has a few oars to supplement its single mast with a square sail. It can make both sea and river voyages. The keelboat can carry 50 tons of cargo or 100 soldiers.
+<strong>Propulsion</strong> current (air; 20 squares of sails, hp 100), current (water), or muscle (pushed; 8 Medium rowers)
+<strong>Driving Check</strong> <a class="reference internal" href="corerulebook.skills.diplomacy.html#corerulebook-skills-diplomacy-diplomacy"><span class="std std-ref">Diplomacy</span></a> or <a class="reference internal" href="corerulebook.skills.intimidate.html#corerulebook-skills-intimidate-intimidate"><span class="std std-ref">Intimidate</span></a> while rowed, or <a class="reference internal" href="corerulebook.skills.profession.html#corerulebook-skills-profession-profession"><span class="std std-ref">Profession</span></a> (sailor) or <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (nature) +10 to the DC when sail is used
+<strong>Forward Facing</strong> ship’s forward
+<strong>Driving Device</strong> rudder
+<strong>Driving Space</strong> the two middle rear squares of the keelboat
+<strong>Crew</strong> 8
+<strong>Decks</strong> 1</p>
+</div>
+<div class="section" id="longship">
+<span id="ultimatecombat-ultimatecombatvehicles-longship"></span><h3><a class="toc-backref" href="#id122">Longship</a><a class="headerlink" href="#longship" title="Permalink to this headline">¶</a></h3>
+<p>Colossal water vehicle
+<strong>Squares</strong>45 (15 ft. by 75 ft.); <strong>Cost</strong> 10,000 gp</p>
+</div>
+<div class="section" id="id35">
+<h3><a class="toc-backref" href="#id123">Defense</a><a class="headerlink" href="#id35" title="Permalink to this headline">¶</a></h3>
+<p><strong>AC</strong> 2; <strong>Hardness</strong> 5
+<strong>hp</strong> 675 (337)
+<strong>Base Save</strong> +5</p>
+</div>
+<div class="section" id="id36">
+<h3><a class="toc-backref" href="#id124">Offense</a><a class="headerlink" href="#id36" title="Permalink to this headline">¶</a></h3>
+<p><strong>Maximum Speed</strong> 120 ft. (current and muscle) or 30 ft. (muscle only); <strong>Acceleration</strong> 30 ft. (current and muscle) or 15 ft. (muscle only)
+<strong>CMB</strong> +8; <strong>CMD</strong> 18
+<strong>Ramming Damage</strong>8d8</p>
+</div>
+<div class="section" id="id37">
+<h3><a class="toc-backref" href="#id125">Description</a><a class="headerlink" href="#id37" title="Permalink to this headline">¶</a></h3>
+<p>This long and relatively thin boat has a single mast with a square sail. It can traverse lakes, oceans, and deep rivers. It can carry 50 tons of cargo or 100 soldiers.
+<strong>Propulsion</strong> current (air; 10 squares of sails, hp 50), current (water), or muscle (pushed; 40 Medium rowers)
+<strong>Driving Check</strong> <a class="reference internal" href="corerulebook.skills.diplomacy.html#corerulebook-skills-diplomacy-diplomacy"><span class="std std-ref">Diplomacy</span></a> or <a class="reference internal" href="corerulebook.skills.intimidate.html#corerulebook-skills-intimidate-intimidate"><span class="std std-ref">Intimidate</span></a> while rowed, or <a class="reference internal" href="corerulebook.skills.profession.html#corerulebook-skills-profession-profession"><span class="std std-ref">Profession</span></a> (sailor) or <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (nature) +10 to the DC when sail is used
+<strong>Forward Facing</strong> the ship’s forward
+<strong>Driving Device</strong> rudder
+<strong>Driving Space</strong> the two middle rear squares of the longship
+<strong>Crew</strong> 40
+<strong>Decks</strong> 1 (with small cargo area under the deck)</p>
+</div>
+<div class="section" id="rowboat">
+<span id="ultimatecombat-ultimatecombatvehicles-rowboat"></span><h3><a class="toc-backref" href="#id126">Rowboat</a><a class="headerlink" href="#rowboat" title="Permalink to this headline">¶</a></h3>
+<p>Large water vehicle
+<strong>Squares</strong>3 (5 ft. by 15 ft.); <strong>Cost</strong> 50 gp</p>
+</div>
+<div class="section" id="id38">
+<h3><a class="toc-backref" href="#id127">Defense</a><a class="headerlink" href="#id38" title="Permalink to this headline">¶</a></h3>
+<p><strong>AC</strong> 9; <strong>Hardness</strong> 5
+<strong>hp</strong> 60 (29)
+<strong>Base Save</strong> +0</p>
+</div>
+<div class="section" id="id39">
+<h3><a class="toc-backref" href="#id128">Offense</a><a class="headerlink" href="#id39" title="Permalink to this headline">¶</a></h3>
+<p><strong>Maximum Speed</strong> 30 ft.; <strong>Acceleration</strong> 10 ft.
+<strong>CMB</strong> +1; <strong>CMD</strong> 11
+<strong>Ramming Damage</strong>1d8</p>
+</div>
+<div class="section" id="id40">
+<h3><a class="toc-backref" href="#id129">Description</a><a class="headerlink" href="#id40" title="Permalink to this headline">¶</a></h3>
+<p>This small water vehicle is primarily used to disembark from larger ships or to traverse small areas of water—perhaps ferrying a few passengers across a stream or small lake. A rowboat can carry 1,000 pounds of cargo or 2 passengers.
+<strong>Propulsion</strong> current (water) or muscle (pushed; 1 or 2 Medium rowers; one is the driver)
+<strong>Driving Check</strong> <a class="reference internal" href="corerulebook.skills.survival.html#corerulebook-skills-survival-survival"><span class="std std-ref">Survival</span></a>
+<strong>Forward Facing</strong> boat’s forward
+<strong>Driving Device</strong> oars
+<strong>Driving Space</strong> the center square of the rowboat
+<strong>Decks</strong> 1</p>
+</div>
+<div class="section" id="sailing-ship">
+<span id="ultimatecombat-ultimatecombatvehicles-sailing-ship"></span><h3><a class="toc-backref" href="#id130">Sailing Ship</a><a class="headerlink" href="#sailing-ship" title="Permalink to this headline">¶</a></h3>
+<p>Colossal water vehicle
+<strong>Squares</strong>60 (20 ft. by 75 ft.); <strong>Cost</strong> 10,000 gp</p>
+</div>
+<div class="section" id="id41">
+<h3><a class="toc-backref" href="#id131">Defense</a><a class="headerlink" href="#id41" title="Permalink to this headline">¶</a></h3>
+<p><strong>AC</strong> 2; <strong>Hardness</strong> 5
+<strong>hp</strong> 900 (449)
+<strong>Base Save</strong> +0</p>
+</div>
+<div class="section" id="id42">
+<h3><a class="toc-backref" href="#id132">Offense</a><a class="headerlink" href="#id42" title="Permalink to this headline">¶</a></h3>
+<p><strong>Maximum Speed</strong> 180 ft. (current) or 60 ft. (muscle); <strong>Acceleration</strong> 30 ft. (current) or 15 ft. (muscle)
+<strong>CMB</strong> +8; <strong>CMD</strong> 18
+<strong>Ramming Damage</strong>8d8</p>
+</div>
+<div class="section" id="id43">
+<h3><a class="toc-backref" href="#id133">Description</a><a class="headerlink" href="#id43" title="Permalink to this headline">¶</a></h3>
+<p>This massive sailing ship is used for ocean travel. It can carry 150 tons of cargo on top of a full crew and passenger complement. A sailing ship can carry 150 tons of cargo or 200 passengers.
+<strong>Propulsion</strong> current (air; two masts, 30 squares of sails, hp 150) or current (water)
+<strong>Driving Check</strong> <a class="reference internal" href="corerulebook.skills.profession.html#corerulebook-skills-profession-profession"><span class="std std-ref">Profession</span></a> (sailor) or <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (nature) +10 to the DC
+<strong>Forward Facing</strong> the ship’s forward
+<strong>Driving Device</strong> steering wheel
+<strong>Driving Space</strong> the nine squares around the steering wheel, typically located in the aft of the ship
+<strong>Crew</strong> 20
+<strong>Decks</strong> 2
+<strong>Weapons</strong> Up to 20 Large direct-fire siege engines in banks of 10 positioned on the port and starboard sides of the ship, or up to 6 Huge direct-fire siege engines in banks of 3 on the port and starboard sides of the ship. The siege engines may only fire out the sides of the ship they are positioned on. They cannot be swiveled to fire toward the forward or aft sides of the ship.</p>
+</div>
+<div class="section" id="warship">
+<span id="ultimatecombat-ultimatecombatvehicles-warship"></span><h3><a class="toc-backref" href="#id134">Warship</a><a class="headerlink" href="#warship" title="Permalink to this headline">¶</a></h3>
+<p>Colossal water vehicle
+<strong>Squares</strong>80 (20 ft. by 100 ft.); <strong>Cost</strong> 25,000 gp</p>
+</div>
+<div class="section" id="id44">
+<h3><a class="toc-backref" href="#id135">Defense</a><a class="headerlink" href="#id44" title="Permalink to this headline">¶</a></h3>
+<p><strong>AC</strong> 2; <strong>Hardness</strong> 10
+<strong>hp</strong> 1,200 (599)
+<strong>Base Save</strong> +0</p>
+</div>
+<div class="section" id="id45">
+<h3><a class="toc-backref" href="#id136">Offense</a><a class="headerlink" href="#id45" title="Permalink to this headline">¶</a></h3>
+<p><strong>Maximum Speed</strong> 150 ft. (current) or 60 ft. (muscle); <strong>Acceleration</strong> 30 ft. (current) or 15 ft. (muscle)
+<strong>CMB</strong> +8; <strong>CMD</strong> 18
+<strong>Ramming Damage</strong>8d8</p>
+</div>
+<div class="section" id="id46">
+<h3><a class="toc-backref" href="#id137">Description</a><a class="headerlink" href="#id46" title="Permalink to this headline">¶</a></h3>
+<p>This ship is treated with reinforced wood, and is used for short-distance forays and troop deployment.  A warship can carry 50 tons of cargo or 160 soldiers.
+<strong>Propulsion</strong> current (air and water; one mast, 160 squares of sails, hp 800) or muscle (pushed; 80 Medium rowers)
+<strong>Driving Check</strong> <a class="reference internal" href="corerulebook.skills.profession.html#corerulebook-skills-profession-profession"><span class="std std-ref">Profession</span></a> (sailor) or <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (nature) +10 to the DC
+<strong>Forward Facing</strong> the ship’s forward
+<strong>Driving Device</strong> steering wheel
+<strong>Driving Space</strong> the nine squares around the steering wheel, typically located in the aft of the ship
+<strong>Crew</strong> 60
+<strong>Decks</strong> 2
+<strong>Weapons</strong> Up to 20 Large direct-fire siege engines in banks of 10 positioned on the port and starboard sides of the ship, or up to six Huge direct-fire siege engines in banks of three on the port and starboard sides of the ship. The siege engines may only fire out the sides of the ship they are positioned on. They cannot be swiveled to fire toward the forward or aft sides of the ship. These weapons cannot be used while the warship is being rowed.</p>
+</div>
+</div>
+<div class="section" id="air-vehicles">
+<span id="ultimatecombat-ultimatecombatvehicles-air-vehicles"></span><h2><a class="toc-backref" href="#id138">Air Vehicles</a><a class="headerlink" href="#air-vehicles" title="Permalink to this headline">¶</a></h2>
+<p>Air vehicles fly through the air. They are usually propelled by air currents, alchemical engines, magic, or in the case of larger air vehicles, a mix of air currents and alchemical engines or magic. Airships, because of their nature, travel though all three dimensions instead of two. When they ascend, they must do so at half their current speed. When air vehicles descend, they can (but do not have to) move at double their current speed. After the ascent or descent, treat the vehicle’s current speed as it was before making the ascent or descent.</p>
+<div class="section" id="airship">
+<span id="ultimatecombat-ultimatecombatvehicles-airship"></span><h3><a class="toc-backref" href="#id139">Airship</a><a class="headerlink" href="#airship" title="Permalink to this headline">¶</a></h3>
+<p>Colossal air vehicle
+<strong>Squares</strong>48 (20 ft. by 60 ft.); <strong>Cost</strong> 50,000 gp</p>
+</div>
+<div class="section" id="id47">
+<h3><a class="toc-backref" href="#id140">Defense</a><a class="headerlink" href="#id47" title="Permalink to this headline">¶</a></h3>
+<p><strong>AC</strong> 2; <strong>Hardness</strong> 5
+<strong>hp</strong> 720 (359)
+<strong>Base Save</strong> +0</p>
+</div>
+<div class="section" id="id48">
+<h3><a class="toc-backref" href="#id141">Offense</a><a class="headerlink" href="#id48" title="Permalink to this headline">¶</a></h3>
+<p><strong>Maximum Speed</strong> 100 ft.; <strong>Acceleration</strong> 30 ft.
+<strong>CMB</strong> +8; <strong>CMD</strong> 18
+<strong>Ramming Damage</strong>8d8</p>
+</div>
+<div class="section" id="id49">
+<h3><a class="toc-backref" href="#id142">Description</a><a class="headerlink" href="#id49" title="Permalink to this headline">¶</a></h3>
+<p>This exotic and expensive vehicle is held aloft by a massive balloon connected by chain to a ship that hangs below. This ship is similar to a sailing ship, complete with an open top, and is propelled by an easily controlled magical engine. Passengers and cargo are carried in the ship. An airship can carry 30 tons of cargo or 100 passengers.
+<strong>Propulsion</strong> current (air; 90 squares of dirigible, hp 450) and magic
+<strong>Driving Check</strong> none (magic)
+<strong>Forward Facing</strong> the ship’s forward
+<strong>Driving Device</strong> magic item
+<strong>Driving Space</strong> the nine squares around the controlling magic item that sits at the front of the ship
+<strong>Crew</strong> 0
+<strong>Decks</strong> 2
+<strong>Weapons</strong> Up to 6 Large direct-fire siege engines in banks of 3 positioned on the port and starboard sides of the airship, or up to 4 Huge direct-fire siege engines in banks of two on the port and starboard sides of the ship. The siege engines may only fire out the sides of the ship they are positioned on. They cannot be swiveled to fire toward the forward or aft sides of the ship.</p>
+</div>
+<div class="section" id="alchemical-dragon">
+<span id="ultimatecombat-ultimatecombatvehicles-alchemical-dragon"></span><h3><a class="toc-backref" href="#id143">Alchemical Dragon</a><a class="headerlink" href="#alchemical-dragon" title="Permalink to this headline">¶</a></h3>
+<p>Colossal air vehicle
+<strong>Squares</strong>60 (20 ft. by 75 ft.); <strong>Cost</strong> 100,000 gp</p>
+</div>
+<div class="section" id="id50">
+<h3><a class="toc-backref" href="#id144">Defense</a><a class="headerlink" href="#id50" title="Permalink to this headline">¶</a></h3>
+<p><strong>AC</strong> 2; <strong>Hardness</strong> 5
+<strong>hp</strong> 900 (449)
+<strong>Base Save</strong> +0</p>
+</div>
+<div class="section" id="id51">
+<h3><a class="toc-backref" href="#id145">Offense</a><a class="headerlink" href="#id51" title="Permalink to this headline">¶</a></h3>
+<p><strong>Maximum Speed</strong> 100 ft.; <strong>Acceleration</strong> 30 ft.
+<strong>CMB</strong> +8; <strong>CMD</strong> 18
+<strong>Ramming Damage</strong>8d8</p>
+</div>
+<div class="section" id="id52">
+<h3><a class="toc-backref" href="#id146">Description</a><a class="headerlink" href="#id52" title="Permalink to this headline">¶</a></h3>
+<p>This ship is made of wood and is usually crafted in the shape of a dragon. It is held aloft purely by its alchemical engine, a complicated and dangerous device that has a tendency to explode when the vehicle becomes wrecked. When this happens, if the alchemical dragon has a driver, that driver can make a DC 30 driving check as an immediate action. If the check fails, the alchemical engine explodes, dealing 10d10 points of fire damage to all objects and creatures within a 60-foot radius of the alchemical engine. A DC 20 Reflex save halves the damage. An alchemical dragon can carry up to 20 tons of cargo or 70 passengers.
+<strong>Propulsion</strong> alchemical (6 squares of alchemical engines in the middle of the ship; hardness 8, hp 120)
+<strong>Driving Check</strong> <a class="reference internal" href="corerulebook.skills.craft.html#corerulebook-skills-craft-craft"><span class="std std-ref">Craft</span></a> (alchemy) or <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (arcana) +10 to the DC
+<strong>Forward Facing</strong> the ship’s forward
+<strong>Driving Device</strong> steering wheel
+<strong>Driving Space</strong> the nine squares around the steering wheel that sits at the front of the ship
+<strong>Crew</strong> 10
+<strong>Decks</strong> 1
+<strong>Weapons</strong> Up to 6 Large direct-fire siege engines in banks of 3 positioned on the port and starboard sides of the alchemical <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-dragon"><span class="std std-ref">dragon</span></a>, or up to 4 Huge direct-fire siege engines in banks of two on the port and starboard sides of the ship. The siege engines may only fire out the sides of the ship they are positioned on. They cannot be swiveled to fire toward the forward or aft sides of the ship.</p>
+</div>
+<div class="section" id="glider">
+<span id="ultimatecombat-ultimatecombatvehicles-glider"></span><h3><a class="toc-backref" href="#id147">Glider</a><a class="headerlink" href="#glider" title="Permalink to this headline">¶</a></h3>
+<p>Large air vehicle
+<strong>Squares</strong>4 (10 ft. by 10 ft.); <strong>Cost</strong> 500 gp</p>
+</div>
+<div class="section" id="id53">
+<h3><a class="toc-backref" href="#id148">Defense</a><a class="headerlink" href="#id53" title="Permalink to this headline">¶</a></h3>
+<p><strong>AC</strong> 9; <strong>Hardness</strong> 0 (takes double damage from acid and fire attacks)
+<strong>hp</strong> 20 (9)
+<strong>Base Save</strong> +0</p>
+</div>
+<div class="section" id="id54">
+<h3><a class="toc-backref" href="#id149">Offense</a><a class="headerlink" href="#id54" title="Permalink to this headline">¶</a></h3>
+<p><strong>Maximum Speed</strong> 80 ft.; <strong>Acceleration</strong> 10 ft. (30 ft. when it first pushes off)
+<strong>CMB</strong> +1; <strong>CMD</strong> 11
+<strong>Ramming Damage</strong>1d8</p>
+</div>
+<div class="section" id="id55">
+<h3><a class="toc-backref" href="#id150">Description</a><a class="headerlink" href="#id55" title="Permalink to this headline">¶</a></h3>
+<p>A glider is basically a large piece of sail stretched out with a frame and connected to a handhold and straps. The only way to get a glider flying is to jump off a steep incline, allowing the glider to pick up the air current.
+<strong>Propulsion</strong> current (air; four squares of sail, which serve as the majority of the vehicle, hp 20)
+<strong>Driving Check</strong> <a class="reference internal" href="corerulebook.skills.fly.html#corerulebook-skills-fly-fly"><span class="std std-ref">Fly</span></a> or <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a> +10 to the DC</p>
+</div>
+</div>
+<div class="section" id="maneuvering-a-vehicle">
+<span id="ultimatecombat-ultimatecombatvehicles-maneuvering-a-vehicle"></span><h2><a class="toc-backref" href="#id151">Maneuvering a Vehicle</a><a class="headerlink" href="#maneuvering-a-vehicle" title="Permalink to this headline">¶</a></h2>
+<p>The wagon in this diagram may move in the forward direction if it succeeds at or fails a driving check when the driver “accelerates,” “decelerates,” “keeps it going,” or “turns” the vehicle. It must move in this direction if it is “uncontrolled.” The wagon may move forward diagonally (either left or right) if the driver succeeds at an “accelerate” or “keep it going” driving check, or if the driver succeeds at or fails a “decelerate” or “turn” driving check. It cannot move forward diagonally if it fails an “accelerate” or “keep it going” driving check or if the vehicle is “uncontrolled.”
+If a vehicle can move forward diagonally, it can move directly forward and any direction forward diagonally, and can even mix its diagonal movement in any direction, allowing it to swerve and even zigzag if the driver so desires.</p>
+</div>
+<div class="section" id="turning-a-vehicle">
+<span id="ultimatecombat-ultimatecombatvehicles-turning-a-vehicle"></span><h2><a class="toc-backref" href="#id152">Turning a Vehicle</a><a class="headerlink" href="#turning-a-vehicle" title="Permalink to this headline">¶</a></h2>
+<p>The wagon in this diagram is performing a left turn after moving forward. When the vehicle makes the turn, pick up the vehicle and place it in the new space, making vehicular maneuvers only once, as if this repositioning was the vehicle’s only movement into its new space.
+In order to accomplish this maneuver the driver must succeed at a driving check when making a “turn” action. If she does not succeed at the check, the vehicle can only move forward or forward diagonally.</p>
+</div>
+<div class="section" id="optional-rule-wide-turns">
+<span id="id56"></span><h2><a class="toc-backref" href="#id153">Optional Rule: Wide Turns</a><a class="headerlink" href="#optional-rule-wide-turns" title="Permalink to this headline">¶</a></h2>
+<p>The rules for turning a vehicle are a simple way of getting vehicles to turn on a grid, but when a vehicle turns, it doesn’t do so sharply, even when powered by magic; vehicles rarely make turns evenly. If this simple system involves too much abstraction, you can have vehicles make wide turns.
+Have the driver make a driving check as usual. If she succeeds at the check, she can turn the vehicle. When a vehicle makes a turn, it has a chance to make a vehicular overrun or ramming maneuver on any creature within the turning area, which is a square with sides equal to the vehicle’s length, with one vertex touching the front facing of the vehicle on the side opposite to the direction of the turn. In other words, put the square with one side running along the vehicle’s front, perpendicular to its forward facing, and another running the direction of its current forward facing. Place the square so its far corner is within the desired destination of the vehicle. If the turn is successful, the vehicle ends this movement in that area, facing toward the direction of the turn.
+The vehicle then makes either vehicular overruns or vehicular bull rushes (if the driver makes the required swift action) on all creatures and objects within the square that are smaller than it, and makes ramming maneuvers on all creatures and objects that are larger than it, including solid objects. It takes a –10 penalty on the vehicular bull rush and vehicular overrun maneuvers. The driver can choose to make these in any order she likes. She makes them one at a time (even after the vehicle is wrecked or comes to a sudden stop), and all effects are cumulative. If the vehicle is wrecked or comes to a sudden stop, the GM decides the final resting location within the turning area, picking the most plausible location given the effects.
+For instance, if the square has two objects larger than the vehicle and three creatures smaller than it, and the driver decides to make the ramming maneuver on the objects first, and then is wrecked during the ramming maneuver on the second object, the vehicle still makes the vehicular overruns on the other two creatures. It ends in a location of the GM’s choosing.</p>
+</div>
+<div class="section" id="propulsion-devices">
+<span id="ultimatecombat-ultimatecombatvehicles-propulsion-devices"></span><h2><a class="toc-backref" href="#id154">Propulsion Devices</a><a class="headerlink" href="#propulsion-devices" title="Permalink to this headline">¶</a></h2>
+<p>Squares of propulsion devices have their own statistics, separate from the vehicle’s. Use the following rules to determine those statistics.</p>
+<p id="ultimatecombat-ultimatecombatvehicles-alchemical-engine"><strong>Alchemical Engine</strong>: Harvesting the power of steam or some other alchemical reaction, these engines are typically reinforced and difficult to destroy. They can be disabled, and are considered either difficult or extreme devices (<em>Core Rulebook</em> 94) based on the complexity of the device.</p>
+<p id="ultimatecombat-ultimatecombatvehicles-creature"><strong>Creature</strong>: A creature used as propulsion uses its own statistics. During movement and the effects of any combat maneuver, pulling creatures’ spaces are considered vehicle spaces to determine the effects of vehicle maneuvers. Creatures pulling a vehicle can be arranged in teams. This means two creatures of the same type and same size can occupy the same space to pull a vehicle.</p>
+<p id="ultimatecombat-ultimatecombatvehicles-dirigible"><strong>Dirigible</strong>: Lighter-than-air alchemical gases can be harnessed to give a vehicle flight. Dirigibles are often easier to destroy than the vehicle they convey. Dirigibles have 5 hit points per square and no hardness. They take double the normal damage from acid, electricity, and fire attacks (multiply the damage roll by 2).</p>
+<p id="ultimatecombat-ultimatecombatvehicles-magic-item"><strong>Magic Item</strong>: Like a creature, a magic item uses its own item statistics.</p>
+<p id="ultimatecombat-ultimatecombatvehicles-sails"><strong>Sails</strong>: Used on magically or alchemically powered airships and on any fast-moving water vehicle, sails are often weaker than the vessels they propel, though they are relatively easy to repair. Taking out the sails is a good way to capture a vessel. Sails have 5 hit points per square and no hardness. They take double the normal damage from acid and fire attacks (multiply the damage roll by 2). While the sails have rigging, such rigging manipulated by the crew, and as such are not considered not driving devices.</p>
+<table border="1" class="colwidths-auto contrast-reading-table docutils">
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Material</th>
+<th class="head">Hit Points per Square</th>
+<th class="head">Hardness</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Sails</td>
+<td>5</td>
+<td>0</td>
+</tr>
+<tr class="row-odd"><td>Dirigible</td>
+<td>5</td>
+<td>0</td>
+</tr>
+<tr class="row-even"><td>Alchemical Engine</td>
+<td>20</td>
+<td>8</td>
+</tr>
+<tr class="row-odd"><td>Magically Treated</td>
+<td>×2</td>
+<td>×2</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="driving-devices">
+<span id="ultimatecombat-ultimatecombatvehicles-driving-devices"></span><h2><a class="toc-backref" href="#id155">Driving Devices</a><a class="headerlink" href="#driving-devices" title="Permalink to this headline">¶</a></h2>
+<p>The following are some of the typical driving devices for vehicles, plus their usual Armor Class, hit points, and hardness. A broken driving device increases the driving check of the vehicle by 10. When a driving device is destroyed, a vehicle cannot be driven until the driving device is repaired.</p>
+<table border="1" class="colwidths-auto contrast-reading-table docutils">
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Driving Device</th>
+<th class="head">AC</th>
+<th class="head">Hit Points</th>
+<th class="head">Hardness</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Reins</td>
+<td>14</td>
+<td>10</td>
+<td>0</td>
+</tr>
+<tr class="row-odd"><td>Rigging</td>
+<td>9</td>
+<td>5 per square of sail</td>
+<td>0</td>
+</tr>
+<tr class="row-even"><td>Steering Wheel</td>
+<td>10</td>
+<td>25</td>
+<td>5</td>
+</tr>
+<tr class="row-odd"><td>Throttle</td>
+<td>12</td>
+<td>15</td>
+<td>5</td>
+</tr>
+<tr class="row-even"><td>Rudder</td>
+<td>10</td>
+<td>25</td>
+<td>5</td>
+</tr>
+<tr class="row-odd"><td>Magically Treated</td>
+<td>—</td>
+<td>×2</td>
+<td>×2</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+</body>

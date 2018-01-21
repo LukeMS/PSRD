@@ -1,0 +1,138 @@
+
+.. _`bestiary.ape`:
+
+.. contents:: \ 
+
+.. _`bestiary.ape#ape_gorilla`:
+
+Ape, Gorilla
+*************
+
+\ *Large, deep-set eyes peer from beneath this great ape's thick brow as it lumbers forward on its legs and knuckles.*
+
+.. _`bestiary.ape#gorilla`:
+
+Gorilla
+========
+
+**CR 2** 
+
+\ **XP 600**
+
+N Large :ref:`animal <bestiary.creaturetypes#animal>`
+
+\ **Init**\  +2; \ **Senses**\  low-light vision, scent; :ref:`Perception <corerulebook.skills.perception#perception>`\  +8
+
+.. _`bestiary.ape#defense`:
+
+Defense
+========
+
+\ **AC**\  14, touch 11, flat-footed 12; (+2 Dex, +3 natural, –1 size)
+
+\ **hp**\  19 (3d8+6)
+
+\ **Fort**\  +7, \ **Ref**\  +5, \ **Will**\  +2
+
+.. _`bestiary.ape#offense`:
+
+Offense
+========
+
+\ **Speed**\  30 ft., climb 30 ft.
+
+\ **Melee**\  2 slams +3 (1d6+2)
+
+\ **Space**\  10 ft.; \ **Reach**\  10 ft.
+
+.. _`bestiary.ape#statistics`:
+
+Statistics
+===========
+
+\ **Str**\  15, \ **Dex**\  15, \ **Con**\  14, \ **Int**\  2, \ **Wis**\  12, \ **Cha**\  7
+
+\ **Base**\  \ **Atk**\  +2; \ **CMB**\  +5; \ **CMD**\  17
+
+\ **Feats**\  :ref:`Great Fortitude <corerulebook.feats#great_fortitude>`\ , :ref:`Skill Focus <corerulebook.feats#skill_focus>`\  (:ref:`Perception <corerulebook.skills.perception#perception>`\ )
+
+\ **Skills**\  :ref:`Acrobatics <corerulebook.skills.acrobatics#acrobatics>`\  +6, :ref:`Climb <corerulebook.skills.climb#climb>`\  +14, :ref:`Perception <corerulebook.skills.perception#perception>`\  +8
+
+.. _`bestiary.ape#ecology`:
+
+Ecology
+========
+
+\ **Environment**\  warm forests
+
+\ **Organization**\  solitary, pair, or troop (3–12)
+
+\ **Treasure**\  none
+
+An adult male ape is 8 feet tall and can weigh as much as 400 pounds. While generally shy and peaceful creatures when left to their own business, gorillas are territorial and become highly aggressive when provoked. This stat block can generally be used for any of the larger types of primates, such as gorillas—for smaller apes like orangutans and chimpanzees, apply the young simple template. Even smaller primates should use the stats for :ref:`monkeys <bestiary.familiar#monkey>`\ .
+
+Gorillas typically make a large show of force before actually attacking, thumping their chests with their palms, stamping their feet, and roaring loudly. Any opponents who refuse to flee after this display are attacked. Troops of apes fight together in a frenzy, tearing opponents to pieces with their hands and teeth.
+
+.. _`bestiary.ape#ape_dire`:
+
+Ape, Dire
+**********
+
+\ *Sharp teeth fill this large, feral ape's mouth, and its long, muscular arms stretch to the ground, ending in wickedly curved claws.*
+
+.. _`bestiary.ape#dire_ape_(gigantopithecus)`:
+
+Dire Ape (Gigantopithecus)
+===========================
+
+**CR 3** 
+
+\ **XP 800**
+
+N Large :ref:`animal <bestiary.creaturetypes#animal>`
+
+\ **Init**\  +2; \ **Senses**\  low-light vision, scent; :ref:`Perception <corerulebook.skills.perception#perception>`\  +8
+
+Defense
+========
+
+\ **AC**\  15, touch 11, flat-footed 13; (+2 Dex, +4 natural, –1 size)
+
+\ **hp**\  30 (4d8+12)
+
+\ **Fort**\  +7, \ **Ref**\  +6, \ **Will**\  +4
+
+Offense
+========
+
+\ **Speed**\  30 ft., climb 30 ft.
+
+\ **Melee**\  bite +6 (1d6+4), 2 claws +6 (1d4+4)
+
+\ **Space**\  10 ft.; \ **Reach**\  10 ft.
+
+\ **Special Attacks**\  :ref:`rend <bestiary.universalmonsterrules#rend>`\  (2 claws, 1d4+6)
+
+Statistics
+===========
+
+\ **Str**\  19, \ **Dex**\  15, \ **Con**\  16, \ **Int**\  2, \ **Wis**\  12, \ **Cha**\  7
+
+\ **Base Atk**\  +3; \ **CMB**\  +8; \ **CMD**\  20
+
+\ **Feats**\  :ref:`Iron Will <corerulebook.feats#iron_will>`\ , :ref:`Skill Focus <corerulebook.feats#skill_focus>`\  (:ref:`Perception <corerulebook.skills.perception#perception>`\ )
+
+\ **Skills**\  :ref:`Acrobatics <corerulebook.skills.acrobatics#acrobatics>`\  +6, :ref:`Climb <corerulebook.skills.climb#climb>`\  +16, :ref:`Perception <corerulebook.skills.perception#perception>`\  +8, :ref:`Stealth <corerulebook.skills.stealth#stealth>`\  +2
+
+Ecology
+========
+
+\ **Environment**\  warm forests
+
+\ **Organization**\  solitary, pair, or troop (3–6)
+
+\ **Treasure**\  incidental
+
+Known to many scholars as the gigantopithecus, the dire ape is a much more dangerous and bestial creature than the relatively peaceful gorilla. An adult male dire ape stands 9 feet tall and weighs 1,200 pounds. The dire ape attacks anything that intrudes on its territory, including other dire apes not of its troop, and does not break off the attack until the trespasser is dead or runs off.
+
+A dire ape makes no displays of toughness or warnings before it attacks—it simply leaps into action with little or no provocation, tearing at its opponents with claws and teeth. If a dire ape is stymied by a heavily armored foe, it attempts to grapple its foe, pin it to the ground, and rend it.

@@ -1,0 +1,975 @@
+
+
+
+
+
+<head>
+    <link rel="stylesheet" href="_static/srd.css" type="text/css" />
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/toggle_list.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+
+
+
+<body>
+    <div class="contents topic" id="id1">
+<span id="npccodex-core-barbarian"></span><p class="topic-title first"></p>
+<ul class="simple">
+<li><a class="reference internal" href="#barbarians" id="id78">Barbarians</a><ul>
+<li><a class="reference internal" href="#savage-mercenary" id="id79">Savage Mercenary</a></li>
+<li><a class="reference internal" href="#defense" id="id80">Defense</a></li>
+<li><a class="reference internal" href="#offense" id="id81">Offense</a></li>
+<li><a class="reference internal" href="#tactics" id="id82">Tactics</a></li>
+<li><a class="reference internal" href="#statistics" id="id83">statistics</a></li>
+<li><a class="reference internal" href="#arjana" id="id84">Arjana</a></li>
+<li><a class="reference internal" href="#dwarven-rager" id="id85">Dwarven Rager</a></li>
+<li><a class="reference internal" href="#id2" id="id86">Defense</a></li>
+<li><a class="reference internal" href="#id3" id="id87">Offense</a></li>
+<li><a class="reference internal" href="#id4" id="id88">Tactics</a></li>
+<li><a class="reference internal" href="#id5" id="id89">statistics</a></li>
+<li><a class="reference internal" href="#axe-warrior" id="id90">Axe Warrior</a></li>
+<li><a class="reference internal" href="#id6" id="id91">Defense</a></li>
+<li><a class="reference internal" href="#id7" id="id92">Offense</a></li>
+<li><a class="reference internal" href="#id8" id="id93">Tactics</a></li>
+<li><a class="reference internal" href="#id9" id="id94">statistics</a></li>
+<li><a class="reference internal" href="#dog-rider" id="id95">Dog Rider</a></li>
+<li><a class="reference internal" href="#id10" id="id96">Defense</a></li>
+<li><a class="reference internal" href="#id11" id="id97">Offense</a></li>
+<li><a class="reference internal" href="#id12" id="id98">Tactics</a></li>
+<li><a class="reference internal" href="#id13" id="id99">statistics</a></li>
+<li><a class="reference internal" href="#wild-lancer" id="id100">Wild Lancer</a></li>
+<li><a class="reference internal" href="#id14" id="id101">Defense</a></li>
+<li><a class="reference internal" href="#id15" id="id102">Offense</a></li>
+<li><a class="reference internal" href="#id16" id="id103">Tactics</a></li>
+<li><a class="reference internal" href="#id17" id="id104">statistics</a></li>
+<li><a class="reference internal" href="#forest-guardian" id="id105">Forest Guardian</a></li>
+<li><a class="reference internal" href="#id18" id="id106">Defense</a></li>
+<li><a class="reference internal" href="#id19" id="id107">Offense</a></li>
+<li><a class="reference internal" href="#id20" id="id108">Tactics</a></li>
+<li><a class="reference internal" href="#id21" id="id109">Statistics</a></li>
+<li><a class="reference internal" href="#sundering-axe" id="id110">Sundering Axe</a></li>
+<li><a class="reference internal" href="#id22" id="id111">Defense</a></li>
+<li><a class="reference internal" href="#id23" id="id112">Offense</a></li>
+<li><a class="reference internal" href="#id24" id="id113">Tactics</a></li>
+<li><a class="reference internal" href="#id25" id="id114">statistics</a></li>
+<li><a class="reference internal" href="#glaive-rager" id="id115">Glaive Rager</a></li>
+<li><a class="reference internal" href="#id26" id="id116">Defense</a></li>
+<li><a class="reference internal" href="#id27" id="id117">Offense</a></li>
+<li><a class="reference internal" href="#id28" id="id118">Tactics</a></li>
+<li><a class="reference internal" href="#id29" id="id119">Statistics</a></li>
+<li><a class="reference internal" href="#raging-swimmer" id="id120">Raging Swimmer</a></li>
+<li><a class="reference internal" href="#id30" id="id121">Defense</a></li>
+<li><a class="reference internal" href="#id31" id="id122">Offense</a></li>
+<li><a class="reference internal" href="#id32" id="id123">Tactics</a></li>
+<li><a class="reference internal" href="#id33" id="id124">Statistics</a></li>
+<li><a class="reference internal" href="#dorremera-salin" id="id125">Dorremera Salin</a></li>
+<li><a class="reference internal" href="#cannibalistic-hunter" id="id126">Cannibalistic Hunter</a></li>
+<li><a class="reference internal" href="#id34" id="id127">Defense</a></li>
+<li><a class="reference internal" href="#id35" id="id128">Offense</a></li>
+<li><a class="reference internal" href="#id36" id="id129">Tactics</a></li>
+<li><a class="reference internal" href="#id37" id="id130">Statistics</a></li>
+<li><a class="reference internal" href="#lanani-shabu" id="id131">Lanani Shabu</a></li>
+<li><a class="reference internal" href="#double-axe-fury" id="id132">Double Axe Fury</a></li>
+<li><a class="reference internal" href="#id38" id="id133">Defense</a></li>
+<li><a class="reference internal" href="#id39" id="id134">Offense</a></li>
+<li><a class="reference internal" href="#id40" id="id135">Tactics</a></li>
+<li><a class="reference internal" href="#id41" id="id136">Statistics</a></li>
+<li><a class="reference internal" href="#graun-quor" id="id137">Graun Quor</a></li>
+<li><a class="reference internal" href="#giant-slayer" id="id138">Giant Slayer</a></li>
+<li><a class="reference internal" href="#id42" id="id139">Defense</a></li>
+<li><a class="reference internal" href="#id43" id="id140">Offense</a></li>
+<li><a class="reference internal" href="#id44" id="id141">Tactics</a></li>
+<li><a class="reference internal" href="#id45" id="id142">Statistics</a></li>
+<li><a class="reference internal" href="#jemar-crowell" id="id143">Jemar Crowell</a></li>
+<li><a class="reference internal" href="#savage-rider" id="id144">Savage Rider</a></li>
+<li><a class="reference internal" href="#id46" id="id145">Defense</a></li>
+<li><a class="reference internal" href="#id47" id="id146">Offense</a></li>
+<li><a class="reference internal" href="#id48" id="id147">Tactics</a></li>
+<li><a class="reference internal" href="#id49" id="id148">statistics</a></li>
+<li><a class="reference internal" href="#finnogh-llew" id="id149">Finnogh Llew</a></li>
+<li><a class="reference internal" href="#arcane-experimenter" id="id150">Arcane Experimenter</a></li>
+<li><a class="reference internal" href="#id50" id="id151">Defense</a></li>
+<li><a class="reference internal" href="#id51" id="id152">Offense</a></li>
+<li><a class="reference internal" href="#id52" id="id153">Tactics</a></li>
+<li><a class="reference internal" href="#id53" id="id154">Statistics</a></li>
+<li><a class="reference internal" href="#krida-grichenwald" id="id155">Krida Grichenwald</a></li>
+<li><a class="reference internal" href="#life-stealer" id="id156">Life Stealer</a></li>
+<li><a class="reference internal" href="#id54" id="id157">Defense</a></li>
+<li><a class="reference internal" href="#id55" id="id158">Offense</a></li>
+<li><a class="reference internal" href="#id56" id="id159">Tactics</a></li>
+<li><a class="reference internal" href="#id57" id="id160">statistics</a></li>
+<li><a class="reference internal" href="#xavier-durant" id="id161">Xavier Durant</a></li>
+<li><a class="reference internal" href="#undead-hunter" id="id162">Undead Hunter</a></li>
+<li><a class="reference internal" href="#id58" id="id163">Defense</a></li>
+<li><a class="reference internal" href="#id59" id="id164">Offense</a></li>
+<li><a class="reference internal" href="#id60" id="id165">Tactics</a></li>
+<li><a class="reference internal" href="#id61" id="id166">statistics</a></li>
+<li><a class="reference internal" href="#torain-mirno" id="id167">Torain Mirno</a></li>
+<li><a class="reference internal" href="#graceful-slayer" id="id168">Graceful Slayer</a></li>
+<li><a class="reference internal" href="#id62" id="id169">Defense</a></li>
+<li><a class="reference internal" href="#id63" id="id170">Offense</a></li>
+<li><a class="reference internal" href="#id64" id="id171">Tactics</a></li>
+<li><a class="reference internal" href="#id65" id="id172">statistics</a></li>
+<li><a class="reference internal" href="#sibusiswe-njai" id="id173">Sibusiswe Njai</a></li>
+<li><a class="reference internal" href="#refined-reaver" id="id174">Refined Reaver</a></li>
+<li><a class="reference internal" href="#id66" id="id175">Defense</a></li>
+<li><a class="reference internal" href="#id67" id="id176">Offense</a></li>
+<li><a class="reference internal" href="#id68" id="id177">Tactics</a></li>
+<li><a class="reference internal" href="#id69" id="id178">statistics</a></li>
+<li><a class="reference internal" href="#death-dealer" id="id179">Death Dealer</a></li>
+<li><a class="reference internal" href="#id70" id="id180">Defense</a></li>
+<li><a class="reference internal" href="#id71" id="id181">Offense</a></li>
+<li><a class="reference internal" href="#id72" id="id182">Tactics</a></li>
+<li><a class="reference internal" href="#id73" id="id183">statistics</a></li>
+<li><a class="reference internal" href="#scarred-wanderer" id="id184">Scarred Wanderer</a></li>
+<li><a class="reference internal" href="#id74" id="id185">Defense</a></li>
+<li><a class="reference internal" href="#id75" id="id186">Offense</a></li>
+<li><a class="reference internal" href="#id76" id="id187">Tactics</a></li>
+<li><a class="reference internal" href="#id77" id="id188">statistics</a></li>
+<li><a class="reference internal" href="#gorgu-stonesplitter" id="id189">Gorgu Stonesplitter</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="barbarians">
+<span id="npccodex-core-barbarian-barbarians"></span><h1><a class="toc-backref" href="#id78">Barbarians</a><a class="headerlink" href="#barbarians" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="savage-mercenary">
+<span id="npccodex-core-barbarian-savage-mercenary"></span><h2><a class="toc-backref" href="#id79">Savage Mercenary</a><a class="headerlink" href="#savage-mercenary" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 1/2</strong></p>
+<p><strong>XP</strong> 200</p>
+<p><strong>Human barbarian</strong> 1</p>
+<p>CN Medium humanoid (human)</p>
+<p><strong>Init</strong> +1; <strong>Senses</strong> Perception +5</p>
+</div>
+<div class="section" id="defense">
+<span id="npccodex-core-barbarian-defense"></span><h2><a class="toc-backref" href="#id80">Defense</a><a class="headerlink" href="#defense" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 15, touch 9, flat-footed 14 (+6 armor, +1 Dex, â2 rage)</p>
+<p><strong>hp</strong> 17 (1d12+5)</p>
+<p><strong>Fort</strong> +6, <strong>Ref</strong> +1, <strong>Will</strong> +3</p>
+</div>
+<div class="section" id="offense">
+<span id="npccodex-core-barbarian-offense"></span><h2><a class="toc-backref" href="#id81">Offense</a><a class="headerlink" href="#offense" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 30 ft.</p>
+<p><strong>Melee</strong> greatsword +6 (2d6+7/19â20) orheavy flail +6 (1d10+7/19â20)</p>
+<p><strong>Special Attacks</strong> rage (6 rounds/day)</p>
+</div>
+<div class="section" id="tactics">
+<span id="npccodex-core-barbarian-tactics"></span><h2><a class="toc-backref" href="#id82">Tactics</a><a class="headerlink" href="#tactics" title="Permalink to this headline">¶</a></h2>
+<p><strong>During Combat</strong> The barbarian favors her greatsword and <a class="reference internal" href="corerulebook.feats.html#power attack (combat)"><span class="std std-ref">Power Attack</span></a> when fighting monsters, but uses her flail against weapon-using foes to make disarm and trip combat maneuvers.</p>
+<p><strong>Base Statistics</strong> When not raging, the barbarian’s statistics are <strong>AC</strong> 17, touch 11, flat-footed 16; <strong>hp</strong> 15; <strong>Fort</strong> +4, <strong>Will</strong>+1; <strong>Melee</strong> greatsword +4 (2d6+4/19â20) or heavy flail +4 (1d10+4/19â20); <strong>Ranged</strong> sling +2 (1d4+3); <strong>Str</strong> 17, <strong>Con</strong> 14; <strong>CMB</strong> +4; <strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> +3, <a class="reference internal" href="corerulebook.skills.swim.html#corerulebook-skills-swim-swim"><span class="std std-ref">Swim</span></a> +3.</p>
+</div>
+<div class="section" id="statistics">
+<span id="npccodex-core-barbarian-statistics"></span><h2><a class="toc-backref" href="#id83">statistics</a><a class="headerlink" href="#statistics" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 21, <strong>Dex</strong> 13, <strong>Con</strong> 18, <strong>Int</strong> 10, <strong>Wis</strong> 12, <strong>Cha</strong> 8</p>
+<p><strong>Base Atk</strong> +1; <strong>CMB</strong> +6; <strong>CMD</strong> 15</p>
+<p><strong>Feats</strong> Cleave, <a class="reference internal" href="corerulebook.feats.html#power attack (combat)"><span class="std std-ref">Power Attack</span></a></p>
+<p><strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> +5, <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (nature) +4, Perception +5, <a class="reference internal" href="corerulebook.skills.survival.html#corerulebook-skills-survival-survival"><span class="std std-ref">Survival</span></a> +5, <a class="reference internal" href="corerulebook.skills.swim.html#corerulebook-skills-swim-swim"><span class="std std-ref">Swim</span></a> +5</p>
+<p><strong>Languages</strong> Common</p>
+<p><strong>SQ</strong> fast movement</p>
+<p><strong>Combat Gear</strong>potion of <a class="reference internal" href="corerulebook.spells.curelightwounds.html#corerulebook-spells-curelightwounds-cure-light-wounds"><span class="std std-ref">cure light wounds</span></a>, potion of <a class="reference internal" href="corerulebook.spells.removefear.html#corerulebook-spells-removefear-remove-fear"><span class="std std-ref">remove fear</span></a>, alchemist’s fire; <strong>Other Gear</strong> breastplate, greatsword, heavy flail, sling with 10 bullets, 5 gp</p>
+<p>This cold, merciless barbarian fights for gold and glory.</p>
+</div>
+<div class="section" id="arjana">
+<span id="npccodex-core-barbarian-arjana"></span><h2><a class="toc-backref" href="#id84">Arjana</a><a class="headerlink" href="#arjana" title="Permalink to this headline">¶</a></h2>
+<p>This mercenary once roamed the wilderness, but now fights to pay for the comforts of civilization.</p>
+</div>
+<div class="section" id="dwarven-rager">
+<span id="npccodex-core-barbarian-dwarven-rager"></span><h2><a class="toc-backref" href="#id85">Dwarven Rager</a><a class="headerlink" href="#dwarven-rager" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 1</strong></p>
+<p><strong>XP</strong> 400</p>
+<p><strong>Dwarf barbarian</strong> 2</p>
+<p>CN Medium humanoid (dwarf)</p>
+<p><strong>Init</strong> +2; <strong>Senses</strong> Perception +7</p>
+</div>
+<div class="section" id="id2">
+<h2><a class="toc-backref" href="#id86">Defense</a><a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 18, touch 10, flat-footed 16 (+6 armor, +2 Dex, â2 rage, +2 shield)</p>
+<p><strong>hp</strong> 28 (2d12+10)</p>
+<p><strong>Fort</strong> +7, <strong>Ref</strong> +2, <strong>Will</strong> +4; +2 vs. poison, spells, and spell-like abilities</p>
+<p><strong>Defensive Abilities</strong> defensive training (+4 dodge bonus to AC vs. giants), uncanny dodge</p>
+</div>
+<div class="section" id="id3">
+<h2><a class="toc-backref" href="#id87">Offense</a><a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 30 ft.</p>
+<p><strong>Melee</strong> mwk dwarven waraxe +7 (1d10+4/Ã3) ormwk dwarven waraxe +5 (1d10+4/Ã3), armor spikes +4 (1d6+2) orspiked heavy steel shield +4 (1d8+4)</p>
+<p><strong>Ranged</strong> throwing axe +4 (1d6+4)</p>
+<p><strong>Special Attacks</strong> +1 on attack rolls against goblinoid and orc humanoids, rage (8 rounds/day), rage powers (knockback)</p>
+</div>
+<div class="section" id="id4">
+<h2><a class="toc-backref" href="#id88">Tactics</a><a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
+<p><strong>During Combat</strong> The barbarian uses his shield primarily for defense.</p>
+<p><strong>Base Statistics</strong> When not raging, the barbarian’s statistics are <strong>AC</strong> 20, touch 12, flat-footed 18; <strong>hp</strong> 24; <strong>Fort</strong> +5, <strong>Will</strong>+2; <strong>Melee</strong> mwk dwarven waraxe +5 (1d10+2/Ã3) or mwk dwarven waraxe +3 (1d10+2/Ã3), armor spikes +2 (1d6+1) or spiked heavy shield +2 (1d8+2); <strong>Ranged</strong> throwing axe +4 (1d6+2); <strong>Str</strong> 14, <strong>Con</strong> 15; <strong>CMB</strong> +4; <strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> +1.</p>
+</div>
+<div class="section" id="id5">
+<h2><a class="toc-backref" href="#id89">statistics</a><a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 18, <strong>Dex</strong> 15, <strong>Con</strong> 19, <strong>Int</strong> 10, <strong>Wis</strong> 14, <strong>Cha</strong> 6</p>
+<p><strong>Base Atk</strong> +2; <strong>CMB</strong> +6; <strong>CMD</strong> 16 (20 vs. bull rush or trip)</p>
+<p><strong>Feats</strong> <a class="reference internal" href="corerulebook.feats.html#two-weapon fighting (combat)"><span class="std std-ref">Two-Weapon Fighting</span></a></p>
+<p><strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> +3, <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (dungeoneering, engineering) +2, Perception +7 (+9 to notice unusual stonework), <a class="reference internal" href="corerulebook.skills.survival.html#corerulebook-skills-survival-survival"><span class="std std-ref">Survival</span></a> +6</p>
+<p><strong>Languages</strong> Common, Dwarven</p>
+<p><strong>SQ</strong> fast movement</p>
+<p><strong>Combat Gear</strong> acid; <strong>Other Gear</strong> masterwork breastplate with armor spikes, spiked heavy steel shield, masterwork dwarven waraxe, throwing axe, 2 gp</p>
+<p>The most adventurous, thrill-seeking, and foolhardy dwarves can go a little mad, roaming the land in their search for blood and battle.</p>
+</div>
+<div class="section" id="axe-warrior">
+<span id="npccodex-core-barbarian-axe-warrior"></span><h2><a class="toc-backref" href="#id90">Axe Warrior</a><a class="headerlink" href="#axe-warrior" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 2</strong></p>
+<p><strong>XP</strong> 600</p>
+<p><strong>Half-orc barbarian</strong> 3</p>
+<p>CE Medium humanoid (human, orc)</p>
+<p><strong>Init</strong> +1; <strong>Senses</strong> darkvision 60 ft.; Perception +6</p>
+</div>
+<div class="section" id="id6">
+<h2><a class="toc-backref" href="#id91">Defense</a><a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 15, touch 9, flat-footed 14 (+6 armor, +1 Dex, â2 rage)</p>
+<p><strong>hp</strong> 40 (3d12+15)</p>
+<p><strong>Fort</strong> +7, <strong>Ref</strong> +2, <strong>Will</strong> +3</p>
+<p><strong>Defensive Abilities</strong> orc ferocity, trap sense +1, uncanny dodge</p>
+</div>
+<div class="section" id="id7">
+<h2><a class="toc-backref" href="#id92">Offense</a><a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 30 ft.</p>
+<p><strong>Melee</strong> mwk greataxe +9 (1d12+7/Ã3)</p>
+<p><strong>Ranged</strong> mwk sling +5 (1d4+5)</p>
+<p><strong>Special Attacks</strong> rage (10 rounds/day), rage powers (intimidating glare)</p>
+</div>
+<div class="section" id="id8">
+<h2><a class="toc-backref" href="#id93">Tactics</a><a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h2>
+<p><strong>During Combat</strong> The barbarian uses intimidating glare each round, attacking first, then focusing her glare upon the uninjured.</p>
+<p><strong>Base Statistics</strong> When not raging, the barbarian’s statistics are <strong>AC</strong> 17, touch 11, flat-footed 16; <strong>hp</strong> 34; <strong>Fort</strong> +5, <strong>Will</strong>+1; <strong>Melee</strong> mwk greataxe +7 (1d12+4/Ã3); <strong>Ranged</strong> mwk sling +5 (1d4+3); <strong>Str</strong> 17, <strong>Con</strong> 14; <strong>CMB</strong> +6; <strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> +5, <a class="reference internal" href="corerulebook.skills.intimidate.html#corerulebook-skills-intimidate-intimidate"><span class="std std-ref">Intimidate</span></a> +12, <a class="reference internal" href="corerulebook.skills.swim.html#corerulebook-skills-swim-swim"><span class="std std-ref">Swim</span></a> +3.</p>
+</div>
+<div class="section" id="id9">
+<h2><a class="toc-backref" href="#id94">statistics</a><a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 21, <strong>Dex</strong> 13, <strong>Con</strong> 18, <strong>Int</strong> 8, <strong>Wis</strong> 10, <strong>Cha</strong> 12</p>
+<p><strong>Base Atk</strong> +3; <strong>CMB</strong> +8; <strong>CMD</strong> 17</p>
+<p><strong>Feats</strong> <a class="reference internal" href="corerulebook.feats.html#intimidating prowess (combat)"><span class="std std-ref">Intimidating Prowess</span></a>, <a class="reference internal" href="corerulebook.feats.html#power attack (combat)"><span class="std std-ref">Power Attack</span></a></p>
+<p><strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> +7, <a class="reference internal" href="corerulebook.skills.intimidate.html#corerulebook-skills-intimidate-intimidate"><span class="std std-ref">Intimidate</span></a> +14, Perception +6, <a class="reference internal" href="corerulebook.skills.survival.html#corerulebook-skills-survival-survival"><span class="std std-ref">Survival</span></a> +4, <a class="reference internal" href="corerulebook.skills.swim.html#corerulebook-skills-swim-swim"><span class="std std-ref">Swim</span></a> +5</p>
+<p><strong>Languages</strong> Common, Orc</p>
+<p><strong>SQ</strong> fast movement, orc blood, weapon familiarity</p>
+<p><strong>Combat Gear</strong>potion of <a class="reference internal" href="corerulebook.spells.curelightwounds.html#corerulebook-spells-curelightwounds-cure-light-wounds"><span class="std std-ref">cure light wounds</span></a>, potion of <a class="reference internal" href="corerulebook.spells.restoration.html#corerulebook-spells-restoration-restoration-lesser"><span class="std std-ref">lesser restoration</span></a>, potion of <a class="reference internal" href="corerulebook.spells.protectionfromgood.html#corerulebook-spells-protectionfromgood-protection-from-good"><span class="std std-ref">protection from good</span></a>; <strong>Other Gear</strong> mwk chainmail, mwk greataxe, mwk sling with 10 bullets, climber’s kit, 250 gp</p>
+</div>
+<div class="section" id="dog-rider">
+<span id="npccodex-core-barbarian-dog-rider"></span><h2><a class="toc-backref" href="#id95">Dog Rider</a><a class="headerlink" href="#dog-rider" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 3</strong></p>
+<p><strong>XP</strong> 800</p>
+<p><strong>Halfling barbarian</strong> 4</p>
+<p>N Small humanoid (halfling)</p>
+<p><strong>Init</strong> +3; <strong>Senses</strong> Perception +10</p>
+</div>
+<div class="section" id="id10">
+<h2><a class="toc-backref" href="#id96">Defense</a><a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 18, touch 12, flat-footed 15 (+5 armor, +3 Dex, â2 rage, +1 shield, +1 size)</p>
+<p><strong>hp</strong> 43 (4d12+12)</p>
+<p><strong>Fort</strong> +8, <strong>Ref</strong> +5, <strong>Will</strong> +5; +3 vs. spells and spell-like or supernatural abilities, +2 vs. fear</p>
+<p><strong>Defensive Abilities</strong> trap sense +1, uncanny dodge</p>
+</div>
+<div class="section" id="id11">
+<h2><a class="toc-backref" href="#id97">Offense</a><a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 30 ft.</p>
+<p><strong>Melee</strong> lance +9 (1d6+4/Ã3)</p>
+<p><strong>Ranged</strong><em>+1 halfling sling staff</em> +10 (1d6+5/Ã3)</p>
+<p><strong>Space</strong>5 ft.; <strong>Reach</strong> 5 ft. (10 ft. with lance)</p>
+<p><strong>Special Attacks</strong> rage (11 rounds/day), rage powers (superstition +3, surprise accuracy +2)</p>
+</div>
+<div class="section" id="id12">
+<h2><a class="toc-backref" href="#id98">Tactics</a><a class="headerlink" href="#id12" title="Permalink to this headline">¶</a></h2>
+<p><strong>Before Combat</strong> The barbarian applies oil of <a class="reference internal" href="corerulebook.spells.magicweapon.html#corerulebook-spells-magicweapon-magic-weapon"><span class="std std-ref">magic weapon</span></a>.</p>
+<p><strong>During Combat</strong> The barbarian keeps his distance, pelting enemies with bullets. If ranged attacks fail, he charges with his lance.</p>
+<p><strong>Base Statistics</strong> When not raging and without <a class="reference internal" href="corerulebook.spells.magicweapon.html#corerulebook-spells-magicweapon-magic-weapon"><span class="std std-ref">magic weapon</span></a>, the barbarian’s statistics are <strong>AC</strong> 20, touch 14, flat-footed 17; <strong>hp</strong> 35; <strong>Fort</strong> +6, <strong>Will</strong>+3; Meleelance +7 (1d6+2/Ã3); <strong>Ranged</strong> mwk halflingsling staff +10 (1d6+2/Ã3); <strong>Str</strong> 14, <strong>Con</strong> 13; <strong>CMB</strong> +5; <strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> +9, <a class="reference internal" href="corerulebook.skills.swim.html#corerulebook-skills-swim-swim"><span class="std std-ref">Swim</span></a> +5.</p>
+</div>
+<div class="section" id="id13">
+<h2><a class="toc-backref" href="#id99">statistics</a><a class="headerlink" href="#id13" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 18, <strong>Dex</strong> 16, <strong>Con</strong> 17, <strong>Int</strong> 10, <strong>Wis</strong> 12, <strong>Cha</strong> 10</p>
+<p><strong>Base Atk</strong> +4; <strong>CMB</strong> +7; <strong>CMD</strong> 18</p>
+<p><strong>Feats</strong> <a class="reference internal" href="corerulebook.feats.html#deadly aim (combat)"><span class="std std-ref">Deadly Aim</span></a>, <a class="reference internal" href="corerulebook.feats.html#weapon focus (combat)"><span class="std std-ref">Weapon Focus</span></a> (halfling sling staff)</p>
+<p><strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a> +11, <a class="reference internal" href="corerulebook.skills.handleanimal.html#corerulebook-skills-handleanimal-handle-animal"><span class="std std-ref">Handle Animal</span></a> +6, Perception +10, <a class="reference internal" href="corerulebook.skills.ride.html#corerulebook-skills-ride-ride"><span class="std std-ref">Ride</span></a> +9, <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> +10, <a class="reference internal" href="corerulebook.skills.survival.html#corerulebook-skills-survival-survival"><span class="std std-ref">Survival</span></a> +5</p>
+<p><strong>SQ</strong> fast movement</p>
+<p><strong>Combat Gear</strong>oils of <a class="reference internal" href="corerulebook.spells.magicweapon.html#corerulebook-spells-magicweapon-magic-weapon"><span class="std std-ref">magic weapon</span></a> (2), potions of <a class="reference internal" href="corerulebook.spells.curelightwounds.html#corerulebook-spells-curelightwounds-cure-light-wounds"><span class="std std-ref">cure light wounds</span></a> (2); <strong>Other Gear</strong><em>+1 chain shirt</em>, masterwork buckler, lance, masterwork halfling sling staff with 20 bullets, riding dog with riding saddle and leather barding, 55 gp</p>
+<p>Small and adept at skirmish maneuvers, a dog rider is a deadly and cautious warrior.</p>
+</div>
+<div class="section" id="wild-lancer">
+<span id="npccodex-core-barbarian-wild-lancer"></span><h2><a class="toc-backref" href="#id100">Wild Lancer</a><a class="headerlink" href="#wild-lancer" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 4</strong></p>
+<p><strong>XP</strong> 1,200</p>
+<p><strong>Half-elf barbarian</strong> 5</p>
+<p>NE Medium humanoid (elf, human)</p>
+<p><strong>Init</strong> +1; <strong>Senses</strong> low-light vision; Perception +11</p>
+</div>
+<div class="section" id="id14">
+<h2><a class="toc-backref" href="#id101">Defense</a><a class="headerlink" href="#id14" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 18, touch 9, flat-footed 17 (+7 armor, +1 Dex, â2 rage, +2 shield)</p>
+<p><strong>hp</strong> 63 (5d12+25)</p>
+<p><strong>Fort</strong> +9, <strong>Ref</strong> +3, <strong>Will</strong> +5; +3 vs. spells and spell-like and supernatural abilities, +2 vs. enchantments</p>
+<p><strong>Defensive Abilities</strong> improved uncanny dodge, trap sense +1; <strong>Immune</strong> sleep</p>
+</div>
+<div class="section" id="id15">
+<h2><a class="toc-backref" href="#id102">Offense</a><a class="headerlink" href="#id15" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 30 ft.</p>
+<p><strong>Melee</strong> mwk lance +12 (1d8+6/Ã3) orarmor spikes +11 (1d6+6)</p>
+<p><strong>Ranged</strong> javelin +6 (1d6+6)</p>
+<p><strong>Space</strong>5 ft.; <strong>Reach</strong> 5 ft. (10 ft. with lance)</p>
+<p><strong>Special Attacks</strong> rage (14 rounds/day), rage powers (quick reflexes, superstition +3)</p>
+</div>
+<div class="section" id="id16">
+<h2><a class="toc-backref" href="#id103">Tactics</a><a class="headerlink" href="#id16" title="Permalink to this headline">¶</a></h2>
+<p><strong>During Combat</strong> The barbarian makes charge attacks whenever possible. If prevented from charging, she maneuvers to maximize attacks of opportunity caused by her extended reach. Her armor spikes are a weapon of last resort.</p>
+<p><strong>Base Statistics</strong> When not raging, the barbarian’s statistics are <strong>AC</strong> 20, touch 11, flat-footed 19; <strong>hp</strong> 53; <strong>Fort</strong> +7, <strong>Will</strong>+3; no bonus vs. spells and spell-like or supernatural abilities; <strong>Melee</strong> mwk lance +10 (1d8+4/Ã3) or armor spikes +9 (1d6+4); <strong>Ranged</strong> javelin +6 (1d6+4); <strong>Str</strong> 18, <strong>Con</strong> 14; <strong>CMB</strong> +9; <strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> +10, <a class="reference internal" href="corerulebook.skills.swim.html#corerulebook-skills-swim-swim"><span class="std std-ref">Swim</span></a> +5.</p>
+</div>
+<div class="section" id="id17">
+<h2><a class="toc-backref" href="#id104">statistics</a><a class="headerlink" href="#id17" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 22, <strong>Dex</strong> 13, <strong>Con</strong> 18, <strong>Int</strong> 10, <strong>Wis</strong> 12, <strong>Cha</strong> 8</p>
+<p><strong>Base Atk</strong> +5; <strong>CMB</strong> +11; <strong>CMD</strong> 20</p>
+<p><strong>Feats</strong> <a class="reference internal" href="corerulebook.feats.html#mounted combat (combat)"><span class="std std-ref">Mounted Combat</span></a>, Ride-By Attack, <a class="reference internal" href="corerulebook.feats.html#corerulebook-feats-skill-focus"><span class="std std-ref">Skill Focus</span></a> (<a class="reference internal" href="corerulebook.skills.ride.html#corerulebook-skills-ride-ride"><span class="std std-ref">Ride</span></a>), Spirited Charge</p>
+<p><strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a> +2, <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> +12, Perception +11, <a class="reference internal" href="corerulebook.skills.ride.html#corerulebook-skills-ride-ride"><span class="std std-ref">Ride</span></a> +8, <a class="reference internal" href="corerulebook.skills.survival.html#corerulebook-skills-survival-survival"><span class="std std-ref">Survival</span></a> +5, <a class="reference internal" href="corerulebook.skills.swim.html#corerulebook-skills-swim-swim"><span class="std std-ref">Swim</span></a> +7</p>
+<p><strong>Languages</strong> Common, Elven</p>
+<p><strong>SQ</strong> elf blood, fast movement</p>
+<p><strong>Combat Gear</strong> acid; <strong>Other Gear</strong><em>+1 breastplate</em>with armor spikes, masterwork heavy wooden shield, javelins (5), masterwork lance, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-cloak-of-resistance"><span class="std std-ref">cloak of resistance</span></a> +1, heavy horse (combat trained) with military saddle and masterwork studded leather barding, 310 gp</p>
+<p>Some barbarians are most at home on horseback.</p>
+</div>
+<div class="section" id="forest-guardian">
+<span id="npccodex-core-barbarian-forest-guardian"></span><h2><a class="toc-backref" href="#id105">Forest Guardian</a><a class="headerlink" href="#forest-guardian" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 5</strong></p>
+<p><strong>XP</strong> 1,600</p>
+<p><strong>Elf barbarian</strong> 6</p>
+<p>CN Medium humanoid (elf)</p>
+<p><strong>Init</strong> +4; <strong>Senses</strong> low-light vision; Perception +12</p>
+</div>
+<div class="section" id="id18">
+<h2><a class="toc-backref" href="#id106">Defense</a><a class="headerlink" href="#id18" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 17, touch 12, flat-footed 13 (+5 armor, +4 Dex, â2 rage)</p>
+<p><strong>hp</strong> 68 (6d12+24)</p>
+<p><strong>Fort</strong> +8, <strong>Ref</strong> +6, <strong>Will</strong> +5; +2 vs. enchantments</p>
+<p><strong>Defensive Abilities</strong> improved uncanny dodge, trap sense +2; <strong>Immune</strong> sleep</p>
+</div>
+<div class="section" id="id19">
+<h2><a class="toc-backref" href="#id107">Offense</a><a class="headerlink" href="#id19" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 50 ft.</p>
+<p><strong>Melee</strong> mwk elven curve blade +10/+5 (1d10+4/18â20)</p>
+<p><strong>Ranged</strong><em>+1 composite longbow</em> +11/+6 (1d8+4/Ã3)</p>
+<p><strong>Special Attacks</strong> rage (15 rounds/day), rage powers (rolling dodge +2, swift foot +10 feet)</p>
+</div>
+<div class="section" id="id20">
+<h2><a class="toc-backref" href="#id108">Tactics</a><a class="headerlink" href="#id20" title="Permalink to this headline">¶</a></h2>
+<p><strong>During Combat</strong> The barbarian switches freely between bow and blade as the situation warrants.</p>
+<p><strong>Base Statistics</strong> When not raging, the barbarian’s statistics are <strong>AC</strong> 19, touch 14, flat-footed 15; <strong>hp</strong> 56; <strong>Fort</strong> +6, <strong>Will</strong>+3; <strong>Melee</strong>mwk elven curve blade +8/+3 (1d10+1/18â20); <strong>Ranged</strong><em>+1 composite longbow</em> +11/+6 (1d8+2/Ã3); <strong>Str</strong> 13, <strong>Con</strong> 12; <strong>CMB</strong> +7; <strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> +8.</p>
+</div>
+<div class="section" id="id21">
+<h2><a class="toc-backref" href="#id109">Statistics</a><a class="headerlink" href="#id21" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 17, <strong>Dex</strong> 18, <strong>Con</strong> 16, <strong>Int</strong> 10, <strong>Wis</strong> 12, <strong>Cha</strong> 10</p>
+<p><strong>Base Atk</strong> +6; <strong>CMB</strong> +9; <strong>CMD</strong> 21</p>
+<p><strong>Feats</strong> <a class="reference internal" href="corerulebook.feats.html#deadly aim (combat)"><span class="std std-ref">Deadly Aim</span></a>, <a class="reference internal" href="corerulebook.feats.html#point-blank shot (combat)"><span class="std std-ref">Point-Blank Shot</span></a>, <a class="reference internal" href="corerulebook.feats.html#power attack (combat)"><span class="std std-ref">Power Attack</span></a></p>
+<p><strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a> +12 (+20 when jumping), <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> +10, <a class="reference internal" href="corerulebook.skills.craft.html#corerulebook-skills-craft-craft"><span class="std std-ref">Craft</span></a> (bows) +5, <a class="reference internal" href="corerulebook.skills.handleanimal.html#corerulebook-skills-handleanimal-handle-animal"><span class="std std-ref">Handle Animal</span></a> +5, <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (nature) +5, Perception +12, <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> +5, <a class="reference internal" href="corerulebook.skills.survival.html#corerulebook-skills-survival-survival"><span class="std std-ref">Survival</span></a> +5</p>
+<p><strong>Languages</strong> Common, Elven</p>
+<p><strong>SQ</strong> elven magic, fast movement, weapon familiarity</p>
+<p><strong>Combat Gear</strong>potions of <a class="reference internal" href="corerulebook.spells.curelightwounds.html#corerulebook-spells-curelightwounds-cure-light-wounds"><span class="std std-ref">cure light wounds</span></a> (2), potions of <a class="reference internal" href="corerulebook.spells.longstrider.html#corerulebook-spells-longstrider-longstrider"><span class="std std-ref">longstrider</span></a> (2), alchemist’s fire (2); <strong>Other Gear</strong><em>+1 chain shirt</em>, <em>+1 composite longbow</em> (+3 Str) with 20 arrows, masterwork elven curve blade, climber’s kit, 2 gp</p>
+<p>This barbarian guards the fringes of wooded territories, protecting creatures and people from those who would despoil the land and steal from its inhabitants. They distrust all outsiders, but must also guard against their own kin.</p>
+</div>
+<div class="section" id="sundering-axe">
+<span id="npccodex-core-barbarian-sundering-axe"></span><h2><a class="toc-backref" href="#id110">Sundering Axe</a><a class="headerlink" href="#sundering-axe" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 6</strong></p>
+<p><strong>XP</strong> 2,400</p>
+<p><strong>Dwarf barbarian</strong> 7</p>
+<p>NE Medium humanoid (dwarf)</p>
+<p><strong>Init</strong> +1; <strong>Senses</strong> Perception +12</p>
+</div>
+<div class="section" id="id22">
+<h2><a class="toc-backref" href="#id111">Defense</a><a class="headerlink" href="#id22" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 18, touch 9, flat-footed 17 (+9 armor, +1 Dex, â2 rage)</p>
+<p><strong>hp</strong> 93 (7d12+42)</p>
+<p><strong>Fort</strong> +11, <strong>Ref</strong> +4, <strong>Will</strong> +7; +2 vs. poison, spells, and spell-like abilities</p>
+<p><strong>Defensive Abilities</strong> defensive training (+4 dodge bonus to AC vs. giants), improved uncanny dodge, trap sense +2; <strong>DR</strong> 1/—</p>
+</div>
+<div class="section" id="id23">
+<h2><a class="toc-backref" href="#id112">Offense</a><a class="headerlink" href="#id23" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 20 ft.</p>
+<p><strong>Melee</strong> mwk adamantine greataxe +13/+8 (1d12+7/Ã3)</p>
+<p><strong>Ranged</strong> light hammer +8 (1d4+5) orthrowing axe +8 (1d6+5)</p>
+<p><strong>Special Attacks</strong> +1 on attack rolls against goblinoid and orc humanoids, rage (19 rounds/day), rage powers (guarded stance +2, knockback, strength surge +7)</p>
+</div>
+<div class="section" id="id24">
+<h2><a class="toc-backref" href="#id113">Tactics</a><a class="headerlink" href="#id24" title="Permalink to this headline">¶</a></h2>
+<p><strong>During Combat</strong> The barbarian uses her guarded stance and alternates between dealing damage and sundering weapons.</p>
+<p><strong>Base Statistics</strong> When not raging, the barbarian’s statistics are <strong>AC</strong> 20, touch 11, flat-footed 19; <strong>hp</strong> 79; <strong>Fort</strong> +9, <strong>Will</strong>+5; <strong>Melee</strong> mwk adamantine greataxe +11/+6 (1d12+4/Ã3); <strong>Ranged</strong> light hammer +8 (1d4+3) or throwing axe +8 (1d6+3); <strong>Str</strong> 16, <strong>Con</strong> 16; <strong>CMB</strong> +10 (+14 sunder); <strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> +8.</p>
+</div>
+<div class="section" id="id25">
+<h2><a class="toc-backref" href="#id114">statistics</a><a class="headerlink" href="#id25" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 20, <strong>Dex</strong> 13, <strong>Con</strong> 20, <strong>Int</strong> 10, <strong>Wis</strong> 14, <strong>Cha</strong> 6</p>
+<p><strong>Base Atk</strong> +7; <strong>CMB</strong> +12 (+16 sunder); <strong>CMD</strong> 21 (25 vs. bull rush or trip, 23 vs. sunder)</p>
+<p><strong>Feats</strong> Armor Proficiency (heavy), Greater Sunder, Improved Sunder, <a class="reference internal" href="corerulebook.feats.html#power attack (combat)"><span class="std std-ref">Power Attack</span></a></p>
+<p><strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a> +5 (+1 when jumping), <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> +10, <a class="reference internal" href="corerulebook.skills.craft.html#corerulebook-skills-craft-craft"><span class="std std-ref">Craft</span></a> (weapons) +10, <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (dungeoneering) +5, Perception +12 (+14 to notice unusual stonework)</p>
+<p><strong>Languages</strong> Common, Dwarven</p>
+<p><strong>SQ</strong> fast movement</p>
+<p><strong>Combat Gear</strong>oil of <a class="reference internal" href="corerulebook.spells.magicweapon.html#corerulebook-spells-magicweapon-magic-weapon"><span class="std std-ref">magic weapon</span></a>, potion of <a class="reference internal" href="corerulebook.spells.curelightwounds.html#corerulebook-spells-curelightwounds-cure-light-wounds"><span class="std std-ref">cure light wounds</span></a>, potion of <a class="reference internal" href="corerulebook.spells.shieldoffaith.html#corerulebook-spells-shieldoffaith-shield-of-faith"><span class="std std-ref">shield of faith</span></a>, acid (3);<strong>Other Gear</strong> masterwork full plate, light hammer (2), masterwork adamantine greataxe, throwing axe (2), cloak of <a class="reference internal" href="corerulebook.spells.resistance.html#corerulebook-spells-resistance-resistance"><span class="std std-ref">resistance</span></a> +1, climber’s kit, masterwork artisan’s tools, 2 gp</p>
+<p>A sundering axe whittles away at her enemies’ abilities to attack and defend themselves.</p>
+</div>
+<div class="section" id="glaive-rager">
+<span id="npccodex-core-barbarian-glaive-rager"></span><h2><a class="toc-backref" href="#id115">Glaive Rager</a><a class="headerlink" href="#glaive-rager" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 7</strong></p>
+<p><strong>XP</strong> 3,200</p>
+<p><strong>Gnome barbarian</strong> 8</p>
+<p>CN Small humanoid (gnome)</p>
+<p><strong>Init</strong> +1; <strong>Senses</strong> low-light vision; Perception +12</p>
+</div>
+<div class="section" id="id26">
+<h2><a class="toc-backref" href="#id116">Defense</a><a class="headerlink" href="#id26" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 17, touch 10, flat-footed 16 (+7 armor, +1 Dex, â2 rage, +1 size)</p>
+<p><strong>hp</strong> 105 (8d12+48)</p>
+<p><strong>Fort</strong> +12, <strong>Ref</strong> +4, <strong>Will</strong> +5; +4 vs. spells and spell-like or supernatural abilities, +2 vs. illusions</p>
+<p><strong>Defensive Abilities</strong> defensive training (+4 dodge bonus to AC vs. giants); improved uncanny dodge, trap sense +2; <strong>DR</strong> 2/—</p>
+</div>
+<div class="section" id="id27">
+<h2><a class="toc-backref" href="#id117">Offense</a><a class="headerlink" href="#id27" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 25 ft.</p>
+<p><strong>Melee</strong> mwk cold iron glaive +15/+10 (1d8+7/Ã3) or kukri +14/+9 (1d3+5/18â20)</p>
+<p><strong>Ranged</strong> mwk composite longbow +11/+6 (1d6+5/Ã3)</p>
+<p><strong>Space</strong>5 ft.; <strong>Reach</strong> 5 ft. (10 ft. with glaive)</p>
+<p><strong>Special Attacks</strong> +1 on attack rolls against goblinoid and reptilian humanoids, rage (21 rounds/day), rage powers (clear mind, knockback, quick reflexes, superstition +4)</p>
+</div>
+<div class="section" id="id28">
+<h2><a class="toc-backref" href="#id118">Tactics</a><a class="headerlink" href="#id28" title="Permalink to this headline">¶</a></h2>
+<p><strong>During Combat</strong> The barbarian leads with trip maneuvers, seeking to trigger attacks of opportunity. He uses knockback to force creatures to advance on him again through the threatened area of his glaive.</p>
+<p><strong>Base Statistics</strong> When not raging, the barbarian’s statistics are <strong>AC</strong> 19, touch 12, flat-footed 18; <strong>hp</strong> 89; <strong>Fort</strong> +10, <strong>Will</strong>+3; no bonus vs. spells and spell-like or supernatural abilities; <strong>Melee</strong> mwk cold iron glaive +13/+8 (1d8+4/Ã3) or kukri +12/+7 (1d3+3/18â20); <strong>Ranged</strong> mwk composite longbow +11/+6 (1d6+3/Ã3); <strong>Str</strong> 16, <strong>Con</strong> 16; <strong>CMB</strong> +10 (+14 trip); <strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> +6, <a class="reference internal" href="corerulebook.skills.swim.html#corerulebook-skills-swim-swim"><span class="std std-ref">Swim</span></a> +8.</p>
+</div>
+<div class="section" id="id29">
+<h2><a class="toc-backref" href="#id119">Statistics</a><a class="headerlink" href="#id29" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 20, <strong>Dex</strong> 13, <strong>Con</strong> 20, <strong>Int</strong> 13, <strong>Wis</strong> 10, <strong>Cha</strong> 10</p>
+<p><strong>Base Atk</strong> +8; <strong>CMB</strong> +12 (+16 trip); <strong>CMD</strong> 21 (23 vs. trip)</p>
+<p><strong>Feats</strong> <a class="reference internal" href="corerulebook.feats.html#combat expertise (combat)"><span class="std std-ref">Combat Expertise</span></a>, Greater Trip, Improved Trip, <a class="reference internal" href="corerulebook.feats.html#power attack (combat)"><span class="std std-ref">Power Attack</span></a></p>
+<p><strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a> +5, <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> +8, <a class="reference internal" href="corerulebook.skills.craft.html#corerulebook-skills-craft-craft"><span class="std std-ref">Craft</span></a> (ships) +5, <a class="reference internal" href="corerulebook.skills.intimidate.html#corerulebook-skills-intimidate-intimidate"><span class="std std-ref">Intimidate</span></a> +5, <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (nature) +10, <a class="reference internal" href="corerulebook.skills.linguistics.html#corerulebook-skills-linguistics-linguistics"><span class="std std-ref">Linguistics</span></a> +3, Perception +12, <a class="reference internal" href="corerulebook.skills.profession.html#corerulebook-skills-profession-profession"><span class="std std-ref">Profession</span></a> (sailor) +5, <a class="reference internal" href="corerulebook.skills.survival.html#corerulebook-skills-survival-survival"><span class="std std-ref">Survival</span></a> +10, <a class="reference internal" href="corerulebook.skills.swim.html#corerulebook-skills-swim-swim"><span class="std std-ref">Swim</span></a> +10</p>
+<p><strong>Languages</strong> Aquan, Auran, Common, Gnome, Sylvan</p>
+<p><strong>SQ</strong> fast movement</p>
+<p><strong>Combat Gear</strong>oil of <a class="reference internal" href="corerulebook.spells.magicweapon.html#corerulebook-spells-magicweapon-magic-weapon"><span class="std std-ref">magic weapon</span></a>,potion of <a class="reference internal" href="corerulebook.spells.curelightwounds.html#corerulebook-spells-curelightwounds-cure-light-wounds"><span class="std std-ref">cure light wounds</span></a>; <strong>Other Gear</strong><em>+1 breastplate</em>, kukri, masterwork cold iron glaive, masterwork composite longbow (+5 Str) with 20 arrows, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-belt-of-giant-strength"><span class="std std-ref">belt of giant strength</span></a> +2, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-cloak-of-resistance"><span class="std std-ref">cloak of resistance</span></a> +1, climber’s kit, 50 gp</p>
+</div>
+<div class="section" id="raging-swimmer">
+<span id="npccodex-core-barbarian-raging-swimmer"></span><h2><a class="toc-backref" href="#id120">Raging Swimmer</a><a class="headerlink" href="#raging-swimmer" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 8</strong></p>
+<p><strong>XP</strong> 4,800</p>
+<p><strong>Half-elf barbarian</strong> 9</p>
+<p>N Medium humanoid (elf, human)</p>
+<p><strong>Init</strong> +2; <strong>Senses</strong> low-light vision, scent; Perception +19</p>
+</div>
+<div class="section" id="id30">
+<h2><a class="toc-backref" href="#id121">Defense</a><a class="headerlink" href="#id30" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 14, touch 10, flat-footed 12 (+4 armor, +2 Dex, â2 rage)</p>
+<p><strong>hp</strong> 109 (9d12+45)</p>
+<p><strong>Fort</strong> +11, <strong>Ref</strong> +6, <strong>Will</strong> +6; +4 vs. spells and spell-like and supernatural abilities, +2 vs. enchantments</p>
+<p><strong>Defensive Abilities</strong> improved uncanny dodge, trap sense +3; <strong>DR</strong> 1/—; <strong>Immune</strong> sleep</p>
+</div>
+<div class="section" id="id31">
+<h2><a class="toc-backref" href="#id122">Offense</a><a class="headerlink" href="#id31" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 40 ft.</p>
+<p><strong>Melee</strong><em>+1 longspear</em> +16/+11 (2d4+10/Ã3) orspiked gauntlet +15/+10 (1d4+6)</p>
+<p><strong>Ranged</strong><em>+1 composite longbow</em> +12/+7 (1d8+7/Ã3)</p>
+<p><strong>Space</strong>5 ft.; <strong>Reach</strong> 5 ft. (10 ft. with longspear)</p>
+<p><strong>Special Attacks</strong> rage (22 rounds/day), rage powers (quick reflexes, raging swimmer +9, scent, superstition +4)</p>
+</div>
+<div class="section" id="id32">
+<h2><a class="toc-backref" href="#id123">Tactics</a><a class="headerlink" href="#id32" title="Permalink to this headline">¶</a></h2>
+<p><strong>During Combat</strong> The barbarian prefers to fight in the water, outswimming foes or using the water for cover as she attacks landward opponents her bow or longspear (using <a class="reference internal" href="corerulebook.feats.html#lunge (combat)"><span class="std std-ref">Lunge</span></a>). She eschews full attacks in favor of <a class="reference internal" href="corerulebook.feats.html#vital strike (combat)"><span class="std std-ref">Vital Strike</span></a> attacks against a lone target or Great Cleave attacks against groups. She forces enemies to approach through the guard of her longspear, provoking attacks of opportunity.</p>
+<p><strong>Base Statistics</strong> When not raging, the barbarian’s statistics are <strong>Senses</strong> no scent; <strong>AC</strong> 16, touch 12, flat-footed 14; <strong>hp</strong> 91; <strong>Fort</strong> +9, <strong>Will</strong>+4; no bonus vs. spells and spell-like or supernatural abilities; <strong>Melee</strong><em>+1 longspear</em> +14/+9 (2d4+7/Ã3) or spiked gauntlet +13/+8 (1d4+4); <strong>Ranged</strong><em>+1 composite longbow</em> +12/+7 (1d8+5/Ã3); <strong>Str</strong> 18, <strong>Con</strong> 14; <strong>CMB</strong> +13; <strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> +8, <a class="reference internal" href="corerulebook.skills.swim.html#corerulebook-skills-swim-swim"><span class="std std-ref">Swim</span></a> +9.</p>
+</div>
+<div class="section" id="id33">
+<h2><a class="toc-backref" href="#id124">Statistics</a><a class="headerlink" href="#id33" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 22, <strong>Dex</strong> 14, <strong>Con</strong> 18, <strong>Int</strong> 12, <strong>Wis</strong> 10, <strong>Cha</strong> 8</p>
+<p><strong>Base Atk</strong> +9; <strong>CMB</strong> +15; <strong>CMD</strong> 25</p>
+<p><strong>Feats</strong> Cleave, Great Cleave, <a class="reference internal" href="corerulebook.feats.html#lunge (combat)"><span class="std std-ref">Lunge</span></a>, <a class="reference internal" href="corerulebook.feats.html#power attack (combat)"><span class="std std-ref">Power Attack</span></a>, <a class="reference internal" href="corerulebook.feats.html#corerulebook-feats-skill-focus"><span class="std std-ref">Skill Focus</span></a> (<a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a>), <a class="reference internal" href="corerulebook.feats.html#vital strike (combat)"><span class="std std-ref">Vital Strike</span></a></p>
+<p><strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a> +16 (+20 when jumping), <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> +10, <a class="reference internal" href="corerulebook.skills.handleanimal.html#corerulebook-skills-handleanimal-handle-animal"><span class="std std-ref">Handle Animal</span></a> +10, <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (nature) +5, <a class="reference internal" href="corerulebook.skills.linguistics.html#corerulebook-skills-linguistics-linguistics"><span class="std std-ref">Linguistics</span></a> +3, Perception +19, <a class="reference internal" href="corerulebook.skills.ride.html#corerulebook-skills-ride-ride"><span class="std std-ref">Ride</span></a> +5, <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> +10, <a class="reference internal" href="corerulebook.skills.survival.html#corerulebook-skills-survival-survival"><span class="std std-ref">Survival</span></a> +4, <a class="reference internal" href="corerulebook.skills.swim.html#corerulebook-skills-swim-swim"><span class="std std-ref">Swim</span></a> +20</p>
+<p><strong>Languages</strong> Aquan, Common, Elven, Sylvan</p>
+<p><strong>SQ</strong> elf blood, fast movement</p>
+<p><strong>Combat Gear</strong>oil of <a class="reference internal" href="corerulebook.spells.alignweapon.html#corerulebook-spells-alignweapon-align-weapon"><span class="std std-ref">align weapon</span></a> (lawful), potion of <a class="reference internal" href="corerulebook.spells.curelightwounds.html#corerulebook-spells-curelightwounds-cure-light-wounds"><span class="std std-ref">cure light wounds</span></a>, potion of <a class="reference internal" href="corerulebook.spells.restoration.html#corerulebook-spells-restoration-restoration-lesser"><span class="std std-ref">lesser restoration</span></a>, alchemical silver arrows (10), cold iron arrows (10); <strong>Other Gear</strong> masterwork chain shirt, <em>+1 composite longbow</em> (+6 Str) with 20 arrows, <em>+1 longspear</em>, masterwork longspear, spiked gauntlet, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-cloak-of-resistance"><span class="std std-ref">cloak of resistance</span></a> +1, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-eyes-of-the-eagle"><span class="std std-ref">eyes of the eagle</span></a>, 1 gp</p>
+<p>Adept at combat on land or in the water, the raging swimmer attacks foes when they are most vulnerable.</p>
+</div>
+<div class="section" id="dorremera-salin">
+<span id="npccodex-core-barbarian-dorremera-salin"></span><h2><a class="toc-backref" href="#id125">Dorremera Salin</a><a class="headerlink" href="#dorremera-salin" title="Permalink to this headline">¶</a></h2>
+<p>Dorremera is a child of the waves, sired by an aquatic elf who abandoned her human mother. Raised along the sea, Dorremera took to the water as if born to it, and considers the beasts of the sea and shore her kin. She has little patience for the niceties of society—whether human or elven—and lashes out at almost everyone who crosses her path.</p>
+<p><strong>Combat Encounters:</strong> Dorremera has no compunctions about stealing from landlubbers, or killing those who chase or surprise her.</p>
+<p><strong>Roleplaying Suggestions:</strong> Though it is hard to get through to her, Dorremera sometimes parleys with adventuring groups that treat her respectfully, show great battle prowess, or are particularly kind to sea creatures.</p>
+</div>
+<div class="section" id="cannibalistic-hunter">
+<span id="npccodex-core-barbarian-cannibalistic-hunter"></span><h2><a class="toc-backref" href="#id126">Cannibalistic Hunter</a><a class="headerlink" href="#cannibalistic-hunter" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 9</strong></p>
+<p><strong>XP</strong> 6,400</p>
+<p><strong>Halfling barbarian</strong> 10</p>
+<p>NE Small humanoid (halfling)</p>
+<p><strong>Init</strong> +5; <strong>Senses</strong> Perception +14</p>
+</div>
+<div class="section" id="id34">
+<h2><a class="toc-backref" href="#id127">Defense</a><a class="headerlink" href="#id34" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 21, touch 14, flat-footed 16 (+5 armor, +5 Dex, â2 rage, +2 shield, +1 size)</p>
+<p><strong>hp</strong> 120 (10d12+50)</p>
+<p><strong>Fort</strong> +13, <strong>Ref</strong> +10, <strong>Will</strong> +8; +4 vs. spells and spell-like or supernatural abilities, +2 vs. fear</p>
+<p><strong>Defensive Abilities</strong> improved uncanny dodge, trap sense +3; <strong>DR</strong> 2/—;<strong>Immune</strong> nauseated, sickened</p>
+</div>
+<div class="section" id="id35">
+<h2><a class="toc-backref" href="#id128">Offense</a><a class="headerlink" href="#id35" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 30 ft.</p>
+<p><strong>Melee</strong> mwk scimitar +15/+10 (1d4+3/18â20)</p>
+<p><strong>Ranged</strong><em>+1 composite longbow</em> +15/+15/+10 (1d6+4/19â20/Ã3) or <em>+1 composite longbow</em> +17/+12 (1d6+4/19â20/Ã3)</p>
+<p><strong>Special Attacks</strong> rage (24 rounds/day), rage powers (clear mind, internal fortitude, raging climber +10, rolling dodge +2, superstition +4)</p>
+</div>
+<div class="section" id="id36">
+<h2><a class="toc-backref" href="#id129">Tactics</a><a class="headerlink" href="#id36" title="Permalink to this headline">¶</a></h2>
+<p><strong>During Combat</strong> The barbarian uses <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> and <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a> to rain death upon enemies from above. She snipes from cover or concealment to begin her attack, but after that is concerned solely with maximizing the intensity of her deadly barrage. She activates her rolling dodge to evade enemy counterfire.</p>
+<p><strong>Base Statistics</strong> When not raging, the barbarian’s statistics are <strong>AC</strong> 23, touch 16, flat-footed 18; <strong>hp</strong> 100; <strong>Fort</strong> +11, <strong>Will</strong>+6; no bonus vs. spells and spell-like or supernatural abilities; <strong>Immune</strong> —; <strong>Melee</strong> mwk scimitar +13/+8 (1d4+1/18â20); <strong>Ranged</strong><em>+1 composite longbow</em> +15/+15/+10 (1d6+2/19â20/Ã3) or <em>+1 composite longbow</em> +17/+12 (1d6+2/19â20/Ã3); <strong>Str</strong> 12, <strong>Con</strong> 14; <strong>CMB</strong> +10; <strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> +18, <a class="reference internal" href="corerulebook.skills.swim.html#corerulebook-skills-swim-swim"><span class="std std-ref">Swim</span></a> +5.</p>
+</div>
+<div class="section" id="id37">
+<h2><a class="toc-backref" href="#id130">Statistics</a><a class="headerlink" href="#id37" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 16, <strong>Dex</strong> 20, <strong>Con</strong> 18, <strong>Int</strong> 10, <strong>Wis</strong> 12, <strong>Cha</strong> 10</p>
+<p><strong>Base Atk</strong> +10; <strong>CMB</strong> +12; <strong>CMD</strong> 25</p>
+<p><strong>Feats</strong> <a class="reference internal" href="corerulebook.feats.html#deadly aim (combat)"><span class="std std-ref">Deadly Aim</span></a>, <a class="reference internal" href="corerulebook.feats.html#improved critical (combat)"><span class="std std-ref">Improved Critical</span></a> (composite longbow), Manyshot, <a class="reference internal" href="corerulebook.feats.html#point-blank shot (combat)"><span class="std std-ref">Point-Blank Shot</span></a>, Rapid Shot</p>
+<p><strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a> +20, <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> +30, Perception +14, <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> +19, <a class="reference internal" href="corerulebook.skills.survival.html#corerulebook-skills-survival-survival"><span class="std std-ref">Survival</span></a> +5, <a class="reference internal" href="corerulebook.skills.swim.html#corerulebook-skills-swim-swim"><span class="std std-ref">Swim</span></a> +7</p>
+<p><strong>Languages</strong> Common, Halfling</p>
+<p><strong>SQ</strong> fast movement</p>
+<p><strong>Combat Gear</strong>potions of <a class="reference internal" href="corerulebook.spells.curelightwounds.html#corerulebook-spells-curelightwounds-cure-light-wounds"><span class="std std-ref">cure light wounds</span></a> (2), potion of <a class="reference internal" href="corerulebook.spells.protectionfromarrows.html#corerulebook-spells-protectionfromarrows-protection-from-arrows"><span class="std std-ref">protection from arrows</span></a>, potion of <a class="reference internal" href="corerulebook.spells.shieldoffaith.html#corerulebook-spells-shieldoffaith-shield-of-faith"><span class="std std-ref">shield of faith</span></a>, alchemical silver arrows (10), alchemist’s fire (2), cold iron arrows (10), drow poison (3), tanglefoot bag; <strong>Other Gear</strong><em>+1 mithral chain shirt</em>, <em>+1 buckler</em>, <em>+1 composite longbow</em> (+3 Str) with 60 arrows, masterwork scimitar, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-belt-of-incredible-dexterity"><span class="std std-ref">belt of incredible dexterity</span></a> +2, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-cloak-of-resistance"><span class="std std-ref">cloak of resistance</span></a> +1, climber’s kit, 300 gp</p>
+<p>Rare tribes of halfling cannibals stalk deep jungles in search of sentient prey.</p>
+</div>
+<div class="section" id="lanani-shabu">
+<span id="npccodex-core-barbarian-lanani-shabu"></span><h2><a class="toc-backref" href="#id131">Lanani Shabu</a><a class="headerlink" href="#lanani-shabu" title="Permalink to this headline">¶</a></h2>
+<p>When newcomers objecting to his matriarchal tribe’s cannibalistic ways wiped out his kin, Lanani had no choice but to ritualistically take on new leadership—and a new gender. Now “Mother Lanani” hunts the jungle, punishing humans and recruiting halflings to her new tribe.</p>
+<p><strong>Combat Encounters:</strong> Lanani can stalk quarry for days, slowly weakening those she is not able to knock out with her poison. Other times, she heads a hunting band.</p>
+<p><strong>Roleplaying Suggestions:</strong> Lanani rarely interacts with the outside world, but in desperate times she ventures into civilization to lure prey closer to her tribe.</p>
+</div>
+<div class="section" id="double-axe-fury">
+<span id="npccodex-core-barbarian-double-axe-fury"></span><h2><a class="toc-backref" href="#id132">Double Axe Fury</a><a class="headerlink" href="#double-axe-fury" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 10</strong></p>
+<p><strong>XP</strong> 9,600</p>
+<p><strong>Half-Orc barbarian</strong> 11</p>
+<p>CE Medium humanoid (human, orc)</p>
+<p><strong>Init</strong> +4; <strong>Senses</strong> darkvision 60 ft.; Perception +15</p>
+</div>
+<div class="section" id="id38">
+<h2><a class="toc-backref" href="#id133">Defense</a><a class="headerlink" href="#id38" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 17, touch 12, flat-footed 13 (+5 armor, +4 Dex, â2 rage)</p>
+<p><strong>hp</strong> 142 (11d12+65)</p>
+<p><strong>Fort</strong> +14, <strong>Ref</strong> +9, <strong>Will</strong> +9; +4 vs. spells and spell-like orsupernatural abilities</p>
+<p><strong>Defensive Abilities</strong> improved uncanny dodge, orc ferocity, trap sense +3; <strong>DR</strong> 3/—</p>
+</div>
+<div class="section" id="id39">
+<h2><a class="toc-backref" href="#id134">Offense</a><a class="headerlink" href="#id39" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 40 ft.</p>
+<p><strong>Melee</strong><em>+1 orc double axe</em> +19/+14/+9 (1d8+10/19â20/Ã3) or <em>+1 orc double axe</em> +17/+12/+7 (1d8+7/19â20/Ã3), <em>+1 orc double axe</em> +17/+12 (1d8+7/19â20/Ã3), bite +12 (1d4+3)</p>
+<p><strong>Ranged</strong> mwk composite longbow +16/+11/+6 (1d8+6/Ã3)</p>
+<p><strong>Special Attacks</strong> greater rage (26 rounds/day), rage powers (animal fury, increased damage reduction +1, no escape, raging leaper +11, superstition +4)</p>
+</div>
+<div class="section" id="id40">
+<h2><a class="toc-backref" href="#id135">Tactics</a><a class="headerlink" href="#id40" title="Permalink to this headline">¶</a></h2>
+<p><strong>During Combat</strong> The barbarian charges into the heart of battle, using one end of his double axe two-handed when charging or moving, and switching back to a double weapon grip when making full attacks. He uses his leaping and <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a> to enter melee quickly, using his no escape ability to chase down cowards.</p>
+<p><strong>Base Statistics</strong> When not raging, the barbarian’s statistics are <strong>AC</strong> 19, touch 14, flat-footed 15; <strong>hp</strong> 109; <strong>Fort</strong> +11, <strong>Will</strong>+6; no bonus vs. spells and spell-like or supernatural abilities; <strong>DR</strong> 2/—; <strong>Melee</strong><em>+1 orc double axe</em> +16/+11/+6 (1d8+5/19â20/Ã3) or +1 orc double axe +14/+9/+4 (1d8+4/19â20/Ã3), +1 orc double axe +14/+9 (1d8+4/19â20/Ã3), bite +9 (1d4+1); <strong>Ranged</strong> mwk composite longbow +16/+11/+6 (1d8+3/Ã3); <strong>Str</strong> 16, <strong>Con</strong> 14; <strong>CMB</strong> +14; <strong>CMD</strong> 28; <strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a> +17 (+21 when jumping) <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> +8, <a class="reference internal" href="corerulebook.skills.swim.html#corerulebook-skills-swim-swim"><span class="std std-ref">Swim</span></a> +8.</p>
+</div>
+<div class="section" id="id41">
+<h2><a class="toc-backref" href="#id136">Statistics</a><a class="headerlink" href="#id41" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 22, <strong>Dex</strong> 18, <strong>Con</strong> 20, <strong>Int</strong> 10, <strong>Wis</strong> 12, <strong>Cha</strong> 8</p>
+<p><strong>Base Atk</strong> +11; <strong>CMB</strong> +17; <strong>CMD</strong> 29</p>
+<p><strong>Feats</strong> Double Slice, <a class="reference internal" href="corerulebook.feats.html#improved critical (combat)"><span class="std std-ref">Improved Critical</span></a> (orc double axe), Improved <a class="reference internal" href="corerulebook.feats.html#two-weapon fighting (combat)"><span class="std std-ref">Two-Weapon Fighting</span></a>, <a class="reference internal" href="corerulebook.feats.html#two-weapon fighting (combat)"><span class="std std-ref">Two-Weapon Fighting</span></a>, Two-Weapon Rend, <a class="reference internal" href="corerulebook.feats.html#weapon focus (combat)"><span class="std std-ref">Weapon Focus</span></a> (orc double axe)</p>
+<p><strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a> +17 (+32 when jumping), <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> +11, <a class="reference internal" href="corerulebook.skills.intimidate.html#corerulebook-skills-intimidate-intimidate"><span class="std std-ref">Intimidate</span></a> +10, Perception +15, <a class="reference internal" href="corerulebook.skills.ride.html#corerulebook-skills-ride-ride"><span class="std std-ref">Ride</span></a> +7, <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> +14, <a class="reference internal" href="corerulebook.skills.survival.html#corerulebook-skills-survival-survival"><span class="std std-ref">Survival</span></a> +5, <a class="reference internal" href="corerulebook.skills.swim.html#corerulebook-skills-swim-swim"><span class="std std-ref">Swim</span></a> +11</p>
+<p><strong>SQ</strong> fast movement, orc blood, weapon familiarity</p>
+<p><strong>Combat Gear</strong>potions of <a class="reference internal" href="corerulebook.spells.blur.html#corerulebook-spells-blur-blur"><span class="std std-ref">blur</span></a> (2), potion of <a class="reference internal" href="corerulebook.spells.fly.html#corerulebook-spells-fly"><span class="std std-ref">fly</span></a>; <strong>Other Gear</strong><em>+1 chain  shirt</em>, <em>+1/+1 orc double axe</em>, masterwork composite longbow (+7 Str) with 20 arrows, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-belt-of-giant-strength"><span class="std std-ref">belt of giant strength</span></a> +2, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-cloak-of-resistance"><span class="std std-ref">cloak of resistance</span></a> +2, climber’s kit, 50 gp</p>
+<p>This half-orc barbarian savagely rips though weaker opponents with unquenchable bloodlust.</p>
+</div>
+<div class="section" id="graun-quor">
+<span id="npccodex-core-barbarian-graun-quor"></span><h2><a class="toc-backref" href="#id137">Graun Quor</a><a class="headerlink" href="#graun-quor" title="Permalink to this headline">¶</a></h2>
+<p>Graun the pit fighter was raised in lawless borderlands where control changed hands frequently and unpredictably. The one constant was the thirst for blood sports, and any youth with a hard edge and more greed and ambition than fear could make a name and a fortune so long as he survived. Graun mastered many weapons throughout his career, but loves best the orc double axe he took as a prize in an early championship bout. Having long since bought his freedom, Graun wanders the borderlands selling his skills to the highest bidder. A few orc tribes have offered Graun leadership roles, but he has little patience for such things and cares nothing for the welfare of his allies.</p>
+<p><strong>Combat Encounters:</strong> Graun can be found at the head of an orc band on rare occasions, either a tribe he has adopted for a short time or who serve as fodder for his hunts. Other times he stalks the wild lands looking for opponents worthy of his fighting skills.</p>
+<p><strong>Roleplaying Suggestions:</strong> Graun sometimes ventures into civilized lands to spend his coin and search for blood sports, hoping for a chance to kill in front of a crowd.</p>
+</div>
+<div class="section" id="giant-slayer">
+<span id="npccodex-core-barbarian-giant-slayer"></span><h2><a class="toc-backref" href="#id138">Giant Slayer</a><a class="headerlink" href="#giant-slayer" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 11</strong></p>
+<p><strong>XP</strong> 12,800</p>
+<p><strong>Dwarf barbarian</strong> 12</p>
+<p>N Medium humanoid (dwarf)</p>
+<p><strong>Init</strong> +1; <strong>Senses</strong> Perception +17</p>
+</div>
+<div class="section" id="id42">
+<h2><a class="toc-backref" href="#id139">Defense</a><a class="headerlink" href="#id42" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 23, touch 11, flat-footed 21 (+10 armor, +1 deflection, +1 Dex, +1 dodge, â2 rage, +2 shield)</p>
+<p><strong>hp</strong> 191 (12d12+108)</p>
+<p><strong>Fort</strong> +17, <strong>Ref</strong> +6, <strong>Will</strong> +10; +2 vs. poison, spells, and spell-like abilities</p>
+<p><strong>Defensive Abilities</strong> defensive training (+4 dodge bonus to AC vs. giants), improved uncanny dodge, trap sense +4; <strong>DR</strong> 2/—</p>
+</div>
+<div class="section" id="id43">
+<h2><a class="toc-backref" href="#id140">Offense</a><a class="headerlink" href="#id43" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 20 ft.</p>
+<p><strong>Melee</strong><em>+1 giant-bane dwarven waraxe</em> +19/+14/+9 (1d10+7/Ã3)</p>
+<p><strong>Ranged</strong> mwk composite longbow +14/+9/+4 (1d8+6/Ã3)</p>
+<p><strong>Special Attacks</strong> +1 on attack rolls against goblinoid and orc humanoids, greater rage (31 rounds/day), rage powers (guarded stance +3, mighty swing, no escape, roused anger, strength surge +12, unexpected strike)</p>
+</div>
+<div class="section" id="id44">
+<h2><a class="toc-backref" href="#id141">Tactics</a><a class="headerlink" href="#id44" title="Permalink to this headline">¶</a></h2>
+<p><strong>During Combat</strong> The barbarian switches from a one-handed to a two-handed grip on his axe as the situation demands. He uses his shield against multiple foes but keeps his bow in hand if in melee against a lone enemy. He uses his rolling dodge before exposing himself to missiles, especially giant-hurled boulders, and assumes his guarded stance in melee. He charges with Spring Attack to get close to his enemies, following it up with full attacks.</p>
+<p><strong>Base Statistics</strong> When not raging, the barbarian’s statistics are <strong>AC</strong> 25, touch 13, flat-footed 23; <strong>hp</strong> 155; <strong>Fort</strong> +14, <strong>Will</strong>+7; <strong>Melee</strong><em>+1 giant-bane dwarven waraxe</em> +16/+11/+6 (1d10+4/Ã3); <strong>Ranged</strong> mwk composite longbow +14/+9/+4 (1d8+3/Ã3); <strong>Str</strong> 16, <strong>Con</strong> 20; <strong>CMB</strong> +15; <strong>CMD</strong> 28 (32 vs. bull rush or trip); <strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> +7, <a class="reference internal" href="corerulebook.skills.swim.html#corerulebook-skills-swim-swim"><span class="std std-ref">Swim</span></a> +7.</p>
+</div>
+<div class="section" id="id45">
+<h2><a class="toc-backref" href="#id142">Statistics</a><a class="headerlink" href="#id45" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 22, <strong>Dex</strong> 13, <strong>Con</strong> 26, <strong>Int</strong> 8, <strong>Wis</strong> 14, <strong>Cha</strong> 8</p>
+<p><strong>Base Atk</strong> +12; <strong>CMB</strong> +18; <strong>CMD</strong> 29 (33 vs. bull rush or trip)</p>
+<p><strong>Feats</strong>, <a class="reference internal" href="corerulebook.feats.html#dodge (combat)"><span class="std std-ref">Dodge</span></a>, Heavy Armor Proficiency, Mobility, <a class="reference internal" href="corerulebook.feats.html#power attack (combat)"><span class="std std-ref">Power Attack</span></a>, Spring Attack, <a class="reference internal" href="corerulebook.feats.html#vital strike (combat)"><span class="std std-ref">Vital Strike</span></a></p>
+<p><strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> +10, <a class="reference internal" href="corerulebook.skills.heal.html#corerulebook-skills-heal-heal"><span class="std std-ref">Heal</span></a> +5, <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (nature) +5, <a class="reference internal" href="corerulebook.skills.linguistics.html#corerulebook-skills-linguistics-linguistics"><span class="std std-ref">Linguistics</span></a> +0, Perception +17 (+19 to notice unusual stonework), <a class="reference internal" href="corerulebook.skills.survival.html#corerulebook-skills-survival-survival"><span class="std std-ref">Survival</span></a> +10, <a class="reference internal" href="corerulebook.skills.swim.html#corerulebook-skills-swim-swim"><span class="std std-ref">Swim</span></a> +10</p>
+<p><strong>Languages</strong> Common, Dwarven, Giant</p>
+<p><strong>SQ</strong> fast movement</p>
+<p><strong>Combat Gear</strong>potions of <a class="reference internal" href="corerulebook.spells.blur.html#corerulebook-spells-blur-blur"><span class="std std-ref">blur</span></a> (2), potions of <a class="reference internal" href="corerulebook.spells.curelightwounds.html#corerulebook-spells-curelightwounds-cure-light-wounds"><span class="std std-ref">cure light wounds</span></a> (2), tanglefoot bags (3); <strong>Other Gear</strong><em>+1 full plate</em>, <em>+1 buckler</em>, <em>+1 giant-bane dwarven waraxe</em>, mwk composite longbow (+6 Str) with 20 arrows, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-belt-of-mighty-constitution"><span class="std std-ref">belt of mighty constitution</span></a> +2,  <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-cloak-of-resistance"><span class="std std-ref">cloak of resistance</span></a> +1, <a class="reference internal" href="corerulebook.magicitems.rings.html#corerulebook-magicitems-rings-ring-of-protection"><span class="std std-ref">ring of protection</span></a> +1, 5 gp</p>
+<p>Giant slayers seek out giants and cut them down. Raging with enmity for their prey, they allow no other creatures to get between them and their hated foes.</p>
+</div>
+<div class="section" id="jemar-crowell">
+<span id="npccodex-core-barbarian-jemar-crowell"></span><h2><a class="toc-backref" href="#id143">Jemar Crowell</a><a class="headerlink" href="#jemar-crowell" title="Permalink to this headline">¶</a></h2>
+<p>Jemar Crowell is a champion of his people, a savage emissary of vengeance in the never-ending wars between the dwarfholds and giant-kin of all kinds. Often clad head to toe in stout dwarven steel armor, Jemar sometimes doffs his helmet to better taunt enemies as he brings them low. He keeps his scalp shaved save for two narrow crests of hair. His cape is woven from shaggy skeins of loosely-spun giant hair clipped from his vanquished foes, and when the weather is cold he wears scarves and mittens knit from the same material.</p>
+<p><strong>Combat Encounters:</strong> Jemar is a focused combatant, going after his prey and protecting his people’s interests to the exclusion of all other concerns. He has no qualms about stealing kills and looting bodies.</p>
+<p><strong>Roleplaying Suggestions:</strong> When not slaying giants, Jemar plans raids on giant strongholds, and considers those who trade with giants as bad as giants themselves. Though he primarily works for dwarven interests, he often hires sellswords and adventurers to aid him on particularly dangerous hunts.</p>
+</div>
+<div class="section" id="savage-rider">
+<span id="npccodex-core-barbarian-savage-rider"></span><h2><a class="toc-backref" href="#id144">Savage Rider</a><a class="headerlink" href="#savage-rider" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 12</strong></p>
+<p><strong>XP</strong> 19,200</p>
+<p><strong>Human barbarian</strong> 13</p>
+<p>CN Medium humanoid (human)</p>
+<p><strong>Init</strong> +1; <strong>Senses</strong> Perception +17</p>
+</div>
+<div class="section" id="id46">
+<h2><a class="toc-backref" href="#id145">Defense</a><a class="headerlink" href="#id46" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 17, touch 9, flat-footed 16 (+6 armor, +1 Dex, â2 rage, +2 shield) (+1 deflection vs. ranged weapons)</p>
+<p><strong>hp</strong> 194 (13d12+104)</p>
+<p><strong>Fort</strong> +16, <strong>Ref</strong> +6, <strong>Will</strong> +9; +5 vs. spells and spell-like or supernatural abilities</p>
+<p><strong>Defensive Abilities</strong> improved uncanny dodge, trap sense +4; <strong>DR</strong> 3/—</p>
+</div>
+<div class="section" id="id47">
+<h2><a class="toc-backref" href="#id146">Offense</a><a class="headerlink" href="#id47" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 40 ft.</p>
+<p><strong>Melee</strong><em>+1 lance</em> +21/+16/+11 (1d8+8/Ã3)</p>
+<p><strong>Ranged</strong> mwk composite longbow +15/+10/+5 (1d8+7/Ã3)</p>
+<p><strong>Space</strong>5 ft.; <strong>Reach</strong> 5 ft. (10 ft. with lance)</p>
+<p><strong>Special Attacks</strong> greater rage (32 rounds/day), rage powers (guarded stance +3, mighty swing, renewed vigor 3d8+10, rolling dodge +3, strength surge +13, superstition +5)</p>
+</div>
+<div class="section" id="id48">
+<h2><a class="toc-backref" href="#id147">Tactics</a><a class="headerlink" href="#id48" title="Permalink to this headline">¶</a></h2>
+<p><strong>Before Combat</strong> The barbarian uses his warhorse for transportation, but if expecting combat, he retrieves an animal from his <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-bag-of-tricks"><span class="std std-ref">bag of tricks</span></a> and rides it instead.</p>
+<p><strong>During Combat</strong> The barbarian charges whenever possible, whether mounted or on foot, using <a class="reference internal" href="corerulebook.feats.html#mounted combat (combat)"><span class="std std-ref">Mounted Combat</span></a> and his +1 <a class="reference internal" href="corerulebook.magicitems.armor.html#corerulebook-magicitems-armor-armor-arrow-catching"><span class="std std-ref">arrow catching</span></a> buckler to divert attacks made against his mount. If his mount is slain, he draws a replacement from his <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-bag-of-tricks"><span class="std std-ref">bag of tricks</span></a> and makes a fast mount. He uses guarded stance and rolling dodge as needed, often using them or renewed vigor after a ride-by charge while circling around into position for another charge.</p>
+<p><strong>Base Statistics</strong> When not raging, the barbarian’s statistics are <strong>AC</strong> 19, touch 11, flat-footed 18; <strong>hp</strong> 155; <strong>Fort</strong> +13, <strong>Will</strong>+6; no bonus vs. spells and spell-like or supernatural abilities; <strong>Melee</strong><em>+1 lance</em> +18/+13/+8 (1d8+5/Ã3); <strong>Ranged</strong> mwk composite longbow +15/+10/+5 (1d8+4/Ã3); <strong>Str</strong> 18, <strong>Con</strong> 18; <strong>CMB</strong> +17; <strong>CMD</strong> 28; <strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> +7, <a class="reference internal" href="corerulebook.skills.swim.html#corerulebook-skills-swim-swim"><span class="std std-ref">Swim</span></a> +7.</p>
+</div>
+<div class="section" id="id49">
+<h2><a class="toc-backref" href="#id148">statistics</a><a class="headerlink" href="#id49" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 24, <strong>Dex</strong> 13, <strong>Con</strong> 24, <strong>Int</strong> 10, <strong>Wis</strong> 12, <strong>Cha</strong> 8</p>
+<p><strong>Base Atk</strong> +13; <strong>CMB</strong> +20; <strong>CMD</strong> 29</p>
+<p><strong>Feats</strong> <a class="reference internal" href="corerulebook.feats.html#corerulebook-feats-animal-affinity"><span class="std std-ref">Animal Affinity</span></a>, Improved Bull Rush, <a class="reference internal" href="corerulebook.feats.html#mounted combat (combat)"><span class="std std-ref">Mounted Combat</span></a>, <a class="reference internal" href="corerulebook.feats.html#power attack (combat)"><span class="std std-ref">Power Attack</span></a>, Ride-By Attack, <a class="reference internal" href="corerulebook.feats.html#corerulebook-feats-skill-focus"><span class="std std-ref">Skill Focus</span></a> (<a class="reference internal" href="corerulebook.skills.ride.html#corerulebook-skills-ride-ride"><span class="std std-ref">Ride</span></a>), Spirited Charge, Unseat</p>
+<p><strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a> +11, <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> +10, <a class="reference internal" href="corerulebook.skills.handleanimal.html#corerulebook-skills-handleanimal-handle-animal"><span class="std std-ref">Handle Animal</span></a> +19, <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (nature) +10, Perception +17, <a class="reference internal" href="corerulebook.skills.ride.html#corerulebook-skills-ride-ride"><span class="std std-ref">Ride</span></a> +26, <a class="reference internal" href="corerulebook.skills.survival.html#corerulebook-skills-survival-survival"><span class="std std-ref">Survival</span></a> +13, <a class="reference internal" href="corerulebook.skills.swim.html#corerulebook-skills-swim-swim"><span class="std std-ref">Swim</span></a> +10</p>
+<p><strong>Languages</strong> Common</p>
+<p><strong>SQ</strong> fast movement</p>
+<p><strong>Combat Gear</strong>oil of <a class="reference internal" href="corerulebook.spells.keenedge.html#corerulebook-spells-keenedge-keen-edge"><span class="std std-ref">keen edge</span></a>, potion of <a class="reference internal" href="corerulebook.spells.curelightwounds.html#corerulebook-spells-curelightwounds-cure-light-wounds"><span class="std std-ref">cure light wounds</span></a>; <strong>Other Gear</strong><em>rhino hide armor</em>, +1 <a class="reference internal" href="corerulebook.magicitems.armor.html#corerulebook-magicitems-armor-armor-arrow-catching"><span class="std std-ref">arrow catching</span></a> buckler, <em>+1 lance</em>, masterwork composite longbow (+7 Str) with 20 arrows, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-bag-of-tricks"><span class="std std-ref">bag of tricks</span></a> (tan), <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-belt-of-mighty-constitution"><span class="std std-ref">belt of mighty constitution</span></a> +2, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-cloak-of-resistance"><span class="std std-ref">cloak of resistance</span></a> +1, heavy warhorse with riding saddle and masterwork studded leather barding, 51 gp</p>
+<p>Savage riders use a mix of magical and mundane mounts to make lightning-fast raids against their enemies.</p>
+</div>
+<div class="section" id="finnogh-llew">
+<span id="npccodex-core-barbarian-finnogh-llew"></span><h2><a class="toc-backref" href="#id149">Finnogh Llew</a><a class="headerlink" href="#finnogh-llew" title="Permalink to this headline">¶</a></h2>
+<p>Having mastered horses while still a child, Finnogh seeks out the wildest and most untameable beasts the world has to offer. Though he’s keenly interested in learning which savage beasts can best be tamed, he cares less about mastery than the thrill of the ride. Eventually he turns loose even those animals he has broken to the bit, though more from boredom than altruism.</p>
+<p><strong>Combat Encounters:</strong> Always on the search for exotic beasts to serve as mounts, Finnogh often resides in or near the lairs of strange creatures.</p>
+<p><strong>Roleplaying Suggestions:</strong> Finnogh is quick to query adventurers about any strange creatures they might have encountered, and may join them on a hunt for such beasts.</p>
+</div>
+<div class="section" id="arcane-experimenter">
+<span id="npccodex-core-barbarian-arcane-experimenter"></span><h2><a class="toc-backref" href="#id150">Arcane Experimenter</a><a class="headerlink" href="#arcane-experimenter" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 13</strong></p>
+<p><strong>XP</strong> 25,600</p>
+<p><strong>Gnome barbarian</strong> 14</p>
+<p>CE Small humanoid (gnome)</p>
+<p><strong>Init</strong> +3; <strong>Senses</strong> low-light vision; Perception +20</p>
+</div>
+<div class="section" id="id50">
+<h2><a class="toc-backref" href="#id151">Defense</a><a class="headerlink" href="#id50" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 19, touch 12, flat-footed 16 (+7 armor, +3 Dex, â2 rage, +1 size)</p>
+<p><strong>hp</strong> 191 (14d12+95)</p>
+<p><strong>Fort</strong> +16, <strong>Ref</strong> +8, <strong>Will</strong> +9; +2 vs. illusions, +4 vs. enchantments</p>
+<p><strong>Defensive Abilities</strong> defensive training (+4 dodge bonus to AC vs. giants), improved uncanny dodge, indomitable will, trap sense +4; <strong>DR</strong> 3/—; <strong>Immune</strong> frightened, nauseated, shaken, sickened</p>
+</div>
+<div class="section" id="id51">
+<h2><a class="toc-backref" href="#id152">Offense</a><a class="headerlink" href="#id51" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 25 ft.</p>
+<p><strong>Melee</strong>+1 <a class="reference internal" href="corerulebook.magicitems.weapons.html#corerulebook-magicitems-weapons-thundering"><span class="std std-ref">thundering</span></a> gnome hooked hammer +21/+16/+11 (1d4+8/19â20/Ã4) or +1 <a class="reference internal" href="corerulebook.magicitems.weapons.html#corerulebook-magicitems-weapons-thundering"><span class="std std-ref">thundering</span></a> gnome hooked hammer +19/+14/+9 (1d4+6/19â20/Ã4), <em>+1 gnome hooked hammer</em> +19/+14 (1d6+6/19â20/Ã3), bite +15 (1d3+2)</p>
+<p><strong>Ranged</strong> mwk composite longbow +19/+14/+9 (1d6+5/Ã3)</p>
+<p><strong>Special Attacks</strong> +1 on attack rolls against goblinoid and reptilian humanoids, greater rage (33 rounds/day), rage powers (animal fury, clear mind, fearless rage, internal fortitude, mighty swing, moment of clarity, strength surge +14)</p>
+<p><strong>Gnome Spell-Like Abilities</strong> (CL 14th; concentration +15)</p>
+<blockquote>
+<div>1/day—<a class="reference internal" href="corerulebook.spells.dancinglights.html#corerulebook-spells-dancinglights-dancing-lights"><span class="std std-ref">dancing lights</span></a>, <a class="reference internal" href="corerulebook.spells.ghostsound.html#corerulebook-spells-ghostsound-ghost-sound"><span class="std std-ref">ghost sound</span></a> (DC 11), <a class="reference internal" href="corerulebook.spells.prestidigitation.html#corerulebook-spells-prestidigitation-prestidigitation"><span class="std std-ref">prestidigitation</span></a>, <a class="reference internal" href="corerulebook.spells.speakwithanimals.html#corerulebook-spells-speakwithanimals-speak-with-animals"><span class="std std-ref">speak with animals</span></a></div></blockquote>
+</div>
+<div class="section" id="id52">
+<h2><a class="toc-backref" href="#id153">Tactics</a><a class="headerlink" href="#id52" title="Permalink to this headline">¶</a></h2>
+<p><strong>Before Combat</strong> The barbarian uses her wand of <a class="reference internal" href="corerulebook.spells.shield.html#corerulebook-spells-shield-shield"><span class="std std-ref">shield</span></a> before most battles, but also uses her wand of <a class="reference internal" href="corerulebook.spells.mirrorimage.html#corerulebook-spells-mirrorimage-mirror-image"><span class="std std-ref">mirror image</span></a> if she expects a difficult fight or a battle against a strong lone enemy.</p>
+<p><strong>During Combat</strong> The barbarian closes quickly to make full attacks with her hooked hammer, using the <a class="reference internal" href="corerulebook.magicitems.weapons.html#corerulebook-magicitems-weapons-thundering"><span class="std std-ref">thundering</span></a> pick end as her primary weapon and the hammer as her off-hand attack. If she has to charge or otherwise move between attacks, she makes a single two-handed <a class="reference internal" href="corerulebook.feats.html#power attack (combat)"><span class="std std-ref">Power Attack</span></a> with the pick end. She uses moment of clarity to trigger a wand or scroll if the situation demands, such as in an encounter with a flying or invisible foe. She prefers to reserve her <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-boots-of-speed"><span class="std std-ref">boots of speed</span></a> for when she is already in melee, to facilitate full attacks or to close the distance on faster enemies.</p>
+<p><strong>Base Statistics</strong> When not raging, the barbarian’s statistics are <strong>AC</strong> 21, touch 14, flat-footed 18; <strong>hp</strong> 149; <strong>Fort</strong> +13, <strong>Will</strong>+6; no bonus vs. enchantments; <strong>Immune</strong> —; <strong>Melee</strong>+1 <a class="reference internal" href="corerulebook.magicitems.weapons.html#corerulebook-magicitems-weapons-thundering"><span class="std std-ref">thundering</span></a> gnome hooked hammer +18/+13/+8 (1d4+4/19â20/Ã4) or +1 <a class="reference internal" href="corerulebook.magicitems.weapons.html#corerulebook-magicitems-weapons-thundering"><span class="std std-ref">thundering</span></a> gnome hooked hammer +16/+11/+6 (1d4+3/19â20/Ã4), <em>+1 gnome hooked hammer</em> +16/+11 (1d6+3/19â20/Ã3); <strong>Ranged</strong> mwk composite longbow +19/+14/+9 (1d6+2/Ã3); <strong>Str</strong> 14, <strong>Con</strong> 16; <strong>CMB</strong> +15; <strong>CMD</strong> 28; <strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> +3.</p>
+</div>
+<div class="section" id="id53">
+<h2><a class="toc-backref" href="#id154">Statistics</a><a class="headerlink" href="#id53" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 20, <strong>Dex</strong> 17, <strong>Con</strong> 22, <strong>Int</strong> 8, <strong>Wis</strong> 12, <strong>Cha</strong> 12</p>
+<p><strong>Base Atk</strong> +14; <strong>CMB</strong> +18; <strong>CMD</strong> 29</p>
+<p><strong>Feats</strong> Double Slice, <a class="reference internal" href="corerulebook.feats.html#improved critical (combat)"><span class="std std-ref">Improved Critical</span></a> (gnome hooked hammer), Improved <a class="reference internal" href="corerulebook.feats.html#two-weapon fighting (combat)"><span class="std std-ref">Two-Weapon Fighting</span></a>, <a class="reference internal" href="corerulebook.feats.html#power attack (combat)"><span class="std std-ref">Power Attack</span></a>, <a class="reference internal" href="corerulebook.feats.html#corerulebook-feats-skill-focus"><span class="std std-ref">Skill Focus</span></a> (<a class="reference internal" href="corerulebook.skills.usemagicdevice.html#corerulebook-skills-usemagicdevice-use-magic-device"><span class="std std-ref">Use Magic Device</span></a>), <a class="reference internal" href="corerulebook.feats.html#two-weapon fighting (combat)"><span class="std std-ref">Two-Weapon Fighting</span></a>, Two-Weapon Rend</p>
+<p><strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a> +17, <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> +6, <a class="reference internal" href="corerulebook.skills.craft.html#corerulebook-skills-craft-craft"><span class="std std-ref">Craft</span></a> (alchemy) +5, <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (arcana) +0, Perception +20, <a class="reference internal" href="corerulebook.skills.spellcraft.html#corerulebook-skills-spellcraft-spellcraft"><span class="std std-ref">Spellcraft</span></a> +0, <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> +5, <a class="reference internal" href="corerulebook.skills.survival.html#corerulebook-skills-survival-survival"><span class="std std-ref">Survival</span></a> +5, <a class="reference internal" href="corerulebook.skills.usemagicdevice.html#corerulebook-skills-usemagicdevice-use-magic-device"><span class="std std-ref">Use Magic Device</span></a> +18</p>
+<p><strong>Languages</strong> Common, Gnome, Sylvan</p>
+<p><strong>SQ</strong> fast movement</p>
+<p><strong>Combat Gear</strong>scroll of <a class="reference internal" href="corerulebook.spells.alignweapon.html#corerulebook-spells-alignweapon-align-weapon"><span class="std std-ref">align weapon</span></a>, scroll of <a class="reference internal" href="corerulebook.spells.curelightwounds.html#corerulebook-spells-curelightwounds-cure-light-wounds"><span class="std std-ref">cure light wounds</span></a>, scroll of <a class="reference internal" href="corerulebook.spells.magicweapon.html#corerulebook-spells-magicweapon-magic-weapon"><span class="std std-ref">magic weapon</span></a>, scroll of <a class="reference internal" href="corerulebook.spells.protectionfromgood.html#corerulebook-spells-protectionfromgood-protection-from-good"><span class="std std-ref">protection from good</span></a>, scroll of  <a class="reference internal" href="corerulebook.spells.truestrike.html#corerulebook-spells-truestrike-true-strike"><span class="std std-ref">true strike</span></a>, wand of <a class="reference internal" href="corerulebook.spells.fly.html#corerulebook-spells-fly"><span class="std std-ref">fly</span></a> (10 charges), wand of <a class="reference internal" href="corerulebook.spells.mirrorimage.html#corerulebook-spells-mirrorimage-mirror-image"><span class="std std-ref">mirror image</span></a>(10 charges), wand of <a class="reference internal" href="corerulebook.spells.seeinvisibility.html#corerulebook-spells-seeinvisibility-see-invisibility"><span class="std std-ref">see invisibility</span></a> (10 charges), wand of <a class="reference internal" href="corerulebook.spells.shield.html#corerulebook-spells-shield-shield"><span class="std std-ref">shield</span></a> (40 charges), alchemical sliver arrows (10), cold iron arrows (20); <strong>Other Gear</strong><em>+1 breastplate</em>, +1 <a class="reference internal" href="corerulebook.magicitems.weapons.html#corerulebook-magicitems-weapons-thundering"><span class="std std-ref">thundering</span></a>/+1 gnome hooked hammer, masterwork composite longbow (+5 Str), <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-belt-of-giant-strength"><span class="std std-ref">belt of giant strength</span></a> +2, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-boots-of-speed"><span class="std std-ref">boots of speed</span></a>, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-cloak-of-resistance"><span class="std std-ref">cloak of resistance</span></a> +1, 8 gp</p>
+<p>An oddity among their kind, arcane experimenters use knowledge of magic to sow confusion on the battlefield.</p>
+</div>
+<div class="section" id="krida-grichenwald">
+<span id="npccodex-core-barbarian-krida-grichenwald"></span><h2><a class="toc-backref" href="#id155">Krida Grichenwald</a><a class="headerlink" href="#krida-grichenwald" title="Permalink to this headline">¶</a></h2>
+<p>Krida studies the link between emotional states and magic. Though she’s so far been unable to focus her rage into magic, she believes it is only a matter of time. When friends and family tried to dissuade her, Krida quite literally sacrificed them, murdering some swiftly in paranoid vengeance but gruesomely torturing others in her search for non-existent magical secrets.</p>
+<p><strong>Combat Encounters:</strong> Krida’s obsession drives her to attack those who obviously possess magic items.</p>
+<p><strong>Roleplaying Suggestions:</strong> Krida may search out spellcasters in order to pick their brains about rage magic, but she soon becomes frustrated and hostile to them.</p>
+</div>
+<div class="section" id="life-stealer">
+<span id="npccodex-core-barbarian-life-stealer"></span><h2><a class="toc-backref" href="#id156">Life Stealer</a><a class="headerlink" href="#life-stealer" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 14</strong></p>
+<p><strong>XP</strong> 38,400</p>
+<p><strong>Human barbarian</strong> 15</p>
+<p>NE Medium humanoid (human)</p>
+<p><strong>Init</strong> +3; <strong>Senses</strong> darkvision 60 ft., low-light vision, scent; Perception +18</p>
+</div>
+<div class="section" id="id54">
+<h2><a class="toc-backref" href="#id157">Defense</a><a class="headerlink" href="#id54" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 20, touch 11, flat-footed 17 (+7 armor, +3 Dex, â2 rage, +2 shield)</p>
+<p><strong>hp</strong> 200 (15d12++97)</p>
+<p><strong>Fort</strong> +17, <strong>Ref</strong> +10, <strong>Will</strong> +10; +5 vs. spells and spell-like and supernatural abilities, +4 vs. enchantments</p>
+<p><strong>Defensive Abilities</strong> improved uncanny dodge, indomitable will, trap sense +5; <strong>DR</strong> 3/—</p>
+</div>
+<div class="section" id="id55">
+<h2><a class="toc-backref" href="#id158">Offense</a><a class="headerlink" href="#id55" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 30 ft.</p>
+<p><strong>Melee</strong><a class="reference internal" href="corerulebook.magicitems.weapons.html#corerulebook-magicitems-weapons-nine-lives-stealer"><span class="std std-ref">nine lives stealer</span></a> +22/+17/+12 (1d8+7/17â20) or armor spikes +20/+15/+10 (1d6+5)</p>
+<p><strong>Ranged</strong> mwk composite longbow +19/+14/+9 (1d8+5/Ã3)</p>
+<p><strong>Special Attacks</strong> greater rage (35 rounds/day), rage powers (low-light vision, mighty swing, night vision, quick reflexes, scent, strength surge +15, superstition +5)</p>
+</div>
+<div class="section" id="id56">
+<h2><a class="toc-backref" href="#id159">Tactics</a><a class="headerlink" href="#id56" title="Permalink to this headline">¶</a></h2>
+<p><strong>Before Combat</strong> The barbarian uses stealth and deception to get close to enemies without them noticing, and uses his <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-chime-of-opening"><span class="std std-ref">chime of opening</span></a> to break into locked strongholds.</p>
+<p><strong>During Combat</strong> The barbarian tries to disarm opponents at the beginning of combat, using poison against a target’s weakest ability score if he knows his target in advance. He triggers his mighty swing on a sword critical that might slay his target, and uses his rage-enhanced senses to find creatures trying to hide or flee. He uses his buckler when faced with many foes, but against lone targets uses his <a class="reference internal" href="corerulebook.magicitems.weapons.html#corerulebook-magicitems-weapons-nine-lives-stealer"><span class="std std-ref">nine lives stealer</span></a> for two-handed Power Attacks.</p>
+<p><strong>Base Statistics</strong> When not raging, the barbarian’s statistics are <strong>AC</strong> 22, touch 13, flat-footed 19; <strong>hp</strong> 155; <strong>Fort</strong> +14, <strong>Will</strong>+7; no bonus vs. spells and spell-like or supernatural abilities, no bonus vs. enchantments; <strong>Melee</strong> <a class="reference internal" href="corerulebook.magicitems.weapons.html#corerulebook-magicitems-weapons-nine-lives-stealer"><span class="std std-ref">nine lives stealer</span></a> +19/+14/+9 (1d8+4/17â20) or armor spikes +17/+12/+7 (1d6+2); <strong>Ranged</strong> mwk composite longbow +19/+14/+9 (1d8+2/Ã3); <strong>Str</strong> 15, <strong>Con</strong> 16; <strong>CMB</strong> +17; <strong>CMD</strong> 30; <strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> +7, <a class="reference internal" href="corerulebook.skills.swim.html#corerulebook-skills-swim-swim"><span class="std std-ref">Swim</span></a> +3.</p>
+</div>
+<div class="section" id="id57">
+<h2><a class="toc-backref" href="#id160">statistics</a><a class="headerlink" href="#id57" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 21, <strong>Dex</strong> 16, <strong>Con</strong> 22, <strong>Int</strong> 14, <strong>Wis</strong> 10, <strong>Cha</strong> 8</p>
+<p><strong>Base Atk</strong> +15; <strong>CMB</strong> +20; <strong>CMD</strong> 31</p>
+<p><strong>Feats</strong> <a class="reference internal" href="corerulebook.feats.html#blind-fight (combat)"><span class="std std-ref">Blind-Fight</span></a>, <a class="reference internal" href="corerulebook.feats.html#combat expertise (combat)"><span class="std std-ref">Combat Expertise</span></a>, <a class="reference internal" href="corerulebook.feats.html#deadly aim (combat)"><span class="std std-ref">Deadly Aim</span></a>, <a class="reference internal" href="corerulebook.feats.html#corerulebook-feats-deceitful"><span class="std std-ref">Deceitful</span></a>, Greater Disarm, <a class="reference internal" href="corerulebook.feats.html#improved critical (combat)"><span class="std std-ref">Improved Critical</span></a> (longsword), Improved Disarm, <a class="reference internal" href="corerulebook.feats.html#power attack (combat)"><span class="std std-ref">Power Attack</span></a>, <a class="reference internal" href="corerulebook.feats.html#step up (combat)"><span class="std std-ref">Step Up</span></a></p>
+<p><strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a> +18 (+22 when jumping), <a class="reference internal" href="corerulebook.skills.bluff.html#corerulebook-skills-bluff-bluff"><span class="std std-ref">Bluff</span></a> +18, <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> +10, <a class="reference internal" href="corerulebook.skills.craft.html#corerulebook-skills-craft-craft"><span class="std std-ref">Craft</span></a> (alchemy) +6, <a class="reference internal" href="corerulebook.skills.disguise.html#corerulebook-skills-disguise-disguise"><span class="std std-ref">Disguise</span></a> +20 (+30 with <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-hat-of-disguise"><span class="std std-ref">hat of disguise</span></a>), <a class="reference internal" href="corerulebook.skills.intimidate.html#corerulebook-skills-intimidate-intimidate"><span class="std std-ref">Intimidate</span></a> +15, <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (local, nobility) +5, <a class="reference internal" href="corerulebook.skills.linguistics.html#corerulebook-skills-linguistics-linguistics"><span class="std std-ref">Linguistics</span></a> +7, Perception +18, <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> +20, <a class="reference internal" href="corerulebook.skills.survival.html#corerulebook-skills-survival-survival"><span class="std std-ref">Survival</span></a> +10, <a class="reference internal" href="corerulebook.skills.swim.html#corerulebook-skills-swim-swim"><span class="std std-ref">Swim</span></a> +6</p>
+<p><strong>Languages</strong> Common, Aklo, Draconic, Dwarven, Elven, Gnoll, Goblin, Orc</p>
+<p><strong>SQ</strong> fast movement</p>
+<p><strong>Combat Gear</strong>potion of <a class="reference internal" href="corerulebook.spells.curelightwounds.html#corerulebook-spells-curelightwounds-cure-light-wounds"><span class="std std-ref">cure light wounds</span></a>, potion of <a class="reference internal" href="corerulebook.spells.invisibility.html#corerulebook-spells-invisibility-invisibility"><span class="std std-ref">invisibility</span></a>, potions of <a class="reference internal" href="corerulebook.spells.undetectablealignment.html#corerulebook-spells-undetectablealignment-undetectable-alignment"><span class="std std-ref">undetectable alignment</span></a> (2), blue whinnis poison (2), giant wasp poison (2), purple worm poison; <strong>Other Gear</strong>+1 <a class="reference internal" href="corerulebook.magicitems.armor.html#corerulebook-magicitems-armor-armor-shadow"><span class="std std-ref">shadow</span></a> breastplate with armor spikes, <em>+1 buckler</em>, <a class="reference internal" href="corerulebook.magicitems.weapons.html#corerulebook-magicitems-weapons-nine-lives-stealer"><span class="std std-ref">nine lives stealer</span></a>, masterwork composite longbow (+5 Str) with 20 arrows, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-belt-of-giant-strength"><span class="std std-ref">belt of giant strength</span></a> +2, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-chime-of-opening"><span class="std std-ref">chime of opening</span></a>, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-cloak-of-resistance"><span class="std std-ref">cloak of resistance</span></a> +2, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-hat-of-disguise"><span class="std std-ref">hat of disguise</span></a>, disguise kit, 50 gp</p>
+<p>Careful and cunning, life stealers often serve as assassins.</p>
+</div>
+<div class="section" id="xavier-durant">
+<span id="npccodex-core-barbarian-xavier-durant"></span><h2><a class="toc-backref" href="#id161">Xavier Durant</a><a class="headerlink" href="#xavier-durant" title="Permalink to this headline">¶</a></h2>
+<p>Xavier fancies himself a master of infiltration, and takes special delight in eliminating rival assassins.</p>
+<p><strong>Combat Encounters:</strong> Xavier often hires goons to weaken his prey before moving in for the kill.</p>
+<p><strong>Roleplaying Suggestions:</strong> Xavier disguises himself so he can interact with marks in person and learn about them.</p>
+</div>
+<div class="section" id="undead-hunter">
+<span id="npccodex-core-barbarian-undead-hunter"></span><h2><a class="toc-backref" href="#id162">Undead Hunter</a><a class="headerlink" href="#undead-hunter" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 15</strong></p>
+<p><strong>XP</strong> 51,200</p>
+<p><strong>Half-orc barbarian</strong> 16</p>
+<p>N Medium humanoid (human, orc)</p>
+<p><strong>Init</strong> +1; <strong>Senses</strong> darkvision 60 ft.; Perception +20</p>
+</div>
+<div class="section" id="id58">
+<h2><a class="toc-backref" href="#id163">Defense</a><a class="headerlink" href="#id58" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 16, touch 9, flat-footed 15 (+7 armor, +1 Dex, â2 rage)</p>
+<p><strong>hp</strong> 237 (16d12+128)</p>
+<p><strong>Fort</strong> +19, <strong>Ref</strong> +8, <strong>Will</strong> +11; +6 vs. spells and supernatural or spell-like abilities, +4 vs. enchantments</p>
+<p><strong>Defensive Abilities</strong> improved uncanny dodge, indomitable will, orc ferocity, trap sense +5; <strong>DR</strong> 4/—; <strong>Immune</strong> frightened, nauseated, shaken, sickened</p>
+</div>
+<div class="section" id="id59">
+<h2><a class="toc-backref" href="#id164">Offense</a><a class="headerlink" href="#id59" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 30 ft.</p>
+<p><strong>Melee</strong>+1 <a class="reference internal" href="corerulebook.magicitems.weapons.html#corerulebook-magicitems-weapons-weapons-disruption"><span class="std std-ref">disruption</span></a> heavy flail +26/+21/+16/+11 (1d10+13/17â20) or +1 <a class="reference internal" href="corerulebook.magicitems.weapons.html#corerulebook-magicitems-weapons-weapons-merciful"><span class="std std-ref">merciful</span></a> heavy flail +26/+21/+16/+11 (1d10+1d6+13 nonlethal/17â20)</p>
+<p><strong>Ranged</strong><em>+1 undead-bane composite longbow</em> +18/+13/+8/+3 (1d8+9/Ã3)</p>
+<p><strong>Special Attacks</strong> greater rage (38 rounds/day), rage powers (clear mind, fearless rage, internal fortitude, intimidating glare, no escape, quick reflexes, superstition +6, terrifying howl [DC 26])</p>
+</div>
+<div class="section" id="id60">
+<h2><a class="toc-backref" href="#id165">Tactics</a><a class="headerlink" href="#id60" title="Permalink to this headline">¶</a></h2>
+<p><strong>During Combat</strong> The barbarian hunts undead, using both his +1 <a class="reference internal" href="corerulebook.magicitems.weapons.html#corerulebook-magicitems-weapons-weapons-disruption"><span class="std std-ref">disruption</span></a> heavy flail and his bow. Against the living, he uses intimidating glare and terrifying howl, then switches to his+1 <a class="reference internal" href="corerulebook.magicitems.weapons.html#corerulebook-magicitems-weapons-weapons-merciful"><span class="std std-ref">merciful</span></a> heavy flail and utilizes Exhausting Criticals and trip maneuvers to take enemies out of the fight without killing them.</p>
+<p><strong>Base Statistics</strong> When not raging, the barbarian’s statistics are <strong>AC</strong> 18, touch 11, flat-footed 17; <strong>hp</strong> 189; <strong>Fort</strong> +16, <strong>Will</strong>+8; no bonus vs. spells and spell-like or supernatural abilities, no bonus vs. enchantments; <strong>Melee</strong>+1 <a class="reference internal" href="corerulebook.magicitems.weapons.html#corerulebook-magicitems-weapons-weapons-disruption"><span class="std std-ref">disruption</span></a> heavy flail +23/+18/+13/+8 (1d10+8/17â20) or +1 <a class="reference internal" href="corerulebook.magicitems.weapons.html#corerulebook-magicitems-weapons-weapons-merciful"><span class="std std-ref">merciful</span></a> heavy flail +23/+18/+13/+8 (1d10+1d6+8 nonlethal/17â20); <strong>Ranged</strong><em>+1 undead-bane composite longbow</em> +18/+13/+8/+3 (1d8+6/Ã3); <strong>Str</strong> 20, <strong>Con</strong> 18; <strong>CMB</strong> +21 (+25 trip); <strong>CMD</strong> 32 (34 vs. trip); <strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> +17, <a class="reference internal" href="corerulebook.skills.swim.html#corerulebook-skills-swim-swim"><span class="std std-ref">Swim</span></a> +7.</p>
+</div>
+<div class="section" id="id61">
+<h2><a class="toc-backref" href="#id166">statistics</a><a class="headerlink" href="#id61" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 26, <strong>Dex</strong> 12, <strong>Con</strong> 24, <strong>Int</strong> 14, <strong>Wis</strong> 12, <strong>Cha</strong> 8</p>
+<p><strong>Base Atk</strong> +16; <strong>CMB</strong> +24 (+28 trip); <strong>CMD</strong> 33 (35 vs. trip)</p>
+<p><strong>Feats</strong> <a class="reference internal" href="corerulebook.feats.html#combat expertise (combat)"><span class="std std-ref">Combat Expertise</span></a>, <a class="reference internal" href="corerulebook.feats.html#critical focus (combat)"><span class="std std-ref">Critical Focus</span></a>, Exhausting Critical, Greater Trip, <a class="reference internal" href="corerulebook.feats.html#improved critical (combat)"><span class="std std-ref">Improved Critical</span></a> (heavy flail), Improved Trip, Tiring Critical, <a class="reference internal" href="corerulebook.feats.html#weapon focus (combat)"><span class="std std-ref">Weapon Focus</span></a> (heavy flail)</p>
+<p><strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a> +16 (+20 when jumping), <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> +20, <a class="reference internal" href="corerulebook.skills.intimidate.html#corerulebook-skills-intimidate-intimidate"><span class="std std-ref">Intimidate</span></a> +20, <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (religion) +15, Perception +20, <a class="reference internal" href="corerulebook.skills.ride.html#corerulebook-skills-ride-ride"><span class="std std-ref">Ride</span></a> +1, <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> +11, <a class="reference internal" href="corerulebook.skills.survival.html#corerulebook-skills-survival-survival"><span class="std std-ref">Survival</span></a> +10, <a class="reference internal" href="corerulebook.skills.swim.html#corerulebook-skills-swim-swim"><span class="std std-ref">Swim</span></a> +10</p>
+<p><strong>Languages</strong> Abyssal, Common, Draconic, Orc</p>
+<p><strong>SQ</strong> fast movement, orc blood, weapon familiarity</p>
+<p><strong>Combat Gear</strong>potion of <a class="reference internal" href="corerulebook.spells.cureseriouswounds.html#corerulebook-spells-cureseriouswounds-cure-serious-wounds"><span class="std std-ref">cure serious wounds</span></a>, potion of <a class="reference internal" href="corerulebook.spells.restoration.html#corerulebook-spells-restoration-restoration-lesser"><span class="std std-ref">lesser restoration</span></a>, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-silversheen"><span class="std std-ref">silversheen</span></a>, alchemical silver arrows (20), cold iron arrows (20), holy water (2); <strong>Other Gear</strong><em>+1 chainmail</em>, +1 <a class="reference internal" href="corerulebook.magicitems.weapons.html#corerulebook-magicitems-weapons-weapons-disruption"><span class="std std-ref">disruption</span></a> heavy flail, +1 <a class="reference internal" href="corerulebook.magicitems.weapons.html#corerulebook-magicitems-weapons-weapons-merciful"><span class="std std-ref">merciful</span></a> heavy flail, <em>+1 undead-bane composite longbow</em> (+8 Str), <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-belt-of-physical-perfection"><span class="std std-ref">belt of physical perfection</span></a> +2, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-cloak-of-resistance"><span class="std std-ref">cloak of resistance</span></a> +2, 2 gp</p>
+<p>Whether encountered alone or in a group of like-minded individuals, undead hunters let no one stand in the way of their grim work.</p>
+</div>
+<div class="section" id="torain-mirno">
+<span id="npccodex-core-barbarian-torain-mirno"></span><h2><a class="toc-backref" href="#id167">Torain Mirno</a><a class="headerlink" href="#torain-mirno" title="Permalink to this headline">¶</a></h2>
+<p>The last survivor of a half-orc tribe exterminated by a necromancer, Torain has devoted his life to cleansing the world of the taint of the unliving. His studious nature is a rarity among half-orcs, particularly in light of the savagery he unleashes upon the deathless hordes. While some hail him as a hero, his endless war has all but extinguished his sense of compassion and mercy.</p>
+<p><strong>Combat Encounters:</strong> Torain strikes hard and fast against those he believes serve undead or necromantic masters, often killing them before asking questions.</p>
+<p><strong>Roleplaying Suggestions:</strong> Between undead hunts, Torain holds silent vigils in a cemeteries and mausoleums, acting as a fierce and watchful warden against the rising dead.</p>
+</div>
+<div class="section" id="graceful-slayer">
+<span id="npccodex-core-barbarian-graceful-slayer"></span><h2><a class="toc-backref" href="#id168">Graceful Slayer</a><a class="headerlink" href="#graceful-slayer" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 16</strong></p>
+<p><strong>XP</strong> 76,800</p>
+<p><strong>Elf barbarian</strong> 17</p>
+<p>N Medium humanoid (elf)</p>
+<p><strong>Init</strong> +5; <strong>Senses</strong> low-light vision; Perception +23</p>
+</div>
+<div class="section" id="id62">
+<h2><a class="toc-backref" href="#id169">Defense</a><a class="headerlink" href="#id62" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 20, touch 13, flat-footed 15 (+7 armor, +5 Dex, â2 rage)</p>
+<p><strong>hp</strong> 218 (17d12+102)</p>
+<p><strong>Fort</strong> +17, <strong>Ref</strong> +12, <strong>Will</strong> +11; +6 vs. enchantments</p>
+<p><strong>Defensive Abilities</strong> improved uncanny dodge, indomitable will, trap sense +5; <strong>DR</strong> 4/—; <strong>Immune</strong> sleep</p>
+</div>
+<div class="section" id="id63">
+<h2><a class="toc-backref" href="#id170">Offense</a><a class="headerlink" href="#id63" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 40 ft.</p>
+<p><strong>Melee</strong>+1 <a class="reference internal" href="corerulebook.magicitems.weapons.html#corerulebook-magicitems-weapons-weapons-keen"><span class="std std-ref">keen</span></a> <a class="reference internal" href="corerulebook.magicitems.weapons.html#corerulebook-magicitems-weapons-weapons-shocking-burst"><span class="std std-ref">shocking burst</span></a> elven curve blade +25/+20/+15/+10 (1d10+11/15â20 plus 1d6 electricity)</p>
+<p><strong>Ranged</strong>+1 <a class="reference internal" href="corerulebook.magicitems.weapons.html#corerulebook-magicitems-weapons-weapons-seeking"><span class="std std-ref">seeking</span></a> composite longbow +23/+18/+13/+8 (1d8+8/19â20/Ã3)</p>
+<p><strong>Special Attacks</strong> greater rage (38 rounds/day), rage powers (clear mind, mighty swing, no escape, powerful blow +5, raging leaper +17, strength surge +17, surprise accuracy +5, unexpected strike)</p>
+</div>
+<div class="section" id="id64">
+<h2><a class="toc-backref" href="#id171">Tactics</a><a class="headerlink" href="#id64" title="Permalink to this headline">¶</a></h2>
+<p><strong>During Combat</strong> The barbarian initially pelts enemies with arrows to deliver disabling critical hit effects, and dispatches any who survive with her flashing blade. In either case, she uses her speed to stay out of danger and her <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-boots-of-speed"><span class="std std-ref">boots of speed</span></a> to maximize movement or make full attacks in melee or at range.</p>
+<p><strong>Base Statistics</strong> When not raging, the barbarian’s statistics are <strong>AC</strong> 22, touch 15, flat-footed 17; <strong>hp</strong> 167; <strong>Fort</strong> +14, <strong>Will</strong>+8; <strong>Melee</strong>+1 <a class="reference internal" href="corerulebook.magicitems.weapons.html#corerulebook-magicitems-weapons-weapons-keen"><span class="std std-ref">keen</span></a> <a class="reference internal" href="corerulebook.magicitems.weapons.html#corerulebook-magicitems-weapons-weapons-shocking-burst"><span class="std std-ref">shocking burst</span></a> elven curve blade +22/+17/+12/+7 (1d10+7/15â20 plus 1d6 electricity); <strong>Ranged</strong>+1 <a class="reference internal" href="corerulebook.magicitems.weapons.html#corerulebook-magicitems-weapons-weapons-seeking"><span class="std std-ref">seeking</span></a>  composite longbow +23/+18/+13/+8 (1d8+5/19â20/Ã3); <strong>Str</strong> 18, <strong>Con</strong> 14; <strong>CMB</strong> +21; <strong>CMD</strong> 36; <strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a> +24 (+28 when jumping), <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> +7, <a class="reference internal" href="corerulebook.skills.swim.html#corerulebook-skills-swim-swim"><span class="std std-ref">Swim</span></a> +7.</p>
+</div>
+<div class="section" id="id65">
+<h2><a class="toc-backref" href="#id172">statistics</a><a class="headerlink" href="#id65" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 24, <strong>Dex</strong> 20, <strong>Con</strong> 20, <strong>Int</strong> 12, <strong>Wis</strong> 12, <strong>Cha</strong> 8</p>
+<p><strong>Base Atk</strong> +17; <strong>CMB</strong> +24; <strong>CMD</strong> 37</p>
+<p><strong>Feats</strong> Bleeding Critical, <a class="reference internal" href="corerulebook.feats.html#critical focus (combat)"><span class="std std-ref">Critical Focus</span></a>, <a class="reference internal" href="corerulebook.feats.html#improved critical (combat)"><span class="std std-ref">Improved Critical</span></a> (composite longbow), Manyshot, <a class="reference internal" href="corerulebook.feats.html#point-blank shot (combat)"><span class="std std-ref">Point-Blank Shot</span></a>, <a class="reference internal" href="corerulebook.feats.html#power attack (combat)"><span class="std std-ref">Power Attack</span></a>, Rapid Shot, Staggering Critical, Stunning Critical</p>
+<p><strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a> +24 (+45 when jumping), <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> +10, <a class="reference internal" href="corerulebook.skills.intimidate.html#corerulebook-skills-intimidate-intimidate"><span class="std std-ref">Intimidate</span></a> +16, <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (nature) +10, Perception +23, <a class="reference internal" href="corerulebook.skills.ride.html#corerulebook-skills-ride-ride"><span class="std std-ref">Ride</span></a> +14, <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> +20, <a class="reference internal" href="corerulebook.skills.survival.html#corerulebook-skills-survival-survival"><span class="std std-ref">Survival</span></a> +10, <a class="reference internal" href="corerulebook.skills.swim.html#corerulebook-skills-swim-swim"><span class="std std-ref">Swim</span></a> +10</p>
+<p><strong>Languages</strong> Common, Elven</p>
+<p><strong>SQ</strong> elven magic, fast movement, tireless rage, weapon familiarity</p>
+<p><strong>Combat Gear</strong>oil of <a class="reference internal" href="corerulebook.spells.alignweapon.html#corerulebook-spells-alignweapon-align-weapon"><span class="std std-ref">align weapon</span></a> (evil), oil of <a class="reference internal" href="corerulebook.spells.flamearrow.html#corerulebook-spells-flamearrow-flame-arrow"><span class="std std-ref">flame arrow</span></a>, potions of <a class="reference internal" href="corerulebook.spells.curelightwounds.html#corerulebook-spells-curelightwounds-cure-light-wounds"><span class="std std-ref">cure light wounds</span></a> (2), potions of <a class="reference internal" href="corerulebook.spells.jump.html#corerulebook-spells-jump-jump"><span class="std std-ref">jump</span></a> (2), potion of <a class="reference internal" href="corerulebook.spells.spiderclimb.html#corerulebook-spells-spiderclimb-spider-climb"><span class="std std-ref">spider climb</span></a>, adamantine arrows (10), alchemical silver arrows (10) , tanglefoot bags (2); <strong>Other Gear</strong><em>+1 mithral breastplate</em>, +1 <a class="reference internal" href="corerulebook.magicitems.weapons.html#corerulebook-magicitems-weapons-weapons-keen"><span class="std std-ref">keen</span></a> <a class="reference internal" href="corerulebook.magicitems.weapons.html#corerulebook-magicitems-weapons-weapons-shocking-burst"><span class="std std-ref">shocking burst</span></a> elven curve blade, +1 <a class="reference internal" href="corerulebook.magicitems.weapons.html#corerulebook-magicitems-weapons-weapons-seeking"><span class="std std-ref">seeking</span></a> composite longbow (+7 Str) with 40 cold iron arrows, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-belt-of-physical-perfection"><span class="std std-ref">belt of physical perfection</span></a> +2, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-boots-of-speed"><span class="std std-ref">boots of speed</span></a>, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-cloak-of-resistance"><span class="std std-ref">cloak of resistance</span></a> +2, 50 gp</p>
+<p>Graceful slayers stalk the wilderness and the far reaches of the world, protecting the denizens and environs from those who would seek to slay and destroy.</p>
+</div>
+<div class="section" id="sibusiswe-njai">
+<span id="npccodex-core-barbarian-sibusiswe-njai"></span><h2><a class="toc-backref" href="#id173">Sibusiswe Njai</a><a class="headerlink" href="#sibusiswe-njai" title="Permalink to this headline">¶</a></h2>
+<p>Sibusiswe is a fierce and feral elf with the grace of a panther, and claims that she communes with animistic spirits of the forest and savannah. A loner, she prowls the wildlands, appearing and disappearing like a flash of lightning.</p>
+<p><strong>Combat Encounters:</strong> Sibusiswe follows the dictates of the animalistic spirits that she believes guide her. Because of this, her attacks can be unprovoked—as much as a surprise to her as to her victims.</p>
+<p><strong>Roleplaying Suggestions:</strong> Sibusiswe’s spirits are capricious, but also inquisitive. An encounter with the elf is just as likely to end in a parley as it is to end in combat.</p>
+</div>
+<div class="section" id="refined-reaver">
+<span id="npccodex-core-barbarian-refined-reaver"></span><h2><a class="toc-backref" href="#id174">Refined Reaver</a><a class="headerlink" href="#refined-reaver" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 17</strong></p>
+<p><strong>XP</strong> 102,400</p>
+<p><strong>Human barbarian</strong> 18</p>
+<p>N Medium humanoid (human)</p>
+<p><strong>Init</strong> +3; <strong>Senses</strong> Perception +21</p>
+</div>
+<div class="section" id="id66">
+<h2><a class="toc-backref" href="#id175">Defense</a><a class="headerlink" href="#id66" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 19, touch 12, flat-footed 15 (+7 armor, +3 Dex, +1 dodge, â2 rage)</p>
+<p><strong>hp</strong> 230 (18d12+108)</p>
+<p><strong>Fort</strong> +19, <strong>Ref</strong> +12, <strong>Will</strong> +12; +6 vs. spells and spell-like and supernatural abilities, +4 vs. enchantments</p>
+<p><strong>Defensive Abilities</strong> 50% chance to negate critical hits and sneak attacks, improved uncanny dodge, indomitable will, trap sense +6; <strong>DR</strong> 4/—; <strong>Immune</strong> frightened, nauseated, shaken, sickened</p>
+</div>
+<div class="section" id="id67">
+<h2><a class="toc-backref" href="#id176">Offense</a><a class="headerlink" href="#id67" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 40 ft.</p>
+<p><strong>Melee</strong><em>+3 adamantine ranseur</em> +31/+26/+21/+16 (2d4+18/Ã3)</p>
+<p><strong>Ranged</strong><em>+1 composite longbow</em> +22/+17/+12/+7 (1d8+11/Ã3)</p>
+<p><strong>Space</strong>5 ft.; <strong>Reach</strong> 5 ft. (10 ft. with ranseur)</p>
+<p><strong>Special Attacks</strong> greater rage (40 rounds/day), rage powers (fearless rage, guarded stance +4, internal fortitude, mighty swing, quick reflexes, strength surge +18, superstition +6, surprise accuracy +5, unexpected strike)</p>
+</div>
+<div class="section" id="id68">
+<h2><a class="toc-backref" href="#id177">Tactics</a><a class="headerlink" href="#id68" title="Permalink to this headline">¶</a></h2>
+<p><strong>Before Combat</strong> The barbarian drinks his potion of <a class="reference internal" href="corerulebook.spells.shieldoffaith.html#corerulebook-spells-shieldoffaith-shield-of-faith"><span class="std std-ref">shield of faith</span></a> if he has time.</p>
+<p><strong>During Combat</strong> The barbarian plunges into battle using Spring Attack. Once in position, he uses Whirlwind Attack with <a class="reference internal" href="corerulebook.feats.html#lunge (combat)"><span class="std std-ref">Lunge</span></a> and <a class="reference internal" href="corerulebook.feats.html#power attack (combat)"><span class="std std-ref">Power Attack</span></a>, alternating regular ranseur attacks with trip, disarm, or sunder maneuvers (the latter against targets far enough away that they cannot make attacks of opportunity). He exits and re-enters rage whenever necessary to reactivate once-per-rage powers like mighty swing and unexpected strike.</p>
+<p><strong>Base Statistics</strong> When not raging, the barbarian’s statistics are <strong>AC</strong> 21, touch 14, flat-footed 17; <strong>hp</strong> 176; <strong>Fort</strong> +16, <strong>Will</strong>+9; no bonus vs. spells and spell-like or supernatural abilities, no bonus vs. enchantments; <strong>Melee</strong><em>+3 adamantine ranseur</em> +28/+23/+18/+13 (2d4+13/Ã3); <strong>Ranged</strong><em>+1 composite longbow</em> +22/+17/+12/+7 (1d8+8/Ã3); <strong>Str</strong> 24, <strong>Con</strong> 14; <strong>CMB</strong> +25; <strong>CMD</strong> 39; <strong>Skills</strong><a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> +17, <a class="reference internal" href="corerulebook.skills.swim.html#corerulebook-skills-swim-swim"><span class="std std-ref">Swim</span></a> +17.</p>
+</div>
+<div class="section" id="id69">
+<h2><a class="toc-backref" href="#id178">statistics</a><a class="headerlink" href="#id69" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 30, <strong>Dex</strong> 16, <strong>Con</strong> 20, <strong>Int</strong> 14, <strong>Wis</strong> 10, <strong>Cha</strong> 8</p>
+<p><strong>Base Atk</strong> +18; <strong>CMB</strong> +28 (+32 trip); <strong>CMD</strong> 40 (42 vs. trip)</p>
+<p><strong>Feats</strong> <a class="reference internal" href="corerulebook.feats.html#combat expertise (combat)"><span class="std std-ref">Combat Expertise</span></a>, <a class="reference internal" href="corerulebook.feats.html#combat reflexes (combat)"><span class="std std-ref">Combat Reflexes</span></a>, <a class="reference internal" href="corerulebook.feats.html#dodge (combat)"><span class="std std-ref">Dodge</span></a>, Greater Trip, Improved Trip, <a class="reference internal" href="corerulebook.feats.html#lunge (combat)"><span class="std std-ref">Lunge</span></a>, Mobility, <a class="reference internal" href="corerulebook.feats.html#power attack (combat)"><span class="std std-ref">Power Attack</span></a>, Spring Attack, Whirlwind Attack</p>
+<p><strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a> +21, <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> +20, <a class="reference internal" href="corerulebook.skills.intimidate.html#corerulebook-skills-intimidate-intimidate"><span class="std std-ref">Intimidate</span></a> +20, <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (dungeoneering) +10, <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (geography) +10, <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (nature) +20, Perception +21, <a class="reference internal" href="corerulebook.skills.ride.html#corerulebook-skills-ride-ride"><span class="std std-ref">Ride</span></a> +7, <a class="reference internal" href="corerulebook.skills.survival.html#corerulebook-skills-survival-survival"><span class="std std-ref">Survival</span></a> +20, <a class="reference internal" href="corerulebook.skills.swim.html#corerulebook-skills-swim-swim"><span class="std std-ref">Swim</span></a> +20</p>
+<p><strong>Languages</strong> Common</p>
+<p><strong>SQ</strong> fast movement, tireless rage</p>
+<p><strong>Combat Gear</strong>oil of <a class="reference internal" href="corerulebook.spells.alignweapon.html#corerulebook-spells-alignweapon-align-weapon"><span class="std std-ref">align weapon</span></a> (good), potion of <a class="reference internal" href="corerulebook.spells.curelightwounds.html#corerulebook-spells-curelightwounds-cure-light-wounds"><span class="std std-ref">cure light wounds</span></a>, potion of <a class="reference internal" href="corerulebook.spells.fly.html#corerulebook-spells-fly"><span class="std std-ref">fly</span></a>, potion of <a class="reference internal" href="corerulebook.spells.invisibility.html#corerulebook-spells-invisibility-invisibility"><span class="std std-ref">invisibility</span></a>, potions of <a class="reference internal" href="corerulebook.spells.shieldoffaith.html#corerulebook-spells-shieldoffaith-shield-of-faith"><span class="std std-ref">shield of faith</span></a> (2); <strong>Other Gear</strong>+1 moderate <a class="reference internal" href="corerulebook.magicitems.armor.html#corerulebook-magicitems-armor-armor-fortification"><span class="std std-ref">fortification</span></a> breastplate, <em>+3 adamantine ranseur</em>, <em>+1 composite longbow</em> (+10 Str) with 20 arrows, dagger, handaxe, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-belt-of-giant-strength"><span class="std std-ref">belt of giant strength</span></a> +6, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-cloak-of-resistance"><span class="std std-ref">cloak of resistance</span></a> +3, pink rhomboid <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-ioun-stones"><span class="std std-ref">ioun stone</span></a>, 43 gp</p>
+<p>Refined reavers mix their savage fury with more refined and civilized weapon attacks and maneuvers, dipping in and out of rage when it suits their purpose. They often work well with groups of allies.</p>
+</div>
+<div class="section" id="death-dealer">
+<span id="npccodex-core-barbarian-death-dealer"></span><h2><a class="toc-backref" href="#id179">Death Dealer</a><a class="headerlink" href="#death-dealer" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 18</strong></p>
+<p><strong>XP</strong> 153,600</p>
+<p><strong>Half-orc barbarian</strong> 19</p>
+<p>CE Medium humanoid (human, orc)</p>
+<p><strong>Init</strong> +2; <strong>Senses</strong> darkvision 60 ft.; Perception +27</p>
+</div>
+<div class="section" id="id70">
+<h2><a class="toc-backref" href="#id180">Defense</a><a class="headerlink" href="#id70" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 13, touch 10, flat-footed 11 (+3 armor, +2 Dex, â2 rage)</p>
+<p><strong>hp</strong> 243 (19d12+114)</p>
+<p><strong>Fort</strong> +20, <strong>Ref</strong> +12, <strong>Will</strong> +13; +6 vs. spells and spell-like or supernatural abilities, +4 vs. enchantments</p>
+<p><strong>Defensive Abilities</strong><a class="reference internal" href="corerulebook.spells.blink.html#corerulebook-spells-blink-blink"><span class="std std-ref">blink</span></a>, improved uncanny dodge, indomitable will, orc ferocity, trap sense +6; <strong>DR</strong> 5/—</p>
+</div>
+<div class="section" id="id71">
+<h2><a class="toc-backref" href="#id181">Offense</a><a class="headerlink" href="#id71" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 40 ft., fly 60 ft. (good)</p>
+<p><strong>Melee</strong>+1 <a class="reference internal" href="corerulebook.magicitems.weapons.html#corerulebook-magicitems-weapons-unholy"><span class="std std-ref">unholy</span></a> <a class="reference internal" href="corerulebook.magicitems.weapons.html#corerulebook-magicitems-weapons-weapons-ghost-touch"><span class="std std-ref">ghost touch</span></a> adamantine scythe +31/+26/+21/+16 (2d4+16/19â20/Ã4)</p>
+<p><strong>Ranged</strong> mwk composite longbow +22/+17/+12/+7 (1d8+10/Ã3)</p>
+<p><strong>Special Attacks</strong> greater rage (42 rounds/day), rage powers (clear mind, intimidating glare, knockback, mighty swing, strength surge +19, superstition +6, surprise accuracy +5, terrifying howl [DC 29], unexpected strike)</p>
+</div>
+<div class="section" id="id72">
+<h2><a class="toc-backref" href="#id182">Tactics</a><a class="headerlink" href="#id72" title="Permalink to this headline">¶</a></h2>
+<p><strong>Before Combat</strong> The barbarian uses potions if expecting a major confrontation. His <a class="reference internal" href="corerulebook.magicitems.rings.html#corerulebook-magicitems-rings-ring-of-blinking"><span class="std std-ref">ring of blinking</span></a> operates continuously.</p>
+<p><strong>During Combat</strong> The barbarian begins combat with Dazzling Display and terrifying howl. Against a small group, he makes Flyby Attacks, using <a class="reference internal" href="corerulebook.feats.html#lunge (combat)"><span class="std std-ref">Lunge</span></a> and potions of <a class="reference internal" href="corerulebook.spells.enlargeperson.html#corerulebook-spells-enlargeperson-enlarge-person"><span class="std std-ref">enlarge person</span></a> to extend his reach and avoid attacks of opportunity, and Great Cleave against targets clustered together. In close combat, he uses intimidating glare along with Great Cleave attacks, using knockback to force enemies into close quarters. He relies on his <a class="reference internal" href="corerulebook.magicitems.rings.html#corerulebook-magicitems-rings-ring-of-blinking"><span class="std std-ref">ring of blinking</span></a> to avoid most attacks, and with his tireless rage he exits and re-enters rage whenever it’s convenient to regain the use rage powers he can use only once per rage.</p>
+<p><strong>Base Statistics</strong> When not raging, the barbarian’s statistics are <strong>AC</strong> 15, touch 12, flat-footed 13; <strong>hp</strong> 186; <strong>Fort</strong> +17, <strong>Will</strong>+10; no bonus vs. spells and spell-like or supernatural abilities, no bonus vs. enchantments; <strong>Melee</strong>+1 <a class="reference internal" href="corerulebook.magicitems.weapons.html#corerulebook-magicitems-weapons-unholy"><span class="std std-ref">unholy</span></a> <a class="reference internal" href="corerulebook.magicitems.weapons.html#corerulebook-magicitems-weapons-weapons-ghost-touch"><span class="std std-ref">ghost touch</span></a> adamantine scythe +28/+23/+18/+13 (2d4+11/19â20/Ã4); <strong>Ranged</strong> mwk composite longbow +22/+17/+12/+7 (1d8+7/Ã3); <strong>Str</strong> 24, <strong>Con</strong> 14; <strong>CMB</strong> +26; <strong>CMD</strong> 38; <strong>Skills</strong><a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> +11, <a class="reference internal" href="corerulebook.skills.intimidate.html#corerulebook-skills-intimidate-intimidate"><span class="std std-ref">Intimidate</span></a> +37, <a class="reference internal" href="corerulebook.skills.swim.html#corerulebook-skills-swim-swim"><span class="std std-ref">Swim</span></a> +11.</p>
+</div>
+<div class="section" id="id73">
+<h2><a class="toc-backref" href="#id183">statistics</a><a class="headerlink" href="#id73" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 30, <strong>Dex</strong> 14, <strong>Con</strong> 20, <strong>Int</strong> 8, <strong>Wis</strong> 10, <strong>Cha</strong> 12</p>
+<p><strong>Base Atk</strong> +19; <strong>CMB</strong> +29; <strong>CMD</strong> 39</p>
+<p><strong>Feats</strong> Cleave, Dazzling Display, <a class="reference internal" href="bestiary.monsterfeats.html#bestiary-monsterfeats-flyby-attack"><span class="std std-ref">Flyby Attack</span></a>, Great Cleave, <a class="reference internal" href="corerulebook.feats.html#improved critical (combat)"><span class="std std-ref">Improved Critical</span></a> (scythe), <a class="reference internal" href="corerulebook.feats.html#intimidating prowess (combat)"><span class="std std-ref">Intimidating Prowess</span></a>, <a class="reference internal" href="corerulebook.feats.html#lunge (combat)"><span class="std std-ref">Lunge</span></a>, <a class="reference internal" href="corerulebook.feats.html#power attack (combat)"><span class="std std-ref">Power Attack</span></a>, Shatter Defenses, <a class="reference internal" href="corerulebook.feats.html#weapon focus (combat)"><span class="std std-ref">Weapon Focus</span></a> (scythe)</p>
+<p><strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a> +11 (+15 when jumping), <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> +14, <a class="reference internal" href="corerulebook.skills.fly.html#corerulebook-skills-fly-fly"><span class="std std-ref">Fly</span></a> +15, <a class="reference internal" href="corerulebook.skills.intimidate.html#corerulebook-skills-intimidate-intimidate"><span class="std std-ref">Intimidate</span></a> +40, Perception +27, <a class="reference internal" href="corerulebook.skills.survival.html#corerulebook-skills-survival-survival"><span class="std std-ref">Survival</span></a> +5, <a class="reference internal" href="corerulebook.skills.swim.html#corerulebook-skills-swim-swim"><span class="std std-ref">Swim</span></a> +14</p>
+<p><strong>Languages</strong> Common, Orc</p>
+<p><strong>SQ</strong> fast movement, orc blood, tireless rage, weapon familiarity</p>
+<p><strong>Combat Gear</strong>oil of <a class="reference internal" href="corerulebook.spells.magicweapon.html#corerulebook-spells-magicweapon-magic-weapon"><span class="std std-ref">magic weapon</span></a>, potion of <a class="reference internal" href="corerulebook.spells.bearsendurance.html#bear's endurance"><span class="std std-ref">bear’s endurance</span></a>, potion of <a class="reference internal" href="corerulebook.spells.catsgrace.html#cat's grace"><span class="std std-ref">cat’s grace</span></a>, potions of <a class="reference internal" href="corerulebook.spells.curemoderatewounds.html#corerulebook-spells-curemoderatewounds-cure-moderate-wounds"><span class="std std-ref">cure moderate wounds</span></a> (2), potions of <a class="reference internal" href="corerulebook.spells.enlargeperson.html#corerulebook-spells-enlargeperson-enlarge-person"><span class="std std-ref">enlarge person</span></a> (4), <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-silversheen"><span class="std std-ref">silversheen</span></a>, tanglefoot bag; <strong>Other Gear</strong> masterwork studded leather, +1 <a class="reference internal" href="corerulebook.magicitems.weapons.html#corerulebook-magicitems-weapons-unholy"><span class="std std-ref">unholy</span></a> <a class="reference internal" href="corerulebook.magicitems.weapons.html#corerulebook-magicitems-weapons-weapons-ghost-touch"><span class="std std-ref">ghost touch</span></a>  adamantine scythe, masterwork composite longbow (+10 Str) with 20 arrows, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-belt-of-giant-strength"><span class="std std-ref">belt of giant strength</span></a> +4, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-cloak-of-resistance"><span class="std std-ref">cloak of resistance</span></a> +4, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-eyes-of-the-eagle"><span class="std std-ref">eyes of the eagle</span></a>, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-handy-haversack"><span class="std std-ref">handy haversack</span></a>, <em>mask of intimidation</em>, <a class="reference internal" href="corerulebook.magicitems.rings.html#corerulebook-magicitems-rings-ring-of-blinking"><span class="std std-ref">ring of blinking</span></a>, <a class="reference internal" href="corerulebook.magicitems.rings.html#corerulebook-magicitems-rings-ring-of-feather-falling"><span class="std std-ref">ring of feather falling</span></a>, <em>winged boots</em>, 57 gp</p>
+<p>These fearsome killers seek to feed their dark gods with the souls of those they slice apart with their powerful scythes—weapons powerful enough to cut through both flesh and spirit.</p>
+</div>
+<div class="section" id="scarred-wanderer">
+<span id="npccodex-core-barbarian-scarred-wanderer"></span><h2><a class="toc-backref" href="#id184">Scarred Wanderer</a><a class="headerlink" href="#scarred-wanderer" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 19</strong></p>
+<p><strong>XP</strong> 204,800</p>
+<p><strong>Dwarf barbarian</strong> 20</p>
+<p>CN Medium humanoid (dwarf)</p>
+<p><strong>Init</strong> +2; <strong>Senses</strong> Perception +25</p>
+</div>
+<div class="section" id="id74">
+<h2><a class="toc-backref" href="#id185">Defense</a><a class="headerlink" href="#id74" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 24, touch 10, flat-footed 22 (+7 armor, +2 Dex, â2 rage, +7 shield)</p>
+<p><strong>hp</strong> 415 (20d12+280)</p>
+<p><strong>Fort</strong> +28, <strong>Ref</strong> +12, <strong>Will</strong> +18; +9 vs. spells and spell-like abilities, +4 vs. enchantments, +2 vs. poison and supernatural abilities</p>
+<p><strong>Defensive Abilities</strong> 70% chance to negate critical hits and sneak attacks, defensive training (+4 dodge bonus to AC vs. giants), improved uncanny dodge, indomitable will, trap sense +6; <strong>DR</strong> 8/—; <strong>Immune</strong> frightened, harmful vapors and gases, nauseated, shaken, sickened</p>
+</div>
+<div class="section" id="id75">
+<h2><a class="toc-backref" href="#id186">Offense</a><a class="headerlink" href="#id75" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 30 ft., fly 60 ft. (good)</p>
+<p><strong>Melee</strong>+5 <a class="reference internal" href="corerulebook.magicitems.armor.html#corerulebook-magicitems-armor-armor-bashing"><span class="std std-ref">bashing</span></a> spiked heavy <a class="reference internal" href="corerulebook.spells.shield.html#corerulebook-spells-shield-shield"><span class="std std-ref">shield</span></a> +31/+26/+21/+16 (2d6+11) or +5 <a class="reference internal" href="corerulebook.magicitems.armor.html#corerulebook-magicitems-armor-armor-bashing"><span class="std std-ref">bashing</span></a> spiked heavy <a class="reference internal" href="corerulebook.spells.shield.html#corerulebook-spells-shield-shield"><span class="std std-ref">shield</span></a> +29/+24/+19/+14 (2d6+11), <em>+1 adamantine dwarven waraxe</em> +25 (1d10+4/Ã3)</p>
+<p><strong>Special Attacks</strong> +1 on attack rolls against goblinoid and orc humanoids, mighty rage (50 rounds/day), rage powers (clear mind, fearless rage, increased damage reduction +3, internal fortitude, knockback, mighty swing, strength surge +20, superstition +7)</p>
+</div>
+<div class="section" id="id76">
+<h2><a class="toc-backref" href="#id187">Tactics</a><a class="headerlink" href="#id76" title="Permalink to this headline">¶</a></h2>
+<p><strong>During Combat</strong> The barbarian breaks up enemy positions with bull rush. He always includes knockback and Shield Slam, and adds strength surge against strong enemies.</p>
+<p><strong>Base Statistics</strong> When not raging, the barbarian’s statistics are <strong>AC</strong> 26, touch 12, flat-footed 24; <strong>hp</strong> 335; <strong>Fort</strong> +24, <strong>Will</strong>+14; +2 vs. poison, spells, and spell-like abilities, no bonus vs. supernatural abilities or enchantments; <strong>DR</strong> 5/—; <strong>Melee</strong>+5 <a class="reference internal" href="corerulebook.magicitems.armor.html#corerulebook-magicitems-armor-armor-bashing"><span class="std std-ref">bashing</span></a> spiked heavy <a class="reference internal" href="corerulebook.spells.shield.html#corerulebook-spells-shield-shield"><span class="std std-ref">shield</span></a> +27/+22/+17/+12 (2d6+7) or +5 <a class="reference internal" href="corerulebook.magicitems.armor.html#corerulebook-magicitems-armor-armor-bashing"><span class="std std-ref">bashing</span></a> spiked heavy <a class="reference internal" href="corerulebook.spells.shield.html#corerulebook-spells-shield-shield"><span class="std std-ref">shield</span></a> +25/+20/+15/+10 (2d6+7), <em>+1 adamantine dwarven waraxe</em> +21 (1d10+2/Ã3); <strong>Str</strong> 14, <strong>Con</strong> 26; <strong>CMB</strong> +22; <strong>CMD</strong> 34; <strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> +16.</p>
+</div>
+<div class="section" id="id77">
+<h2><a class="toc-backref" href="#id188">statistics</a><a class="headerlink" href="#id77" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 22, <strong>Dex</strong> 15, <strong>Con</strong> 34, <strong>Int</strong> 10, <strong>Wis</strong> 14, <strong>Cha</strong> 6</p>
+<p><strong>Base Atk</strong> +20; <strong>CMB</strong> +26 (+30 bull rush); <strong>CMD</strong> 36 (42 vs. bull rush, 40 vs. trip)</p>
+<p><strong>Feats</strong> Greater Bull Rush, Improved Bull Rush, Improved Shield Bash, <a class="reference internal" href="corerulebook.feats.html#corerulebook-feats-iron-will"><span class="std std-ref">Iron Will</span></a>, <a class="reference internal" href="corerulebook.feats.html#lunge (combat)"><span class="std std-ref">Lunge</span></a>, <a class="reference internal" href="corerulebook.feats.html#power attack (combat)"><span class="std std-ref">Power Attack</span></a>, Shield Master, Shield Slam, <a class="reference internal" href="corerulebook.feats.html#corerulebook-feats-toughness"><span class="std std-ref">Toughness</span></a>, <a class="reference internal" href="corerulebook.feats.html#two-weapon fighting (combat)"><span class="std std-ref">Two-Weapon Fighting</span></a></p>
+<p><strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a> +22, <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> +20, <a class="reference internal" href="corerulebook.skills.intimidate.html#corerulebook-skills-intimidate-intimidate"><span class="std std-ref">Intimidate</span></a> +20, <a class="reference internal" href="corerulebook.skills.linguistics.html#corerulebook-skills-linguistics-linguistics"><span class="std std-ref">Linguistics</span></a> +3, Perception +25 (+27 to notice unusual stonework), <a class="reference internal" href="corerulebook.skills.profession.html#corerulebook-skills-profession-profession"><span class="std std-ref">Profession</span></a> (miner) +5, <a class="reference internal" href="corerulebook.skills.survival.html#corerulebook-skills-survival-survival"><span class="std std-ref">Survival</span></a> +6</p>
+<p><strong>Languages</strong> Common, Dwarven, Giant, Terran, Undercommon</p>
+<p><strong>SQ</strong> fast movement, tireless rage</p>
+<p><strong>Combat Gear</strong>potion of <a class="reference internal" href="corerulebook.spells.curemoderatewounds.html#corerulebook-spells-curemoderatewounds-cure-moderate-wounds"><span class="std std-ref">cure moderate wounds</span></a>, potions of <a class="reference internal" href="corerulebook.spells.haste.html#corerulebook-spells-haste-haste"><span class="std std-ref">haste</span></a> (2); <strong>Other Gear</strong>+1 heavy <a class="reference internal" href="corerulebook.magicitems.armor.html#corerulebook-magicitems-armor-armor-fortification"><span class="std std-ref">fortification</span></a> breastplate, +5 <a class="reference internal" href="corerulebook.magicitems.armor.html#corerulebook-magicitems-armor-armor-bashing"><span class="std std-ref">bashing</span></a> spiked heavy steel <a class="reference internal" href="corerulebook.spells.shield.html#corerulebook-spells-shield-shield"><span class="std std-ref">shield</span></a>, <em>+1 adamantine dwarven waraxe</em>, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-belt-of-mighty-constitution"><span class="std std-ref">belt of mighty constitution</span></a> +6, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-cloak-of-resistance"><span class="std std-ref">cloak of resistance</span></a> +4, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-necklace-of-adaptation"><span class="std std-ref">necklace of adaptation</span></a>, <a class="reference internal" href="corerulebook.magicitems.rings.html#corerulebook-magicitems-rings-ring-of-feather-falling"><span class="std std-ref">ring of feather falling</span></a>, winged boots, 150 gp</p>
+<p>These barbarians are always scarred in some way, and wander the land in order to accomplish great deeds.</p>
+</div>
+<div class="section" id="gorgu-stonesplitter">
+<span id="npccodex-core-barbarian-gorgu-stonesplitter"></span><h2><a class="toc-backref" href="#id189">Gorgu Stonesplitter</a><a class="headerlink" href="#gorgu-stonesplitter" title="Permalink to this headline">¶</a></h2>
+<p>Once an ordinary dwarven warrior, Gorgu Stonesplitter was captured and enslaved by fire giants who shaved his beard, and burned and scarred his face. After years of toil in their mines, he gained his freedom when the giants’ king was overthrown by a group of adventurers. Gorgu threw his lot in with them in the hope of taking his revenge on the giants’ masters. While he learned much, killing could not restore his pride or his faith in his people, nor slake the rage in his heart. Since taking his leave from his companions, he has roamed the world in search of purpose. He fights now for the fun of it, and his temper has gradually cooled to dark embers. Still, he might join any nearby fray on any side. Should anyone land a blow he notices, he might begin to fight in earnest.</p>
+<p><strong>Combat Encounters:</strong> A glutton for battle, Gorgu fights for anyone or any cause that might offer a challenge.</p>
+<p><strong>Roleplaying Suggestions:</strong> Every so often, Gorgu seeks out powerful adventurers to lead him to an impossible foe—which he secretly plans to take down single-handedly.</p>
+</div>
+</div>
+
+</body>

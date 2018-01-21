@@ -1,0 +1,26 @@
+
+.. _`advancedplayersguide.spells.flareburst`:
+
+.. contents:: \ 
+
+.. _`advancedplayersguide.spells.flareburst#flare_burst`:
+
+Flare Burst
+============
+
+\ **School**\ evocation (light); \ **Level**\ bard 1, druid 1, sorcerer/wizard 1
+
+\ **Casting Time**\ 1 standard action
+
+\ **Components**\ V
+
+\ **Range**\ close (25 ft. + 5 ft./2 levels)
+
+\ **Effect**\ 10-ft.-radius burst of light
+
+\ **Duration**\ instantaneous
+
+\ **Saving Throw**\ Fortitude negates; \ **Spell Resistance**\ yes
+
+This spell functions as :ref:`flare <corerulebook.spells.flare#flare>`\ , except it affects all creatures in a 10-foot-radius burst from the target point.
+

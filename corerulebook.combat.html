@@ -1,0 +1,1304 @@
+
+
+
+
+
+<head>
+    <link rel="stylesheet" href="_static/srd.css" type="text/css" />
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/toggle_list.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+
+
+
+<body>
+    <div class="contents topic" id="id1">
+<span id="corerulebook-combat"></span><p class="topic-title first"></p>
+<ul class="simple">
+<li><a class="reference internal" href="#how-combat-works" id="id13">How Combat Works</a><ul>
+<li><a class="reference internal" href="#the-combat-round" id="id14">The Combat Round</a></li>
+<li><a class="reference internal" href="#initiative" id="id15">Initiative</a></li>
+<li><a class="reference internal" href="#surprise" id="id16">Surprise</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#combat-statistics" id="id17">Combat Statistics</a><ul>
+<li><a class="reference internal" href="#attack-roll" id="id18">Attack Roll</a></li>
+<li><a class="reference internal" href="#attack-bonus" id="id19">Attack Bonus</a></li>
+<li><a class="reference internal" href="#armor-class" id="id20">Armor Class</a></li>
+<li><a class="reference internal" href="#damage" id="id21">Damage</a></li>
+<li><a class="reference internal" href="#hit-points" id="id22">Hit Points</a></li>
+<li><a class="reference internal" href="#attacks-of-opportunity" id="id23">Attacks of Opportunity</a></li>
+<li><a class="reference internal" href="#speed" id="id24">Speed</a></li>
+<li><a class="reference internal" href="#saving-throws" id="id25">Saving Throws</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#actions-in-combat" id="id26">Actions In Combat</a><ul>
+<li><a class="reference internal" href="#action-types" id="id27">Action Types</a></li>
+<li><a class="reference internal" href="#standard-actions" id="id28">Standard Actions</a><ul>
+<li><a class="reference internal" href="#attack" id="id29">Attack</a></li>
+<li><a class="reference internal" href="#activate-magic-item" id="id30">Activate Magic Item</a></li>
+<li><a class="reference internal" href="#cast-a-spell" id="id31">Cast a Spell</a></li>
+<li><a class="reference internal" href="#start-complete-full-round-action" id="id32">Start/Complete Full-Round Action</a></li>
+<li><a class="reference internal" href="#total-defense" id="id33">Total Defense</a></li>
+<li><a class="reference internal" href="#use-special-ability" id="id34">Use Special Ability</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#move-actions" id="id35">Move Actions</a><ul>
+<li><a class="reference internal" href="#move" id="id36">Move</a></li>
+<li><a class="reference internal" href="#direct-or-redirect-a-spell" id="id37">Direct or Redirect a Spell</a></li>
+<li><a class="reference internal" href="#draw-or-sheathe-a-weapon" id="id38">Draw or Sheathe a Weapon</a></li>
+<li><a class="reference internal" href="#manipulate-an-item" id="id39">Manipulate an Item</a></li>
+<li><a class="reference internal" href="#mount-dismount-a-steed" id="id40">Mount/Dismount a Steed</a></li>
+<li><a class="reference internal" href="#ready-or-drop-a-shield" id="id41">Ready or Drop a Shield</a></li>
+<li><a class="reference internal" href="#stand-up" id="id42">Stand Up</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#full-round-actions" id="id43">Full-Round Actions</a><ul>
+<li><a class="reference internal" href="#full-attack" id="id44">Full Attack</a></li>
+<li><a class="reference internal" href="#id4" id="id45">Cast a Spell</a></li>
+<li><a class="reference internal" href="#move-5-feet-through-difficult-terrain" id="id46">Move 5 Feet through Difficult Terrain</a></li>
+<li><a class="reference internal" href="#run" id="id47">Run</a></li>
+<li><a class="reference internal" href="#id5" id="id48">Use Special Ability</a></li>
+<li><a class="reference internal" href="#withdraw" id="id49">Withdraw</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#free-actions" id="id50">Free Actions</a><ul>
+<li><a class="reference internal" href="#cease-concentration-on-spell" id="id51">Cease Concentration on Spell</a></li>
+<li><a class="reference internal" href="#drop-an-item" id="id52">Drop an Item</a></li>
+<li><a class="reference internal" href="#drop-prone" id="id53">Drop Prone</a></li>
+<li><a class="reference internal" href="#speak" id="id54">Speak</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#swift-actions" id="id55">Swift Actions</a><ul>
+<li><a class="reference internal" href="#cast-a-quickened-spell" id="id56">Cast a Quickened Spell</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#immediate-actions" id="id57">Immediate Actions</a></li>
+<li><a class="reference internal" href="#miscellaneous-actions" id="id58">Miscellaneous Actions</a><ul>
+<li><a class="reference internal" href="#take-5-foot-step" id="id59">Take 5-Foot Step</a></li>
+<li><a class="reference internal" href="#use-feat" id="id60">Use Feat</a></li>
+<li><a class="reference internal" href="#use-skill" id="id61">Use Skill</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#injury-and-death" id="id62">Injury and Death</a><ul>
+<li><a class="reference internal" href="#loss-of-hit-points" id="id63">Loss of Hit Points</a></li>
+<li><a class="reference internal" href="#disabled-0-hit-points" id="id64">Disabled (0 Hit Points)</a></li>
+<li><a class="reference internal" href="#dying-negative-hit-points" id="id65">Dying (Negative Hit Points)</a></li>
+<li><a class="reference internal" href="#dead" id="id66">Dead</a></li>
+<li><a class="reference internal" href="#stable-characters-and-recovery" id="id67">Stable Characters and Recovery</a></li>
+<li><a class="reference internal" href="#healing" id="id68">Healing</a></li>
+<li><a class="reference internal" href="#temporary-hit-points" id="id69">Temporary Hit Points</a></li>
+<li><a class="reference internal" href="#nonlethal-damage" id="id70">Nonlethal Damage</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#movement-position-and-distance" id="id71">Movement, Position, And Distance</a><ul>
+<li><a class="reference internal" href="#tactical-movement" id="id72">Tactical Movement</a></li>
+<li><a class="reference internal" href="#measuring-distance" id="id73">Measuring Distance</a></li>
+<li><a class="reference internal" href="#moving-through-a-square" id="id74">Moving Through a Square</a></li>
+<li><a class="reference internal" href="#terrain-and-obstacles" id="id75">Terrain and Obstacles</a></li>
+<li><a class="reference internal" href="#special-movement-rules" id="id76">Special Movement Rules</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#big-and-little-creatures-in-combat" id="id77">Big And Little Creatures In Combat</a></li>
+<li><a class="reference internal" href="#combat-modifiers" id="id78">Combat Modifiers</a><ul>
+<li><a class="reference internal" href="#cover" id="id79">Cover</a></li>
+<li><a class="reference internal" href="#concealment" id="id80">Concealment</a></li>
+<li><a class="reference internal" href="#flanking" id="id81">Flanking</a></li>
+<li><a class="reference internal" href="#helpless-defenders" id="id82">Helpless Defenders</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#special-attacks" id="id83">Special Attacks</a><ul>
+<li><a class="reference internal" href="#aid-another" id="id84">Aid Another</a></li>
+<li><a class="reference internal" href="#charge" id="id85">Charge</a></li>
+<li><a class="reference internal" href="#combat-maneuvers" id="id86">Combat Maneuvers</a><ul>
+<li><a class="reference internal" href="#bull-rush" id="id87">Bull Rush</a></li>
+<li><a class="reference internal" href="#disarm" id="id88">Disarm</a></li>
+<li><a class="reference internal" href="#grapple" id="id89">Grapple</a></li>
+<li><a class="reference internal" href="#overrun" id="id90">Overrun</a></li>
+<li><a class="reference internal" href="#sunder" id="id91">Sunder</a></li>
+<li><a class="reference internal" href="#trip" id="id92">Trip</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#feint" id="id93">Feint</a></li>
+<li><a class="reference internal" href="#mounted-combat" id="id94">Mounted Combat</a></li>
+<li><a class="reference internal" href="#throw-splash-weapon" id="id95">Throw Splash Weapon</a></li>
+<li><a class="reference internal" href="#two-weapon-fighting" id="id96">Two-Weapon Fighting</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#special-initiative-actions" id="id97">Special Initiative Actions</a><ul>
+<li><a class="reference internal" href="#delay" id="id98">Delay</a></li>
+<li><a class="reference internal" href="#ready" id="id99">Ready</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="how-combat-works">
+<span id="corerulebook-combat-how-combat-works"></span><h1><a class="toc-backref" href="#id13">How Combat Works</a><a class="headerlink" href="#how-combat-works" title="Permalink to this headline">¶</a></h1>
+<p>Combat is cyclical; everybody acts in turn in a regular cycle of rounds. Combat follows this sequence:</p>
+<ol class="arabic simple">
+<li>When combat begins, all combatants roll initiative.</li>
+<li>Determine which characters are aware of their opponents. These characters can act during a surprise round. If all the characters are aware of their opponents, proceed with normal rounds. See the surprise section for more information.</li>
+<li>After the surprise round (if any), all combatants are ready to being the first normal round of combat.</li>
+<li>Combatants act in initiative order (highest to lowest).</li>
+<li>When everyone has had a turn, the next round begins with the combatant with the highest initiative, and steps 4 and 5 repeat until combat ends.</li>
+</ol>
+<div class="section" id="the-combat-round">
+<span id="corerulebook-combat-the-combat-round"></span><h2><a class="toc-backref" href="#id14">The Combat Round</a><a class="headerlink" href="#the-combat-round" title="Permalink to this headline">¶</a></h2>
+<p>Each round represents 6 seconds in the game world; there are 10 rounds in a minute of combat. A round normally allows each character involved in a combat situation to act.</p>
+<p>Each round’s activity begins with the character with the highest initiative result and then proceeds in order. When a character’s turn comes up in the initiative sequence, that character performs his entire round’s worth of actions. (For exceptions, see <a class="reference internal" href="#corerulebook-combat-attacks-of-opportunity"><span class="std std-ref">Attacks of Opportunity</span></a> and <a class="reference internal" href="#corerulebook-combat-special-initiative-actions"><span class="std std-ref">Special Initiative Actions</span></a>.)</p>
+<p>When the rules refer to a “full round”, they usually mean a span of time from a particular initiative count in one round to the same initiative count in the next round. Effects that last a certain number of rounds end just before the same initiative count that they began on.</p>
+</div>
+<div class="section" id="initiative">
+<span id="corerulebook-combat-initiative"></span><h2><a class="toc-backref" href="#id15">Initiative</a><a class="headerlink" href="#initiative" title="Permalink to this headline">¶</a></h2>
+<p>At the start of a battle, each combatant makes an initiative check. An initiative check is a <a class="reference internal" href="corerulebook.gettingstarted.html#dexterity (dex)"><span class="std std-ref">Dexterity</span></a> check. Each character applies his or her <a class="reference internal" href="corerulebook.gettingstarted.html#dexterity (dex)"><span class="std std-ref">Dexterity</span></a> modifier to the roll, as well as other modifiers from feats, spells, and other effects. Characters act in order, counting down from the highest result to the lowest. In every round that follows, the characters act in the same order (unless a character takes an action that results in his or her initiative changing; see <a class="reference internal" href="#corerulebook-combat-special-initiative-actions"><span class="std std-ref">Special Initiative Actions</span></a>).</p>
+<p>If two or more combatants have the same initiative check result, the combatants who are tied act in order of total initiative modifier (highest first). If there is still a tie, the tied characters should roll to determine which one of them goes before the other.</p>
+<p id="corerulebook-combat-flat-footed"><strong>Flat-Footed</strong>: At the start of a battle, before you have had a chance to act (specifically, before your first regular turn in the initiative order), you are flat-footed. You can’t use your <a class="reference internal" href="corerulebook.gettingstarted.html#dexterity (dex)"><span class="std std-ref">Dexterity</span></a> bonus to <a class="reference internal" href="#corerulebook-combat-armor-class"><span class="std std-ref">AC</span></a> (if any) while flat-footed. Barbarians and rogues of high enough level have the uncanny dodge extraordinary ability, which means that they cannot be caught flat-footed. Characters with uncanny dodge retain their <a class="reference internal" href="corerulebook.gettingstarted.html#dexterity (dex)"><span class="std std-ref">Dexterity</span></a> bonus to their <a class="reference internal" href="#corerulebook-combat-armor-class"><span class="std std-ref">AC</span></a> and can make attacks of opportunity before they have acted in the first round of combat. A flat-footed character can’t make attacks of opportunity, unless he has the <a class="reference internal" href="corerulebook.feats.html#combat reflexes (combat)"><span class="std std-ref">Combat Reflexes</span></a> feat.</p>
+<p><strong>Inaction</strong>: Even if you can’t take actions, you retain your initiative score for the duration of the encounter.</p>
+</div>
+<div class="section" id="surprise">
+<span id="corerulebook-combat-surprise"></span><h2><a class="toc-backref" href="#id16">Surprise</a><a class="headerlink" href="#surprise" title="Permalink to this headline">¶</a></h2>
+<p>When a combat starts, if you are not aware of your opponents and they are aware of you, you’re surprised.</p>
+<p>Sometimes all the combatants on a side are aware of their opponents, sometimes none are, and sometimes only some of them are. Sometimes a few combatants on each side are aware and the other combatants on each side are unaware.</p>
+<p>Determining awareness may call for Perception checks or other checks.</p>
+<p><strong>The Surprise Round</strong>: If some but not all of the combatants are aware of their opponents, a surprise round happens before regular rounds begin. In initiative order (highest to lowest), combatants who started the battle aware of their opponents each take a standard or move action during the surprise round. You can also take free actions during the surprise round. If no one or everyone is surprised, no surprise round occurs.</p>
+<p><strong>Unaware Combatants</strong>: Combatants who are unaware at the start of battle don’t get to act in the surprise round. Unaware combatants are <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-flat-footed"><span class="std std-ref">flat-footed</span></a> because they have not acted yet, so they lose any <a class="reference internal" href="corerulebook.gettingstarted.html#dexterity (dex)"><span class="std std-ref">Dexterity</span></a> bonus to <a class="reference internal" href="#corerulebook-combat-armor-class"><span class="std std-ref">AC</span></a>.</p>
+</div>
+</div>
+<div class="section" id="combat-statistics">
+<span id="corerulebook-combat-combat-statistics"></span><h1><a class="toc-backref" href="#id17">Combat Statistics</a><a class="headerlink" href="#combat-statistics" title="Permalink to this headline">¶</a></h1>
+<p>This section summarizes the statistics that determine success in combat, then details how to use them.</p>
+<div class="section" id="attack-roll">
+<span id="corerulebook-combat-attack-roll"></span><h2><a class="toc-backref" href="#id18">Attack Roll</a><a class="headerlink" href="#attack-roll" title="Permalink to this headline">¶</a></h2>
+<p>An attack roll represents your attempt to strike your opponent on your turn in a round. When you make an attack roll, you roll a d20 and add your attack bonus. (Other modifiers may also apply to this roll.) If your result equals or beats the target’s <a class="reference internal" href="#corerulebook-combat-armor-class"><span class="std std-ref">Armor Class</span></a>, you hit and deal damage.</p>
+<p id="corerulebook-combat-automatic-misses-and-hits"><strong>Automatic Misses and Hits</strong>: A natural 1 (the d20 comes up 1) on an attack roll is always a miss. A natural 20 (the d20 comes up 20) is always a hit. A natural 20 is also a threat—a possible critical hit (see the <a class="reference internal" href="#corerulebook-combat-attack"><span class="std std-ref">attack action</span></a>).</p>
+</div>
+<div class="section" id="attack-bonus">
+<span id="corerulebook-combat-attack-bonus"></span><h2><a class="toc-backref" href="#id19">Attack Bonus</a><a class="headerlink" href="#attack-bonus" title="Permalink to this headline">¶</a></h2>
+<p>Your attack bonus with a melee weapon is the following:</p>
+<p>Base attack bonus + <a class="reference internal" href="corerulebook.gettingstarted.html#strength (str)"><span class="std std-ref">Strength</span></a> modifier + size modifier</p>
+<p>With a ranged weapon, your attack bonus is the following:</p>
+<p>Base attack bonus + <a class="reference internal" href="corerulebook.gettingstarted.html#dexterity (dex)"><span class="std std-ref">Dexterity</span></a> modifier + size modifier + range penalty</p>
+</div>
+<div class="section" id="armor-class">
+<span id="corerulebook-combat-armor-class"></span><h2><a class="toc-backref" href="#id20">Armor Class</a><a class="headerlink" href="#armor-class" title="Permalink to this headline">¶</a></h2>
+<p>Your Armor Class (AC) represents how hard it is for opponents to land a solid, damaging blow on you. It’s the attack roll result that an opponent needs to achieve to hit you. Your AC is equal to the following:</p>
+<p>10 + armor bonus + shield bonus + <a class="reference internal" href="corerulebook.gettingstarted.html#dexterity (dex)"><span class="std std-ref">Dexterity</span></a> modifier + other modifiers</p>
+<p>Note that armor limits your <a class="reference internal" href="corerulebook.gettingstarted.html#dexterity (dex)"><span class="std std-ref">Dexterity</span></a> bonus, so if you’re wearing armor, you might not be able to apply your whole <a class="reference internal" href="corerulebook.gettingstarted.html#dexterity (dex)"><span class="std std-ref">Dexterity</span></a> bonus to your AC (see <a class="reference internal" href="corerulebook.equipment.html#corerulebook-equipment-table-6-6-armor-and-shields"><span class="std std-ref">Table: Armor and Shields</span></a>).</p>
+<p>Sometimes you can’t use your <a class="reference internal" href="corerulebook.gettingstarted.html#dexterity (dex)"><span class="std std-ref">Dexterity</span></a> bonus (if you have one). If you can’t react to a blow, you can’t use your <a class="reference internal" href="corerulebook.gettingstarted.html#dexterity (dex)"><span class="std std-ref">Dexterity</span></a> bonus to AC. If you don’t have a <a class="reference internal" href="corerulebook.gettingstarted.html#dexterity (dex)"><span class="std std-ref">Dexterity</span></a> bonus, your AC does not change.</p>
+<p><strong>Other Modifiers</strong>: Many other factors modify your AC.</p>
+<p id="corerulebook-combat-ac-enhancement-bonuses"><em>Enhancement Bonuses</em>: Enhancement bonuses apply to your armor to increase the armor bonus it provides.</p>
+<p id="corerulebook-combat-ac-deflection-bonus"><em>Deflection Bonus</em>: Magical deflection effects ward off attacks and improve your AC.</p>
+<p id="corerulebook-combat-ac-natural-armor"><em>Natural Armor</em>: If your race has a tough hide, scales, or thick skin you receive a bonus to your AC.</p>
+<p id="corerulebook-combat-dodge-bonuses"><em>Dodge Bonuses</em>: Dodge bonuses represent actively avoiding blows. Any situation that denies you your <a class="reference internal" href="corerulebook.gettingstarted.html#dexterity (dex)"><span class="std std-ref">Dexterity</span></a> bonus also denies you dodge bonuses. (Wearing armor, however, does not limit these bonuses the way it limits a <a class="reference internal" href="corerulebook.gettingstarted.html#dexterity (dex)"><span class="std std-ref">Dexterity</span></a> bonus to AC.) Unlike most sorts of bonuses, dodge bonuses stack with each other.</p>
+<span id="corerulebook-combat-table-8-1-size-modifiers"></span><table border="1" class="colwidths-auto contrast-reading-table docutils" id="id6">
+<caption><span class="caption-text">Table: Size Modifiers</span><a class="headerlink" href="#id6" title="Permalink to this table">¶</a></caption>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Size</th>
+<th class="head">Size Modifier</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Colossal</td>
+<td>–8</td>
+</tr>
+<tr class="row-odd"><td>Gargantuan</td>
+<td>–4</td>
+</tr>
+<tr class="row-even"><td>Huge</td>
+<td>–2</td>
+</tr>
+<tr class="row-odd"><td>Large</td>
+<td>–1</td>
+</tr>
+<tr class="row-even"><td>Medium</td>
+<td>+0</td>
+</tr>
+<tr class="row-odd"><td>Small</td>
+<td>+1</td>
+</tr>
+<tr class="row-even"><td>Tiny</td>
+<td>+2</td>
+</tr>
+<tr class="row-odd"><td>Diminutive</td>
+<td>+4</td>
+</tr>
+<tr class="row-even"><td>Fine</td>
+<td>+8</td>
+</tr>
+</tbody>
+</table>
+<p id="corerulebook-combat-ac-size-modifier"><em>Size Modifier</em>: You receive a bonus or penalty to your AC based on your size. See Table: Size Modifiers.</p>
+<p id="corerulebook-combat-touch-attacks"><strong>Touch Attacks</strong>: Some attacks completely disregard armor, including shields and natural armor—the aggressor need only touch a foe for such an attack to take full effect. In these cases, the attacker makes a touch attack roll (either ranged or melee). When you are the target of a touch attack, your AC doesn’t include any armor bonus, shield bonus, or natural armor bonus. All other modifiers, such as your size modifier, <a class="reference internal" href="corerulebook.gettingstarted.html#dexterity (dex)"><span class="std std-ref">Dexterity</span></a> modifier, and deflection bonus (if any) apply normally. Some creatures have the ability to make <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-incorporeal"><span class="std std-ref">incorporeal</span></a> touch attacks. These attacks bypass solid objects, such as armor and shields, by passing through them. <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-incorporeal"><span class="std std-ref">Incorporeal</span></a> touch attacks work similarly to normal touch attacks except that they also ignore cover bonuses. <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-incorporeal"><span class="std std-ref">Incorporeal</span></a> touch attacks do not ignore armor bonuses granted by force effects, such as <em>mage armor</em> and <em>bracers of armor</em>.</p>
+</div>
+<div class="section" id="damage">
+<span id="corerulebook-combat-damage"></span><h2><a class="toc-backref" href="#id21">Damage</a><a class="headerlink" href="#damage" title="Permalink to this headline">¶</a></h2>
+<p>If your attack succeeds, you deal damage. The type of weapon used determines the amount of damage you deal.</p>
+<p>Damage reduces a target’s current hit points.</p>
+<p><strong>Minimum Damage</strong>: If penalties reduce the damage result to less than 1, a hit still deals 1 point of <a class="reference internal" href="#nonlethal damage"><span class="std std-ref">nonlethal damage</span></a>.</p>
+<p><a class="reference internal" href="corerulebook.gettingstarted.html#strength (str)"><span class="std std-ref">Strength</span></a> Bonus: When you hit with a melee or thrown weapon, including a sling, add your <a class="reference internal" href="corerulebook.gettingstarted.html#strength (str)"><span class="std std-ref">Strength</span></a> modifier to the damage result. A <a class="reference internal" href="corerulebook.gettingstarted.html#strength (str)"><span class="std std-ref">Strength</span></a> penalty, but not a bonus, applies on damage rolls made with a bow that is not a composite bow.</p>
+<p id="corerulebook-combat-damage-off-hand-weapon"><em>Off-Hand Weapon</em>: When you deal damage with a weapon in your off hand, you add only 1/2 your <a class="reference internal" href="corerulebook.gettingstarted.html#strength (str)"><span class="std std-ref">Strength</span></a> bonus. If you have a <a class="reference internal" href="corerulebook.gettingstarted.html#strength (str)"><span class="std std-ref">Strength</span></a> penalty, the entire penalty applies.</p>
+<p id="corerulebook-combat-damage-two-handed"><em>Wielding a Weapon Two-Handed</em>: When you deal damage with a weapon that you are wielding two-handed, you add 1-1/2 times your <a class="reference internal" href="corerulebook.gettingstarted.html#strength (str)"><span class="std std-ref">Strength</span></a> bonus (<a class="reference internal" href="corerulebook.gettingstarted.html#strength (str)"><span class="std std-ref">Strength</span></a> penalties are not multiplied). You don’t get this higher <a class="reference internal" href="corerulebook.gettingstarted.html#strength (str)"><span class="std std-ref">Strength</span></a> bonus, however, when using a light weapon with two hands.</p>
+<p id="corerulebook-combat-multiplying-damage"><strong>Multiplying Damage</strong>: Sometimes you multiply damage by some factor, such as on a critical hit. Roll the damage (with all modifiers) multiple times and total the results.</p>
+<p><em>Note</em>: When you multiply damage more than once, each multiplier works off the original, unmultiplied damage. So if you are asked to double the damage twice, the end result is three times the normal damage.</p>
+<p><em>Exception</em>: Extra damage dice over and above a weapon’s normal damage are never multiplied.</p>
+<p><strong>Ability Damage</strong>: Certain creatures and magical effects can cause temporary or permanent <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-ability-score-damage-penalty-and-drain"><span class="std std-ref">ability damage</span></a> (a reduction to an ability score).</p>
+</div>
+<div class="section" id="hit-points">
+<span id="corerulebook-combat-hit-points"></span><h2><a class="toc-backref" href="#id22">Hit Points</a><a class="headerlink" href="#hit-points" title="Permalink to this headline">¶</a></h2>
+<p>When your hit point total reaches 0, you’re disabled. When it reaches –1, you’re <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-dying"><span class="std std-ref">dying</span></a>. When it gets to a negative amount equal to your <a class="reference internal" href="corerulebook.gettingstarted.html#constitution (con)"><span class="std std-ref">Constitution</span></a> score, you’re dead. See <a class="reference internal" href="#corerulebook-combat-injury-and-death"><span class="std std-ref">Injury and Death</span></a>, for more information.</p>
+</div>
+<div class="section" id="attacks-of-opportunity">
+<span id="corerulebook-combat-attacks-of-opportunity"></span><h2><a class="toc-backref" href="#id23">Attacks of Opportunity</a><a class="headerlink" href="#attacks-of-opportunity" title="Permalink to this headline">¶</a></h2>
+<p>Sometimes a combatant in a melee lets her guard down or takes a reckless action. In this case, combatants near her can take advantage of her lapse in defense to attack her for free. These free attacks are called attacks of opportunity. See the Attacks of Opportunity diagram for an example of how they work.</p>
+<p><strong>Threatened Squares</strong>: You threaten all squares into which you can make a melee attack, even when it is not your turn. Generally, that means everything in all squares adjacent to your space (including diagonally). An enemy that takes certain actions while in a threatened square provokes an attack of opportunity from you. If you’re unarmed, you don’t normally threaten any squares and thus can’t make attacks of opportunity.</p>
+<p><em>Reach Weapons</em>: Most creatures of Medium or smaller size have a reach of only 5 feet. This means that they can make melee attacks only against creatures up to 5 feet (1 square) away. However, Small and Medium creatures wielding reach weapons threaten more squares than a typical creature. In addition, most creatures larger than Medium have a natural reach of 10 feet or more.</p>
+<p><strong>Provoking an Attack of Opportunity</strong>: Two kinds of actions can provoke attacks of opportunity: moving out of a threatened square and performing certain actions within a threatened square.</p>
+<p><em>Moving</em>: Moving out of a threatened square usually provokes attacks of opportunity from threatening opponents. There are two common methods of avoiding such an attack—the 5-foot step and the withdraw action.</p>
+<p><em>Performing a Distracting Act</em>: Some actions, when performed in a threatened square, provoke attacks of opportunity as you divert your attention from the battle. Table: Actions in Combat notes many of the actions that provoke attacks of opportunity.</p>
+<p>Remember that even actions that normally provoke attacks of opportunity may have exceptions to this rule.</p>
+<p><strong>Making an Attack of Opportunity</strong>: An attack of opportunity is a single melee attack, and most characters can only make one per round. You don’t have to make an attack of opportunity if you don’t want to. You make your attack of opportunity at your normal attack bonus, even if you’ve already attacked in the round.</p>
+<p>An attack of opportunity “interrupts” the normal flow of actions in the round. If an attack of opportunity is provoked, immediately resolve the attack of opportunity, then continue with the next character’s turn (or complete the current turn, if the attack of opportunity was provoked in the midst of a character’s turn).</p>
+<p><em>Combat Reflexes and Additional Attacks of Opportunity</em>: If you have the <a class="reference internal" href="corerulebook.feats.html#combat reflexes (combat)"><span class="std std-ref">Combat Reflexes</span></a> feat, you can add your <a class="reference internal" href="corerulebook.gettingstarted.html#dexterity (dex)"><span class="std std-ref">Dexterity</span></a> bonus to the number of attacks of opportunity you can make in a round. This feat does not let you make more than one attack for a given opportunity, but if the same opponent provokes two attacks of opportunity from you, you could make two separate attacks of opportunity (since each one represents a different opportunity). Moving out of more than one square threatened by the same opponent in the same round doesn’t count as more than one opportunity for that opponent. All these attacks are at your full normal attack bonus.</p>
+</div>
+<div class="section" id="speed">
+<span id="corerulebook-combat-speed"></span><h2><a class="toc-backref" href="#id24">Speed</a><a class="headerlink" href="#speed" title="Permalink to this headline">¶</a></h2>
+<p>Your speed tells you how far you can move in a round and still do something, such as attack or cast a spell. Your speed depends mostly on your size and your armor.</p>
+<p>Dwarves, gnomes, and halflings have a speed of 20 feet (4 squares), or 15 feet (3 squares) when wearing medium or heavy armor (except for dwarves, who move 20 feet in any armor).</p>
+<p>Humans, elves, half-elves, half-orcs, and most humanoid monsters have a speed of 30 feet (6 squares), or 20 feet (4 squares) in medium or heavy armor.</p>
+<p>If you use two move actions in a round (sometimes called a “double move” action), you can move up to double your speed. If you spend the entire round running, you can move up to quadruple your speed (or triple if you are in heavy armor).</p>
+</div>
+<div class="section" id="saving-throws">
+<span id="corerulebook-combat-saving-throws"></span><h2><a class="toc-backref" href="#id25">Saving Throws</a><a class="headerlink" href="#saving-throws" title="Permalink to this headline">¶</a></h2>
+<p>Generally, when you are subject to an unusual or magical attack, you get a saving throw to avoid or reduce the effect. Like an attack roll, a saving throw is a d20 roll plus a bonus based on your class and level (see <a class="reference internal" href="corerulebook.classes.html#corerulebook-classes"><span class="std std-ref">Classes</span></a>), and an associated ability score. Your saving throw modifier is:</p>
+<p><strong>Base save bonus + ability modifier</strong></p>
+<p><strong>Saving Throw Types</strong>: The three different kinds of saving throws are <a class="reference internal" href="#corerulebook-combat-fortitude"><span class="std std-ref">Fortitude</span></a>, <a class="reference internal" href="#corerulebook-combat-reflex"><span class="std std-ref">Reflex</span></a>, and <a class="reference internal" href="#corerulebook-combat-will"><span class="std std-ref">Will</span></a>:</p>
+<p id="corerulebook-combat-fortitude"><em>Fortitude</em>: These saves measure your ability to stand up to physical punishment or attacks against your vitality and health. Apply your <a class="reference internal" href="corerulebook.gettingstarted.html#constitution (con)"><span class="std std-ref">Constitution</span></a> modifier to your Fortitude saving throws.</p>
+<p id="corerulebook-combat-reflex"><em>Reflex</em>: These saves test your ability to dodge area attacks and unexpected situations. Apply your <a class="reference internal" href="corerulebook.gettingstarted.html#dexterity (dex)"><span class="std std-ref">Dexterity</span></a> modifier to your Reflex saving throws.</p>
+<p id="corerulebook-combat-will"><em>Will</em>: These saves reflect your resistance to mental influence as well as many magical effects. Apply your <a class="reference internal" href="corerulebook.gettingstarted.html#wisdom (wis)"><span class="std std-ref">Wisdom</span></a> modifier to your Will saving throws.</p>
+<p><strong>Saving Throw Difficulty Class</strong>: The DC for a save is determined by the attack itself.</p>
+<p id="corerulebook-combat-saves-automatic-failures-and-successes"><strong>Automatic Failures and Successes</strong>: A natural 1 (the d20 comes up 1) on a saving throw is always a failure (and may cause damage to exposed items; see <a class="reference internal" href="corerulebook.magic.html#corerulebook-magic-items-surviving-after-a-saving-throw"><span class="std std-ref">Items Surviving after a Saving Throw</span></a>). A natural 20 (the d20 comes up 20) is always a success.</p>
+</div>
+</div>
+<div class="section" id="actions-in-combat">
+<span id="corerulebook-combat-actions-in-combat"></span><h1><a class="toc-backref" href="#id26">Actions In Combat</a><a class="headerlink" href="#actions-in-combat" title="Permalink to this headline">¶</a></h1>
+<span id="corerulebook-combat-table-8-2-actions-in-combat"></span><table border="1" class="colwidths-auto contrast-reading-table docutils" id="id7">
+<caption><span class="caption-text">Table: Actions in Combat</span><a class="headerlink" href="#id7" title="Permalink to this table">¶</a></caption>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Standard Action</th>
+<th class="head">Attack of Opportunity<sup>1</sup></th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Attack (<a class="reference internal" href="#corerulebook-combat-melee-attacks"><span class="std std-ref">melee</span></a>)</td>
+<td>No</td>
+</tr>
+<tr class="row-odd"><td>Attack (<a class="reference internal" href="#corerulebook-combat-ranged-attacks"><span class="std std-ref">ranged</span></a>)</td>
+<td>Yes</td>
+</tr>
+<tr class="row-even"><td>Attack (<a class="reference internal" href="#corerulebook-combat-unarmed-attacks"><span class="std std-ref">unarmed</span></a>)</td>
+<td>Yes</td>
+</tr>
+<tr class="row-odd"><td>Activate a <a class="reference internal" href="#corerulebook-combat-activate-magic-item"><span class="std std-ref">magic item</span></a> other than a potion or oil</td>
+<td>No</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="#corerulebook-combat-aid-another"><span class="std std-ref">Aid another</span></a></td>
+<td>Maybe<sup>2</sup></td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#corerulebook-combat-cast-a-spell"><span class="std std-ref">Cast a spell</span></a> (1 standard action casting time)</td>
+<td>Yes</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="corerulebook.classes.cleric.html#corerulebook-classes-cleric-channel-energy-cleric"><span class="std std-ref">Channel energy</span></a></td>
+<td>No</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="corerulebook.magic.html#corerulebook-magic-concentration"><span class="std std-ref">Concentrate to maintain an active spell</span></a></td>
+<td>No</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="#corerulebook-combat-dismiss-a-spell"><span class="std std-ref">Dismiss a spell</span></a></td>
+<td>No</td>
+</tr>
+<tr class="row-odd"><td>Draw a hidden weapon (see <a class="reference internal" href="corerulebook.skills.sleightofhand.html#corerulebook-skills-sleightofhand-sleight-of-hand"><span class="std std-ref">Sleight of Hand skill</span></a>)</td>
+<td>No</td>
+</tr>
+<tr class="row-even"><td>Drink a <a class="reference internal" href="corerulebook.magicitems.potions.html#corerulebook-magicitems-potions-potions"><span class="std std-ref">potion</span></a> or apply an oil</td>
+<td>Yes</td>
+</tr>
+<tr class="row-odd"><td>Escape a <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-grappled"><span class="std std-ref">grapple</span></a></td>
+<td>No</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="corerulebook.skills.bluff.html#corerulebook-skills-bluff-feint"><span class="std std-ref">Feint</span></a></td>
+<td>No</td>
+</tr>
+<tr class="row-odd"><td>Light a torch with a tindertwig</td>
+<td>Yes</td>
+</tr>
+<tr class="row-even"><td>Lower <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-spell-resistance"><span class="std std-ref">spell resistance</span></a></td>
+<td>No</td>
+</tr>
+<tr class="row-odd"><td>Read a <a class="reference internal" href="corerulebook.magicitems.scrolls.html#corerulebook-magicitems-scrolls-table-15-15-scrolls"><span class="std std-ref">scroll</span></a></td>
+<td>Yes</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="#corerulebook-combat-ready"><span class="std std-ref">Ready</span></a> (triggers a standard action)</td>
+<td>No</td>
+</tr>
+<tr class="row-odd"><td>Stabilize a dying friend (see <a class="reference internal" href="corerulebook.skills.heal.html#corerulebook-skills-heal-heal"><span class="std std-ref">Heal skill</span></a>)</td>
+<td>Yes</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="#corerulebook-combat-total-defense"><span class="std std-ref">Total defense</span></a></td>
+<td>No</td>
+</tr>
+<tr class="row-odd"><td>Use <a class="reference internal" href="corerulebook.gettingstarted.html#corerulebook-gettingstarted-extraordinary-abilities"><span class="std std-ref">extraordinary ability</span></a></td>
+<td>No</td>
+</tr>
+<tr class="row-even"><td>Use skill that takes 1 action</td>
+<td>Usually</td>
+</tr>
+<tr class="row-odd"><td>Use <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-spell-like-abilities-sp"><span class="std std-ref">spell-like ability</span></a></td>
+<td>Yes</td>
+</tr>
+<tr class="row-even"><td>Use <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-supernatural-abilities-su"><span class="std std-ref">supernatural ability</span></a></td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="colwidths-auto contrast-reading-table docutils">
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Move Action</th>
+<th class="head">Attack of Opportunity<sup>1</sup></th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><a class="reference internal" href="#corerulebook-combat-move"><span class="std std-ref">Move</span></a></td>
+<td>Yes</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#corerulebook-combat-mounted-combat"><span class="std std-ref">Control a frightened mount</span></a></td>
+<td>Yes</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="#corerulebook-combat-direct-or-redirect-a-spell"><span class="std std-ref">Direct or redirect an active spell</span></a></td>
+<td>No</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#corerulebook-combat-draw-or-sheathe-a-weapon"><span class="std std-ref">Draw a weapon</span></a><sup>3</sup></td>
+<td>No</td>
+</tr>
+<tr class="row-even"><td>Load a <a class="reference internal" href="corerulebook.equipment.html#corerulebook-equipment-weapon-descriptions"><span class="std std-ref">hand crossbow</span></a> or <a class="reference internal" href="corerulebook.equipment.html#corerulebook-equipment-weapon-descriptions"><span class="std std-ref">light crossbow</span></a></td>
+<td>Yes</td>
+</tr>
+<tr class="row-odd"><td>Open or close a door</td>
+<td>No</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="#mount/dismount a steed"><span class="std std-ref">Mount/dismount a steed</span></a></td>
+<td>No</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#corerulebook-combat-manipulate-an-item"><span class="std std-ref">Move a heavy object</span></a></td>
+<td>Yes</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="#corerulebook-combat-manipulate-an-item"><span class="std std-ref">Pick up an item</span></a></td>
+<td>Yes</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#corerulebook-combat-draw-or-sheathe-a-weapon"><span class="std std-ref">Sheathe a weapon</span></a></td>
+<td>Yes</td>
+</tr>
+<tr class="row-even"><td>Stand up from <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-prone"><span class="std std-ref">prone</span></a></td>
+<td>Yes</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#corerulebook-combat-ready-or-drop-a-shield"><span class="std std-ref">Ready or drop a shield</span></a><sup>3</sup></td>
+<td>No</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="#corerulebook-combat-manipulate-an-item"><span class="std std-ref">Retrieve a stored item</span></a></td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="colwidths-auto contrast-reading-table docutils">
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Full-Round Action</th>
+<th class="head">Attack of Opportunity<sup>1</sup></th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><a class="reference internal" href="#full attack"><span class="std std-ref">Full attack</span></a></td>
+<td>No</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#corerulebook-combat-charge"><span class="std std-ref">Charge</span></a><sup>4</sup></td>
+<td>No</td>
+</tr>
+<tr class="row-even"><td>Deliver <a class="reference internal" href="#corerulebook-combat-coup-de-grace"><span class="std std-ref">coup de grace</span></a></td>
+<td>Yes</td>
+</tr>
+<tr class="row-odd"><td>Escape from a <a class="reference internal" href="corerulebook.equipment.html#corerulebook-equipment-table-6-4-weapons"><span class="std std-ref">net</span></a></td>
+<td>Yes</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="corerulebook.environment.html#corerulebook-environment-catching-on-fire"><span class="std std-ref">Extinguish flames</span></a></td>
+<td>No</td>
+</tr>
+<tr class="row-odd"><td>Light a torch</td>
+<td>Yes</td>
+</tr>
+<tr class="row-even"><td>Load a <a class="reference internal" href="corerulebook.equipment.html#corerulebook-equipment-table-6-4-weapons"><span class="std std-ref">heavy or repeating crossbow</span></a></td>
+<td>Yes</td>
+</tr>
+<tr class="row-odd"><td>Lock or unlock weapon in <a class="reference internal" href="corerulebook.equipment.html#corerulebook-equipment-armor-spikes"><span class="std std-ref">locked gauntlet</span></a></td>
+<td>Yes</td>
+</tr>
+<tr class="row-even"><td>Prepare to <a class="reference internal" href="#corerulebook-combat-throw-splash-weapon"><span class="std std-ref">throw splash weapon</span></a></td>
+<td>Yes</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#corerulebook-combat-run"><span class="std std-ref">Run</span></a></td>
+<td>Yes</td>
+</tr>
+<tr class="row-even"><td>Use skill that takes 1 round</td>
+<td>Usually</td>
+</tr>
+<tr class="row-odd"><td>Use a <a class="reference internal" href="#corerulebook-combat-touch-spells-in-combat"><span class="std std-ref">touch spell</span></a> on up to six friends</td>
+<td>Yes</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="#corerulebook-combat-withdraw"><span class="std std-ref">Withdraw</span></a><sup>4</sup></td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="colwidths-auto contrast-reading-table docutils">
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Free Action</th>
+<th class="head">Attack of Opportunity<sup>1</sup></th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Cease <a class="reference internal" href="corerulebook.magic.html#corerulebook-magic-concentration"><span class="std std-ref">concentration</span></a> on a spell</td>
+<td>No</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#corerulebook-combat-drop-an-item"><span class="std std-ref">Drop an item</span></a></td>
+<td>No</td>
+</tr>
+<tr class="row-even"><td>Drop to the floor</td>
+<td>No</td>
+</tr>
+<tr class="row-odd"><td>Prepare <a class="reference internal" href="corerulebook.magic.html#corerulebook-magic-preparing-wizard-spells"><span class="std std-ref">spell components</span></a> to cast a spell<sup>5</sup></td>
+<td>No</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="#corerulebook-combat-speak"><span class="std std-ref">Speak</span></a></td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="colwidths-auto contrast-reading-table docutils">
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Swift Action</th>
+<th class="head">Attack of Opportunity<sup>1</sup></th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><a class="reference internal" href="#cast a quickened spell"><span class="std std-ref">Cast a quickened spell</span></a></td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="colwidths-auto contrast-reading-table docutils">
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Immediate Action</th>
+<th class="head">Attack of Opportunity<sup>1</sup></th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Cast <a class="reference internal" href="corerulebook.spells.featherfall.html#corerulebook-spells-featherfall-feather-fall"><span class="std std-ref">feather fall</span></a></td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="colwidths-auto contrast-reading-table docutils">
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">No Action</th>
+<th class="head">Attack of Opportunity<sup>1</sup></th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><a class="reference internal" href="#corerulebook-combat-delay"><span class="std std-ref">Delay</span></a></td>
+<td>No</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#corerulebook-combat-take-5-foot-step"><span class="std std-ref">5-foot step</span></a></td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+<p>During one turn, there are a wide variety of actions that your character can perform, from swinging a sword to casting a spell.</p>
+<div class="section" id="action-types">
+<span id="corerulebook-combat-action-types"></span><h2><a class="toc-backref" href="#id27">Action Types</a><a class="headerlink" href="#action-types" title="Permalink to this headline">¶</a></h2>
+<p>An action’s type essentially tells you how long the action takes to perform (within the framework of the 6-second combat round) and how movement is treated. There are six types of actions: standard actions, move actions, full-round actions, swift actions, immediate actions, and free actions.</p>
+<p>In a normal round, you can perform a standard action and a move action, or you can perform a full-round action. You can also perform one swift action and one or more free actions. You can always take a move action in place of a standard action.</p>
+<p>In some situations (such as in a surprise round), you may be limited to taking only a single move action or standard action.</p>
+<p id="corerulebook-combat-standard-action"><strong>Standard Action</strong>: A standard action allows you to do something, most commonly to make an attack or cast a spell. See Table: Actions in Combat for other standard actions.</p>
+<p id="corerulebook-combat-move-action"><strong>Move Action</strong>: A move action allows you to move up to your speed or perform an action that takes a similar amount of time. See Table: Actions in Combat for other move actions.</p>
+<p>You can take a move action in place of a standard action. If you move no actual distance in a round (commonly because you have swapped your move action for one or more equivalent actions), you can take one 5-foot step either before, during, or after the action.</p>
+<p id="corerulebook-combat-full-round-action"><strong>Full-Round Action</strong>: A full-round action consumes all your effort during a round. The only movement you can take during a full-round action is a 5-foot step before, during, or after the action. You can also perform free actions and swift actions (see below). See Table: Actions in Combat for a list of full-round actions.</p>
+<p>Some full-round actions do not allow you to take a 5-foot step.</p>
+<p>Some full-round actions can be taken as standard actions, but only in situations when you are limited to performing only a standard action during your round. The descriptions of specific actions detail which actions allow this option.</p>
+<p id="corerulebook-combat-free-action"><strong>Free Action</strong>: Free actions consume a very small amount of time and effort. You can perform one or more free actions while taking another action normally. However, there are reasonable limits on what you can really do for free, as decided by the GM.</p>
+<p id="corerulebook-combat-swift-action"><strong>Swift Action</strong>: A swift action consumes a very small amount of time, but represents a larger expenditure of effort and energy than a free action. You can perform only a single swift action per turn.</p>
+<p id="corerulebook-combat-immediate-action"><strong>Immediate Action</strong>: An immediate action is very similar to a swift action, but can be performed at any time—even if it’s not your turn.</p>
+<p><strong>Not an Action</strong>: Some activities are so minor that they are not even considered free actions. They literally don’t take any time at all to do and are considered an inherent part of doing something else, such as nocking an arrow as part of an attack with a bow.</p>
+<p><strong>Restricted Activity</strong>: In some situations, you may be unable to take a full round’s worth of actions. In such cases, you are restricted to taking only a single standard action or a single move action (plus free and swift actions as normal). You can’t take a full-round action (though you can start or complete a full-round action by using a standard action; see below).</p>
+</div>
+<div class="section" id="standard-actions">
+<span id="corerulebook-combat-standard-actions"></span><h2><a class="toc-backref" href="#id28">Standard Actions</a><a class="headerlink" href="#standard-actions" title="Permalink to this headline">¶</a></h2>
+<p>Most of the common actions characters take, aside from movement, fall into the realm of standard actions.</p>
+<div class="section" id="attack">
+<span id="corerulebook-combat-attack"></span><h3><a class="toc-backref" href="#id29">Attack</a><a class="headerlink" href="#attack" title="Permalink to this headline">¶</a></h3>
+<p>Making an attack is a standard action.</p>
+<p id="corerulebook-combat-melee-attacks"><strong>Melee Attacks</strong>: With a normal melee weapon, you can strike any opponent within 5 feet. (Opponents within 5 feet are considered adjacent to you.) Some melee weapons have reach, as indicated in their descriptions. With a typical reach weapon, you can strike opponents 10 feet away, but you can’t strike adjacent foes (those within 5 feet).</p>
+<p id="corerulebook-combat-unarmed-attacks"><strong>Unarmed Attacks</strong>: Striking for damage with punches, kicks, and head butts is much like attacking with a melee weapon, except for the following:</p>
+<p><em>Attacks of Opportunity</em>: Attacking unarmed provokes an attack of opportunity from the character you attack, provided she is armed. The attack of opportunity comes before your attack. An unarmed attack does not provoke attacks of opportunity from other foes, nor does it provoke an attack of opportunity from an unarmed foe.</p>
+<p>An unarmed character can’t take attacks of opportunity (but see “Armed” Unarmed Attacks, below).</p>
+<p><em>“Armed” Unarmed Attacks</em>: Sometimes a character’s or creature’s unarmed attack counts as an armed attack. A monk, a character with the <a class="reference internal" href="corerulebook.feats.html#improved unarmed strike (combat)"><span class="std std-ref">Improved Unarmed Strike</span></a> feat, a spellcaster delivering a touch attack spell, and a creature with natural physical weapons all count as being armed (see natural attacks).</p>
+<p>Note that being armed counts for both offense and defense (the character can make attacks of opportunity).</p>
+<p id="corerulebook-combat-unarmed-strike-damage"><em>Unarmed Strike Damage</em>: An unarmed strike from a Medium character deals 1d3 points of bludgeoning damage (plus your <a class="reference internal" href="corerulebook.gettingstarted.html#strength (str)"><span class="std std-ref">Strength</span></a> modifier, as normal). A Small character’s unarmed strike deals 1d2 points of bludgeoning damage, while a Large character’s unarmed strike deals 1d4 points of bludgeoning damage. All damage from unarmed strikes is nonlethal damage. Unarmed strikes count as light weapons (for purposes of two-weapon attack penalties and so on).</p>
+<p><em>Dealing Lethal Damage</em>: You can specify that your unarmed strike will deal lethal damage before you make your attack roll, but you take a –4 penalty on your attack roll. If you have the <a class="reference internal" href="corerulebook.feats.html#improved unarmed strike (combat)"><span class="std std-ref">Improved Unarmed Strike</span></a> feat, you can deal lethal damage with an unarmed strike without taking a penalty on the attack roll.</p>
+<p id="corerulebook-combat-ranged-attacks"><strong>Ranged Attacks</strong>: With a ranged weapon, you can shoot or throw at any target that is within the weapon’s maximum range and in line of sight. The maximum range for a thrown weapon is five range increments. For projectile weapons, it is 10 range increments. Some ranged weapons have shorter maximum ranges, as specified in their descriptions.</p>
+<p id="corerulebook-combat-natural-attacks"><strong>Natural Attacks</strong>: Attacks made with natural weapons, such as claws and bites, are melee attacks that can be made against any creature within your reach (usually 5 feet). These attacks are made using your full attack bonus and deal an amount of damage that depends on their type (plus your <a class="reference internal" href="corerulebook.gettingstarted.html#strength (str)"><span class="std std-ref">Strength</span></a> modifier, as normal). You do not receive additional natural attacks for a high base attack bonus. Instead, you receive additional attack rolls for multiple limb and body parts capable of making the attack (as noted by the race or ability that grants the attacks). If you possess only one natural attack (such as a bite—two claw attacks do not qualify), you add 1–1/2 times your <a class="reference internal" href="corerulebook.gettingstarted.html#strength (str)"><span class="std std-ref">Strength</span></a> bonus on damage rolls made with that attack.</p>
+<p>Some natural attacks are denoted as secondary natural attacks, such as tails and wings. Attacks with secondary natural attacks are made using your base attack bonus minus 5. These attacks deal an amount of damage depending on their type, but you only add half your <a class="reference internal" href="corerulebook.gettingstarted.html#strength (str)"><span class="std std-ref">Strength</span></a> modifier on damage rolls.</p>
+<blockquote>
+<div>You can make attacks with natural weapons in combination with attacks made with a melee weapon and unarmed strikes, so long as a different limb is used for each attack. For example, you cannot make a claw attack and also use that hand to make attacks with a longsword. When you make additional attacks in this way, all of your natural attacks are treated as secondary natural attacks, using your base attack bonus minus 5 and adding only 1/2 of your <a class="reference internal" href="corerulebook.gettingstarted.html#strength (str)"><span class="std std-ref">Strength</span></a> modifier on damage rolls. Feats such as <a class="reference internal" href="corerulebook.feats.html#two-weapon fighting (combat)"><span class="std std-ref">Two-Weapon Fighting</span></a> and Multiattack can reduce these penalties.</div></blockquote>
+<p><strong>Multiple Attacks</strong>: A character who can make more than one attack per round must use the full-attack action (see Full-Round Actions) in order to get more than one attack.</p>
+<p id="corerulebook-combat-shooting-or-throwing-into-a-melee"><strong>Shooting or Throwing into a Melee</strong>: If you shoot or throw a ranged weapon at a target engaged in melee with a friendly character, you take a –4 penalty on your attack roll. Two characters are engaged in melee if they are enemies of each other and either threatens the other. (An <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-unconscious"><span class="std std-ref">unconscious</span></a> or otherwise immobilized character is not considered engaged unless he is actually being attacked.)</p>
+<p>If your target (or the part of your target you’re aiming at, if it’s a big target) is at least 10 feet away from the nearest friendly character, you can avoid the –4 penalty, even if the creature you’re aiming at is engaged in melee with a friendly character.</p>
+<p>If your target is two size categories larger than the friendly characters it is engaged with, this penalty is reduced to –2. There is no penalty for firing at a creature that is three size categories larger than the friendly characters it is engaged with.</p>
+<p><em>Precise Shot</em>: If you have the <a class="reference internal" href="corerulebook.feats.html#precise shot (combat)"><span class="std std-ref">Precise Shot</span></a> feat, you don’t take this penalty.</p>
+<p id="corerulebook-combat-fighting-defensively-as-a-standard-action"><strong>Fighting Defensively as a Standard Action</strong>: You can choose to fight defensively when attacking. If you do so, you take a –4 penalty on all attacks in a round to gain a +2 <a class="reference internal" href="#corerulebook-combat-dodge-bonuses"><span class="std std-ref">dodge bonus</span></a> to <a class="reference internal" href="#corerulebook-combat-armor-class"><span class="std std-ref">AC</span></a> until the start of your next turn.</p>
+<p id="corerulebook-combat-critical-hits"><strong>Critical Hits</strong>: When you make an attack roll and get a natural 20 (the d20 shows 20), you hit regardless of your target’s <a class="reference internal" href="#corerulebook-combat-armor-class"><span class="std std-ref">Armor Class</span></a>, and you have scored a “threat,” meaning the hit might be a critical hit (or “crit”). To find out if it’s a critical hit, you immediately make an attempt to “confirm” the critical hit—another attack roll with all the same modifiers as the attack roll you just made. If the confirmation roll also results in a hit against the target’s <a class="reference internal" href="#corerulebook-combat-armor-class"><span class="std std-ref">AC</span></a>, your original hit is a critical hit. (The critical roll just needs to hit to give you a crit, it doesn’t need to come up 20 again.) If the confirmation roll is a miss, then your hit is just a regular hit.</p>
+<p>A critical hit means that you roll your damage more than once, with all your usual bonuses, and add the rolls together. Unless otherwise specified, the threat range for a critical hit on an attack roll is 20, and the multiplier is ×2.</p>
+<p><em>Exception</em>: Precision damage (such as from a rogue’s sneak attack class feature) and additional damage dice from special weapon abilities (such as <em>flaming</em>) are not multiplied when you score a critical hit.</p>
+<p><em>Increased Threat Range</em>: Sometimes your threat range is greater than 20. That is, you can score a threat on a lower number. In such cases, a roll of lower than 20 is not an automatic hit. Any attack roll that doesn’t result in a hit is not a threat.</p>
+<p><em>Increased Critical Multiplier</em>: Some weapons deal better than double damage on a critical hit (see <a class="reference internal" href="corerulebook.equipment.html#corerulebook-equipment"><span class="std std-ref">Equipment</span></a>).</p>
+<p><em>Spells and Critical Hits</em>: A spell that requires an attack roll can score a critical hit. A spell attack that requires no attack roll cannot score a critical hit. If a spell causes ability damage or drain (see <a class="reference internal" href="corerulebook.glossary.html#special abilities"><span class="std std-ref">Special Abilities</span></a>), the damage or drain is doubled on a critical hit.</p>
+</div>
+<div class="section" id="activate-magic-item">
+<span id="corerulebook-combat-activate-magic-item"></span><h3><a class="toc-backref" href="#id30">Activate Magic Item</a><a class="headerlink" href="#activate-magic-item" title="Permalink to this headline">¶</a></h3>
+<p>Many magic items don’t need to be activated. Certain magic items, however, do need to be activated, especially potions, scrolls, wands, rods, and staves. Unless otherwise noted, activating a magic item is a standard action.</p>
+<p><strong>Spell Completion Items</strong>: Activating a <a class="reference internal" href="corerulebook.magicitems.html#corerulebook-magicitems-spell-completion"><span class="std std-ref">spell completion item</span></a> is the equivalent of casting a spell. It requires concentration and provokes attacks of opportunity. You lose the spell if your concentration is broken, and you can attempt to activate the item while on the defensive, as with casting a spell.</p>
+<p><strong>Spell Trigger, Command Word, or Use-Activated Items</strong>: Activating any of these kinds of items does not require concentration and does not provoke attacks of opportunity.</p>
+</div>
+<div class="section" id="cast-a-spell">
+<span id="corerulebook-combat-cast-a-spell"></span><h3><a class="toc-backref" href="#id31">Cast a Spell</a><a class="headerlink" href="#cast-a-spell" title="Permalink to this headline">¶</a></h3>
+<p>Most spells require 1 standard action to cast. You can cast such a spell either before or after you take a move action.</p>
+<p><em>Note</em>: You retain your <a class="reference internal" href="corerulebook.gettingstarted.html#dexterity (dex)"><span class="std std-ref">Dexterity</span></a> bonus to <a class="reference internal" href="#corerulebook-combat-armor-class"><span class="std std-ref">AC</span></a> while casting.</p>
+<p><strong>Spell Components</strong>: To cast a spell with a verbal (V) component, your character must speak in a firm voice. If you’re gagged or in the area of a <em>silence</em>spell, you can’t cast such a spell. A spellcaster who has been <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-deafened"><span class="std std-ref">deafened</span></a> has a 20% chance to spoil any spell he tries to cast if that spell has a verbal component.</p>
+<p>To cast a spell with a somatic (S) component, you must gesture freely with at least one hand. You can’t cast a spell of this type while bound, grappling, or with both your hands full or occupied.</p>
+<p>To cast a spell with a material (M), focus (F), or divine focus (DF) component, you have to have the proper materials, as described by the spell. Unless these components are elaborate, preparing them is a free action. For material components and focuses whose costs are not listed in the spell description, you can assume that you have them if you have your spell component pouch.</p>
+<p><strong>Concentration</strong>: You must concentrate to cast a spell. If you can’t concentrate, you can’t cast a spell. If you start casting a spell but something interferes with your concentration, you must make a concentration check or lose the spell. The check’s DC depends on what is threatening your concentration (see <a class="reference internal" href="corerulebook.magic.html#corerulebook-magic"><span class="std std-ref">Magic</span></a>). If you fail, the spell fizzles with no effect. If you prepare spells, it is lost from preparation. If you cast at will, it counts against your daily limit of spells even though you did not cast it successfully.</p>
+<p><strong>Concentrating to Maintain a Spell</strong>: Some spells require continued concentration to keep them going. Concentrating to maintain a spell is a standard action that doesn’t provoke an attack of opportunity. Anything that could break your concentration when casting a spell can keep you from concentrating to maintain a spell. If your concentration breaks, the spell ends.</p>
+<p><strong>Casting Time</strong>: Most spells have a casting time of 1 standard action. A spell cast in this manner immediately takes effect.</p>
+<p id="corerulebook-combat-attacks-of-opportunity-spellcasting"><strong>Attacks of Opportunity</strong>: Generally, if you cast a spell, you provoke attacks of opportunity from threatening enemies. If you take damage from an attack of opportunity, you must make a concentration check (DC 10 + points of damage taken + the spell’s level) or lose the spell. Spells that require only a free action to cast don’t provoke attacks of opportunity.</p>
+<p id="corerulebook-combat-casting-on-the-defensive"><strong>Casting on the Defensive</strong>: Casting a spell while on the defensive does not provoke an attack of opportunity. It does, however, require a concentration check (DC 15 + double the spell’s level) to successfully cast the spell. Failure means that you lose the spell.</p>
+<p id="corerulebook-combat-touch-spells-in-combat"><strong>Touch Spells in Combat</strong>: Many spells have a range of touch. To use these spells, you cast the spell and then touch the subject. In the same round that you cast the spell, you may also touch (or attempt to touch) as a free action. You may take your move before casting the spell, after touching the target, or between casting the spell and touching the target. You can automatically touch one friend or use the spell on yourself, but to touch an opponent, you must succeed on an attack roll.</p>
+<p><em>Touch Attacks</em>: Touching an opponent with a touch spell is considered to be an armed attack and therefore does not provoke attacks of opportunity. The act of casting a spell, however, does provoke an attack of opportunity. Touch attacks come in two types: melee touch attacks and ranged touch attacks. You can score critical hits with either type of attack as long as the spell deals damage. Your opponent’s <a class="reference internal" href="#corerulebook-combat-armor-class"><span class="std std-ref">AC</span></a> against a touch attack does not include any armor bonus, shield bonus, or natural armor bonus. His size modifier, <a class="reference internal" href="corerulebook.gettingstarted.html#dexterity (dex)"><span class="std std-ref">Dexterity</span></a> modifier, and deflection bonus (if any) all apply normally.</p>
+<p id="corerulebook-combat-holding-the-charge"><em>Holding the Charge</em>: If you don’t discharge the spell in the round when you cast the spell, you can hold the charge indefinitely. You can continue to make touch attacks round after round. If you touch anything or anyone while holding a charge, even unintentionally, the spell discharges. If you cast another spell, the touch spell dissipates. You can touch one friend as a standard action or up to six friends as a full-round action. Alternatively, you may make a normal unarmed attack (or an attack with a natural weapon) while holding a charge. In this case, you aren’t considered armed and you provoke attacks of opportunity as normal for the attack. If your unarmed attack or natural weapon attack normally doesn’t provoke attacks of opportunity, neither does this attack. If the attack hits, you deal normal damage for your unarmed attack or natural weapon and the spell discharges. If the attack misses, you are still holding the charge.</p>
+<p id="corerulebook-combat-ranged-touch-spells-in-combat-95"><strong>Ranged Touch Spells in Combat</strong>: Some spells allow you to make a ranged touch attack as part of the casting of the spell. These attacks are made as part of the spell and do not require a separate action. Ranged touch attacks provoke an attack of opportunity, even if the spell that causes the attacks was cast defensively. Unless otherwise noted, ranged touch attacks cannot be held until a later turn.</p>
+<p id="corerulebook-combat-dismiss-a-spell"><strong>Dismiss a Spell</strong>: Dismissing an active spell is a standard action that doesn’t provoke attacks of opportunity.</p>
+</div>
+<div class="section" id="start-complete-full-round-action">
+<span id="id2"></span><h3><a class="toc-backref" href="#id32">Start/Complete Full-Round Action</a><a class="headerlink" href="#start-complete-full-round-action" title="Permalink to this headline">¶</a></h3>
+<p>The “start full-round action” standard action lets you start undertaking a full-round action, which you can complete in the following round by using another standard action. You can’t use this action to start or complete a full attack, charge, run, or withdraw.</p>
+</div>
+<div class="section" id="total-defense">
+<span id="corerulebook-combat-total-defense"></span><h3><a class="toc-backref" href="#id33">Total Defense</a><a class="headerlink" href="#total-defense" title="Permalink to this headline">¶</a></h3>
+<p>You can defend yourself as a standard action. You get a +4 <a class="reference internal" href="#corerulebook-combat-dodge-bonuses"><span class="std std-ref">dodge bonus</span></a> to your <a class="reference internal" href="#corerulebook-combat-armor-class"><span class="std std-ref">AC</span></a> for 1 round. Your <a class="reference internal" href="#corerulebook-combat-armor-class"><span class="std std-ref">AC</span></a> improves at the start of this action. You can’t combine total defense with fighting defensively or with the benefit of the <a class="reference internal" href="corerulebook.feats.html#combat expertise (combat)"><span class="std std-ref">Combat Expertise</span></a> feat. You can’t make attacks of opportunity while using total defense.</p>
+</div>
+<div class="section" id="use-special-ability">
+<span id="corerulebook-combat-use-special-ability"></span><h3><a class="toc-backref" href="#id34">Use Special Ability</a><a class="headerlink" href="#use-special-ability" title="Permalink to this headline">¶</a></h3>
+<p>Using a special ability is usually a standard action, but whether it is a standard action, a full-round action, or not an action at all is defined by the ability.</p>
+<p><strong>Spell-Like Abilities (Sp)</strong>: Using a spell-like ability works like casting a spell in that it requires concentration and provokes attacks of opportunity. Spell-like abilities can be disrupted. If your concentration is broken, the attempt to use the ability fails, but the attempt counts as if you had used the ability. The casting time of a spell-like ability is 1 standard action, unless the ability description notes otherwise.</p>
+<p><em>Using a Spell-Like Ability on the Defensive</em>: You may attempt to use a spell-like ability on the defensive, just as with casting a spell. If the concentration check (DC 15 + double the spell’s level) fails, you can’t use the ability, but the attempt counts as if you had used the ability.</p>
+<p><strong>Supernatural Abilities (Su)</strong>: Using a supernatural ability is usually a standard action (unless defined otherwise by the ability’s description). Its use cannot be disrupted, does not require concentration, and does not provoke attacks of opportunity.</p>
+<p><strong>Extraordinary Abilities (Ex)</strong>: Using an extraordinary ability is usually not an action because most extraordinary abilities automatically happen in a reactive fashion. Those extraordinary abilities that are actions are usually standard actions that cannot be disrupted, do not require concentration, and do not provoke attacks of opportunity.</p>
+</div>
+</div>
+<div class="section" id="move-actions">
+<span id="corerulebook-combat-move-actions"></span><h2><a class="toc-backref" href="#id35">Move Actions</a><a class="headerlink" href="#move-actions" title="Permalink to this headline">¶</a></h2>
+<p>With the exception of specific movement-related skills, most move actions don’t require a check.</p>
+<div class="section" id="move">
+<span id="corerulebook-combat-move"></span><h3><a class="toc-backref" href="#id36">Move</a><a class="headerlink" href="#move" title="Permalink to this headline">¶</a></h3>
+<p>The simplest move action is moving your speed. If you take this kind of move action during your turn, you can’t also take a 5-foot step.</p>
+<p>Many nonstandard modes of movement are covered under this category, including climbing (up to one-quarter of your speed) and swimming (up to one-quarter of your speed).</p>
+<p><strong>Accelerated Climbing</strong>: You can climb at half your speed as a move action by accepting a –5 penalty on your Climb check.</p>
+<p id="corerulebook-combat-crawling"><strong>Crawling</strong>: You can crawl 5 feet as a move action. Crawling incurs attacks of opportunity from any attackers who threaten you at any point of your crawl. A crawling character is considered <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-prone"><span class="std std-ref">prone</span></a> and must take a move action to stand up, provoking an attack of opportunity.</p>
+</div>
+<div class="section" id="direct-or-redirect-a-spell">
+<span id="corerulebook-combat-direct-or-redirect-a-spell"></span><h3><a class="toc-backref" href="#id37">Direct or Redirect a Spell</a><a class="headerlink" href="#direct-or-redirect-a-spell" title="Permalink to this headline">¶</a></h3>
+<p>Some spells allow you to redirect the effect to new targets or areas after you cast the spell. Redirecting a spell requires a move action and does not provoke attacks of opportunity or require concentration.</p>
+</div>
+<div class="section" id="draw-or-sheathe-a-weapon">
+<span id="corerulebook-combat-draw-or-sheathe-a-weapon"></span><h3><a class="toc-backref" href="#id38">Draw or Sheathe a Weapon</a><a class="headerlink" href="#draw-or-sheathe-a-weapon" title="Permalink to this headline">¶</a></h3>
+<p>Drawing a weapon so that you can use it in combat, or putting it away so that you have a free hand, requires a move action. This action also applies to weapon-like objects carried in easy reach, such as wands. If your weapon or weapon-like object is stored in a pack or otherwise out of easy reach, treat this action as retrieving a stored item.</p>
+<p>If you have a base attack bonus of +1 or higher, you may draw a weapon as a free action combined with a regular move. If you have the <a class="reference internal" href="corerulebook.feats.html#two-weapon fighting (combat)"><span class="std std-ref">Two-Weapon Fighting</span></a> feat, you can draw two light or one-handed weapons in the time it would normally take you to draw one.</p>
+<p>Drawing ammunition for use with a ranged weapon (such as arrows, bolts, sling bullets, or shuriken) is a free action.</p>
+</div>
+<div class="section" id="manipulate-an-item">
+<span id="corerulebook-combat-manipulate-an-item"></span><h3><a class="toc-backref" href="#id39">Manipulate an Item</a><a class="headerlink" href="#manipulate-an-item" title="Permalink to this headline">¶</a></h3>
+<p>Moving or manipulating an item is usually a move action.</p>
+<p>This includes retrieving or putting away a stored item, picking up an item, moving a heavy object, and opening a door. Examples of this kind of action, along with whether they incur an attack of opportunity, are given in Table: Actions in Combat.</p>
+</div>
+<div class="section" id="mount-dismount-a-steed">
+<span id="id3"></span><h3><a class="toc-backref" href="#id40">Mount/Dismount a Steed</a><a class="headerlink" href="#mount-dismount-a-steed" title="Permalink to this headline">¶</a></h3>
+<p>Mounting or dismounting a steed requires a move action.</p>
+<p><strong>Fast Mount or Dismount</strong>: You can mount or dismount as a free action with a DC 20 Ride check. If you fail the check, mounting or dismounting is a move action instead. You can’t attempt a fast mount or fast dismount unless you can perform the mount or dismount as a move action in the current round.</p>
+</div>
+<div class="section" id="ready-or-drop-a-shield">
+<span id="corerulebook-combat-ready-or-drop-a-shield"></span><h3><a class="toc-backref" href="#id41">Ready or Drop a Shield</a><a class="headerlink" href="#ready-or-drop-a-shield" title="Permalink to this headline">¶</a></h3>
+<p>Strapping a shield to your arm to gain its shield bonus to your <a class="reference internal" href="#corerulebook-combat-armor-class"><span class="std std-ref">AC</span></a>, or unstrapping and dropping a shield so you can use your shield hand for another purpose, requires a move action. If you have a base attack bonus of +1 or higher, you can ready or drop a shield as a free action combined with a regular move.</p>
+<p>Dropping a carried (but not worn) shield is a free action.</p>
+</div>
+<div class="section" id="stand-up">
+<span id="corerulebook-combat-stand-up"></span><h3><a class="toc-backref" href="#id42">Stand Up</a><a class="headerlink" href="#stand-up" title="Permalink to this headline">¶</a></h3>
+<p>Standing up from a <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-prone"><span class="std std-ref">prone</span></a> position requires a move action and provokes attacks of opportunity.</p>
+</div>
+</div>
+<div class="section" id="full-round-actions">
+<span id="corerulebook-combat-full-round-actions"></span><h2><a class="toc-backref" href="#id43">Full-Round Actions</a><a class="headerlink" href="#full-round-actions" title="Permalink to this headline">¶</a></h2>
+<p>A full-round action requires an entire round to complete. Thus, it can’t be coupled with a standard or a move action, though if it does not involve moving any distance, you can take a 5-foot step.</p>
+<div class="section" id="full-attack">
+<span id="corerulebook-combat-full-attack"></span><h3><a class="toc-backref" href="#id44">Full Attack</a><a class="headerlink" href="#full-attack" title="Permalink to this headline">¶</a></h3>
+<p>If you get more than one attack per round because your base attack bonus is high enough (see Base Attack Bonus in <a class="reference internal" href="corerulebook.classes.html#corerulebook-classes"><span class="std std-ref">Classes</span></a>), because you fight with two weapons or a double weapon, or for some special reason, you must use a full-round action to get your additional attacks. You do not need to specify the targets of your attacks ahead of time. You can see how the earlier attacks turn out before assigning the later ones.</p>
+<p>The only movement you can take during a full attack is a 5-foot step. You may take the step before, after, or between your attacks.</p>
+<p>If you get multiple attacks because your base attack bonus is high enough, you must make the attacks in order from highest bonus to lowest. If you are using two weapons, you can strike with either weapon first. If you are using a double weapon, you can strike with either part of the weapon first.</p>
+<p><strong>Deciding between an Attack or a Full Attack</strong>: After your first attack, you can decide to take a move action instead of making your remaining attacks, depending on how the first attack turns out and assuming you have not already taken a move action this round. If you’ve already taken a 5-foot step, you can’t use your move action to move any distance, but you could still use a different kind of move action.</p>
+<p id="corerulebook-combat-fighting-defensively-as-a-full-round-action"><strong>Fighting Defensively as a Full-Round Action</strong>: You can choose to fight defensively when taking a full-attack action. If you do so, you take a –4 penalty on all attacks in a round to gain a +2 <a class="reference internal" href="#corerulebook-combat-dodge-bonuses"><span class="std std-ref">dodge bonus</span></a> to <a class="reference internal" href="#corerulebook-combat-armor-class"><span class="std std-ref">AC</span></a> for until the start your next turn.</p>
+</div>
+<div class="section" id="id4">
+<h3><a class="toc-backref" href="#id45">Cast a Spell</a><a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<p>A spell that takes one round to cast is a full-round action. It comes into effect just before the beginning of your turn in the round after you began casting the spell. You then act normally after the spell is completed.</p>
+<p>A spell that takes 1 minute to cast comes into effect just before your turn 1 minute later (and for each of those 10 rounds, you are casting a spell as a full-round action). These actions must be consecutive and uninterrupted, or the spell automatically fails.</p>
+<p>When you begin a spell that takes 1 round or longer to cast, you must continue the invocations, gestures, and concentration from 1 round to just before your turn in the next round (at least). If you lose concentration after starting the spell and before it is complete, you lose the spell.</p>
+<p>You only provoke attacks of opportunity when you begin casting a spell, even though you might continue casting for at least 1 full round. While casting a spell, you don’t threaten any squares around you.</p>
+<p>This action is otherwise identical to the cast a spell action described under Standard Actions.</p>
+<p id="corerulebook-combat-casting-a-metamagic-spell"><strong>Casting a Metamagic Spell</strong>: Sorcerers and bards must take more time to cast a metamagic spell (one enhanced by a metamagic feat) than a regular spell. If a spell’s normal casting time is 1 standard action, casting a metamagic version of the spell is a full-round action for a sorcerer or bard (except for spells modified by the Quicken Spell feat, which take 1 swift action to cast). Note that this isn’t the same as a spell with a 1-round casting time. Spells that take a full-round action to cast take effect in the same round that you begin casting, and you are not required to continue the invocations, gestures, and concentration until your next turn. For spells with a longer casting time, it takes an extra full-round action to cast the metamagic spell.</p>
+<p>Clerics and druids must take more time to spontaneously cast a metamagic version of a cure, inflict, or summon spell. Spontaneously casting a metamagic version of a spell with a casting time of 1 standard action is a full-round action, and spells with longer casting times take an extra full-round action to cast.</p>
+</div>
+<div class="section" id="move-5-feet-through-difficult-terrain">
+<span id="corerulebook-combat-move-5-feet-through-difficult-terrain"></span><h3><a class="toc-backref" href="#id46">Move 5 Feet through Difficult Terrain</a><a class="headerlink" href="#move-5-feet-through-difficult-terrain" title="Permalink to this headline">¶</a></h3>
+<p>In some situations, your movement may be so hampered that you don’t have sufficient speed even to move 5 feet (a single square). In such a case, you may spend a full-round action to move 5 feet (1 square) in any direction, even diagonally. Even though this looks like a 5-foot step, it’s not, and thus it provokes attacks of opportunity normally.</p>
+</div>
+<div class="section" id="run">
+<span id="corerulebook-combat-run"></span><h3><a class="toc-backref" href="#id47">Run</a><a class="headerlink" href="#run" title="Permalink to this headline">¶</a></h3>
+<p>You can run as a full-round action. If you do, you do not also get a 5-foot step. When you run, you can move up to four times your speed in a straight line (or three times your speed if you’re in heavy armor). You lose any <a class="reference internal" href="corerulebook.gettingstarted.html#dexterity (dex)"><span class="std std-ref">Dexterity</span></a> bonus to <a class="reference internal" href="#corerulebook-combat-armor-class"><span class="std std-ref">AC</span></a> unless you have the <a class="reference internal" href="corerulebook.feats.html#corerulebook-feats-run"><span class="std std-ref">Run</span></a> feat.</p>
+<p>You can run for a number of rounds equal to your <a class="reference internal" href="corerulebook.gettingstarted.html#constitution (con)"><span class="std std-ref">Constitution</span></a> score, but after that you must make a DC 10 <a class="reference internal" href="corerulebook.gettingstarted.html#constitution (con)"><span class="std std-ref">Constitution</span></a> check to continue running. You must check again each round in which you continue to run, and the DC of this check increases by 1 for each check you have made. When you fail this check, you must stop running. A character who has run to his limit must rest for 1 minute (10 rounds) before running again. During a rest period, a character can move no faster than a normal move action.</p>
+<p>You can’t run across difficult terrain or if you can’t see where you’re going.</p>
+<p>A run represents a speed of about 13 miles per hour for an unencumbered human.</p>
+</div>
+<div class="section" id="id5">
+<h3><a class="toc-backref" href="#id48">Use Special Ability</a><a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+<p>Using a special ability is usually a standard action, but some may be full-round actions, as defined by the ability.</p>
+</div>
+<div class="section" id="withdraw">
+<span id="corerulebook-combat-withdraw"></span><h3><a class="toc-backref" href="#id49">Withdraw</a><a class="headerlink" href="#withdraw" title="Permalink to this headline">¶</a></h3>
+<p>Withdrawing from melee combat is a full-round action. When you withdraw, you can move up to double your speed. The square you start out in is not considered threatened by any opponent you can see, and therefore visible enemies do not get attacks of opportunity against you when you move from that square. <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-invisible"><span class="std std-ref">Invisible</span></a> enemies still get attacks of opportunity against you, and you can’t withdraw from combat if you’re blinded. You can’t take a 5-foot step during the same round in which you withdraw.</p>
+<p>If, during the process of withdrawing, you move out of a threatened square (other than the one you started in), enemies get attacks of opportunity as normal.</p>
+<p>You may not withdraw using a form of movement for which you don’t have a listed speed.</p>
+<p>Note that despite the name of this action, you don’t actually have to leave combat entirely.</p>
+<p><strong>Restricted Withdraw</strong>: If you are limited to taking only a standard action each round you can withdraw as a standard action. In this case, you may move up to your speed.</p>
+</div>
+</div>
+<div class="section" id="free-actions">
+<span id="corerulebook-combat-free-actions"></span><h2><a class="toc-backref" href="#id50">Free Actions</a><a class="headerlink" href="#free-actions" title="Permalink to this headline">¶</a></h2>
+<p>Free actions don’t take any time at all, though there may be limits to the number of free actions you can perform in a turn. Free actions rarely incur attacks of opportunity. Some common free actions are described below.</p>
+<div class="section" id="cease-concentration-on-spell">
+<span id="corerulebook-combat-cease-concentration-on-spell"></span><h3><a class="toc-backref" href="#id51">Cease Concentration on Spell</a><a class="headerlink" href="#cease-concentration-on-spell" title="Permalink to this headline">¶</a></h3>
+<p>You can stop concentrating on a spell as a free action.</p>
+</div>
+<div class="section" id="drop-an-item">
+<span id="corerulebook-combat-drop-an-item"></span><h3><a class="toc-backref" href="#id52">Drop an Item</a><a class="headerlink" href="#drop-an-item" title="Permalink to this headline">¶</a></h3>
+<p>Dropping an item in your space or into an adjacent square is a free action.</p>
+</div>
+<div class="section" id="drop-prone">
+<span id="corerulebook-combat-drop-prone"></span><h3><a class="toc-backref" href="#id53">Drop Prone</a><a class="headerlink" href="#drop-prone" title="Permalink to this headline">¶</a></h3>
+<p>Dropping to a <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-prone"><span class="std std-ref">prone</span></a> position in your space is a free action.</p>
+</div>
+<div class="section" id="speak">
+<span id="corerulebook-combat-speak"></span><h3><a class="toc-backref" href="#id54">Speak</a><a class="headerlink" href="#speak" title="Permalink to this headline">¶</a></h3>
+<p>In general, speaking is a free action that you can perform even when it isn’t your turn. Speaking more than a few sentences is generally beyond the limit of a free action.</p>
+</div>
+</div>
+<div class="section" id="swift-actions">
+<span id="corerulebook-combat-swift-actions"></span><h2><a class="toc-backref" href="#id55">Swift Actions</a><a class="headerlink" href="#swift-actions" title="Permalink to this headline">¶</a></h2>
+<p>A swift action consumes a very small amount of time, but represents a larger expenditure of effort than a free action. You can perform one swift action per turn without affecting your ability to perform other actions. In that regard, a swift action is like a free action. You can, however, perform only one single swift action per turn, regardless of what other actions you take. You can take a swift action anytime you would normally be allowed to take a free action. Swift actions usually involve spellcasting, activating a feat, or the activation of magic items.</p>
+<div class="section" id="cast-a-quickened-spell">
+<span id="corerulebook-combat-cast-a-quickened-spell"></span><h3><a class="toc-backref" href="#id56">Cast a Quickened Spell</a><a class="headerlink" href="#cast-a-quickened-spell" title="Permalink to this headline">¶</a></h3>
+<p>You can cast a quickened spell (see the Quicken Spell feat), or any spell whose casting time is designated as a free or swift action, as a swift action. Only one such spell can be cast in any round, and such spells don’t count toward your normal limit of one spell per round. Casting a spell as a swift action doesn’t incur an attack of opportunity.</p>
+</div>
+</div>
+<div class="section" id="immediate-actions">
+<span id="corerulebook-combat-immediate-actions"></span><h2><a class="toc-backref" href="#id57">Immediate Actions</a><a class="headerlink" href="#immediate-actions" title="Permalink to this headline">¶</a></h2>
+<p>Much like a swift action, an immediate action consumes a very small amount of time but represents a larger expenditure of effort and energy than a free action. However, unlike a swift action, an immediate action can be performed at any time—even if it’s not your turn. Casting <em>feather fall</em> is an immediate action, since the spell can be cast at any time.</p>
+<p>Using an immediate action on your turn is the same as using a swift action and counts as your swift action for that turn. You cannot use another immediate action or a swift action until after your next turn if you have used an immediate action when it is not currently your turn (effectively, using an immediate action before your turn is equivalent to using your swift action for the coming turn). You also cannot use an immediate action if you are <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-flat-footed"><span class="std std-ref">flat-footed</span></a>.</p>
+</div>
+<div class="section" id="miscellaneous-actions">
+<span id="corerulebook-combat-miscellaneous-actions"></span><h2><a class="toc-backref" href="#id58">Miscellaneous Actions</a><a class="headerlink" href="#miscellaneous-actions" title="Permalink to this headline">¶</a></h2>
+<p>The following actions take a variable amount of time to accomplish or otherwise work differently than other actions.</p>
+<div class="section" id="take-5-foot-step">
+<span id="corerulebook-combat-take-5-foot-step"></span><h3><a class="toc-backref" href="#id59">Take 5-Foot Step</a><a class="headerlink" href="#take-5-foot-step" title="Permalink to this headline">¶</a></h3>
+<p>You can move 5 feet in any round when you don’t perform any other kind of movement. Taking this 5-foot step never provokes an attack of opportunity. You can’t take more than one 5-foot step in a round, and you can’t take a 5-foot step in the same round that you move any distance.</p>
+<p>You can take a 5-foot step before, during, or after your other actions in the round.</p>
+<p>You can only take a 5-foot-step if your movement isn’t hampered by difficult terrain or darkness. Any creature with a speed of 5 feet or less can’t take a 5-foot step, since moving even 5 feet requires a move action for such a slow creature.</p>
+<p>You may not take a 5-foot step using a form of movement for which you do not have a listed speed.</p>
+</div>
+<div class="section" id="use-feat">
+<span id="corerulebook-combat-use-feat"></span><h3><a class="toc-backref" href="#id60">Use Feat</a><a class="headerlink" href="#use-feat" title="Permalink to this headline">¶</a></h3>
+<p>Certain feats let you take special actions in combat. Other feats do not require actions themselves, but they give you a bonus when attempting something you can already do. Some feats are not meant to be used within the framework of combat. The individual feat descriptions tell you what you need to know about them.</p>
+</div>
+<div class="section" id="use-skill">
+<span id="corerulebook-combat-use-skill"></span><h3><a class="toc-backref" href="#id61">Use Skill</a><a class="headerlink" href="#use-skill" title="Permalink to this headline">¶</a></h3>
+<p>Most skill uses are standard actions, but some might be move actions, full-round actions, free actions, or something else entirely.</p>
+<p>The individual skill descriptions in <a class="reference internal" href="corerulebook.usingskills.html#corerulebook-usingskills"><span class="std std-ref">Using Skills</span></a> tell you what sorts of actions are required to perform skills.</p>
+</div>
+</div>
+</div>
+<div class="section" id="injury-and-death">
+<span id="corerulebook-combat-injury-and-death"></span><h1><a class="toc-backref" href="#id62">Injury and Death</a><a class="headerlink" href="#injury-and-death" title="Permalink to this headline">¶</a></h1>
+<p>Your hit points measure how hard you are to kill. No matter how many hit points you lose, your character isn’t hindered in any way until your hit points drop to 0 or lower.</p>
+<div class="section" id="loss-of-hit-points">
+<span id="corerulebook-combat-loss-of-hit-points"></span><h2><a class="toc-backref" href="#id63">Loss of Hit Points</a><a class="headerlink" href="#loss-of-hit-points" title="Permalink to this headline">¶</a></h2>
+<p>The most common way that your character gets hurt is to take lethal damage and lose hit points.</p>
+<p><strong>What Hit Points Represent</strong>: Hit points mean two things in the game world: the ability to take physical punishment and keep going, and the ability to turn a serious blow into a less serious one.</p>
+<p><strong>Effects of Hit Point Damage</strong>: Damage doesn’t slow you down until your current hit points reach 0 or lower. At 0 hit points, you’re disabled.</p>
+<p>If your hit point total is negative, but not equal to or greater than your <a class="reference internal" href="corerulebook.gettingstarted.html#constitution (con)"><span class="std std-ref">Constitution</span></a> score, you are <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-unconscious"><span class="std std-ref">unconscious</span></a> and <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-dying"><span class="std std-ref">dying</span></a>.</p>
+<p>When your negative hit point total is equal to your <a class="reference internal" href="corerulebook.gettingstarted.html#constitution (con)"><span class="std std-ref">Constitution</span></a>, you’re dead.</p>
+<p id="corerulebook-combat-massive-damage"><strong>Massive Damage (Optional Rule)</strong>: If you ever sustain a single attack that deals an amount of damage equal to half your total hit points (minimum 50 points of damage) or more and it doesn’t kill you outright, you must make a DC 15 Fortitude save. If this saving throw fails, you die regardless of your current hit points. If you take half your total hit points or more in damage from multiple attacks, no one of which dealt more than half your total hit points (minimum 50), the massive damage rule does not apply.</p>
+</div>
+<div class="section" id="disabled-0-hit-points">
+<span id="corerulebook-combat-disabled-0-hit-points"></span><h2><a class="toc-backref" href="#id64">Disabled (0 Hit Points)</a><a class="headerlink" href="#disabled-0-hit-points" title="Permalink to this headline">¶</a></h2>
+<p>When your current hit point total drops to exactly 0, you are disabled.</p>
+<p>You gain the <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-staggered"><span class="std std-ref">staggered</span></a> condition and can only take a single move or standard action each turn (but not both, nor can you take full-round actions). You can take move actions without further injuring yourself, but if you perform any standard action (or any other strenuous action) you take 1 point of damage after completing the act. Unless your activity increased your hit points, you are now at –1 hit points and <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-dying"><span class="std std-ref">dying</span></a>.</p>
+<p>Healing that raises your hit points above 0 makes you fully functional again, just as if you’d never been reduced to 0 or fewer hit points.</p>
+<p>You can also become disabled when recovering from <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-dying"><span class="std std-ref">dying</span></a>. In this case, it’s a step toward recovery, and you can have fewer than 0 hit points (see <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-stable"><span class="std std-ref">Stable</span></a> Characters and Recovery).</p>
+</div>
+<div class="section" id="dying-negative-hit-points">
+<span id="corerulebook-combat-dying-negative-hit-points"></span><h2><a class="toc-backref" href="#id65">Dying (Negative Hit Points)</a><a class="headerlink" href="#dying-negative-hit-points" title="Permalink to this headline">¶</a></h2>
+<p>If your hit point total is negative, but not equal to or greater than your <a class="reference internal" href="corerulebook.gettingstarted.html#constitution (con)"><span class="std std-ref">Constitution</span></a> score, you’re dying.</p>
+<p>A dying character immediately falls <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-unconscious"><span class="std std-ref">unconscious</span></a> and can take no actions.</p>
+<p>A dying character loses 1 hit point every round. This continues until the character dies or becomes <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-stable"><span class="std std-ref">stable</span></a>.</p>
+</div>
+<div class="section" id="dead">
+<span id="corerulebook-combat-dead"></span><h2><a class="toc-backref" href="#id66">Dead</a><a class="headerlink" href="#dead" title="Permalink to this headline">¶</a></h2>
+<p>When your character’s current hit points drop to a negative amount equal to his <a class="reference internal" href="corerulebook.gettingstarted.html#constitution (con)"><span class="std std-ref">Constitution</span></a> score or lower, or if he succumbs to massive damage, he’s dead. A character can also die from taking ability damage or suffering an ability drain that reduces his <a class="reference internal" href="corerulebook.gettingstarted.html#constitution (con)"><span class="std std-ref">Constitution</span></a> score to 0 (see <a class="reference internal" href="corerulebook.glossary.html#special abilities"><span class="std std-ref">Special Abilities</span></a>).</p>
+<p>Certain types of powerful magic, such as <em>raise dead</em> and <em>resurrection</em>, can restore life to a dead character. See <a class="reference internal" href="corerulebook.magic.html#corerulebook-magic"><span class="std std-ref">Magic</span></a> for more information.</p>
+</div>
+<div class="section" id="stable-characters-and-recovery">
+<span id="corerulebook-combat-stable-characters-and-recovery"></span><h2><a class="toc-backref" href="#id67">Stable Characters and Recovery</a><a class="headerlink" href="#stable-characters-and-recovery" title="Permalink to this headline">¶</a></h2>
+<p>On the character’s next turn, after being reduced to negative hit points (but not dead), and on all subsequent turns, the character must make a DC 10 <a class="reference internal" href="corerulebook.gettingstarted.html#constitution (con)"><span class="std std-ref">Constitution</span></a> check to become <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-stable"><span class="std std-ref">stable</span></a>. The character takes a penalty on this roll equal to his negative hit point total. A character that is <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-stable"><span class="std std-ref">stable</span></a> does not need to make this check. A natural 20 on this check is an automatic success. If the character fails this check, he loses 1 hit point. An <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-unconscious"><span class="std std-ref">unconscious</span></a> or <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-dying"><span class="std std-ref">dying</span></a> character cannot use any special action that changes the initiative count on which his action occurs.</p>
+<p>Characters taking continuous damage, such as from an <em>acid arrow</em> or a bleed effect, automatically fail all <a class="reference internal" href="corerulebook.gettingstarted.html#constitution (con)"><span class="std std-ref">Constitution</span></a> checks made to stabilize. Such characters lose 1 hit point per round in addition to the continuous damage.</p>
+<p>You can keep a <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-dying"><span class="std std-ref">dying</span></a> character from losing any more hit points and make him <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-stable"><span class="std std-ref">stable</span></a> with a DC 15 Heal check.</p>
+<p>If any sort of healing cures the <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-dying"><span class="std std-ref">dying</span></a> character of even 1 point of damage, he becomes <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-stable"><span class="std std-ref">stable</span></a> and stops losing hit points.</p>
+<p>Healing that raises the <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-dying"><span class="std std-ref">dying</span></a> character’s hit points to 0 makes him conscious and disabled. Healing that raises his hit points to 1 or more makes him fully functional again, just as if he’d never been reduced to 0 or lower. A spellcaster retains the spellcasting capability she had before dropping below 0 hit points.</p>
+<p>A <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-stable"><span class="std std-ref">stable</span></a> character who has been tended by a healer or who has been magically healed eventually regains consciousness and recovers hit points naturally. If the character has no one to tend him, however, his life is still in danger, and he may yet slip away.</p>
+<p><strong>Recovering with Help</strong>: One hour after a tended, <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-dying"><span class="std std-ref">dying</span></a> character becomes <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-stable"><span class="std std-ref">stable</span></a>, the character must make a DC 10 <a class="reference internal" href="corerulebook.gettingstarted.html#constitution (con)"><span class="std std-ref">Constitution</span></a> check to become conscious. The character takes a penalty on this roll equal to his negative hit point total. Conscious characters with negative hit point totals are treated as <a class="reference internal" href="#corerulebook-combat-injury-and-death"><span class="std std-ref">disabled characters</span></a>. If the character remains <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-unconscious"><span class="std std-ref">unconscious</span></a>, he receives another check every hour to regain consciousness. A natural 20 on this check is an automatic success. Even if <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-unconscious"><span class="std std-ref">unconscious</span></a>, the character recovers hit points naturally. He automatically regains consciousness when his hit points rise to 1 or higher.</p>
+<p><strong>Recovering without Help</strong>: A severely wounded character left alone usually dies. He has a small chance of recovering on his own. Treat such characters as those attempting to recover with help, but every failed <a class="reference internal" href="corerulebook.gettingstarted.html#constitution (con)"><span class="std std-ref">Constitution</span></a> check to regain consciousness results in the loss of 1 hit point. An unaided character does not recover hit points naturally. Once conscious, the character can make a DC 10 <a class="reference internal" href="corerulebook.gettingstarted.html#constitution (con)"><span class="std std-ref">Constitution</span></a> check once per day, after resting for 8 hours, to begin recovering hit points naturally. The character takes a penalty on this roll equal to his negative hit point total. Failing this check causes the character to lose 1 hit point, but this does not cause the character to become <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-unconscious"><span class="std std-ref">unconscious</span></a>. Once a character makes this check, he continues to heal naturally and is no longer in danger of losing hit points naturally.</p>
+</div>
+<div class="section" id="healing">
+<span id="corerulebook-combat-healing"></span><h2><a class="toc-backref" href="#id68">Healing</a><a class="headerlink" href="#healing" title="Permalink to this headline">¶</a></h2>
+<p>After taking damage, you can recover hit points through natural healing or through magical healing. In any case, you can’t regain hit points past your full normal hit point total.</p>
+<p><strong>Natural Healing</strong>: With a full night’s rest (8 hours of sleep or more), you recover 1 hit point per character level. Any significant interruption during your rest prevents you from healing that night.</p>
+<p>If you undergo complete bed rest for an entire day and night, you recover twice your character level in hit points.</p>
+<p><strong>Magical Healing</strong>: Various abilities and spells can restore hit points.</p>
+<p><strong>Healing Limits</strong>: You can never recover more hit points than you lost. Magical healing won’t raise your current hit points higher than your full normal hit point total.</p>
+<p><strong>Healing Ability Damage</strong>: Temporary ability damage returns at the rate of 1 point per night of rest (8 hours) for each affected ability score. Complete bed rest restores 2 points per day (24 hours) for each affected ability score.</p>
+</div>
+<div class="section" id="temporary-hit-points">
+<span id="corerulebook-combat-temporary-hit-points"></span><h2><a class="toc-backref" href="#id69">Temporary Hit Points</a><a class="headerlink" href="#temporary-hit-points" title="Permalink to this headline">¶</a></h2>
+<p>Certain effects give a character temporary hit points. These hit points are in addition to the character’s current hit point total and any damage taken by the character is subtracted from these hit points first. Any damage in excess of a character’s temporary hit points is applied to his current hit points as normal. If the effect that grants the temporary hit points ends or is dispelled, any remaining temporary hit points go away. The damage they sustained is not transferred to the character’s current hit points.</p>
+<p>When temporary hit points are lost, they cannot be restored as real hit points can be, even by magic.</p>
+<p>Increases in <a class="reference internal" href="corerulebook.gettingstarted.html#constitution (con)"><span class="std std-ref">Constitution</span></a> Score and Current Hit Points: An increase in a character’s <a class="reference internal" href="corerulebook.gettingstarted.html#constitution (con)"><span class="std std-ref">Constitution</span></a> score, even a temporary one, can give her more hit points (an effective hit point increase), but these are not temporary hit points. They can be restored, and they are not lost first as temporary hit points are.</p>
+</div>
+<div class="section" id="nonlethal-damage">
+<span id="corerulebook-combat-nonlethal-damage"></span><h2><a class="toc-backref" href="#id70">Nonlethal Damage</a><a class="headerlink" href="#nonlethal-damage" title="Permalink to this headline">¶</a></h2>
+<p>Nonlethal damage represents harm to a character that is not life-threatening. Unlike normal damage, nonlethal damage is healed quickly with rest.</p>
+<p><strong>Dealing Nonlethal Damage</strong>: Certain attacks deal nonlethal damage. Other effects, such as heat or being <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-exhausted"><span class="std std-ref">exhausted</span></a>, also deal nonlethal damage. When you take nonlethal damage, keep a running total of how much you’ve accumulated. Do not deduct the nonlethal damage number from your current hit points. It is not “real” damage. Instead, when your nonlethal damage equals your current hit points, you’re <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-staggered"><span class="std std-ref">staggered</span></a> (see below), and when it exceeds your current hit points, you fall <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-unconscious"><span class="std std-ref">unconscious</span></a>.</p>
+<p><em>Nonlethal Damage with a Weapon that Deals Lethal Damage</em>: You can use a melee weapon that deals lethal damage to deal nonlethal damage instead, but you take a –4 penalty on your attack roll.</p>
+<p><em>Lethal Damage with a Weapon that Deals Nonlethal Damage</em>: You can use a weapon that deals nonlethal damage, including an unarmed strike, to deal lethal damage instead, but you take a –4 penalty on your attack roll.</p>
+<p><strong>Staggered and Unconscious</strong>: When your nonlethal damage equals your current hit points, you’re <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-staggered"><span class="std std-ref">staggered</span></a>. You can only take a standard action or a move action in each round (in addition to free, immediate, and swift actions). You cease being <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-staggered"><span class="std std-ref">staggered</span></a> when your current hit points once again exceed your nonlethal damage.</p>
+<p>When your nonlethal damage exceeds your current hit points, you fall <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-unconscious"><span class="std std-ref">unconscious</span></a>. While <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-unconscious"><span class="std std-ref">unconscious</span></a>, you are <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-helpless"><span class="std std-ref">helpless</span></a>.</p>
+<p>Spellcasters who fall <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-unconscious"><span class="std std-ref">unconscious</span></a> retain any spellcasting ability they had before going <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-unconscious"><span class="std std-ref">unconscious</span></a>.</p>
+<p>If a creature’s nonlethal damage is equal to his total maximum hit points (not his current hit points), all further nonlethal damage is treated as lethal damage. This does not apply to creatures with regeneration. Such creatures simply accrue additional nonlethal damage, increasing the amount of time they remain <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-unconscious"><span class="std std-ref">unconscious</span></a>.</p>
+<p><strong>Healing Nonlethal Damage</strong>: You heal nonlethal damage at the rate of 1 hit point per hour per character level. When a spell or ability cures hit point damage, it also removes an equal amount of nonlethal damage.</p>
+</div>
+</div>
+<div class="section" id="movement-position-and-distance">
+<span id="corerulebook-combat-movement-position-and-distance"></span><h1><a class="toc-backref" href="#id71">Movement, Position, And Distance</a><a class="headerlink" href="#movement-position-and-distance" title="Permalink to this headline">¶</a></h1>
+<p>Miniatures are on the 30mm scale—a miniature of a 6-foot-tall man is approximately 30mm tall. A square on the battle grid is 1 inch across, representing a 5-foot-by-5-foot area.</p>
+<div class="section" id="tactical-movement">
+<span id="corerulebook-combat-tactical-movement"></span><h2><a class="toc-backref" href="#id72">Tactical Movement</a><a class="headerlink" href="#tactical-movement" title="Permalink to this headline">¶</a></h2>
+<span id="corerulebook-combat-table-8-3-tactical-speed"></span><table border="1" class="colwidths-auto contrast-reading-table docutils" id="id8">
+<caption><span class="caption-text">Table: Tactical Speed</span><a class="headerlink" href="#id8" title="Permalink to this table">¶</a></caption>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Race</th>
+<th class="head">No Armor or Light Armor</th>
+<th class="head">Medium or Heavy Armor</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Human, elf, half-elf, half-orc</td>
+<td>30 ft. (6 squares)</td>
+<td>20 ft. (4 squares)</td>
+</tr>
+<tr class="row-odd"><td>Dwarf</td>
+<td>20 ft. (4 squares)</td>
+<td>20 ft. (4 squares)</td>
+</tr>
+<tr class="row-even"><td>Halfling, gnome</td>
+<td>20 ft. (4 squares)</td>
+<td>15 ft. (3 squares)</td>
+</tr>
+</tbody>
+</table>
+<p>Your speed is determined by your race and your armor (see Table: Tactical Speed). Your speed while unarmored is your base land speed.</p>
+<p><strong>Encumbrance</strong>: A character encumbered by carrying treasure, a large amount of gear, or fallen comrades may move slower than normal (see <a class="reference internal" href="corerulebook.additionalrules.html#corerulebook-additionalrules"><span class="std std-ref">Additional Rules</span></a>).</p>
+<p><strong>Hampered Movement</strong>: Difficult terrain, obstacles, or poor visibility can hamper movement.</p>
+<p><strong>Movement in Combat</strong>: Generally, you can move your speed in a round and still do something (take a move action and a standard action).</p>
+<p>If you do nothing but move (that is, if you use both of your actions in a round to move your speed), you can move double your speed.</p>
+<p>If you spend the entire round running, you can move quadruple your speed (or three times your speed in heavy armor). If you do something that requires a full round, you can only take a 5-foot step.</p>
+<p><strong>Bonuses to Speed</strong>: A barbarian has a +10-foot bonus to his speed (unless she’s wearing heavy armor). Experienced monks also have higher speed (unless they’re wearing armor of any sort). In addition, many spells and magic items can affect a character’s speed. Always apply any modifiers to a character’s speed before adjusting the character’s speed based on armor or encumbrance, and remember that multiple bonuses of the same type to a character’s speed don’t stack.</p>
+</div>
+<div class="section" id="measuring-distance">
+<span id="corerulebook-combat-measuring-distance"></span><h2><a class="toc-backref" href="#id73">Measuring Distance</a><a class="headerlink" href="#measuring-distance" title="Permalink to this headline">¶</a></h2>
+<p>As a general rule, distance is measured assuming that 1 square equals 5 feet.</p>
+<p><strong>Diagonals</strong>: When measuring distance, the first diagonal counts as 1 square, the second counts as 2 squares, the third counts as 1, the fourth as 2, and so on.</p>
+<p>You can’t move diagonally past a corner (even by taking a 5-foot step). You can move diagonally past a creature, even an opponent.</p>
+<p>You can also move diagonally past other impassable obstacles, such as pits.</p>
+<p><strong>Closest Creature</strong>: When it’s important to determine the closest square or creature to a location, if two squares or creatures are equally close, randomly determine which one counts as closest by rolling a die.</p>
+</div>
+<div class="section" id="moving-through-a-square">
+<span id="corerulebook-combat-moving-through-a-square"></span><h2><a class="toc-backref" href="#id74">Moving Through a Square</a><a class="headerlink" href="#moving-through-a-square" title="Permalink to this headline">¶</a></h2>
+<p>You can move through an unoccupied square without difficulty in most circumstances. Difficult terrain and a number of spell effects might hamper your movement through open spaces.</p>
+<p><strong>Friend</strong>: You can move through a square occupied by a friendly character, unless you are charging. When you move through a square occupied by a friendly character, that character doesn’t provide you with <a class="reference internal" href="#corerulebook-combat-cover"><span class="std std-ref">cover</span></a>.</p>
+<p><strong>Opponent</strong>: You can’t move through a square occupied by an opponent unless the opponent is <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-helpless"><span class="std std-ref">helpless</span></a>. You can move through a square occupied by a <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-helpless"><span class="std std-ref">helpless</span></a> opponent without penalty. Some creatures, particularly very large ones, may present an obstacle even when <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-helpless"><span class="std std-ref">helpless</span></a>. In such cases, each square you move through counts as 2 squares.</p>
+<p><strong>Ending Your Movement</strong>: You can’t end your movement in the same square as another creature unless it is <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-helpless"><span class="std std-ref">helpless</span></a>.</p>
+<p><strong>Overrun</strong>: During your movement, you can attempt to move through a square occupied by an opponent (see <a class="reference internal" href="#corerulebook-combat-overrun"><span class="std std-ref">Overrun</span></a>).</p>
+<p><strong>Tumbling</strong>: A trained character can attempt to use Acrobatics to move through a square occupied by an opponent (see the Acrobatics skill).</p>
+<p><strong>Very Small Creature</strong>: A Fine, Diminutive, or Tiny creature can move into or through an occupied square. The creature provokes attacks of opportunity when doing so.</p>
+<p><strong>Square Occupied by Creature Three Sizes Larger or Smaller</strong>: Any creature can move through a square occupied by a creature three size categories larger than itself.</p>
+<p>A big creature can move through a square occupied by a creature three size categories smaller than it is. Creatures moving through squares occupied by other creatures provoke attacks of opportunity from those creatures.</p>
+<p><strong>Designated Exceptions</strong>: Some creatures break the above rules. A creature that completely fills the squares it occupies cannot be moved past, even with the Acrobatics skill or similar special abilities.</p>
+</div>
+<div class="section" id="terrain-and-obstacles">
+<span id="corerulebook-combat-terrain-and-obstacles"></span><h2><a class="toc-backref" href="#id75">Terrain and Obstacles</a><a class="headerlink" href="#terrain-and-obstacles" title="Permalink to this headline">¶</a></h2>
+<p>From tangled plants to broken stone, there are a number of terrain features that can affect your movement.</p>
+<p id="corerulebook-combat-difficult-terrain"><strong>Difficult Terrain</strong>: Difficult terrain, such as heavy undergrowth, broken ground, or steep stairs, hampers movement. Each square of difficult terrain counts as 2 squares of movement. Each diagonal move into a difficult terrain square counts as 3 squares. You can’t run or charge across difficult terrain.</p>
+<p>If you occupy squares with different kinds of terrain, you can move only as fast as the most difficult terrain you occupy will allow.</p>
+<p>Flying and <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-incorporeal"><span class="std std-ref">incorporeal</span></a> creatures are not hampered by difficult terrain.</p>
+<p><strong>Obstacles</strong>: Like difficult terrain, obstacles can hamper movement. If an obstacle hampers movement but doesn’t completely block it, each obstructed square or obstacle between squares counts as 2 squares of movement. You must pay this cost to cross the obstacle, in addition to the cost to move into the square on the other side. If you don’t have sufficient movement to cross the obstacle and move into the square on the other side, you can’t cross it. Some obstacles may also require a skill check to cross.</p>
+<p>On the other hand, some obstacles block movement entirely. A character can’t move through a blocking obstacle.</p>
+<p>Flying and <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-incorporeal"><span class="std std-ref">incorporeal</span></a> creatures are able to avoid most obstacles.</p>
+<p id="corerulebook-combat-squeezing"><strong>Squeezing</strong>: In some cases, you may have to squeeze into or through an area that isn’t as wide as the space you take up. You can squeeze through or into a space that is at least half as wide as your normal space. Each move into or through a narrow space counts as if it were 2 squares, and while squeezed in a narrow space, you take a –4 penalty on attack rolls and a –4 penalty to <a class="reference internal" href="#corerulebook-combat-armor-class"><span class="std std-ref">AC</span></a>.</p>
+<p>When a Large creature (which normally takes up 4 squares) squeezes into a space that’s 1 square wide, the creature’s miniature figure occupies 2 squares, centered on the line between the 2 squares. For a bigger creature, center the creature likewise in the area it squeezes into.</p>
+<p>A creature can squeeze past a creature while moving but it can’t end its movement in an occupied square.</p>
+<p>To squeeze through or into a space less than half your space’s width, you must use the Escape Artist skill. You can’t attack while using Escape Artist to squeeze through or into a narrow space, you take a –4 penalty to <a class="reference internal" href="#corerulebook-combat-armor-class"><span class="std std-ref">AC</span></a>, and you lose any <a class="reference internal" href="corerulebook.gettingstarted.html#dexterity (dex)"><span class="std std-ref">Dexterity</span></a> bonus to <a class="reference internal" href="#corerulebook-combat-armor-class"><span class="std std-ref">AC</span></a>.</p>
+</div>
+<div class="section" id="special-movement-rules">
+<span id="corerulebook-combat-special-movement-rules"></span><h2><a class="toc-backref" href="#id76">Special Movement Rules</a><a class="headerlink" href="#special-movement-rules" title="Permalink to this headline">¶</a></h2>
+<p>These rules cover special movement situations.</p>
+<p><strong>Accidentally Ending Movement in an Illegal Space</strong>: Sometimes a character ends its movement while moving through a space where it’s not allowed to stop. When that happens, put your miniature in the last legal position you occupied, or the closest legal position, if there’s a legal position that’s closer.</p>
+<p><strong>Double Movement Cost</strong>: When your movement is hampered in some way, your movement usually costs double. For example, each square of movement through difficult terrain counts as 2 squares, and each diagonal move through such terrain counts as 3 squares (just as two diagonal moves normally do).</p>
+<p>If movement cost is doubled twice, then each square counts as 4 squares (or as 6 squares if moving diagonally). If movement cost is doubled three times, then each square counts as 8 squares (12 if diagonal) and so on. This is an exception to the general rule that two doublings are equivalent to a tripling.</p>
+<p><strong>Minimum Movement</strong>: Despite whatever penalties to movement you might have, you can take a full-round action to move 5 feet (1 square) in any direction, even diagonally. This rule doesn’t allow you to move through impassable terrain or to move when all movement is prohibited. Such movement provokes attacks of opportunity as normal (despite the distance covered, this move isn’t a 5-foot step).</p>
+</div>
+</div>
+<div class="section" id="big-and-little-creatures-in-combat">
+<span id="corerulebook-combat-big-and-little-creatures-in-combat"></span><h1><a class="toc-backref" href="#id77">Big And Little Creatures In Combat</a><a class="headerlink" href="#big-and-little-creatures-in-combat" title="Permalink to this headline">¶</a></h1>
+<span id="corerulebook-combat-table-8-4-creature-size-and-scale"></span><table border="1" class="colwidths-auto contrast-reading-table docutils" id="id9">
+<caption><span class="caption-text">Table: Creature Size and Scale</span><a class="headerlink" href="#id9" title="Permalink to this table">¶</a></caption>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Creature Size</th>
+<th class="head">Space</th>
+<th class="head">Natural Reach *</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Fine</td>
+<td>1/2 ft.</td>
+<td>0</td>
+</tr>
+<tr class="row-odd"><td>Diminutive</td>
+<td>1 ft.</td>
+<td>0</td>
+</tr>
+<tr class="row-even"><td>Tiny</td>
+<td>2-1/2 ft.</td>
+<td>0</td>
+</tr>
+<tr class="row-odd"><td>Small</td>
+<td>5 ft.</td>
+<td>5 ft.</td>
+</tr>
+<tr class="row-even"><td>Medium</td>
+<td>5 ft.</td>
+<td>5 ft.</td>
+</tr>
+<tr class="row-odd"><td>Large (tall)</td>
+<td>10 ft.</td>
+<td>10 ft.</td>
+</tr>
+<tr class="row-even"><td>Large (long)</td>
+<td>10 ft.</td>
+<td>5 ft.</td>
+</tr>
+<tr class="row-odd"><td>Huge (tall)</td>
+<td>15 ft.</td>
+<td>15 ft.</td>
+</tr>
+<tr class="row-even"><td>Huge (long)</td>
+<td>15 ft.</td>
+<td>10 ft.</td>
+</tr>
+<tr class="row-odd"><td>Gargantuan (tall)</td>
+<td>20 ft.</td>
+<td>20 ft.</td>
+</tr>
+<tr class="row-even"><td>Gargantuan (long)</td>
+<td>20 ft.</td>
+<td>15 ft.</td>
+</tr>
+<tr class="row-odd"><td>Colossal (tall)</td>
+<td>30 ft.</td>
+<td>30 ft.</td>
+</tr>
+<tr class="row-even"><td>Colossal (long)</td>
+<td>30 ft.</td>
+<td>20 ft.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Notes:</strong></p>
+<ul class="simple">
+<li>These values are typical for creatures of the indicated size. Some exceptions exist.</li>
+</ul>
+<p>Creatures smaller than Small or larger than Medium have special rules relating to position.</p>
+<p><strong>Tiny, Diminutive, and Fine Creatures</strong>: Very small creatures take up less than 1 square of space. This means that more than one such creature can fit into a single square. A Tiny creature typically occupies a space only 2-1/2 feet across, so four can fit into a single square. 25 Diminutive creatures or 100 Fine creatures can fit into a single square. Creatures that take up less than 1 square of space typically have a natural reach of 0 feet, meaning they can’t reach into adjacent squares. They must enter an opponent’s square to attack in melee. This provokes an attack of opportunity from the opponent. You can attack into your own square if you need to, so you can attack such creatures normally. Since they have no natural reach, they do not threaten the squares around them. You can move past them without provoking attacks of opportunity. They also can’t flank an enemy.</p>
+<p><strong>Large, Huge, Gargantuan, and Colossal Creatures</strong>: Very large creatures take up more than 1 square.</p>
+<p>Creatures that take up more than 1 square typically have a natural reach of 10 feet or more, meaning that they can reach targets even if they aren’t in adjacent squares.</p>
+<p>Unlike when someone uses a reach weapon, a creature with greater than normal natural reach (more than 5 feet) still threatens squares adjacent to it. A creature with greater than normal natural reach usually gets an attack of opportunity against you if you approach it, because you must enter and move within the range of its reach before you can attack it. This attack of opportunity is not provoked if you take a 5-foot step.</p>
+<p>Large or larger creatures using reach weapons can strike up to double their natural reach but can’t strike at their natural reach or less.</p>
+</div>
+<div class="section" id="combat-modifiers">
+<span id="corerulebook-combat-combat-modifiers"></span><h1><a class="toc-backref" href="#id78">Combat Modifiers</a><a class="headerlink" href="#combat-modifiers" title="Permalink to this headline">¶</a></h1>
+<span id="corerulebook-combat-table-8-5-attack-roll-modifiers"></span><table border="1" class="colwidths-auto contrast-reading-table docutils" id="id10">
+<caption><span class="caption-text">Table: Attack Roll Modifiers</span><a class="headerlink" href="#id10" title="Permalink to this table">¶</a></caption>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Attacker is…</th>
+<th class="head">Melee</th>
+<th class="head">Ranged</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-dazzled"><span class="std std-ref">Dazzled</span></a></td>
+<td>–1</td>
+<td>–1</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-entangled"><span class="std std-ref">Entangled</span></a></td>
+<td>–2<sup>1</sup></td>
+<td>–2<sup>1</sup></td>
+</tr>
+<tr class="row-even"><td>Flanking defender</td>
+<td>+2</td>
+<td>—</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-invisible"><span class="std std-ref">Invisible</span></a></td>
+<td>+2<sup>2</sup></td>
+<td>+2<sup>2</sup></td>
+</tr>
+<tr class="row-even"><td>On higher ground</td>
+<td>+1</td>
+<td>+0</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-prone"><span class="std std-ref">Prone</span></a></td>
+<td>–4</td>
+<td>—<sup>3</sup></td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-shaken"><span class="std std-ref">Shaken</span></a> or <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-frightened"><span class="std std-ref">frightened</span></a></td>
+<td>–2</td>
+<td>–2</td>
+</tr>
+<tr class="row-odd"><td>Squeezing through a space</td>
+<td>–4</td>
+<td>–4</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Notes:</strong></p>
+<ul class="simple">
+<li>1 An entangled character also takes a –4 penalty to <a class="reference internal" href="corerulebook.gettingstarted.html#dexterity (dex)"><span class="std std-ref">Dexterity</span></a>, which may affect his attack roll.</li>
+<li>2 The defender loses any <a class="reference internal" href="corerulebook.gettingstarted.html#dexterity (dex)"><span class="std std-ref">Dexterity</span></a>bonus to <a class="reference internal" href="#corerulebook-combat-armor-class"><span class="std std-ref">AC</span></a>.</li>
+<li>3 Most ranged weapons can’t be used while the attacker is <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-prone"><span class="std std-ref">prone</span></a>, but you can use a crossbow or shuriken while <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-prone"><span class="std std-ref">prone</span></a>at no penalty.</li>
+</ul>
+<span id="corerulebook-combat-table-8-6-armor-class-modifiers"></span><table border="1" class="colwidths-auto contrast-reading-table docutils" id="id11">
+<caption><span class="caption-text">Table: Armor Class Modifiers</span><a class="headerlink" href="#id11" title="Permalink to this table">¶</a></caption>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Defender is…</th>
+<th class="head">Melee</th>
+<th class="head">Ranged</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Behind cover</td>
+<td>+4</td>
+<td>+4</td>
+</tr>
+<tr class="row-odd"><td>Blinded</td>
+<td>–2<sup>1</sup></td>
+<td>–2<sup>1</sup></td>
+</tr>
+<tr class="row-even"><td>Concealed or <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-invisible"><span class="std std-ref">invisible</span></a></td>
+<td>See Concealment</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>Cowering</td>
+<td>–2<sup>1</sup></td>
+<td>–2<sup>1</sup></td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-entangled"><span class="std std-ref">Entangled</span></a></td>
+<td>+0<sup>2</sup></td>
+<td>+0<sup>2</sup></td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-flat-footed"><span class="std std-ref">Flat-footed</span></a></td>
+<td>+0<sup>1</sup></td>
+<td>+0<sup>1</sup></td>
+</tr>
+<tr class="row-even"><td>Grappling (but attacker is not)</td>
+<td>+0</td>
+<td>+0</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-helpless"><span class="std std-ref">Helpless</span></a></td>
+<td>–4<sup>3</sup></td>
+<td>+0<sup>3</sup></td>
+</tr>
+<tr class="row-even"><td>Kneeling or sitting</td>
+<td>–2</td>
+<td>+2</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-pinned"><span class="std std-ref">Pinned</span></a></td>
+<td>–4<sup>3</sup></td>
+<td>+0<sup>3</sup></td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-prone"><span class="std std-ref">Prone</span></a></td>
+<td>–4</td>
+<td>+4</td>
+</tr>
+<tr class="row-odd"><td>Squeezing through a space</td>
+<td>–4</td>
+<td>–4</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-stunned"><span class="std std-ref">Stunned</span></a></td>
+<td>–2<sup>1</sup></td>
+<td>–2<sup>1</sup></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Notes:</strong></p>
+<ul class="simple">
+<li>1 The defender loses any <a class="reference internal" href="corerulebook.gettingstarted.html#dexterity (dex)"><span class="std std-ref">Dexterity</span></a>bonus to <a class="reference internal" href="#corerulebook-combat-armor-class"><span class="std std-ref">AC</span></a>.</li>
+<li>2 An <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-entangled"><span class="std std-ref">entangled</span></a>character takes a –4 penalty to <a class="reference internal" href="corerulebook.gettingstarted.html#dexterity (dex)"><span class="std std-ref">Dexterity</span></a>.</li>
+<li>3 The defender is denied his <a class="reference internal" href="corerulebook.gettingstarted.html#dexterity (dex)"><span class="std std-ref">Dexterity</span></a>bonus to his <a class="reference internal" href="#corerulebook-combat-armor-class"><span class="std std-ref">Armor Class</span></a>.</li>
+</ul>
+<p>A number of factors and conditions can influence an attack roll. Many of these situations grant a bonus or penalty on attack rolls or to a defender’s <a class="reference internal" href="#corerulebook-combat-armor-class"><span class="std std-ref">Armor Class</span></a>.</p>
+<div class="section" id="cover">
+<span id="corerulebook-combat-cover"></span><h2><a class="toc-backref" href="#id79">Cover</a><a class="headerlink" href="#cover" title="Permalink to this headline">¶</a></h2>
+<p>To determine whether your target has cover from your ranged attack, choose a corner of your square. If any line from this corner to any corner of the target’s square passes through a square or border that blocks line of effect or provides cover, or through a square occupied by a creature, the target has cover (+4 to <a class="reference internal" href="#corerulebook-combat-armor-class"><span class="std std-ref">AC</span></a>).</p>
+<p>When making a melee attack against an adjacent target, your target has cover if any line from any corner of your square to the target’s square goes through a wall (including a low wall). When making a melee attack against a target that isn’t adjacent to you (such as with a reach weapon), use the rules for determining cover from ranged attacks.</p>
+<p><strong>Low Obstacles and Cover</strong>: A low obstacle (such as a wall no higher than half your height) provides cover, but only to creatures within 30 feet (6 squares) of it. The attacker can ignore the cover if he’s closer to the obstacle than his target.</p>
+<p><strong>Cover and Attacks of Opportunity</strong>: You can’t execute an attack of opportunity against an opponent with cover relative to you.</p>
+<p><strong>Cover and Reflex Saves</strong>: Cover grants you a +2 bonus on <a class="reference internal" href="#corerulebook-combat-reflex"><span class="std std-ref">Reflex</span></a> saves against attacks that originate or burst out from a point on the other side of the cover from you. Note that spread effects can extend around corners and thus negate this cover bonus.</p>
+<p><strong>Cover and Stealth Checks</strong>: You can use cover to make a Stealth check. Without cover, you usually need concealment (see below) to make a Stealth check.</p>
+<p><strong>Soft Cover</strong>: Creatures, even your enemies, can provide you with cover against ranged attacks, giving you a +4 bonus to <a class="reference internal" href="#corerulebook-combat-armor-class"><span class="std std-ref">AC</span></a>. However, such soft cover provides no bonus on <a class="reference internal" href="#corerulebook-combat-reflex"><span class="std std-ref">Reflex</span></a> saves, nor does soft cover allow you to make a Stealth check.</p>
+<p><strong>Big Creatures and Cover</strong>: Any creature with a space larger than 5 feet (1 square) determines cover against melee attacks slightly differently than smaller creatures do. Such a creature can choose any square that it occupies to determine if an opponent has cover against its melee attacks. Similarly, when making a melee attack against such a creature, you can pick any of the squares it occupies to determine if it has cover against you.</p>
+<p id="corerulebook-combat-partial-cover"><strong>Partial Cover</strong>: If a creature has cover, but more than half the creature is visible, its cover bonus is reduced to a +2 to <a class="reference internal" href="#corerulebook-combat-armor-class"><span class="std std-ref">AC</span></a> and a +1 bonus on <a class="reference internal" href="#corerulebook-combat-reflex"><span class="std std-ref">Reflex</span></a> saving throws. This partial cover is subject to the GM’s discretion.</p>
+<p id="corerulebook-combat-total-cover"><strong>Total Cover</strong>: If you don’t have line of effect to your target (that is, you cannot draw any line from your square to your target’s square without crossing a solid barrier), he is considered to have total cover from you. You can’t make an attack against a target that has total cover.</p>
+<p id="corerulebook-combat-improved-cover"><strong>Improved Cover</strong>: In some cases, such as attacking a target hiding behind an arrowslit, cover may provide a greater bonus to <a class="reference internal" href="#corerulebook-combat-armor-class"><span class="std std-ref">AC</span></a> and <a class="reference internal" href="#corerulebook-combat-reflex"><span class="std std-ref">Reflex</span></a> saves. In such situations, the normal cover bonuses to <a class="reference internal" href="#corerulebook-combat-armor-class"><span class="std std-ref">AC</span></a> and <a class="reference internal" href="#corerulebook-combat-reflex"><span class="std std-ref">Reflex</span></a> saves can be doubled (to +8 and +4, respectively). A creature with this improved cover effectively gains improved evasion against any attack to which the <a class="reference internal" href="#corerulebook-combat-reflex"><span class="std std-ref">Reflex</span></a> save bonus applies. Furthermore, improved cover provides a +10 bonus on Stealth checks.</p>
+</div>
+<div class="section" id="concealment">
+<span id="corerulebook-combat-concealment"></span><h2><a class="toc-backref" href="#id80">Concealment</a><a class="headerlink" href="#concealment" title="Permalink to this headline">¶</a></h2>
+<p>To determine whether your target has concealment from your ranged attack, choose a corner of your square. If any line from this corner to any corner of the target’s square passes through a square or border that provides concealment, the target has concealment.</p>
+<p>When making a melee attack against an adjacent target, your target has concealment if his space is entirely within an effect that grants concealment. When making a melee attack against a target that isn’t adjacent to you, use the rules for determining concealment from ranged attacks.</p>
+<p>In addition, some magical effects provide concealment against all attacks, regardless of whether any intervening concealment exists.</p>
+<p><strong>Concealment Miss Chance</strong>: Concealment gives the subject of a successful attack a 20% chance that the attacker missed because of the concealment. Make the attack normally—if the attacker hits, the defender must make a miss chance d% roll to avoid being struck. Multiple concealment conditions do not stack.</p>
+<p><strong>Concealment and Stealth Checks</strong>: You can use concealment to make a Stealth check. Without concealment, you usually need cover to make a Stealth check.</p>
+<p id="corerulebook-combat-total-concealment"><strong>Total Concealment</strong>: If you have line of effect to a target but not line of sight, he is considered to have total concealment from you. You can’t attack an opponent that has total concealment, though you can attack into a square that you think he occupies. A successful attack into a square occupied by an enemy with total concealment has a 50% miss chance (instead of the normal 20% miss chance for an opponent with concealment).</p>
+<p>You can’t execute an attack of opportunity against an opponent with total concealment, even if you know what square or squares the opponent occupies.</p>
+<p><strong>Ignoring Concealment</strong>: Concealment isn’t always effective. An area of dim lighting or darkness doesn’t provide any concealment against an opponent with darkvision. Characters with low-light vision can see clearly for a greater distance than other characters with the same light source. Although <em>invisibility</em> provides total concealment, sighted opponents may still make Perception checks to notice the location of an <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-invisible"><span class="std std-ref">invisible</span></a> character. An <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-invisible"><span class="std std-ref">invisible</span></a> character gains a +20 bonus on Stealth checks if moving, or a +40 bonus on Stealth checks when not moving (even though opponents can’t see you, they might be able to figure out where you are from other visual or auditory clues).</p>
+<p><strong>Varying Degrees of Concealment</strong>: Certain situations may provide more or less than typical concealment, and modify the miss chance accordingly.</p>
+</div>
+<div class="section" id="flanking">
+<span id="corerulebook-combat-flanking"></span><h2><a class="toc-backref" href="#id81">Flanking</a><a class="headerlink" href="#flanking" title="Permalink to this headline">¶</a></h2>
+<p>When making a melee attack, you get a +2 flanking bonus if your opponent is threatened by another enemy character or creature on its opposite border or opposite corner.</p>
+<p>When in doubt about whether two characters flank an opponent in the middle, trace an imaginary line between the two attackers’ centers. If the line passes through opposite borders of the opponent’s space (including corners of those borders), then the opponent is flanked.</p>
+<p><em>Exception</em>: If a flanker takes up more than 1 square, it gets the flanking bonus if any square it occupies counts for flanking.</p>
+<p>Only a creature or character that threatens the defender can help an attacker get a flanking bonus.</p>
+<p>Creatures with a reach of 0 feet can’t flank an opponent.</p>
+</div>
+<div class="section" id="helpless-defenders">
+<span id="corerulebook-combat-helpless-defenders"></span><h2><a class="toc-backref" href="#id82">Helpless Defenders</a><a class="headerlink" href="#helpless-defenders" title="Permalink to this headline">¶</a></h2>
+<p>A helpless opponent is someone who is bound, sleeping, <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-paralyzed"><span class="std std-ref">paralyzed</span></a>, <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-unconscious"><span class="std std-ref">unconscious</span></a>, or otherwise at your mercy.</p>
+<p><strong>Regular Attack</strong>: A <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-helpless"><span class="std std-ref">helpless</span></a> character takes a –4 penalty to <a class="reference internal" href="#corerulebook-combat-armor-class"><span class="std std-ref">AC</span></a> against melee attacks. In addition, a <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-helpless"><span class="std std-ref">helpless</span></a> character is treated as having a <a class="reference internal" href="corerulebook.gettingstarted.html#dexterity (dex)"><span class="std std-ref">Dexterity</span></a> of 0, giving him a –5 penalty to <a class="reference internal" href="#corerulebook-combat-armor-class"><span class="std std-ref">AC</span></a> against both melee and ranged attacks (for a total of –9 against melee and –5 against ranged). A <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-helpless"><span class="std std-ref">helpless</span></a> character is also <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-flat-footed"><span class="std std-ref">flat-footed</span></a>.</p>
+<p id="corerulebook-combat-coup-de-grace"><strong>Coup de Grace</strong>: As a full-round action, you can use a melee weapon to deliver a coup de grace (pronounced “coo day grahs”) to a <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-helpless"><span class="std std-ref">helpless</span></a> opponent. You can also use a bow or crossbow, provided you are adjacent to the target.</p>
+<p>You automatically hit and score a critical hit. If the defender survives the damage, he must make a <a class="reference internal" href="#corerulebook-combat-fortitude"><span class="std std-ref">Fortitude</span></a> save (DC 10 + damage dealt) or die. A rogue also gets her extra sneak attack damage against a <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-helpless"><span class="std std-ref">helpless</span></a> opponent when delivering a coup de grace.</p>
+<p>Delivering a coup de grace provokes attacks of opportunity from threatening opponents.</p>
+<p>You can’t deliver a coup de grace against a creature that is immune to critical hits. You can deliver a coup de grace against a creature with total concealment, but doing this requires two consecutive full-round actions (one to “find” the creature once you’ve determined what square it’s in, and one to deliver the coup de grace).</p>
+</div>
+</div>
+<div class="section" id="special-attacks">
+<span id="corerulebook-combat-special-attacks"></span><h1><a class="toc-backref" href="#id83">Special Attacks</a><a class="headerlink" href="#special-attacks" title="Permalink to this headline">¶</a></h1>
+<p>This section discusses all of the various standard maneuvers you can perform during combat other than normal attacks, casting spells, or using other class abilities. Some of these special attacks can be made as part of another action (such as an attack) or as an attack of opportunity.</p>
+<div class="section" id="aid-another">
+<span id="corerulebook-combat-aid-another"></span><h2><a class="toc-backref" href="#id84">Aid Another</a><a class="headerlink" href="#aid-another" title="Permalink to this headline">¶</a></h2>
+<p>In melee combat, you can help a friend attack or defend by distracting or interfering with an opponent. If you’re in position to make a melee attack on an opponent that is engaging a friend in melee combat, you can attempt to aid your friend as a standard action. You make an attack roll against <a class="reference internal" href="#corerulebook-combat-armor-class"><span class="std std-ref">AC</span></a> 10. If you succeed, your friend gains either a +2 bonus on his next attack roll against that opponent or a +2 bonus to <a class="reference internal" href="#corerulebook-combat-armor-class"><span class="std std-ref">AC</span></a> against that opponent’s next attack (your choice), as long as that attack comes before the beginning of your next turn. Multiple characters can aid the same friend, and similar bonuses stack.</p>
+<p>You can also use this standard action to help a friend in other ways, such as when he is affected by a spell, or to assist another character’s skill check.</p>
+</div>
+<div class="section" id="charge">
+<span id="corerulebook-combat-charge"></span><h2><a class="toc-backref" href="#id85">Charge</a><a class="headerlink" href="#charge" title="Permalink to this headline">¶</a></h2>
+<p>Charging is a special full-round action that allows you to move up to twice your speed and attack during the action. Charging, however, carries tight restrictions on how you can move.</p>
+<p><strong>Movement During a Charge</strong>: You must move before your attack, not after. You must move at least 10 feet (2 squares) and may move up to double your speed directly toward the designated opponent. If you move a distance equal to your speed or less, you can also draw a weapon during a charge attack if your base attack bonus is at least +1.</p>
+<p>You must have a clear path toward the opponent, and nothing can hinder your movement (such as difficult terrain or obstacles). You must move to the closest space from which you can attack the opponent. If this space is occupied or otherwise blocked, you can’t charge. If any line from your starting space to the ending space passes through a square that blocks movement, slows movement, or contains a creature (even an ally), you can’t charge. <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-helpless"><span class="std std-ref">Helpless</span></a> creatures don’t stop a charge.</p>
+<p>If you don’t have line of sight to the opponent at the start of your turn, you can’t charge that opponent.</p>
+<p>You can’t take a 5-foot step in the same round as a charge.</p>
+<p>If you are able to take only a standard action on your turn, you can still charge, but you are only allowed to move up to your speed (instead of up to double your speed) and you cannot draw a weapon unless you possess the <a class="reference internal" href="corerulebook.feats.html#quick draw (combat)"><span class="std std-ref">Quick Draw</span></a> feat. You can’t use this option unless you are restricted to taking only a standard action on your turn.</p>
+<p><strong>Attacking on a Charge</strong>: After moving, you may make a single melee attack. You get a +2 bonus on the attack roll and take a –2 penalty to your <a class="reference internal" href="#corerulebook-combat-armor-class"><span class="std std-ref">AC</span></a> until the start of your next turn.</p>
+<p>A charging character gets a +2 bonus on combat maneuver attack rolls made to <a class="reference internal" href="#corerulebook-combat-bull-rush"><span class="std std-ref">bull rush</span></a> an opponent.</p>
+<p>Even if you have extra attacks, such as from having a high enough base attack bonus or from using multiple weapons, you only get to make one attack during a charge.</p>
+<p><strong>Lances and Charge Attacks</strong>: A lance deals double damage if employed by a mounted character in a charge.</p>
+<p><strong>Weapons Readied against a Charge</strong>: Spears, tridents, and other weapons with the brace feature deal double damage when readied (set) and used against a charging character.</p>
+</div>
+<div class="section" id="combat-maneuvers">
+<span id="corerulebook-combat-combat-maneuvers"></span><h2><a class="toc-backref" href="#id86">Combat Maneuvers</a><a class="headerlink" href="#combat-maneuvers" title="Permalink to this headline">¶</a></h2>
+<p>During combat, you can attempt to perform a number of maneuvers that can hinder or even cripple your foe, including bull rush, disarm, grapple, overrun, sunder, and trip. Although these maneuvers have vastly different results, they all use a similar mechanic to determine success.</p>
+<p id="corerulebook-combat-combat-maneuver-bonus"><strong>Combat Maneuver Bonus</strong>: Each character and creature has a Combat Maneuver Bonus (or CMB) that represents its skill at performing combat maneuvers. A creature’s CMB is determined using the following formula:</p>
+<p>CMB = Base attack bonus + <a class="reference internal" href="corerulebook.gettingstarted.html#strength (str)"><span class="std std-ref">Strength</span></a> modifier + special size modifier</p>
+<p>Creatures that are size Tiny or smaller use their <a class="reference internal" href="corerulebook.gettingstarted.html#dexterity (dex)"><span class="std std-ref">Dexterity</span></a> modifier in place of their <a class="reference internal" href="corerulebook.gettingstarted.html#strength (str)"><span class="std std-ref">Strength</span></a> modifier to determine their CMB. The special size modifier for a creature’s Combat Maneuver Bonus is as follows: Fine –8, Diminutive –4, Tiny –2, Small –1, Medium +0, Large +1, Huge +2, Gargantuan +4, Colossal +8. Some feats and abilities grant a bonus to your CMB when performing specific maneuvers.</p>
+<p><strong>Performing a Combat Maneuver</strong>: When performing a combat maneuver, you must use an action appropriate to the maneuver you are attempting to perform. While many combat maneuvers can be performed as part of an attack action, full-attack action, or attack of opportunity (in place of a melee attack), others require a specific action. Unless otherwise noted, performing a combat maneuver provokes an attack of opportunity from the target of the maneuver. If you are hit by the target, you take the damage normally and apply that amount as a penalty to the attack roll to perform the maneuver. If your target is immobilized, <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-unconscious"><span class="std std-ref">unconscious</span></a>, or otherwise incapacitated, your maneuver automatically succeeds (treat as if you rolled a natural 20 on the attack roll). If your target is <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-stunned"><span class="std std-ref">stunned</span></a>, you receive a +4 bonus on your attack roll to perform a combat maneuver against it.</p>
+<p>When you attempt to perform a combat maneuver, make an attack roll and add your CMB in place of your normal attack bonus. Add any bonuses you currently have on attack rolls due to spells, feats, and other effects. These bonuses must be applicable to the weapon or attack used to perform the maneuver. The DC of this maneuver is your target’s <a class="reference internal" href="#corerulebook-combat-combat-maneuver-defense"><span class="std std-ref">Combat Maneuver Defense</span></a>. Combat maneuvers are attack rolls, so you must roll for concealment and take any other penalties that would normally apply to an attack roll.</p>
+<p id="corerulebook-combat-combat-maneuver-defense"><strong>Combat Maneuver Defense</strong>: Each character and creature has a Combat Maneuver Defense (or CMD) that represents its ability to resist combat maneuvers. A creature’s CMD is determined using the following formula:</p>
+<p>CMD = 10 + Base attack bonus + <a class="reference internal" href="corerulebook.gettingstarted.html#strength (str)"><span class="std std-ref">Strength</span></a> modifier + <a class="reference internal" href="corerulebook.gettingstarted.html#dexterity (dex)"><span class="std std-ref">Dexterity</span></a> modifier + special size modifier</p>
+<p>The special size modifier for a creature’s Combat Maneuver Defense is as follows: Fine –8, Diminutive –4, Tiny –2, Small –1, Medium +0, Large +1, Huge +2, Gargantuan +4, Colossal +8. Some feats and abilities grant a bonus to your CMD when resisting specific maneuvers. A creature can also add any circumstance, deflection, dodge, insight, luck, morale, profane, and sacred bonuses to <a class="reference internal" href="#corerulebook-combat-armor-class"><span class="std std-ref">AC</span></a> to its CMD. Any penalties to a creature’s <a class="reference internal" href="#corerulebook-combat-armor-class"><span class="std std-ref">AC</span></a> also apply to its CMD. A <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-flat-footed"><span class="std std-ref">flat-footed</span></a> creature does not add its <a class="reference internal" href="corerulebook.gettingstarted.html#dexterity (dex)"><span class="std std-ref">Dexterity</span></a> bonus to its CMD.</p>
+<p><strong>Determine Success</strong>: If your attack roll equals or exceeds the CMD of the target, your maneuver is a success and has the listed effect. Some maneuvers, such as bull rush, have varying levels of success depending on how much your attack roll exceeds the target’s CMD. Rolling a natural 20 while attempting a combat maneuver is always a success (except when attempting to escape from bonds), while rolling a natural 1 is always a failure.</p>
+<div class="section" id="bull-rush">
+<span id="corerulebook-combat-bull-rush"></span><h3><a class="toc-backref" href="#id87">Bull Rush</a><a class="headerlink" href="#bull-rush" title="Permalink to this headline">¶</a></h3>
+<p>You can make a bull rush as a standard action or as part of a charge, in place of the melee attack. You can only bull rush an opponent who is no more than one size category larger than you. A bull rush attempts to push an opponent straight back without doing any harm. If you do not have the <a class="reference internal" href="corerulebook.feats.html#improved bull rush (combat)"><span class="std std-ref">Improved Bull Rush</span></a> feat, or a similar ability, initiating a bull rush provokes an attack of opportunity from the target of your maneuver.</p>
+<p>If your attack is successful, your target is pushed back 5 feet. For every 5 by which your attack exceeds your opponent’s <a class="reference internal" href="#corerulebook-combat-combat-maneuver-defense"><span class="std std-ref">CMD</span></a> you can push the target back an additional 5 feet. You can move with the target if you wish but you must have the available movement to do so. If your attack fails, your movement ends in front of the target.</p>
+<p>An enemy being moved by a bull rush does not provoke an attack of opportunity because of the movement unless you possess the Greater Bull Rush feat. You cannot bull rush a creature into a square that is occupied by a solid object or obstacle. If there is another creature in the way of your bull rush, you must immediately make a combat maneuver check to bull rush that creature. You take a –4 penalty on this check for each creature being pushed beyond the first. If you are successful, you can continue to push the creatures a distance equal to the lesser result. For example, if a fighter bull rushes a goblin for a total of 15 feet, but there is another goblin 5 feet behind the first, he must make another combat maneuver check against the second goblin after having pushed the first 5 feet. If his check reveals that he can push the second goblin a total of 20 feet, he can continue to push both goblins another 10 feet (since the first goblin will have moved a total of 15 feet).</p>
+</div>
+<div class="section" id="disarm">
+<span id="corerulebook-combat-disarm"></span><h3><a class="toc-backref" href="#id88">Disarm</a><a class="headerlink" href="#disarm" title="Permalink to this headline">¶</a></h3>
+<p>You can attempt to disarm your opponent in place of a melee attack. If you do not have the <a class="reference internal" href="corerulebook.feats.html#improved disarm (combat)"><span class="std std-ref">Improved Disarm</span></a> feat, or a similar ability, attempting to disarm a foe provokes an attack of opportunity from the target of your maneuver. Attempting to disarm a foe while unarmed imposes a –4 penalty on the attack.</p>
+<p>If your attack is successful, your target drops one item it is carrying of your choice (even if the item is wielded with two hands). If your attack exceeds the <a class="reference internal" href="#corerulebook-combat-combat-maneuver-defense"><span class="std std-ref">CMD</span></a> of the target by 10 or more, the target drops the items it is carrying in both hands (maximum two items if the target has more than two hands). If your attack fails by 10 or more, you drop the weapon that you were using to attempt the disarm. If you successfully disarm your opponent without using a weapon, you may automatically pick up the item dropped.</p>
+</div>
+<div class="section" id="grapple">
+<span id="corerulebook-combat-grapple"></span><h3><a class="toc-backref" href="#id89">Grapple</a><a class="headerlink" href="#grapple" title="Permalink to this headline">¶</a></h3>
+<p>As a standard action, you can attempt to grapple a foe, hindering his combat options. If you do not have <a class="reference internal" href="corerulebook.feats.html#improved grapple (combat)"><span class="std std-ref">Improved Grapple</span></a>, grab, or a similar ability, attempting to grapple a foe provokes an attack of opportunity from the target of your maneuver. Humanoid creatures without two free hands attempting to grapple a foe take a –4 penalty on the combat maneuver roll. If successful, both you and the target gain the <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-grappled"><span class="std std-ref">grappled</span></a> condition (see the Appendices). If you successfully grapple a creature that is not adjacent to you, move that creature to an adjacent open space (if no space is available, your grapple fails). Although both creatures have the <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-grappled"><span class="std std-ref">grappled</span></a> condition, you can, as the creature that initiated the grapple, release the grapple as a free action, removing the condition from both you and the target. If you do not release the grapple, you must continue to make a check each round, as a standard action, to maintain the hold. If your target does not break the grapple, you get a +5 circumstance bonus on grapple checks made against the same target in subsequent rounds. Once you are grappling an opponent, a successful check allows you to continue grappling the foe, and also allows you to perform one of the following actions (as part of the standard action spent to maintain the grapple).</p>
+<p><em>Move</em>: You can move both yourself and your target up to half your speed. At the end of your movement, you can place your target in any square adjacent to you. If you attempt to place your foe in a hazardous location, such as in a <em>wall of fire</em> or over a pit, the target receives a free attempt to break your grapple with a +4 bonus.</p>
+<p><em>Damage</em>: You can inflict damage to your target equal to your unarmed strike, a natural attack, or an attack made with armor spikes or a light or one-handed weapon. This damage can be either lethal or nonlethal.</p>
+<p id="corerulebook-combat-pin"><em>Pin</em>: You can give your opponent the <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-pinned"><span class="std std-ref">pinned</span></a> condition (see <span class="xref std std-ref">Conditions</span>). Despite pinning your opponent, you still only have the <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-grappled"><span class="std std-ref">grappled</span></a> condition, but you lose your <a class="reference internal" href="corerulebook.gettingstarted.html#dexterity (dex)"><span class="std std-ref">Dexterity</span></a> bonus to <a class="reference internal" href="#corerulebook-combat-armor-class"><span class="std std-ref">AC</span></a>.</p>
+<p id="corerulebook-combat-tie-up"><em>Tie Up</em>: If you have your target <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-pinned"><span class="std std-ref">pinned</span></a>, otherwise restrained, or <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-unconscious"><span class="std std-ref">unconscious</span></a>, you can use rope to tie him up. This works like a pin effect, but the DC to escape the bonds is equal to 20 + your Combat Maneuver Bonus (instead of your <a class="reference internal" href="#corerulebook-combat-combat-maneuver-defense"><span class="std std-ref">CMD</span></a>). The ropes do not need to make a check every round to maintain the pin. If you are grappling the target, you can attempt to tie him up in ropes, but doing so requires a combat maneuver check at a –10 penalty. If the DC to escape from these bindings is higher than 20 + the target’s CMB, the target cannot escape from the bonds, even with a natural 20 on the check.</p>
+<p><strong>If You Are Grappled</strong>: If you are <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-grappled"><span class="std std-ref">grappled</span></a>, you can attempt to break the grapple as a standard action by making a combat maneuver check (DC equal to your opponent’s <a class="reference internal" href="#corerulebook-combat-combat-maneuver-defense"><span class="std std-ref">CMD</span></a>; this does not provoke an attack of opportunity) or Escape Artist check (with a DC equal to your opponent’s <a class="reference internal" href="#corerulebook-combat-combat-maneuver-defense"><span class="std std-ref">CMD</span></a>). If you succeed, you break the grapple and can act normally. Alternatively, if you succeed, you can become the grappler, grappling the other creature (meaning that the other creature cannot freely release the grapple without making a combat maneuver check, while you can). Instead of attempting to break or reverse the grapple, you can take any action that doesn’t require two hands to perform, such as cast a spell or make an attack or full attack with a light or one-handed weapon against any creature within your reach, including the creature that is grappling you. See the <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-grappled"><span class="std std-ref">grappled</span></a> condition for additional details. If you are <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-pinned"><span class="std std-ref">pinned</span></a>, your actions are very limited. See the <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-pinned"><span class="std std-ref">pinned</span></a> condition in <span class="xref std std-ref">Conditions</span> for additional details.</p>
+<p><strong>Multiple Creatures</strong>: Multiple creatures can attempt to grapple one target. The creature that first initiates the grapple is the only one that makes a check, with a +2 bonus for each creature that assists in the grapple (using the Aid Another action). Multiple creatures can also assist another creature in breaking free from a grapple, with each creature that assists (using the Aid Another action) granting a +2 bonus on the <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-grappled"><span class="std std-ref">grappled</span></a> creature’s combat maneuver check.</p>
+</div>
+<div class="section" id="overrun">
+<span id="corerulebook-combat-overrun"></span><h3><a class="toc-backref" href="#id90">Overrun</a><a class="headerlink" href="#overrun" title="Permalink to this headline">¶</a></h3>
+<p>As a standard action, taken during your move or as part of a charge, you can attempt to overrun your target, moving through its square. You can only overrun an opponent who is no more than one size category larger than you. If you do not have the <a class="reference internal" href="corerulebook.feats.html#improved overrun (combat)"><span class="std std-ref">Improved Overrun</span></a> feat, or a similar ability, initiating an overrun provokes an attack of opportunity from the target of your maneuver. If your overrun attempt fails, you stop in the space directly in front of the opponent, or the nearest open space in front of the creature if there are other creatures occupying that space.</p>
+<p>When you attempt to overrun a target, it can choose to avoid you, allowing you to pass through its square without requiring an attack. If your target does not avoid you, make a combat maneuver check as normal. If your maneuver is successful, you move through the target’s space. If your attack exceeds your opponent’s <a class="reference internal" href="#corerulebook-combat-combat-maneuver-defense"><span class="std std-ref">CMD</span></a> by 5 or more, you move through the target’s space and the target is knocked <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-prone"><span class="std std-ref">prone</span></a>. If the target has more than two legs, add +2 to the DC of the combat maneuver attack roll for each additional leg it has.</p>
+</div>
+<div class="section" id="sunder">
+<span id="corerulebook-combat-sunder"></span><h3><a class="toc-backref" href="#id91">Sunder</a><a class="headerlink" href="#sunder" title="Permalink to this headline">¶</a></h3>
+<p>You can attempt to sunder an item held or worn by your opponent as part of an attack action in place of a melee attack. If you do not have the <a class="reference internal" href="corerulebook.feats.html#improved sunder (combat)"><span class="std std-ref">Improved Sunder</span></a> feat, or a similar ability, attempting to sunder an item provokes an attack of opportunity from the target of your maneuver.</p>
+<p>If your attack is successful, you deal damage to the item normally. Damage that exceeds the object’s Hardness is subtracted from its hit points. If an object has equal to or less than half its total hit points remaining, it gains the broken condition (see <span class="xref std std-ref">Conditions</span>). If the damage you deal would reduce the object to less than 0 hit points, you can choose to destroy it. If you do not choose to destroy it, the object is left with only 1 hit point and the broken condition.</p>
+</div>
+<div class="section" id="trip">
+<span id="corerulebook-combat-trip"></span><h3><a class="toc-backref" href="#id92">Trip</a><a class="headerlink" href="#trip" title="Permalink to this headline">¶</a></h3>
+<p>You can attempt to trip your opponent in place of a melee attack. You can only trip an opponent who is no more than one size category larger than you. If you do not have the Improved Trip feat, or a similar ability, initiating a trip provokes an attack of opportunity from the target of your maneuver.</p>
+<p>If your attack exceeds the target’s <a class="reference internal" href="#corerulebook-combat-combat-maneuver-defense"><span class="std std-ref">CMD</span></a>, the target is knocked <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-prone"><span class="std std-ref">prone</span></a>. If your attack fails by 10 or more, you are knocked <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-prone"><span class="std std-ref">prone</span></a> instead. If the target has more than two legs, add +2 to the DC of the combat maneuver attack roll for each additional leg it has. Some creatures—such as oozes, creatures without legs, and flying creatures—cannot be tripped.</p>
+</div>
+</div>
+<div class="section" id="feint">
+<span id="corerulebook-combat-feint"></span><h2><a class="toc-backref" href="#id93">Feint</a><a class="headerlink" href="#feint" title="Permalink to this headline">¶</a></h2>
+<p>Feinting is a standard action. To feint, make a Bluff skill check. The DC of this check is equal to 10 + your opponent’s base attack bonus + your opponent’s <a class="reference internal" href="corerulebook.gettingstarted.html#wisdom (wis)"><span class="std std-ref">Wisdom</span></a> modifier. If your opponent is trained in Sense Motive, the DC is instead equal to 10 + your opponent’s Sense Motive bonus, if higher. If successful, the next melee attack you make against the target does not allow him to use his <a class="reference internal" href="corerulebook.gettingstarted.html#dexterity (dex)"><span class="std std-ref">Dexterity</span></a> bonus to <a class="reference internal" href="#corerulebook-combat-armor-class"><span class="std std-ref">AC</span></a> (if any). This attack must be made on or before your next turn.</p>
+<p>When feinting against a nonhumanoid you take a –4 penalty. Against a creature of animal <a class="reference internal" href="corerulebook.gettingstarted.html#intelligence (int)"><span class="std std-ref">Intelligence</span></a> (1 or 2), you take a –8 penalty. Against a creature lacking an <a class="reference internal" href="corerulebook.gettingstarted.html#intelligence (int)"><span class="std std-ref">Intelligence</span></a> score, it’s impossible. Feinting in combat does not provoke attacks of opportunity.</p>
+<p><strong>Feinting as a Move Action</strong>: With the Improved Feint feat, you can attempt a feint as a move action.</p>
+</div>
+<div class="section" id="mounted-combat">
+<span id="corerulebook-combat-mounted-combat"></span><h2><a class="toc-backref" href="#id94">Mounted Combat</a><a class="headerlink" href="#mounted-combat" title="Permalink to this headline">¶</a></h2>
+<p>These rules cover being mounted on a horse in combat but can also be applied to more unusual steeds, such as a griffon or dragon.</p>
+<p><strong>Mounts in Combat</strong>: Horses, ponies, and riding dogs can serve readily as combat steeds. Mounts that do not possess combat training (see the Handle Animal skill) are frightened by combat. If you don’t dismount, you must make a DC 20 Ride check each round as a move action to control such a mount. If you succeed, you can perform a standard action after the move action. If you fail, the move action becomes a full-round action, and you can’t do anything else until your next turn.</p>
+<p>Your mount acts on your initiative count as you direct it. You move at its speed, but the mount uses its action to move.</p>
+<p>A horse (not a pony) is a Large creature and thus takes up a space 10 feet (2 squares) across. For simplicity, assume that you share your mount’s space during combat.</p>
+<p><strong>Combat while Mounted</strong>: With a DC 5 Ride check, you can guide your mount with your knees so as to use both hands to attack or defend yourself. This is a free action.</p>
+<p>When you attack a creature smaller than your mount that is on foot, you get the +1 bonus on melee attacks for being on higher ground. If your mount moves more than 5 feet, you can only make a single melee attack. Essentially, you have to wait until the mount gets to your enemy before attacking, so you can’t make a full attack. Even at your mount’s full speed, you don’t take any penalty on melee attacks while mounted.</p>
+<p>If your mount charges, you also take the <a class="reference internal" href="#corerulebook-combat-armor-class"><span class="std std-ref">AC</span></a> penalty associated with a charge. If you make an attack at the end of the charge, you receive the bonus gained from the charge. When charging on horseback, you deal double damage with a lance (see Charge).</p>
+<p>You can use ranged weapons while your mount is taking a double move, but at a –4 penalty on the attack roll. You can use ranged weapons while your mount is running (quadruple speed) at a –8 penalty. In either case, you make the attack roll when your mount has completed half its movement. You can make a full attack with a ranged weapon while your mount is moving. Likewise, you can take move actions normally.</p>
+<p id="corerulebook-combat-casting-spells-while-mounted"><strong>Casting Spells While Mounted</strong>: You can cast a spell normally if your mount moves up to a normal move (its speed) either before or after you cast. If you have your mount move both before and after you cast a spell, then you’re casting the spell while the mount is moving, and you have to make a concentration check due to the vigorous motion (DC 10 + spell level) or lose the spell. If the mount is running (quadruple speed), you can cast a spell when your mount has moved up to twice its speed, but your concentration check is more difficult due to the violent motion (DC 15 + spell level).</p>
+<p><strong>If Your Mount Falls in Battle</strong>: If your mount falls, you have to succeed on a DC 15 Ride check to make a soft fall and take no damage. If the check fails, you take 1d6 points of damage.</p>
+<p><strong>If You Are Dropped</strong>: If you are knocked <a class="reference internal" href="corerulebook.glossary.html#corerulebook-glossary-unconscious"><span class="std std-ref">unconscious</span></a>, you have a 50% chance to stay in the saddle (75% if you’re in a military saddle). Otherwise you fall and take 1d6 points of damage. Without you to guide it, your mount avoids combat.</p>
+</div>
+<div class="section" id="throw-splash-weapon">
+<span id="corerulebook-combat-throw-splash-weapon"></span><h2><a class="toc-backref" href="#id95">Throw Splash Weapon</a><a class="headerlink" href="#throw-splash-weapon" title="Permalink to this headline">¶</a></h2>
+<p>A splash weapon is a ranged weapon that breaks on impact, splashing or scattering its contents over its target and nearby creatures or objects. To attack with a splash weapon, make a ranged touch attack against the target. Thrown splash weapons require no weapon proficiency, so you don’t take the –4 nonproficiency penalty. A hit deals direct hit damage to the target, and splash damage to all creatures within 5 feet of the target. If the target is Large or larger, you choose one of its squares and the splash damage affects creatures within 5 feet of that square. Splash weapons cannot deal precision-based damage (such as sneak attack).</p>
+<p>You can instead target a specific grid intersection. Treat this as a ranged attack against <a class="reference internal" href="#corerulebook-combat-armor-class"><span class="std std-ref">AC</span></a> 5. However, if you target a grid intersection, creatures in all adjacent squares are dealt the splash damage, and the direct hit damage is not dealt to any creature. You can’t target a grid intersection occupied by a creature, such as a Large or larger creature; in this case, you’re aiming at the creature.</p>
+<p>If you miss the target (whether aiming at a creature or a grid intersection), roll 1d8. This determines the misdirection of the throw, with 1 falling short (off-target in a straight line toward the thrower), and 2 through 8 rotating around the target creature or grid intersection in a clockwise direction. Then, count a number of squares in the indicated direction equal to the range increment of the throw. After you determine where the weapon landed, it deals splash damage to all creatures in that square and in all adjacent squares.</p>
+</div>
+<div class="section" id="two-weapon-fighting">
+<span id="corerulebook-combat-two-weapon-fighting"></span><h2><a class="toc-backref" href="#id96">Two-Weapon Fighting</a><a class="headerlink" href="#two-weapon-fighting" title="Permalink to this headline">¶</a></h2>
+<p>If you wield a second weapon in your off hand, you can get one extra attack per round with that weapon. You suffer a –6 penalty with your regular attack or attacks with your primary hand and a –10 penalty to the attack with your off hand when you fight this way. You can reduce these penalties in two ways. First, if your off-hand weapon is light, the penalties are reduced by 2 each. An unarmed strike is always considered light. Second, the <a class="reference internal" href="corerulebook.feats.html#two-weapon fighting (combat)"><span class="std std-ref">Two-Weapon Fighting</span></a> feat lessens the primary hand penalty by 2, and the off-hand penalty by 6.</p>
+<p>Table: Two-weapon Fighting Penalties summarizes the interaction of all these factors.</p>
+<p><strong>Double Weapons</strong>: You can use a double weapon to make an extra attack with the off-hand end of the weapon as if you were fighting with two weapons. The penalties apply as if the off-hand end of the weapon was a light weapon.</p>
+<p><strong>Thrown Weapons</strong>: The same rules apply when you throw a weapon from each hand. Treat a dart or shuriken as a light weapon when used in this manner, and treat a bolas, javelin, net, or sling as a one-handed weapon.</p>
+<span id="corerulebook-combat-table-8-7-two-weapon-fighting-penalties"></span><table border="1" class="colwidths-auto contrast-reading-table docutils" id="id12">
+<caption><span class="caption-text">Table: Two-Weapon Fighting Penalties</span><a class="headerlink" href="#id12" title="Permalink to this table">¶</a></caption>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Circumstances</th>
+<th class="head">Primary Hand</th>
+<th class="head">Off Hand</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Normal penalties</td>
+<td>–6</td>
+<td>–10</td>
+</tr>
+<tr class="row-odd"><td>Off-hand weapon is light</td>
+<td>–4</td>
+<td>–8</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="corerulebook.feats.html#two-weapon fighting (combat)"><span class="std std-ref">Two-Weapon Fighting</span></a> feat</td>
+<td>–4</td>
+<td>–4</td>
+</tr>
+<tr class="row-odd"><td>Off-hand weapon is light and <a class="reference internal" href="corerulebook.feats.html#two-weapon fighting (combat)"><span class="std std-ref">Two-Weapon Fighting</span></a> feat</td>
+<td>–2</td>
+<td>–2</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="special-initiative-actions">
+<span id="corerulebook-combat-special-initiative-actions"></span><h1><a class="toc-backref" href="#id97">Special Initiative Actions</a><a class="headerlink" href="#special-initiative-actions" title="Permalink to this headline">¶</a></h1>
+<p>Here are ways to change when you act during combat by altering your place in the initiative order.</p>
+<div class="section" id="delay">
+<span id="corerulebook-combat-delay"></span><h2><a class="toc-backref" href="#id98">Delay</a><a class="headerlink" href="#delay" title="Permalink to this headline">¶</a></h2>
+<p>By choosing to delay, you take no action and then act normally on whatever initiative count you decide to act. When you delay, you voluntarily reduce your own initiative result for the rest of the combat. When your new, lower initiative count comes up later in the same round, you can act normally. You can specify this new initiative result or just wait until some time later in the round and act then, thus fixing your new initiative count at that point.</p>
+<p>You never get back the time you spend waiting to see what’s going to happen. You also can’t interrupt anyone else’s action (as you can with a readied action).</p>
+<p><strong>Initiative Consequences of Delaying</strong>: Your initiative result becomes the count on which you took the delayed action. If you come to your next action and have not yet performed an action, you don’t get to take a delayed action (though you can delay again).</p>
+<p>If you take a delayed action in the next round, before your regular turn comes up, your initiative count rises to that new point in the order of battle, and you do not get your regular action that round.</p>
+</div>
+<div class="section" id="ready">
+<span id="corerulebook-combat-ready"></span><h2><a class="toc-backref" href="#id99">Ready</a><a class="headerlink" href="#ready" title="Permalink to this headline">¶</a></h2>
+<p>The ready action lets you prepare to take an action later, after your turn is over but before your next one has begun. Readying is a standard action. It does not provoke an attack of opportunity (though the action that you ready might do so).</p>
+<p><strong>Readying an Action</strong>: You can ready a standard action, a move action, a swift action, or a free action. To do so, specify the action you will take and the conditions under which you will take it. Then, anytime before your next action, you may take the readied action in response to that condition. The action occurs just before the action that triggers it. If the triggered action is part of another character’s activities, you interrupt the other character. Assuming he is still capable of doing so, he continues his actions once you complete your readied action. Your initiative result changes. For the rest of the encounter, your initiative result is the count on which you took the readied action, and you act immediately ahead of the character whose action triggered your readied action.</p>
+<p>You can take a 5-foot step as part of your readied action, but only if you don’t otherwise move any distance during the round.</p>
+<p><strong>Initiative Consequences of Readying</strong>: Your initiative result becomes the count on which you took the readied action. If you come to your next action and have not yet performed your readied action, you don’t get to take the readied action (though you can ready the same action again). If you take your readied action in the next round, before your regular turn comes up, your initiative count rises to that new point in the order of battle, and you do not get your regular action that round.</p>
+<p><strong>Distracting Spellcasters</strong>: You can ready an attack against a spellcaster with the trigger “if she starts casting a spell.” If you damage the spellcaster, she may lose the spell she was trying to cast (as determined by her concentration check result).</p>
+<p><strong>Readying to Counterspell</strong>: You may ready a counterspell against a spellcaster (often with the trigger “if she starts casting a spell”). In this case, when the spellcaster starts a spell, you get a chance to identify it with a Spellcraft check (DC 15 + spell level). If you do, and if you can cast that same spell (and are able to cast it and have it prepared, if you prepare spells), you can cast the spell as a counterspell and automatically ruin the other spellcaster’s spell. Counterspelling works even if one spell is divine and the other arcane.</p>
+<p>A spellcaster can use <em>dispel magic</em>to counterspell another spellcaster, but it doesn’t always work.</p>
+<p><strong>Readying a Weapon against a Charge</strong>: You can ready weapons with the brace feature, setting them to receive charges. A readied weapon of this type deals double damage if you score a hit with it against a charging character.</p>
+</div>
+</div>
+
+</body>

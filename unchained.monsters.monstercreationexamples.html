@@ -1,0 +1,794 @@
+
+
+
+
+
+<head>
+    <link rel="stylesheet" href="_static/srd.css" type="text/css" />
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/toggle_list.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+
+
+
+<body>
+    <div class="contents topic" id="id1">
+<span id="unchained-monsters-monstercreationexamples"></span><p class="topic-title first"></p>
+<ul class="simple">
+<li><a class="reference internal" href="#monster-creation-examples" id="id71">Monster Creation Examples</a><ul>
+<li><a class="reference internal" href="#extended-example-medusa" id="id72">Extended Example: Medusa</a><ul>
+<li><a class="reference internal" href="#monster-concept" id="id73">Monster Concept</a></li>
+<li><a class="reference internal" href="#step-1-array" id="id74">Step 1: Array</a></li>
+<li><a class="reference internal" href="#step-2-creature-type-or-class-graft" id="id75">Step 2: Creature Type or Class Graft</a></li>
+<li><a class="reference internal" href="#steps-36-skipped-steps" id="id76">Steps 3–6: Skipped Steps</a></li>
+<li><a class="reference internal" href="#step-7-monster-options" id="id77">Step 7: Monster Options</a></li>
+<li><a class="reference internal" href="#step-8-skills" id="id78">Step 8: Skills</a></li>
+<li><a class="reference internal" href="#step-9-damage" id="id79">Step 9: Damage</a></li>
+<li><a class="reference internal" href="#reality-check" id="id80">Reality Check</a></li>
+<li><a class="reference internal" href="#medusa" id="id81">Medusa</a></li>
+<li><a class="reference internal" href="#defenses" id="id82">Defenses</a></li>
+<li><a class="reference internal" href="#attacks" id="id83">Attacks</a></li>
+<li><a class="reference internal" href="#statistics" id="id84">Statistics</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#monster-examples" id="id85">Monster Examples</a><ul>
+<li><a class="reference internal" href="#worg" id="id86">Worg</a></li>
+<li><a class="reference internal" href="#id3" id="id87">Worg</a></li>
+<li><a class="reference internal" href="#id4" id="id88">Defenses</a></li>
+<li><a class="reference internal" href="#id5" id="id89">Attacks</a></li>
+<li><a class="reference internal" href="#id6" id="id90">Statistics</a></li>
+<li><a class="reference internal" href="#mastodon" id="id91">Mastodon</a></li>
+<li><a class="reference internal" href="#id7" id="id92">Mastodon</a></li>
+<li><a class="reference internal" href="#id8" id="id93">Defenses</a></li>
+<li><a class="reference internal" href="#id9" id="id94">Attacks</a></li>
+<li><a class="reference internal" href="#id10" id="id95">Statistics</a></li>
+<li><a class="reference internal" href="#griffon" id="id96">Griffon</a></li>
+<li><a class="reference internal" href="#id11" id="id97">Griffon</a></li>
+<li><a class="reference internal" href="#id12" id="id98">Defenses</a></li>
+<li><a class="reference internal" href="#id13" id="id99">Attacks</a></li>
+<li><a class="reference internal" href="#id14" id="id100">Statistics</a></li>
+<li><a class="reference internal" href="#goblin-fighter" id="id101">Goblin Fighter</a></li>
+<li><a class="reference internal" href="#id15" id="id102">Goblin Fighter</a></li>
+<li><a class="reference internal" href="#id16" id="id103">Defenses</a></li>
+<li><a class="reference internal" href="#id17" id="id104">Attacks</a></li>
+<li><a class="reference internal" href="#id18" id="id105">Statistics</a></li>
+<li><a class="reference internal" href="#zombie-minotaur" id="id106">Zombie Minotaur</a></li>
+<li><a class="reference internal" href="#id19" id="id107">Zombie Minotaur</a></li>
+<li><a class="reference internal" href="#id20" id="id108">Defenses</a></li>
+<li><a class="reference internal" href="#id21" id="id109">Attacks</a></li>
+<li><a class="reference internal" href="#id22" id="id110">Statistics</a></li>
+<li><a class="reference internal" href="#bat-swarm" id="id111">Bat Swarm</a></li>
+<li><a class="reference internal" href="#id23" id="id112">Bat Swarm</a></li>
+<li><a class="reference internal" href="#id24" id="id113">Defenses</a></li>
+<li><a class="reference internal" href="#id25" id="id114">Attacks</a></li>
+<li><a class="reference internal" href="#id26" id="id115">Statistics</a></li>
+<li><a class="reference internal" href="#imp" id="id116">Imp</a></li>
+<li><a class="reference internal" href="#id27" id="id117">Imp</a></li>
+<li><a class="reference internal" href="#id28" id="id118">Defenses</a></li>
+<li><a class="reference internal" href="#id29" id="id119">Attacks</a></li>
+<li><a class="reference internal" href="#id30" id="id120">Statistics</a></li>
+<li><a class="reference internal" href="#fire-giant" id="id121">Fire Giant</a></li>
+<li><a class="reference internal" href="#id31" id="id122">Fire Giant</a></li>
+<li><a class="reference internal" href="#id32" id="id123">Defenses</a></li>
+<li><a class="reference internal" href="#id33" id="id124">Attacks</a></li>
+<li><a class="reference internal" href="#id34" id="id125">Statistics</a></li>
+<li><a class="reference internal" href="#satyr" id="id126">Satyr</a></li>
+<li><a class="reference internal" href="#id35" id="id127">Satyr</a></li>
+<li><a class="reference internal" href="#id36" id="id128">Defenses</a></li>
+<li><a class="reference internal" href="#id37" id="id129">Attacks</a></li>
+<li><a class="reference internal" href="#id38" id="id130">Statistics</a></li>
+<li><a class="reference internal" href="#special-abilities" id="id131">Special Abilities</a></li>
+<li><a class="reference internal" href="#frost-giant-explorer" id="id132">Frost Giant Explorer</a></li>
+<li><a class="reference internal" href="#id39" id="id133">Frost Giant Explorer</a></li>
+<li><a class="reference internal" href="#id40" id="id134">Defenses</a></li>
+<li><a class="reference internal" href="#id41" id="id135">Attacks</a></li>
+<li><a class="reference internal" href="#id42" id="id136">Statistics</a></li>
+<li><a class="reference internal" href="#vampire-cleric" id="id137">Vampire Cleric</a></li>
+<li><a class="reference internal" href="#id43" id="id138">Vampire Cleric</a></li>
+<li><a class="reference internal" href="#id44" id="id139">Defenses</a></li>
+<li><a class="reference internal" href="#id45" id="id140">Attacks</a></li>
+<li><a class="reference internal" href="#id46" id="id141">Statistics</a></li>
+<li><a class="reference internal" href="#ogre-mage" id="id142">Ogre Mage</a></li>
+<li><a class="reference internal" href="#id47" id="id143">Ogre Mage</a></li>
+<li><a class="reference internal" href="#id48" id="id144">Defenses</a></li>
+<li><a class="reference internal" href="#id49" id="id145">Attacks</a></li>
+<li><a class="reference internal" href="#id50" id="id146">Statistics</a></li>
+<li><a class="reference internal" href="#night-hag-soul-collector" id="id147">Night Hag Soul Collector</a></li>
+<li><a class="reference internal" href="#id51" id="id148">Night Hag Soul Collector</a></li>
+<li><a class="reference internal" href="#id52" id="id149">Defenses</a></li>
+<li><a class="reference internal" href="#id53" id="id150">Attacks</a></li>
+<li><a class="reference internal" href="#id54" id="id151">Statistics</a></li>
+<li><a class="reference internal" href="#id55" id="id152">Special Abilities</a></li>
+<li><a class="reference internal" href="#night-hag-s-lost-soul" id="id153">Night Hag’s Lost Soul</a></li>
+<li><a class="reference internal" href="#id56" id="id154">Defenses</a></li>
+<li><a class="reference internal" href="#id57" id="id155">Attacks</a></li>
+<li><a class="reference internal" href="#id58" id="id156">Statistics</a></li>
+<li><a class="reference internal" href="#marilith-general" id="id157">Marilith General</a></li>
+<li><a class="reference internal" href="#id59" id="id158">Marilith General</a></li>
+<li><a class="reference internal" href="#id60" id="id159">Defenses</a></li>
+<li><a class="reference internal" href="#id61" id="id160">Attacks</a></li>
+<li><a class="reference internal" href="#id62" id="id161">Statistics</a></li>
+<li><a class="reference internal" href="#ancient-blue-dragon" id="id162">Ancient Blue Dragon</a></li>
+<li><a class="reference internal" href="#id63" id="id163">Ancient Blue Dragon</a></li>
+<li><a class="reference internal" href="#id64" id="id164">Defenses</a></li>
+<li><a class="reference internal" href="#id65" id="id165">Attacks</a></li>
+<li><a class="reference internal" href="#id66" id="id166">Statistics</a></li>
+<li><a class="reference internal" href="#pit-fiend" id="id167">Pit Fiend</a></li>
+<li><a class="reference internal" href="#id67" id="id168">Pit Fiend</a></li>
+<li><a class="reference internal" href="#id68" id="id169">Defenses</a></li>
+<li><a class="reference internal" href="#id69" id="id170">Attacks</a></li>
+<li><a class="reference internal" href="#id70" id="id171">Statistics</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="monster-creation-examples">
+<span id="unchained-monsters-monstercreationexamples-monster-creation-examples"></span><h1><a class="toc-backref" href="#id71">Monster Creation Examples</a><a class="headerlink" href="#monster-creation-examples" title="Permalink to this headline">¶</a></h1>
+<p>To show the end result of the simple monster creation process described in this chapter, this section shows existing PRD monsters recreated using this system.</p>
+<div class="section" id="extended-example-medusa">
+<span id="id2"></span><h2><a class="toc-backref" href="#id72">Extended Example: Medusa</a><a class="headerlink" href="#extended-example-medusa" title="Permalink to this headline">¶</a></h2>
+<p>This long-form example gives a detailed breakdown of monster creation from start to finish, resulting in a new medusa archer. This illustrates the steps of the process, and shows how to think about creating a monster using this variant system. Throughout, it compares the new medusa to the one found <a class="reference internal" href="bestiary.medusa.html#bestiary-medusa-medusa"><span class="std std-ref">in the Bestiary</span></a>.</p>
+<div class="section" id="monster-concept">
+<span id="unchained-monsters-monstercreationexamples-monster-concept"></span><h3><a class="toc-backref" href="#id73">Monster Concept</a><a class="headerlink" href="#monster-concept" title="Permalink to this headline">¶</a></h3>
+<p>The GM wants to create a monster much like the traditional medusa: a humanlike creature with serpents for hair and the ability to turn her enemies to stone. He also wants to make her a skilled archer and focus on that set of abilities. He wants to use the medusa at the same level that she’d normally appear, so he chooses CR 7 (and the medusa’s Hit Dice are treated as 7 as well). He knows some other basic details: the medusa is a lawful evil monstrous humanoid, her size is Medium, and she has a base speed of 30 feet.</p>
+</div>
+<div class="section" id="step-1-array">
+<span id="unchained-monsters-monstercreationexamples-step-1-array"></span><h3><a class="toc-backref" href="#id74">Step 1: Array</a><a class="headerlink" href="#step-1-array" title="Permalink to this headline">¶</a></h3>
+<p>This medusa should be a formidable enemy, so the GM chooses the combatant array. He fills out her statistics from the CR 7 entry on <a class="reference internal" href="unchained.monsters.step1.html#unchained-monsters-step1-combatant-main-statistics"><span class="std std-ref">Table: Combatant Main Statistics</span></a>. She has AC 22, touch 13, flat-footed 16. Her saving throw bonuses are: Fortitude +8, Reflex +8, and Will +6. Her CMD is 24, and she has 93 hit points. The GM makes a note of all these statistics, and won’t need to change any of them unless a later graft or option alters them.</p>
+<p>Next, the GM makes a note of the remaining values he’ll be deciding on later. The monster’s special abilities will have a DC of 15. He doesn’t plan to give her spells, so he skips the spell DC column. Since he’s already pretty sure how he wants the medusa’s ability modifiers to shake out, he gives her a +6 Dexterity modifier, a +4 Constitution modifier, and a +2 Charisma modifier. Her initiative ends up being +6, matching her Dexterity modifier. He marks down that he’ll later pick one master skill with a +15 modifier and two good skills with +12 modifiers. In Step 7, he’ll also pick one combat option and one option from any category.</p>
+<p>The last things to record from the arrays are the medusa’s attacks. He wants her to be best at ranged attacks, so he uses the high weapon attack column for a longbow attack, marking down attack bonuses of +13/+8 and noting that he’ll later pick a value adding up to 22 points of damage. For her melee attacks, she uses the snakes that make up her hair, and the GM decides that she uses the low weapon attacks table since she’s primarily focused on ranged attacks. He marks down a +10/+5 attack bonus that deals 16 points of damage.</p>
+<p>Her attacks and damage are significantly stronger than those of the monster in the <em>Bestiary</em>. The GM decides to leave them this way for now, planning to compensate by weakening some of her other abilities in later steps.</p>
+</div>
+<div class="section" id="step-2-creature-type-or-class-graft">
+<span id="unchained-monsters-monstercreationexamples-step-2-creature-type-or-class-graft"></span><h3><a class="toc-backref" href="#id75">Step 2: Creature Type or Class Graft</a><a class="headerlink" href="#step-2-creature-type-or-class-graft" title="Permalink to this headline">¶</a></h3>
+<p>Since the medusa is a monstrous humanoid, the GM applies the automatic traits for that creature type graft, giving her darkvision 60 feet. After toying with using the ranger class graft, he decides that doesn’t really fit with his concept for the monster. Instead, he uses the monstrous humanoid graft, increasing the medusa’s Reflex to +10 and Will to +8, and increasing her attack bonuses to +12/+7 for her snake hair attack and +15/+10 for the longbow. He looks at the elective adjustment of one additional good skill and decides not to give her the extra good skill.</p>
+</div>
+<div class="section" id="steps-36-skipped-steps">
+<span id="unchained-monsters-monstercreationexamples-steps-36-skipped-steps"></span><h3><a class="toc-backref" href="#id76">Steps 3–6: Skipped Steps</a><a class="headerlink" href="#steps-36-skipped-steps" title="Permalink to this headline">¶</a></h3>
+<p>The medusa doesn’t need a subtype, isn’t based on a template, is size Medium, and doesn’t have spells, so the GM skips steps 3 through 6. Most monsters created using this system will skip at least one or two steps of the monster creation process.</p>
+</div>
+<div class="section" id="step-7-monster-options">
+<span id="unchained-monsters-monstercreationexamples-step-7-monster-options"></span><h3><a class="toc-backref" href="#id77">Step 7: Monster Options</a><a class="headerlink" href="#step-7-monster-options" title="Permalink to this headline">¶</a></h3>
+<p>The GM is sure that he wants the medusa to have a petrifying gaze attack. Because the gaze option uses the same rules as the preexisting universal monster rule, the GM writes down a gaze with a 30-foot range that turns targets to stone permanently. He uses the ability DC from the combatant array: 15. This ability uses up the medusa’s one combat option, leaving her with one option from any category.</p>
+<p>The GM adds poison to the snake bite attack, and decides that the medusa can apply it to her arrows too. Choosing the poison option gives him the base statistics of the poison plus two advantages, plus an additional two advantages since the medusa is CR 7. He ends up with a poison that is: type injury, frequency 1/round for 6 rounds, effect 1d3 Str, cure 2 consecutive saves. This is pretty close to the poison in the Bestiary, though with a lower DC, which is what the GM wants. Though an ability such as all-around vision could be replicated by giving the medusa unflankable as a bonus monster option, the GM decides against that to help compensate for the medusa’s stronger attacks.</p>
+</div>
+<div class="section" id="step-8-skills">
+<span id="unchained-monsters-monstercreationexamples-step-8-skills"></span><h3><a class="toc-backref" href="#id78">Step 8: Skills</a><a class="headerlink" href="#step-8-skills" title="Permalink to this headline">¶</a></h3>
+<p>The medusa will have one master skill and two good skills. The GM picks <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> as the master skill instead of leaving it at its default of good, since that fits an archer. The medusa now has <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> +15. For the good skills, he wants one social skill and one physical skill that uses the medusa’s Dexterity, so he gives her <a class="reference internal" href="corerulebook.skills.intimidate.html#corerulebook-skills-intimidate-intimidate"><span class="std std-ref">Intimidate</span></a> +12 and <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> +12.</p>
+</div>
+<div class="section" id="step-9-damage">
+<span id="unchained-monsters-monstercreationexamples-step-9-damage"></span><h3><a class="toc-backref" href="#id79">Step 9: Damage</a><a class="headerlink" href="#step-9-damage" title="Permalink to this headline">¶</a></h3>
+<p>The longbow attack will deal a total of 22 points of damage, using a d8 damage die (since it’s a longbow). The GM finds the 21–23 row and 1d8 column on <a class="reference internal" href="unchained.monsters.step9.html#unchained-monsters-step9-damage-dice-values"><span class="std std-ref">Table: Damage Dice Values</span></a>, learning that the attack should deal 1d8+18 points of damage. Thinking about it further, the GM wants to roll more damage dice, just to make the monster’s damage a little more variable and sort of like the Manyshot feat. So instead, he uses 2d8+12. The melee attack will deal 16 points of damage using a d4, which turns out to be 1d4+14.</p>
+</div>
+<div class="section" id="reality-check">
+<span id="unchained-monsters-monstercreationexamples-reality-check"></span><h3><a class="toc-backref" href="#id80">Reality Check</a><a class="headerlink" href="#reality-check" title="Permalink to this headline">¶</a></h3>
+<p>Looking back over the monster, the GM thinks that the petrifying gaze plus the powerful attacks make the medusa too powerful. He decides that the part that seems strangest is the damage, particularly since the medusa uses a longbow and gets to deal poison with all her attacks. He decides to trim the damage down as though the medusa were 2 CR lower. The longbow attack now deals 2d8+6 points of damage, and the snake bite deals 1d4+8 points of damage.</p>
+</div>
+<div class="section" id="medusa">
+<span id="unchained-monsters-monstercreationexamples-medusa"></span><h3><a class="toc-backref" href="#id81">Medusa</a><a class="headerlink" href="#medusa" title="Permalink to this headline">¶</a></h3>
+<p><strong>CR/HD 7</strong></p>
+<p><strong>Init</strong> +6; <strong>Perception</strong> +15 (darkvision 60 ft.)</p>
+<p><strong>Size</strong>Medium; <strong>Speed</strong> 30 ft.</p>
+</div>
+<div class="section" id="defenses">
+<span id="unchained-monsters-monstercreationexamples-defenses"></span><h3><a class="toc-backref" href="#id82">Defenses</a><a class="headerlink" href="#defenses" title="Permalink to this headline">¶</a></h3>
+<p><strong>AC</strong> 22 (touch 13, flat-footed 16); <strong>Fort</strong> +8, <strong>Ref</strong>+10, <strong>Will</strong> +10; <strong>CMD</strong> 24</p>
+<p><strong>hp</strong>93</p>
+</div>
+<div class="section" id="attacks">
+<span id="unchained-monsters-monstercreationexamples-attacks"></span><h3><a class="toc-backref" href="#id83">Attacks</a><a class="headerlink" href="#attacks" title="Permalink to this headline">¶</a></h3>
+<p><strong>Melee</strong> snake bite +12/+7 (1d4+8 plus poison)</p>
+<p><strong>Ranged</strong> longbow (range 100 ft.) +15/+10 (2d8+6/×3 plus poison)</p>
+<p><strong>Attack Options</strong>(DC 15) petrifying gaze (turn to stone permanently, 30 ft., Fort negates), poison (<em>type</em> injury, <em>frequency</em> 1/round for 6 rounds, <em>effect</em> 1d3 Str, <em>cure</em> 2 consecutive saves); <strong>CMB</strong> +13</p>
+</div>
+<div class="section" id="statistics">
+<span id="unchained-monsters-monstercreationexamples-statistics"></span><h3><a class="toc-backref" href="#id84">Statistics</a><a class="headerlink" href="#statistics" title="Permalink to this headline">¶</a></h3>
+<p><strong>Dex</strong> +6, <strong>Con</strong> +4, <strong>Cha</strong> +2; <a class="reference internal" href="corerulebook.skills.intimidate.html#corerulebook-skills-intimidate-intimidate"><span class="std std-ref">Intimidate</span></a> +12, <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> +12</p>
+<p><strong>XP</strong> 3,200; LE monstrous humanoid</p>
+</div>
+</div>
+<div class="section" id="monster-examples">
+<span id="unchained-monsters-monstercreationexamples-monster-examples"></span><h2><a class="toc-backref" href="#id85">Monster Examples</a><a class="headerlink" href="#monster-examples" title="Permalink to this headline">¶</a></h2>
+<p>The following sections re-create monsters found in the Bestiary. Many of them are variants on the initial creatures, meant to mimic creatures with class levels or alternate ability sets. Each entry includes a breakdown of the significant choices made for the monster, discounting simple procedures such as selecting the attacks and damage for a monster that don’t deviate from its array numbers. After each breakdown, the monster’s statistics appear in a new format unique to this book, as described in the sidebar above.</p>
+<p>The monsters are presented in order from simplest to most complex. Some of the monsters that appear early on—particularly combatants—have a high CR but simple abilities, so they’re still easy to create.</p>
+<div class="section" id="worg">
+<span id="unchained-monsters-monstercreationexamples-worg"></span><h3><a class="toc-backref" href="#id86">Worg</a><a class="headerlink" href="#worg" title="Permalink to this headline">¶</a></h3>
+<p>The worg is easy to create since it’s a simple monster.</p>
+<p><strong>Array</strong>: The worg is a combatant. As a feral, vicious creature, it has a high Strength. The GM also decides that the worg should have an Intelligence modifier lower than 0.</p>
+<p><strong>Creature Type</strong>: As a magical beast, the worg gains darkvision and low-light vision as automatic traits. Because it doesn’t have a class graft, it also gains the statistics adjustments, increasing its Fortitude from +3 to +5, its Reflex from +3 to +5, and its attack bonus from +4 to +6.</p>
+<p><strong>Options</strong>: The worg gets one combat option, and gains improved combat maneuver (trip).</p>
+<p><strong>Skills</strong>: Because it’s not a very smart creature, the worg’s two good skills are both physical, but it gains <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> as its master skill.</p>
+</div>
+<div class="section" id="id3">
+<h3><a class="toc-backref" href="#id87">Worg</a><a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<p><strong>CR/HD 2</strong></p>
+<p><strong>Init</strong> +2; <strong>Perception</strong> +10 (darkvision 60 ft., low-light vision)</p>
+<p><strong>Size</strong>Medium; <strong>Speed</strong> 50 ft.</p>
+</div>
+<div class="section" id="id4">
+<h3><a class="toc-backref" href="#id88">Defenses</a><a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<p><strong>AC</strong> 16 (touch 12, flat-footed 12); <strong>Fort</strong> +5, <strong>Ref</strong>+5, <strong>Will</strong> +1; <strong>CMD</strong> 16 (20 vs. trip)</p>
+<p><strong>hp</strong>22</p>
+</div>
+<div class="section" id="id5">
+<h3><a class="toc-backref" href="#id89">Attacks</a><a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+<p><strong>Melee</strong> bite +6 (1d6+7 plus improved combat maneuver [trip])</p>
+<p><strong>CMB</strong> +4 (+8 trip)</p>
+</div>
+<div class="section" id="id6">
+<h3><a class="toc-backref" href="#id90">Statistics</a><a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
+<p><strong>Str</strong> +3, <strong>Dex</strong> +2, <strong>Con</strong> +1, <strong>Int</strong> –2; <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> +7, <a class="reference internal" href="corerulebook.skills.survival.html#corerulebook-skills-survival-survival"><span class="std std-ref">Survival</span></a> +7</p>
+<p><strong>XP</strong> 600; NE magical beast</p>
+</div>
+<div class="section" id="mastodon">
+<span id="unchained-monsters-monstercreationexamples-mastodon"></span><h3><a class="toc-backref" href="#id91">Mastodon</a><a class="headerlink" href="#mastodon" title="Permalink to this headline">¶</a></h3>
+<p>As a big, dumb creature, the mastodon requires only a few adjustments despite its high CR.</p>
+<p><strong>Array</strong>: The mastodon uses the combatant array. The GM adjusts its ability modifiers to +9, +4, and –1 instead of +7, +4, and +3 to reflect its major emphasis on Strength and its poor Dexterity.</p>
+<p><strong>Creature Type</strong>: As an animal, the mastodon gains low-light vision and a –4 Intelligence modifier. It increases its Fortitude and Will saves from +10 to +12.</p>
+<p><strong>Size</strong>: Since it’s Huge, the mastodon reduces its touch AC to 13 and increases its flat-footed AC to 21. It also increases its CMB to 21 and its CMD to 30.</p>
+<p><strong>Options</strong>: The mastodon uses its combat option to gain improved combat maneuver (bull rush), which also adjusts its CMB to bull rush and its CMD against bull rush. It uses its any option for extra hit points, increasing its hp from 126 to 151.</p>
+<p><strong>Skills</strong>: Since it’s not very intelligent, the mastodon has master <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> but no other skills.</p>
+<p><strong>Damage</strong>: The mastodon uses the two natural attacks column for its attacks and damage. The two attacks have the same average damage value, but use different damage dice.</p>
+</div>
+<div class="section" id="id7">
+<h3><a class="toc-backref" href="#id92">Mastodon</a><a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
+<p><strong>CR/HD 9</strong></p>
+<p><strong>Init</strong> –1; <strong>Perception</strong> +17 (low-light vision)</p>
+<p><strong>Size</strong>Huge (15 ft.); <strong>Speed</strong> 40 ft.</p>
+</div>
+<div class="section" id="id8">
+<h3><a class="toc-backref" href="#id93">Defenses</a><a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h3>
+<p><strong>AC</strong> 25 (touch 13, flat-footed 21); <strong>Fort</strong> +12, <strong>Ref</strong>+12, <strong>Will</strong> +8; <strong>CMD</strong> 30 (33 vs. bull rush)</p>
+<p><strong>hp</strong>151</p>
+</div>
+<div class="section" id="id9">
+<h3><a class="toc-backref" href="#id94">Attacks</a><a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h3>
+<p><strong>Melee</strong> gore (reach 15 ft.) +17 (2d8+12), slam (reach 15 ft.) +17 (2d6+15)</p>
+<p><strong>Attack Options</strong>improved combat maneuver (bull rush);<strong>CMB</strong> +21 (+25 bull rush)</p>
+</div>
+<div class="section" id="id10">
+<h3><a class="toc-backref" href="#id95">Statistics</a><a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h3>
+<p><strong>Str</strong> +9, <strong>Dex</strong> –1, <strong>Con</strong> +4, <strong>Int</strong> –4</p>
+<p><strong>XP</strong> 6,400; N animal</p>
+</div>
+<div class="section" id="griffon">
+<span id="unchained-monsters-monstercreationexamples-griffon"></span><h3><a class="toc-backref" href="#id96">Griffon</a><a class="headerlink" href="#griffon" title="Permalink to this headline">¶</a></h3>
+<p>A majestic aerial hunter, the griffon’s only significant adjustments come from its type and size.</p>
+<p><strong>Array</strong>: The griffon uses the combatant array. To reflect its balance between speed and toughness, the griffon has ability modifiers of +4, +2, and +2 instead of +4, +3, and +1.</p>
+<p><strong>Creature Type</strong>: As a magical beast, the griffon gains darkvision 60 feet and low-light vision. Its Fortitude and Reflex bonuses both increase from +5 to +7, and its attack bonuses increase from +8 to +10 for its bite and from +3 to +5 for its talons.</p>
+<p><strong>Size</strong>: Since it’s Large, the griffon changes its touch AC from 12 to 11 and its flat-footed AC from 14 to 15. Its CMB increases from +10 to +12, and its CMD rises from 20 to 21.</p>
+<p><strong>Options</strong>: The griffon spends both its options on combat options to gain pounce and rake.</p>
+<p><strong>Skills</strong>: The griffon’s master skill is <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> to reflect its keen vision, and its good skills in <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a> and <a class="reference internal" href="corerulebook.skills.fly.html#corerulebook-skills-fly-fly"><span class="std std-ref">Fly</span></a> give it agility in the air.</p>
+</div>
+<div class="section" id="id11">
+<h3><a class="toc-backref" href="#id97">Griffon</a><a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h3>
+<p><strong>CR/HD 4</strong></p>
+<p><strong>Init</strong> +2; <strong>Perception</strong> +12 (darkvision 60 ft., low-light vision, scent)</p>
+<p><strong>Size</strong>Large (10 ft.); <strong>Speed</strong> 30 ft., fly 80 ft. (average)</p>
+</div>
+<div class="section" id="id12">
+<h3><a class="toc-backref" href="#id98">Defenses</a><a class="headerlink" href="#id12" title="Permalink to this headline">¶</a></h3>
+<p><strong>AC</strong> 19 (touch 11, flat-footed 15); <strong>Fort</strong> +7, <strong>Ref</strong>+7, <strong>Will</strong> +3; <strong>CMD</strong> 21</p>
+<p><strong>hp</strong>44</p>
+</div>
+<div class="section" id="id13">
+<h3><a class="toc-backref" href="#id99">Attacks</a><a class="headerlink" href="#id13" title="Permalink to this headline">¶</a></h3>
+<p><strong>Melee</strong> bite +10 (1d6+10), 2 talons +5 (1d6+4)</p>
+<p><strong>Attack Options</strong>(DC 13) pounce, rake;<strong>CMB</strong> +12</p>
+</div>
+<div class="section" id="id14">
+<h3><a class="toc-backref" href="#id100">Statistics</a><a class="headerlink" href="#id14" title="Permalink to this headline">¶</a></h3>
+<p><strong>Str</strong> +4, <strong>Dex</strong> +2, <strong>Con</strong> +2, <strong>Int</strong> –3; <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a> +9, <a class="reference internal" href="corerulebook.skills.fly.html#corerulebook-skills-fly-fly"><span class="std std-ref">Fly</span></a> +9</p>
+<p><strong>XP</strong> 1,200; N magical beast</p>
+</div>
+<div class="section" id="goblin-fighter">
+<span id="unchained-monsters-monstercreationexamples-goblin-fighter"></span><h3><a class="toc-backref" href="#id101">Goblin Fighter</a><a class="headerlink" href="#goblin-fighter" title="Permalink to this headline">¶</a></h3>
+<p>The goblin fighter is a suitable minion for any overlord, provided it doesn’t burn the fortress down.</p>
+<p><strong>Array</strong>: The goblin fighter is a combatant, as required by the fighter class graft.</p>
+<p><strong>Creature Type</strong>: Because of the fighter class graft, the goblin does not gain anything from the humanoid type.</p>
+<p><strong>Class</strong>: As a fighter, the goblin increases both its Fortitude and Reflex bonuses from +1 to +2. It also receives one combat option from its fighter graft.</p>
+<p><strong>Subtype</strong>: The goblin fighter gains <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> as a good skill from the goblinoid subtype.</p>
+<p><strong>Size</strong>: The goblin’s Small size increases its touch AC and flat-footed AC by 1, reduces its CMB by 2, and reduces its CMD by 1. It gains <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> as a good skill (again; see below).</p>
+<p><strong>Options</strong>: A fighter of this CR typically gets one combat option, but this goblin has two additional options to reflect its quick combat style. The accuracy, dodge expert, and improved initiative options are all calculated in the goblin fighter’s statistics. The adjustment to flat-footed AC from dodge expert would have made the goblin’s flat-footed AC too low for a monster at this CR, so the goblin gains only a +1 bonus to touch AC and no penalty to its flat-footed AC. Goblins are able to see in the dark, so the goblin gains the darkvision option. As usual, adding a sense didn’t count against the goblin’s number of options.</p>
+<p><strong>Skills</strong>: The goblin already gets <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> as a good skill from both the goblinoid and Small grafts, so instead it was discretionarily given <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> as a second master skill.</p>
+</div>
+<div class="section" id="id15">
+<h3><a class="toc-backref" href="#id102">Goblin Fighter</a><a class="headerlink" href="#id15" title="Permalink to this headline">¶</a></h3>
+<p><strong>CR/HD 1/2</strong></p>
+<p><strong>Init</strong> +7; <strong>Perception</strong> +5 (darkvision 60 ft.)</p>
+<p><strong>Size</strong>Small; <strong>Speed</strong> 30 ft.</p>
+</div>
+<div class="section" id="id16">
+<h3><a class="toc-backref" href="#id103">Defenses</a><a class="headerlink" href="#id16" title="Permalink to this headline">¶</a></h3>
+<p><strong>AC</strong> 15 (touch 14, flat-footed 13); <strong>Fort</strong> +2, <strong>Ref</strong>+2, <strong>Will</strong> +0; <strong>CMD</strong> 12</p>
+<p><strong>hp</strong>11</p>
+</div>
+<div class="section" id="id17">
+<h3><a class="toc-backref" href="#id104">Attacks</a><a class="headerlink" href="#id17" title="Permalink to this headline">¶</a></h3>
+<p><strong>Melee</strong> short sword +3 (1d4+2/19–20)</p>
+<p><strong>Ranged</strong> shortbow (range 60 ft.) +3 (1d4+2/×3)</p>
+<p><strong>CMB</strong> +1</p>
+</div>
+<div class="section" id="id18">
+<h3><a class="toc-backref" href="#id105">Statistics</a><a class="headerlink" href="#id18" title="Permalink to this headline">¶</a></h3>
+<p><strong>Str</strong> +2, <strong>Dex</strong> +3, <strong>Con</strong> +1, <strong>Cha</strong>–2; <a class="reference internal" href="corerulebook.skills.ride.html#corerulebook-skills-ride-ride"><span class="std std-ref">Ride</span></a> +8, <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> +8, <a class="reference internal" href="corerulebook.skills.swim.html#corerulebook-skills-swim-swim"><span class="std std-ref">Swim</span></a> +5</p>
+<p><strong>XP</strong> 200; CE humanoid (goblinoid) fighter 1</p>
+</div>
+<div class="section" id="zombie-minotaur">
+<span id="unchained-monsters-monstercreationexamples-zombie-minotaur"></span><h3><a class="toc-backref" href="#id106">Zombie Minotaur</a><a class="headerlink" href="#zombie-minotaur" title="Permalink to this headline">¶</a></h3>
+<p>Some templates have complicated alterations, but the zombie template is fairly easy to apply.</p>
+<p><strong>Array</strong>: The zombie uses the combatant array, as suggested in the zombie template.</p>
+<p><strong>Creature Type</strong>: The undead graft gives the creature darkvision 60 feet and undead immunities, and sets its Constitution to —. It also increases the minotaur’s Will save from +1 to +3. The elective adjustments for mindless undead will be covered by the template graft.</p>
+<p><strong>Template</strong>: The zombie template makes the minotaur staggered, changes its Intelligence to —, gives it DR 5/slashing, and gives it the extra hit points option to represent a zombie’s resilience.</p>
+<p><strong>Size</strong>: As a Large creature, the minotaur changes its touch AC from 12 to 11 and its flat-footed AC from 12 to 13. Its CMB increases from +2 to +4, and its CMD goes from 14 to 15.</p>
+<p><strong>Options</strong>: The extra hit points option from the zombie template increases the zombie’s hp from 16 to 19. Although the zombie template adds more options than the monster would normally have, the zombie still gains the powerful charge option to keep the minotaur feel.</p>
+</div>
+<div class="section" id="id19">
+<h3><a class="toc-backref" href="#id107">Zombie Minotaur</a><a class="headerlink" href="#id19" title="Permalink to this headline">¶</a></h3>
+<p><strong>CR/HD 1</strong></p>
+<p><strong>Init</strong> +0; <strong>Perception</strong> +6 (darkvision 60 ft.)</p>
+<p><strong>Size</strong>Large (10 ft.); <strong>Speed</strong> 30 ft.</p>
+</div>
+<div class="section" id="id20">
+<h3><a class="toc-backref" href="#id108">Defenses</a><a class="headerlink" href="#id20" title="Permalink to this headline">¶</a></h3>
+<p><strong>AC</strong> 14 (touch 11, flat-footed 13); <strong>Fort</strong> +2, <strong>Ref</strong>+2, <strong>Will</strong> +3; <strong>CMD</strong> 15</p>
+<p><strong>hp</strong>19; <strong>DR</strong>5/slashing; <strong>Immune</strong> undead immunities</p>
+<p><strong>Weakness</strong> staggered</p>
+</div>
+<div class="section" id="id21">
+<h3><a class="toc-backref" href="#id109">Attacks</a><a class="headerlink" href="#id21" title="Permalink to this headline">¶</a></h3>
+<p><strong>Melee</strong> gore (reach 10 ft.) +2 (1d6+4) or slam (reach 10 ft.) +2 (1d8+3)</p>
+<p><strong>Attack Options</strong>powerful charge;<strong>CMB</strong> +4</p>
+</div>
+<div class="section" id="id22">
+<h3><a class="toc-backref" href="#id110">Statistics</a><a class="headerlink" href="#id22" title="Permalink to this headline">¶</a></h3>
+<p><strong>Str</strong> +3, <strong>Con</strong> —, <strong>Int</strong> —, <strong>Wis</strong> +1, <strong>Cha</strong> +2</p>
+<p><strong>XP</strong> 400; NE undead</p>
+</div>
+<div class="section" id="bat-swarm">
+<span id="unchained-monsters-monstercreationexamples-bat-swarm"></span><h3><a class="toc-backref" href="#id111">Bat Swarm</a><a class="headerlink" href="#bat-swarm" title="Permalink to this headline">¶</a></h3>
+<p>The bat swarm is straightforward to create, but its swarm subtype is complicated and grants it additional features that make it unlike other monsters.</p>
+<p><strong>Array</strong>: Since a bat swarm is made up of creatures with only animal intelligence, the combatant array is the only choice for it that makes sense.</p>
+<p><strong>Creature Type</strong>: The animal type increases the bat swarm’s Fortitude and Reflex bonuses each from +3 to +5 and grants low-light vision, but it mandates an Intelligence modifier of either –4 or –5. Bats are slightly more intelligent than some other animals, so they have a –4 modifier.</p>
+<p><strong>Subtype</strong>: The swarm subtype grants the bat swarm its various immunities, vulnerability to area effects, swarm traits, swarm attack, and distraction.</p>
+<p><strong>Size</strong>: The bat swarm is made up of many Diminutive creatures, so it gains a +4 bonus to touch and flat-footed AC. As a swarm, it doesn’t have CMB or CMD, so the size adjustments to those numbers are ignored. It also gains <a class="reference internal" href="corerulebook.skills.fly.html#corerulebook-skills-fly-fly"><span class="std std-ref">Fly</span></a> and <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> as master skills.</p>
+<p><strong>Options</strong>: The bat swarm’s option is a weaker variant of the bleed attack option.</p>
+<p><strong>Skills</strong>: Other than the master skills from size, the bat swarm’s echolocation enhances its ability to notice things, so it gets <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> as a master skill. That’s already plenty of skills for an animal, so the bat swarm doesn’t have any good skills.</p>
+</div>
+<div class="section" id="id23">
+<h3><a class="toc-backref" href="#id112">Bat Swarm</a><a class="headerlink" href="#id23" title="Permalink to this headline">¶</a></h3>
+<p><strong>CR/HD 2</strong></p>
+<p><strong>Init</strong> +3; <strong>Perception</strong> +10 (blindsense 20 ft., low-light vision)</p>
+<p><strong>Size</strong>Diminutive (10 ft.); <strong>Speed</strong> 5 ft., fly 40 ft. (good)</p>
+</div>
+<div class="section" id="id24">
+<h3><a class="toc-backref" href="#id113">Defenses</a><a class="headerlink" href="#id24" title="Permalink to this headline">¶</a></h3>
+<p><strong>AC</strong> 16 (touch 16, flat-footed 16); <strong>Fort</strong> +5, <strong>Ref</strong>+5, <strong>Will</strong> +1</p>
+<p><strong>hp</strong>22; <strong>Immune</strong> bull rush, critical hits, flanking, grapple, spells that target a specific number of creatures, trip, weapon damage</p>
+<p><strong>Weakness</strong> +50% damage from area effects</p>
+<p><strong>Defense Options</strong> swarm traits</p>
+</div>
+<div class="section" id="id25">
+<h3><a class="toc-backref" href="#id114">Attacks</a><a class="headerlink" href="#id25" title="Permalink to this headline">¶</a></h3>
+<p><strong>Melee</strong> swarm (all targets in the swarm’s space) always hits (1d6 plus 1 bleed)</p>
+<p><strong>Attack Options</strong>(DC 11) distraction</p>
+</div>
+<div class="section" id="id26">
+<h3><a class="toc-backref" href="#id115">Statistics</a><a class="headerlink" href="#id26" title="Permalink to this headline">¶</a></h3>
+<p><strong>Str</strong> –4, <strong>Dex</strong> +3, <strong>Con</strong> +1, <strong>Int</strong> –4, <strong>Wis</strong> +2; <a class="reference internal" href="corerulebook.skills.fly.html#corerulebook-skills-fly-fly"><span class="std std-ref">Fly</span></a> +10, <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> +10</p>
+<p><strong>XP</strong> 600; N animal (swarm)</p>
+</div>
+<div class="section" id="imp">
+<span id="unchained-monsters-monstercreationexamples-imp"></span><h3><a class="toc-backref" href="#id116">Imp</a><a class="headerlink" href="#imp" title="Permalink to this headline">¶</a></h3>
+<p>A vexing adversary, this imp has a variety of extra options to confound its enemies.</p>
+<p><strong>Array</strong>: The imp uses the expert array, with the Reflex and Will saves swapped. The imp has a Strength modifier of –4 because its size and build make it so physically weak.</p>
+<p><strong>Creature Type</strong>: The outsider graft gives the imp darkvision 60 feet, increases its Will saving throw from +1 to +3, and increases its attack bonus from +4 to +6. It gains the additional master skill mentioned under elective adjustments.</p>
+<p><strong>Subtype</strong>: The devil subtype gives the imp the see in darkness sense, energy resistance 10 to acid and cold, immunity to fire and poison, the summon allies option, and telepathy to a range of 100 feet.</p>
+<p><strong>Size</strong>: Because the imp is Tiny, its touch and flat-footed AC increased from 10 to 12.</p>
+<p><strong>Spells</strong>: The secondary magic option gives the imp some spell-like abilities.</p>
+<p><strong>Options</strong>: Instead of the single monster option that would be normal for an expert of its CR, the imp has a total of five options: change shape, dodge expert, poison, and modified versions of constant invisibility and secondary magic. Dodge expert changes the imp’s AC from 14 (touch 12, flat-footed 12) to 16 (touch 16, flat-footed 10). By the numbers, the imp’s flat-footed AC would drop to 6, but the GM sets it as 10 as part of the reality checking process. For its poison, the imp gets two advantages, which were used to remove the onset time and change the frequency to 1/round for 6 rounds. Instead of the normal effect of constant invisibility, the imp gains invisibility at will, affecting only itself. The modified secondary magic option gives the imp one once-per-day spell and two constant spells instead of two once-per-day spells.</p>
+<p><strong>Skills</strong>: The imp has an extra master skill from the outsider graft, and gains <a class="reference internal" href="corerulebook.skills.fly.html#corerulebook-skills-fly-fly"><span class="std std-ref">Fly</span></a> and <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> from its size graft. The +10 bonus from change shape is included in the <a class="reference internal" href="corerulebook.skills.disguise.html#corerulebook-skills-disguise-disguise"><span class="std std-ref">Disguise</span></a> skill.</p>
+<p><strong>Damage</strong>: The imp uses the low damage value on its sting to compensate for being a low-CR creature with poison.</p>
+</div>
+<div class="section" id="id27">
+<h3><a class="toc-backref" href="#id117">Imp</a><a class="headerlink" href="#id27" title="Permalink to this headline">¶</a></h3>
+<p><strong>CR/HD 2</strong></p>
+<p><strong>Init</strong> +3; <strong>Perception</strong> +7 (darkvision 60 ft., see in darkness)</p>
+<p><strong>Size</strong>Tiny (2-1/2 ft.); <strong>Speed</strong> 20 ft., fly 50 ft. (perfect)</p>
+</div>
+<div class="section" id="id28">
+<h3><a class="toc-backref" href="#id118">Defenses</a><a class="headerlink" href="#id28" title="Permalink to this headline">¶</a></h3>
+<p><strong>AC</strong> 16 (touch 16, flat-footed 6); <strong>Fort</strong> +1, <strong>Ref</strong>+5, <strong>Will</strong> +3; <strong>CMD</strong> 14; <strong>Concentration</strong> +4</p>
+<p><strong>hp</strong>20; <strong>Immune</strong> fire, poison; <strong>Resist</strong> acid 10,cold 10</p>
+</div>
+<div class="section" id="id29">
+<h3><a class="toc-backref" href="#id119">Attacks</a><a class="headerlink" href="#id29" title="Permalink to this headline">¶</a></h3>
+<p><strong>Melee</strong> sting (reach 0 ft.) +6 (1d4+5 plus poison)</p>
+<p><strong>Attack Spell-Like Abilities</strong>(DC 13 + spell’s level) 1/day—<em>suggestion</em></p>
+<p><strong>Attack Options</strong>(DC 13) poison (<em>type</em> injury, <em>frequency</em> 1/round for 6 rounds, <em>effect</em> 1d2 Dex damage, <em>cure</em> 1 save);<strong>CMB</strong> +2</p>
+</div>
+<div class="section" id="id30">
+<h3><a class="toc-backref" href="#id120">Statistics</a><a class="headerlink" href="#id30" title="Permalink to this headline">¶</a></h3>
+<p><strong>Utility Spell-Like Abilities</strong> constant—<em>detect good, detect magic</em>; at will—<em>invisibility</em> (self only)</p>
+<p><strong>Utility Options</strong> <em>change shape</em>(boar, giant spider, rat, or raven, <a class="reference internal" href="corerulebook.spells.beastshape.html#corerulebook-spells-beastshape-beast-shape-i"><span class="std std-ref">beast shape I</span></a>), summon allies (imp, 35%)</p>
+<p><strong>Str</strong> –4, <strong>Dex</strong> +3, <strong>Int</strong> +1, <strong>Cha</strong> +2; <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a> +10, <a class="reference internal" href="corerulebook.skills.bluff.html#corerulebook-skills-bluff-bluff"><span class="std std-ref">Bluff</span></a> +10, <a class="reference internal" href="corerulebook.skills.disguise.html#corerulebook-skills-disguise-disguise"><span class="std std-ref">Disguise</span></a> +12, <a class="reference internal" href="corerulebook.skills.fly.html#corerulebook-skills-fly-fly"><span class="std std-ref">Fly</span></a> +10, <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (arcana) +7, <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (planes) +7, <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> +10; telepathy 100 ft.</p>
+<p><strong>XP</strong> 600; LE outsider (devil, evil, extraplanar, lawful)</p>
+</div>
+<div class="section" id="fire-giant">
+<span id="unchained-monsters-monstercreationexamples-fire-giant"></span><h3><a class="toc-backref" href="#id121">Fire Giant</a><a class="headerlink" href="#fire-giant" title="Permalink to this headline">¶</a></h3>
+<p>This monster uses different gear than the Bestiary fire giant, but has the same CR.</p>
+<p><strong>Array</strong>: The fire giant uses the combatant array.</p>
+<p><strong>Creature Type</strong>: As a humanoid, the giant increases its Fort save from +11 to +13.</p>
+<p><strong>Subtype</strong>: The giant graft gives the giant low-light vision and adds <a class="reference internal" href="corerulebook.skills.intimidate.html#corerulebook-skills-intimidate-intimidate"><span class="std std-ref">Intimidate</span></a> as a good skill.</p>
+<p><strong>Size</strong>: Being Large changes the giant’s touch AC from 15 to 14 and its flat-footed AC from 19 to 20. The giant’s CMB increases from +18 to +20.</p>
+<p><strong>Options</strong>: The monster has one combat option and one of any type. The extra armor option alters the giant’s AC to 28 (touch 8, flat-footed 24) and makes its speed 30 feet instead of 40 feet. The magic weapon (bane) option causes the giant’s greataxe to deal additional damage to dwarves. The monster has rock throwing as a bonus option, and 3 points of that attack’s bludgeoning damage have been replaced with 1d6 points of fire damage since the giant heats the rocks.</p>
+<p><strong>Skills</strong>: This giant is primarily a brute, so its master skill in <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> and the good skill from the giant subtype are sufficient to cover its skills. The GM ignores the remaining two good skills from the combatant array.</p>
+<p><strong>Damage</strong>: The giant is less adept at ranged attacks, so its rock throw attack uses low attack and damage values.</p>
+</div>
+<div class="section" id="id31">
+<h3><a class="toc-backref" href="#id122">Fire Giant</a><a class="headerlink" href="#id31" title="Permalink to this headline">¶</a></h3>
+<p><strong>CR/HD 10</strong></p>
+<p><strong>Init</strong> +0; <strong>Perception</strong> +14 (low-light vision)</p>
+<p><strong>Size</strong>Large (10 ft.); <strong>Speed</strong> 30 ft.</p>
+</div>
+<div class="section" id="id32">
+<h3><a class="toc-backref" href="#id123">Defenses</a><a class="headerlink" href="#id32" title="Permalink to this headline">¶</a></h3>
+<p><strong>AC</strong> 28 (touch 8, flat-footed 24); <strong>Fort</strong> +13, <strong>Ref</strong>+11, <strong>Will</strong> +9; <strong>CMD</strong> 30</p>
+<p><strong>hp</strong>143; <strong>Immune</strong> fire</p>
+<p><strong>Weakness</strong> vulnerability to cold</p>
+<p><strong>Defensive Options</strong> rock throwing</p>
+</div>
+<div class="section" id="id33">
+<h3><a class="toc-backref" href="#id124">Attacks</a><a class="headerlink" href="#id33" title="Permalink to this headline">¶</a></h3>
+<p><strong>Melee</strong> <em>dwarf-bane greataxe</em> (reach 10 ft.) +18/+13/+8 (3d6+19/×3 [+2d6 against dwarves]) or 2 slams (reach 10 ft.) +18 (1d8+21)</p>
+<p><strong>Ranged</strong> rock (range 120 ft.) +13 (1d8+15 plus 1d6 fire)</p>
+<p><strong>CMB</strong> +20</p>
+</div>
+<div class="section" id="id34">
+<h3><a class="toc-backref" href="#id125">Statistics</a><a class="headerlink" href="#id34" title="Permalink to this headline">¶</a></h3>
+<p><strong>Str</strong> +7, <strong>Con</strong> +5, <strong>Wis</strong> +3; <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> +18, <a class="reference internal" href="corerulebook.skills.intimidate.html#corerulebook-skills-intimidate-intimidate"><span class="std std-ref">Intimidate</span></a> +14</p>
+<p><strong>XP</strong> 9,600; LE humanoid (fire, giant)</p>
+</div>
+<div class="section" id="satyr">
+<span id="unchained-monsters-monstercreationexamples-satyr"></span><h3><a class="toc-backref" href="#id126">Satyr</a><a class="headerlink" href="#satyr" title="Permalink to this headline">¶</a></h3>
+<p>With its unique pipes, the satyr requires a custom ability not included in the monster options.</p>
+<p><strong>Array</strong>: As a skillful social creature with a magical bent, the satyr uses the expert array with options to cover its magical abilities.</p>
+<p><strong>Creature Type</strong>: Because of the fey graft, the satyr gains low-light vision. It increases its Reflex from +3 to +5 and its Will from +7 to +9. Its attack bonuses drop from +8 to +6. It has the elective adjustment that grants one additional master skill.</p>
+<p><strong>Spells</strong>: The satyr can channel magical effects through his pipes, so he gains his spells as spell-like abilities. These are chosen on a case-by-case basis instead of using a spell list.</p>
+<p><strong>Options</strong>: The satyr uses its one social option for persuasive, uses its any option for damage reduction, and has a bonus pipes ability. Pipes doesn’t have a corresponding monster option because it’s so specific to satyrs. It’s a custom ability based on the Bestiary satyr’s pipes, but simplified and using the standard ability DC for the satyr’s CR.</p>
+<p><strong>Skills</strong>: Due to being a fey with the expert array, the satyr has four master skills and two good skills.</p>
+<p><strong>Damage</strong>: Instead of having a dagger attack like the satyr in the Bestiary, this one uses only its horn attack in melee. The satyr’s ranged attacks use the low damage value (but the high attack value).</p>
+</div>
+<div class="section" id="id35">
+<h3><a class="toc-backref" href="#id127">Satyr</a><a class="headerlink" href="#id35" title="Permalink to this headline">¶</a></h3>
+<p><strong>CR/HD 4</strong></p>
+<p><strong>Init</strong> +3; <strong>Perception</strong> +12 (low-light vision)</p>
+<p><strong>Size</strong>Medium; <strong>Speed</strong> 40 ft.</p>
+</div>
+<div class="section" id="id36">
+<h3><a class="toc-backref" href="#id128">Defenses</a><a class="headerlink" href="#id36" title="Permalink to this headline">¶</a></h3>
+<p><strong>AC</strong> 17 (touch 10, flat-footed 12); <strong>Fort</strong> +3, <strong>Ref</strong>+5, <strong>Will</strong> +9; <strong>CMD</strong> 18</p>
+<p><strong>hp</strong>40; <strong>DR</strong>5/cold iron</p>
+</div>
+<div class="section" id="id37">
+<h3><a class="toc-backref" href="#id129">Attacks</a><a class="headerlink" href="#id37" title="Permalink to this headline">¶</a></h3>
+<p><strong>Melee</strong> horns +6 (1d6+13)</p>
+<p><strong>Ranged</strong> shortbow (range 60 ft.) +6 (1d6+10/×3)</p>
+<p><strong>Attack Spell-Like Abilities</strong>(DC 14 + spell’s level) 1/day—<em>fear</em>; at will—<em>charm person</em>, <em>sleep, suggestion</em></p>
+<p><strong>Attack Options</strong>(DC 15) pipes; <strong>CMB</strong> +6</p>
+</div>
+<div class="section" id="id38">
+<h3><a class="toc-backref" href="#id130">Statistics</a><a class="headerlink" href="#id38" title="Permalink to this headline">¶</a></h3>
+<p><strong>Utility Options</strong> persuasive</p>
+<p><strong>Dex</strong> +3, <strong>Wis</strong> +1, <strong>Cha</strong> +4; <a class="reference internal" href="corerulebook.skills.bluff.html#corerulebook-skills-bluff-bluff"><span class="std std-ref">Bluff</span></a> +12, <a class="reference internal" href="corerulebook.skills.diplomacy.html#corerulebook-skills-diplomacy-diplomacy"><span class="std std-ref">Diplomacy</span></a> +9, <a class="reference internal" href="corerulebook.skills.intimidate.html#corerulebook-skills-intimidate-intimidate"><span class="std std-ref">Intimidate</span></a> +9, <a class="reference internal" href="corerulebook.skills.perform.html#corerulebook-skills-perform-perform"><span class="std std-ref">Perform</span></a> (wind) +12, <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> +12</p>
+<p><strong>XP</strong> 1,200; CN fey</p>
+</div>
+<div class="section" id="special-abilities">
+<span id="unchained-monsters-monstercreationexamples-special-abilities"></span><h3><a class="toc-backref" href="#id131">Special Abilities</a><a class="headerlink" href="#special-abilities" title="Permalink to this headline">¶</a></h3>
+<p><strong>Pipes (Su)</strong> A satyr can play haunting melodies on his panpipes to affect all creatures within a 60-foot radius with a spell (Will DC 15 negates). Each time it uses this ability, the satyr chooses <em>charm person</em>, <em>fear</em>, <em>sleep</em>, or <em>suggestion</em>. A creature that succeeds at its save can’t be affected by the same set of pipes for 24 hours.</p>
+</div>
+<div class="section" id="frost-giant-explorer">
+<span id="unchained-monsters-monstercreationexamples-frost-giant-explorer"></span><h3><a class="toc-backref" href="#id132">Frost Giant Explorer</a><a class="headerlink" href="#frost-giant-explorer" title="Permalink to this headline">¶</a></h3>
+<p>This creature has access to nature magic, much like a druid would. However, turning it into a spellcaster would make it feel unlike a burly frost giant. Instead, this stat block starts with the combatant array and draws inspiration from the options of the druid class graft. This monster is meant to fight alongside a mastodon (see page 244) as a CR 13 encounter.</p>
+<p><strong>Array</strong>: The frost giant uses the combatant array and gains its spellcasting from its magic options. Its Reflex and Will save bonuses are swapped.</p>
+<p><strong>Creature Type</strong>: Because the monster’s saving throws are uniformly high, it has a –2 penalty to Reflex instead of increasing any save from the humanoid graft.</p>
+<p><strong>Class</strong>: Though the giant doesn’t use the druid graft, many of its options are drawn from there.</p>
+<p><strong>Subtype</strong>: The giant subtype grants low-light vision and gives <a class="reference internal" href="corerulebook.skills.intimidate.html#corerulebook-skills-intimidate-intimidate"><span class="std std-ref">Intimidate</span></a> as a good skill.</p>
+<p><strong>Size</strong>: Because it’s Large, the giant decreases its touch AC from 17 to 16 and raises its flat-footed AC from 21 to 22. Its CMB changes from +21 to +23, and its CMD goes from 32 to 33.</p>
+<p><strong>Spells</strong>: The giant gains a few spells from the Animal spell list due to the secondary magic option. Even though that option says to take the primary spells from the spell lists, it’s reasonable to pick and choose from among both the primary and secondary spells of the monster’s CR band, as was done here.</p>
+<p><strong>Options</strong>: Instead of one of its combat options, the giant gains the powerful summons magic option. It spends its other combat option on rock throwing and its any option on secondary magic.</p>
+<p><strong>Skills</strong>: With its good skill from the giant subtype, the explorer has only one master skill, but a well-rounded set of good skills.</p>
+<p><strong>Damage</strong>: The giant’s thrown rock attack uses the low attack and damage values.</p>
+</div>
+<div class="section" id="id39">
+<h3><a class="toc-backref" href="#id133">Frost Giant Explorer</a><a class="headerlink" href="#id39" title="Permalink to this headline">¶</a></h3>
+<p><strong>CR/HD 12</strong></p>
+<p><strong>Init</strong> +0; <strong>Perception</strong> +16 (low-light vision)</p>
+<p><strong>Size</strong>Large (10 ft.); <strong>Speed</strong> 40 ft.; <strong>Special Movement</strong>terrain stride (ice)</p>
+</div>
+<div class="section" id="id40">
+<h3><a class="toc-backref" href="#id134">Defenses</a><a class="headerlink" href="#id40" title="Permalink to this headline">¶</a></h3>
+<p><strong>AC</strong> 29 (touch 16, flat-footed 22); <strong>Fort</strong> +13, <strong>Ref</strong>+9, <strong>Will</strong> +13; <strong>CMD</strong> 33;<strong>Concentration</strong> +17</p>
+<p><strong>hp</strong>176; <strong>Immune</strong> cold</p>
+<p><strong>Weakness</strong> vulnerability to fire</p>
+<p><strong>Defensive Options</strong> rock throwing</p>
+</div>
+<div class="section" id="id41">
+<h3><a class="toc-backref" href="#id135">Attacks</a><a class="headerlink" href="#id41" title="Permalink to this headline">¶</a></h3>
+<p><strong>Melee</strong> spear (reach 10 ft.) +21/+16/+11 (2d6+27/×3) or 2 slams (reach 10 ft.) +21 (1d8+27)</p>
+<p><strong>Ranged</strong> rock (range 120 ft.) +15 (1d8+21)</p>
+<p><strong>CMB</strong> +23</p>
+</div>
+<div class="section" id="id42">
+<h3><a class="toc-backref" href="#id136">Statistics</a><a class="headerlink" href="#id42" title="Permalink to this headline">¶</a></h3>
+<p><strong>Utility Spells</strong> 1/day—<a class="reference internal" href="corerulebook.spells.beastshape.html#corerulebook-spells-beastshape-beast-shape-iv"><span class="std std-ref">beast shape IV</span></a> (animal only), <a class="reference internal" href="corerulebook.spells.summonnaturesally.html#summon nature's ally vii"><span class="std std-ref">summon nature’s ally VII</span></a></p>
+<p><strong>Utility Options</strong> powerful summons</p>
+<p><strong>Str</strong> +8, <strong>Con</strong> +4, <strong>Wis</strong> +5; <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> +16, <a class="reference internal" href="corerulebook.skills.intimidate.html#corerulebook-skills-intimidate-intimidate"><span class="std std-ref">Intimidate</span></a> +16, <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (nature) +20, <a class="reference internal" href="corerulebook.skills.survival.html#corerulebook-skills-survival-survival"><span class="std std-ref">Survival</span></a> +16</p>
+<p><strong>XP</strong> 19,200; CE humanoid (cold, giant)</p>
+</div>
+<div class="section" id="vampire-cleric">
+<span id="unchained-monsters-monstercreationexamples-vampire-cleric"></span><h3><a class="toc-backref" href="#id137">Vampire Cleric</a><a class="headerlink" href="#vampire-cleric" title="Permalink to this headline">¶</a></h3>
+<p>For an alternative to the vampire sorcerer in the Bestiary, this vampire is a cleric of a slightly higher CR.</p>
+<p><strong>Array</strong>: This creature uses the spellcaster array so it can take the cleric class graft.</p>
+<p><strong>Creature Type</strong>: As indicated in the vampire template graft, the vampire must have the undead type. Because it will have the cleric class graft, the vampire gains only the automatic traits from the undead type: darkvision 60 feet, undead immunities, and a Constitution of —.</p>
+<p><strong>Class</strong>: The cleric class graft increases the vampire’s Fortitude save from +10 to +12 and gives it <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (religion) as a master skill. It automatically gains the channel energy and spontaneous casting options.</p>
+<p><strong>Subtype</strong>: The vampire has the augmented humanoid subtype, though this doesn’t alter its abilities.</p>
+<p><strong>Template</strong>: The vampire template graft increases the vampire’s AC from 23 to 25 and flat-footed AC from 17 to 19. The vampire also gains spider climb as a constant spell-like ability and gets vampire weaknesses. The template gives a large number of options: at-will magic (dominate person), blood drain, change shape, channel resistance, children of the night, create spawn, damage reduction, energy drain, energy resistance 10 (cold and electricity), fast healing 5, and gaseous form. Because the vampire has DR and so many healing abilities, its hit points are calculated as though its CR were 2 lower, giving it 103 hp.</p>
+<p><strong>Spells</strong>: Because of its violent and cruel nature, this cleric mixes the Evil and War domain spell lists instead of taking spells from one list exclusively. The monster has the special ability from only the War spell list, which increases its attack bonuses by 1.</p>
+<p><strong>Options</strong>: As a cleric, the monster would normally have one additional option (of any type) beyond what it has here. However, because the monster gains so many abilities from being a vampire, adding yet another option is unnecessary.</p>
+<p><strong>Skills</strong>: Because of the vampire template, this creature has <a class="reference internal" href="corerulebook.skills.bluff.html#corerulebook-skills-bluff-bluff"><span class="std std-ref">Bluff</span></a>, <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a>, <a class="reference internal" href="corerulebook.skills.sensemotive.html#corerulebook-skills-sensemotive-sense-motive"><span class="std std-ref">Sense Motive</span></a>, and <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> as master skills. The +10 bonus from change shape is included in the <a class="reference internal" href="corerulebook.skills.disguise.html#corerulebook-skills-disguise-disguise"><span class="std std-ref">Disguise</span></a> skill.</p>
+<p><strong>Damage</strong>: The slam attack uses the low damage value since it can also bestow negative levels and heal the vampire. The vampire’s ranged attack uses the low attack and damage values.</p>
+</div>
+<div class="section" id="id43">
+<h3><a class="toc-backref" href="#id138">Vampire Cleric</a><a class="headerlink" href="#id43" title="Permalink to this headline">¶</a></h3>
+<p><strong>CR/HD 11</strong></p>
+<p><strong>Init</strong> +2; <strong>Perception</strong> +19 (darkvision 60 ft.)</p>
+<p><strong>Size</strong>Medium; <strong>Speed</strong> 30 ft.; <strong>Special Movement</strong><em>spider climb</em>(constant)</p>
+</div>
+<div class="section" id="id44">
+<h3><a class="toc-backref" href="#id139">Defenses</a><a class="headerlink" href="#id44" title="Permalink to this headline">¶</a></h3>
+<p><strong>AC</strong> 25 (touch 13, flat-footed 19); <strong>Fort</strong> +12, <strong>Ref</strong>+10, <strong>Will</strong> +14; <strong>CMD</strong> 26; <strong>Concentration</strong> +20</p>
+<p><strong>hp</strong>103; fast healing 5; <strong>DR</strong>10/magic and silver; <strong>Immune</strong> undead immunities; <strong>Resist</strong>cold 10, electricity 10</p>
+<p><strong>Weakness</strong> vampire weaknesses</p>
+<p><strong>Defensive Options</strong>channel resistance +4</p>
+</div>
+<div class="section" id="id45">
+<h3><a class="toc-backref" href="#id140">Attacks</a><a class="headerlink" href="#id45" title="Permalink to this headline">¶</a></h3>
+<p><strong>Melee</strong> scythe +20/+15 (2d4+25/×4) or slam +20 (1d4+20 plus energy drain [2 negative levels])</p>
+<p><strong>Ranged</strong> light crossbow (range 80 ft.) +15 (1d8+22/19–20)</p>
+<p><strong>Attack Spells</strong>(DC 17 + spell’s level) 1/day—<em>dispel good, slay living</em>; 3/day—<em>bestow curse, spiritual weapon</em>; at will—<em>bane</em>, <em>dominate person, inflict light wounds</em></p>
+<p><strong>Attack Options</strong>blood drain, channel energy (negative energy), spontaneous casting (inflict); <strong>CMB</strong> +20</p>
+</div>
+<div class="section" id="id46">
+<h3><a class="toc-backref" href="#id141">Statistics</a><a class="headerlink" href="#id46" title="Permalink to this headline">¶</a></h3>
+<p><strong>Utility Spells</strong> 3/day—<em>darkness, prayer</em>; at will—<em>change shape</em>(dire bat or wolf, <a class="reference internal" href="corerulebook.spells.beastshape.html#corerulebook-spells-beastshape-beast-shape-ii"><span class="std std-ref">beast shape II</span></a>)</p>
+<p><strong>Utility Options</strong> children of the night, create spawn, gaseous form</p>
+<p><strong>Str</strong>+8,<strong>Con</strong>—, <strong>Dex</strong>+2, <strong>Int</strong>+1,<strong>Wis</strong>+9,<strong>Cha</strong> +5; <a class="reference internal" href="corerulebook.skills.bluff.html#corerulebook-skills-bluff-bluff"><span class="std std-ref">Bluff</span></a> +19, <a class="reference internal" href="corerulebook.skills.disguise.html#corerulebook-skills-disguise-disguise"><span class="std std-ref">Disguise</span></a> +15, <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (religion) +19, <a class="reference internal" href="corerulebook.skills.sensemotive.html#corerulebook-skills-sensemotive-sense-motive"><span class="std std-ref">Sense Motive</span></a> +19, <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> +19</p>
+<p><strong>XP</strong> 12,800; CE undead (augmented humanoid) cleric 10</p>
+</div>
+<div class="section" id="ogre-mage">
+<span id="unchained-monsters-monstercreationexamples-ogre-mage"></span><h3><a class="toc-backref" href="#id142">Ogre Mage</a><a class="headerlink" href="#ogre-mage" title="Permalink to this headline">¶</a></h3>
+<p>The ogre mage oni are devious shapeshifters who combine martial prowess with magical threats.</p>
+<p><strong>Array</strong>: The ogre mage’s consistent fallback strategy is its mighty greatsword, so it uses the combatant array. Since oni take many roles depending on the situation, the ogre mage has more high ability modifiers than usual. Since the ogre mage’s mind is stronger than its reflexes, it switches its Will and Reflex save bonuses.</p>
+<p><strong>Creature Type</strong>: As an outsider, the ogre mage gains darkvision and +2 on attack rolls and Fortitude saves.</p>
+<p><strong>Subtype</strong>: The ogre mage has two subtype grafts, and gains options from both of them. The oni subtype grants the change shape and regeneration options. The giant subtype grants low-light vision as well as <a class="reference internal" href="corerulebook.skills.intimidate.html#corerulebook-skills-intimidate-intimidate"><span class="std std-ref">Intimidate</span></a> as a good skill.</p>
+<p><strong>Size</strong>: The ogre mage’s Large size gives it –1 to touch AC, +1 to flat-footed AC, +2 to CMB, and +1 to CMD.</p>
+<p><strong>Spells</strong>: The ogre mage took the secondary magic option twice, gaining a set of custom spells that assist with infiltration and combat. It receives darkness and invisibility at will as an additional bonus.</p>
+<p><strong>Options</strong>: The improved initiative option is included in the ogre mage’s statistics.</p>
+<p><strong>Skills</strong>: The ogre mage is more of a generalist than a specialist, able to handle a variety of situations equally well. Instead of one master skill and two good skills, the versatile ogre mage has five good skills beyond the two it receives from the giant subtype.</p>
+<p><strong>Damage</strong>: The ogre mage uses the low attack and damage values for its composite longbow.</p>
+</div>
+<div class="section" id="id47">
+<h3><a class="toc-backref" href="#id143">Ogre Mage</a><a class="headerlink" href="#id47" title="Permalink to this headline">¶</a></h3>
+<p><strong>CR/HD 8</strong></p>
+<p><strong>Init</strong> +6; <strong>Perception</strong> +13 (darkvision 60 ft., low-light vision)</p>
+<p><strong>Size</strong>Large (10 ft.); <strong>Speed</strong> 40 ft., fly 60 ft. (good)</p>
+</div>
+<div class="section" id="id48">
+<h3><a class="toc-backref" href="#id144">Defenses</a><a class="headerlink" href="#id48" title="Permalink to this headline">¶</a></h3>
+<p><strong>AC</strong> 23 (touch 12, flat-footed 18); <strong>Fort</strong> +11, <strong>Ref</strong>+7, <strong>Will</strong> +9; <strong>CMD</strong> 27; <strong>SR</strong> 19;<strong>Concentration</strong> +12</p>
+<p><strong>hp</strong>110; regeneration 5 (acid, fire)</p>
+</div>
+<div class="section" id="id49">
+<h3><a class="toc-backref" href="#id145">Attacks</a><a class="headerlink" href="#id49" title="Permalink to this headline">¶</a></h3>
+<p><strong>Melee</strong> greatsword (reach 10 ft.) +17/+12 (3d6+15/19–20)</p>
+<p><strong>Ranged</strong> composite longbow (range 110 ft.) +13/+8 (2d6+12/×3)</p>
+<p><strong>Attack Spell-Like Abilities</strong>(DC 13 + spell’s level) 1/day— <em>charm monster</em>, <a class="reference internal" href="corerulebook.spells.coneofcold.html#corerulebook-spells-coneofcold-cone-of-cold"><span class="std std-ref">cone of cold</span></a>, <a class="reference internal" href="corerulebook.spells.deepslumber.html#corerulebook-spells-deepslumber-deep-slumber"><span class="std std-ref">deep slumber</span></a></p>
+<p><strong>CMB</strong> +19</p>
+</div>
+<div class="section" id="id50">
+<h3><a class="toc-backref" href="#id146">Statistics</a><a class="headerlink" href="#id50" title="Permalink to this headline">¶</a></h3>
+<p><strong>Utility Spell-Like Abilities</strong> 1/day—<a class="reference internal" href="corerulebook.spells.gaseousform.html#corerulebook-spells-gaseousform-gaseous-form"><span class="std std-ref">gaseous form</span></a>; at will—<em>darkness</em>, <em>invisibility</em>;constant—<em>fly</em></p>
+<p><strong>Utility Options</strong>change shape (Small, Medium, or Large humanoid; <a class="reference internal" href="corerulebook.spells.alterself.html#corerulebook-spells-alterself-alter-self"><span class="std std-ref">alter self</span></a> or <a class="reference internal" href="corerulebook.spells.giantform.html#corerulebook-spells-giantform-giant-form-i"><span class="std std-ref">giant form I</span></a>)</p>
+<p><strong>Str</strong> +6, <strong>Dex</strong> +2, <strong>Con</strong> +6, <strong>Int</strong> +2, <strong>Wis</strong> +2, <strong>Cha</strong> +4; <a class="reference internal" href="corerulebook.skills.bluff.html#corerulebook-skills-bluff-bluff"><span class="std std-ref">Bluff</span></a> +13, <a class="reference internal" href="corerulebook.skills.disguise.html#corerulebook-skills-disguise-disguise"><span class="std std-ref">Disguise</span></a> +23, <a class="reference internal" href="corerulebook.skills.intimidate.html#corerulebook-skills-intimidate-intimidate"><span class="std std-ref">Intimidate</span></a> +13, <a class="reference internal" href="corerulebook.skills.sensemotive.html#corerulebook-skills-sensemotive-sense-motive"><span class="std std-ref">Sense Motive</span></a> +13, <a class="reference internal" href="corerulebook.skills.spellcraft.html#corerulebook-skills-spellcraft-spellcraft"><span class="std std-ref">Spellcraft</span></a> +13, <a class="reference internal" href="corerulebook.skills.usemagicdevice.html#corerulebook-skills-usemagicdevice-use-magic-device"><span class="std std-ref">Use Magic Device</span></a> +13</p>
+<p><strong>XP</strong> 4,800; LE outsider (giant, native, oni, shapechanger)</p>
+</div>
+<div class="section" id="night-hag-soul-collector">
+<span id="unchained-monsters-monstercreationexamples-night-hag-soul-collector"></span><h3><a class="toc-backref" href="#id147">Night Hag Soul Collector</a><a class="headerlink" href="#night-hag-soul-collector" title="Permalink to this headline">¶</a></h3>
+<p>The night hag soul collector is not only a dangerous opponent; she is also dangerously well connected. She can force her captured souls to do her bidding to augment her own combat effectiveness, granting her powers from the summoner class graft.</p>
+<p><strong>Array</strong>: This night hag is a summoner for all practical purposes, so she uses the spellcaster array, albeit with increased ability modifiers to reflect the fact that she is physically imposing for a spellcaster.</p>
+<p><strong>Creature Type</strong>: Since her type is outsider, the night hag gains darkvision and a +2 bonus on attack rolls. She trades the outsider saving throw adjustments for the summoner adjustments.</p>
+<p><strong>Class</strong>: The night hag soul collector’s summoner class graft increases her Fortitude and Reflex by 1 and grants <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (planes) as a master skill. The lost soul acts as her eidolon. The night hag is thematically similar to a summoner, but isn’t treated as actually having class levels in summoner.</p>
+<p><strong>Spells</strong>: The night hag uses a modified version of the conjuration spell list, to stay in theme with her spontaneous summoning from the summoner class graft. As a soul broker, she needs constant detection spells to inspect her merchandise, as well as the soul bind spell at will.</p>
+<p><strong>Options</strong>: From the summoner graft, the night hag gains spontaneous magic (summon monster), as well as one magic option and one any option. She chooses change shape and a custom dream haunting option to allow her to torment her foes from safety. To represent the defenses necessary to ply her trade among evil outsiders, the night hag also has particularly potent spell resistance and damage reduction options for her CR.</p>
+<p><strong>Skills</strong>: A night hag encounter might be social and deceptive, so the monster has additional master and good skills, and her +10 bonus from change shape is reflected in her <a class="reference internal" href="corerulebook.skills.disguise.html#corerulebook-skills-disguise-disguise"><span class="std std-ref">Disguise</span></a> skill.</p>
+<p><strong>Damage</strong>: For damage with three primary attacks, the night hag doubles the damage for two primary attacks (18) to get a total of 36, then divides by three (her total number of attacks). Each attack deals roughly 12 points of damage</p>
+<p><strong>Lost Soul</strong>: This represents the twisted form of a lost soul that the night hag can call forth to defend her—effectively her eidolon, since she is using the summoner graft. The soul’s twisted form has screaming mouths on long tendrils that bite as it moves, allowing it to pounce.</p>
+<p>Array: As an eidolon, the lost soul uses the combatant array.</p>
+<p>Creature Type: The outsider type graft grants the lost soul a +2 bonus on attack rolls and Reflex saving throws.</p>
+<p>Size: The lost soul’s Large size grants it –1 to touch AC, +1 to flat-footed AC, +2 to CMB, and +1 to CMD.</p>
+<p>Options: As a combatant, the lost soul gains one combat option and one any option. For these options, it gains pounce and damage reduction.</p>
+<p>Skills: While a combatant normally has one master skill and two good skills, the lost soul is simple, so the GM gives it only <a class="reference internal" href="corerulebook.skills.intimidate.html#corerulebook-skills-intimidate-intimidate"><span class="std std-ref">Intimidate</span></a> as a master skill and <a class="reference internal" href="corerulebook.skills.fly.html#corerulebook-skills-fly-fly"><span class="std std-ref">Fly</span></a> as a good skill.</p>
+<p>Damage: To determine its damage with four primary attacks, the lost soul doubles the damage value for two primary attacks (22) to get 44 points of damage, then divides by 4. Each attack deals 11 points of damage, or 1d8+6 on Table 5–9.</p>
+</div>
+<div class="section" id="id51">
+<h3><a class="toc-backref" href="#id148">Night Hag Soul Collector</a><a class="headerlink" href="#id51" title="Permalink to this headline">¶</a></h3>
+<p><strong>CR/HD 9</strong></p>
+<p><strong>Init</strong> +4; <strong>Perception</strong> +14 (darkvision 60 ft.)</p>
+<p><strong>Size</strong>Medium; <strong>Speed</strong> 30 ft.; <strong>Special Movement</strong><em>etherealness</em>(at will)</p>
+</div>
+<div class="section" id="id52">
+<h3><a class="toc-backref" href="#id149">Defenses</a><a class="headerlink" href="#id52" title="Permalink to this headline">¶</a></h3>
+<p><strong>AC</strong> 21 (touch 12, flat-footed 15); <strong>Fort</strong> +9, <strong>Ref</strong>+9, <strong>Will</strong> +12; <strong>CMD</strong> 24; <strong>SR</strong> 24;<strong>Concentration</strong> +12</p>
+<p><strong>hp</strong>103; <strong>DR</strong>10/cold iron and magic; <strong>Immune</strong> charm, cold, fear, fire, sleep</p>
+</div>
+<div class="section" id="id53">
+<h3><a class="toc-backref" href="#id150">Attacks</a><a class="headerlink" href="#id53" title="Permalink to this headline">¶</a></h3>
+<p><strong>Melee</strong>2 claws +14 (1d4+9), bite +14 (1d6+9)</p>
+<p><strong>Attack Spell-Like Abilities</strong>(DC 16 + spell’s level) 1/day—<a class="reference internal" href="corerulebook.spells.deepslumber.html#corerulebook-spells-deepslumber-deep-slumber"><span class="std std-ref">deep slumber</span></a>; at will—<em>magic missile, ray of enfeeblement</em>,<em>soul bind</em></p>
+<p><strong>Attack Options</strong>dream haunting, spontaneous casting (summon monster); <strong>CMB</strong> +14</p>
+</div>
+<div class="section" id="id54">
+<h3><a class="toc-backref" href="#id151">Statistics</a><a class="headerlink" href="#id54" title="Permalink to this headline">¶</a></h3>
+<p><strong>Utility Spell-Like Abilities</strong> 1/day—<a class="reference internal" href="corerulebook.spells.dimensiondoor.html#corerulebook-spells-dimensiondoor-dimension-door"><span class="std std-ref">dimension door</span></a>; 3/day—<em>darkness</em>, <a class="reference internal" href="corerulebook.spells.dispelmagic.html#corerulebook-spells-dispelmagic-dispel-magic"><span class="std std-ref">dispel magic</span></a>, <em>haste</em>, <em>invisibility</em>; constant—<a class="reference internal" href="corerulebook.spells.detectchaos.html#corerulebook-spells-detectchaos-detect-chaos"><span class="std std-ref">detect chaos</span></a>, <a class="reference internal" href="corerulebook.spells.detectevil.html#corerulebook-spells-detectevil-detect-evil"><span class="std std-ref">detect evil</span></a>, <a class="reference internal" href="corerulebook.spells.detectgood.html#corerulebook-spells-detectgood-detect-good"><span class="std std-ref">detect good</span></a>, <a class="reference internal" href="corerulebook.spells.detectlaw.html#corerulebook-spells-detectlaw-detect-law"><span class="std std-ref">detect law</span></a>, <a class="reference internal" href="corerulebook.spells.detectmagic.html#corerulebook-spells-detectmagic-detect-magic"><span class="std std-ref">detect magic</span></a>; double the duration of all conjuration (summoning) spells</p>
+<p><strong>Utility Options</strong> change shape, soul broker</p>
+<p><strong>Str</strong> +6, <strong>Dex</strong> +4, <strong>Con</strong> +6, <strong>Int</strong> +4, <strong>Wis</strong> +3, <strong>Cha</strong> +3; <a class="reference internal" href="corerulebook.skills.bluff.html#corerulebook-skills-bluff-bluff"><span class="std std-ref">Bluff</span></a> +17, <a class="reference internal" href="corerulebook.skills.diplomacy.html#corerulebook-skills-diplomacy-diplomacy"><span class="std std-ref">Diplomacy</span></a> +14, <a class="reference internal" href="corerulebook.skills.disguise.html#corerulebook-skills-disguise-disguise"><span class="std std-ref">Disguise</span></a> +27, <a class="reference internal" href="corerulebook.skills.intimidate.html#corerulebook-skills-intimidate-intimidate"><span class="std std-ref">Intimidate</span></a> +14, <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (planes) +17, <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> +14, <a class="reference internal" href="corerulebook.skills.sensemotive.html#corerulebook-skills-sensemotive-sense-motive"><span class="std std-ref">Sense Motive</span></a> +14, <a class="reference internal" href="corerulebook.skills.spellcraft.html#corerulebook-skills-spellcraft-spellcraft"><span class="std std-ref">Spellcraft</span></a> +14</p>
+<p><strong>XP</strong> 6,400; NE outsider (evil, extraplanar)</p>
+</div>
+<div class="section" id="id55">
+<h3><a class="toc-backref" href="#id152">Special Abilities</a><a class="headerlink" href="#id55" title="Permalink to this headline">¶</a></h3>
+<p><strong>Dream Haunting (Su)</strong> The night hag can haunt a creature’s dreams from her home on the Ethereal Plane. A creature she haunts takes 1 point of Constitution damage when it awakes.</p>
+<p><strong>Soul Broker (Su)</strong> As a standard action, the night hag can release one of her captured souls to fight at her side; see the night hag’s lost soul statistics, below.</p>
+</div>
+<div class="section" id="night-hag-s-lost-soul">
+<span id="unchained-monsters-monstercreationexamples-night-hags-lost-soul"></span><h3><a class="toc-backref" href="#id153">Night Hag’s Lost Soul</a><a class="headerlink" href="#night-hag-s-lost-soul" title="Permalink to this headline">¶</a></h3>
+<p><strong>CR/HD 9</strong></p>
+<p><strong>Init</strong> +4; <strong>Perception</strong> +14 (darkvision 60 ft.)</p>
+<p><strong>Size</strong>Large (10 ft.); <strong>Speed</strong> 30 ft., fly 60 ft. (good)</p>
+</div>
+<div class="section" id="id56">
+<h3><a class="toc-backref" href="#id154">Defenses</a><a class="headerlink" href="#id56" title="Permalink to this headline">¶</a></h3>
+<p><strong>AC</strong> 25 (touch 15, flat-footed 18); <strong>Fort</strong> +10, <strong>Ref</strong>+12, <strong>Will</strong> +8; <strong>CMD</strong> 28</p>
+<p><strong>hp</strong>126; <strong>DR</strong>10/cold iron and magic</p>
+</div>
+<div class="section" id="id57">
+<h3><a class="toc-backref" href="#id155">Attacks</a><a class="headerlink" href="#id57" title="Permalink to this headline">¶</a></h3>
+<p><strong>Melee</strong> 4 bites (reach 15 ft.) +19 (1d8+6)</p>
+<p><strong>Attack Options</strong>pounce;<strong>CMB</strong> +19</p>
+</div>
+<div class="section" id="id58">
+<h3><a class="toc-backref" href="#id156">Statistics</a><a class="headerlink" href="#id58" title="Permalink to this headline">¶</a></h3>
+<p><strong>Str</strong> +7, <strong>Dex</strong> +4, <strong>Con</strong> +3; <a class="reference internal" href="corerulebook.skills.fly.html#corerulebook-skills-fly-fly"><span class="std std-ref">Fly</span></a> +14, <a class="reference internal" href="corerulebook.skills.intimidate.html#corerulebook-skills-intimidate-intimidate"><span class="std std-ref">Intimidate</span></a> +17</p>
+<p><strong>XP</strong> 6,400; NE outsider (extraplanar)</p>
+</div>
+<div class="section" id="marilith-general">
+<span id="unchained-monsters-monstercreationexamples-marilith-general"></span><h3><a class="toc-backref" href="#id157">Marilith General</a><a class="headerlink" href="#marilith-general" title="Permalink to this headline">¶</a></h3>
+<p>A six-armed general of the abyssal hordes, the marilith is iconic for its overwhelming number of attacks. This marilith uses custom options to better reflect her skills as a general.</p>
+<p><strong>Array</strong>: As an abyssal general, the marilith uses the combatant array and has additional strong ability modifiers.</p>
+<p><strong>Creature Type</strong>: The marilith is an outsider, so she gains darkvision and a +2 bonus on attack rolls and Fortitude saves. She also gains the elective adjustment of spells, with a modified list.</p>
+<p><strong>Subtype</strong>: From the demon subtype, the marilith gains her immunities, resistances, summon ability, and telepathy. Her tactical nature gives her a wider-than-normal variety of allies she can call forth with her summon ability.</p>
+<p><strong>Size</strong>: The marilith’s Large size grants her –1 to touch AC, +1 to flat-footed AC, +2 to CMB, and +1 to CMD.</p>
+<p><strong>Spells</strong>: The marilith prefers to meet her enemies directly with her numerous blades, so her modified spell list is more about trickery, mobility, and battlefield control than about directly attacking her foes with magic.</p>
+<p><strong>Options</strong>: Normally, a CR 17 combatant has two combat options and one any option, but the marilith general is cunning and tactical. To better lead her forces in battle, in addition to critical striker and damage reduction, she gets the heroic recovery and inspire courage social options.</p>
+<p><strong>Skills</strong>: In order to keep her command post, a marilith general needs guile and social skills. Therefore, she has more master skills than normal, but trades away one good skill in the bargain.</p>
+<p><strong>Damage</strong>: The marilith’s multi-armed attacks make her damage complex to calculate. Doubling the damage for two natural attacks (50) gives her 100 points of damage. This is then increased by 50%—since her iterative attacks and tail are less likely to hit—for a total of 150. Dividing 150 by 10 attacks gets 15, which is 2d6+9 on Table 5–9 on page 241. The tail slap is weaker, so it uses the low attack and damage values for secondary attacks in the three natural attacks column in the array. This reduces the marilith’s overall damage, but not enough to necessitate increasing the rest of her damage.</p>
+</div>
+<div class="section" id="id59">
+<h3><a class="toc-backref" href="#id158">Marilith General</a><a class="headerlink" href="#id59" title="Permalink to this headline">¶</a></h3>
+<p><strong>CR/HD 17</strong></p>
+<p><strong>Init</strong> +5; <strong>Perception</strong> +29 (darkvision 60 ft., <a class="reference internal" href="corerulebook.spells.trueseeing.html#corerulebook-spells-trueseeing-true-seeing"><span class="std std-ref">true seeing</span></a>)</p>
+<p><strong>Size</strong>Large (10 ft.); <strong>Speed</strong> 40 ft.; <strong>Special Movement</strong> <em>greater teleport</em>(at will, self plus 50 lbs. of objects only)</p>
+</div>
+<div class="section" id="id60">
+<h3><a class="toc-backref" href="#id159">Defenses</a><a class="headerlink" href="#id60" title="Permalink to this headline">¶</a></h3>
+<p><strong>AC</strong> 34 (touch 20, flat-footed 25); <strong>Fort</strong> +20, <strong>Ref</strong>+18, <strong>Will</strong> +15; <strong>CMD</strong> 39 (43 vs. grapple, can’t be tripped); <strong>SR</strong> 28;<strong>Concentration</strong> +25</p>
+<p><strong>hp</strong>297; <strong>DR</strong>10/cold iron and good; <strong>Immune</strong> electricity, poison; <strong>Resist</strong>acid 10, cold 10, fire 10; <a class="reference internal" href="corerulebook.spells.unholyaura.html#corerulebook-spells-unholyaura-unholy-aura"><span class="std std-ref">unholy aura</span></a></p>
+<p><strong>Defensive Spell-Like Abilities</strong> at will—<a class="reference internal" href="corerulebook.spells.projectimage.html#corerulebook-spells-projectimage-project-image"><span class="std std-ref">project image</span></a></p>
+</div>
+<div class="section" id="id61">
+<h3><a class="toc-backref" href="#id160">Attacks</a><a class="headerlink" href="#id61" title="Permalink to this headline">¶</a></h3>
+<p><strong>Melee</strong> <em>+1 longsword</em> (reach 10 ft.) +29/+24/+19/+14 (2d6+9/17–20), 5 <em>+1 longswords</em> (reach 10 ft.) +29 (2d6+9/17–20), tail slap +24 (2d6+3 plus improved combat maneuver [grapple])</p>
+<p><strong>Attack Spell-Like Abilities</strong>(DC 18 + spell’s level) 3/day—<a class="reference internal" href="corerulebook.spells.bladebarrier.html#corerulebook-spells-bladebarrier-blade-barrier"><span class="std std-ref">blade barrier</span></a>; at will—<em>telekinesis</em></p>
+<p><strong>Attack Options</strong>critical striker;<strong>CMB</strong> +31 (+35 grapple)</p>
+</div>
+<div class="section" id="id62">
+<h3><a class="toc-backref" href="#id161">Statistics</a><a class="headerlink" href="#id62" title="Permalink to this headline">¶</a></h3>
+<p><strong>Utility Spell-Like Abilities</strong> 3/day—<em>fly</em></p>
+<p><strong>Utility Options</strong> heroic recovery, inspire courage, summon allies (marilith 20%, nalfeshnee 35%, or 1d4 hezrous 60%)</p>
+<p><strong>Str</strong> +8, <strong>Dex</strong> +5, <strong>Con</strong> +11, <strong>Int</strong> +5, <strong>Wis</strong> +5, <strong>Cha</strong> +8; <a class="reference internal" href="corerulebook.skills.bluff.html#corerulebook-skills-bluff-bluff"><span class="std std-ref">Bluff</span></a> +29, <a class="reference internal" href="corerulebook.skills.diplomacy.html#corerulebook-skills-diplomacy-diplomacy"><span class="std std-ref">Diplomacy</span></a> +29, <a class="reference internal" href="corerulebook.skills.intimidate.html#corerulebook-skills-intimidate-intimidate"><span class="std std-ref">Intimidate</span></a> +29, <a class="reference internal" href="corerulebook.skills.sensemotive.html#corerulebook-skills-sensemotive-sense-motive"><span class="std std-ref">Sense Motive</span></a> +21, <a class="reference internal" href="corerulebook.skills.usemagicdevice.html#corerulebook-skills-usemagicdevice-use-magic-device"><span class="std std-ref">Use Magic Device</span></a> +29; telepathy 100 ft.</p>
+<p><strong>XP</strong> 102,400; CE outsider (chaotic, demon, evil, extraplanar)</p>
+</div>
+<div class="section" id="ancient-blue-dragon">
+<span id="unchained-monsters-monstercreationexamples-ancient-blue-dragon"></span><h3><a class="toc-backref" href="#id162">Ancient Blue Dragon</a><a class="headerlink" href="#ancient-blue-dragon" title="Permalink to this headline">¶</a></h3>
+<p>This ancient blue dragon has additional attacks, with damage extrapolated from the natural attacks column for CR 18. Despite being a combatant, it has a reduced spellcasting ability (as if it were a CR 12–15 spellcaster) with a DC halfway between combatant and spellcaster to represent a dragon’s natural spellcasting prowess. The spells are customized for this dragon, and it doesn’t receive an additional boon from selecting one of the preset lists.</p>
+<p>The dragon has seven options instead of four to reflect its many talents, including several built into its statistics: damage reduction, extra armor, and spell resistance. It adds +4 to the DC of its breath weapon to reflect at ability’s raw power. The dragon gains additional Wisdom and Charisma modifiers of +5. It uses the expert array’s number of skills, and has the flying acumen option built into its statistics.</p>
+<p><strong>Array</strong>: The dragon is a mighty and iconic beast. It uses the combatant array, but it also possesses reduced spellcasting abilities, and its advanced age grants it superior mental ability scores.</p>
+<p><strong>Creature Type</strong>: The dragon type grants the ancient blue dragon darkvision, low-light vision, immunity to paralysis and sleep, and a +2 bonus on attack rolls and Will saves. To emphasize its sheer size, the ancient blue dragon also gains an additional +2 bonus on Fortitude saves.</p>
+<p><strong>Size</strong>: The dragon’s Gargantuan size graft grants it –4 to touch AC, +5 to flat-footed AC, +8 to CMB, and +4 to CMD.</p>
+<p><strong>Spells</strong>: To reflect its nature as a slightly lesser spellcaster than a true spellcaster of its CR, the dragon gains the spells of a CR 12–15 spellcaster instead, with DCs halfway between those of the combatant and spellcaster arrays. Since it has its own customized spell list, the dragon doesn’t receive an additional boon from selecting one of the preset lists.</p>
+<p><strong>Options</strong>: Normally, a CR 18 combatant would have three combat options and one any option, but the ancient blue dragon not only has damage reduction, extra armor, and spell resistance, but also critical striker and defense breaker to reflect its ferocious power.</p>
+<p><strong>Skills</strong>: As it has collected untold knowledge over its many years, the ancient blue dragon uses the expert’s number of skills, and its flying acumen option negates the Gargantuan size graft’s prohibition on <a class="reference internal" href="corerulebook.skills.fly.html#corerulebook-skills-fly-fly"><span class="std std-ref">Fly</span></a> as a master skill.</p>
+<p><strong>Damage</strong>: The dragon has three primary attacks and three secondary attacks. The damage for two natural attacks (55) is doubled to 110. This is multiplied by 125% (137 total) since many attacks use a lower bonus. The damage is divided unevenly to emphasize certain attacks: 32 points for the bite and tail slap, 22 per claw, and 13 per wing.</p>
+</div>
+<div class="section" id="id63">
+<h3><a class="toc-backref" href="#id163">Ancient Blue Dragon</a><a class="headerlink" href="#id63" title="Permalink to this headline">¶</a></h3>
+<p><strong>CR/HD 18</strong></p>
+<p><strong>Init</strong> +4; <strong>Perception</strong> +31 (blindsense 60 ft., darkvision 60 ft., low-light vision)</p>
+<p><strong>Aura</strong> electricity (10 ft., 2d6 electricity), frightful presence (300 ft., DC 25)</p>
+<p><strong>Size</strong>Gargantuan (20 ft.); <strong>Speed</strong> 40 ft., burrow 20 ft., fly 250 ft. (clumsy, hover)</p>
+</div>
+<div class="section" id="id64">
+<h3><a class="toc-backref" href="#id164">Defenses</a><a class="headerlink" href="#id64" title="Permalink to this headline">¶</a></h3>
+<p><strong>AC</strong> 37 (touch 11, flat-footed 35); <strong>Fort</strong> +20, <strong>Ref</strong>+18, <strong>Will</strong> +18; <strong>CMD</strong> 43; <strong>SR</strong> 29;<strong>Concentration</strong> +23</p>
+<p><strong>hp</strong>330; <strong>DR</strong>15/magic; <strong>Immune</strong> electricity, paralysis, sleep</p>
+<p><strong>Defensive Spells</strong> 1/day—<em>mislead</em></p>
+</div>
+<div class="section" id="id65">
+<h3><a class="toc-backref" href="#id165">Attacks</a><a class="headerlink" href="#id65" title="Permalink to this headline">¶</a></h3>
+<p><strong>Melee</strong> bite (reach 20 ft.) +30 (4d6+18/19–20), 2 claws (reach 15 ft.) +30 (3d6+12), 2 wings (reach 15 ft.) +25 (2d6+6), tail slap (reach 15 ft.) +25 (3d8+18)</p>
+<p><strong>Attack Spells</strong>(DC 17 + spell’s level) 1/day—<a class="reference internal" href="corerulebook.spells.forcefulhand.html#corerulebook-spells-forcefulhand-forceful-hand"><span class="std std-ref">forceful hand</span></a>; 3/day—<em>enervation</em>, <em>hold monster</em>; at will—<em>haste</em></p>
+<p><strong>Attack Options</strong>(DC 27) breath weapon (120-ft. line, 19d6 electricity), critical striker, defense breaker; <strong>CMB</strong> +36</p>
+</div>
+<div class="section" id="id66">
+<h3><a class="toc-backref" href="#id166">Statistics</a><a class="headerlink" href="#id66" title="Permalink to this headline">¶</a></h3>
+<p><strong>Utility Spells</strong> 3/day—<a class="reference internal" href="corerulebook.spells.dimensiondoor.html#corerulebook-spells-dimensiondoor-dimension-door"><span class="std std-ref">dimension door</span></a>, <a class="reference internal" href="corerulebook.spells.hallucinatoryterrain.html#corerulebook-spells-hallucinatoryterrain-hallucinatory-terrain"><span class="std std-ref">hallucinatory terrain</span></a>; at will—<em>invisibility</em></p>
+<p><strong>Str</strong> +12, <strong>Dex</strong> –2, <strong>Con</strong> +8, <strong>Int</strong> +6, <strong>Wis</strong> +5, <strong>Cha</strong> +5; <a class="reference internal" href="corerulebook.skills.bluff.html#corerulebook-skills-bluff-bluff"><span class="std std-ref">Bluff</span></a> +25, <a class="reference internal" href="corerulebook.skills.fly.html#corerulebook-skills-fly-fly"><span class="std std-ref">Fly</span></a> +31, <a class="reference internal" href="corerulebook.skills.intimidate.html#corerulebook-skills-intimidate-intimidate"><span class="std std-ref">Intimidate</span></a> +31, <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (arcana) +31, <a class="reference internal" href="corerulebook.skills.spellcraft.html#corerulebook-skills-spellcraft-spellcraft"><span class="std std-ref">Spellcraft</span></a> +25</p>
+<p><strong>XP</strong> 153,600; LE dragon (earth)</p>
+</div>
+<div class="section" id="pit-fiend">
+<span id="unchained-monsters-monstercreationexamples-pit-fiend"></span><h3><a class="toc-backref" href="#id167">Pit Fiend</a><a class="headerlink" href="#pit-fiend" title="Permalink to this headline">¶</a></h3>
+<p>With a diverse spread of abilities useful for both combat and spellcasting, a pit fiend remains fairly complex to create even in the simple monster creation system. It’s not really 100% a combatant, so it requires special statistical adjustments.</p>
+<p><strong>Array</strong>: This monster mostly uses the numbers from the combatant array, but gains a large number of spells, and therefore has the hit points of a spellcaster. As a powerful ruler in Hell, the pit fiend’s starting ability modifiers are +13, +13, +9, +9, +6, and +6.</p>
+<p><strong>Creature Type</strong>: As an outsider, the pit fiend gains darkvision 60 feet, increases its Fortitude from +20 to +22, and increases its attack bonuses from +30 to +32. It also gets the elective adjustment for one additional master skill.</p>
+<p><strong>Subtype</strong>: The devil subtype graft grants the see in darkness sense, energy resistance 10 to acid and cold, and immunity to fire and poison. It also gives the pit fiend the summon allies option and telepathy 100 feet.</p>
+<p><strong>Size</strong>: Since it’s Large, the pit fiend decreases its touch AC from 22 to 21 and increases its flat-footed AC from 28 to 29. Its CMB goes up from +32 to +34, and its CMD goes from 42 to 43.</p>
+<p><strong>Spells</strong>: The monster gains spells as though it were a spellcaster. In addition, it can use mass hold monster and greater teleport at will.</p>
+<p><strong>Options</strong>: For the three combat options given by its array, the pit fiend has constrict, damage reduction, and improved combat maneuver (grapple), which also gives it bonuses on CMB checks made to grapple and to CMD against grapple checks. For its one any option, it has poison with eight advantages (two + 1/3 of the pit fiend’s CR of 20). These advantages are removing the onset, changing the frequency to 1/round for 6 rounds, increasing the ability damage three times, increasing the cure to 2 consecutive saves, and two advantages invented specifically for this monster: increasing the frequency to 1/round for 10 rounds, and increasing the cure to 3 consecutive saves. As a nod to classic pit fiends, the monster can regenerate from wounds, but the regeneration amount is so low for its level that it doesn’t cost an option. Its diseased bite is also free, since it won’t matter much in high-level combat. The devil has a bonus option for its fear aura, and doesn’t spend any options for its spells, but these additions are reasonable for a high-level villain such as the pit fiend. The Bestiary pit fiend’s devil shaping ability won’t come up in combat, so it has been omitted.</p>
+<p><strong>Skills</strong>: Because of its creature type graft, the pit fiend has two master skills instead of one.</p>
+<p><strong>Damage</strong>: The number of attacks the pit fiend gains has been reduced from the number in the Bestiary; in particular, its wing attacks have been removed to allow its remaining attacks to have more impact. The array’s two natural attacks’ damage (66) is doubled to 132, then increased by 25% to get 165, which is then divvied up between four attacks. This sets the damage value at 48 points for each claw, 42 for the bite, and 27 for the tail slap.</p>
+</div>
+<div class="section" id="id67">
+<h3><a class="toc-backref" href="#id168">Pit Fiend</a><a class="headerlink" href="#id67" title="Permalink to this headline">¶</a></h3>
+<p><strong>CR/HD 20</strong></p>
+<p><strong>Init</strong> +9; <strong>Perception</strong> +35 (darkvision 60 ft., see in darkness)</p>
+<p><strong>Aura</strong> fear (30 ft., DC 20)</p>
+<p><strong>Size</strong>Large (10 ft.); <strong>Speed</strong> 40 ft., fly 60 ft. (average); <strong>Special Movement</strong><a class="reference internal" href="corerulebook.spells.teleport.html#corerulebook-spells-teleport-teleport-greater"><span class="std std-ref">greater teleport</span></a> (at will, self plus 50 lbs. of objects only)</p>
+</div>
+<div class="section" id="id68">
+<h3><a class="toc-backref" href="#id169">Defenses</a><a class="headerlink" href="#id68" title="Permalink to this headline">¶</a></h3>
+<p><strong>AC</strong> 38 (touch 21, flat-footed 29); <strong>Fort</strong> +22, <strong>Ref</strong>+20, <strong>Will</strong> +17; <strong>CMD</strong> 43 (47 vs. grapple); <strong>SR</strong> 31; <strong>Concentration</strong> +26</p>
+<p><strong>hp</strong>333; regeneration 5 (good weapons, good spells); <strong>DR</strong>10/good and silver;<strong>Immune</strong> fire, poison; <strong>Resist</strong>acid 10, cold 10</p>
+</div>
+<div class="section" id="id69">
+<h3><a class="toc-backref" href="#id170">Attacks</a><a class="headerlink" href="#id69" title="Permalink to this headline">¶</a></h3>
+<p><strong>Melee</strong> 2 claws (reach 10 ft.) +32 (2d8+42), bite (reach 10 ft.) +32 (4d6+30 plus disease and poison), tail slap (reach 10 ft.) +32 (2d8+18 plus improved combat maneuver [grapple])</p>
+<p><strong>Attack Spell-Like Abilities</strong>(DC 17 + spell’s level) 1/day—quickened<em>fireball</em>,<em>meteor swarm</em>; at will—<a class="reference internal" href="corerulebook.spells.holdmonster.html#corerulebook-spells-holdmonster-hold-monster-mass"><span class="std std-ref">mass hold monster</span></a>, <a class="reference internal" href="corerulebook.spells.walloffire.html#corerulebook-spells-walloffire-wall-of-fire"><span class="std std-ref">wall of fire</span></a></p>
+<p><strong>Attack Options</strong>(DC 25) constrict (2d8+60), disease (<em>onset</em> immediate, <em>frequency</em> 1/day, <em>effect</em> 1d4 Str damage, <em>cure</em> 2 consecutive saves), poison (<em>type</em> injury, <em>frequency</em> 1/round for 10 rounds, <em>effect</em> 1d6 Con damage, <em>cure</em> 3 consecutive saves);<strong>CMB</strong> +34 (+38 grapple)</p>
+</div>
+<div class="section" id="id70">
+<h3><a class="toc-backref" href="#id171">Statistics</a><a class="headerlink" href="#id70" title="Permalink to this headline">¶</a></h3>
+<p><strong>Utility Options</strong> summon allies (typically barbed devil or ice devil, 60%)</p>
+<p><strong>Str</strong> +13, <strong>Dex</strong> +9, <strong>Con</strong> +13, <strong>Int</strong> +6, <strong>Wis</strong> +9, <strong>Cha</strong> +6; <a class="reference internal" href="corerulebook.skills.bluff.html#corerulebook-skills-bluff-bluff"><span class="std std-ref">Bluff</span></a> +28, <a class="reference internal" href="corerulebook.skills.intimidate.html#corerulebook-skills-intimidate-intimidate"><span class="std std-ref">Intimidate</span></a> +35, <a class="reference internal" href="corerulebook.skills.sensemotive.html#corerulebook-skills-sensemotive-sense-motive"><span class="std std-ref">Sense Motive</span></a> +28; telepathy 100 ft<em>.</em></p>
+<p><strong>XP</strong> 307,200; LE outsider (devil, evil, extraplanar, lawful)</p>
+</div>
+</div>
+</div>
+
+</body>

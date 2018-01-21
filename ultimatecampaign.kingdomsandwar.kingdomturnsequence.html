@@ -1,0 +1,1525 @@
+
+
+
+
+
+<head>
+    <link rel="stylesheet" href="_static/srd.css" type="text/css" />
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/toggle_list.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+
+
+
+<body>
+    <div class="contents topic" id="id1">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence"></span><p class="topic-title first"></p>
+<ul class="simple">
+<li><a class="reference internal" href="#kingdom-turn-sequence" id="id17">Kingdom Turn Sequence</a><ul>
+<li><a class="reference internal" href="#who-rolls-the-kingdom-check" id="id18">Who Rolls the Kingdom Check?</a></li>
+<li><a class="reference internal" href="#upkeep-phase" id="id19">Upkeep Phase</a></li>
+<li><a class="reference internal" href="#edict-phase" id="id20">Edict Phase</a></li>
+<li><a class="reference internal" href="#income-phase" id="id21">Income Phase</a></li>
+<li><a class="reference internal" href="#event-phase" id="id22">Event Phase</a></li>
+<li><a class="reference internal" href="#edicts" id="id23">Edicts</a><ul>
+<li><a class="reference internal" href="#holiday-edicts" id="id24">Holiday Edicts</a></li>
+<li><a class="reference internal" href="#improvement-edicts" id="id25">Improvement Edicts</a></li>
+<li><a class="reference internal" href="#promotion-edicts" id="id26">Promotion Edicts</a></li>
+<li><a class="reference internal" href="#taxation-edicts" id="id27">Taxation Edicts</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#losing-hexes" id="id28">Losing Hexes</a></li>
+<li><a class="reference internal" href="#terrain-improvements" id="id29">Terrain Improvements</a><ul>
+<li><a class="reference internal" href="#aqueduct" id="id30">Aqueduct *</a></li>
+<li><a class="reference internal" href="#bridge" id="id31">Bridge *</a></li>
+<li><a class="reference internal" href="#canal" id="id32">Canal *</a></li>
+<li><a class="reference internal" href="#farm" id="id33">Farm *</a></li>
+<li><a class="reference internal" href="#fishery" id="id34">Fishery *</a></li>
+<li><a class="reference internal" href="#fort" id="id35">Fort *</a></li>
+<li><a class="reference internal" href="#highway" id="id36">Highway *</a></li>
+<li><a class="reference internal" href="#mine" id="id37">Mine</a></li>
+<li><a class="reference internal" href="#quarry" id="id38">Quarry</a></li>
+<li><a class="reference internal" href="#road" id="id39">Road *</a></li>
+<li><a class="reference internal" href="#sawmill" id="id40">Sawmill</a></li>
+<li><a class="reference internal" href="#watchtower" id="id41">Watchtower *</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#special-terrain" id="id42">Special Terrain</a></li>
+<li><a class="reference internal" href="#settlements-and-districts" id="id43">Settlements and Districts</a></li>
+<li><a class="reference internal" href="#founding-a-settlement" id="id44">Founding a Settlement</a></li>
+<li><a class="reference internal" href="#claiming-water-and-islands" id="id45">Claiming Water and Islands</a></li>
+<li><a class="reference internal" href="#magic-items-in-settlements" id="id46">Magic Items in Settlements</a></li>
+<li><a class="reference internal" href="#buildings" id="id47">Buildings</a></li>
+<li><a class="reference internal" href="#building-descriptions" id="id48">Building Descriptions</a><ul>
+<li><a class="reference internal" href="#academy" id="id49">Academy</a></li>
+<li><a class="reference internal" href="#alchemist" id="id50">Alchemist</a></li>
+<li><a class="reference internal" href="#arena" id="id51">Arena</a></li>
+<li><a class="reference internal" href="#bank" id="id52">Bank</a></li>
+<li><a class="reference internal" href="#bardic-college" id="id53">Bardic College</a></li>
+<li><a class="reference internal" href="#barracks" id="id54">Barracks</a></li>
+<li><a class="reference internal" href="#black-market" id="id55">Black Market</a></li>
+<li><a class="reference internal" href="#brewery" id="id56">Brewery</a></li>
+<li><a class="reference internal" href="#id2" id="id57">Bridge</a></li>
+<li><a class="reference internal" href="#bureau" id="id58">Bureau</a></li>
+<li><a class="reference internal" href="#caster-s-tower" id="id59">Caster’s Tower</a></li>
+<li><a class="reference internal" href="#castle" id="id60">Castle</a></li>
+<li><a class="reference internal" href="#cathedral" id="id61">Cathedral</a></li>
+<li><a class="reference internal" href="#cistern" id="id62">Cistern</a></li>
+<li><a class="reference internal" href="#city-wall" id="id63">City Wall</a></li>
+<li><a class="reference internal" href="#dance-hall" id="id64">Dance Hall</a></li>
+<li><a class="reference internal" href="#dump" id="id65">Dump</a></li>
+<li><a class="reference internal" href="#everflowing-spring" id="id66">Everflowing Spring</a></li>
+<li><a class="reference internal" href="#exotic-artisan" id="id67">Exotic Artisan</a></li>
+<li><a class="reference internal" href="#foreign-quarter" id="id68">Foreign Quarter</a></li>
+<li><a class="reference internal" href="#foundry" id="id69">Foundry</a></li>
+<li><a class="reference internal" href="#garrison" id="id70">Garrison</a></li>
+<li><a class="reference internal" href="#granary" id="id71">Granary</a></li>
+<li><a class="reference internal" href="#graveyard" id="id72">Graveyard</a></li>
+<li><a class="reference internal" href="#guildhall" id="id73">Guildhall</a></li>
+<li><a class="reference internal" href="#herbalist" id="id74">Herbalist</a></li>
+<li><a class="reference internal" href="#hospital" id="id75">Hospital</a></li>
+<li><a class="reference internal" href="#house" id="id76">House</a></li>
+<li><a class="reference internal" href="#inn" id="id77">Inn</a></li>
+<li><a class="reference internal" href="#jail" id="id78">Jail</a></li>
+<li><a class="reference internal" href="#library" id="id79">Library</a></li>
+<li><a class="reference internal" href="#luxury-store" id="id80">Luxury Store</a></li>
+<li><a class="reference internal" href="#magic-shop" id="id81">Magic Shop</a></li>
+<li><a class="reference internal" href="#magical-academy" id="id82">Magical Academy</a></li>
+<li><a class="reference internal" href="#magical-streetlamps" id="id83">Magical Streetlamps</a></li>
+<li><a class="reference internal" href="#mansion" id="id84">Mansion</a></li>
+<li><a class="reference internal" href="#market" id="id85">Market</a></li>
+<li><a class="reference internal" href="#menagerie" id="id86">Menagerie</a></li>
+<li><a class="reference internal" href="#military-academy" id="id87">Military Academy</a></li>
+<li><a class="reference internal" href="#mill" id="id88">Mill</a></li>
+<li><a class="reference internal" href="#mint" id="id89">Mint</a></li>
+<li><a class="reference internal" href="#moat" id="id90">Moat</a></li>
+<li><a class="reference internal" href="#monastery" id="id91">Monastery</a></li>
+<li><a class="reference internal" href="#monument" id="id92">Monument</a></li>
+<li><a class="reference internal" href="#museum" id="id93">Museum</a></li>
+<li><a class="reference internal" href="#noble-villa" id="id94">Noble Villa</a></li>
+<li><a class="reference internal" href="#observatory" id="id95">Observatory</a></li>
+<li><a class="reference internal" href="#orphanage" id="id96">Orphanage</a></li>
+<li><a class="reference internal" href="#palace" id="id97">Palace</a></li>
+<li><a class="reference internal" href="#park" id="id98">Park</a></li>
+<li><a class="reference internal" href="#paved-streets" id="id99">Paved Streets</a></li>
+<li><a class="reference internal" href="#pier" id="id100">Pier</a></li>
+<li><a class="reference internal" href="#sewer-system" id="id101">Sewer System</a></li>
+<li><a class="reference internal" href="#shop" id="id102">Shop</a></li>
+<li><a class="reference internal" href="#shrine" id="id103">Shrine</a></li>
+<li><a class="reference internal" href="#smithy" id="id104">Smithy</a></li>
+<li><a class="reference internal" href="#stable" id="id105">Stable</a></li>
+<li><a class="reference internal" href="#stockyard" id="id106">Stockyard</a></li>
+<li><a class="reference internal" href="#tannery" id="id107">Tannery</a></li>
+<li><a class="reference internal" href="#tavern" id="id108">Tavern</a></li>
+<li><a class="reference internal" href="#temple" id="id109">Temple</a></li>
+<li><a class="reference internal" href="#tenement" id="id110">Tenement</a></li>
+<li><a class="reference internal" href="#theater" id="id111">Theater</a></li>
+<li><a class="reference internal" href="#town-hall" id="id112">Town Hall</a></li>
+<li><a class="reference internal" href="#trade-shop" id="id113">Trade Shop</a></li>
+<li><a class="reference internal" href="#university" id="id114">University</a></li>
+<li><a class="reference internal" href="#id4" id="id115">Watchtower</a></li>
+<li><a class="reference internal" href="#watergate" id="id116">Watergate</a></li>
+<li><a class="reference internal" href="#waterfront" id="id117">Waterfront</a></li>
+<li><a class="reference internal" href="#waterway" id="id118">Waterway</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#events" id="id119">Events</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="kingdom-turn-sequence">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-kingdom-turn-sequence"></span><h1><a class="toc-backref" href="#id17">Kingdom Turn Sequence</a><a class="headerlink" href="#kingdom-turn-sequence" title="Permalink to this headline">¶</a></h1>
+<p>A kingdom’s growth occurs during four phases, which together make up 1 kingdom turn (1 month of game time). The four phases are as follows:</p>
+<p>Phase 1—<a class="reference internal" href="#ultimatecampaign-kingdomsandwar-kingdomturnsequence-upkeep-phase"><span class="std std-ref">Upkeep</span></a>: Check your kingdom’s stability, pay costs, and deal with Unrest. If your kingdom controls 0 hexes, skip the Upkeep phase and proceed to the Edict phase.</p>
+<p>Phase 2—<a class="reference internal" href="#ultimatecampaign-kingdomsandwar-kingdomturnsequence-edict-phase"><span class="std std-ref">Edict</span></a>: Declare official proclamations about taxes, diplomacy, and other kingdom-wide decisions.</p>
+<p>Phase 3—<a class="reference internal" href="#ultimatecampaign-kingdomsandwar-kingdomturnsequence-income-phase"><span class="std std-ref">Income</span></a>: Add to your Treasury by collecting taxes and converting gp into BP, or withdraw BP from your kingdom for your personal use.</p>
+<p>Phase 4—<a class="reference internal" href="#ultimatecampaign-kingdomsandwar-kingdomturnsequence-event-phase"><span class="std std-ref">Event</span></a>: Check whether any unusual events occur that require attention. Some are beneficial, such as an economic boom, good weather, or the discovery of remarkable treasure. Others are detrimental, such as foul weather, a plague, or a rampaging monster.</p>
+<p>These phases are always undertaken in the above order. Many steps allow you to perform an action once per kingdom turn; this means once for the entire kingdom, not once per leader.</p>
+<div class="section" id="who-rolls-the-kingdom-check">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-who-rolls-the-kingdom-check"></span><h2><a class="toc-backref" href="#id18">Who Rolls the Kingdom Check?</a><a class="headerlink" href="#who-rolls-the-kingdom-check" title="Permalink to this headline">¶</a></h2>
+<p>Running a kingdom is more fun if all the players are involved and each is responsible for making some of the kingdom checks. Who makes each roll depends on the players in your group and what roles they want to play. Some players may not want to make any of these rolls. You may want to start with the following die roll responsibilities and modify them to suit your kingdom and the other players. Anything marked as an optional rule is described in the <a class="reference internal" href="ultimatecampaign.kingdomsandwar.optionalkingdomrules.html#ultimatecampaign-kingdomsandwar-optionalkingdomrules"><span class="std std-ref">optional kingdom-building rules</span></a>.</p>
+<p><strong>Ruler</strong>: Loyalty checks, any checks or edicts not covered by other rulers</p>
+<p><strong>Consort</strong>: As Ruler when Ruler is unavailable</p>
+<p><strong>Councilor</strong>: Holiday edicts</p>
+<p><strong>General</strong>: Kingdom checks for events requiring combat</p>
+<p><strong>Grand Diplomat</strong>: Diplomatic edicts (optional rule)</p>
+<p><strong>Heir</strong>: Kingdom event rolls</p>
+<p><strong>High Priest</strong>: Holiday edicts, rolls to generate magic items from Cathedrals, Shrines, and Temples</p>
+<p><strong>Magister</strong>: Rolls to generate magic items not rolled by the High Priest</p>
+<p><strong>Marshal</strong>: Exploration edicts (optional rule)</p>
+<p><strong>Royal Enforcer</strong>: Loyalty checks to reduce Unrest or prevent Unrest increases</p>
+<p><strong>Spymaster</strong>: Kingdom checks involving crime and foreigners</p>
+<p><strong>Treasurer</strong>: Economy checks, Taxation edicts, Trade edicts (optional rule)</p>
+<p><strong>Viceroy</strong>: Vassalage edicts (optional rule)</p>
+<p><strong>Warden</strong>: Stability checks</p>
+</div>
+<div class="section" id="upkeep-phase">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-upkeep-phase"></span><h2><a class="toc-backref" href="#id19">Upkeep Phase</a><a class="headerlink" href="#upkeep-phase" title="Permalink to this headline">¶</a></h2>
+<p>During the Upkeep phase, you adjust your kingdom’s scores based on what’s happened in the past month, how happy the people are, how much they’ve consumed and are taxed, and so on.</p>
+<p><strong>Step 1—Determine Kingdom Stability</strong>: Attempt a Stability check. If you succeed, Unrest decreases by 1 (if this would reduce Unrest below 0, add 1 BP to your Treasury instead). If you fail by 4 or less, Unrest increases by 1; if you fail by 5 or more, Unrest increases by 1d4.</p>
+<p><strong>Step 2—Pay Consumption</strong>: Subtract your kingdom’s Consumption from the kingdom’s Treasury. If your Treasury is negative after paying Consumption, Unrest increases by 2.</p>
+<p><strong>Step 3—Fill Vacant Magic Item Slots</strong>: If any of your settlement districts have buildings that produce magic items (such as a Caster’s Tower or Herbalist) with vacant magic item slots, there is a chance of those slots filling with new items (see the <a class="reference internal" href="#ultimatecampaign-kingdomsandwar-kingdomturnsequence-magic-items-in-settlements"><span class="std std-ref">Magic Items in Settlements section</span></a>).</p>
+<p><strong>Step 4—Modify Unrest</strong>: Unrest increases by 1 for each kingdom attribute (Economy, Loyalty, or Stability) that is a negative number. The Royal <a class="reference internal" href="advancedplayersguide.advancedfeats.html#enforcer (combat)"><span class="std std-ref">Enforcer</span></a> may attempt to reduce Unrest during this step. If the kingdom’s Unrest is 11 or higher, it loses 1 hex (the leaders choose which hex). If your kingdom’s Unrest ever reaches 20, the kingdom falls into anarchy. While in anarchy, your kingdom can take no action and treats all Economy, Loyalty, and Stability check results as 0. Restoring order once a kingdom falls into anarchy typically requires a number of quests and lengthy adventures by you and the other would-be leaders to restore the people’s faith in you.</p>
+<p><em>Example</em>: Jessica is the Ruler of a kingdom with a Size of 30 and a Control DC of 60. Based on leadership role bonuses, kingdom alignment bonuses, and buildings in her settlements, the kingdom’s Economy is 52, its Loyalty is 45, and its Stability is 56. Its Unrest is currently 5, its Consumption is 5, and the Treasury has 12 BP. In Step 1 of the Upkeep phase, Adam, the Warden, attempts a Stability check to determine the kingdom’s stability. Adam rolls a 19, adds the kingdom’s Stability (56), and subtracts its Unrest (5), for a total of 70; that’s a success, so Unrest decreases by 1. In Step 2, the kingdom pays 5 BP for Consumption. None of the kingdom’s magic item slots are empty, so they skip Step 3. In Step 4, none of the attributes are negative, so Unrest doesn’t increase. Mark, the Royal <a class="reference internal" href="advancedplayersguide.advancedfeats.html#enforcer (combat)"><span class="std std-ref">Enforcer</span></a>, doesn’t want to risk reducing the kingdom’s Loyalty, so he doesn’t use his leadership role to reduce Unrest. At the end of this phase, the kingdom has Economy 52, Loyalty 45, Stability 56, Unrest 4, Consumption 5, and Treasury 7 BP.</p>
+</div>
+<div class="section" id="edict-phase">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-edict-phase"></span><h2><a class="toc-backref" href="#id20">Edict Phase</a><a class="headerlink" href="#edict-phase" title="Permalink to this headline">¶</a></h2>
+<p>The Edict phase is when you make proclamations on expansion, improvements, taxation, holidays, and so on.</p>
+<p><strong>Step 1—Assign Leadership</strong>: Assign PCs or NPCs to any vacant leadership roles or change the roles being filled by particular PCs or closely allied NPCs (see <a class="reference internal" href="ultimatecampaign.kingdomsandwar.kingdombuilding.html#ultimatecampaign-kingdomsandwar-kingdombuilding-leadership-roles"><span class="std std-ref">Leadership Roles</span></a>).</p>
+<p><strong>Step 2—Claim and Abandon Hexes</strong>: For your kingdom to grow, you must claim additional hexes. You can only claim a hex that is adjacent to at least 1 other hex in your kingdom. Before you can claim it, the hex must first be explored, then cleared of monsters and dangerous hazards (see Steps 2 and 3 of <a class="reference internal" href="#ultimatecampaign-kingdomsandwar-kingdomturnsequence-founding-a-settlement"><span class="std std-ref">Founding a Settlement</span></a>). Then, to claim the hex, spend 1 BP; this establishes the hex as part of your kingdom and increases your kingdom’s Size by 1. The <a class="reference internal" href="#ultimatecampaign-kingdomsandwar-kingdomturnsequence-table-improvement-edicts"><span class="std std-ref">Improvement Edicts table</span></a> tells you the maximum number of hexes you can claim per turn.</p>
+<p>You may abandon any number of hexes to reduce your kingdom’s Size (which you may wish to do to manage Consumption). Doing so increases Unrest by 1 for each hex abandoned (or by 4 if the hex contained a settlement). This otherwise functions like losing a hex due to unrest (see Step 4 of the <a class="reference internal" href="#ultimatecampaign-kingdomsandwar-kingdomturnsequence-upkeep-phase"><span class="std std-ref">Upkeep phase</span></a>).</p>
+<p><strong>Step 4—Build Terrain Improvements</strong>: You may spend BP to build terrain improvements like Farms, Forts, Roads, Mines, and Quarries (see <a class="reference internal" href="#ultimatecampaign-kingdomsandwar-kingdomturnsequence-terrain-improvements"><span class="std std-ref">Terrain Improvements</span></a>).</p>
+<p>You may also prepare a hex for constructing a settlement. Depending on the site, this may involve clearing trees, moving boulders, digging sanitation trenches, and so on. See the Preparation Cost column on the <a class="reference internal" href="#ultimatecampaign-kingdomsandwar-kingdomturnsequence-table-terrain-and-terrain-improvements"><span class="std std-ref">Terrain and Terrain Improvements table</span></a> to determine how many BP this requires.</p>
+<p>The <a class="reference internal" href="#ultimatecampaign-kingdomsandwar-kingdomturnsequence-table-improvement-edicts"><span class="std std-ref">Improvement Edicts table</span></a> tells you the maximum number of terrain improvements you can make per turn.</p>
+<p><strong>Step 5—Create and Improve Settlements</strong>: You may create a settlement in a claimed hex (see <a class="reference internal" href="#ultimatecampaign-kingdomsandwar-kingdomturnsequence-founding-a-settlement"><span class="std std-ref">Founding a Settlement</span></a>). The <a class="reference internal" href="#ultimatecampaign-kingdomsandwar-kingdomturnsequence-table-improvement-edicts"><span class="std std-ref">Improvement Edicts table</span></a> tells you the maximum number of settlements you can establish per turn.</p>
+<p>You may construct a building in any settlement in your kingdom. When a building is completed, apply its modifiers to your kingdom sheet. The <a class="reference internal" href="#ultimatecampaign-kingdomsandwar-kingdomturnsequence-table-improvement-edicts"><span class="std std-ref">Improvement Edicts table</span></a> tells you the maximum number of buildings you can construct in your kingdom per turn. The first House, Mansion, Noble Villa, or Tenement your kingdom builds each turn does not count against that limit.</p>
+<p><strong>Step 6—Create Army Units</strong>: You may create, expand, equip, or repair army units (see <a class="reference internal" href="ultimatecampaign.kingdomsandwar.masscombat.html#ultimatecampaign-kingdomsandwar-masscombat"><span class="std std-ref">Mass Combat</span></a>).</p>
+<p><strong>Step 7—Issue Edicts</strong>: Select or adjust your edict levels (see <a class="reference internal" href="#ultimatecampaign-kingdomsandwar-kingdomturnsequence-edict-phase"><span class="std std-ref">Edicts</span></a>).</p>
+<p><em>Example</em>: Jessica’s kingdom has no vacant leadership roles, so nothing happens in Step 1. The leaders don’t want to spend BP and increase Size right now, so in Step 2 they don’t claim any hexes. In Step 3, the leaders construct a Farm in one of the kingdom’s prepared hexes (Consumption —2, Treasury —2 BP). In Steps 5 and 6, the leaders continue to be frugal and do not construct settlement improvements or create armies. In Step 7, the leaders issue a Holiday edict of one national holiday (Loyalty +1, Consumption +1) and set the Promotion edict level to “none” (Stability —1, Consumption +0). Looking ahead to the Income phase, Jessica realizes that an average roll for her Economy check would be a failure (10 on the 1d20 + 52 Economy — 4 Unrest = 58, less than the Control DC of 60), which means there’s a good chance the kingdom won’t generate any BP this turn. She decides to set the Taxation edict to “heavy” (Economy +3, Loyalty —4). At the end of this phase, the kingdom has Economy 55, Loyalty 42, Stability 55, Unrest 4, Consumption 4, and Treasury 5 BP.</p>
+</div>
+<div class="section" id="income-phase">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-income-phase"></span><h2><a class="toc-backref" href="#id21">Income Phase</a><a class="headerlink" href="#income-phase" title="Permalink to this headline">¶</a></h2>
+<p>During the Income phase, you may add to or withdraw from the Treasury as well as collect taxes.</p>
+<p><strong>Step 1—Make Withdrawals from the Treasury</strong>: The kingdom-building rules allow you to expend BP on things related to running the kingdom. If you want to spend some of the kingdom’s resources on something for your own personal benefit (such as a new magic item), you may withdraw BP from the Treasury and convert it into gp once per turn, but there is a penalty for doing so.</p>
+<p>Each time you withdraw BP for your personal use, Unrest increases by the number of BP withdrawn. Each BP you withdraw this way converts to 2,000 gp of personal funds.</p>
+<p><strong>Step 2—Make Deposits to the Treasury</strong>: You can add funds to a kingdom’s Treasury by donating your personal wealth to the kingdom—coins, gems, jewelry, weapons, armor, magic items, and other valuables you find while adventuring, as long as they are individually worth 4,000 gp or less. For every full 4,000 gp in value of the deposit, increase your kingdom’s BP by 1.</p>
+<p>If you want to donate an item that is worth more than 4,000 gp, refer to Step 3 instead.</p>
+<p><strong>Step 3—Sell Expensive Items for BP</strong>: You can attempt to sell expensive personal items (that is, items worth more than 4,000 gp each) through your kingdom’s markets to add to your Treasury. You may sell one item per settlement district per turn. You must choose the settlement where you want to sell the item, and the item cannot be worth more than the base value of that settlement.</p>
+<p>To sell an item, divide its price by half (as if selling it to an NPC for gp), divide the result by 4,000 (rounded down), and add that many BP to your Treasury.</p>
+<p>You cannot use this step to sell magic items held or created by buildings in your settlements; those items are the property of the owners of those businesses. (See <a class="reference internal" href="#ultimatecampaign-kingdomsandwar-kingdomturnsequence-magic-items-in-settlements"><span class="std std-ref">Magic Items in Settlements</span></a> for more information on this topic.)</p>
+<p><strong>Step 4—Collect Taxes</strong>: Attempt an Economy check, divide the result by 3 (round down), and add a number of BP to your Treasury equal to the result.</p>
+<p><em>Example</em>: Jessica and the other leaders need to keep BP in the kingdom for future plans, so they skip Step 1 of the Income phase. They are worried that they won’t collect enough taxes this turn, so just in case, in Step 2 they deposit 8,000 gp worth of coins, gems, and small magic items (Treasury +2 BP). The leaders aren’t selling any expensive items, so nothing happens in Step 3. In Step 4, Rob, the Treasurer, rolls the Economy check to collect taxes. Rob rolls a 9 on the 1d20, adds the kingdom’s Economy score (55), and subtracts Unrest (4) for a total of 60, which means the kingdom adds 20 BP (the Economy check result of 60, divided by 3) to the Treasury. At the end of this phase, the kingdom has Economy 55, Loyalty 42, Stability 55, Unrest 4, Consumption 4, and Treasury 27 BP.</p>
+</div>
+<div class="section" id="event-phase">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-event-phase"></span><h2><a class="toc-backref" href="#id22">Event Phase</a><a class="headerlink" href="#event-phase" title="Permalink to this headline">¶</a></h2>
+<p>In the Event phase, a random event may affect your kingdom as a whole or a single settlement or hex.</p>
+<p>There is a 25% chance of an event occurring (see <a class="reference internal" href="#ultimatecampaign-kingdomsandwar-kingdomturnsequence-events"><span class="std std-ref">Events</span></a>). If no event occurred during the last turn, this chance increases to 75%. Some events can be negated, ended, or compensated for with some kind of kingdom check. Others, such as a rampaging monster, require you to complete an adventure or deal with a problem in a way not covered by the kingdom-building rules.</p>
+<p>In addition, the GM may have an adventure- or campaign-specific event take place. Other events may also happen during this phase, such as independence or unification.</p>
+<p><em>Example</em>: The GM rolls on one of the event tables and determines that a monster is attacking one of the kingdom’s hexes. Instead of attempting a Stability check to deal with the monster (risking increasing Unrest if it fails), Jessica and the other leaders go on a quest to deal with the monster personally. They defeat the monster, so the event does not generate any Unrest. At the end of this phase, the kingdom’s scores are unchanged: Economy 55, Loyalty 42, Stability 55, Unrest 4, Consumption 4, and Treasury 27 BP.</p>
+</div>
+<div class="section" id="edicts">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-edicts"></span><h2><a class="toc-backref" href="#id23">Edicts</a><a class="headerlink" href="#edicts" title="Permalink to this headline">¶</a></h2>
+<p>Edicts are the official pronouncements by your government about how you are running the kingdom that turn. For example, you may decide to have low or high taxes, to have more or fewer holidays, and how much effort to put into improving the kingdom’s infrastructure. Edicts fall into four types: Holiday, Improvement, Promotion, and Taxation.</p>
+<p>In the Edict phase of the kingdom turn, you may set the Holiday, Promotion, and Taxation edict categories to whatever level you want, as well as decide how much of your allowed improvement from the Improvement edict you’ll use. For example, you may decide that this turn holidays are quarterly, promotions are aggressive, taxation is minimal, and you won’t build any improvements.</p>
+<div class="section" id="holiday-edicts">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-holiday-edicts"></span><h3><a class="toc-backref" href="#id24">Holiday Edicts</a><a class="headerlink" href="#holiday-edicts" title="Permalink to this headline">¶</a></h3>
+<p>Holidays are general celebrations or observances that take place across the kingdom. The BP expenditure includes lost revenue from citizens not working during the holidays, preparations and logistical arrangements that occur year-round, and the cost of the actual celebrations (these annual costs are averaged over the year and included in the listed Consumption modifier that you pay each turn).</p>
+<p>The number of holidays per year is the number you promise to uphold and the number that the common folk expect to enjoy over the next months. The Loyalty and Consumption modifiers change as soon as you change the number of holidays per year. The listed number assumes that you are fulfilling your promise—if you announce 12 holidays in the coming year but don’t actually hold and pay for them, the GM should increase your kingdom’s Unrest to reflect public disappointment and outrage.</p>
+<p><em>Example</em>: Logan is the Ruler of a kingdom with some Loyalty issues. He issues a Holiday edict that there will be 24 kingdom-wide official holidays in the next year (Loyalty +4, Consumption +8). In the second turn, he worries about the increased Consumption’s effect on the Treasury, so he issues a new Holiday edict decreeing that until further notice, there will be no kingdom-wide holidays. He loses the previous +4 Loyalty bonus and incurs a —1 Loyalty penalty for the new Holiday edict, but no longer has to pay the 8 Consumption each turn for his previous edict. If he frequently changes Holiday edicts from high to low levels, the GM may decide that his citizens no longer believe such promises and he won’t gain any benefits from having a high level of Holiday edict until he becomes consistent.</p>
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-table-holiday-edicts"></span><table border="1" class="colwidths-auto contrast-reading-table docutils" id="id6">
+<caption><span class="caption-text">Holiday Edicts</span><a class="headerlink" href="#id6" title="Permalink to this table">¶</a></caption>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Per Year</th>
+<th class="head">Loyalty</th>
+<th class="head">Consumption</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>None</td>
+<td>—1</td>
+<td>+0</td>
+</tr>
+<tr class="row-odd"><td>1</td>
+<td>+1</td>
+<td>+1</td>
+</tr>
+<tr class="row-even"><td>6</td>
+<td>+2</td>
+<td>+2</td>
+</tr>
+<tr class="row-odd"><td>12</td>
+<td>+3</td>
+<td>+4</td>
+</tr>
+<tr class="row-even"><td>24</td>
+<td>+4</td>
+<td>+8</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="improvement-edicts">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-improvement-edicts"></span><h3><a class="toc-backref" href="#id25">Improvement Edicts</a><a class="headerlink" href="#improvement-edicts" title="Permalink to this headline">¶</a></h3>
+<p>Improvements are physical improvements you can make to your kingdom: founding new settlements, adding buildings to a settlement, building roads, creating facilities such as mines to tap natural resources, and claiming more hexes for your kingdom. Your kingdom’s Size limits how many improvements you can make each turn; see the <a class="reference internal" href="#ultimatecampaign-kingdomsandwar-kingdomturnsequence-table-improvement-edicts"><span class="std std-ref">Improvement Edicts table</span></a> below. You can make all of the improvements listed on the appropriate row of the table. For example, if your kingdom’s Size is 5, on each turn you can create 1 new settlement, 1 new building, 2 terrain improvements, and claim 1 more hex.</p>
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-table-improvement-edicts"></span><table border="1" class="colwidths-auto contrast-reading-table docutils" id="id7">
+<caption><span class="caption-text">Improvement Edicts</span><a class="headerlink" href="#id7" title="Permalink to this table">¶</a></caption>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Kingdom Size</th>
+<th class="head">New Settlements<sup>1</sup></th>
+<th class="head">New Buildings<sup>2</sup></th>
+<th class="head">Terrain Improvements</th>
+<th class="head">Hex Claims</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>01—10</td>
+<td>1</td>
+<td>1</td>
+<td>2</td>
+<td>1</td>
+</tr>
+<tr class="row-odd"><td>11—25</td>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+<td>2</td>
+</tr>
+<tr class="row-even"><td>26—50</td>
+<td>1</td>
+<td>5</td>
+<td>5</td>
+<td>3</td>
+</tr>
+<tr class="row-odd"><td>51—100</td>
+<td>2</td>
+<td>10</td>
+<td>7</td>
+<td>4</td>
+</tr>
+<tr class="row-even"><td>101—200</td>
+<td>3</td>
+<td>20</td>
+<td>9</td>
+<td>8</td>
+</tr>
+<tr class="row-odd"><td>201+</td>
+<td>4</td>
+<td>No limit</td>
+<td>12</td>
+<td>12</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Notes:</strong></p>
+<ul class="simple">
+<li><sup>1</sup>Instead of creating a new settlement, your kingdom may create a new army unit (see <a class="reference internal" href="ultimatecampaign.kingdomsandwar.masscombat.html#ultimatecampaign-kingdomsandwar-masscombat"><span class="std std-ref">Mass Combat</span></a>), expand or equip an existing army unit, or bring an existing army unit back to full strength. <sup>2</sup>Upgrading a building (for example, from a Shrine to a Temple) or destroying a building counts toward this limit. The first House, Mansion, Noble Villa, or Tenement your kingdom builds each turn does not count against this number.</li>
+</ul>
+</div>
+<div class="section" id="promotion-edicts">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-promotion-edicts"></span><h3><a class="toc-backref" href="#id26">Promotion Edicts</a><a class="headerlink" href="#promotion-edicts" title="Permalink to this headline">¶</a></h3>
+<p>Promotion edicts are events and actions the kingdom uses to attract new citizens and increase the well-being of the kingdom, such as recruitment campaigns, advertisements about services and goods, and propaganda to improve the perception of your kingdom at home and abroad. Promotions increase Consumption, but also increase Stability.</p>
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-table-promotion-edicts"></span><table border="1" class="colwidths-auto contrast-reading-table docutils" id="id8">
+<caption><span class="caption-text">Promotion Edicts</span><a class="headerlink" href="#id8" title="Permalink to this table">¶</a></caption>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Promotion Level</th>
+<th class="head">Stability</th>
+<th class="head">Consumption</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>None</td>
+<td>—1</td>
+<td>+0</td>
+</tr>
+<tr class="row-odd"><td>Token</td>
+<td>+1</td>
+<td>+1</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>+2</td>
+<td>+2</td>
+</tr>
+<tr class="row-odd"><td>Aggressive</td>
+<td>+3</td>
+<td>+4</td>
+</tr>
+<tr class="row-even"><td>Expansionist</td>
+<td>+4</td>
+<td>+8</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="taxation-edicts">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-taxation-edicts"></span><h3><a class="toc-backref" href="#id27">Taxation Edicts</a><a class="headerlink" href="#taxation-edicts" title="Permalink to this headline">¶</a></h3>
+<p>Setting the tax level determines how much revenue you collect from taxes in the Income phase. Higher taxes increase your kingdom’s Economy (making it easier for you to succeed at Economy checks to generate revenue) but make your citizens unhappy (reducing Loyalty).</p>
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-table-taxation-edicts"></span><table border="1" class="colwidths-auto contrast-reading-table docutils" id="id9">
+<caption><span class="caption-text">Taxation Edicts</span><a class="headerlink" href="#id9" title="Permalink to this table">¶</a></caption>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Tax Level</th>
+<th class="head">Economy</th>
+<th class="head">Loyalty</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>None</td>
+<td>+0</td>
+<td>+1</td>
+</tr>
+<tr class="row-odd"><td>Light</td>
+<td>+1</td>
+<td>—1</td>
+</tr>
+<tr class="row-even"><td>Normal</td>
+<td>+2</td>
+<td>—2</td>
+</tr>
+<tr class="row-odd"><td>Heavy</td>
+<td>+3</td>
+<td>—4</td>
+</tr>
+<tr class="row-even"><td>Overwhelming</td>
+<td>+4</td>
+<td>—8</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="losing-hexes">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-losing-hexes"></span><h2><a class="toc-backref" href="#id28">Losing Hexes</a><a class="headerlink" href="#losing-hexes" title="Permalink to this headline">¶</a></h2>
+<p>If you lose control of a hex—whether because of Unrest, monster attacks, assaults from a hostile kingdom, and so on—you lose all the benefits of any terrain improvements in that hex (such as Farms and Roads). All settlements in that hex become free cities with no loyalty to you or any other kingdom. At the GM’s discretion, monsters may move into the abandoned hex, requiring you to clear it again if you want to claim it later, and terrain improvements may decay over time.</p>
+<p>Losing a hex may break your connection to other kingdom hexes. For example, losing the only hex that bridges two sides of a mountain range creates two separate territories. If this happens, the primary territory is the part of the kingdom with your capital city, and the rest of the kingdom is the secondary territory. If none of the kingdom’s leaders are in the secondary territory when this split happens, you lose control of all hexes (as described above) in the secondary territory.</p>
+<p>If at least one kingdom leader is in the secondary territory when the split occurs, you retain control of the secondary territory, but kingdom checks regarding its hexes treat Unrest as 1 higher, increasing by 1 each turn after the split. This modifier goes away if you claim a hex that reconnects the secondary territory to the primary territory.</p>
+<p>If you claim a hex that reestablishes a connection to a leaderless secondary territory, you regain the benefits of the territory’s terrain improvements. You must succeed at a Stability check to reclaim each of your former settlements in the secondary territory. You initially have a +5 bonus on these checks because the cities want to return to your kingdom, but this bonus decreases by 1 (to a minimum bonus of +0) for each subsequent turn since you lost control of the secondary territory.</p>
+<p>If your kingdom is reduced to 0 hexes—whether through Unrest, a natural disaster, an attack by another kingdom, or other circumstances—you are at risk of losing the kingdom. On your next turn, you must claim a new hex and found or claim a new settlement, or your kingdom is destroyed and you must start over if you want to found a new kingdom. At the GM’s discretion, you may be able to keep some BP from your destroyed kingdom’s Treasury for a time; otherwise, those assets are lost.</p>
+</div>
+<div class="section" id="terrain-improvements">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-terrain-improvements"></span><h2><a class="toc-backref" href="#id29">Terrain Improvements</a><a class="headerlink" href="#terrain-improvements" title="Permalink to this headline">¶</a></h2>
+<p>Terrain improvements are changes to a hex that improve the land for your kingdom’s use, such as cultivating fields, digging mines, and clearing forests for lumber. The following list describes common improvements. An improvement marked with an asterisk ( *) can share the same hex as other improvements.</p>
+<p>Some terrain improvements affect a settlement’s Defense, which is used in the <a class="reference internal" href="ultimatecampaign.kingdomsandwar.masscombat.html#ultimatecampaign-kingdomsandwar-masscombat"><span class="std std-ref">mass combat rules</span></a>.</p>
+<p><strong>Terrain</strong>: This indicates what kind of hex you can build this terrain improvement in.</p>
+<p><strong>Effect</strong>: This line states the effect the terrain improvement has on that hex (or in some cases, your entire kingdom).</p>
+<p>If an improvement says you can upgrade it into another improvement, you can do so by paying the cost difference between the two improvements. When the upgrade is complete, you lose the benefit of the old improvement but gain the benefit of the new improvement.</p>
+<p><strong>Cost</strong>: This line gives the cost in BP to build the terrain improvement.</p>
+<div class="section" id="aqueduct">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-aqueduct"></span><h3><a class="toc-backref" href="#id30">Aqueduct *</a><a class="headerlink" href="#aqueduct" title="Permalink to this headline">¶</a></h3>
+<p>An Aqueduct brings water from alpine lakes and rivers to lowland cities where water is scarce or insufficient for the local populace. A finished series of Aqueduct hexes must connect to a hill or mountain hex (with a river or lake) on one end and a settlement on the other end; otherwise, you do not gain its benefit.</p>
+<p><strong>Terrain</strong>: One end must be hill or mountain hex; can pass through any type of hex.</p>
+<p><strong>Effect</strong>: Loyalty+1, Stability +1, allows settlement to build water-dependent buildings.</p>
+<p><strong>Cost</strong>: As a Road, except the cost is not doubled for hexes with rivers (see the <a class="reference internal" href="#ultimatecampaign-kingdomsandwar-kingdomturnsequence-table-terrain-and-terrain-improvements"><span class="std std-ref">Terrain and Terrain Improvements table</span></a>).</p>
+</div>
+<div class="section" id="bridge">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-bridge"></span><h3><a class="toc-backref" href="#id31">Bridge *</a><a class="headerlink" href="#bridge" title="Permalink to this headline">¶</a></h3>
+<p>A Bridge allows your Road hexes to cross rivers.</p>
+<p><strong>Cost</strong>: When you build a Road in a hex that contains a river, the doubled coast of the Road includes the cost of bridges needed to cross the river. You don’t need to build a Bridge as a separate unit; it’s listed here for reference only.</p>
+</div>
+<div class="section" id="canal">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-canal"></span><h3><a class="toc-backref" href="#id32">Canal *</a><a class="headerlink" href="#canal" title="Permalink to this headline">¶</a></h3>
+<p>A Canal is an artificial waterway that allows barge traffic to haul heavy commodities.</p>
+<p><strong>Terrain</strong>: Desert, hill, or plain.</p>
+<p><strong>Effect</strong>: Settlements in a hex with a Canal treat the hex as if it had a river.</p>
+<p><strong>Cost</strong>: Twice the cost of a Road (see the <a class="reference internal" href="#ultimatecampaign-kingdomsandwar-kingdomturnsequence-table-terrain-and-terrain-improvements"><span class="std std-ref">Terrain and Terrain Improvements table</span></a>).</p>
+</div>
+<div class="section" id="farm">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-farm"></span><h3><a class="toc-backref" href="#id33">Farm *</a><a class="headerlink" href="#farm" title="Permalink to this headline">¶</a></h3>
+<p>A Farm helps feed your kingdom.</p>
+<p><strong>Terrain</strong>: Desert (requires canal, coastline, or river), hill, or plain.</p>
+<p><strong>Effect</strong>: Consumption decreases by 2 BP.</p>
+<p><strong>Cost</strong>: See the <a class="reference internal" href="#ultimatecampaign-kingdomsandwar-kingdomturnsequence-table-terrain-and-terrain-improvements"><span class="std std-ref">Terrain and Terrain Improvements table</span></a>.</p>
+</div>
+<div class="section" id="fishery">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-fishery"></span><h3><a class="toc-backref" href="#id34">Fishery *</a><a class="headerlink" href="#fishery" title="Permalink to this headline">¶</a></h3>
+<p>A Fishery is like a Farm, except it provides abundant fish rather than planted crops.</p>
+<p><strong>Terrain</strong>: Coastline, water, river, or marsh.</p>
+<p><strong>Effect</strong>: Consumption decreases by 1 BP.</p>
+<p><strong>Cost</strong>: 4 BP.</p>
+</div>
+<div class="section" id="fort">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-fort"></span><h3><a class="toc-backref" href="#id35">Fort *</a><a class="headerlink" href="#fort" title="Permalink to this headline">¶</a></h3>
+<p>A Fort is a walled encampment for military forces outside a settlement. You can upgrade a Watchtower to a Fort (Unrest decreases when you do so, just as if you had built the Fort from scratch).</p>
+<p><strong>Terrain</strong>: Any land.</p>
+<p><strong>Effect</strong>: Stability +2, Defense +4, increase Consumption by 1 BP; Unrest decreases by 1 when completed. If this hex becomes a settlement, this improvement counts as one Barracks and one Stables building.</p>
+<p><strong>Cost</strong>: 24 BP.</p>
+</div>
+<div class="section" id="highway">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-highway"></span><h3><a class="toc-backref" href="#id36">Highway *</a><a class="headerlink" href="#highway" title="Permalink to this headline">¶</a></h3>
+<p>A highway is a paved and well-maintained version of a Road. You may upgrade a Road into a Highway. You must have a kingdom of Size 26 or greater to build a Highway.</p>
+<p><strong>Terrain</strong>: Any hex with a Road.</p>
+<p><strong>Effect</strong>: Economy +1 for every 4 hexes of Highway, Stability +1 for every 8 hexes of Highway; improves overland travel speed.</p>
+<p><strong>Cost</strong>: Twice the cost of a Road (see the <a class="reference internal" href="#ultimatecampaign-kingdomsandwar-kingdomturnsequence-table-terrain-and-terrain-improvements"><span class="std std-ref">Terrain and Terrain Improvements table</span></a>).</p>
+</div>
+<div class="section" id="mine">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-mine"></span><h3><a class="toc-backref" href="#id37">Mine</a><a class="headerlink" href="#mine" title="Permalink to this headline">¶</a></h3>
+<p>A Mine extracts metal, coal, salt, or other useful materials from the earth.</p>
+<p><strong>Terrain</strong>: Cavern, desert, hill, or mountain.</p>
+<p><strong>Effect</strong>: Economy +1, earn +1 BP per turn when collecting taxes during the Income phase.</p>
+<p><strong>Cost</strong>: 6 BP.</p>
+</div>
+<div class="section" id="quarry">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-quarry"></span><h3><a class="toc-backref" href="#id38">Quarry</a><a class="headerlink" href="#quarry" title="Permalink to this headline">¶</a></h3>
+<p>A Quarry extracts workable stone from the ground.</p>
+<p><strong>Terrain</strong>: Cavern, hill, or mountain.</p>
+<p><strong>Effect</strong>: Stability +1, earn +1 BP per turn when collecting taxes during the Income phase.</p>
+<p><strong>Cost</strong>: 6 BP.</p>
+</div>
+<div class="section" id="road">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-road"></span><h3><a class="toc-backref" href="#id39">Road *</a><a class="headerlink" href="#road" title="Permalink to this headline">¶</a></h3>
+<p>A Road speeds travel through your kingdom and promotes trade. You can upgrade a Road to a Highway.</p>
+<p><strong>Terrain</strong>: Any land.</p>
+<p><strong>Effect</strong>: Economy +1 for every 4 hexes of Road, Stability +1 for every 8 hexes of Road; improves overland travel speed.</p>
+<p><strong>Cost</strong>: See the Road column of the <a class="reference internal" href="#ultimatecampaign-kingdomsandwar-kingdomturnsequence-table-terrain-and-terrain-improvements"><span class="std std-ref">Terrain and Terrain Improvements table</span></a>.</p>
+</div>
+<div class="section" id="sawmill">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-sawmill"></span><h3><a class="toc-backref" href="#id40">Sawmill</a><a class="headerlink" href="#sawmill" title="Permalink to this headline">¶</a></h3>
+<p>A sawmill centralizes the activities of loggers and turns trees into lumber for use in building and crafting.</p>
+<p><strong>Terrain</strong>: Forest or jungle.</p>
+<p><strong>Effect</strong>: Stability +1, earn +1 BP per turn when collecting taxes during the Income phase.</p>
+<p><strong>Cost</strong>: 3 BP.</p>
+</div>
+<div class="section" id="watchtower">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-watchtower"></span><h3><a class="toc-backref" href="#id41">Watchtower *</a><a class="headerlink" href="#watchtower" title="Permalink to this headline">¶</a></h3>
+<p>A Watchtower flies your flag, is a safe place for your patrols, and establishes your power on the frontier. A Watchtower cannot share a hex with a Fort or another Watchtower.</p>
+<p><strong>Terrain</strong>: Any land.</p>
+<p><strong>Effect</strong>: Stability +1, Defense +2; Unrest decreases by 1 when completed. If this hex becomes a settlement, this improvement counts as a Watchtower building.</p>
+<p><strong>Cost</strong>: 12 BP.</p>
+</div>
+</div>
+<div class="section" id="special-terrain">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-special-terrain"></span><h2><a class="toc-backref" href="#id42">Special Terrain</a><a class="headerlink" href="#special-terrain" title="Permalink to this headline">¶</a></h2>
+<p>Some hexes contain features or resources that impact a kingdom’s Economy, Loyalty, Stability, and other game statistics. These terrain resources are placed by the GM—not by player characters—for you to discover while exploring or adventuring, and may modify terrain improvements or cities.</p>
+<p><strong>Bridge</strong>: The hex contains an existing Bridge over a waterway. If you build a Road in this hex, you do not have to double the cost of the Road.</p>
+<p><strong>Building</strong>: The hex contains an abandoned building in good repair (type determined by the GM). If you establish a settlement at the building’s location in the hex, you can incorporate the building into the settlement at no cost (this does not count toward your building limit for that turn).</p>
+<p><strong>Free City</strong>: A Free City is a settlement that is not part of any established kingdom. Claiming a hex with a Free City is an excellent way to add a fully functional settlement to your kingdom. In order to claim a Free City hex peacefully, you must succeed at a Stability check. Failure indicates radicals and upstarts in the settlement and Unrest increases by 1d4.</p>
+<p><strong>Lair</strong>: A Lair is usually a cave or defensible shelter that can be used as a defensive fallback point, a storage location, or even a guardpost or prison. If you claim a hex with a Lair, Stability increases by 1. If you construct a Fort or Watchtower over a Lair, its Defense increases by 1. At the GM’s option, a Lair may allow access to an underground cavern hex (see the <a class="reference internal" href="#ultimatecampaign-kingdomsandwar-kingdomturnsequence-table-terrain-and-terrain-improvements"><span class="std std-ref">Terrain and Terrain Improvements table</span></a>).</p>
+<p><strong>Landmark</strong>: A Landmark is a site of great pride, mystery, and wonder, such as an outcropping in the shape of a human face, a smoking volcano, or a lake with an unusual color or unique properties. The Landmark bolsters your kingdom’s morale. If you claim a hex with a Landmark, Loyalty increases by 1. If the hex also has a Road or Highway, Loyalty increases by an additional 1.</p>
+<p><strong>Resource</strong>: A Resource is a ready supply of some kind of valuable commodity that offers a great economic boon to your kingdom, such as exotic lumber, precious metal, gems, rare herbs, incense, silk, ivory, furs, salt, dyes, and the like. If you claim a hex with a Resource, Economy increases by 1. If you construct a Mine, Quarry, or Sawmill in a hex with a Resource, all of its benefits increase by 1. If you construct a Farm or Fishery in a hex with a Resource, those improvements decrease Consumption by an additional 1 BP.</p>
+<p><strong>River</strong>: A River allows water travel through your kingdom, facilitating trade and allowing irrigation. Economy increases by 1 for every 4 River hexes claimed, and Stability increases by 1 for every 8 such hexes claimed.</p>
+<p><strong>Ruin</strong>: A Ruin is a partially destroyed building. If you claim a hex containing a Ruin and build a settlement at the Ruin’s location, you can use the Ruin as the basis of an appropriate type of building (as determined by the GM), reducing the cost of that building by half. Alternatively, you can salvage building materials from the Ruin, reducing the cost of 1 building in that hex by 1d4 BP.</p>
+</div>
+<div class="section" id="settlements-and-districts">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-settlements-and-districts"></span><h2><a class="toc-backref" href="#id43">Settlements and Districts</a><a class="headerlink" href="#settlements-and-districts" title="Permalink to this headline">¶</a></h2>
+<p>The greatest assets of your kingdom are its settlements. Most settlements start as simple villages, and some grow over time into bustling cities.</p>
+<p>The District Grid is divided into 9 large blocks separated by streets. Each block consists of 4 smaller lots separated by alleys. Treat each lot as approximately 750 feet per side, so overall the district takes up about 1 square mile. On each lot you may construct a building, and each building affects your kingdom’s Economy, Loyalty, and so on.</p>
+<p>Most settlements only have 1 district. If your District Grid is full and you want to add another district (for example, if you run out of available lots in that settlement and want to construct additional buildings), you can create an additional district for that settlement by paying the preparation cost for the settlement’s terrain as listed on Table <a class="reference internal" href="#ultimatecampaign-kingdomsandwar-kingdomturnsequence-table-terrain-and-terrain-improvements"><span class="std std-ref">Terrain and Terrain Improvements</span></a>. Remember that your kingdom’s Control DC is based on the number of districts in your settlement.</p>
+<p>The placement of buildings in your district is up to you—you can start in the center of the district and build outward, or start at the edge and build toward the center. Some buildings (such as the Guildhall) take up more than 1 lot on the grid. You can’t divide up these larger structures, though you can place them so they cover a street. (Streets do not count as lots.)</p>
+<p><strong>Construction</strong>: Construction is completed in the same turn you spend BP for the building, no matter what its size is. A building’s benefits apply to your kingdom immediately. At the GM’s discretion, construction magic (such as <em>lyre of</em><em>building</em>, <a class="reference internal" href="corerulebook.spells.fabricate.html#corerulebook-spells-fabricate-fabricate"><span class="std std-ref">fabricate</span></a>, or <a class="reference internal" href="corerulebook.spells.wallofstone.html#corerulebook-spells-wallofstone-wall-of-stone"><span class="std std-ref">wall of stone</span></a>) can reduce a single building’s BP cost by 2 (minimum 0). This is a one-time reduction per turn, regardless of the amount of magic used.</p>
+<p><strong>Population</strong>: A settlement’s population is approximately equal to the number of completed lots within its districts Ã 250. A grid that has all 36 lots filled with buildings has a population of approximately 9,000.</p>
+<p><strong>Base Value</strong>: The base value of a settlement is used to determine what magic items may easily be purchased there. There is a 75% chance that any item of that value or lower can be found for sale in the settlement with little effort. The base value of a new settlement is 0 gp. Certain buildings (such as a Market or Tavern) increase a settlement’s base value. A settlement’s base value can never increase above the values listed in Table 4—5: Settlement Size and Base Value (except under special circumstances decided by the GM).</p>
+<p><strong>Defense</strong>: A settlement’s Defense is used with the <a class="reference internal" href="ultimatecampaign.kingdomsandwar.masscombat.html#ultimatecampaign-kingdomsandwar-masscombat"><span class="std std-ref">mass combat rules</span></a>. It otherwise has no effect unless the settlement is attacked. You can increase a settlement’s Defense by building certain structures (such as City Walls).</p>
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-table-settlement-size-and-base-value"></span><table border="1" class="colwidths-auto contrast-reading-table docutils" id="id10">
+<caption><span class="caption-text">Settlement Size and Base Value</span><a class="headerlink" href="#id10" title="Permalink to this table">¶</a></caption>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Population</th>
+<th class="head">Settlement Size</th>
+<th class="head">Base Value</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Fewer than 21</td>
+<td>Thorp</td>
+<td>50 gp</td>
+</tr>
+<tr class="row-odd"><td>21—60</td>
+<td>Hamlet</td>
+<td>200 gp</td>
+</tr>
+<tr class="row-even"><td>61—200</td>
+<td>Village</td>
+<td>500 gp</td>
+</tr>
+<tr class="row-odd"><td>201—2,000</td>
+<td>Small town</td>
+<td>1,000 gp</td>
+</tr>
+<tr class="row-even"><td>2,001—5,000</td>
+<td>Large town</td>
+<td>2,000 gp</td>
+</tr>
+<tr class="row-odd"><td>5,001—10,000</td>
+<td>Small city</td>
+<td>4,000 gp</td>
+</tr>
+<tr class="row-even"><td>10,001—25,000</td>
+<td>Large city</td>
+<td>8,000 gp</td>
+</tr>
+<tr class="row-odd"><td>More than 25,000</td>
+<td>Metropolis</td>
+<td>16,000 gp</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="founding-a-settlement">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-founding-a-settlement"></span><h2><a class="toc-backref" href="#id44">Founding a Settlement</a><a class="headerlink" href="#founding-a-settlement" title="Permalink to this headline">¶</a></h2>
+<p>Before you can start your own kingdom, you first need a base of operations—a fort, village, or other settlement—where you can rest between adventures and where your citizens know they can find you if they need help or want to pay their taxes. Once you have a kingdom, you’ll want to create more settlements in order for the kingdom to grow and prosper. To found a settlement, you must perform the following steps. (These steps assume you’re building a new settlement from scratch; if you’re attempting to incorporate an existing settlement into your kingdom, see Free City under <a class="reference internal" href="#ultimatecampaign-kingdomsandwar-kingdomturnsequence-special-terrain"><span class="std std-ref">Special Terrain</span></a>.)</p>
+<p><strong>Step 1—Acquire funds</strong>. You’ll need money and resources in the form of build points.</p>
+<p><strong>Step 2—Explore and clear a hex</strong>. You’ll need to explore the hex where you want to put the settlement. See the Exploration Time column on the <a class="reference internal" href="#ultimatecampaign-kingdomsandwar-kingdomturnsequence-table-terrain-and-terrain-improvements"><span class="std std-ref">Terrain and Terrain Improvements table</span></a> to see how long this takes. Once you have explored the hex, clear it of monsters and dangerous hazards. The time needed to clear it depends on the nature of the threats; this step is usually handled by you completing adventures there to kill or drive out monsters.</p>
+<p><strong>Step 3—Claim the hex as yours</strong>. Once you have BP and have explored and cleared the hex, you can claim it. Spend 1 BP to do so; this represents setting up very basic infrastructure such as clearing paths, hiring patrols, setting up a tent city, and so on. This establishes the hex as part of your kingdom (or the beginning of your kingdom).</p>
+<p><strong>Step 4—Prepare the site for construction</strong>. To put a settlement on a claimed hex, you’ll need to prepare it. Depending on the site, this process may involve clearing trees, moving boulders, digging sanitation trenches, and so on. See the Preparation Cost column on the <a class="reference internal" href="#ultimatecampaign-kingdomsandwar-kingdomturnsequence-table-terrain-and-terrain-improvements"><span class="std std-ref">Terrain and Terrain Improvements table</span></a> for the BP cost. If your settlement is in a hex containing a canal, lake, ocean, river, or similar large body of water, you must decide which of your settlement’s borders are water (riverbanks, lakeshores, or seashores) or land. Some types of buildings, such as Mills, Piers, and Waterfronts, must be adjacent to water.</p>
+<p><strong>Step 5—Construct your first buildings</strong>. Construct 1 building in your settlement and pay its BP cost. If this is your kingdom’s first settlement, you should start with an Inn, Shrine, Monastery, or Watchtower. In addition, you may also purchase and construct 1 House, Mansion, Noble Villa, or Tenement. If your first building is an Inn, you must construct a House or Tenement next to it, as building an Inn requires an adjacent House or Tenement.</p>
+<p>When you complete these steps, you’ve founded your settlement! If this is your first settlement, it’s considered your kingdom’s capital city.</p>
+</div>
+<div class="section" id="claiming-water-and-islands">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-claiming-water-and-islands"></span><h2><a class="toc-backref" href="#id45">Claiming Water and Islands</a><a class="headerlink" href="#claiming-water-and-islands" title="Permalink to this headline">¶</a></h2>
+<p>When you claim a hex that contains part of an ocean or lake, your claim includes the water portion of that hex. In effect, your kingdom automatically controls a small portion of the waters adjacent to its coastline. Because any new hex you claim must be adjacent to an existing hex in your kingdom, if you want to claim land beyond that water (such as an island), you must first explore and claim the intervening deep water hexes. Your exploration only applies to the water’s surface—you are searching for uncharted islands, dangerous reefs, and so on. The GM may want to treat the underwater portion of a hex as a separate hex, much like a network of large caves under a hex may count as its own hex, allowing a village of merfolk or sahuagin to thrive in your kingdom without your knowledge.</p>
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-table-terrain-and-terrain-improvements"></span><table border="1" class="colwidths-auto contrast-reading-table docutils" id="id11">
+<caption><span class="caption-text">Terrain and Terrain Improvements</span><a class="headerlink" href="#id11" title="Permalink to this table">¶</a></caption>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Terrain</th>
+<th class="head">Exploration Time<sup>1</sup></th>
+<th class="head">Preparation Time<sup>2</sup></th>
+<th class="head">Preparation Cost<sup>3</sup></th>
+<th class="head">Farm Cost<sup>4</sup></th>
+<th class="head">Road Cost<sup>5,6</sup></th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Cavern<sup>7</sup></td>
+<td>3 days</td>
+<td>3 months</td>
+<td>8 BP</td>
+<td>—</td>
+<td>4 BP</td>
+</tr>
+<tr class="row-odd"><td>Coastline<sup>8</sup></td>
+<td>Special</td>
+<td>Special</td>
+<td>Special</td>
+<td>Special</td>
+<td>Special</td>
+</tr>
+<tr class="row-even"><td>Desert</td>
+<td>2 days</td>
+<td>1 month</td>
+<td>4 BP</td>
+<td>8 BP</td>
+<td>4 BP</td>
+</tr>
+<tr class="row-odd"><td>Forest</td>
+<td>2 days</td>
+<td>2 months</td>
+<td>4 BP</td>
+<td>—</td>
+<td>2 BP</td>
+</tr>
+<tr class="row-even"><td>Hills</td>
+<td>1 day</td>
+<td>1 month</td>
+<td>2 BP</td>
+<td>4 BP</td>
+<td>3 BP</td>
+</tr>
+<tr class="row-odd"><td>Jungle</td>
+<td>2 days</td>
+<td>4 months</td>
+<td>12 BP</td>
+<td>—</td>
+<td>4 BP</td>
+</tr>
+<tr class="row-even"><td>Marsh</td>
+<td>3 days</td>
+<td>3 months</td>
+<td>8 BP</td>
+<td>—</td>
+<td>4 BP</td>
+</tr>
+<tr class="row-odd"><td>Mountains</td>
+<td>3 days</td>
+<td>4 months</td>
+<td>12 BP</td>
+<td>—</td>
+<td>4 BP</td>
+</tr>
+<tr class="row-even"><td>Plains</td>
+<td>1 day</td>
+<td>Immediate</td>
+<td>1 BP</td>
+<td>2 BP</td>
+<td>1 BP</td>
+</tr>
+<tr class="row-odd"><td>Water</td>
+<td>2 days</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Notes:</strong></p>
+<ul class="simple">
+<li><sup>1</sup>Exploration time represents how many days a typical scouting party requires to explore a hex of this type. These times assume a party speed of 30 feet. For parties with different speeds, see <a class="reference internal" href="ultimatecampaign.campaignsystems.exploration.html#ultimatecampaign-campaignsystems-exploration-table-exploration-time"><span class="std std-ref">Exploration Time (1 Hex)</span></a>. Treat Cavern as Mountain and Jungle as Marsh for exploration time. Do not adjust the speed for Water hexes; it’s assumed that the party is already using a boat or other watercraft to explore. <sup>2</sup>Preparation time represents the months of labor (beginning with the current turn) required to prepare the hex for settlement. Construction of buildings can begin in the current month for settlements built on plains. <sup>3</sup>Preparation cost represents the BP cost to clear a hex of this type in preparation for founding a settlement. <sup>4</sup>Farm cost represents the BP cost to cultivate a hex for farming. A Farm must be within or adjacent to a hex containing a river, lake, swamp, or Canal, or adjacent to at least 2 hexes that already contain Farms. <sup>5</sup>Road cost represents the BP cost to establish a Road that crosses a hex and connects to all adjacent hexes. The cost to build a Road doubles if the hex contains rivers. A kingdom with a Size of 26 or greater can build a Highway (or upgrade a Road to a Highway). <sup>6</sup>If the hex contains any rivers, double the listed cost to reflect the need to build bridges. <sup>7</sup>This is a large system of caves and underground passages and can be found in any terrain type except Marsh. It functions as an additional hex that exists underground, below the surface hex. <sup>8</sup>Treat this as the adjacent land terrain type for all purposes.</li>
+</ul>
+</div>
+<div class="section" id="magic-items-in-settlements">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-magic-items-in-settlements"></span><h2><a class="toc-backref" href="#id46">Magic Items in Settlements</a><a class="headerlink" href="#magic-items-in-settlements" title="Permalink to this headline">¶</a></h2>
+<p>In addition to the commonly available items in a settlement as determined by its base value, some buildings increase the likelihood of having specific or unusual magic items available for purchase.</p>
+<p><strong>Gaining Item Slots</strong>: When you construct one of these buildings, mark the appropriate boxes in the Magic Items section of the settlement’s District Grid; this indicates that the settlement has gained a slot for an item of that type.</p>
+<p><strong>Filling Item Slots</strong>: In Step 3 of the Upkeep phase, you roll to fill vacant magic item slots in each district. Roll d% once for each district that has an open magic item slot (if the district has more than one, select one randomly). There is a 50% chance (51—100) that an appropriate magic item becomes available in that slot. This item’s price cannot exceed the base value for the settlement (reroll if the item’s price exceeds the settlement’s base value).</p>
+<p><em>Example</em>: Jessica’s settlement has a base value of 200 gp. She built an Herbalist last turn, giving the settlement 1 minor potion slot. In the Upkeep phase this turn, she rolls d% and gets a result of 62, meaning she can roll a random minor potion to fill the settlement’s empty slot. She rolls on Table 15—12: Potions (<em>Core Rulebook</em>478) and gets a result of 45, indicating a potion of a 1st-level spell. If she had rolled anything more valuable than the 200 gp base value for her settlement, she would have to reroll until she got an acceptable result. Once a magic item is rolled for a settlement in this way, it remains on the market until someone purchases it.</p>
+<p><em>PRD</em> <em>Ultimate Equipment</em> includes extensive random magic item tables for specific slots and price increments. These tables may be more convenient than using the magic item tables in the <em>Core Rulebook</em>.</p>
+<p><strong>Emptying Item Slots</strong>: If you are unsatisfied with a magic item generated by a settlement, there are three ways to purge an undesirable item and make its slot vacant. The first is to purchase it with your own gp, which makes it your personal property and means you may do with it what you please (use it, sell it at half price for gold, deposit it in the kingdom’s Treasury during the next Income phase, use it as a reward for a local general, and so on).</p>
+<p>The second method is to manipulate your kingdom’s economy to encourage an NPC to purchase the item (such as a random adventurer passing through the settlement). During Step 3 of the Income phase, you may attempt one Economy check for each filled slot you want to empty. For every such check after the first one in a turn, your Economy decreases by 1, since these manipulations are harmful to your kingdom’s economy and typically only serve to get rid of an item you consider undesirable. If the check fails, nothing happens. If the check succeeds, erase the item from that slot; you may attempt to fill the empty slot as normal in the next Upkeep phase. You do not gain any gp or BP from this sale; the money goes to the building’s owner, who uses it to acquire or craft the next item.</p>
+<p>The third way is to spend BP (1 BP = 2,000 gp) to purchase the item. If you take the item for your own use, this counts as withdrawing BP from the Treasury for your personal use (see Make Withdrawals from the Treasury). If you use the item in a way that doesn’t directly benefit you or the other PCs (such as giving it to a hero of your army or donating it to a settlement as a religious or historical artifact), then purchasing it is essentially like other kingdom expenditures and does not increase Unrest or decrease Loyalty.</p>
+</div>
+<div class="section" id="buildings">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-buildings"></span><h2><a class="toc-backref" href="#id47">Buildings</a><a class="headerlink" href="#buildings" title="Permalink to this headline">¶</a></h2>
+<p>You improve settlements by constructing buildings, which provide bonuses to the kingdom in general and the settlement in particular. Some buildings also intersect with the <span class="xref std std-ref">mass combat rules</span>, notably with fortifications and reserve armies.</p>
+<p><strong>Demolition</strong>: If a lot has a building, you can clear it for new construction. Doing so costs 1 BP. You may construct a building on a lot the same turn you demolish the old building there. You do not regain BP for a demolished building (but see Rebuilding, below).</p>
+<p><strong>Destroyed Lots</strong>: If an event or a pillaging army destroys 1 or more lots, the devastation causes Unrest to increase by 1 per lot destroyed.</p>
+<p><strong>Rebuilding</strong>: If you rebuild the same type of building on a destroyed lot, the cost is halved, as you can reuse some of the materials for the same purpose. If you rebuild a different type of building on that lot, reduce the cost of the new building by 1/4 the cost of the old building (minimum 1 BP). If you build smaller buildings on top of a site that held a multi-lot building, split the discount evenly over the new buildings. For example, if you demolish an Academy and construct a Mansion and a Luxury Store on top of those lots, each building gets a 6 BP discount (1/4 of 52 BP is 13, divided evenly between the two).</p>
+</div>
+<div class="section" id="building-descriptions">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-building-descriptions"></span><h2><a class="toc-backref" href="#id48">Building Descriptions</a><a class="headerlink" href="#building-descriptions" title="Permalink to this headline">¶</a></h2>
+<p>Buildings are described in the following format.</p>
+<p><strong>Building Name</strong>: The type of buildings contained in this lot. In most cases, each lot represents numerous buildings of that type, rather than a single edifice.</p>
+<p><strong>Cost</strong>: The cost in BP to construct the building.</p>
+<p><strong>Lots</strong>: How many lots the building fills.</p>
+<p><strong>Kingdom</strong>: Building modifiers to Economy, Loyalty, and Stability stack, affect your entire kingdom, and are ongoing from turn to turn. Modifiers to Unrest occur once when the building is completed. This category also lists any bonuses to Fame (see <a class="reference internal" href="ultimatecampaign.kingdomsandwar.optionalkingdomrules.html#ultimatecampaign-kingdomsandwar-optionalkingdomrules-fame-and-infamy"><span class="std std-ref">Fame and Infamy</span></a>) from having the building.</p>
+<p><strong>Discount</strong>: Some buildings halve the cost of constructing a related type of building in the same settlement. This cost reduction applies only to the first constructed building of the types listed in this line. For example, an Academy halves the cost of your next Library in that settlement; if you build a second Library in that settlement, you pay the normal cost for it. If 2 buildings give the same discount, only one discount applies per new building, but you may construct 2 buildings at the discounted cost. For example, Market and Theater both halve the cost of an Inn; if your settlement has a Market and a Theater, you may construct 2 Inns at half cost (the Market discounts one, and the Theater discounts the other).</p>
+<p><strong>Limit</strong>: This lists limitations on the number of buildings of this type, special requirements for adjacent buildings, or prohibitions against certain buildings being adjacent.</p>
+<p>For most buildings, you can construct as many of them as you want in a settlement, but some are limited in the number that can be built per settlement or district. For example, you can only construct 1 Arena per settlement.</p>
+<p>Some buildings require that you construct them adjacent to at least 1 or 2 of a specific kind of building or feature of the settlement. For example, a Shop or Tavern must be adjacent to a House or Mansion. The required adjacent building can only count toward 1 building that requires it. For example, if you have a House and a Shop, that House can’t be used to meet the requirement for another Shop or a Tavern; you have to construct a new House and use it to meet the requirement of the new Shop or Tavern.</p>
+<p>Some buildings cannot be adjacent to certain buildings. For example, you can’t construct a Tannery next to a House, Mansion, Noble Villa, or Tenement. If you want to use a lot for this type of building, you must demolish all prohibited adjacent structures first.</p>
+<p>If you get overzealous in constructing a particular type of building in a settlement, the GM should feel free to add events to discourage this practice. For example, a settlement with too many Dumps is prone to otyugh and wererat attacks, and a settlement with too many Graveyards tends to have frequent undead attacks. This should not occur, however, if you build too many Houses, Parks, Tenements, or Waterways.</p>
+<p><strong>Upgrade To/From</strong>: Some buildings can be converted into a more advanced form of the existing building, such as converting a Shrine into a Temple. To upgrade a building, pay the BP cost difference between the current building and the new building. Remove the modifiers from the old building and apply the modifiers from the new building. Upgrading counts as constructing a building for the purpose of the maximum number of buildings you can construct on your turn. You can’t upgrade a building to a larger one if there isn’t space in the District Grid for the building’s new size.</p>
+<p>â©<strong>Special</strong>: This lists any other effect the building has, such as increasing Defense, the settlement’s base value, or the output of a nearby Mine.</p>
+<p><strong>Magic Items</strong>: This lists any magic item slot the building creates, which may be filled in the Upkeep phase (see <a class="reference internal" href="#ultimatecampaign-kingdomsandwar-kingdomturnsequence-magic-items-in-settlements"><span class="std std-ref">Magic Items in Settlements</span></a>). If a building lists multiple options within a category (such as “1 minor potion or wondrous item”), it has an equal chance for each option.</p>
+<p><strong>Settlement</strong>: This lists settlement modifiers that affect specific skills within the settlement. These modifiers are ongoing from turn to turn, but apply only to skill checks within that settlement (not other settlements in the hex or anywhere else in your kingdom).</p>
+<div class="section" id="academy">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-academy"></span><h3><a class="toc-backref" href="#id49">Academy</a><a class="headerlink" href="#academy" title="Permalink to this headline">¶</a></h3>
+<p><strong>52 BP, 2 lots</strong></p>
+<p><strong>Kingdom</strong> Economy +2, Loyalty +2</p>
+<p><strong>Discount</strong> Caster’s Tower, Library, Magic Shop</p>
+<p><strong>Upgrade From</strong> Library; <strong>Upgrade To</strong> University</p>
+<p><strong>Magic Items</strong> 3 minor scrolls or wondrous items, 2 medium scrolls or wondrous items</p>
+<p><strong>Settlement</strong> Lore +2, Productivity +1, Society +2; increase Lore bonus by 2 for questions relating to one <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> or <a class="reference internal" href="corerulebook.skills.profession.html#corerulebook-skills-profession-profession"><span class="std std-ref">Profession</span></a> skill</p>
+<p>An institution of higher learning.</p>
+</div>
+<div class="section" id="alchemist">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-alchemist"></span><h3><a class="toc-backref" href="#id50">Alchemist</a><a class="headerlink" href="#alchemist" title="Permalink to this headline">¶</a></h3>
+<p><strong>18 BP, 1 lot</strong></p>
+<p><strong>Kingdom</strong> Economy +1</p>
+<p><strong>Limit</strong> Adjacent to 1 House</p>
+<p><strong>Special</strong> Base value +1,000 gp</p>
+<p><strong>Magic Items</strong> 1 minor potion or wondrous item</p>
+<p>The laboratory and home of a crafter of poisons, potions, or alchemical items.</p>
+</div>
+<div class="section" id="arena">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-arena"></span><h3><a class="toc-backref" href="#id51">Arena</a><a class="headerlink" href="#arena" title="Permalink to this headline">¶</a></h3>
+<p><strong>40 BP, 4 lots</strong></p>
+<p><strong>Kingdom</strong> Stability +4; Fame +1</p>
+<p><strong>Discount</strong> Brothel, Garrison, Inn, Stable, Theater</p>
+<p><strong>Limit</strong> 1 per settlement</p>
+<p><strong>Upgrade From</strong> Theater</p>
+<p><strong>Settlement</strong> Crime +1</p>
+<p>A large public structure for competitions and team sports.</p>
+</div>
+<div class="section" id="bank">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-bank"></span><h3><a class="toc-backref" href="#id52">Bank</a><a class="headerlink" href="#bank" title="Permalink to this headline">¶</a></h3>
+<p><strong>28 BP, 1 lot</strong></p>
+<p><strong>Kingdom</strong> Economy +4</p>
+<p><strong>Special</strong>Base value +2,000 gp</p>
+<p>A secure building for storing valuables and granting loans.</p>
+</div>
+<div class="section" id="bardic-college">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-bardic-college"></span><h3><a class="toc-backref" href="#id53">Bardic College</a><a class="headerlink" href="#bardic-college" title="Permalink to this headline">¶</a></h3>
+<p><strong>40 BP, 2 lots</strong></p>
+<p><strong>Kingdom</strong> Economy +1, Loyalty +3, Stability +1; Fame +1</p>
+<p><strong>Discount</strong> Library, Museum, Theater</p>
+<p><strong>Magic Items</strong> 2 minor scrolls or wondrous items</p>
+<p>A center for artistic learning. Education in a Bardic College also includes research into a wide-range of historical topics.</p>
+</div>
+<div class="section" id="barracks">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-barracks"></span><h3><a class="toc-backref" href="#id54">Barracks</a><a class="headerlink" href="#barracks" title="Permalink to this headline">¶</a></h3>
+<p><strong>6 BP, 1 lot</strong></p>
+<p><strong>Kingdom</strong> Unrest —1</p>
+<p><strong>Upgrade To</strong> Garrison</p>
+<p><strong>Special</strong> Defense +2</p>
+<p><strong>Settlement</strong> Law +1</p>
+<p>A building to house conscripts, guards, militia, soldiers, or similar military forces.</p>
+</div>
+<div class="section" id="black-market">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-black-market"></span><h3><a class="toc-backref" href="#id55">Black Market</a><a class="headerlink" href="#black-market" title="Permalink to this headline">¶</a></h3>
+<p><strong>50 BP, 1 lot</strong></p>
+<p><strong>Kingdom</strong> Economy +2, Stability +1, Unrest +1</p>
+<p><strong>Discount</strong> Brothel</p>
+<p><strong>Limit</strong> Adjacent to 2 Houses</p>
+<p><strong>Special</strong>Base value +2,000 gp</p>
+<p><strong>Magic Items</strong> 2 minor items, 1 medium item, 1 major item</p>
+<p><strong>Settlement</strong> Corruption +2, Crime +2</p>
+<p>A number of shops with secret and usually illegal wares.</p>
+</div>
+<div class="section" id="brewery">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-brewery"></span><h3><a class="toc-backref" href="#id56">Brewery</a><a class="headerlink" href="#brewery" title="Permalink to this headline">¶</a></h3>
+<p><strong>6 BP, 1 lot</strong></p>
+<p><strong>Kingdom</strong> Loyalty +1, Stability +1</p>
+<p>A building for beer brewing, winemaking, or some similar use.</p>
+</div>
+<div class="section" id="id2">
+<span id="id3"></span><h3><a class="toc-backref" href="#id57">Bridge</a><a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<p><strong>6 BP, 1 lot</strong></p>
+<p><strong>Kingdom</strong> Economy +1</p>
+<p><strong>Special</strong> Shares the space with a river or Waterway lot</p>
+<p>Allows travel across a river or Waterway, easing transportation.</p>
+</div>
+<div class="section" id="bureau">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-bureau"></span><h3><a class="toc-backref" href="#id58">Bureau</a><a class="headerlink" href="#bureau" title="Permalink to this headline">¶</a></h3>
+<p><strong>10 BP, 2 lots</strong></p>
+<p><strong>Kingdom</strong> Economy +1, Loyalty —1, Stability +1</p>
+<p><strong>Settlement</strong> Corruption +1, Law +1</p>
+<p>A large warren of offices for clerks and record-keepers working for a guild or government.</p>
+</div>
+<div class="section" id="caster-s-tower">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-casters-tower"></span><h3><a class="toc-backref" href="#id59">Caster’s Tower</a><a class="headerlink" href="#caster-s-tower" title="Permalink to this headline">¶</a></h3>
+<p><strong>30 BP, 1 lot</strong></p>
+<p><strong>Kingdom</strong> Economy +1, Loyalty +1</p>
+<p><strong>Magic Items</strong> 3 minor items, 2 medium items</p>
+<p>The home and laboratory for a spellcaster.</p>
+</div>
+<div class="section" id="castle">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-castle"></span><h3><a class="toc-backref" href="#id60">Castle</a><a class="headerlink" href="#castle" title="Permalink to this headline">¶</a></h3>
+<p><strong>54 BP, 4 lots</strong></p>
+<p><strong>Kingdom</strong> Economy +2, Loyalty +2, Stability +2, Unrest —4; Fame +1</p>
+<p><strong>Discount</strong> Noble Villa, Town Hall</p>
+<p><strong>Limit</strong> 1 per settlement</p>
+<p><strong>Special</strong> Defense +8</p>
+<p>The home of the settlement’s leader or the heart of its defenses.</p>
+</div>
+<div class="section" id="cathedral">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-cathedral"></span><h3><a class="toc-backref" href="#id61">Cathedral</a><a class="headerlink" href="#cathedral" title="Permalink to this headline">¶</a></h3>
+<p><strong>58 BP, 4 lots</strong></p>
+<p><strong>Kingdom</strong> Loyalty +4, Stability +4, Unrest —4; Fame +1</p>
+<p><strong>Discount</strong> Academy, Temple</p>
+<p><strong>Limit</strong> 1 per settlement</p>
+<p><strong>Special</strong> Halves Consumption increase for Promotion edicts</p>
+<p><strong>Magic Items</strong> 3 minor potions or wondrous items, 2 medium potions or wondrous items</p>
+<p><strong>Settlement</strong> Law +2</p>
+<p>The focal point of the settlement’s spiritual leadership.</p>
+</div>
+<div class="section" id="cistern">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-cistern"></span><h3><a class="toc-backref" href="#id62">Cistern</a><a class="headerlink" href="#cistern" title="Permalink to this headline">¶</a></h3>
+<p><strong>6 BP, 1 lot</strong></p>
+<p><strong>Kingdom</strong> Stability +1</p>
+<p><strong>Limit</strong> Cannot be adjacent to a Dump, Graveyard, Stable, Stockyard, or Tannery</p>
+<p><strong>Special</strong> Can share lot with another building</p>
+<p>Contains a safe supply of fresh water for the settlement.</p>
+</div>
+<div class="section" id="city-wall">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-city-wall"></span><h3><a class="toc-backref" href="#id63">City Wall</a><a class="headerlink" href="#city-wall" title="Permalink to this headline">¶</a></h3>
+<p><strong>2 BP</strong></p>
+<p><strong>Kingdom</strong> Unrest —2 (once per settlement)</p>
+<p><strong>Limit</strong> Land district border</p>
+<p><strong>Special</strong> Defense +1</p>
+<p>A fortification of one side of a district with a sturdy wall. The GM may allow for cliffs and other natural features to function as a City Wall for one or more sides of a district. You may construct gates through your own city wall at no cost.</p>
+</div>
+<div class="section" id="dance-hall">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-dance-hall"></span><h3><a class="toc-backref" href="#id64">Dance Hall</a><a class="headerlink" href="#dance-hall" title="Permalink to this headline">¶</a></h3>
+<p><strong>4 BP, 1 lot</strong></p>
+<p><strong>Kingdom</strong> Economy +1, Loyalty +2, Unrest +1</p>
+<p><strong>Limit</strong> Adjacent to 1 House</p>
+<p><strong>Settlement</strong> Corruption +1, Crime +1</p>
+<p>An establishment for dancing, drinking, carousing, and holding celebrations.</p>
+</div>
+<div class="section" id="dump">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-dump"></span><h3><a class="toc-backref" href="#id65">Dump</a><a class="headerlink" href="#dump" title="Permalink to this headline">¶</a></h3>
+<p><strong>4 BP, 1 lot</strong></p>
+<p><strong>Kingdom</strong> Stability +1</p>
+<p><strong>Limit</strong> Cannot be adjacent to House, Mansion, or Noble Villa</p>
+<p>A centralized place to dispose of refuse.</p>
+</div>
+<div class="section" id="everflowing-spring">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-everflowing-spring"></span><h3><a class="toc-backref" href="#id66">Everflowing Spring</a><a class="headerlink" href="#everflowing-spring" title="Permalink to this headline">¶</a></h3>
+<p><strong>5 BP</strong></p>
+<p><strong>Limit</strong> Settlement must have a building that can create medium magic items</p>
+<p><strong>Special</strong> Can share lot with Castle, Cathedral, Market, Monument, Park, or Town Hall</p>
+<p>A fountain built around several <em>decanters of endless water</em> that provides an inexhaustible supply of fresh water.</p>
+</div>
+<div class="section" id="exotic-artisan">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-exotic-artisan"></span><h3><a class="toc-backref" href="#id67">Exotic Artisan</a><a class="headerlink" href="#exotic-artisan" title="Permalink to this headline">¶</a></h3>
+<p><strong>10 BP, 1 lot</strong></p>
+<p><strong>Kingdom</strong> Economy +1, Stability +1</p>
+<p><strong>Limit</strong> Adjacent to 1 House</p>
+<p><strong>Magic Items</strong> 1 minor ring, wand, or wondrous item</p>
+<p>The shop and home of a jeweler, tinker, glassblower, or the like.</p>
+</div>
+<div class="section" id="foreign-quarter">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-foreign-quarter"></span><h3><a class="toc-backref" href="#id68">Foreign Quarter</a><a class="headerlink" href="#foreign-quarter" title="Permalink to this headline">¶</a></h3>
+<p><strong>30 BP, 4 lots</strong></p>
+<p><strong>Kingdom</strong> Economy +3, Stability —1</p>
+<p><strong>Special</strong> Increase the value of trade routes (see <span class="xref std std-ref">Trade Edicts</span>) by 5% (maximum 100%)</p>
+<p><strong>Settlement</strong> Crime +1, Lore +1, Society +2</p>
+<p>An area with many foreigners, as well as shops and services catering to them.</p>
+</div>
+<div class="section" id="foundry">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-foundry"></span><h3><a class="toc-backref" href="#id69">Foundry</a><a class="headerlink" href="#foundry" title="Permalink to this headline">¶</a></h3>
+<p><strong>16 BP, 2 lots</strong></p>
+<p><strong>Kingdom</strong> Economy +1, Stability +1, Unrest +1</p>
+<p><strong>Discount</strong> Smithy</p>
+<p><strong>Limit</strong> Adjacent to water district border</p>
+<p><strong>Special</strong> Increase the Economy and BP earned per turn by 1 for 1 Mine connected to this settlement by a river or Road</p>
+<p><strong>Settlement</strong> Productivity +1</p>
+<p>Processes ore and refines it into finished metal.</p>
+</div>
+<div class="section" id="garrison">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-garrison"></span><h3><a class="toc-backref" href="#id70">Garrison</a><a class="headerlink" href="#garrison" title="Permalink to this headline">¶</a></h3>
+<p><strong>28 BP, 2 lots</strong></p>
+<p><strong>Kingdom</strong> Loyalty +2, Stability +2, Unrest —2</p>
+<p><strong>Discount</strong> City Wall, Granary, Jail</p>
+<p><strong>Upgrade From</strong> Barracks</p>
+<p>A large building to house armies, train guards, and recruit militia.</p>
+</div>
+<div class="section" id="granary">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-granary"></span><h3><a class="toc-backref" href="#id71">Granary</a><a class="headerlink" href="#granary" title="Permalink to this headline">¶</a></h3>
+<p><strong>12 BP, 1 lot</strong></p>
+<p><strong>Kingdom</strong> Loyalty +1, Stability +1</p>
+<p><strong>Special</strong> If Farms reduce Consumption below 0, store up to 5 BP of excess production for use on a later turn when Consumption exceeds the Treasury</p>
+<p>A place to store grain and food.</p>
+</div>
+<div class="section" id="graveyard">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-graveyard"></span><h3><a class="toc-backref" href="#id72">Graveyard</a><a class="headerlink" href="#graveyard" title="Permalink to this headline">¶</a></h3>
+<p><strong>4 BP, 1 lot</strong></p>
+<p><strong>Kingdom</strong> Loyalty +1</p>
+<p>A plot of land to honor and bury the dead.</p>
+</div>
+<div class="section" id="guildhall">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-guildhall"></span><h3><a class="toc-backref" href="#id73">Guildhall</a><a class="headerlink" href="#guildhall" title="Permalink to this headline">¶</a></h3>
+<p><strong>34 BP, 2 lots</strong></p>
+<p><strong>Kingdom</strong> Economy +2, Loyalty +2</p>
+<p><strong>Discount</strong> Pier, Stable, Trade Shop</p>
+<p><strong>Upgrade From</strong> Trade Shop</p>
+<p><strong>Special</strong> Base value +1,000 gp</p>
+<p><strong>Settlement</strong> Law +1, Productivity +2</p>
+<p>The headquarters for a guild or similar organization.</p>
+</div>
+<div class="section" id="herbalist">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-herbalist"></span><h3><a class="toc-backref" href="#id74">Herbalist</a><a class="headerlink" href="#herbalist" title="Permalink to this headline">¶</a></h3>
+<p><strong>10 BP, 1 lot</strong></p>
+<p><strong>Kingdom</strong> Loyalty +1, Stability +1</p>
+<p><strong>Limit</strong> Adjacent to 1 House</p>
+<p><strong>Magic Items</strong> 1 minor potion or wondrous item</p>
+<p>The workshop and home of a gardener, healer, or poisoner.</p>
+</div>
+<div class="section" id="hospital">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-hospital"></span><h3><a class="toc-backref" href="#id75">Hospital</a><a class="headerlink" href="#hospital" title="Permalink to this headline">¶</a></h3>
+<p><strong>30 BP, 2 lots</strong></p>
+<p><strong>Kingdom</strong> Loyalty +1, Stability +2</p>
+<p><strong>Special</strong> Increase Stability by 2 during plague events</p>
+<p><strong>Settlement</strong> Lore +1, Productivity +2</p>
+<p>A building devoted to healing the sick.</p>
+</div>
+<div class="section" id="house">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-house"></span><h3><a class="toc-backref" href="#id76">House</a><a class="headerlink" href="#house" title="Permalink to this headline">¶</a></h3>
+<p><strong>3 BP, 1 lot</strong></p>
+<p><strong>Kingdom</strong> Unrest —1</p>
+<p><strong>Upgrade From</strong> Tenement</p>
+<p><strong>Special</strong> The first House you build during the Improvement phase does not count against the total number of buildings you can build during the phase</p>
+<p>A number of mid-sized houses for citizens.</p>
+</div>
+<div class="section" id="inn">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-inn"></span><h3><a class="toc-backref" href="#id77">Inn</a><a class="headerlink" href="#inn" title="Permalink to this headline">¶</a></h3>
+<p><strong>10 BP, 1 lot</strong></p>
+<p><strong>Kingdom</strong> Economy +1, Loyalty +1</p>
+<p><strong>Limit</strong> Adjacent to 1 House</p>
+<p><strong>Special</strong> Base value +500 gp</p>
+<p><strong>Settlement</strong> Society +1</p>
+<p>A place for visitors to rest.</p>
+</div>
+<div class="section" id="jail">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-jail"></span><h3><a class="toc-backref" href="#id78">Jail</a><a class="headerlink" href="#jail" title="Permalink to this headline">¶</a></h3>
+<p><strong>14 BP, 1 lot</strong></p>
+<p><strong>Kingdom</strong> Loyalty +2, Stability +2, Unrest —2</p>
+<p><strong>Settlement</strong> Crime —1, Law +1</p>
+<p>A fortified structure for confining criminals or dangerous monsters.</p>
+</div>
+<div class="section" id="library">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-library"></span><h3><a class="toc-backref" href="#id79">Library</a><a class="headerlink" href="#library" title="Permalink to this headline">¶</a></h3>
+<p><strong>6 BP, 1 lot</strong></p>
+<p><strong>Kingdom</strong> Economy +1, Loyalty +1</p>
+<p><strong>Upgrade To</strong> Academy</p>
+<p><strong>Settlement</strong> Lore +1</p>
+<p>A large building containing an archive of books.</p>
+</div>
+<div class="section" id="luxury-store">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-luxury-store"></span><h3><a class="toc-backref" href="#id80">Luxury Store</a><a class="headerlink" href="#luxury-store" title="Permalink to this headline">¶</a></h3>
+<p><strong>28 BP, 1 lot</strong></p>
+<p><strong>Kingdom</strong> Economy +1</p>
+<p><strong>Limit</strong> Adjacent to 1 House</p>
+<p><strong>Upgrade To</strong> Magic Shop; <strong>Upgrade From</strong> Shop</p>
+<p><strong>Special</strong>Base value +2,000 gp</p>
+<p><strong>Magic Items</strong> 2 minor rings, wands, or wondrous items</p>
+<p>A shop that specializes in expensive comforts for the wealthy.</p>
+</div>
+<div class="section" id="magic-shop">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-magic-shop"></span><h3><a class="toc-backref" href="#id81">Magic Shop</a><a class="headerlink" href="#magic-shop" title="Permalink to this headline">¶</a></h3>
+<p><strong>68 BP, 1 lot</strong></p>
+<p><strong>Kingdom</strong> Economy +1</p>
+<p><strong>Limit</strong> Adjacent to 2 Houses</p>
+<p><strong>Upgrade From</strong> Luxury Store</p>
+<p><strong>Special</strong> Base value +2,000 gp</p>
+<p><strong>Magic Items</strong> 4 minor wondrous items, 2 medium wondrous items, 1 major wondrous item</p>
+<p>A shop that specializes in magic items and spells.</p>
+</div>
+<div class="section" id="magical-academy">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-magical-academy"></span><h3><a class="toc-backref" href="#id82">Magical Academy</a><a class="headerlink" href="#magical-academy" title="Permalink to this headline">¶</a></h3>
+<p><strong>58 BP, 2 lots</strong></p>
+<p><strong>Kingdom</strong> Economy +2; Fame +1</p>
+<p><strong>Discount</strong> Caster’s Tower, Library, Magic Shop</p>
+<p><strong>Magic Items</strong> 3 minor potions, scrolls, or wondrous items; 1 medium potion, scroll, or wondrous item</p>
+<p><strong>Settlement</strong> Lore +2, Society +1; increase Lore bonus by 2 for questions relating to <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (arcana)</p>
+<p>An institution for training students in spellcasting, magic item crafting, and  various arcane arts.</p>
+</div>
+<div class="section" id="magical-streetlamps">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-magical-streetlamps"></span><h3><a class="toc-backref" href="#id83">Magical Streetlamps</a><a class="headerlink" href="#magical-streetlamps" title="Permalink to this headline">¶</a></h3>
+<p><strong>5 BP</strong></p>
+<p><strong>Limit</strong> Settlement must have a Cathedral, Magic Shop, Magical Academy, or Temple</p>
+<p><strong>Special</strong> Can share a lot with any building or improvement</p>
+<p><strong>Settlement</strong> Crime —1</p>
+<p><a class="reference internal" href="corerulebook.spells.continualflame.html#corerulebook-spells-continualflame-continual-flame"><span class="std std-ref">Continual flame</span></a> lamps that illuminate the lot.</p>
+</div>
+<div class="section" id="mansion">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-mansion"></span><h3><a class="toc-backref" href="#id84">Mansion</a><a class="headerlink" href="#mansion" title="Permalink to this headline">¶</a></h3>
+<p><strong>10 BP, 1 lot</strong></p>
+<p><strong>Kingdom</strong> Stability +1</p>
+<p><strong>Upgrade To</strong> Noble Villa</p>
+<p><strong>Settlement</strong> Law +1, Society +1</p>
+<p>A single huge manor housing a rich family and its servants.</p>
+</div>
+<div class="section" id="market">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-market"></span><h3><a class="toc-backref" href="#id85">Market</a><a class="headerlink" href="#market" title="Permalink to this headline">¶</a></h3>
+<p><strong>48 BP, 2 lots</strong></p>
+<p><strong>Kingdom</strong> Economy +2, Stability +2</p>
+<p><strong>Discount</strong> Black Market, Inn, Shop</p>
+<p><strong>Limit</strong> Adjacent to 2 Houses</p>
+<p><strong>Upgrade From</strong> Shop</p>
+<p><strong>Special</strong> Base value +2,000 gp</p>
+<p><strong>Magic Items</strong> 2 minor wondrous items</p>
+<p>An open area for traveling merchants and bargain hunters.</p>
+</div>
+<div class="section" id="menagerie">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-menagerie"></span><h3><a class="toc-backref" href="#id86">Menagerie</a><a class="headerlink" href="#menagerie" title="Permalink to this headline">¶</a></h3>
+<p><strong>16 BP, 4 lots</strong></p>
+<p><strong>Kingdom</strong> Economy +1, Loyalty (special); Fame +1</p>
+<p><strong>Special</strong> Increase Loyalty by 1/4 the CR of the highest-CR creature in the Menagerie</p>
+<p>A large park stocked with exotic creatures for public viewing.</p>
+</div>
+<div class="section" id="military-academy">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-military-academy"></span><h3><a class="toc-backref" href="#id87">Military Academy</a><a class="headerlink" href="#military-academy" title="Permalink to this headline">¶</a></h3>
+<p><strong>36 BP, 2 lots</strong></p>
+<p><strong>Kingdom</strong> Loyalty +2, Stability +1; Fame +1</p>
+<p><strong>Discount</strong> Barracks</p>
+<p><strong>Limit</strong> 1 per settlement</p>
+<p><strong>Special</strong>Armies and commanders recruited at the settlement gain one bonus tactic (see <a class="reference internal" href="ultimatecampaign.kingdomsandwar.masscombat.html#ultimatecampaign-kingdomsandwar-masscombat-army-tactics"><span class="std std-ref">Army Tactics</span></a>)</p>
+<p><strong>Magic Items</strong> 1 minor armor, shield, or weapon; 1 medium armor, shield, or weapon</p>
+<p><strong>Settlement</strong> Law +1, Lore +1</p>
+<p>An institution dedicated to the study of war and the training of elite soldiers and officers.</p>
+</div>
+<div class="section" id="mill">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-mill"></span><h3><a class="toc-backref" href="#id88">Mill</a><a class="headerlink" href="#mill" title="Permalink to this headline">¶</a></h3>
+<p><strong>6 BP, 1 lot</strong></p>
+<p><strong>Kingdom</strong> Economy +1, Stability +1</p>
+<p><strong>Limit</strong> Adjacent to water district border</p>
+<p><strong>Special</strong> With GM approval, you can construct a windmill at the same cost without the water district border requirement</p>
+<p><strong>Settlement</strong> Productivity +1</p>
+<p>A building used to cut lumber or grind grain.</p>
+</div>
+<div class="section" id="mint">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-mint"></span><h3><a class="toc-backref" href="#id89">Mint</a><a class="headerlink" href="#mint" title="Permalink to this headline">¶</a></h3>
+<p><strong>30 BP, 1 lot</strong></p>
+<p><strong>Kingdom</strong> Economy +3, Loyalty +3, Stability +1; Fame +1</p>
+<p>A secure building where the kingdom’s coinage is minted and standard weights and measures are kept.</p>
+</div>
+<div class="section" id="moat">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-moat"></span><h3><a class="toc-backref" href="#id90">Moat</a><a class="headerlink" href="#moat" title="Permalink to this headline">¶</a></h3>
+<p><strong>2 BP</strong></p>
+<p><strong>Kingdom</strong> Unrest —1 (once per settlement)</p>
+<p><strong>Limit</strong> Land district border</p>
+<p><strong>Special</strong> Defense +1; cannot be damaged by siege engines</p>
+<p>A fortification of one side of a district with an open or water-filled ditch, often backed by a low dike or embankment. The GM may allow a river or similar natural feature to function as a moat for one or more sides of a district.</p>
+</div>
+<div class="section" id="monastery">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-monastery"></span><h3><a class="toc-backref" href="#id91">Monastery</a><a class="headerlink" href="#monastery" title="Permalink to this headline">¶</a></h3>
+<p><strong>16 BP, 2 lots</strong></p>
+<p><strong>Kingdom</strong> Stability +1</p>
+<p><strong>Settlement</strong> Law +1, Lore +1</p>
+<p>A cloister for meditation, study, and the pursuit of various other scholarly paths.</p>
+</div>
+<div class="section" id="monument">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-monument"></span><h3><a class="toc-backref" href="#id92">Monument</a><a class="headerlink" href="#monument" title="Permalink to this headline">¶</a></h3>
+<p><strong>6 BP, 1 lot</strong></p>
+<p><strong>Kingdom</strong> Loyalty +1, Unrest —1</p>
+<p>A local memorial such as a bell tower, a statue of a settlement founder, a large tomb, or a public display of art.</p>
+</div>
+<div class="section" id="museum">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-museum"></span><h3><a class="toc-backref" href="#id93">Museum</a><a class="headerlink" href="#museum" title="Permalink to this headline">¶</a></h3>
+<p><strong>30 BP, 2 lots</strong></p>
+<p><strong>Kingdom</strong> Economy +1, Loyalty +1; Fame +1</p>
+<p><strong>Settlement</strong> Lore +2, Society +1; increase Lore bonus by 2 for questions relating to <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (history); apply Lore bonus on <a class="reference internal" href="corerulebook.skills.appraise.html#corerulebook-skills-appraise-appraise"><span class="std std-ref">Appraise</span></a> checks regarding art objects</p>
+<p>A place to display art and artifacts both modern and historical. The GM may allow the kingdom leaders to display a valuable item (such as a magic item or bejeweled statue) in the museum, increasing Fame during this display by 1 for every 10,000 gp of the item’s price (maximum +5 Fame), and by an additional 1 if the item is significant to the kingdom’s history.</p>
+</div>
+<div class="section" id="noble-villa">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-noble-villa"></span><h3><a class="toc-backref" href="#id94">Noble Villa</a><a class="headerlink" href="#noble-villa" title="Permalink to this headline">¶</a></h3>
+<p><strong>24 BP, 2 lots</strong></p>
+<p><strong>Kingdom</strong> Economy +1, Loyalty +1, Stability +1; Fame +1</p>
+<p><strong>Discount</strong> Exotic Artisan, Luxury Store, Mansion</p>
+<p><strong>Upgrade From</strong> Mansion</p>
+<p><strong>Settlement</strong> Society +1</p>
+<p>A sprawling manor with luxurious grounds that houses a noble’s family and staff.</p>
+</div>
+<div class="section" id="observatory">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-observatory"></span><h3><a class="toc-backref" href="#id95">Observatory</a><a class="headerlink" href="#observatory" title="Permalink to this headline">¶</a></h3>
+<p><strong>12 BP, 1 lot</strong></p>
+<p><strong>Kingdom</strong> Stability +1</p>
+<p><strong>Magic Items</strong> 1 minor scroll or wondrous item</p>
+<p><strong>Settlement</strong> Lore +2</p>
+<p>A dome or tower with optical devices for viewing the heavens.</p>
+</div>
+<div class="section" id="orphanage">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-orphanage"></span><h3><a class="toc-backref" href="#id96">Orphanage</a><a class="headerlink" href="#orphanage" title="Permalink to this headline">¶</a></h3>
+<p><strong>6 BP, 1 lot</strong></p>
+<p><strong>Kingdom</strong> Stability +1, Unrest —1</p>
+<p>A place for housing and taking care of large numbers of orphans.</p>
+</div>
+<div class="section" id="palace">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-palace"></span><h3><a class="toc-backref" href="#id97">Palace</a><a class="headerlink" href="#palace" title="Permalink to this headline">¶</a></h3>
+<p><strong>108 BP, 4 lots</strong></p>
+<p><strong>Kingdom</strong> Economy +2, Loyalty +6, Stability +2; Fame +1</p>
+<p><strong>Discount</strong> Mansion, Mint, Noble Villa</p>
+<p><strong>Special</strong> Base value +1,000 gp; you may make two <a class="reference internal" href="ultimatecampaign.kingdomsandwar.optionalkingdomrules.html#ultimatecampaign-kingdomsandwar-optionalkingdomrules-special-edicts"><span class="std std-ref">special edicts</span></a> per turn, but take a —2 penalty on kingdom checks associated with each special edict</p>
+<p><strong>Settlement</strong> Law +2</p>
+<p>A grand edifice and walled grounds demonstrating one’s wealth, power, and authority to the world.</p>
+</div>
+<div class="section" id="park">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-park"></span><h3><a class="toc-backref" href="#id98">Park</a><a class="headerlink" href="#park" title="Permalink to this headline">¶</a></h3>
+<p><strong>4 BP, 1 lot</strong></p>
+<p><strong>Kingdom</strong> Loyalty +1, Unrest —1</p>
+<p>A plot of land set aside for its serene beauty.</p>
+</div>
+<div class="section" id="paved-streets">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-paved-streets"></span><h3><a class="toc-backref" href="#id99">Paved Streets</a><a class="headerlink" href="#paved-streets" title="Permalink to this headline">¶</a></h3>
+<p><strong>24 BP</strong></p>
+<p><strong>Kingdom</strong> Economy +2, Stability +1</p>
+<p><strong>Limit</strong> 1 per district</p>
+<p><strong>Settlement</strong> Productivity +2</p>
+<p>Brick or stone pavement that speeds transportation.</p>
+</div>
+<div class="section" id="pier">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-pier"></span><h3><a class="toc-backref" href="#id100">Pier</a><a class="headerlink" href="#pier" title="Permalink to this headline">¶</a></h3>
+<p><strong>16 BP, 1 lot</strong></p>
+<p><strong>Kingdom</strong> Economy +1, Stability +1</p>
+<p><strong>Limit</strong> Adjacent to water district border</p>
+<p><strong>Upgrade To</strong> Waterfront</p>
+<p><strong>Special</strong> Base value +1,000 gp</p>
+<p><strong>Settlement</strong> Crime +1</p>
+<p>Warehouses and workshops for docking ships and handling cargo and passengers.</p>
+</div>
+<div class="section" id="sewer-system">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-sewer-system"></span><h3><a class="toc-backref" href="#id101">Sewer System</a><a class="headerlink" href="#sewer-system" title="Permalink to this headline">¶</a></h3>
+<p><strong>24 BP</strong></p>
+<p><strong>Kingdom</strong> Loyalty +1, Stability +2</p>
+<p><strong>Discount</strong> Cistern, Dump</p>
+<p><strong>Limit</strong> 1 per district</p>
+<p><strong>Settlement</strong> Crime +1, Productivity +1</p>
+<p>An underground sanitation system that keeps the settlement clean, though it may become home to criminals and monsters.</p>
+</div>
+<div class="section" id="shop">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-shop"></span><h3><a class="toc-backref" href="#id102">Shop</a><a class="headerlink" href="#shop" title="Permalink to this headline">¶</a></h3>
+<p><strong>8 BP, 1 lot</strong></p>
+<p><strong>Kingdom</strong> Economy +1</p>
+<p><strong>Limit</strong> Adjacent to 1 House or Mansion</p>
+<p><strong>Upgrade To</strong> Luxury Store, Market</p>
+<p><strong>Special</strong> Base value +500 gp</p>
+<p><strong>Settlement</strong> Productivity +1</p>
+<p>A general store.</p>
+</div>
+<div class="section" id="shrine">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-shrine"></span><h3><a class="toc-backref" href="#id103">Shrine</a><a class="headerlink" href="#shrine" title="Permalink to this headline">¶</a></h3>
+<p><strong>8 BP, 1 lot</strong></p>
+<p><strong>Kingdom</strong> Loyalty +1, Unrest —1</p>
+<p><strong>Upgrade To</strong> Temple</p>
+<p><strong>Magic Items</strong> 1 minor potion, scroll, or wondrous item</p>
+<p>A shrine, idol, sacred grove, or similar holy site designed for worship by pious individuals.</p>
+</div>
+<div class="section" id="smithy">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-smithy"></span><h3><a class="toc-backref" href="#id104">Smithy</a><a class="headerlink" href="#smithy" title="Permalink to this headline">¶</a></h3>
+<p><strong>6 BP, 1 lot</strong></p>
+<p><strong>Kingdom</strong> Economy +1, Stability +1</p>
+<p>The workshop of an armorsmith, blacksmith, weaponsmith, or other craftsman who works with metal.</p>
+</div>
+<div class="section" id="stable">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-stable"></span><h3><a class="toc-backref" href="#id105">Stable</a><a class="headerlink" href="#stable" title="Permalink to this headline">¶</a></h3>
+<p><strong>10 BP, 1 lot</strong></p>
+<p><strong>Kingdom</strong> Economy +1, Loyalty +1</p>
+<p><strong>Limit</strong> Adjacent to 1 House, Mansion, or Noble Villa</p>
+<p><strong>Special</strong> Base value +500 gp</p>
+<p>A structure for housing or selling horses and other mounts.</p>
+</div>
+<div class="section" id="stockyard">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-stockyard"></span><h3><a class="toc-backref" href="#id106">Stockyard</a><a class="headerlink" href="#stockyard" title="Permalink to this headline">¶</a></h3>
+<p><strong>20 BP, 4 lots</strong></p>
+<p><strong>Kingdom</strong> Economy +1, Stability —1</p>
+<p><strong>Discount</strong> Stable, Tannery</p>
+<p><strong>Special</strong> Farms in this hex or adjacent hexes reduce Consumption by 3 instead of 2</p>
+<p><strong>Settlement</strong> Productivity +1</p>
+<p>Barns and pens that store herd animals and prepare them for nearby slaughterhouses.</p>
+</div>
+<div class="section" id="tannery">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-tannery"></span><h3><a class="toc-backref" href="#id107">Tannery</a><a class="headerlink" href="#tannery" title="Permalink to this headline">¶</a></h3>
+<p><strong>6 BP, 1 lot</strong></p>
+<p><strong>Kingdom</strong> Economy +1, Stability +1</p>
+<p><strong>Limit</strong> Cannot be adjacent to House, Mansion, Noble Villa, or Tenement</p>
+<p><strong>Settlement</strong> Society —1</p>
+<p>A structure that prepares hides and leather.</p>
+</div>
+<div class="section" id="tavern">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-tavern"></span><h3><a class="toc-backref" href="#id108">Tavern</a><a class="headerlink" href="#tavern" title="Permalink to this headline">¶</a></h3>
+<p><strong>12 BP, 1 lot</strong></p>
+<p><strong>Kingdom</strong> Economy +1, Loyalty +1</p>
+<p><strong>Limit</strong> Adjacent to 1 House or Mansion</p>
+<p><strong>Special</strong> Base value +500 gp</p>
+<p><strong>Settlement</strong> Corruption +1</p>
+<p>An eating or drinking establishment.</p>
+</div>
+<div class="section" id="temple">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-temple"></span><h3><a class="toc-backref" href="#id109">Temple</a><a class="headerlink" href="#temple" title="Permalink to this headline">¶</a></h3>
+<p><strong>32 BP, 2 lots</strong></p>
+<p><strong>Kingdom</strong> Loyalty +2, Stability +2, Unrest —2</p>
+<p><strong>Discount</strong> Graveyard, Monument, Shrine</p>
+<p><strong>Upgrade From</strong> Shrine</p>
+<p><strong>Magic Items</strong> 2 minor items</p>
+<p>A large place of worship dedicated to a deity.</p>
+</div>
+<div class="section" id="tenement">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-tenement"></span><h3><a class="toc-backref" href="#id110">Tenement</a><a class="headerlink" href="#tenement" title="Permalink to this headline">¶</a></h3>
+<p><strong>1 BP, 1 lot</strong></p>
+<p><strong>Kingdom</strong> Unrest +2</p>
+<p><strong>Upgrade To</strong> House</p>
+<p><strong>Special</strong> Counts as House for buildings that must be adjacent to a House</p>
+<p>A staggering number of low-rent housing units.</p>
+</div>
+<div class="section" id="theater">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-theater"></span><h3><a class="toc-backref" href="#id111">Theater</a><a class="headerlink" href="#theater" title="Permalink to this headline">¶</a></h3>
+<p><strong>24 BP, 2 lots</strong></p>
+<p><strong>Kingdom</strong> Economy +2, Stability +2</p>
+<p><strong>Discount</strong> Brothel, Exotic Artisan, Inn, Park, Tavern</p>
+<p><strong>Upgrade To</strong> Arena</p>
+<p>A venue for entertainments such as plays, operas, and concerts.</p>
+</div>
+<div class="section" id="town-hall">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-town-hall"></span><h3><a class="toc-backref" href="#id112">Town Hall</a><a class="headerlink" href="#town-hall" title="Permalink to this headline">¶</a></h3>
+<p><strong>22 BP, 2 lots</strong></p>
+<p><strong>Kingdom</strong> Economy +1, Loyalty +1, Stability +1</p>
+<p><strong>Discount</strong> Barracks, Cistern, Dump, Jail, Watchtower</p>
+<p><strong>Settlement</strong> Law +1</p>
+<p>A public venue for town meetings, repository for town records, and offices for minor bureaucrats.</p>
+</div>
+<div class="section" id="trade-shop">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-trade-shop"></span><h3><a class="toc-backref" href="#id113">Trade Shop</a><a class="headerlink" href="#trade-shop" title="Permalink to this headline">¶</a></h3>
+<p><strong>10 BP, 1 lot</strong></p>
+<p><strong>Kingdom</strong> Economy +1, Stability +1</p>
+<p><strong>Limit</strong> Adjacent to 1 House</p>
+<p><strong>Upgrade To</strong> Guildhall</p>
+<p><strong>Special</strong> Base value +500 gp</p>
+<p><strong>Settlement</strong> Productivity +1</p>
+<p>A shop front for a tradesperson, such as a baker, butcher, candle maker, cobbler, rope maker, or wainwright.</p>
+</div>
+<div class="section" id="university">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-university"></span><h3><a class="toc-backref" href="#id114">University</a><a class="headerlink" href="#university" title="Permalink to this headline">¶</a></h3>
+<p><strong>78 BP, 4 lots</strong></p>
+<p><strong>Kingdom</strong> Economy +3, Loyalty +3; Fame +1</p>
+<p><strong>Discount</strong> Academy, Bardic College, Library, Magical Academy, Military Academy, Museum</p>
+<p><strong>Upgrade From</strong> Academy</p>
+<p><strong>Magic Items</strong> 4 minor scrolls or wondrous items, 2 medium scrolls or wondrous itemsâ©<strong>Settlement</strong> Lore +4, Society +3; increase Lore bonus by 4 for questions relating to one <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> or <a class="reference internal" href="corerulebook.skills.profession.html#corerulebook-skills-profession-profession"><span class="std std-ref">Profession</span></a> skill</p>
+<p>An institution of higher learning, focusing mainly on mundane subjects but dabbling in magical theory.</p>
+</div>
+<div class="section" id="id4">
+<span id="id5"></span><h3><a class="toc-backref" href="#id115">Watchtower</a><a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<p><strong>12 BP, 1 lot</strong></p>
+<p><strong>Kingdom</strong> Stability +1, Unrest —1</p>
+<p><strong>Special</strong> Defense +2</p>
+<p>A tall structure that serves as a guard post.</p>
+</div>
+<div class="section" id="watergate">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-watergate"></span><h3><a class="toc-backref" href="#id116">Watergate</a><a class="headerlink" href="#watergate" title="Permalink to this headline">¶</a></h3>
+<p><strong>2 BP</strong></p>
+<p><strong>Special</strong> Shares City Wall</p>
+<p>A gate in a City Wall that allows water (such as a river, Aqueduct, or Waterway) to enter the settlement. A Watergate has underwater defenses to block unwanted access. If you construct a Watergate when you construct a City Wall, the Watergate does not count toward the limit of the number of buildings you can construct per turn.</p>
+</div>
+<div class="section" id="waterfront">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-waterfront"></span><h3><a class="toc-backref" href="#id117">Waterfront</a><a class="headerlink" href="#waterfront" title="Permalink to this headline">¶</a></h3>
+<p><strong>90 BP, 4 lots</strong></p>
+<p><strong>Kingdom</strong> Economy +4</p>
+<p><strong>Discount</strong> Black Market, Guildhall, Market, Pier</p>
+<p><strong>Limit</strong> Adjacent to water district border, 1 per settlement</p>
+<p><strong>Upgrade From</strong> Pierâ©</p>
+<p><strong>Special</strong> Base value +4,000 gp; halves Loyalty penalty for Taxation edicts</p>
+<p><strong>Magic Items</strong> 2 minor wondrous items, 1 medium wondrous item, 1 major wondrous item</p>
+<p><strong>Settlement</strong> Productivity +2</p>
+<p>A port for waterborne arrival and departure, with facilities for shipping and shipbuilding.</p>
+</div>
+<div class="section" id="waterway">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-waterway"></span><h3><a class="toc-backref" href="#id118">Waterway</a><a class="headerlink" href="#waterway" title="Permalink to this headline">¶</a></h3>
+<p><strong>3 BP, 1—2 lots</strong></p>
+<p><strong>Special</strong> Counts as water district border for adjacent buildings</p>
+<p>A river or canal occuping part of the District Grid. At the GM’s option, a natural Waterway may already exist on the grid, requiring no action or BP to build. If you construct a City Wall that touches or crosses the Waterway, you must also build Watergates on the same turn.</p>
+</div>
+</div>
+<div class="section" id="events">
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-events"></span><h2><a class="toc-backref" href="#id119">Events</a><a class="headerlink" href="#events" title="Permalink to this headline">¶</a></h2>
+<p>Listed below are unusual events that can happen during a kingdom’s Event phase. Most events occur immediately and are instantaneous or terminate at the end of the Event phase.</p>
+<p>Some events impact the whole kingdom, while others are centered on a specific settlement or hex. Roll on Table 4—7: Event Type and Danger Level to determine the type of event and whether it is beneficial or harmful. Then roll on the appropriate beneficial or dangerous settlement or kingdom event table. If this results in an invalid event (such as a pilgrimage when there are no Cathedrals, Shrines, or Temples in the kingdom), roll again.</p>
+<p><strong>Continuous Events</strong>: A continuous event’s effects continue each turn during the Event phase until you resolve the event (as explained in the event description, usually by succeeding at a kingdom check).</p>
+<p><strong>Localized Events</strong>: Some events are listed as “settlement” or “hex.” The effect of these events are localized to a single settlement or hex. Randomly select a settlement or hex for the location of that event. Some events (such as a feud) could be confined to a settlement or start in one settlement and spread to affect the entire kingdom, depending on whether they’re rolled on one of the Kingdom Events tables or one of the Settlement Events tables.</p>
+<p><strong>Settlement Modifiers</strong>: Some events adjust settlement modifiers (Crime, Lore, etc.). If an event is localized to 1 settlement, its settlement modifier adjustments apply only to that settlement; if it’s localized to a hex, it affects only settlements in that hex. If the GM is using settlement modifiers for the entire kingdom (see <a class="reference internal" href="ultimatecampaign.kingdomsandwar.optionalkingdomrules.html#ultimatecampaign-kingdomsandwar-optionalkingdomrules-expanding-settlement-modifiers"><span class="std std-ref">Expanding Settlement Modifiers</span></a>) and the event is not localized, its adjustments apply to the final modifier for the entire kingdom. For example, the new subjects event increases Society and Stability for the entire kingdom by 1.</p>
+<p><strong>Hiring Adventurers</strong>: Once per Event phase, you can hire NPC adventurers to help deal with an event, gaining a bonus on one Economy, Loyalty, or Stability check made as part of that event. Adventurers of levels 1—2 grant a +2 bonus on the check and cost 4 BP; adventurers of levels 3—5 grant a +5 bonus on the check and cost 8 BP; adventurers of level 6+ (but never higher than your APL) grant a +10 bonus on the check and cost 16 BP.</p>
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-table-event-type-and-danger-level"></span><table border="1" class="colwidths-auto contrast-reading-table docutils" id="id12">
+<caption><span class="caption-text">Event Type and Danger Level</span><a class="headerlink" href="#id12" title="Permalink to this table">¶</a></caption>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">d%</th>
+<th class="head">Event</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>01—02</td>
+<td>Natural blessing and roll again<sup>1</sup></td>
+</tr>
+<tr class="row-odd"><td>03—04</td>
+<td>Good weather and roll again<sup>1</sup></td>
+</tr>
+<tr class="row-even"><td>05—25</td>
+<td>Beneficial kingdom event (Table 4—8)</td>
+</tr>
+<tr class="row-odd"><td>26—50</td>
+<td>Dangerous kingdom event (Table 4—9)</td>
+</tr>
+<tr class="row-even"><td>51—75</td>
+<td>Beneficial settlement event (Table 4—10)</td>
+</tr>
+<tr class="row-odd"><td>76—96</td>
+<td>Dangerous settlement event (Table 4—11)</td>
+</tr>
+<tr class="row-even"><td>97</td>
+<td>Bandit activity and roll again<sup>2</sup></td>
+</tr>
+<tr class="row-odd"><td>98</td>
+<td>Squatters and roll again<sup>2</sup></td>
+</tr>
+<tr class="row-even"><td>99</td>
+<td>Monster attack and roll again<sup>2</sup></td>
+</tr>
+<tr class="row-odd"><td>100</td>
+<td>Vandals and roll again<sup>2</sup></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Notes:</strong></p>
+<ul class="simple">
+<li><sup>1</sup>If the reroll indicates the same event, ignore the duplicate event and do not reroll again. <sup>2</sup>If the reroll indicates the same event, the second event occurs elsewhere in the kingdom.</li>
+</ul>
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-table-beneficial-kingdom-events"></span><table border="1" class="colwidths-auto contrast-reading-table docutils" id="id13">
+<caption><span class="caption-text">Beneficial Kingdom Events</span><a class="headerlink" href="#id13" title="Permalink to this table">¶</a></caption>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">d%</th>
+<th class="head">Event</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>01—07</td>
+<td>Archaeological find</td>
+</tr>
+<tr class="row-odd"><td>08—12</td>
+<td>Diplomatic overture</td>
+</tr>
+<tr class="row-even"><td>13—20</td>
+<td>Discovery</td>
+</tr>
+<tr class="row-odd"><td>21—31</td>
+<td>Economic boom</td>
+</tr>
+<tr class="row-even"><td>32—39</td>
+<td>Festive invitation</td>
+</tr>
+<tr class="row-odd"><td>40—53</td>
+<td>Food surplus</td>
+</tr>
+<tr class="row-even"><td>54—66</td>
+<td>Good weather</td>
+</tr>
+<tr class="row-odd"><td>67—75</td>
+<td>Land rush</td>
+</tr>
+<tr class="row-even"><td>76—85</td>
+<td>Natural blessing</td>
+</tr>
+<tr class="row-odd"><td>86—90</td>
+<td>New subjects</td>
+</tr>
+<tr class="row-even"><td>91—100</td>
+<td>Political calm</td>
+</tr>
+</tbody>
+</table>
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-table-dangerous-kingdom-events"></span><table border="1" class="colwidths-auto contrast-reading-table docutils" id="id14">
+<caption><span class="caption-text">Dangerous Kingdom Events</span><a class="headerlink" href="#id14" title="Permalink to this table">¶</a></caption>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">d%</th>
+<th class="head">Event</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>01—05</td>
+<td>Assassination attempt</td>
+</tr>
+<tr class="row-odd"><td>06—18</td>
+<td>Bandit activity</td>
+</tr>
+<tr class="row-even"><td>19—28</td>
+<td>Feud</td>
+</tr>
+<tr class="row-odd"><td>29—41</td>
+<td>Food shortage</td>
+</tr>
+<tr class="row-even"><td>42—51</td>
+<td>Improvement demand</td>
+</tr>
+<tr class="row-odd"><td>52—59</td>
+<td>Inquisition</td>
+</tr>
+<tr class="row-even"><td>60—64</td>
+<td>Large disaster</td>
+</tr>
+<tr class="row-odd"><td>65—76</td>
+<td>Monster attack</td>
+</tr>
+<tr class="row-even"><td>77—84</td>
+<td>Plague</td>
+</tr>
+<tr class="row-odd"><td>85—92</td>
+<td>Public scandal</td>
+</tr>
+<tr class="row-even"><td>93—100</td>
+<td>Smugglers</td>
+</tr>
+</tbody>
+</table>
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-table-beneficial-settlement-events"></span><table border="1" class="colwidths-auto contrast-reading-table docutils" id="id15">
+<caption><span class="caption-text">Beneficial Settlement Events</span><a class="headerlink" href="#id15" title="Permalink to this table">¶</a></caption>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">d%</th>
+<th class="head">Event</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>01—14</td>
+<td>Boomtown</td>
+</tr>
+<tr class="row-odd"><td>15—26</td>
+<td>Discovery</td>
+</tr>
+<tr class="row-even"><td>27—40</td>
+<td>Justice prevails</td>
+</tr>
+<tr class="row-odd"><td>41—46</td>
+<td>Noblesse oblige</td>
+</tr>
+<tr class="row-even"><td>47—58</td>
+<td>Outstanding success</td>
+</tr>
+<tr class="row-odd"><td>59—66</td>
+<td>Pilgrimage</td>
+</tr>
+<tr class="row-even"><td>67—72</td>
+<td>Remarkable treasure</td>
+</tr>
+<tr class="row-odd"><td>73—81</td>
+<td>Unexpected find</td>
+</tr>
+<tr class="row-even"><td>82—93</td>
+<td>Visiting celebrity</td>
+</tr>
+<tr class="row-odd"><td>94—100</td>
+<td>Wealthy immigrant</td>
+</tr>
+</tbody>
+</table>
+<span id="ultimatecampaign-kingdomsandwar-kingdomturnsequence-table-dangerous-settlement-events"></span><table border="1" class="colwidths-auto contrast-reading-table docutils" id="id16">
+<caption><span class="caption-text">Dangerous Settlement Events</span><a class="headerlink" href="#id16" title="Permalink to this table">¶</a></caption>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">d%</th>
+<th class="head">Event</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>01—10</td>
+<td>Building demand</td>
+</tr>
+<tr class="row-odd"><td>11—17</td>
+<td>Crop failure</td>
+</tr>
+<tr class="row-even"><td>18—25</td>
+<td>Cult activity</td>
+</tr>
+<tr class="row-odd"><td>26—33</td>
+<td>Drug den</td>
+</tr>
+<tr class="row-even"><td>34—41</td>
+<td>Feud</td>
+</tr>
+<tr class="row-odd"><td>42—49</td>
+<td>Inquisition</td>
+</tr>
+<tr class="row-even"><td>50—54</td>
+<td>Localized disaster</td>
+</tr>
+<tr class="row-odd"><td>55—61</td>
+<td>Monster attack</td>
+</tr>
+<tr class="row-even"><td>62—66</td>
+<td>Plague</td>
+</tr>
+<tr class="row-odd"><td>67—74</td>
+<td>Sensational crime</td>
+</tr>
+<tr class="row-even"><td>75—80</td>
+<td>Slavers</td>
+</tr>
+<tr class="row-odd"><td>81—90</td>
+<td>Squatters</td>
+</tr>
+<tr class="row-even"><td>91—100</td>
+<td>Vandals</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Archaeological Find</strong>: A well-preserved ruin is found in your kingdom, with historical artifacts connected to the people who lived in your land long ago. <em>Effect</em>: Lore +1. If you have a Museum, the discoverers donate 10,000 gp worth of historical artifacts to its collection (if you have multiple Museums, choose one as the recipient).</p>
+<p><strong>Assassination Attempt</strong>: One of your leaders (determined randomly) is the target of an assassination attempt. If the target is a PC, the GM should run the attempt as an encounter, using an assassin of a CR equal to the targeted PC’s level. If the target is an NPC, you must succeed at a Stability check to prevent the assassination. If the assassination occurs, Unrest increases by 1d6 and the kingdom immediately incurs the penalties for not having a leader in that role.</p>
+<p><strong>Bandit Activity</strong>: Bandits are preying upon those who travel through your kingdom. Attempt a Stability check. If you succeed, your kingdom’s defenses stop the bandits before they cause any harm. If you fail, the bandits reduce your kingdom’s Treasury by 1d6 BP (each time you roll a 6, add the result to the total and roll again).</p>
+<p><strong>Boomtown (Settlement)</strong>: Randomly select one settlement. Commerce booms among that settlement. Until the next Event phase, Economy increases by the number of buildings in the settlement that grant an Economy bonus, and Corruption increases by 1d4 in that settlement.</p>
+<p><strong>Building Demand (Settlement, Continuous)</strong>: The citizens demand a particular building be built (01—75) or demolished (76—100). Select the building type randomly from those available for the settlement. If the demand is not met by the next Event phase, Unrest increases by 1. Alternatively, you can suppress the citizens’ demands and negate the event by succeeding at a Loyalty check, but this reduces Loyalty by 2 and increases Unrest by 1.</p>
+<p><strong>Crop Failure (Settlement)</strong>: Pests, blight, and weather ruin the harvest in the settlement’s hex and all adjacent hexes. Attempt two Stability checks. If both succeed, the problem is fixed before your kingdom takes any penalties from the event. If only one succeeds, affected farms reduce Consumption by 1 (instead of the normal reduction) in the next Upkeep phase. If neither succeeds, affected farms do not reduce Consumption at all in the next Upkeep phase.</p>
+<p><strong>Cult Activity (Settlement, Continuous)</strong>: A religious cult of an alignment opposed to the kingdom’s alignment begins kidnapping, converting, or even publicly sacrificing citizens. Attempt a Loyalty check and a Stability check. If both succeed, the cult is disbanded before your kingdom takes any penalties from the event. For each of these checks you fail, Unrest increases by 1 and Productivity, Society, and Stability decrease by 1. If both checks fail, the event continues in the next Event phase.</p>
+<p><strong>Diplomatic Overture</strong>: A nearby kingdom sends an ambassador to you to negotiate an embassy (01—60), treaty (61—90), or alliance (91—100), as if using a diplomatic edict (see <a class="reference internal" href="ultimatecampaign.kingdomsandwar.optionalkingdomrules.html#ultimatecampaign-kingdomsandwar-optionalkingdomrules-special-edicts"><span class="std std-ref">Special Edicts</span></a>). If the GM doesn’t have an appropriate kingdom in mind when this event occurs, determine the kingdom’s alignment randomly; it may be hostile or friendly. The ambassador bears 1d4 BP worth of gifts for your kingdom.</p>
+<p><strong>Discovery (Settlement)</strong>: Scholars unearth a bit of ancient lore or devise important new research of their own. Fame increases by 1 and Lore increases by 1d4.</p>
+<p><strong>Drug Den (Settlement, Continuous)</strong>: One of your Houses or Tenements becomes a hive of illicit drug trade. Attempt a Loyalty check and a Stability check, with a penalty equal to the number of Brothels, Tenements, Waterfronts, and lots with squatters in the settlement. If you succeed at both checks, you eliminate the drug den before your kingdom takes any penalties from the event. If you fail at one check, Crime and Unrest increase by 1. If you fail at both checks, Crime and Unrest increase by 1; Economy, Loyalty, and Stability decrease by 1; and on the next Event phase, a second drug den event occurs in the same settlement (01—50) or the nearest settlement (51—100).</p>
+<p><strong>Economic Boom</strong>: Trade is booming in your kingdom! Your Treasury increases by 1d6 BP (each time you roll a 6, add the result to the total and roll again).</p>
+<p><strong>Festive Invitation</strong>: Your kingdom’s leaders are invited to a festival in a neighboring kingdom. If you attend and bring 1d4 BP worth of gifts, for 1 year Society increases by 1, Fame increases by 1 for any check relating to that kingdom, and you gain a +2 bonus on edict checks relating to that kingdom.</p>
+<p><strong>Feud (Settlement, Continuous)</strong>: Nobles (or other influential rival groups) are bickering. Attempt a Loyalty check. If you succeed, you end the event but Unrest increases by 1. If you fail, Corruption increases by 1, Unrest increases by 1d6, and the event is continuous.</p>
+<p><strong>Food Shortage</strong>: Spoilage, treachery, or bad luck has caused a food shortage this turn. Attempt a Stability check. If you succeed, Consumption in the next Upkeep phase increases by 50%. If you fail, Consumption in the next Upkeep phase increases by 100%.</p>
+<p><strong>Food Surplus</strong>: Farmers produce an unexpected windfall! In the next Upkeep phase, the kingdom’s Consumption is halved (but returns to normal on the next turn).</p>
+<p><strong>Good Weather</strong>: Good weather raises spirits and productivity. Economy, Loyalty, and Productivity increase by 2 until the next Event phase.</p>
+<p><strong>Improvement Demand (hex)</strong>: This event is identical to the building demand event, but the citizens want the construction or destruction of a terrain improvement in the hex.</p>
+<p><strong>Inquisition (settlement, continuous)</strong>: Zealots mobilize public opinion against a particular race, religion, kingdom, behavior, or kingdom leader. Attempt a Loyalty check. If you fail, the zealots run rampant; Infamy and Law increase by 1 and Lore, Loyalty, Productivity, and Stability decrease by 2. If you succeed, the zealots are somewhat suppressed; Lore, Loyalty, Productivity, and Stability decrease by 1. Two successful checks in a row end the event (if a check ends the event, no penalties from it occur that turn).</p>
+<p><strong>Justice Prevails (settlement)</strong>: Authorities shut down a major criminal operation or thwart a plot against the settlement. Law and Loyalty increase by 1 and Crime and Unrest decreases by 1.</p>
+<p><strong>Land Rush</strong>: Overeager settlers claim an unclaimed hex and construct a Farm, Mine, Quarry, or Sawmill at their own expense, but are fighting over ownership. This hex is not part of your kingdom, so you gain no benefits from it. Productivity, Society, and Stability decrease by 1. Attempt a Loyalty check. If you succeed, Unrest increases by 1. If you fail, Unrest increases by 1d4. If you construct an identical improvement in an adjacent hex during your next Edict phase, remove this event’s changes to Productivity, Society, and Stability.</p>
+<p><strong>Large Disaster (Hex)</strong>: A fire, storm, earthquake, flood, massive sabotage, or other disaster strikes! Roll 1d6; on a result of 1—5, the disaster threatens only 1 improved hex. On a result of 6, the disaster is widespread and threatens 1d6 additional improved hexes adjacent to the target hex. Attempt a Stability check for each threatened hex; failure means the disaster destroys one terrain improvement in the hex and Unrest increases by 1. (This Stability check represents your kingdom’s ability to prepare for or react to the disaster as well as the structure’s ability to withstand damage.)</p>
+<p><strong>Localized Disaster (Settlement)</strong>: A fire, a flood, a storm, an earthquake, massive sabotage, or another disaster strikes the settlement! Roll 1d6 to determine how many lots are threatened by the disaster. On a result of 6, the disaster is widespread and affects 1d6 additional adjacent lots. Attempt a Stability check for each threatened lot; failure means the disaster destroys the building in that lot and Unrest increases by 1. (This Stability check represents your kingdom’s ability to prepare for or react to the disaster as well as the structure’s ability to withstand damage.)</p>
+<p><strong>Monster Attack (Settlement, Continuous)</strong>: A monster (or group of monsters) attacks the kingdom. The GM picks a claimed hex in the kingdom in which the monster is active. The CR of the monster encounter is equal to the party’s APL + 1d4 — 1. You can personally deal with the monster (earning XP and treasure normally for your efforts) or succeed at a Stability check to eliminate it (which doesn’t affect you or the kingdom’s statistics). If the monster is not defeated this turn, Unrest increases by 4. If the kingdom’s Unrest is 5 or higher, the monster’s hex becomes unclaimed—this is in addition to losing control of hexes in the Upkeep phase because of the kingdom’s high Unrest score.</p>
+<p><strong>Natural Blessing</strong>: A natural event, such as a bloom of rare and beautiful wildflowers or a good omen in the stars, raises your kingdom’s morale. You gain a +4 bonus on Stability checks until the next Event phase.</p>
+<p><strong>New Subjects</strong>: A small group of indigenous intelligent creatures joins your kingdom and submits to your rule. Society and Stability increase by 1, Unrest decreases by 1, and your Treasury increases by 1d6 BP (each time you roll a 6, add the result to the total and roll again).</p>
+<p><strong>Noblesse Oblige (Settlement)</strong>: A noble family offers to construct a Monument (01—50) or Park (51—100) in your settlement at the family’s own expense. The nobles pay all costs and Consumption for this purpose.</p>
+<p><strong>Outstanding Success (Settlement)</strong>: One of your kingdom’s citizens creates an artistic masterpiece, constructs a particularly impressive building, or otherwise brings glory to your kingdom. Fame increases by 1, your Treasury increases by 1d6 BP, and Unrest decreases by 2. You gain a +4 bonus on Economy checks until the next Event phase.</p>
+<p><strong>Pilgrimage (settlement)</strong>: Randomly select one settlement with a Cathedral, Shrine, or Temple. Pious religious folk journey to your settlement, holding a religious festival in that settlement at no BP cost to you.</p>
+<p><strong>Plague (Hex or Settlement, Continuous)</strong>: A deadly sickness strikes the target hex or settlement. You cannot construct terrain improvements or buildings there while plague persists. Attempt two Stability checks, each with a penalty equal to the number of Brothels, Foreign Quarters, Highways, Inns, Piers, Roads, Stables, Stockyards, Tenements, and Waterfronts in the hex, and a bonus equal to the number of Alchemists, Cathedrals, Herbalists, Hospitals, and Temples in the hex. If you succeed at both checks, the event ends, but Stability decreases by 2 and Treasury by 1d3 BP. If you fail at one check, Stability decreases by 4, Treasury decreases by 1d6 BP, and Unrest increases by 1d3. If you fail at both, Stability decreases by 4, Treasury decreases by 1d6 BP, Unrest increases by 1d6, and in the next Event phase the plague spreads to an adjacent hex.</p>
+<p><strong>Political Calm</strong>: A sudden absence of political machinations coincides with an increase in public approval. Unrest decreases by 1d6. Until the next Event phase, you gain a +2 bonus on checks to resolve continuous events. If your kingdom has no Unrest and no continuous events, both Loyalty and Stability increase by 1. If you are using Law settlement modifiers for the kingdom (see <a class="reference internal" href="ultimatecampaign.kingdomsandwar.optionalkingdomrules.html#ultimatecampaign-kingdomsandwar-optionalkingdomrules-expanding-settlement-modifiers"><span class="std std-ref">Expanding Settlement Modifiers</span></a>), this also increases Law by 1 for the entire kingdom.</p>
+<p><strong>Public Scandal</strong>: One of your leaders is implicated in a crime or an embarrassing situation, such as an affair with another leader’s spouse. Infamy increases by 1. Attempt a Loyalty check. If you fail, Unrest increases by 2 and  you take a —4 penalty on all Loyalty checks until the next Event phase.</p>
+<p><strong>Remarkable Treasure (Settlement)</strong>: The settlement immediately fills one of its open magic item slots (selected randomly) with a better than normal item (medium if a minor slot, major if a medium slot). Treat the settlement’s base value as 50% higher than normal for determining the item’s maximum price. If the settlement doesn’t have any open magic item slots, treat this event as Unexpected Find.</p>
+<p><strong>Sensational Crime (Settlement, Continuous)</strong>: A serial killer, arsonist, or daring bandit plagues your kingdom. Attempt two Stability checks, adding the settlement’s Law and subtracting its Crime. If you succeed at both checks, the criminal is caught before your kingdom takes any penalties from the event. If you fail at one, the criminal escapes, Unrest increases by 1, and the event is continuous. If you fail at both, the criminal makes a fool of the authorities; Law and Loyalty decrease by 1, Treasury decreases by 1d4 BP, Unrest increases by 2, and the event is continuous.</p>
+<p><strong>Slavers (Settlement, Continuous)</strong>: Criminals begin kidnapping citizens and selling them into slavery. Attempt a Loyalty check and a Stability check, each with a penalty equal to the number of Brothels, Tenements, Waterfronts, and lots with squatters in the settlement. If you succeed at both checks, the slavers are caught before your kingdom takes any penalties from the event. If you fail at one of the checks, Loyalty, Stability, and Unrest decrease by 1, but the event is not continuous. If you fail at both checks, Loyalty, Stability, and Unrest decrease by 2, and the event is continuous.</p>
+<p><strong>Smugglers (Continuous)</strong>: Unscrupulous merchants are subverting legitimate businesses. Attempt a Loyalty check and a Stability check, each with a penalty equal to the number of Piers, Waterfronts, and trade routes in the kingdom. If you succeed at both checks, the smugglers are stopped before your kingdom takes any penalties from the event. If you fail at one of the checks, Corruption increases by 1d2 in each settlement, Crime increases by 1 for the kingdom, Productivity for the kingdom decreases by 1d3, Treasury decreases by 1d3 BP, and the event is not continuous. If you fail at both of the checks, Corruption increases by 1d4, Crime for the kingdom increases by 1, Productivity for the kingdom decreases by 1d6, Treasury decreases by 1d6 BP, and the event is continuous.</p>
+<p><strong>Squatters (Settlement, Continuous)</strong>: An empty settlement lot is taken over by beggars, troublemakers, and people unable to find adequate work or housing; they camp there with tents, wagons, and shanties. You cannot use the lot for anything until the squatters are dispersed. Fame and Stability decrease by 1, and Unrest increases by 2. You may try to disperse the squatters with a Stability check. Success means the squatters are dispersed and the event is not continuous, but if a House or Tenement is not built in that lot on the next turn, Infamy increases by 1 and Unrest by 2. Failing the Stability check means the event is continuous, and you may not build on that lot until the event is resolved.</p>
+<p><strong>Unexpected Find (Settlement)</strong>: Local citizens discover a forgotten magical item. The settlement gains one temporary minor (01—70) or medium (71—100) magic item slot that is automatically filled in the next Upkeep phase. This slot and the item go away if the item is purchased or in the next Event phase, whichever comes first.</p>
+<p><strong>Vandals (Settlement)</strong>: Thugs and dissidents riot and destroy property. Attempt a Loyalty check and a Stability check. If you succeed at both, the vandals are stopped before your kingdom takes any penalties. If you fail at one check, Society decreases by 1 and one random building in the settlement is damaged. If you fail at both, one random building is destroyed (Unrest increases by 1 for each lot of the destroyed building), and 1d3 other random buildings are damaged. A damaged building provides no benefits until half its cost is spent repairing it.</p>
+<p><strong>Visiting Celebrity (Settlement)</strong>: A celebrity from another kingdom visits one of your settlements, causing a sudden influx of other visitors and spending. Fame increases by 1 and Treasury increases by 1d6 BP (each time you roll a 6, add the result to the total and roll again).</p>
+<p><strong>Wealthy Immigrant (Settlement)</strong>: A rich merchant or a noble from another land is impressed with your kingdom and asks to construct a Mansion (01—75) or Noble Villa (76—100) in the settlement at no cost to you. If you allow it, the building provides its normal benefits to your kingdom.</p>
+</div>
+</div>
+
+</body>

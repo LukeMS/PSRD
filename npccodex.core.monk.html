@@ -1,0 +1,971 @@
+
+
+
+
+
+<head>
+    <link rel="stylesheet" href="_static/srd.css" type="text/css" />
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/toggle_list.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+
+
+
+<body>
+    <div class="contents topic" id="id1">
+<span id="npccodex-core-monk"></span><p class="topic-title first"></p>
+<ul class="simple">
+<li><a class="reference internal" href="#monks" id="id78">Monks</a><ul>
+<li><a class="reference internal" href="#careful-initiate" id="id79">Careful Initiate</a></li>
+<li><a class="reference internal" href="#defense" id="id80">Defense</a></li>
+<li><a class="reference internal" href="#offense" id="id81">Offense</a></li>
+<li><a class="reference internal" href="#tactics" id="id82">Tactics</a></li>
+<li><a class="reference internal" href="#statistics" id="id83">Statistics</a></li>
+<li><a class="reference internal" href="#bullying-brawler" id="id84">Bullying Brawler</a></li>
+<li><a class="reference internal" href="#id2" id="id85">Defense</a></li>
+<li><a class="reference internal" href="#id3" id="id86">Offense</a></li>
+<li><a class="reference internal" href="#id4" id="id87">Tactics</a></li>
+<li><a class="reference internal" href="#id5" id="id88">Statistics</a></li>
+<li><a class="reference internal" href="#vigilant-bodyguard" id="id89">Vigilant Bodyguard</a></li>
+<li><a class="reference internal" href="#id6" id="id90">Defense</a></li>
+<li><a class="reference internal" href="#id7" id="id91">Offense</a></li>
+<li><a class="reference internal" href="#id8" id="id92">Tactics</a></li>
+<li><a class="reference internal" href="#id9" id="id93">Statistics</a></li>
+<li><a class="reference internal" href="#spry-ambusher" id="id94">Spry Ambusher</a></li>
+<li><a class="reference internal" href="#id10" id="id95">Defense</a></li>
+<li><a class="reference internal" href="#id11" id="id96">Offense</a></li>
+<li><a class="reference internal" href="#id12" id="id97">Tactics</a></li>
+<li><a class="reference internal" href="#id13" id="id98">Statistics</a></li>
+<li><a class="reference internal" href="#cruel-devotee" id="id99">Cruel Devotee</a></li>
+<li><a class="reference internal" href="#id14" id="id100">Defense</a></li>
+<li><a class="reference internal" href="#id15" id="id101">Offense</a></li>
+<li><a class="reference internal" href="#id16" id="id102">Tactics</a></li>
+<li><a class="reference internal" href="#id17" id="id103">Statistics</a></li>
+<li><a class="reference internal" href="#nimble-shuriken-thrower" id="id104">Nimble Shuriken Thrower</a></li>
+<li><a class="reference internal" href="#id18" id="id105">Defense</a></li>
+<li><a class="reference internal" href="#id19" id="id106">Offense</a></li>
+<li><a class="reference internal" href="#id20" id="id107">Tactics</a></li>
+<li><a class="reference internal" href="#id21" id="id108">Statistics</a></li>
+<li><a class="reference internal" href="#harrying-brute" id="id109">Harrying Brute</a></li>
+<li><a class="reference internal" href="#id22" id="id110">Defense</a></li>
+<li><a class="reference internal" href="#id23" id="id111">Offense</a></li>
+<li><a class="reference internal" href="#id24" id="id112">Tactics</a></li>
+<li><a class="reference internal" href="#id25" id="id113">Statistics</a></li>
+<li><a class="reference internal" href="#axe-dancer" id="id114">Axe Dancer</a></li>
+<li><a class="reference internal" href="#id26" id="id115">Defense</a></li>
+<li><a class="reference internal" href="#id27" id="id116">Offense</a></li>
+<li><a class="reference internal" href="#id28" id="id117">Tactics</a></li>
+<li><a class="reference internal" href="#id29" id="id118">Statistics</a></li>
+<li><a class="reference internal" href="#steadfast-defender" id="id119">Steadfast Defender</a></li>
+<li><a class="reference internal" href="#id30" id="id120">Defense</a></li>
+<li><a class="reference internal" href="#id31" id="id121">Offense</a></li>
+<li><a class="reference internal" href="#id32" id="id122">Tactics</a></li>
+<li><a class="reference internal" href="#id33" id="id123">Statistics</a></li>
+<li><a class="reference internal" href="#branock-ulgrehn" id="id124">Branock Ulgrehn</a></li>
+<li><a class="reference internal" href="#cautious-hunter" id="id125">Cautious Hunter</a></li>
+<li><a class="reference internal" href="#id34" id="id126">Defense</a></li>
+<li><a class="reference internal" href="#id35" id="id127">Offense</a></li>
+<li><a class="reference internal" href="#id36" id="id128">Tactics</a></li>
+<li><a class="reference internal" href="#id37" id="id129">Statistics</a></li>
+<li><a class="reference internal" href="#tiaret-the-huntress" id="id130">Tiaret the Huntress</a></li>
+<li><a class="reference internal" href="#poisonous-performer" id="id131">Poisonous Performer</a></li>
+<li><a class="reference internal" href="#id38" id="id132">Defense</a></li>
+<li><a class="reference internal" href="#id39" id="id133">Offense</a></li>
+<li><a class="reference internal" href="#id40" id="id134">Tactics</a></li>
+<li><a class="reference internal" href="#id41" id="id135">Statistics</a></li>
+<li><a class="reference internal" href="#natessa-the-angel-of-death" id="id136">Natessa the Angel of Death</a></li>
+<li><a class="reference internal" href="#swift-brawler" id="id137">Swift Brawler</a></li>
+<li><a class="reference internal" href="#id42" id="id138">Defense</a></li>
+<li><a class="reference internal" href="#id43" id="id139">Offense</a></li>
+<li><a class="reference internal" href="#id44" id="id140">Tactics</a></li>
+<li><a class="reference internal" href="#id45" id="id141">Statistics</a></li>
+<li><a class="reference internal" href="#ryoto" id="id142">Ryoto</a></li>
+<li><a class="reference internal" href="#monastic-sniper" id="id143">Monastic Sniper</a></li>
+<li><a class="reference internal" href="#id46" id="id144">Defense</a></li>
+<li><a class="reference internal" href="#id47" id="id145">Offense</a></li>
+<li><a class="reference internal" href="#id48" id="id146">Tactics</a></li>
+<li><a class="reference internal" href="#id49" id="id147">Statistics</a></li>
+<li><a class="reference internal" href="#tourindall-andarael" id="id148">Tourindall Andarael</a></li>
+<li><a class="reference internal" href="#little-fist" id="id149">Little Fist</a></li>
+<li><a class="reference internal" href="#id50" id="id150">Defense</a></li>
+<li><a class="reference internal" href="#id51" id="id151">Offense</a></li>
+<li><a class="reference internal" href="#id52" id="id152">Tactics</a></li>
+<li><a class="reference internal" href="#id53" id="id153">Statistics</a></li>
+<li><a class="reference internal" href="#laoshi" id="id154">Laoshi</a></li>
+<li><a class="reference internal" href="#improvised-hurler" id="id155">Improvised Hurler</a></li>
+<li><a class="reference internal" href="#id54" id="id156">Defense</a></li>
+<li><a class="reference internal" href="#id55" id="id157">Offense</a></li>
+<li><a class="reference internal" href="#id56" id="id158">Tactics</a></li>
+<li><a class="reference internal" href="#id57" id="id159">Statistics</a></li>
+<li><a class="reference internal" href="#creighton-flintfinger" id="id160">Creighton Flintfinger</a></li>
+<li><a class="reference internal" href="#horse-monk" id="id161">Horse Monk</a></li>
+<li><a class="reference internal" href="#id58" id="id162">Defense</a></li>
+<li><a class="reference internal" href="#id59" id="id163">Offense</a></li>
+<li><a class="reference internal" href="#id60" id="id164">Tactics</a></li>
+<li><a class="reference internal" href="#id61" id="id165">Statistics</a></li>
+<li><a class="reference internal" href="#asim-the-crimson-bandit" id="id166">Asim the Crimson Bandit</a></li>
+<li><a class="reference internal" href="#warren-chief" id="id167">Warren Chief</a></li>
+<li><a class="reference internal" href="#id62" id="id168">Defense</a></li>
+<li><a class="reference internal" href="#id63" id="id169">Offense</a></li>
+<li><a class="reference internal" href="#id64" id="id170">Tactics</a></li>
+<li><a class="reference internal" href="#id65" id="id171">Statistics</a></li>
+<li><a class="reference internal" href="#grove-guardian" id="id172">Grove Guardian</a></li>
+<li><a class="reference internal" href="#id66" id="id173">Defense</a></li>
+<li><a class="reference internal" href="#id67" id="id174">Offense</a></li>
+<li><a class="reference internal" href="#id68" id="id175">Tactics</a></li>
+<li><a class="reference internal" href="#id69" id="id176">Statistics</a></li>
+<li><a class="reference internal" href="#xexilia-aishinkai" id="id177">Xexilia Aishinkai</a></li>
+<li><a class="reference internal" href="#sword-savant" id="id178">Sword Savant</a></li>
+<li><a class="reference internal" href="#id70" id="id179">Defense</a></li>
+<li><a class="reference internal" href="#id71" id="id180">Offense</a></li>
+<li><a class="reference internal" href="#id72" id="id181">Tactics</a></li>
+<li><a class="reference internal" href="#id73" id="id182">Statistics</a></li>
+<li><a class="reference internal" href="#ehtyar-nasta" id="id183">Ehtyar Nasta</a></li>
+<li><a class="reference internal" href="#ageless-master" id="id184">Ageless Master</a></li>
+<li><a class="reference internal" href="#id74" id="id185">Defense</a></li>
+<li><a class="reference internal" href="#id75" id="id186">Offense</a></li>
+<li><a class="reference internal" href="#id76" id="id187">Tactics</a></li>
+<li><a class="reference internal" href="#id77" id="id188">Statistics</a></li>
+<li><a class="reference internal" href="#oyonchol" id="id189">Oyonchol</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="monks">
+<span id="npccodex-core-monk-monks"></span><h1><a class="toc-backref" href="#id78">Monks</a><a class="headerlink" href="#monks" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="careful-initiate">
+<span id="npccodex-core-monk-careful-initiate"></span><h2><a class="toc-backref" href="#id79">Careful Initiate</a><a class="headerlink" href="#careful-initiate" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 1/2</strong></p>
+<p><strong>XP</strong> 200</p>
+<p><strong>Human monk</strong> 1</p>
+<p>LN Medium humanoid (human)</p>
+<p><strong>Init</strong> +3; <strong>Senses</strong> Perception +6</p>
+</div>
+<div class="section" id="defense">
+<span id="npccodex-core-monk-defense"></span><h2><a class="toc-backref" href="#id80">Defense</a><a class="headerlink" href="#defense" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 16, touch 16, flat-footed 12 (+3 Dex, +1 dodge, +2 Wis)</p>
+<p><strong>hp</strong> 9 (1d8+1)</p>
+<p><strong>Fort</strong> +2, <strong>Ref</strong> +5, <strong>Will</strong> +4</p>
+</div>
+<div class="section" id="offense">
+<span id="npccodex-core-monk-offense"></span><h2><a class="toc-backref" href="#id81">Offense</a><a class="headerlink" href="#offense" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 30 ft.</p>
+<p><strong>Melee</strong>unarmed strike +3 (1d6+1) or kama +3 (1d6+1) or unarmed strike flurry of blows +2/+2 (1d6+1)</p>
+<p><strong>Ranged</strong>light crossbow +3 (1d8/19â20) or shuriken +3 (1d2+1) or shuriken flurry of blows +2/2 (1d2+1)</p>
+<p><strong>Special Attacks</strong> flurry of blows, stunning fist (1/day, DC 12)</p>
+</div>
+<div class="section" id="tactics">
+<span id="npccodex-core-monk-tactics"></span><h2><a class="toc-backref" href="#id82">Tactics</a><a class="headerlink" href="#tactics" title="Permalink to this headline">¶</a></h2>
+<p><strong>Before Combat</strong>The monk uses <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> to catch enemies off-guard, starting any surprise round with Stunning Fist.</p>
+<p><strong>During Combat</strong>The monk never fights multiple opponents if she can help it, and prefers to use her shuriken with a flurry of blows before entering melee.</p>
+</div>
+<div class="section" id="statistics">
+<span id="npccodex-core-monk-statistics"></span><h2><a class="toc-backref" href="#id83">Statistics</a><a class="headerlink" href="#statistics" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 12, <strong>Dex</strong> 16, <strong>Con</strong> 10, <strong>Int</strong> 13, <strong>Wis</strong> 15, <strong>Cha</strong> 8</p>
+<p><strong>Base Atk</strong>+0; <strong>CMB</strong> +1; <strong>CMD</strong> 17</p>
+<p><strong>Feats</strong> <a class="reference internal" href="corerulebook.feats.html#combat reflexes (combat)"><span class="std std-ref">Combat Reflexes</span></a>, <a class="reference internal" href="corerulebook.feats.html#dodge (combat)"><span class="std std-ref">Dodge</span></a>, <a class="reference internal" href="corerulebook.feats.html#improved unarmed strike (combat)"><span class="std std-ref">Improved Unarmed Strike</span></a>, Stunning Fist, <a class="reference internal" href="corerulebook.feats.html#weapon finesse (combat)"><span class="std std-ref">Weapon Finesse</span></a></p>
+<p><strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a> +7, <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (history, religion) +5,Perception +6, <a class="reference internal" href="corerulebook.skills.sensemotive.html#corerulebook-skills-sensemotive-sense-motive"><span class="std std-ref">Sense Motive</span></a> +6, <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> +7</p>
+<p><strong>Languages</strong> Common, Dwarven</p>
+<p><strong>Combat Gear</strong>potions of <a class="reference internal" href="corerulebook.spells.curelightwounds.html#corerulebook-spells-curelightwounds-cure-light-wounds"><span class="std std-ref">cure light wounds</span></a> (2), potions of <a class="reference internal" href="corerulebook.spells.magearmor.html#corerulebook-spells-magearmor-mage-armor"><span class="std std-ref">mage armor</span></a> (2), potions of <a class="reference internal" href="corerulebook.spells.magicweapon.html#corerulebook-spells-magicweapon-magic-weapon"><span class="std std-ref">magic weapon</span></a> (2); <strong>Other Gear</strong> kama, light crossbow with 10 bolts, shuriken (20), 50 gp</p>
+<p>Neophyte monks are often eager to prove their mettle in battle, but just as often their strict training means they tend to act tentatively when deprived of their master’s guidance.</p>
+</div>
+<div class="section" id="bullying-brawler">
+<span id="npccodex-core-monk-bullying-brawler"></span><h2><a class="toc-backref" href="#id84">Bullying Brawler</a><a class="headerlink" href="#bullying-brawler" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 1</strong></p>
+<p><strong>XP</strong> 400</p>
+<p><strong>Human monk</strong> 2</p>
+<p>LE Medium humanoid (human)</p>
+<p><strong>Init</strong> +5; <strong>Senses</strong> Perception +7</p>
+</div>
+<div class="section" id="id2">
+<h2><a class="toc-backref" href="#id85">Defense</a><a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 14, touch 14, flat-footed 12 (+1 Dex, +1 dodge, +2 Wis)</p>
+<p><strong>hp</strong> 17 (2d8+5)</p>
+<p><strong>Fort</strong> +5, <strong>Ref</strong> +4, <strong>Will</strong> +5</p>
+<p><strong>Defensive Abilities</strong> evasion</p>
+</div>
+<div class="section" id="id3">
+<h2><a class="toc-backref" href="#id86">Offense</a><a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 30 ft.</p>
+<p><strong>Melee</strong>unarmed strike +5 (1d6+4) or mwk nunchaku +6 (1d6+4) or mwk nunchaku flurry of blows +4/+4 (1d6+4)</p>
+<p><strong>Ranged</strong> light crossbow +2 (1d8/19â20)</p>
+<p><strong>Special Attacks</strong> flurry of blows, stunning fist (2/day, DC 13)</p>
+</div>
+<div class="section" id="id4">
+<h2><a class="toc-backref" href="#id87">Tactics</a><a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
+<p><strong>Before Combat</strong> The monk drinks his potion of <a class="reference internal" href="corerulebook.spells.bullsstrength.html#bull's strength"><span class="std std-ref">bull’s strength</span></a> if facing more than two opponents.</p>
+<p><strong>During Combat</strong> The monk uses flurry of blows whenever possible, especially against opponents successfully affected by his stunning fist. If reduced to 5 hit points or fewer, he withdraws to drink one of his potions of <a class="reference internal" href="corerulebook.spells.curelightwounds.html#corerulebook-spells-curelightwounds-cure-light-wounds"><span class="std std-ref">cure light wounds</span></a> before returning to the fray.</p>
+<p><strong>Base Statistics</strong> Without <a class="reference internal" href="corerulebook.spells.bullsstrength.html#bull's strength"><span class="std std-ref">bull’s strength</span></a>, the monk’s statistics are <strong>Melee</strong> unarmed strike +3 (1d6+2) or mwk nunchaku +4 (1d6+2) or flurry of blows (nunchaku) +2/+2 (1d6+2); <strong>Str</strong> 15; <strong>CMB</strong> +3; <strong>CMD</strong> 17.</p>
+</div>
+<div class="section" id="id5">
+<h2><a class="toc-backref" href="#id88">Statistics</a><a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 19, <strong>Dex</strong> 12, <strong>Con</strong> 15, <strong>Int</strong> 8, <strong>Wis</strong> 14, <strong>Cha</strong> 10</p>
+<p><strong>Base Atk</strong> +1; <strong>CMB</strong> +5; <strong>CMD</strong> 19</p>
+<p><strong>Feats</strong> <a class="reference internal" href="corerulebook.feats.html#blind-fight (combat)"><span class="std std-ref">Blind-Fight</span></a>, <a class="reference internal" href="corerulebook.feats.html#dodge (combat)"><span class="std std-ref">Dodge</span></a>, <a class="reference internal" href="corerulebook.feats.html#improved initiative (combat)"><span class="std std-ref">Improved Initiative</span></a>, <a class="reference internal" href="corerulebook.feats.html#improved unarmed strike (combat)"><span class="std std-ref">Improved Unarmed Strike</span></a>, Scorpion Style, Stunning Fist</p>
+<p><strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a> +5, <a class="reference internal" href="corerulebook.skills.bluff.html#corerulebook-skills-bluff-bluff"><span class="std std-ref">Bluff</span></a> +1, <a class="reference internal" href="corerulebook.skills.intimidate.html#corerulebook-skills-intimidate-intimidate"><span class="std std-ref">Intimidate</span></a> +5, Perception +7, <a class="reference internal" href="corerulebook.skills.sensemotive.html#corerulebook-skills-sensemotive-sense-motive"><span class="std std-ref">Sense Motive</span></a> +7, <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> +5</p>
+<p><strong>Languages</strong> Common</p>
+<p><strong>Combat Gear</strong>potion of <a class="reference internal" href="corerulebook.spells.bullsstrength.html#bull's strength"><span class="std std-ref">bull’s strength</span></a>, potions of <a class="reference internal" href="corerulebook.spells.curelightwounds.html#corerulebook-spells-curelightwounds-cure-light-wounds"><span class="std std-ref">cure light wounds</span></a> (2), acid (2); <strong>Other Gear</strong> light crossbow with 20 bolts, masterwork nunchaku, 23 gp</p>
+<p>Bullying brawlers are often sent to confront those who cross an order of monks. They are relentless in their pursuit of vengeance.</p>
+</div>
+<div class="section" id="vigilant-bodyguard">
+<span id="npccodex-core-monk-vigilant-bodyguard"></span><h2><a class="toc-backref" href="#id89">Vigilant Bodyguard</a><a class="headerlink" href="#vigilant-bodyguard" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 2</strong></p>
+<p><strong>XP</strong> 600</p>
+<p><strong>Human monk</strong> 3</p>
+<p>LN Medium humanoid (human)</p>
+<p><strong>Init</strong> +5; <strong>Senses</strong> Perception +10</p>
+</div>
+<div class="section" id="id6">
+<h2><a class="toc-backref" href="#id90">Defense</a><a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 20, touch 16, flat-footed 18 (+4 armor, +1 Dex, +1 dodge, +4 Wis)</p>
+<p><strong>hp</strong> 20 (3d8+3)</p>
+<p><strong>Fort</strong> +4, <strong>Ref</strong> +4, <strong>Will</strong> +7; +2 vs. enchantments</p>
+<p><strong>Defensive Abilities</strong> evasion</p>
+</div>
+<div class="section" id="id7">
+<h2><a class="toc-backref" href="#id91">Offense</a><a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 40 ft.</p>
+<p><strong>Melee</strong>unarmed strike +5 (1d6+2) or nunchaku +4 (1d6+2) or unarmed strike flurry of blows +3/+3 (1d6+2)</p>
+<p><strong>Ranged</strong> shuriken +3 (1d2+2)</p>
+<p><strong>Special Attacks</strong> flurry of blows, stunning fist (3/day, DC 15)</p>
+</div>
+<div class="section" id="id8">
+<h2><a class="toc-backref" href="#id92">Tactics</a><a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h2>
+<p><strong>Before Combat</strong> The monk drinks her potion of <a class="reference internal" href="corerulebook.spells.owlswisdom.html#owl's wisdom"><span class="std std-ref">owl’s wisdom</span></a> to enhance her AC and Perception, as well as a potion of <a class="reference internal" href="corerulebook.spells.magearmor.html#corerulebook-spells-magearmor-mage-armor"><span class="std std-ref">mage armor</span></a>.</p>
+<p><strong>During Combat</strong> The monk uses a flurry of blows to make disarm attempts with her nunchaku. If protecting someone, she uses Stunning Fist before withdrawing with her charge.</p>
+<p><strong>Base Statistics</strong> Without <a class="reference internal" href="corerulebook.spells.owlswisdom.html#owl's wisdom"><span class="std std-ref">owl’s wisdom</span></a> and <a class="reference internal" href="corerulebook.spells.magearmor.html#corerulebook-spells-magearmor-mage-armor"><span class="std std-ref">mage armor</span></a>, the monk’s statistics are <strong>Senses</strong>Perception +8; <strong>AC</strong> 15, touch 14, flat-footed 13; <strong>Wis</strong> 15; <strong>CMD</strong> 18; <strong>Skills</strong>Perception +8, <a class="reference internal" href="corerulebook.skills.sensemotive.html#corerulebook-skills-sensemotive-sense-motive"><span class="std std-ref">Sense Motive</span></a> +8, <a class="reference internal" href="corerulebook.skills.survival.html#corerulebook-skills-survival-survival"><span class="std std-ref">Survival</span></a> +3.</p>
+</div>
+<div class="section" id="id9">
+<h2><a class="toc-backref" href="#id93">Statistics</a><a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 14, <strong>Dex</strong> 13,<strong>Con</strong> 12, <strong>Int</strong> 10, <strong>Wis</strong> 19, <strong>Cha</strong> 8</p>
+<p><strong>Base Atk</strong> +2; <strong>CMB</strong> +5; <strong>CMD</strong> 20</p>
+<p><strong>Feats</strong> <a class="reference internal" href="corerulebook.feats.html#combat reflexes (combat)"><span class="std std-ref">Combat Reflexes</span></a>, <a class="reference internal" href="corerulebook.feats.html#dodge (combat)"><span class="std std-ref">Dodge</span></a>, <a class="reference internal" href="corerulebook.feats.html#improved initiative (combat)"><span class="std std-ref">Improved Initiative</span></a>, <a class="reference internal" href="corerulebook.feats.html#improved unarmed strike (combat)"><span class="std std-ref">Improved Unarmed Strike</span></a>, Stunning Fist, <a class="reference internal" href="corerulebook.feats.html#weapon focus (combat)"><span class="std std-ref">Weapon Focus</span></a> (unarmed strike)</p>
+<p><strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a> +7 (+11 when jumping), <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> +6, <a class="reference internal" href="corerulebook.skills.intimidate.html#corerulebook-skills-intimidate-intimidate"><span class="std std-ref">Intimidate</span></a> +5, Perception +10, <a class="reference internal" href="corerulebook.skills.sensemotive.html#corerulebook-skills-sensemotive-sense-motive"><span class="std std-ref">Sense Motive</span></a> +10, <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> +7, <a class="reference internal" href="corerulebook.skills.survival.html#corerulebook-skills-survival-survival"><span class="std std-ref">Survival</span></a> +5, <a class="reference internal" href="corerulebook.skills.swim.html#corerulebook-skills-swim-swim"><span class="std std-ref">Swim</span></a> +6</p>
+<p><strong>SQ</strong> fast movement, maneuver training</p>
+<p><strong>Combat Gear</strong>potions of <a class="reference internal" href="corerulebook.spells.curelightwounds.html#corerulebook-spells-curelightwounds-cure-light-wounds"><span class="std std-ref">cure light wounds</span></a> (3), potion of <a class="reference internal" href="corerulebook.spells.magearmor.html#corerulebook-spells-magearmor-mage-armor"><span class="std std-ref">mage armor</span></a>, potion of <a class="reference internal" href="corerulebook.spells.magicweapon.html#corerulebook-spells-magicweapon-magic-weapon"><span class="std std-ref">magic weapon</span></a>, potion of <a class="reference internal" href="corerulebook.spells.owlswisdom.html#owl's wisdom"><span class="std std-ref">owl’s wisdom</span></a>, smokesticks (3); <strong>Other Gear</strong> dagger, nunchaku, shuriken (20), <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-bracers-of-armor"><span class="std std-ref">bracers of armor</span></a> +1, 30 gp</p>
+<p>Some monk orders hire out vigilant bodyguards to princelings, merchants, and priests with compatible interests and philosophies.</p>
+</div>
+<div class="section" id="spry-ambusher">
+<span id="npccodex-core-monk-spry-ambusher"></span><h2><a class="toc-backref" href="#id94">Spry Ambusher</a><a class="headerlink" href="#spry-ambusher" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 3</strong></p>
+<p><strong>XP</strong> 800</p>
+<p><strong>Gnome monk</strong> 4</p>
+<p>LN Small humanoid (gnome)</p>
+<p><strong>Init</strong> +1; <strong>Senses</strong> low-light vision; Perception +12</p>
+</div>
+<div class="section" id="id10">
+<h2><a class="toc-backref" href="#id95">Defense</a><a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 21, touch 17, flat-footed 19 (+4 armor, +1 Dex, +1 dodge, +1 monk, +1 size, +3 Wis)</p>
+<p><strong>hp</strong> 25 (4d8+4)</p>
+<p><strong>Fort</strong> +5, <strong>Ref</strong> +6, <strong>Will</strong> +8; +2 vs. enchantments and illusions</p>
+<p><strong>Defensive Abilities</strong> defensive training (+4 dodge bonus to AC vs. giants), evasion</p>
+</div>
+<div class="section" id="id11">
+<h2><a class="toc-backref" href="#id96">Offense</a><a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 30 ft.</p>
+<p><strong>Melee</strong>unarmed strike +6 (1d6+1) or <em>+1 kama</em> +6 (1d4+2) or unarmed strike flurry of blows +5/+5 (1d6+1)</p>
+<p><strong>Ranged</strong> shuriken +5 (1d1+1) or shuriken flurry of blows +4/+4 (1d1+1)</p>
+<p><strong>Special Attacks</strong> +1 on attack rolls against goblinoid and reptilian humanoids, flurry of blows, stunning fist (4/day, DC 15)</p>
+<p><strong>Gnome Spell-Like Abilities</strong>(CL 4th; concentration +5)</p>
+<blockquote>
+<div>1/day—<a class="reference internal" href="corerulebook.spells.dancinglights.html#corerulebook-spells-dancinglights-dancing-lights"><span class="std std-ref">dancing lights</span></a>, <a class="reference internal" href="corerulebook.spells.ghostsound.html#corerulebook-spells-ghostsound-ghost-sound"><span class="std std-ref">ghost sound</span></a>, <a class="reference internal" href="corerulebook.spells.prestidigitation.html#corerulebook-spells-prestidigitation-prestidigitation"><span class="std std-ref">prestidigitation</span></a>, <a class="reference internal" href="corerulebook.spells.speakwithanimals.html#corerulebook-spells-speakwithanimals-speak-with-animals"><span class="std std-ref">speak with animals</span></a></div></blockquote>
+</div>
+<div class="section" id="id12">
+<h2><a class="toc-backref" href="#id97">Tactics</a><a class="headerlink" href="#id12" title="Permalink to this headline">¶</a></h2>
+<p><strong>Before Combat</strong> The monk drinks her potion of <a class="reference internal" href="corerulebook.spells.magearmor.html#corerulebook-spells-magearmor-mage-armor"><span class="std std-ref">mage armor</span></a> and applies her oil of <a class="reference internal" href="corerulebook.spells.magicweapon.html#corerulebook-spells-magicweapon-magic-weapon"><span class="std std-ref">magic weapon</span></a>.</p>
+<p><strong>During Combat</strong> The rogue uses <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a> skill to move through combat, helping allies flank.</p>
+<p><strong>Base Statistics</strong> Without <a class="reference internal" href="corerulebook.spells.magearmor.html#corerulebook-spells-magearmor-mage-armor"><span class="std std-ref">mage armor</span></a> and <a class="reference internal" href="corerulebook.spells.magicweapon.html#corerulebook-spells-magicweapon-magic-weapon"><span class="std std-ref">magic weapon</span></a>, the monk’s statistics are <strong>AC</strong> 18, touch 17, flat-footed 16; <strong>Melee</strong>kama +5 (1d4+1).</p>
+</div>
+<div class="section" id="id13">
+<h2><a class="toc-backref" href="#id98">Statistics</a><a class="headerlink" href="#id13" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 12, <strong>Dex</strong> 13, <strong>Con</strong> 10, <strong>Int</strong> 12, <strong>Wis</strong> 16, <strong>Cha</strong> 12</p>
+<p><strong>Base Atk</strong> +3; <strong>CMB</strong> +4; <strong>CMD</strong> 19</p>
+<p><strong>Feats</strong> <a class="reference internal" href="corerulebook.feats.html#combat reflexes (combat)"><span class="std std-ref">Combat Reflexes</span></a>, <a class="reference internal" href="corerulebook.feats.html#dodge (combat)"><span class="std std-ref">Dodge</span></a>, <a class="reference internal" href="corerulebook.feats.html#improved unarmed strike (combat)"><span class="std std-ref">Improved Unarmed Strike</span></a>, Scorpion Style, Stunning Fist, <a class="reference internal" href="corerulebook.feats.html#weapon focus (combat)"><span class="std std-ref">Weapon Focus</span></a> (unarmed strike)</p>
+<p><strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a> +8, <a class="reference internal" href="corerulebook.skills.bluff.html#corerulebook-skills-bluff-bluff"><span class="std std-ref">Bluff</span></a> +5, <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> +6, Perception +12, <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> +12</p>
+<p><strong>Languages</strong> Common, Elven, Gnome, Sylvan</p>
+<p><strong>SQ</strong> fast movement, <em>ki</em> pool (5 points, magic), maneuver training, slow fall 20 ft.</p>
+<p><strong>Combat Gear</strong>potions of <a class="reference internal" href="corerulebook.spells.curelightwounds.html#corerulebook-spells-curelightwounds-cure-light-wounds"><span class="std std-ref">cure light wounds</span></a> (2), potion of <a class="reference internal" href="corerulebook.spells.magearmor.html#corerulebook-spells-magearmor-mage-armor"><span class="std std-ref">mage armor</span></a>, oil of <a class="reference internal" href="corerulebook.spells.magicweapon.html#corerulebook-spells-magicweapon-magic-weapon"><span class="std std-ref">magic weapon</span></a>, smokestick, tanglefoot bag; <strong>Other Gear</strong> kama, shuriken (20), <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-bracers-of-armor"><span class="std std-ref">bracers of armor</span></a> +1, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-cloak-of-resistance"><span class="std std-ref">cloak of resistance</span></a> +1, 124 gp</p>
+<p>These gnomes often protect gnome communities in groups that skirmish in the name of their lawful lord.</p>
+</div>
+<div class="section" id="cruel-devotee">
+<span id="npccodex-core-monk-cruel-devotee"></span><h2><a class="toc-backref" href="#id99">Cruel Devotee</a><a class="headerlink" href="#cruel-devotee" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 4</strong></p>
+<p><strong>XP</strong> 1,200</p>
+<p><strong>Human monk</strong> 5</p>
+<p>LE Medium humanoid (human)</p>
+<p><strong>Init</strong> +5; <strong>Senses</strong> Perception +11</p>
+</div>
+<div class="section" id="id14">
+<h2><a class="toc-backref" href="#id100">Defense</a><a class="headerlink" href="#id14" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 17, touch 17, flat-footed 15 (+1 deflection, +1 Dex, +1 dodge, +1 monk, +3 Wis)</p>
+<p><strong>hp</strong> 31 (5d8+5)</p>
+<p><strong>Fort</strong> +6, <strong>Ref</strong> +6, <strong>Will</strong> +8; +2 vs. enchantments</p>
+<p><strong>Defensive Abilities</strong> evasion; <strong>Immune</strong> disease</p>
+</div>
+<div class="section" id="id15">
+<h2><a class="toc-backref" href="#id101">Offense</a><a class="headerlink" href="#id15" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 40 ft.</p>
+<p><strong>Melee</strong>unarmed strike +6 (1d8+3) or mwk siangham +7 (1d6+3) or unarmed strike flurry of blows +6/+6 (1d8+3)</p>
+<p><strong>Ranged</strong> javelin +4 (1d6+3)</p>
+<p><strong>Special Attacks</strong> flurry of blows, stunning fist (5/day, DC 15)</p>
+</div>
+<div class="section" id="id16">
+<h2><a class="toc-backref" href="#id102">Tactics</a><a class="headerlink" href="#id16" title="Permalink to this headline">¶</a></h2>
+<p><strong>During Combat</strong> The monk uses Stunning Fist to make opponents drop weapons, attacking if foes try to retrieve them.</p>
+</div>
+<div class="section" id="id17">
+<h2><a class="toc-backref" href="#id103">Statistics</a><a class="headerlink" href="#id17" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 16, <strong>Dex</strong> 13, <strong>Con</strong> 12, <strong>Int</strong> 10,<strong>Wis</strong> 16, <strong>Cha</strong> 8</p>
+<p><strong>Base Atk</strong> +3; <strong>CMB</strong> +8 (+10 grapple); <strong>CMD</strong> 23 (25 vs. grapple)</p>
+<p><strong>Feats</strong> <a class="reference internal" href="corerulebook.feats.html#combat reflexes (combat)"><span class="std std-ref">Combat Reflexes</span></a>, <a class="reference internal" href="corerulebook.feats.html#dodge (combat)"><span class="std std-ref">Dodge</span></a>, Improved Grapple, <a class="reference internal" href="corerulebook.feats.html#improved initiative (combat)"><span class="std std-ref">Improved Initiative</span></a>, <a class="reference internal" href="corerulebook.feats.html#improved unarmed strike (combat)"><span class="std std-ref">Improved Unarmed Strike</span></a>, <a class="reference internal" href="corerulebook.feats.html#power attack (combat)"><span class="std std-ref">Power Attack</span></a>, Scorpion Style, Stunning Fist</p>
+<p><strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a> +7 (+12 when jumping), <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> +8, <a class="reference internal" href="corerulebook.skills.intimidate.html#corerulebook-skills-intimidate-intimidate"><span class="std std-ref">Intimidate</span></a> +7, <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (religion) +8, Perception +11, <a class="reference internal" href="corerulebook.skills.sensemotive.html#corerulebook-skills-sensemotive-sense-motive"><span class="std std-ref">Sense Motive</span></a> +11, <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> +9</p>
+<p><strong>Languages</strong> Common</p>
+<p><strong>SQ</strong> fast movement, high jump, <em>ki</em> pool (5 points, magic), maneuver training, purity of body, slow fall 20 ft.</p>
+<p><strong>Combat Gear</strong>potions of <a class="reference internal" href="corerulebook.spells.curelightwounds.html#corerulebook-spells-curelightwounds-cure-light-wounds"><span class="std std-ref">cure light wounds</span></a> (2); <strong>Other Gear</strong> javelin, masterwork siangham, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-cloak-of-resistance"><span class="std std-ref">cloak of resistance</span></a> +1, <a class="reference internal" href="corerulebook.magicitems.rings.html#corerulebook-magicitems-rings-ring-of-protection"><span class="std std-ref">ring of protection</span></a> +1, 347 gp</p>
+<p>Cruel devotees serve as the guardians and agents of monastic orders, taking on secret missions and even assassinations in order to protect the orders’ interests.</p>
+</div>
+<div class="section" id="nimble-shuriken-thrower">
+<span id="npccodex-core-monk-nimble-shuriken-thrower"></span><h2><a class="toc-backref" href="#id104">Nimble Shuriken Thrower</a><a class="headerlink" href="#nimble-shuriken-thrower" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 5</strong></p>
+<p><strong>XP</strong> 1,600</p>
+<p><strong>Halfling monk</strong> 6</p>
+<p>LN Small humanoid (halfling)</p>
+<p><strong>Init</strong>+3; <strong>Senses</strong> Perception +11</p>
+</div>
+<div class="section" id="id18">
+<h2><a class="toc-backref" href="#id105">Defense</a><a class="headerlink" href="#id18" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 18, touch 18, flat-footed 14 (+3 Dex, +1 dodge, +1 monk, +1 size, +2 Wis)</p>
+<p><strong>hp</strong> 40 (6d8+10)</p>
+<p><strong>Fort</strong> +7, <strong>Ref</strong>+9, <strong>Will</strong> +8; +2 vs. enchantments, +2 vs. fear</p>
+<p><strong>Defensive Abilities</strong>evasion; <strong>Immune</strong> disease</p>
+</div>
+<div class="section" id="id19">
+<h2><a class="toc-backref" href="#id106">Offense</a><a class="headerlink" href="#id19" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 40 ft.</p>
+<p><strong>Melee</strong>unarmed strike +7 (1d6+2) or unarmed strike flurry of blows +7/+7/+2 (1d6+2)</p>
+<p><strong>Ranged</strong> mwk shuriken +9 (1d1+2) or mwk shuriken flurry of blows +9/+9/+4 (1d1+2)</p>
+<p><strong>Special Attacks</strong>flurry of blows, stunning fist (6/day, DC 15)</p>
+</div>
+<div class="section" id="id20">
+<h2><a class="toc-backref" href="#id107">Tactics</a><a class="headerlink" href="#id20" title="Permalink to this headline">¶</a></h2>
+<p><strong>During Combat</strong>The monk relies on her shuriken, using Shot on the <a class="reference internal" href="corerulebook.feats.html#corerulebook-feats-run"><span class="std std-ref">Run</span></a> to begin and end behind cover. If cornered, she uses Stunning Fist and then escapes to a safe distance.</p>
+</div>
+<div class="section" id="id21">
+<h2><a class="toc-backref" href="#id108">Statistics</a><a class="headerlink" href="#id21" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 14, <strong>Dex</strong> 17, <strong>Con</strong> 12, <strong>Int</strong>10, <strong>Wis</strong> 14, <strong>Cha</strong> 10</p>
+<p><strong>Base Atk</strong>+4;<strong>CMB</strong>+7; <strong>CMD</strong> 22</p>
+<p><strong>Feats</strong> <a class="reference internal" href="corerulebook.feats.html#deadly aim (combat)"><span class="std std-ref">Deadly Aim</span></a>, Deflect Arrows, <a class="reference internal" href="corerulebook.feats.html#dodge (combat)"><span class="std std-ref">Dodge</span></a>, <a class="reference internal" href="corerulebook.feats.html#improved unarmed strike (combat)"><span class="std std-ref">Improved Unarmed Strike</span></a>, Mobility, <a class="reference internal" href="corerulebook.feats.html#point-blank shot (combat)"><span class="std std-ref">Point-Blank Shot</span></a>, Shot on the <a class="reference internal" href="corerulebook.feats.html#corerulebook-feats-run"><span class="std std-ref">Run</span></a>, Stunning Fist</p>
+<p><strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a> +14 (+24 when jumping), <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> +12, <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (local) +4, Perception +11, <a class="reference internal" href="corerulebook.skills.sensemotive.html#corerulebook-skills-sensemotive-sense-motive"><span class="std std-ref">Sense Motive</span></a> +8, <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> +13, <a class="reference internal" href="corerulebook.skills.swim.html#corerulebook-skills-swim-swim"><span class="std std-ref">Swim</span></a> +6</p>
+<p><strong>Languages</strong> Common, Halfling</p>
+<p><strong>SQ</strong> fast movement, high jump, <em>ki</em> pool (5 points, magic), maneuver training, purity of body, slow fall 30 ft.</p>
+<p><strong>Combat Gear</strong>potions of <a class="reference internal" href="corerulebook.spells.curelightwounds.html#corerulebook-spells-curelightwounds-cure-light-wounds"><span class="std std-ref">cure light wounds</span></a> (2), potion of <a class="reference internal" href="corerulebook.spells.invisibility.html#corerulebook-spells-invisibility-invisibility"><span class="std std-ref">invisibility</span></a>; <strong>Other Gear</strong> masterwork shuriken (20), <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-belt-of-incredible-dexterity"><span class="std std-ref">belt of incredible dexterity</span></a> +2, 130 gp</p>
+<p>These short-statured monks do their best to stay out of close combat, backing up their companions with well-placed shuriken.</p>
+</div>
+<div class="section" id="harrying-brute">
+<span id="npccodex-core-monk-harrying-brute"></span><h2><a class="toc-backref" href="#id109">Harrying Brute</a><a class="headerlink" href="#harrying-brute" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 6</strong></p>
+<p><strong>XP</strong> 2,400</p>
+<p><strong>Human monk</strong> 7</p>
+<p>LN Medium humanoid (human)</p>
+<p><strong>Init</strong> +5; <strong>Senses</strong> Perception +11</p>
+</div>
+<div class="section" id="id22">
+<h2><a class="toc-backref" href="#id110">Defense</a><a class="headerlink" href="#id22" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 20, touch 16, flat-footed 18 (+4 armor, +1 Dex, +1 dodge, +1 monk, +3 Wis)</p>
+<p><strong>hp</strong> 45 (7d8+10)</p>
+<p><strong>Fort</strong> +7, <strong>Ref</strong> +7, <strong>Will</strong> +9; +2 vs. enchantments</p>
+<p><strong>Defensive Abilities</strong> evasion; <strong>Immune</strong> disease</p>
+</div>
+<div class="section" id="id23">
+<h2><a class="toc-backref" href="#id111">Offense</a><a class="headerlink" href="#id23" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 50 ft.</p>
+<p><strong>Melee</strong>unarmed strike +10 (1d8+4) or mwk sai +10 (1d4+4) or unarmed strike flurry of blows +10/+10/+5 (1d8+4)</p>
+<p><strong>Ranged</strong> dagger +6 (1d4+4/19â20)</p>
+<p><strong>Special Attacks</strong> flurry of blows, stunning fist (7/day, DC 16)</p>
+</div>
+<div class="section" id="id24">
+<h2><a class="toc-backref" href="#id112">Tactics</a><a class="headerlink" href="#id24" title="Permalink to this headline">¶</a></h2>
+<p><strong>Before Combat</strong> The monk drinks his potion of <a class="reference internal" href="corerulebook.spells.magearmor.html#corerulebook-spells-magearmor-mage-armor"><span class="std std-ref">mage armor</span></a>.</p>
+<p><strong>During Combat</strong> The monk uses his sai to disarm opponents, then uses Scorpion Style. If an enemy succumbs, he performs a flurry of blows, augmented with a point from his <em>ki</em> pool, and attempts to stun the opponent.</p>
+<p><strong>Base Statistics</strong> Without <a class="reference internal" href="corerulebook.spells.magearmor.html#corerulebook-spells-magearmor-mage-armor"><span class="std std-ref">mage armor</span></a>, the monk’s statistics are <strong>AC</strong> 16, touch 16, flat-footed 14.</p>
+</div>
+<div class="section" id="id25">
+<h2><a class="toc-backref" href="#id113">Statistics</a><a class="headerlink" href="#id25" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 18, <strong>Dex</strong> 13, <strong>Con</strong> 12, <strong>Int</strong> 10, <strong>Wis</strong> 16, <strong>Cha</strong> 8</p>
+<p><strong>Base Atk</strong> +5;<strong>CMB</strong> +11; <strong>CMD</strong> 25</p>
+<p><strong>Feats</strong> <a class="reference internal" href="corerulebook.feats.html#combat reflexes (combat)"><span class="std std-ref">Combat Reflexes</span></a>, <a class="reference internal" href="corerulebook.feats.html#dodge (combat)"><span class="std std-ref">Dodge</span></a>, Improved Disarm, <a class="reference internal" href="corerulebook.feats.html#improved initiative (combat)"><span class="std std-ref">Improved Initiative</span></a>, <a class="reference internal" href="corerulebook.feats.html#improved unarmed strike (combat)"><span class="std std-ref">Improved Unarmed Strike</span></a>, <a class="reference internal" href="corerulebook.feats.html#power attack (combat)"><span class="std std-ref">Power Attack</span></a>, Scorpion Style, <a class="reference internal" href="corerulebook.feats.html#step up (combat)"><span class="std std-ref">Step Up</span></a>, Stunning Fist, <a class="reference internal" href="corerulebook.feats.html#weapon focus (combat)"><span class="std std-ref">Weapon Focus</span></a> (unarmed strike)</p>
+<p><strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a> +10 (+25 when jumping), <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> +9, <a class="reference internal" href="corerulebook.skills.intimidate.html#corerulebook-skills-intimidate-intimidate"><span class="std std-ref">Intimidate</span></a> +6, <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (history) +5, <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (local) +3, <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (religion) +6, Perception +11, <a class="reference internal" href="corerulebook.skills.perform.html#corerulebook-skills-perform-perform"><span class="std std-ref">Perform</span></a> (percussion) +6, <a class="reference internal" href="corerulebook.skills.sensemotive.html#corerulebook-skills-sensemotive-sense-motive"><span class="std std-ref">Sense Motive</span></a> +13, <a class="reference internal" href="corerulebook.skills.swim.html#corerulebook-skills-swim-swim"><span class="std std-ref">Swim</span></a> +10</p>
+<p><strong>Languages</strong> Common</p>
+<p><strong>SQ</strong> fast movement, high jump, <em>ki</em> pool (6 points, magic), maneuver training, purity of body, slow fall 30 ft., wholeness of body</p>
+<p><strong>Combat Gear</strong>potions of <a class="reference internal" href="corerulebook.spells.curelightwounds.html#corerulebook-spells-curelightwounds-cure-light-wounds"><span class="std std-ref">cure light wounds</span></a> (2), potions of <a class="reference internal" href="corerulebook.spells.magearmor.html#corerulebook-spells-magearmor-mage-armor"><span class="std std-ref">mage armor</span></a> (2), potions of <a class="reference internal" href="corerulebook.spells.magicweapon.html#corerulebook-spells-magicweapon-magic-weapon"><span class="std std-ref">magic weapon</span></a> (2); <strong>Other Gear</strong> dagger, masterwork sai, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-belt-of-giant-strength"><span class="std std-ref">belt of giant strength</span></a> +2, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-cloak-of-resistance"><span class="std std-ref">cloak of resistance</span></a> +1, 395 gp</p>
+</div>
+<div class="section" id="axe-dancer">
+<span id="npccodex-core-monk-axe-dancer"></span><h2><a class="toc-backref" href="#id114">Axe Dancer</a><a class="headerlink" href="#axe-dancer" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 7</strong></p>
+<p><strong>XP</strong> 3,200</p>
+<p><strong>Half-orc monk</strong> 8</p>
+<p>LE Medium humanoid (human, orc)</p>
+<p><strong>Init</strong> +5; <strong>Senses</strong> darkvision 60 ft.; Perception +13</p>
+</div>
+<div class="section" id="id26">
+<h2><a class="toc-backref" href="#id115">Defense</a><a class="headerlink" href="#id26" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 18, touch 17, flat-footed 16 (+1 Dex, +1 dodge, +2 monk, +1 natural, +3 Wis)</p>
+<p><strong>hp</strong> 60 (8d8+21)</p>
+<p><strong>Fort</strong> +9, <strong>Ref</strong> +8, <strong>Will</strong> +10; +2 vs. enchantments</p>
+<p><strong>Defensive Abilities</strong> evasion, orc ferocity; <strong>Immune</strong> disease</p>
+</div>
+<div class="section" id="id27">
+<h2><a class="toc-backref" href="#id116">Offense</a><a class="headerlink" href="#id27" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 50 ft.</p>
+<p><strong>Melee</strong>unarmed strike +10/+5 (1d10+4) or mwk greataxe +11/+6 (1d12+6/Ã3) or unarmed strike flurry of blows +10/+10/+5/+5 (1d10+4)</p>
+<p><strong>Ranged</strong> shuriken flurry of blows +7/+7/+2/+2 (1d4+4)</p>
+<p><strong>Special Attacks</strong> flurry of blows, stunning fist (8/day, DC 17)</p>
+</div>
+<div class="section" id="id28">
+<h2><a class="toc-backref" href="#id117">Tactics</a><a class="headerlink" href="#id28" title="Permalink to this headline">¶</a></h2>
+<p><strong>During Combat</strong>The monk uses Stunning Fist, Scorpion Style, and Greater Grapple.</p>
+</div>
+<div class="section" id="id29">
+<h2><a class="toc-backref" href="#id118">Statistics</a><a class="headerlink" href="#id29" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 18, <strong>Dex</strong> 12, <strong>Con</strong> 14,</p>
+<p><strong>Int</strong> 10, <strong>Wis</strong> 16, <strong>Cha</strong> 8</p>
+<p><strong>Base Atk</strong> +6; <strong>CMB</strong> +12 (+16 grapple); <strong>CMD</strong> 29 (31 vs. grapple)</p>
+<p><strong>Feats</strong> <a class="reference internal" href="corerulebook.feats.html#defensive combat training (combat)"><span class="std std-ref">Defensive Combat Training</span></a>, <a class="reference internal" href="corerulebook.feats.html#dodge (combat)"><span class="std std-ref">Dodge</span></a>, Greater Grapple, Imp. Grapple, Imp. Initiative, Imp.  Unarmed Strike, <a class="reference internal" href="corerulebook.feats.html#power attack (combat)"><span class="std std-ref">Power Attack</span></a>, Scorpion Style, Stunning Fist</p>
+<p><strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a> +9 (+25 when jumping), <a class="reference internal" href="corerulebook.skills.intimidate.html#corerulebook-skills-intimidate-intimidate"><span class="std std-ref">Intimidate</span></a> +12, Perception +13, <a class="reference internal" href="corerulebook.skills.sensemotive.html#corerulebook-skills-sensemotive-sense-motive"><span class="std std-ref">Sense Motive</span></a> +14, <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> +11</p>
+<p><strong>Languages</strong> Common, Orc</p>
+<p><strong>SQ</strong> fast movement, high jump, <em>ki</em>pool (7 points, magic), maneuver training, orc blood, purity of body, slow fall 40 ft., weapon familiarity, wholeness of body</p>
+<p><strong>Combat Gear</strong>potion of <a class="reference internal" href="corerulebook.spells.bullsstrength.html#bull's strength"><span class="std std-ref">bull’s strength</span></a>; <strong>Other Gear</strong> masterwork greataxe, shuriken (20), <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-amulet-of-natural-armor"><span class="std std-ref">amulet of natural armor</span></a> +1, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-cloak-of-resistance"><span class="std std-ref">cloak of resistance</span></a> +1, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-headband-of-inspired-wisdom"><span class="std std-ref">headband of inspired wisdom</span></a> +2, 119 gp</p>
+<p>Augmenting a monk’s grace with the power of a greataxe, these half-orcs hack and crush their way to victory.</p>
+</div>
+<div class="section" id="steadfast-defender">
+<span id="npccodex-core-monk-steadfast-defender"></span><h2><a class="toc-backref" href="#id119">Steadfast Defender</a><a class="headerlink" href="#steadfast-defender" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 8</strong></p>
+<p><strong>XP</strong> 4,800</p>
+<p><strong>Dwarf monk</strong> 9</p>
+<p>LN Medium humanoid (dwarf)</p>
+<p><strong>Init</strong> +1; <strong>Senses</strong> Perception +16</p>
+</div>
+<div class="section" id="id30">
+<h2><a class="toc-backref" href="#id120">Defense</a><a class="headerlink" href="#id30" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 22, touch 18, flat-footed 21 (+4 armor, +1 deflection, +1 Dex, +2 monk, +4 Wis)</p>
+<p><strong>hp</strong> 93 (9d8+49)</p>
+<p><strong>Fort</strong> +12, <strong>Ref</strong> +8, <strong>Will</strong> +11; +2 vs. poison, spells, and spell-like abilities; +2 vs. enchantments</p>
+<p><strong>Defensive Abilities</strong> defensive training (+4 dodge bonus to AC vs. giants), improved evasion; <strong>Immune</strong> disease</p>
+</div>
+<div class="section" id="id31">
+<h2><a class="toc-backref" href="#id121">Offense</a><a class="headerlink" href="#id31" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 50 ft.</p>
+<p><strong>Melee</strong>unarmed strike +9/+4 (1d10+3) or mwk heavy pick +10/+5 (1d6+4/Ã4) or unarmed strike flurry of blows +10/+10/+5/+5 (1d10+3)</p>
+<p><strong>Ranged</strong> mwk shuriken +8/+3 (1d2+3) or mwk shuriken flurry of blows +8/+8/+3/+3 (1d2+3)</p>
+<p><strong>Special Attacks</strong> +1 on attack rolls against goblinoid and orc humanoids, flurry of blows, stunning fist (9/day, DC 18)</p>
+</div>
+<div class="section" id="id32">
+<h2><a class="toc-backref" href="#id122">Tactics</a><a class="headerlink" href="#id32" title="Permalink to this headline">¶</a></h2>
+<p><strong>Before Combat</strong> The monk drinks his potions of <a class="reference internal" href="corerulebook.spells.magearmor.html#corerulebook-spells-magearmor-mage-armor"><span class="std std-ref">mage armor</span></a> and <a class="reference internal" href="corerulebook.spells.bearsendurance.html#bear's endurance"><span class="std std-ref">bear’s endurance</span></a> and tries to find a choke point where he can stand fast and hold off his enemies.</p>
+<p><strong>During Combat</strong> If he can control an opening such as a doorway, the monk does his best not to move or let others past. He uses <a class="reference internal" href="corerulebook.feats.html#vital strike (combat)"><span class="std std-ref">Vital Strike</span></a> whenever he cannot use flurry of blows. He uses Improved Bull Rush on any opponent that has failed its saving throw versus Scorpion Style, trying to remove it from direct combat. He trips those adjacent to him so he can make attacks of opportunity when they stand up from prone. Against a single opponent, the steadfast defender uses his <em>ki</em> pool to add extra attacks to his flurry of blows; against multiple opponents he uses it to improve his Armor Class.</p>
+<p><strong>Base Statistics</strong> When not under the effects of <a class="reference internal" href="corerulebook.spells.bearsendurance.html#bear's endurance"><span class="std std-ref">bear’s endurance</span></a> and <a class="reference internal" href="corerulebook.spells.magearmor.html#corerulebook-spells-magearmor-mage-armor"><span class="std std-ref">mage armor</span></a>, the monk’s statistics are <strong>AC</strong> 19, touch 18, flat-footed 18; <strong>hp</strong> 75; <strong>Fort</strong> +10; <strong>Con</strong> 16.</p>
+</div>
+<div class="section" id="id33">
+<h2><a class="toc-backref" href="#id123">Statistics</a><a class="headerlink" href="#id33" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 16, <strong>Dex</strong> 12, <strong>Con</strong> 20, <strong>Int</strong> 10, <strong>Wis</strong> 18, <strong>Cha</strong> 6</p>
+<p><strong>Base Atk</strong> +6; <strong>CMB</strong> +12 (+14 bull rush or trip); <strong>CMD</strong> 30 (36 vs. bull rush or trip)</p>
+<p><strong>Feats</strong> <a class="reference internal" href="corerulebook.feats.html#combat reflexes (combat)"><span class="std std-ref">Combat Reflexes</span></a>, <a class="reference internal" href="corerulebook.feats.html#defensive combat training (combat)"><span class="std std-ref">Defensive Combat Training</span></a>, Improved Bull Rush, Improved Trip, <a class="reference internal" href="corerulebook.feats.html#improved unarmed strike (combat)"><span class="std std-ref">Improved Unarmed Strike</span></a>, <a class="reference internal" href="corerulebook.feats.html#power attack (combat)"><span class="std std-ref">Power Attack</span></a>, Scorpion Style, Stand Still, Stunning Fist, <a class="reference internal" href="corerulebook.feats.html#vital strike (combat)"><span class="std std-ref">Vital Strike</span></a></p>
+<p><strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a> +11 (+28 when jumping), <a class="reference internal" href="corerulebook.skills.appraise.html#corerulebook-skills-appraise-appraise"><span class="std std-ref">Appraise</span></a> +3 (+5 to assess nonmagical metals or gemstones), <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> +8, <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (dungeoneering, engineering) +5, Perception +16 (+18 to notice unusual stonework), <a class="reference internal" href="corerulebook.skills.sensemotive.html#corerulebook-skills-sensemotive-sense-motive"><span class="std std-ref">Sense Motive</span></a> +12, <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> +9</p>
+<p><strong>Languages</strong> Common, Dwarven</p>
+<p><strong>SQ</strong> fast movement, high jump, <em>ki</em> pool (8 points, magic), maneuver training, purity of body, slow fall 40 ft., wholeness of body</p>
+<p><strong>Combat Gear</strong>potion of <a class="reference internal" href="corerulebook.spells.bearsendurance.html#bear's endurance"><span class="std std-ref">bear’s endurance</span></a>, potions of <a class="reference internal" href="corerulebook.spells.curelightwounds.html#corerulebook-spells-curelightwounds-cure-light-wounds"><span class="std std-ref">cure light wounds</span></a> (2), potions of <a class="reference internal" href="corerulebook.spells.curemoderatewounds.html#corerulebook-spells-curemoderatewounds-cure-moderate-wounds"><span class="std std-ref">cure moderate wounds</span></a> (2), potions of <a class="reference internal" href="corerulebook.spells.magearmor.html#corerulebook-spells-magearmor-mage-armor"><span class="std std-ref">mage armor</span></a> (2), potions of <a class="reference internal" href="corerulebook.spells.magicweapon.html#corerulebook-spells-magicweapon-magic-weapon"><span class="std std-ref">magic weapon</span></a> (2), antitoxin, holy water (2); <strong>Other Gear</strong> masterwork heavy pick, masterwork shuriken (50), <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-belt-of-giant-strength"><span class="std std-ref">belt of giant strength</span></a> +2, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-bracers-of-armor"><span class="std std-ref">bracers of armor</span></a> +1, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-cloak-of-resistance"><span class="std std-ref">cloak of resistance</span></a> +1, <a class="reference internal" href="corerulebook.magicitems.rings.html#corerulebook-magicitems-rings-ring-of-protection"><span class="std std-ref">ring of protection</span></a> +1, 141 gp</p>
+<p>Steadfast defenders often serve as guards in monasteries and as bodyguards for important dignitaries.</p>
+</div>
+<div class="section" id="branock-ulgrehn">
+<span id="npccodex-core-monk-branock-ulgrehn"></span><h2><a class="toc-backref" href="#id124">Branock Ulgrehn</a><a class="headerlink" href="#branock-ulgrehn" title="Permalink to this headline">¶</a></h2>
+<p>Branock’s friends and surviving enemies call him “The Immovable.” Mixing dwarven stubbornness with his monk’s training, Branock excels when he is guarding a single chokepoint. He was born the son of a minor dwarven thane, but chose to betray his family in exchange for the hand of the daughter of his father’s rival. His betrayal was for naught, however, as he was double-crossed by his family’s enemies and cast out from his childhood home. Now he hires himself out to this group or that, always searching for a way to erase his shame and win his way back into the warm embrace of his homeland, though he knows that this feat will prove to be nearly impossible—for dwarves do not easily forgive treachery.</p>
+<p><strong>Combat Encounters:</strong> Branock is typically employed to limit the escape routes on a battlefield. Other times he is hired on as a bodyguard or a bouncer, and could even be found guarding the vault in a bank or royal treasury.</p>
+<p><strong>Roleplaying Suggestions:</strong> While Branock often seems talkative and friendly, he rarely speaks of his shameful past to strangers. When he does, he tends to gloss over the details of his treachery and subsequent exile.</p>
+</div>
+<div class="section" id="cautious-hunter">
+<span id="npccodex-core-monk-cautious-hunter"></span><h2><a class="toc-backref" href="#id125">Cautious Hunter</a><a class="headerlink" href="#cautious-hunter" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 9</strong></p>
+<p><strong>XP</strong> 6,400</p>
+<p><strong>Half-orc monk</strong> 10</p>
+<p>LE Medium humanoid (human, orc)</p>
+<p><strong>Init</strong> +5; <strong>Senses</strong> darkvision 60 ft., <a class="reference internal" href="corerulebook.spells.seeinvisibility.html#corerulebook-spells-seeinvisibility-see-invisibility"><span class="std std-ref">see invisibility</span></a>; Perception +12</p>
+</div>
+<div class="section" id="id34">
+<h2><a class="toc-backref" href="#id126">Defense</a><a class="headerlink" href="#id34" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 21, touch 17, flat-footed 19 (+2 armor, +1 Dex, +1 dodge, +2 monk, +2 natural, +3 Wis)</p>
+<p><strong>hp</strong> 73 (10d8+25)</p>
+<p><strong>Fort</strong> +9, <strong>Ref</strong> +8, <strong>Will</strong> +10; +2 vs. enchantments</p>
+<p><strong>Defensive Abilities</strong> improved evasion, orc ferocity; <strong>Immune</strong> disease</p>
+</div>
+<div class="section" id="id35">
+<h2><a class="toc-backref" href="#id127">Offense</a><a class="headerlink" href="#id35" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 60 ft.</p>
+<p><strong>Melee</strong> unarmed strike +11/+6 (1d10+4) or mwk falchion +12/+7 (2d4+6/18â20) or unarmed strike flurry of blows +12/+12/+7/+7 (1d10+4)</p>
+<p><strong>Ranged</strong> heavy crossbow +8 (1d10/19â20)</p>
+<p><strong>Special Attacks</strong> flurry of blows, stunning fist (10/day, DC 18)</p>
+</div>
+<div class="section" id="id36">
+<h2><a class="toc-backref" href="#id128">Tactics</a><a class="headerlink" href="#id36" title="Permalink to this headline">¶</a></h2>
+<p><strong>Before Combat</strong> The monk drinks potions of <a class="reference internal" href="corerulebook.spells.barkskin.html#corerulebook-spells-barkskin-barkskin"><span class="std std-ref">barkskin</span></a> and <a class="reference internal" href="corerulebook.spells.seeinvisibility.html#corerulebook-spells-seeinvisibility-see-invisibility"><span class="std std-ref">see invisibility</span></a> and ambushes foes whenever possible.</p>
+<p><strong>During Combat</strong> The monk charges, using <a class="reference internal" href="corerulebook.feats.html#vital strike (combat)"><span class="std std-ref">Vital Strike</span></a> in conjunction with Stunning Fist. Against stunned opponents, she employs her falchion and <a class="reference internal" href="corerulebook.feats.html#power attack (combat)"><span class="std std-ref">Power Attack</span></a>. If surrounded or adjacent to a particularly powerful combatant, she uses Improved Bull Rush and then <a class="reference internal" href="corerulebook.feats.html#lunge (combat)"><span class="std std-ref">Lunge</span></a>, pushing her enemies away and then forcing them to close again.</p>
+<p><strong>Base Statistics</strong> Without <a class="reference internal" href="corerulebook.spells.barkskin.html#corerulebook-spells-barkskin-barkskin"><span class="std std-ref">barkskin</span></a> and <a class="reference internal" href="corerulebook.spells.seeinvisibility.html#corerulebook-spells-seeinvisibility-see-invisibility"><span class="std std-ref">see invisibility</span></a>, the monk’s statistics are <strong>Senses</strong> no <a class="reference internal" href="corerulebook.spells.seeinvisibility.html#corerulebook-spells-seeinvisibility-see-invisibility"><span class="std std-ref">see invisibility</span></a>; <strong>AC</strong> 19, touch 17, flat-footed 17.</p>
+</div>
+<div class="section" id="id37">
+<h2><a class="toc-backref" href="#id129">Statistics</a><a class="headerlink" href="#id37" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 18, <strong>Dex</strong> 12, <strong>Con</strong> 14, <strong>Int</strong> 10, <strong>Wis</strong> 16, <strong>Cha</strong> 8</p>
+<p><strong>Base Atk</strong> +7; <strong>CMB</strong> +14 (+17 bull rush); <strong>CMD</strong> 28 (30 vs. bull rush)</p>
+<p><strong>Feats</strong> <a class="reference internal" href="corerulebook.feats.html#dodge (combat)"><span class="std std-ref">Dodge</span></a>, Extra <em>Ki</em>, Improved Bull Rush, <a class="reference internal" href="corerulebook.feats.html#improved initiative (combat)"><span class="std std-ref">Improved Initiative</span></a>, <a class="reference internal" href="corerulebook.feats.html#improved unarmed strike (combat)"><span class="std std-ref">Improved Unarmed Strike</span></a>, <a class="reference internal" href="corerulebook.feats.html#lunge (combat)"><span class="std std-ref">Lunge</span></a>, Medusa’s Wrath, <a class="reference internal" href="corerulebook.feats.html#power attack (combat)"><span class="std std-ref">Power Attack</span></a>, Scorpion Style, Stunning Fist, <a class="reference internal" href="corerulebook.feats.html#vital strike (combat)"><span class="std std-ref">Vital Strike</span></a></p>
+<p><strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a> +6 (+28 when jumping), <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> +12, <a class="reference internal" href="corerulebook.skills.intimidate.html#corerulebook-skills-intimidate-intimidate"><span class="std std-ref">Intimidate</span></a> +9, <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (history) +4, Perception +12, <a class="reference internal" href="corerulebook.skills.sensemotive.html#corerulebook-skills-sensemotive-sense-motive"><span class="std std-ref">Sense Motive</span></a> +16, <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> +19, <a class="reference internal" href="corerulebook.skills.survival.html#corerulebook-skills-survival-survival"><span class="std std-ref">Survival</span></a> +8, <a class="reference internal" href="corerulebook.skills.swim.html#corerulebook-skills-swim-swim"><span class="std std-ref">Swim</span></a> +8</p>
+<p><strong>Languages</strong> Common, Orc</p>
+<p><strong>SQ</strong> fast movement, high jump, <em>ki</em> pool (10 points, lawful, magic), maneuver training, orc blood, purity of body, slow fall 50 ft., weapon familiarity, wholeness of body</p>
+<p><strong>Combat Gear</strong>potions of <a class="reference internal" href="corerulebook.spells.barkskin.html#corerulebook-spells-barkskin-barkskin"><span class="std std-ref">barkskin</span></a> (2), potions of <a class="reference internal" href="corerulebook.spells.curemoderatewounds.html#corerulebook-spells-curemoderatewounds-cure-moderate-wounds"><span class="std std-ref">cure moderate wounds</span></a> (2), potion of <a class="reference internal" href="corerulebook.spells.seeinvisibility.html#corerulebook-spells-seeinvisibility-see-invisibility"><span class="std std-ref">see invisibility</span></a>; <strong>Other Gear</strong> heavy crossbow with 20 bolts, masterwork falchion, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-belt-of-giant-strength"><span class="std std-ref">belt of giant strength</span></a> +2, <em>bracers  of armor +2</em>, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-cloak-of-elvenkind"><span class="std std-ref">cloak of elvenkind</span></a>, masterwork manacles, 195 gp</p>
+<p>These monks often serve as enforcers and bounty hunters for monastic orders or lawful lords, tracking down those in need of punishment.</p>
+</div>
+<div class="section" id="tiaret-the-huntress">
+<span id="npccodex-core-monk-tiaret-the-huntress"></span><h2><a class="toc-backref" href="#id130">Tiaret the Huntress</a><a class="headerlink" href="#tiaret-the-huntress" title="Permalink to this headline">¶</a></h2>
+<p>Tiaret hunts violent criminals. She was once an initiate among a peaceful order of monks, but then her monastery was destroyed by brigands. Tiaret was the only survivor, and her firststint as a bounty hunter involved hunting down each of the attackers and bringing them to justice. Since then, Tiaret has continued to use her talents to capture lawbreakers. Though she prefers jobs where the bounty is wanted dead or alive, if she thinks an opponent might have value, she attacks with nonlethal force and renders the foe unconscious.</p>
+<p><strong>Combat Encounters:</strong> Tiaretprefers to work alone, as tracking an enemy requires a level of stealth and precision sellswords and spellcasters often lack. When forced to seek allies against a particularly powerful foe, she prefers the company of rogues and rangers.</p>
+<p><strong>Roleplaying Suggestions:</strong> Often sullen and stern, Tiaret is ever observant, always searching for those wanted by the law and trying to overhear conversations of people she believes are plotting to break the law. She has no tolerance for those who harass monks, cleric, inquisitors, or oracles. She believes in following the letter of the law, and cares little about the spirit.</p>
+</div>
+<div class="section" id="poisonous-performer">
+<span id="npccodex-core-monk-poisonous-performer"></span><h2><a class="toc-backref" href="#id131">Poisonous Performer</a><a class="headerlink" href="#poisonous-performer" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 10</strong></p>
+<p><strong>XP</strong> 9,600</p>
+<p><strong>Human monk</strong> 11</p>
+<p>LE Medium humanoid (human)</p>
+<p><strong>Init</strong> +8; <strong>Senses</strong> Perception +14</p>
+</div>
+<div class="section" id="id38">
+<h2><a class="toc-backref" href="#id132">Defense</a><a class="headerlink" href="#id38" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 23, touch 21, flat-footed 18 (+2 armor, +1 deflection, +4 Dex, +1 dodge, +2 monk, +3 Wis)</p>
+<p><strong>hp</strong> 60 (11d8+7)</p>
+<p><strong>Fort</strong> +8, <strong>Ref</strong> +12, <strong>Will</strong> +11; +2 vs. enchantments</p>
+<p><strong>Defensive Abilities</strong> improved evasion; <strong>Immune</strong> disease, poison</p>
+</div>
+<div class="section" id="id39">
+<h2><a class="toc-backref" href="#id133">Offense</a><a class="headerlink" href="#id39" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 60 ft.</p>
+<p><strong>Melee</strong>unarmed strike +12/+7 (1d10+1/19â20) or unarmed strike flurry of blows +13/+13/+8/+8/+3 (1d10+1/19â20)</p>
+<p><strong>Ranged</strong> shuriken +12/+7 (1d2+1 plus poison) or shuriken flurry of blows +13/+13/+8/+8/+3 (1d2+1 plus poison)</p>
+<p><strong>Special Attacks</strong> flurry of blows, stunning fist (11/day, DC 18)</p>
+</div>
+<div class="section" id="id40">
+<h2><a class="toc-backref" href="#id134">Tactics</a><a class="headerlink" href="#id40" title="Permalink to this headline">¶</a></h2>
+<p><strong>Before Combat</strong> The monk conceals her shuriken as the metal cymbals inside her tambourine, applying 2 doses of black adder venom or drow poison to the weapons before combat. She performs, bluffs, or connives her way to her target.</p>
+<p><strong>During Combat</strong> If the monk finds herself outnumbered, she uses flurry of blows with her poisoned shuriken. She shifts and feints through a melee. If her feint is successful, she trips that foe. Once the foe is on the ground, she slams down with a Stunning Fist. A poisonous performer does not hesitate to abandon combat if outmatched or seriously injured, drinking her potion of <a class="reference internal" href="corerulebook.spells.invisibility.html#corerulebook-spells-invisibility-invisibility"><span class="std std-ref">invisibility</span></a> and fleeing the field to a place where she can drink a potion of <a class="reference internal" href="corerulebook.spells.disguiseself.html#corerulebook-spells-disguiseself-disguise-self"><span class="std std-ref">disguise self</span></a>, blend in, and disappear.</p>
+</div>
+<div class="section" id="id41">
+<h2><a class="toc-backref" href="#id135">Statistics</a><a class="headerlink" href="#id41" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 12, <strong>Dex</strong> 18, <strong>Con</strong> 10, <strong>Int</strong> 13, <strong>Wis</strong> 17, <strong>Cha</strong> 10</p>
+<p><strong>Base Atk</strong> +8; <strong>CMB</strong> +12 (+14 trip); <strong>CMD</strong> 30 (32 vs. trip)</p>
+<p><strong>Feats</strong> <a class="reference internal" href="corerulebook.feats.html#combat reflexes (combat)"><span class="std std-ref">Combat Reflexes</span></a>, <a class="reference internal" href="corerulebook.feats.html#deadly aim (combat)"><span class="std std-ref">Deadly Aim</span></a>, <a class="reference internal" href="corerulebook.feats.html#dodge (combat)"><span class="std std-ref">Dodge</span></a>, <a class="reference internal" href="corerulebook.feats.html#improved critical (combat)"><span class="std std-ref">Improved Critical</span></a> (unarmed strike), Improved Feint, <a class="reference internal" href="corerulebook.feats.html#improved initiative (combat)"><span class="std std-ref">Improved Initiative</span></a>, Improved Trip, <a class="reference internal" href="corerulebook.feats.html#improved unarmed strike (combat)"><span class="std std-ref">Improved Unarmed Strike</span></a>, <a class="reference internal" href="corerulebook.feats.html#point-blank shot (combat)"><span class="std std-ref">Point-Blank Shot</span></a>, <a class="reference internal" href="corerulebook.feats.html#corerulebook-feats-skill-focus"><span class="std std-ref">Skill Focus</span></a> (<a class="reference internal" href="corerulebook.skills.bluff.html#corerulebook-skills-bluff-bluff"><span class="std std-ref">Bluff</span></a>), Stunning Fist, <a class="reference internal" href="corerulebook.feats.html#vital strike (combat)"><span class="std std-ref">Vital Strike</span></a>, <a class="reference internal" href="corerulebook.feats.html#weapon finesse (combat)"><span class="std std-ref">Weapon Finesse</span></a></p>
+<p><strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a> +17 (+40 when jumping), <a class="reference internal" href="corerulebook.skills.bluff.html#corerulebook-skills-bluff-bluff"><span class="std std-ref">Bluff</span></a> +16, <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> +9, <a class="reference internal" href="corerulebook.skills.linguistics.html#corerulebook-skills-linguistics-linguistics"><span class="std std-ref">Linguistics</span></a> +3, Perception +14, <a class="reference internal" href="corerulebook.skills.perform.html#corerulebook-skills-perform-perform"><span class="std std-ref">Perform</span></a> (dance, percussion) +8, <a class="reference internal" href="corerulebook.skills.sensemotive.html#corerulebook-skills-sensemotive-sense-motive"><span class="std std-ref">Sense Motive</span></a> +17, <a class="reference internal" href="corerulebook.skills.sleightofhand.html#corerulebook-skills-sleightofhand-sleight-of-hand"><span class="std std-ref">Sleight of Hand</span></a> +9, <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> +15, <a class="reference internal" href="corerulebook.skills.swim.html#corerulebook-skills-swim-swim"><span class="std std-ref">Swim</span></a> +5</p>
+<p><strong>Languages</strong> Common, Dwarven, Elven, Gnome</p>
+<p><strong>SQ</strong> diamond body, fast movement, high jump, <em>ki</em> pool (8 points, lawful, magic), maneuver training, purity of body, slow fall 50 ft., wholeness of body</p>
+<p><strong>Combat Gear</strong>potion of <a class="reference internal" href="corerulebook.spells.curelightwounds.html#corerulebook-spells-curelightwounds-cure-light-wounds"><span class="std std-ref">cure light wounds</span></a>, potion of <a class="reference internal" href="corerulebook.spells.disguiseself.html#corerulebook-spells-disguiseself-disguise-self"><span class="std std-ref">disguise self</span></a>, potion of <a class="reference internal" href="corerulebook.spells.invisibility.html#corerulebook-spells-invisibility-invisibility"><span class="std std-ref">invisibility</span></a>, black adder venom (4), drow poison (4), oil of taggit; <strong>Other Gear</strong> shuriken (20), <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-belt-of-incredible-dexterity"><span class="std std-ref">belt of incredible dexterity</span></a> +2, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-bracers-of-armor"><span class="std std-ref">bracers of armor</span></a> +2, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-cloak-of-resistance"><span class="std std-ref">cloak of resistance</span></a> +1, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-headband-of-inspired-wisdom"><span class="std std-ref">headband of inspired wisdom</span></a> +2, <a class="reference internal" href="corerulebook.magicitems.rings.html#corerulebook-magicitems-rings-ring-of-protection"><span class="std std-ref">ring of protection</span></a> +1, tambourine, 71 gp</p>
+<p>The poisonous performer is a member of a monastery that seeks enlightenment in the perfection of murder and assassination. Such monks are poison users and masters of disguise, and often greatly feared in the lands around their monasteries. They are sometimes hunted by monks from other monasteries who believe their grim rites are a perversion of proper monastic practices.</p>
+</div>
+<div class="section" id="natessa-the-angel-of-death">
+<span id="npccodex-core-monk-natessa-the-angel-of-death"></span><h2><a class="toc-backref" href="#id136">Natessa the Angel of Death</a><a class="headerlink" href="#natessa-the-angel-of-death" title="Permalink to this headline">¶</a></h2>
+<p>Natessa came to the monastery on the far island when she was a young woman. She told the monks she had accidently killed a man with her horse, and wondered why it made her feel complete, at one with all being. The monks ushered her in, and though she was older than the other pupils, they trained her in the discipline of holy killing. Since that day, she has risen in the ranks, and is now one the monastery’s prized slayers. Few expect the pretty but forgettable girl with the youthful gait to be a seasoned and a brutal killer.</p>
+<p><strong>Combat Encounters:</strong> Most people don’t know they are in combat with Natessa until they have poisoned shuriken sticking out of them. Natessa usually works alone, but has been known to bring support for a particularly well-guarded target. She has also been associated with a small number of adventuring parties, but typically under a false identity.</p>
+<p><strong>Roleplaying Suggestions:</strong> While she’s hunting a mark, Natessa takes on the persona of a traveling tambourine player or a prostitute.</p>
+</div>
+<div class="section" id="swift-brawler">
+<span id="npccodex-core-monk-swift-brawler"></span><h2><a class="toc-backref" href="#id137">Swift Brawler</a><a class="headerlink" href="#swift-brawler" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 11</strong></p>
+<p><strong>XP</strong> 12,800</p>
+<p><strong>Human monk</strong> 12</p>
+<p>LN Medium humanoid (human)</p>
+<p><strong>Init</strong> +2; <strong>Senses</strong> Perception +20</p>
+</div>
+<div class="section" id="id42">
+<h2><a class="toc-backref" href="#id138">Defense</a><a class="headerlink" href="#id42" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 23, touch 21, flat-footed 21 (+2 armor, +1 deflection, +2 Dex, +3 monk, +5 Wis)</p>
+<p><strong>hp</strong> 75 (12d8+18)</p>
+<p><strong>Fort</strong> +10, <strong>Ref</strong> +11, <strong>Will</strong> +14; +2 vs. enchantments</p>
+<p><strong>Defensive Abilities</strong> improved evasion; <strong>Immune</strong> disease, poison</p>
+</div>
+<div class="section" id="id43">
+<h2><a class="toc-backref" href="#id139">Offense</a><a class="headerlink" href="#id43" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 70 ft.</p>
+<p><strong>Melee</strong>mwk quarterstaff +13/+8 (1d6+3) or <em>+1 unarmed strike</em> +13/+8 (2d6+4) or <em>+1 unarmed strike</em>flurry of blows +14/+14/+9/+9/+4 (2d6+3)</p>
+<p><strong>Ranged</strong> shuriken +11/+6 (1d2+3) or shuriken flurry of blows +12/+12/+7/+7/+2 (1d2+3)</p>
+<p><strong>Special Attacks</strong> flurry of blows, stunning fist (12/day, DC 21)</p>
+</div>
+<div class="section" id="id44">
+<h2><a class="toc-backref" href="#id140">Tactics</a><a class="headerlink" href="#id44" title="Permalink to this headline">¶</a></h2>
+<p><strong>Before Combat</strong> The monk uses <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> to find a hiding spot in an effort to gain the element of surprise.</p>
+<p><strong>During Combat</strong> The monk uses Deflect Arrows to close in on ranged combatants. He uses <a class="reference internal" href="corerulebook.feats.html#lunge (combat)"><span class="std std-ref">Lunge</span></a> to keep enemies at bay and flurry of blows to trip multiple opponents if surrounded, allowing him the full benefit of his <a class="reference internal" href="corerulebook.feats.html#combat reflexes (combat)"><span class="std std-ref">Combat Reflexes</span></a> when tripped opponents try to stand. A swift brawler uses <a class="reference internal" href="corerulebook.feats.html#power attack (combat)"><span class="std std-ref">Power Attack</span></a> against enemies he has tripped or stunned, only risking the penalty on his attack rolls when his target’s AC has been compromised in some way.</p>
+</div>
+<div class="section" id="id45">
+<h2><a class="toc-backref" href="#id141">Statistics</a><a class="headerlink" href="#id45" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 16, <strong>Dex</strong> 15, <strong>Con</strong> 12, <strong>Int</strong> 10, <strong>Wis</strong> 20, <strong>Cha</strong> 8</p>
+<p><strong>Base Atk</strong> +9; <strong>CMB</strong> +15 (+17 trip); <strong>CMD</strong> 33 (35 vs. trip)</p>
+<p><strong>Feats</strong> <a class="reference internal" href="corerulebook.feats.html#corerulebook-feats-acrobatic"><span class="std std-ref">Acrobatic</span></a> Steps, <a class="reference internal" href="corerulebook.feats.html#combat reflexes (combat)"><span class="std std-ref">Combat Reflexes</span></a>, Deflect Arrows, Extra <em>Ki</em>, Gorgon’s Fist, Improved Trip, <a class="reference internal" href="corerulebook.feats.html#improved unarmed strike (combat)"><span class="std std-ref">Improved Unarmed Strike</span></a>, <a class="reference internal" href="corerulebook.feats.html#lunge (combat)"><span class="std std-ref">Lunge</span></a>, <a class="reference internal" href="corerulebook.feats.html#corerulebook-feats-nimble-moves"><span class="std std-ref">Nimble Moves</span></a>, <a class="reference internal" href="corerulebook.feats.html#power attack (combat)"><span class="std std-ref">Power Attack</span></a>, Scorpion Style, Spring Attack, Stunning Fist</p>
+<p><strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a> +15 (+43 when jumping), <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> +11, <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (geography, local) +4, <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (history) +6, <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (religion) +7, <a class="reference internal" href="corerulebook.skills.linguistics.html#corerulebook-skills-linguistics-linguistics"><span class="std std-ref">Linguistics</span></a> +3, Perception +20, <a class="reference internal" href="corerulebook.skills.sensemotive.html#corerulebook-skills-sensemotive-sense-motive"><span class="std std-ref">Sense Motive</span></a> +18, <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> +15, <a class="reference internal" href="corerulebook.skills.swim.html#corerulebook-skills-swim-swim"><span class="std std-ref">Swim</span></a> +7</p>
+<p><strong>Languages</strong> Common, Dwarven, Elven, Gnome, Orc</p>
+<p><strong>SQ</strong> abundant step, diamond body, fast movement, high jump, <em>ki</em> pool (13 points, lawful, magic), maneuver training, purity of body, slow fall 60 ft., wholeness of body</p>
+<p><strong>Combat Gear</strong>potion of <a class="reference internal" href="corerulebook.spells.curelightwounds.html#corerulebook-spells-curelightwounds-cure-light-wounds"><span class="std std-ref">cure light wounds</span></a>, potion of <a class="reference internal" href="corerulebook.spells.mirrorimage.html#corerulebook-spells-mirrorimage-mirror-image"><span class="std std-ref">mirror image</span></a>; <strong>Other Gear</strong> masterwork quarterstaff, shuriken (20), <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-amulet-of-mighty-fists"><span class="std std-ref">amulet of mighty fists</span></a> +1, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-belt-of-giant-strength"><span class="std std-ref">belt of giant strength</span></a> +2, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-bracers-of-armor"><span class="std std-ref">bracers of armor</span></a> +2, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-cloak-of-resistance"><span class="std std-ref">cloak of resistance</span></a> +1, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-headband-of-inspired-wisdom"><span class="std std-ref">headband of inspired wisdom</span></a> +2, <a class="reference internal" href="corerulebook.magicitems.rings.html#corerulebook-magicitems-rings-ring-of-protection"><span class="std std-ref">ring of protection</span></a> +1, 46 gp</p>
+<p>Swift brawlers serve as the vanguard of many monasteries’ forces. They use speed and agility to track down and neutralize enemy leaders and spellcasters.</p>
+</div>
+<div class="section" id="ryoto">
+<span id="npccodex-core-monk-ryoto"></span><h2><a class="toc-backref" href="#id142">Ryoto</a><a class="headerlink" href="#ryoto" title="Permalink to this headline">¶</a></h2>
+<p>Once Ryoto was a gambler, a killer, and a thief. And then one day he walked away from that life—a depraved and wine-hazed existence of vice and violence. He sat down before the gates of a monastery high up in the hills, and did not move for over a week, meditating without food or water. When he finally spoke, he looked up at the monks of the order and merely said, “I am now you.” The monks, sensing the fundamental truth in this cryptic statement, silently opened their doors and accepted him as one of their own.</p>
+<p>When he came to the monastery, Ryoto was powerful and crafty, but undisciplined. The monks saw his potential, however, and did their best to break him down and remake him into a perfect warrior. After years of routine and training, he is now one of the greatest fighters in the school, and is revered and thought of as a great teacher, despite—or perhaps because of—the fact that he has not said a single word since entering the monastery.</p>
+<p><strong>Combat Encounters:</strong> Ryoto is the first one to come to the defense of his order, or to right some wrong he sees.</p>
+<p><strong>Roleplaying Suggestions:</strong> As someone who refuses to speak, or sometimes even to acknowledge the existence of others, Ryoto is difficult for others to communicate with. His companions often don’t know his intent until he acts.</p>
+</div>
+<div class="section" id="monastic-sniper">
+<span id="npccodex-core-monk-monastic-sniper"></span><h2><a class="toc-backref" href="#id143">Monastic Sniper</a><a class="headerlink" href="#monastic-sniper" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 12</strong></p>
+<p><strong>XP</strong> 19,200</p>
+<p><strong>Elf monk</strong> 13</p>
+<p>LN Medium humanoid (elf)</p>
+<p><strong>Init</strong> +3; <strong>Senses</strong> low-light vision; Perception +19</p>
+</div>
+<div class="section" id="id46">
+<h2><a class="toc-backref" href="#id144">Defense</a><a class="headerlink" href="#id46" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 24, touch 22, flat-footed 20 (+2 armor, +1 deflection, +3 Dex, +1 dodge, +3 monk, +4 Wis)</p>
+<p><strong>hp</strong> 85 (13d8+23)</p>
+<p><strong>Fort</strong> +11, <strong>Ref</strong> +13, <strong>Will</strong> +14; +4 vs. enchantments</p>
+<p><strong>Defensive Abilities</strong> improved evasion; <strong>Immune</strong> disease, poison, sleep; <strong>SR</strong> 23</p>
+</div>
+<div class="section" id="id47">
+<h2><a class="toc-backref" href="#id145">Offense</a><a class="headerlink" href="#id47" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 70 ft.</p>
+<p><strong>Melee</strong><em>+1 rapier</em> +12/+7 (1d6+3/15â20) or unarmed strike +11/+6 (2d6+2) or unarmed strike flurry of blows +13/+13/+8/+8/+3 (2d6+2)</p>
+<p><strong>Ranged</strong> mwk composite longbow +13/+8 (1d8+2/Ã3) or mwk shuriken +13/+8 (1d2+2) or mwk shuriken flurry of blows +14/+14/+9/+9/+4 (1d2+2)</p>
+<p><strong>Special Attacks</strong> flurry of blows, stunning fist (13/day, DC 20)</p>
+</div>
+<div class="section" id="id48">
+<h2><a class="toc-backref" href="#id146">Tactics</a><a class="headerlink" href="#id48" title="Permalink to this headline">¶</a></h2>
+<p><strong>Before Combat</strong> The monk tries to find cover from which to snipe at his enemies, using abundant step in conjunction with <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> to make enemies think they face multiple attackers.</p>
+<p><strong>During Combat</strong> If the monk must enter melee, he uses Stunning Fist against flat-footed or disadvantaged opponents. If successful, he then uses his rapier in conjunction with <a class="reference internal" href="corerulebook.feats.html#power attack (combat)"><span class="std std-ref">Power Attack</span></a> and <a class="reference internal" href="corerulebook.feats.html#vital strike (combat)"><span class="std std-ref">Vital Strike</span></a>. If he’s outnumbered, the monk uses Spring Attack and <a class="reference internal" href="corerulebook.feats.html#vital strike (combat)"><span class="std std-ref">Vital Strike</span></a> to whittle down his foes.</p>
+</div>
+<div class="section" id="id49">
+<h2><a class="toc-backref" href="#id147">Statistics</a><a class="headerlink" href="#id49" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 14, <strong>Dex</strong> 16, <strong>Con</strong> 12, <strong>Int</strong> 11, <strong>Wis</strong> 18, <strong>Cha</strong> 10</p>
+<p><strong>Base Atk</strong> +9; <strong>CMB</strong> +15 (+17 disarm); <strong>CMD</strong> 33 (35 vs. disarm)</p>
+<p><strong>Feats</strong> <a class="reference internal" href="corerulebook.feats.html#combat reflexes (combat)"><span class="std std-ref">Combat Reflexes</span></a>, <a class="reference internal" href="corerulebook.feats.html#deadly aim (combat)"><span class="std std-ref">Deadly Aim</span></a>, <a class="reference internal" href="corerulebook.feats.html#dodge (combat)"><span class="std std-ref">Dodge</span></a>, <a class="reference internal" href="corerulebook.feats.html#improved critical (combat)"><span class="std std-ref">Improved Critical</span></a> (rapier), Improved Disarm, <a class="reference internal" href="corerulebook.feats.html#improved unarmed strike (combat)"><span class="std std-ref">Improved Unarmed Strike</span></a>, <a class="reference internal" href="corerulebook.feats.html#point-blank shot (combat)"><span class="std std-ref">Point-Blank Shot</span></a>, <a class="reference internal" href="corerulebook.feats.html#power attack (combat)"><span class="std std-ref">Power Attack</span></a>, Precise Shot, <a class="reference internal" href="corerulebook.feats.html#quick draw (combat)"><span class="std std-ref">Quick Draw</span></a>, Spring Attack, Stunning Fist, <a class="reference internal" href="corerulebook.feats.html#vital strike (combat)"><span class="std std-ref">Vital Strike</span></a></p>
+<p><strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a> +15 (+44 when jumping), <a class="reference internal" href="corerulebook.skills.bluff.html#corerulebook-skills-bluff-bluff"><span class="std std-ref">Bluff</span></a> +5, <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> +8, <a class="reference internal" href="corerulebook.skills.diplomacy.html#corerulebook-skills-diplomacy-diplomacy"><span class="std std-ref">Diplomacy</span></a> +10, <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (history, religion) +5, <a class="reference internal" href="corerulebook.skills.linguistics.html#corerulebook-skills-linguistics-linguistics"><span class="std std-ref">Linguistics</span></a> +2, Perception +19, <a class="reference internal" href="corerulebook.skills.sensemotive.html#corerulebook-skills-sensemotive-sense-motive"><span class="std std-ref">Sense Motive</span></a> +15, <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> +15</p>
+<p><strong>Languages</strong> Common, Dwarven, Elven, Sylvan</p>
+<p><strong>SQ</strong> abundant step, diamond body, diamond soul, elven magic, fast movement, high jump, <em>ki</em> pool (10 points, lawful, magic), maneuver training, purity of body, slow fall 60 ft., weapon familiarity, wholeness of body</p>
+<p><strong>Combat Gear</strong><a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-elixir-of-truth"><span class="std std-ref">elixir of truth</span></a>, potion of <a class="reference internal" href="corerulebook.spells.blur.html#corerulebook-spells-blur-blur"><span class="std std-ref">blur</span></a>, potions of <a class="reference internal" href="corerulebook.spells.comprehendlanguages.html#corerulebook-spells-comprehendlanguages-comprehend-languages"><span class="std std-ref">comprehend languages</span></a> (2), potions of <a class="reference internal" href="corerulebook.spells.curemoderatewounds.html#corerulebook-spells-curemoderatewounds-cure-moderate-wounds"><span class="std std-ref">cure moderate wounds</span></a> (2), potion of <a class="reference internal" href="corerulebook.spells.cureseriouswounds.html#corerulebook-spells-cureseriouswounds-cure-serious-wounds"><span class="std std-ref">cure serious wounds</span></a>, potion of <a class="reference internal" href="corerulebook.spells.glibness.html#corerulebook-spells-glibness-glibness"><span class="std std-ref">glibness</span></a>; <strong>Other Gear</strong><em>+1 rapier</em>, masterwork composite longbow (+2 Str) with 20 arrows, masterwork shuriken (50), <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-belt-of-incredible-dexterity"><span class="std std-ref">belt of incredible dexterity</span></a> +2, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-boots-of-elvenkind"><span class="std std-ref">boots of elvenkind</span></a>, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-bracers-of-armor"><span class="std std-ref">bracers of armor</span></a> +2, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-cloak-of-resistance"><span class="std std-ref">cloak of resistance</span></a> +2, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-headband-of-inspired-wisdom"><span class="std std-ref">headband of inspired wisdom</span></a> +2, <a class="reference internal" href="corerulebook.magicitems.rings.html#corerulebook-magicitems-rings-ring-of-protection"><span class="std std-ref">ring of protection</span></a> +1, 179 gp</p>
+<p>Both archers and diplomats, monastic snipers consider a well-placed warning shot the ideal method to open the channels of diplomacy from a position of power.</p>
+</div>
+<div class="section" id="tourindall-andarael">
+<span id="npccodex-core-monk-tourindall-andarael"></span><h2><a class="toc-backref" href="#id148">Tourindall Andarael</a><a class="headerlink" href="#tourindall-andarael" title="Permalink to this headline">¶</a></h2>
+<p>Many elves defend their enclaves with both well-placed arrows and honeyed words. Tourindall uses those same tactics to defend his fellow monks and their home. When strangers enter his order’s lands, Tourindall is sent to spy on them and possibly warn them away.</p>
+<p><strong>Combat Encounters:</strong> Tourindall negotiates his way out of a fight if he can. If battle breaks out but negotiation still seems feasible, he disarms a single foe then offers to parley, or gets away to drink his potion of glibnessbefore returning to talk.</p>
+<p><strong>Roleplaying Suggestions:</strong> Tourindall is proud of his knowledge of both history and religion, and comes off as overly academic. He often weaves into his negotiations proverbs and myths from a variety of religions.</p>
+</div>
+<div class="section" id="little-fist">
+<span id="npccodex-core-monk-little-fist"></span><h2><a class="toc-backref" href="#id149">Little Fist</a><a class="headerlink" href="#little-fist" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 13</strong></p>
+<p><strong>XP</strong> 25,600</p>
+<p><strong>Halfling monk</strong> 14</p>
+<p>LN Small humanoid (halfling)</p>
+<p><strong>Init</strong> +8; <strong>Senses</strong> Perception +20</p>
+</div>
+<div class="section" id="id50">
+<h2><a class="toc-backref" href="#id150">Defense</a><a class="headerlink" href="#id50" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 29, touch 25, flat-footed 24 (+2 armor, +1 deflection, +4 Dex, +1 dodge, +3 monk, +2 natural, +1 size, +5 Wis)</p>
+<p><strong>hp</strong> 80 (14d8+14)</p>
+<p><strong>Fort</strong> +12, <strong>Ref</strong> +15, <strong>Will</strong> +16; +2 vs. enchantments, +2 vs. fear</p>
+<p><strong>Defensive Abilities</strong> improved evasion; <strong>Immune</strong> disease, poison; <strong>SR</strong> 24</p>
+</div>
+<div class="section" id="id51">
+<h2><a class="toc-backref" href="#id151">Offense</a><a class="headerlink" href="#id51" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 60 ft.</p>
+<p><strong>Melee</strong><em>+1 unarmed strike</em> +16/+11 (1d10+4) or <em>+1 unarmed strike</em>flurry of blows +18/+18/+13/+13/+8 (1d10+4)</p>
+<p><strong>Ranged</strong> mwk shortbow +16/+11 (1d4/Ã3)</p>
+<p><strong>Special Attacks</strong> flurry of blows, stunning fist (14/day, DC 22)</p>
+</div>
+<div class="section" id="id52">
+<h2><a class="toc-backref" href="#id152">Tactics</a><a class="headerlink" href="#id52" title="Permalink to this headline">¶</a></h2>
+<p><strong>Before Combat</strong> The monk often tries to reason or treat with potential foes in an effort to avoid unnecessary combat, or to quietly study enemies and discern each one’s strengths and weaknesses. Once combat is unavoidable, he drinks potions of <a class="reference internal" href="corerulebook.spells.barkskin.html#corerulebook-spells-barkskin-barkskin"><span class="std std-ref">barkskin</span></a> and <a class="reference internal" href="corerulebook.spells.bullsstrength.html#bull's strength"><span class="std std-ref">bull’s strength</span></a>.</p>
+<p><strong>During Combat</strong> The monk trusts his improved evasion, high saves, and spell resistance to safeguard him against spellcasters, and focuses on martial opponents, combining Spring Attack and Stunning Fist. He uses <a class="reference internal" href="corerulebook.feats.html#lunge (combat)"><span class="std std-ref">Lunge</span></a> against Small or Medium opponents, often using <em>ki</em> points to grant himself a bonus to AC and negate the penalty from using <a class="reference internal" href="corerulebook.feats.html#lunge (combat)"><span class="std std-ref">Lunge</span></a>. When making a flurry of blows, he attempts a Stunning Fist on the first strike. He uses <a class="reference internal" href="bestiary.monsterfeats.html#bestiary-monsterfeats-snatch"><span class="std std-ref">Snatch</span></a> Arrows to return thrown weapons and <a class="reference internal" href="corerulebook.feats.html#deadly aim (combat)"><span class="std std-ref">Deadly Aim</span></a> whenever he catches a weapon he is proficient with.</p>
+<p><strong>Base Statistics</strong>Without <a class="reference internal" href="corerulebook.spells.barkskin.html#corerulebook-spells-barkskin-barkskin"><span class="std std-ref">barkskin</span></a> and <a class="reference internal" href="corerulebook.spells.bullsstrength.html#bull's strength"><span class="std std-ref">bull’s strength</span></a>, the monk’s statistics are <strong>AC</strong> 27, touch 25, flat-footed 22; <strong>Melee</strong><em>+1 unarmed strike</em> +16/+11 (1d10+2) or <em>+1 unarmed strike</em>flurry of blows +18/+18/+13/+13/+8 (1d10+1); <strong>Str</strong> 12; <strong>CMB</strong> +14; <strong>CMD</strong> 34; <strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> +10, <a class="reference internal" href="corerulebook.skills.swim.html#corerulebook-skills-swim-swim"><span class="std std-ref">Swim</span></a> +5.</p>
+</div>
+<div class="section" id="id53">
+<h2><a class="toc-backref" href="#id153">Statistics</a><a class="headerlink" href="#id53" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 16, <strong>Dex</strong> 18, <strong>Con</strong> 12, <strong>Int</strong> 11, <strong>Wis</strong> 20, <strong>Cha</strong> 10</p>
+<p><strong>Base Atk</strong> +10; <strong>CMB</strong> +16; <strong>CMD</strong> 36</p>
+<p><strong>Feats</strong> <a class="reference internal" href="corerulebook.feats.html#combat reflexes (combat)"><span class="std std-ref">Combat Reflexes</span></a>, <a class="reference internal" href="corerulebook.feats.html#deadly aim (combat)"><span class="std std-ref">Deadly Aim</span></a>, Deflect Arrows, <a class="reference internal" href="corerulebook.feats.html#dodge (combat)"><span class="std std-ref">Dodge</span></a>, Gorgon’s Fist, <a class="reference internal" href="corerulebook.feats.html#improved initiative (combat)"><span class="std std-ref">Improved Initiative</span></a>, <a class="reference internal" href="corerulebook.feats.html#improved unarmed strike (combat)"><span class="std std-ref">Improved Unarmed Strike</span></a>, <a class="reference internal" href="corerulebook.feats.html#lunge (combat)"><span class="std std-ref">Lunge</span></a>, <a class="reference internal" href="corerulebook.feats.html#point-blank shot (combat)"><span class="std std-ref">Point-Blank Shot</span></a>, Scorpion Style, <a class="reference internal" href="bestiary.monsterfeats.html#bestiary-monsterfeats-snatch"><span class="std std-ref">Snatch</span></a> Arrows, Spring Attack, Stunning Fist, <a class="reference internal" href="corerulebook.feats.html#weapon finesse (combat)"><span class="std std-ref">Weapon Finesse</span></a></p>
+<p><strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a> +20 (+48 when jumping), <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> +12, <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (history) +16, <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (religion) +8, Perception +20, <a class="reference internal" href="corerulebook.skills.perform.html#corerulebook-skills-perform-perform"><span class="std std-ref">Perform</span></a> (wind) +7, <a class="reference internal" href="corerulebook.skills.sensemotive.html#corerulebook-skills-sensemotive-sense-motive"><span class="std std-ref">Sense Motive</span></a> +20, <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> +21, <a class="reference internal" href="corerulebook.skills.swim.html#corerulebook-skills-swim-swim"><span class="std std-ref">Swim</span></a> +7</p>
+<p><strong>SQ</strong> abundant step, diamond body, diamond soul, fast movement, high jump, <em>ki</em> pool (12 points, lawful, magic), maneuver training, purity of body, slow fall 70 ft., wholeness of body</p>
+<p><strong>Combat Gear</strong>potions of <a class="reference internal" href="corerulebook.spells.barkskin.html#corerulebook-spells-barkskin-barkskin"><span class="std std-ref">barkskin</span></a> (2), potions of <a class="reference internal" href="corerulebook.spells.bullsstrength.html#bull's strength"><span class="std std-ref">bull’s strength</span></a> (2), potion of <a class="reference internal" href="corerulebook.spells.curemoderatewounds.html#corerulebook-spells-curemoderatewounds-cure-moderate-wounds"><span class="std std-ref">cure moderate wounds</span></a> (2), <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-universal-solvent"><span class="std std-ref">universal solvent</span></a> (2), tanglefoot bag; <strong>Other Gear</strong> masterwork shortbow with 20 arrows, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-amulet-of-mighty-fists"><span class="std std-ref">amulet of mighty fists</span></a> +1, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-belt-of-incredible-dexterity"><span class="std std-ref">belt of incredible dexterity</span></a> +2, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-bracers-of-armor"><span class="std std-ref">bracers of armor</span></a> +2, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-cloak-of-resistance"><span class="std std-ref">cloak of resistance</span></a> +1, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-headband-of-inspired-wisdom"><span class="std std-ref">headband of inspired wisdom</span></a> +4, <a class="reference internal" href="corerulebook.magicitems.rings.html#corerulebook-magicitems-rings-ring-of-protection"><span class="std std-ref">ring of protection</span></a> +1, masterwork wooden flute, 419 gp</p>
+<p>These monks are small, but powerful and well trained. Those who underestimate one of these halflings do so at their own peril.</p>
+</div>
+<div class="section" id="laoshi">
+<span id="npccodex-core-monk-laoshi"></span><h2><a class="toc-backref" href="#id154">Laoshi</a><a class="headerlink" href="#laoshi" title="Permalink to this headline">¶</a></h2>
+<p>Laoshi listens to the wind, and always does its bidding. Sometimes it tells him to help those in need. Other times it tells him to play his flute while a city burns. It’s also led him on a number of adventures.</p>
+<p><strong>Combat Encounters:</strong> Though lawful, Laoshi is a servant of the wind. This can sometimes lead him to seemingly random acts, including outbursts of violence. In the end, however, it usually works out for the common good.</p>
+<p><strong>Roleplaying Suggestions:</strong> Laoshi makes his way through the land, playing his flute for the occasional coin. He hears much and often passes on that information to those the wind suggests.</p>
+</div>
+<div class="section" id="improvised-hurler">
+<span id="npccodex-core-monk-improvised-hurler"></span><h2><a class="toc-backref" href="#id155">Improvised Hurler</a><a class="headerlink" href="#improvised-hurler" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 14</strong></p>
+<p><strong>XP</strong> 38,400</p>
+<p><strong>Dwarf monk</strong> 15</p>
+<p>LN Medium humanoid (dwarf)</p>
+<p><strong>Init</strong> +7; <strong>Senses</strong> Perception +22</p>
+</div>
+<div class="section" id="id54">
+<h2><a class="toc-backref" href="#id156">Defense</a><a class="headerlink" href="#id54" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 28, touch 22, flat-footed 24 (+4 armor, +1 deflection, +3 Dex, +1 dodge, +3 monk, +2 natural, +4 Wis)</p>
+<p><strong>hp</strong> 91 (15d8+20)</p>
+<p><strong>Fort</strong> +13, <strong>Ref</strong> +15, <strong>Will</strong> +16; +2 vs. enchantments, +2 vs. poison, spells, and spell-like abilities</p>
+<p><strong>Defensive Abilities</strong> defensive training (+4 dodge bonus to AC vs. giants), improved evasion; <strong>Immune</strong> disease, poison; <strong>SR</strong> 25</p>
+</div>
+<div class="section" id="id55">
+<h2><a class="toc-backref" href="#id157">Offense</a><a class="headerlink" href="#id55" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 70 ft.</p>
+<p><strong>Melee</strong><em>+1 unarmed strike</em> +16/+11/+6 (2d6+5/19â20)</p>
+<p><strong>Ranged</strong>improvised thrown weapon +15 (1d8+4/19â20)</p>
+<p><strong>Special Attacks</strong> +1 on attack rolls against goblinoid and orc humanoids, flurry of blows, quivering palm (1/day, DC 21), stunning fist (15/day, DC 21)</p>
+</div>
+<div class="section" id="id56">
+<h2><a class="toc-backref" href="#id158">Tactics</a><a class="headerlink" href="#id56" title="Permalink to this headline">¶</a></h2>
+<p><strong>Before Combat</strong> The monk drinks potions of <a class="reference internal" href="corerulebook.spells.barkskin.html#corerulebook-spells-barkskin-barkskin"><span class="std std-ref">barkskin</span></a> and <a class="reference internal" href="corerulebook.spells.catsgrace.html#cat's grace"><span class="std std-ref">cat’s grace</span></a>.</p>
+<p><strong>During Combat</strong> This monk prefers to use improvised weapons like ladders, tankards, and chisels. If he happens upon a particularly effective and sturdy improvised weapon, he applies oil of <a class="reference internal" href="corerulebook.spells.magicweapon.html#corerulebook-spells-magicweapon-magic-weapon-greater"><span class="std std-ref">greater magic weapon</span></a> before rejoining the fray. In familiar terrain, he tries to stun or trip a foe as a standard action and then uses his abundant step ability to seek cover where he can hide. The dwarf then pelts his adversaries with anything on hand.</p>
+<p><strong>Base Statistics</strong>Without <a class="reference internal" href="corerulebook.spells.barkskin.html#corerulebook-spells-barkskin-barkskin"><span class="std std-ref">barkskin</span></a> and <a class="reference internal" href="corerulebook.spells.catsgrace.html#cat's grace"><span class="std std-ref">cat’s grace</span></a>, the monk’s statistics are <strong>Init</strong> +5; <strong>AC</strong> 24, touch 20, flat-footed 22; <strong>Ref</strong> +13; <strong>Ranged</strong>improvised thrown weapon +13 (1d8+4/19â20); <strong>Dex</strong> 13; <strong>CMD</strong> 35 (39 vs. bull rush, 41 vs. trip); <strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a> +14 (+45 when jumping), <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> +9.</p>
+</div>
+<div class="section" id="id57">
+<h2><a class="toc-backref" href="#id159">Statistics</a><a class="headerlink" href="#id57" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 18, <strong>Dex</strong> 17, <strong>Con</strong> 12, <strong>Int</strong> 12, <strong>Wis</strong> 18, <strong>Cha</strong> 8</p>
+<p><strong>Base Atk</strong> +11; <strong>CMB</strong> +19 (+21 trip); <strong>CMD</strong> 37 (41 vs. bull rush, 43 vs. trip)</p>
+<p><strong>Feats</strong> <a class="reference internal" href="corerulebook.feats.html#catch off-guard (combat)"><span class="std std-ref">Catch Off-Guard</span></a>, <a class="reference internal" href="corerulebook.feats.html#combat reflexes (combat)"><span class="std std-ref">Combat Reflexes</span></a>, <a class="reference internal" href="corerulebook.feats.html#dodge (combat)"><span class="std std-ref">Dodge</span></a>, Extra <em>Ki</em>, Gorgon’s Fist, <a class="reference internal" href="corerulebook.feats.html#improved initiative (combat)"><span class="std std-ref">Improved Initiative</span></a>, Improved Trip, <a class="reference internal" href="corerulebook.feats.html#improved unarmed strike (combat)"><span class="std std-ref">Improved Unarmed Strike</span></a>, <a class="reference internal" href="corerulebook.feats.html#improvised weapon mastery (combat)"><span class="std std-ref">Improvised Weapon Mastery</span></a>, Medusa’s Wrath, <a class="reference internal" href="corerulebook.feats.html#power attack (combat)"><span class="std std-ref">Power Attack</span></a>, Scorpion Style, <a class="reference internal" href="corerulebook.feats.html#step up (combat)"><span class="std std-ref">Step Up</span></a>, Stunning Fist, <a class="reference internal" href="corerulebook.feats.html#throw anything (combat)"><span class="std std-ref">Throw Anything</span></a></p>
+<p><strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a> +16 (+47 when jumping), <a class="reference internal" href="corerulebook.skills.appraise.html#corerulebook-skills-appraise-appraise"><span class="std std-ref">Appraise</span></a> +11 (+13 to assess nonmagical metals or gemstones), <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> +11, <a class="reference internal" href="corerulebook.skills.craft.html#corerulebook-skills-craft-craft"><span class="std std-ref">Craft</span></a> (carpentry) +21, <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (dungeoneering, engineering) +6, <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (history) +8, Perception +22 (+24 to notice unusual stonework), <a class="reference internal" href="corerulebook.skills.sensemotive.html#corerulebook-skills-sensemotive-sense-motive"><span class="std std-ref">Sense Motive</span></a> +19, <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> +11</p>
+<p><strong>SQ</strong> abundant step, diamond body, diamond soul, fast movement, high jump, <em>ki</em> pool (13 points, lawful, magic), maneuver training, purity of body, slow fall 70 ft., wholeness of body</p>
+<p><strong>Combat Gear</strong>oil of <a class="reference internal" href="corerulebook.spells.magicweapon.html#corerulebook-spells-magicweapon-magic-weapon-greater"><span class="std std-ref">greater magic weapon</span></a> (3), oil of <a class="reference internal" href="corerulebook.spells.mending.html#corerulebook-spells-mending-mending"><span class="std std-ref">mending</span></a> (5), potion of <a class="reference internal" href="corerulebook.spells.barkskin.html#corerulebook-spells-barkskin-barkskin"><span class="std std-ref">barkskin</span></a>, potion of <a class="reference internal" href="corerulebook.spells.catsgrace.html#cat's grace"><span class="std std-ref">cat’s grace</span></a>, potions of <a class="reference internal" href="corerulebook.spells.cureseriouswounds.html#corerulebook-spells-cureseriouswounds-cure-serious-wounds"><span class="std std-ref">cure serious wounds</span></a> (2); <strong>Other Gear</strong><a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-amulet-of-mighty-fists"><span class="std std-ref">amulet of mighty fists</span></a> +1, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-belt-of-giant-strength"><span class="std std-ref">belt of giant strength</span></a> +2, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-bracers-of-armor"><span class="std std-ref">bracers of armor</span></a> +4, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-cloak-of-resistance"><span class="std std-ref">cloak of resistance</span></a> +3, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-headband-of-inspired-wisdom"><span class="std std-ref">headband of inspired wisdom</span></a> +2, <a class="reference internal" href="corerulebook.magicitems.rings.html#corerulebook-magicitems-rings-ring-of-protection"><span class="std std-ref">ring of protection</span></a> +1, masterwork artisan’s tools, 470 gp</p>
+<p>Typically found among tavern brawlers, an improvised hurler turns ordinary objects into devastating weapons.</p>
+</div>
+<div class="section" id="creighton-flintfinger">
+<span id="npccodex-core-monk-creighton-flintfinger"></span><h2><a class="toc-backref" href="#id160">Creighton Flintfinger</a><a class="headerlink" href="#creighton-flintfinger" title="Permalink to this headline">¶</a></h2>
+<p>As a child, Creighton hurled his cup at an older boy and knocked him out cold. From that point on, the world was his weapon. Each foe the dwarf faces is a puzzle—how can he win using only what is provided by nature and luck? He has been on this path for 20 years now, and is considered by many to be a living saint.</p>
+<p><strong>Combat Encounters:</strong> Creighton is friendly with many adventuring parties and city governments. He often travels as a group member, friend of a dignitary, or emissary, and comes to the aid of those who seem worthy.</p>
+<p><strong>Roleplaying Suggestions:</strong> Creighton is not like other dwarves. Tranquil in conversation, he is a riot of emotion in battle, as he tries to fuse with the world’s primal nature.</p>
+</div>
+<div class="section" id="horse-monk">
+<span id="npccodex-core-monk-horse-monk"></span><h2><a class="toc-backref" href="#id161">Horse Monk</a><a class="headerlink" href="#horse-monk" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 15</strong></p>
+<p><strong>XP</strong> 51,200</p>
+<p><strong>Human monk</strong> 16</p>
+<p>LN Medium humanoid (human)</p>
+<p><strong>Init</strong> +2; <strong>Senses</strong> Perception +21</p>
+</div>
+<div class="section" id="id58">
+<h2><a class="toc-backref" href="#id162">Defense</a><a class="headerlink" href="#id58" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 26, touch 22, flat-footed 23 (+4 armor, +2 deflection, +2 Dex, +1 dodge, +4 monk, +3 Wis)</p>
+<p><strong>hp</strong> 91 (16d8+16)</p>
+<p><strong>Fort</strong> +14, <strong>Ref</strong> +15, <strong>Will</strong> +16; +2 vs. enchantments</p>
+<p><strong>Defensive Abilities</strong>improved evasion; <strong>Immune</strong> disease, poison; <strong>SR</strong> 26</p>
+</div>
+<div class="section" id="id59">
+<h2><a class="toc-backref" href="#id163">Offense</a><a class="headerlink" href="#id59" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 80 ft.</p>
+<p><strong>Melee</strong><em>+1 unarmed strike</em>+17/+12/+7 (2d8+5) or <em>+1 spear</em> +17/+12/+7 (1d8+7/Ã3) or <em>+1 unarmed strike</em>flurry of blows +19/+19/+14/+14/+9/+9/+5 (2d8+5)</p>
+<p><strong>Ranged</strong>blowgun +15/+10/+5 (1d2)</p>
+<p><strong>Special Attacks</strong>flurry of blows, quivering palm (1/day, DC 21), stunning fist (16/day, DC 21)</p>
+</div>
+<div class="section" id="id60">
+<h2><a class="toc-backref" href="#id164">Tactics</a><a class="headerlink" href="#id60" title="Permalink to this headline">¶</a></h2>
+<p><strong>Before Combat</strong>The monk prefers to ambush foes, and uses his diamond body ability to poison either his spear or at least two javelins without risk to himself.</p>
+<p><strong>During Combat</strong> The monk prefers to fight from horseback, and uses Ride-By Attack and <a class="reference internal" href="corerulebook.feats.html#lunge (combat)"><span class="std std-ref">Lunge</span></a> to hit foes so he faces little risk of retaliation. He often uses Stunning Fist on the first pass, and if successful follows with a Spirited Charge. Against other mounted foes, he uses Improved Trip to unhorse his opponents if possible.</p>
+</div>
+<div class="section" id="id61">
+<h2><a class="toc-backref" href="#id165">Statistics</a><a class="headerlink" href="#id61" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 18, <strong>Dex</strong> 14, <strong>Con</strong> 12, <strong>Int</strong> 10, <strong>Wis</strong> 16, <strong>Cha</strong> 12</p>
+<p><strong>Base Atk</strong>+12; <strong>CMB</strong> +20 (+22 trip); <strong>CMD</strong> 38 (40 vs. trip)</p>
+<p><strong>Feats</strong><a class="reference internal" href="corerulebook.feats.html#combat reflexes (combat)"><span class="std std-ref">Combat Reflexes</span></a>, <a class="reference internal" href="corerulebook.feats.html#deadly aim (combat)"><span class="std std-ref">Deadly Aim</span></a>, Deflect Arrows, <a class="reference internal" href="corerulebook.feats.html#dodge (combat)"><span class="std std-ref">Dodge</span></a>, Improved Trip, <a class="reference internal" href="corerulebook.feats.html#improved unarmed strike (combat)"><span class="std std-ref">Improved Unarmed Strike</span></a>, <a class="reference internal" href="corerulebook.feats.html#lunge (combat)"><span class="std std-ref">Lunge</span></a>, <a class="reference internal" href="corerulebook.feats.html#mounted combat (combat)"><span class="std std-ref">Mounted Combat</span></a>, <a class="reference internal" href="corerulebook.feats.html#point-blank shot (combat)"><span class="std std-ref">Point-Blank Shot</span></a>, <a class="reference internal" href="corerulebook.feats.html#power attack (combat)"><span class="std std-ref">Power Attack</span></a>, Precise Shot, <a class="reference internal" href="corerulebook.feats.html#quick draw (combat)"><span class="std std-ref">Quick Draw</span></a>, Ride-By Attack, <a class="reference internal" href="bestiary.monsterfeats.html#bestiary-monsterfeats-snatch"><span class="std std-ref">Snatch</span></a> Arrows, Spirited Charge, Stunning Fist</p>
+<p><strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a> +15 (+51 when jumping), <a class="reference internal" href="corerulebook.skills.bluff.html#corerulebook-skills-bluff-bluff"><span class="std std-ref">Bluff</span></a> +11, <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> +12, <a class="reference internal" href="corerulebook.skills.diplomacy.html#corerulebook-skills-diplomacy-diplomacy"><span class="std std-ref">Diplomacy</span></a> +5, <a class="reference internal" href="corerulebook.skills.disguise.html#corerulebook-skills-disguise-disguise"><span class="std std-ref">Disguise</span></a> +3, <a class="reference internal" href="corerulebook.skills.handleanimal.html#corerulebook-skills-handleanimal-handle-animal"><span class="std std-ref">Handle Animal</span></a> +5, <a class="reference internal" href="corerulebook.skills.intimidate.html#corerulebook-skills-intimidate-intimidate"><span class="std std-ref">Intimidate</span></a> +12, <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (arcana, geography) +1, <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (local) +5, Perception +21, <a class="reference internal" href="corerulebook.skills.ride.html#corerulebook-skills-ride-ride"><span class="std std-ref">Ride</span></a> +15, <a class="reference internal" href="corerulebook.skills.sensemotive.html#corerulebook-skills-sensemotive-sense-motive"><span class="std std-ref">Sense Motive</span></a> +13, <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> +17, <a class="reference internal" href="corerulebook.skills.survival.html#corerulebook-skills-survival-survival"><span class="std std-ref">Survival</span></a> +8, <a class="reference internal" href="corerulebook.skills.swim.html#corerulebook-skills-swim-swim"><span class="std std-ref">Swim</span></a> +9</p>
+<p><strong>Languages</strong> Common</p>
+<p><strong>SQ</strong> abundant step, diamond body, diamond soul, fast movement, high jump, <em>ki</em> pool (11 points, adamantine, lawful, magic), maneuver training, purity of body, slow fall 80 ft., wholeness of body</p>
+<p><strong>Combat Gear</strong>potion of <a class="reference internal" href="corerulebook.spells.comprehendlanguages.html#corerulebook-spells-comprehendlanguages-comprehend-languages"><span class="std std-ref">comprehend languages</span></a>, potions of <a class="reference internal" href="corerulebook.spells.curelightwounds.html#corerulebook-spells-curelightwounds-cure-light-wounds"><span class="std std-ref">cure light wounds</span></a> (2), potion of <a class="reference internal" href="corerulebook.spells.curemoderatewounds.html#corerulebook-spells-curemoderatewounds-cure-moderate-wounds"><span class="std std-ref">cure moderate wounds</span></a>, potions of <a class="reference internal" href="corerulebook.spells.glibness.html#corerulebook-spells-glibness-glibness"><span class="std std-ref">glibness</span></a> (2), potion of <a class="reference internal" href="corerulebook.spells.invisibility.html#corerulebook-spells-invisibility-invisibility"><span class="std std-ref">invisibility</span></a>, drow poison (2), giant wasp poison (2), medium spider venom (3); <strong>Other Gear</strong><em>+1 spear,</em> blowgun with 20 blowgun darts, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-amulet-of-mighty-fists"><span class="std std-ref">amulet of mighty fists</span></a> +1, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-bag-of-holding"><span class="std std-ref">bag of holding</span></a> (type I), <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-belt-of-giant-strength"><span class="std std-ref">belt of giant strength</span></a> +2, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-boots-of-elvenkind"><span class="std std-ref">boots of elvenkind</span></a>, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-bracers-of-armor"><span class="std std-ref">bracers of armor</span></a> +4, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-cloak-of-resistance"><span class="std std-ref">cloak of resistance</span></a> +3, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-eyes-of-the-eagle"><span class="std std-ref">eyes of the eagle</span></a>, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-hat-of-disguise"><span class="std std-ref">hat of disguise</span></a>, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-headband-of-inspired-wisdom"><span class="std std-ref">headband of inspired wisdom</span></a> +2, <a class="reference internal" href="corerulebook.magicitems.rings.html#corerulebook-magicitems-rings-ring-of-protection"><span class="std std-ref">ring of protection</span></a> +2, light horse (combat trained), 15 gp</p>
+<p>These warriors are dangerous on or off their mounts.</p>
+</div>
+<div class="section" id="asim-the-crimson-bandit">
+<span id="npccodex-core-monk-asim-the-crimson-bandit"></span><h2><a class="toc-backref" href="#id166">Asim the Crimson Bandit</a><a class="headerlink" href="#asim-the-crimson-bandit" title="Permalink to this headline">¶</a></h2>
+<p>Asim’s family had a long tradition of robbing travelers, but he was determined to end that life, seeking out a monastery to remake himself. His riches went to the temple to fund good works, and he gave his expensive clothes to the poor. Yet when territorial changes found the monastery’s lands full of invaders, he found himself leading the resistance. Often this war requires robbing the supply trains of his enemies, and what Asim steals he splits between the poor and the war effort.</p>
+<p><strong>Combat Encounters:</strong> Asim is rarely without several fellow monks. He is always wary, and would rather question an incapacitated foe than fall for an enemy’s trap.</p>
+<p><strong>Roleplaying Suggestions:</strong> More than anything, Asim wants to return to the peaceful life of an ascetic.</p>
+</div>
+<div class="section" id="warren-chief">
+<span id="npccodex-core-monk-warren-chief"></span><h2><a class="toc-backref" href="#id167">Warren Chief</a><a class="headerlink" href="#warren-chief" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 16</strong></p>
+<p><strong>XP</strong> 76,800</p>
+<p><strong>Gnome monk</strong> 17</p>
+<p>LN Small humanoid (gnome)</p>
+<p><strong>Init</strong> +2; <strong>Senses</strong> Perception +23</p>
+</div>
+<div class="section" id="id62">
+<h2><a class="toc-backref" href="#id168">Defense</a><a class="headerlink" href="#id62" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 30, touch 24, flat-footed 27 (+4 armor, +2 deflection, +2 Dex, +1 dodge, +4 monk, +2 natural, +1 size, +4 Wis)</p>
+<p><strong>hp</strong> 104 (17d8+24)</p>
+<p><strong>Fort</strong> +13, <strong>Ref</strong> +14, <strong>Will</strong> +16; +2 vs. enchantments</p>
+<p><strong>Defensive Abilities</strong> improved evasion; <strong>Immune</strong> disease, fire (60 points), poison; <strong>SR</strong> 27</p>
+</div>
+<div class="section" id="id63">
+<h2><a class="toc-backref" href="#id169">Offense</a><a class="headerlink" href="#id63" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 70 ft.</p>
+<p><strong>Melee</strong><em>+1 unarmed strike</em>+18/+13/+8 (2d6+4) or +1 <a class="reference internal" href="corerulebook.magicitems.weapons.html#corerulebook-magicitems-weapons-weapons-ki-focus"><span class="std std-ref">ki focus</span></a> kama +17/+12/+7 (1d4+4) or <em>+1 unarmed strike</em>flurry of blows +20/+20/+15/+15/+10/+10/+5 (2d6+4)</p>
+<p><strong>Ranged</strong> mwk shuriken +16/+11/+6 (1d1+3) or mwk shuriken flurry of blows +16/+16/+11/+11/+6/+6/+1 (1d1+3)</p>
+<p><strong>Special Attacks</strong> +1 on attack rolls against goblinoid and reptilian humanoids, flurry of blows, quivering palm (1/day, DC 22), stunning fist (17/day, DC 22)</p>
+</div>
+<div class="section" id="id64">
+<h2><a class="toc-backref" href="#id170">Tactics</a><a class="headerlink" href="#id64" title="Permalink to this headline">¶</a></h2>
+<p><strong>Before Combat</strong> The monk drinks his potions of <a class="reference internal" href="corerulebook.spells.barkskin.html#corerulebook-spells-barkskin-barkskin"><span class="std std-ref">barkskin</span></a> and <a class="reference internal" href="corerulebook.spells.protectionfromenergy.html#corerulebook-spells-protectionfromenergy-protection-from-energy"><span class="std std-ref">protection from energy</span></a> (fire) if he has had time to study his foes’ weaknesses. When fighting in cramped or narrow areas, he instead drinks his potion of <a class="reference internal" href="corerulebook.spells.invisibility.html#corerulebook-spells-invisibility-invisibility"><span class="std std-ref">invisibility</span></a> and coats an area of the floor with his <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-salve-of-slipperiness"><span class="std std-ref">salve of slipperiness</span></a>. He then waits for foes to enter the greased area before attacking.</p>
+<p><strong>During Combat</strong> The monk uses his kama in conjunction with Spring Attack and Improved Trip to knock foes prone, potentially using the kama’s <a class="reference internal" href="corerulebook.magicitems.weapons.html#corerulebook-magicitems-weapons-weapons-ki-focus"><span class="std std-ref">ki focus</span></a> special ability to channel his Stunning Fist. If he has successfully tripped foes with his <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-salve-of-slipperiness"><span class="std std-ref">salve of slipperiness</span></a>, he activates his <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-slippers-of-spider-climbing"><span class="std std-ref">slippers of spider climbing</span></a> so he doesn’t have to cross the slippery floor, and uses flurry of blows with his shuriken. If outnumbered, he uses his <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-elemental-gem"><span class="std std-ref">elemental gem</span></a> and flanks with the earth elemental.</p>
+<p><strong>Base Statistics</strong>Without <a class="reference internal" href="corerulebook.spells.barkskin.html#corerulebook-spells-barkskin-barkskin"><span class="std std-ref">barkskin</span></a> and <a class="reference internal" href="corerulebook.spells.protectionfromenergy.html#corerulebook-spells-protectionfromenergy-protection-from-energy"><span class="std std-ref">protection from energy</span></a>, the monk’s statistics are <strong>Immune</strong> disease, poison; <strong>AC</strong> 28, touch 24, flat-footed 25.</p>
+</div>
+<div class="section" id="id65">
+<h2><a class="toc-backref" href="#id171">Statistics</a><a class="headerlink" href="#id65" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 17, <strong>Dex</strong> 15, <strong>Con</strong> 12, <strong>Int</strong> 12, <strong>Wis</strong> 18, <strong>Cha</strong> 10</p>
+<p><strong>Base Atk</strong> +12; <strong>CMB</strong> +19 (+21 trip); <strong>CMD</strong> 37 (39 vs. trip)</p>
+<p><strong>Feats</strong> <a class="reference internal" href="corerulebook.feats.html#corerulebook-feats-acrobatic"><span class="std std-ref">Acrobatic</span></a> Steps, <a class="reference internal" href="corerulebook.feats.html#blind-fight (combat)"><span class="std std-ref">Blind-Fight</span></a>, <a class="reference internal" href="corerulebook.feats.html#combat reflexes (combat)"><span class="std std-ref">Combat Reflexes</span></a>, <a class="reference internal" href="corerulebook.feats.html#deadly aim (combat)"><span class="std std-ref">Deadly Aim</span></a>, <a class="reference internal" href="corerulebook.feats.html#dodge (combat)"><span class="std std-ref">Dodge</span></a>, Improved Trip, <a class="reference internal" href="corerulebook.feats.html#improved unarmed strike (combat)"><span class="std std-ref">Improved Unarmed Strike</span></a>, Mobility, <a class="reference internal" href="corerulebook.feats.html#corerulebook-feats-nimble-moves"><span class="std std-ref">Nimble Moves</span></a>, <a class="reference internal" href="corerulebook.feats.html#point-blank shot (combat)"><span class="std std-ref">Point-Blank Shot</span></a>, <a class="reference internal" href="corerulebook.feats.html#power attack (combat)"><span class="std std-ref">Power Attack</span></a>, Precise Shot, Scorpion Style, Spring Attack, Stunning Fist, <a class="reference internal" href="corerulebook.feats.html#weapon focus (combat)"><span class="std std-ref">Weapon Focus</span></a> (unarmed strike)</p>
+<p><strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a> +20 (+53 when jumping), <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> +16, <a class="reference internal" href="corerulebook.skills.craft.html#corerulebook-skills-craft-craft"><span class="std std-ref">Craft</span></a> (pottery) +8, <a class="reference internal" href="corerulebook.skills.diplomacy.html#corerulebook-skills-diplomacy-diplomacy"><span class="std std-ref">Diplomacy</span></a> +4, <a class="reference internal" href="corerulebook.skills.disabledevice.html#corerulebook-skills-disabledevice-disable-device"><span class="std std-ref">Disable Device</span></a> +7, <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (dungeoneering, engineering) +6, <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (history) +7, Perception +23, <a class="reference internal" href="corerulebook.skills.sensemotive.html#corerulebook-skills-sensemotive-sense-motive"><span class="std std-ref">Sense Motive</span></a> +15, <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> +24, <a class="reference internal" href="corerulebook.skills.survival.html#corerulebook-skills-survival-survival"><span class="std std-ref">Survival</span></a> +8, <a class="reference internal" href="corerulebook.skills.swim.html#corerulebook-skills-swim-swim"><span class="std std-ref">Swim</span></a> +7</p>
+<p><strong>Languages</strong> Common, Dwarven, Gnome, Sylvan; tongue of the sun and moon</p>
+<p><strong>SQ</strong> abundant step, diamond body, diamond soul, fast movement, high jump, <em>ki</em> pool (12 points, adamantine, lawful, magic), maneuver training, purity of body, slow fall 80 ft., timeless body, wholeness of body</p>
+<p><strong>Combat Gear</strong><a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-elemental-gem"><span class="std std-ref">elemental gem</span></a> (earth), potion of <a class="reference internal" href="corerulebook.spells.barkskin.html#corerulebook-spells-barkskin-barkskin"><span class="std std-ref">barkskin</span></a>, potion of <a class="reference internal" href="corerulebook.spells.curemoderatewounds.html#corerulebook-spells-curemoderatewounds-cure-moderate-wounds"><span class="std std-ref">cure moderate wounds</span></a>, potion of <a class="reference internal" href="corerulebook.spells.cureseriouswounds.html#corerulebook-spells-cureseriouswounds-cure-serious-wounds"><span class="std std-ref">cure serious wounds</span></a>, potion of <a class="reference internal" href="corerulebook.spells.invisibility.html#corerulebook-spells-invisibility-invisibility"><span class="std std-ref">invisibility</span></a>, potion of <a class="reference internal" href="corerulebook.spells.protectionfromenergy.html#corerulebook-spells-protectionfromenergy-protection-from-energy"><span class="std std-ref">protection from energy</span></a> (fire), <em>salve of  slipperiness</em>; <strong>Other Gear</strong>+1 <a class="reference internal" href="corerulebook.magicitems.weapons.html#corerulebook-magicitems-weapons-weapons-ki-focus"><span class="std std-ref">ki focus</span></a> kama, masterwork shuriken (40), <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-amulet-of-mighty-fists"><span class="std std-ref">amulet of mighty fists</span></a> +1, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-belt-of-giant-strength"><span class="std std-ref">belt of giant strength</span></a>, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-bracers-of-armor"><span class="std std-ref">bracers of armor</span></a> +4, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-cloak-of-resistance"><span class="std std-ref">cloak of resistance</span></a> +2, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-headband-of-inspired-wisdom"><span class="std std-ref">headband of inspired wisdom</span></a> +2, <a class="reference internal" href="corerulebook.magicitems.rings.html#corerulebook-magicitems-rings-ring-of-protection"><span class="std std-ref">ring of protection</span></a> +2, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-slippers-of-spider-climbing"><span class="std std-ref">slippers of spider climbing</span></a>, 200 gp</p>
+<p>Sometimes adventuring monks return home to serve their communities as chiefs, lawgivers, and protectors. Such towns and villages are thus far more dangerous to assault than one might expect.</p>
+</div>
+<div class="section" id="grove-guardian">
+<span id="npccodex-core-monk-grove-guardian"></span><h2><a class="toc-backref" href="#id172">Grove Guardian</a><a class="headerlink" href="#grove-guardian" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 17</strong></p>
+<p><strong>XP</strong> 102,400</p>
+<p><strong>Half-elf monk</strong> 18</p>
+<p>LN Medium humanoid (elf, human)</p>
+<p><strong>Init</strong> +6; <strong>Senses</strong> low-light vision; Perception +24</p>
+</div>
+<div class="section" id="id66">
+<h2><a class="toc-backref" href="#id173">Defense</a><a class="headerlink" href="#id66" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 31, touch 27, flat-footed 24 (+4 armor, +1 deflection, +6 Dex, +1 dodge, +4 monk, +5 Wis)</p>
+<p><strong>hp</strong> 148 (18d8+64)</p>
+<p><strong>Fort</strong> +16, <strong>Ref</strong> +19, <strong>Will</strong> +18; +4 vs. enchantments</p>
+<p><strong>Defensive Abilities</strong> improved evasion; <strong>Immune</strong> disease, poison; <strong>SR</strong> 28</p>
+</div>
+<div class="section" id="id67">
+<h2><a class="toc-backref" href="#id174">Offense</a><a class="headerlink" href="#id67" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 90 ft.</p>
+<p><strong>Melee</strong><em>+2 unarmed strike</em> +21/+16/+11 (2d8+4) or mwk cold iron dagger +20/+15/+10 (1d4+2/19â20) or <em>+2 unarmed strike</em>flurry of blows +24/+24/+19/+19/+14/+14/+9 (2d8+4)</p>
+<p><strong>Ranged</strong> mwk cold iron dagger +20/+15/+10 (1d4+2/19â20)</p>
+<p><strong>Special Attacks</strong> flurry of blows, quivering palm (1/day, DC 24), stunning fist (18/day, DC 24)</p>
+</div>
+<div class="section" id="id68">
+<h2><a class="toc-backref" href="#id175">Tactics</a><a class="headerlink" href="#id68" title="Permalink to this headline">¶</a></h2>
+<p><strong>Before Combat</strong> The monk attempts to get close to an opponent through <a class="reference internal" href="corerulebook.skills.bluff.html#corerulebook-skills-bluff-bluff"><span class="std std-ref">Bluff</span></a> or <a class="reference internal" href="corerulebook.skills.diplomacy.html#corerulebook-skills-diplomacy-diplomacy"><span class="std std-ref">Diplomacy</span></a>, then drinks her potions of <a class="reference internal" href="corerulebook.spells.bearsendurance.html#bear's endurance"><span class="std std-ref">bear’s endurance</span></a> and <a class="reference internal" href="corerulebook.spells.bullsstrength.html#bull's strength"><span class="std std-ref">bull’s strength</span></a>.</p>
+<p><strong>During Combat</strong> Against a single foe, the monk opens with Stunning Fist augmented with Improved <a class="reference internal" href="corerulebook.feats.html#vital strike (combat)"><span class="std std-ref">Vital Strike</span></a>, then tries to grapple the stunned foe. Against multiple opponents, she uses flurry of blows to attempt trip and disarm maneuvers, making as many foes prone or weaponless as possible, then strikes when those opponents provoke attacks of opportunity. Against foes too large to grapple or immune to stunning, she uses her <em>ki</em> pool to boost her movement, then Spring Attack with Improved <a class="reference internal" href="corerulebook.feats.html#vital strike (combat)"><span class="std std-ref">Vital Strike</span></a> to make hit and run attacks.</p>
+<p><strong>Base Statistics</strong>Without <a class="reference internal" href="corerulebook.spells.bearsendurance.html#bear's endurance"><span class="std std-ref">bear’s endurance</span></a> and <a class="reference internal" href="corerulebook.spells.bullsstrength.html#bull's strength"><span class="std std-ref">bull’s strength</span></a>, the monk’s statistics are <strong>hp</strong> 112; <strong>Fort</strong> +14; <strong>Melee</strong><em>+2 unarmed strike</em> +21/+16/+11 (2d8+2) or mwk cold iron dagger +20/+15/+10 (1d4/19â20) or flurry of blows (<em>+2 unarmed strike</em>) +22/+22/+17/+17/+12/+12/+7 (2d8+2); <strong>Ranged</strong> mwk cold iron dagger +20/+15/+10 (1d4/19â20); <strong>Str</strong> 10, <strong>Con</strong> 12; <strong>CMD</strong> 45 (47 vs. trip); <strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> +4, <a class="reference internal" href="corerulebook.skills.swim.html#corerulebook-skills-swim-swim"><span class="std std-ref">Swim</span></a> +5.</p>
+</div>
+<div class="section" id="id69">
+<h2><a class="toc-backref" href="#id176">Statistics</a><a class="headerlink" href="#id69" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 14, <strong>Dex</strong> 22, <strong>Con</strong> 16, <strong>Int</strong> 13, <strong>Wis</strong> 20, <strong>Cha</strong> 11</p>
+<p><strong>Base Atk</strong> +13; <strong>CMB</strong> +24 (+26 grapple, +28 trip); <strong>CMD</strong> 47 (49 vs. trip)</p>
+<p><strong>Feats</strong> <a class="reference internal" href="corerulebook.feats.html#agile maneuvers (combat)"><span class="std std-ref">Agile Maneuvers</span></a>, <a class="reference internal" href="corerulebook.feats.html#combat expertise (combat)"><span class="std std-ref">Combat Expertise</span></a>, <a class="reference internal" href="corerulebook.feats.html#combat reflexes (combat)"><span class="std std-ref">Combat Reflexes</span></a>, <a class="reference internal" href="corerulebook.feats.html#defensive combat training (combat)"><span class="std std-ref">Defensive Combat Training</span></a>, <a class="reference internal" href="corerulebook.feats.html#dodge (combat)"><span class="std std-ref">Dodge</span></a>, Greater Trip, Improved Bull Rush, Improved Disarm, Improved Grapple, Improved Trip, <a class="reference internal" href="corerulebook.feats.html#improved unarmed strike (combat)"><span class="std std-ref">Improved Unarmed Strike</span></a>, Improved <a class="reference internal" href="corerulebook.feats.html#vital strike (combat)"><span class="std std-ref">Vital Strike</span></a>, <a class="reference internal" href="corerulebook.feats.html#corerulebook-feats-skill-focus"><span class="std std-ref">Skill Focus</span></a> (<a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a>), Spring Attack, <a class="reference internal" href="corerulebook.feats.html#strike back (combat)"><span class="std std-ref">Strike Back</span></a>, Stunning Fist, <a class="reference internal" href="corerulebook.feats.html#vital strike (combat)"><span class="std std-ref">Vital Strike</span></a>, <a class="reference internal" href="corerulebook.feats.html#weapon finesse (combat)"><span class="std std-ref">Weapon Finesse</span></a></p>
+<p><strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a> +33 (+75 when jumping), <a class="reference internal" href="corerulebook.skills.bluff.html#corerulebook-skills-bluff-bluff"><span class="std std-ref">Bluff</span></a> +8, <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> +4, <a class="reference internal" href="corerulebook.skills.diplomacy.html#corerulebook-skills-diplomacy-diplomacy"><span class="std std-ref">Diplomacy</span></a> +8, <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (history) +8, <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (local) +6, <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (religion) +7, Perception +24, <a class="reference internal" href="corerulebook.skills.perform.html#corerulebook-skills-perform-perform"><span class="std std-ref">Perform</span></a> (dance) +6, <a class="reference internal" href="corerulebook.skills.sensemotive.html#corerulebook-skills-sensemotive-sense-motive"><span class="std std-ref">Sense Motive</span></a> +26, <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> +23, <a class="reference internal" href="corerulebook.skills.swim.html#corerulebook-skills-swim-swim"><span class="std std-ref">Swim</span></a> +5</p>
+<p><strong>Languages</strong> Common, Elven, Gnome; tongue of the sun and moon</p>
+<p><strong>SQ</strong> abundant step, diamond body, diamond soul, elf blood, fast movement, high jump, <em>ki</em> pool (14 points, adamantine, lawful, magic), maneuver training, purity of body, slow fall 90 ft., timeless body, wholeness of body</p>
+<p><strong>Combat Gear</strong>potion of <a class="reference internal" href="corerulebook.spells.bearsendurance.html#bear's endurance"><span class="std std-ref">bear’s endurance</span></a>, potion of <a class="reference internal" href="corerulebook.spells.bullsstrength.html#bull's strength"><span class="std std-ref">bull’s strength</span></a>, potions of <a class="reference internal" href="corerulebook.spells.curemoderatewounds.html#corerulebook-spells-curemoderatewounds-cure-moderate-wounds"><span class="std std-ref">cure moderate wounds</span></a> (2), potions of <a class="reference internal" href="corerulebook.spells.entropicshield.html#corerulebook-spells-entropicshield-entropic-shield"><span class="std std-ref">entropic shield</span></a> (2), <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-universal-solvent"><span class="std std-ref">universal solvent</span></a> (2); <strong>Other Gear</strong> masterwork cold iron dagger, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-amulet-of-mighty-fists"><span class="std std-ref">amulet of mighty fists</span></a> +2, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-belt-of-incredible-dexterity"><span class="std std-ref">belt of incredible dexterity</span></a> +6, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-bracers-of-armor"><span class="std std-ref">bracers of armor</span></a> +4, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-cloak-of-resistance"><span class="std std-ref">cloak of resistance</span></a> +2, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-headband-of-inspired-wisdom"><span class="std std-ref">headband of inspired wisdom</span></a> +4, <a class="reference internal" href="corerulebook.magicitems.rings.html#corerulebook-magicitems-rings-ring-of-protection"><span class="std std-ref">ring of protection</span></a> +1, 298 gp</p>
+<p>Devoted to the protection of druidic groves or other sacred places of power, grove guardians do anything necessary to protect what they guard.</p>
+</div>
+<div class="section" id="xexilia-aishinkai">
+<span id="npccodex-core-monk-xexilia-aishinkai"></span><h2><a class="toc-backref" href="#id177">Xexilia Aishinkai</a><a class="headerlink" href="#xexilia-aishinkai" title="Permalink to this headline">¶</a></h2>
+<p>Xexilia Aishinkai, the 834th of that name, guards one of the world trees. Like those who came before her, she left behind her old life when she was called to the tree.</p>
+</div>
+<div class="section" id="sword-savant">
+<span id="npccodex-core-monk-sword-savant"></span><h2><a class="toc-backref" href="#id178">Sword Savant</a><a class="headerlink" href="#sword-savant" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 18</strong></p>
+<p><strong>XP</strong> 153,600</p>
+<p><strong>Elf monk</strong> 19</p>
+<p>LN Medium humanoid (elf)</p>
+<p><strong>Init</strong> +5; <strong>Senses</strong> Perception +19</p>
+</div>
+<div class="section" id="id70">
+<h2><a class="toc-backref" href="#id179">Defense</a><a class="headerlink" href="#id70" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 31, touch 27, flat-footed 25 (+4 armor, +2 deflection, +5 Dex, +1 dodge, +4 monk, +5 Wis)</p>
+<p><strong>hp</strong> 108 (19d8+19)</p>
+<p><strong>Fort</strong> +14, <strong>Ref</strong> +19, <strong>Will</strong> +19; +4 vs. enchantments</p>
+<p><strong>Defensive Abilities</strong> improved evasion; <strong>Immune</strong> disease, poison; <strong>SR</strong> 29</p>
+</div>
+<div class="section" id="id71">
+<h2><a class="toc-backref" href="#id180">Offense</a><a class="headerlink" href="#id71" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 90 ft.</p>
+<p><strong>Melee</strong><em>+3 longsword</em> +23/+18/+13 (1d8+10/17â20/Ã2) or <em>+1 unarmed strike</em> +20/+15/+10 (2d8+6) or <em>+1 unarmed strike</em>flurry of blows +23/+23/+18/+18/+13/+13/+8 (2d8+6)</p>
+<p><strong>Ranged</strong><em>+1 shuriken</em> +20/+15/+10 (1d2+6) or <em>+1 shuriken</em>flurry of blows +23/+23/+18/+18/+13/+13/+8 (1d2+6)</p>
+<p><strong>Special Attacks</strong> flurry of blows, quivering palm (1/day, DC 24), stunning fist (19/day, DC 24)</p>
+</div>
+<div class="section" id="id72">
+<h2><a class="toc-backref" href="#id181">Tactics</a><a class="headerlink" href="#id72" title="Permalink to this headline">¶</a></h2>
+<p><strong>Before Combat</strong> The monk prefers to challenge foes openly. He spends a point from his <em>ki</em> pool to increase his speed.</p>
+<p><strong>During Combat</strong> The monk uses Great Cleave and <a class="reference internal" href="corerulebook.feats.html#lunge (combat)"><span class="std std-ref">Lunge</span></a> in tandem, normally spending a point from his <em>ki</em> pool to offset the Armor Class penalty of these two feats. The monk makes unarmed strikes, attempting to stun or stagger with Stunning Fist and then use Improved Bull Rush to push the enemy away. If overwhelmed, the monk drinks a potion of <a class="reference internal" href="corerulebook.spells.mirrorimage.html#corerulebook-spells-mirrorimage-mirror-image"><span class="std std-ref">mirror image</span></a> to confuse attackers, uses Spring Attack or Great Cleave to attack multiple opponents as a standard action, then moves away quickly. The monk always leaves 2 points in his <em>ki</em>pool so he can use abundant step if he’s severely threatened.</p>
+</div>
+<div class="section" id="id73">
+<h2><a class="toc-backref" href="#id182">Statistics</a><a class="headerlink" href="#id73" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 20, <strong>Dex</strong> 20, <strong>Con</strong> 10, <strong>Int</strong> 12, <strong>Wis</strong> 20, <strong>Cha</strong> 8</p>
+<p><strong>Base Atk</strong> +14; <strong>CMB</strong> +24 (+26 trip); <strong>CMD</strong> 46 (48 vs. trip)</p>
+<p><strong>Feats</strong> Cleave, <a class="reference internal" href="corerulebook.feats.html#combat reflexes (combat)"><span class="std std-ref">Combat Reflexes</span></a>, <a class="reference internal" href="corerulebook.feats.html#critical focus (combat)"><span class="std std-ref">Critical Focus</span></a>, <a class="reference internal" href="corerulebook.feats.html#dodge (combat)"><span class="std std-ref">Dodge</span></a>, Extra <em>Ki</em>, Great Cleave, Improved Bull Rush, <a class="reference internal" href="corerulebook.feats.html#improved critical (combat)"><span class="std std-ref">Improved Critical</span></a> (longsword), Improved Trip, <a class="reference internal" href="corerulebook.feats.html#improved unarmed strike (combat)"><span class="std std-ref">Improved Unarmed Strike</span></a>, <a class="reference internal" href="corerulebook.feats.html#lunge (combat)"><span class="std std-ref">Lunge</span></a>, <a class="reference internal" href="corerulebook.feats.html#martial weapon proficiency (combat)"><span class="std std-ref">Martial Weapon Proficiency</span></a> (longsword), <a class="reference internal" href="corerulebook.feats.html#power attack (combat)"><span class="std std-ref">Power Attack</span></a>, Spring Attack, Stand Still, Stunning Fist, Tiring Critical, <a class="reference internal" href="corerulebook.feats.html#weapon focus (combat)"><span class="std std-ref">Weapon Focus</span></a> (longsword)</p>
+<p><strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a> +27 (+70 when jumping), <a class="reference internal" href="corerulebook.skills.intimidate.html#corerulebook-skills-intimidate-intimidate"><span class="std std-ref">Intimidate</span></a> +12, <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (arcana, nobility) +6, <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (history) +14, <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (religion) +9, <a class="reference internal" href="corerulebook.skills.linguistics.html#corerulebook-skills-linguistics-linguistics"><span class="std std-ref">Linguistics</span></a> +5, Perception +19, <a class="reference internal" href="corerulebook.skills.sensemotive.html#corerulebook-skills-sensemotive-sense-motive"><span class="std std-ref">Sense Motive</span></a> +26, <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> +16</p>
+<p><strong>Languages</strong> Common, Draconic, Dwarven, Elven, Giant, Infernal, Undercommon; tongue of the sun and moon</p>
+<p><strong>SQ</strong> abundant step, diamond body, diamond soul, empty body, fast movement, high jump, <em>ki</em>pool (16 points, adamantine, lawful, magic), maneuver training, purity of body, slow fall 90 ft., timeless body, wholeness of body</p>
+<p><strong>Combat Gear</strong>potions of <a class="reference internal" href="corerulebook.spells.curemoderatewounds.html#corerulebook-spells-curemoderatewounds-cure-moderate-wounds"><span class="std std-ref">cure moderate wounds</span></a> (2), potions of <a class="reference internal" href="corerulebook.spells.cureseriouswounds.html#corerulebook-spells-cureseriouswounds-cure-serious-wounds"><span class="std std-ref">cure serious wounds</span></a> (2), potions of <a class="reference internal" href="corerulebook.spells.mirrorimage.html#corerulebook-spells-mirrorimage-mirror-image"><span class="std std-ref">mirror image</span></a> (2), <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-silversheen"><span class="std std-ref">silversheen</span></a> (2); <strong>Other Gear</strong><em>+3 longsword, +1 shuriken</em>(50), <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-amulet-of-mighty-fists"><span class="std std-ref">amulet of mighty fists</span></a> +1, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-bag-of-holding"><span class="std std-ref">bag of holding</span></a> (type I), <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-belt-of-physical-might"><span class="std std-ref">belt of physical might</span></a> (Str, Dex)<em>+4</em>, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-boots-of-elvenkind"><span class="std std-ref">boots of elvenkind</span></a>, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-bracers-of-armor"><span class="std std-ref">bracers of armor</span></a> +4, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-cloak-of-resistance"><span class="std std-ref">cloak of resistance</span></a> +3, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-headband-of-inspired-wisdom"><span class="std std-ref">headband of inspired wisdom</span></a> +4, <a class="reference internal" href="corerulebook.magicitems.rings.html#corerulebook-magicitems-rings-ring-of-protection"><span class="std std-ref">ring of protection</span></a> +2, 191 gp</p>
+<p>Some elven monks master the art of carnage with one chosen weapon. Sword savants are particularly adept at keeping their foes at a distance until it’s time to land the killing blow.</p>
+</div>
+<div class="section" id="ehtyar-nasta">
+<span id="npccodex-core-monk-ehtyar-nasta"></span><h2><a class="toc-backref" href="#id183">Ehtyar Nasta</a><a class="headerlink" href="#ehtyar-nasta" title="Permalink to this headline">¶</a></h2>
+<p>No one wields a sword the way that Ehtyar Nasta does. His movements are like the wind, his thrusts like fire, and his parries like stone. One of the rare weapon masters of the age, Ehtyar uses his art to protect the world from the horrors that live beyond reality. He is especially wary of the machinations of the creatures of the Shadow Plane, and travels that plane pursuing one conspiracy or another. When not on a mission, he does fighting form demonstrations for the enlightenment and entertainment of the young.</p>
+<p><strong>Combat Encounters:</strong> Ehtyar is at his most tense when chasing creatures of the Shadow Plane. He’s often paranoid of strangers, who he believes his enemies use to get close to him.</p>
+<p><strong>Roleplaying Suggestions:</strong> Ifhe’s in a place of safety, this elf is calm, helpful, and very generous with his time. When stressed, he is unyielding, overly cautious, and curt.</p>
+</div>
+<div class="section" id="ageless-master">
+<span id="npccodex-core-monk-ageless-master"></span><h2><a class="toc-backref" href="#id184">Ageless Master</a><a class="headerlink" href="#ageless-master" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 19</strong></p>
+<p><strong>XP</strong> 204,800</p>
+<p><strong>Human monk</strong> 20</p>
+<p>LN Medium outsider (human)</p>
+<p><strong>Init</strong> +6; <strong>Senses</strong> darkvision 60 ft.; Perception +28</p>
+</div>
+<div class="section" id="id74">
+<h2><a class="toc-backref" href="#id185">Defense</a><a class="headerlink" href="#id74" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 34, touch 27, flat-footed 31 (+5 armor, +2 deflection, +2 Dex, +1 dodge, +5 monk, +2 natural, +7 Wis)</p>
+<p><strong>hp</strong> 153 (20d8+60)</p>
+<p><strong>Fort</strong> +18, <strong>Ref</strong> +18, <strong>Will</strong> +23; +2 vs. enchantments</p>
+<p><strong>Defensive Abilities</strong> improved evasion; <strong>DR</strong> 10/chaotic; <strong>Immune</strong> disease, poison; <strong>SR</strong> 30</p>
+</div>
+<div class="section" id="id75">
+<h2><a class="toc-backref" href="#id186">Offense</a><a class="headerlink" href="#id75" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 90 ft.</p>
+<p><strong>Melee</strong><em>+3 unarmed strike</em> +23/+18/+13 (2d10+7) or mwk alchemical sliver dagger +20/+15/+10 (1d4+4/19â20) or <em>+3 unarmed strike</em>flurry of blows +26/+26/+21/+21/+16/+16/+11 (2d10+7)</p>
+<p><strong>Ranged</strong> mwk shuriken +18/+13/+8 (1d2+4) or mwk shuriken flurry of blows +21/+21/+16/+16/+11/+11/+6 (1d2+4)</p>
+<p><strong>Special Attacks</strong> flurry of blows, quivering palm (1/day, DC 27), stunning fist (20/day, DC 27)</p>
+</div>
+<div class="section" id="id76">
+<h2><a class="toc-backref" href="#id187">Tactics</a><a class="headerlink" href="#id76" title="Permalink to this headline">¶</a></h2>
+<p><strong>Before Combat</strong> The monk drinks his potions of <a class="reference internal" href="corerulebook.spells.barkskin.html#corerulebook-spells-barkskin-barkskin"><span class="std std-ref">barkskin</span></a> and <a class="reference internal" href="corerulebook.spells.bearsendurance.html#bear's endurance"><span class="std std-ref">bear’s endurance</span></a>.</p>
+<p><strong>During Combat</strong> The monk expends a point from his <em>ki</em> pool at the beginning of combat to increase his speed. He then closes with a single opponent to deliver an Improved <a class="reference internal" href="corerulebook.feats.html#vital strike (combat)"><span class="std std-ref">Vital Strike</span></a> combined with Stunning Fist. If successful, he makes a full attack with his flurry of blows in the next round, attempting to finish the hampered opponent. He uses this tactic whenever possible, using flurry of blows or <a class="reference internal" href="corerulebook.feats.html#power attack (combat)"><span class="std std-ref">Power Attack</span></a> only against targets that have already had their AC compromised from being stunned or tripped. Otherwise, he uses his mobility and high <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a> skill to move in and out of melee. When fighting four or more opponents, the monk activates his <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-feather-token"><span class="std std-ref">feather token</span></a> (whip) and targets spellcasters first with Stunning Fist combined with Medusa’s Wrath.</p>
+<p><strong>Base Statistics</strong>Without <a class="reference internal" href="corerulebook.spells.barkskin.html#corerulebook-spells-barkskin-barkskin"><span class="std std-ref">barkskin</span></a> and <a class="reference internal" href="corerulebook.spells.bearsendurance.html#bear's endurance"><span class="std std-ref">bear’s endurance</span></a>, the monk’s statistics are <strong>AC</strong> 32, touch 27, flat-footed 29; <strong>hp</strong> 113; <strong>Fort</strong> +16; <strong>Con</strong> 10.</p>
+</div>
+<div class="section" id="id77">
+<h2><a class="toc-backref" href="#id188">Statistics</a><a class="headerlink" href="#id77" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 18, <strong>Dex</strong> 14, <strong>Con</strong> 14, <strong>Int</strong> 13, <strong>Wis</strong> 24, <strong>Cha</strong> 10</p>
+<p><strong>Base Atk</strong> +15; <strong>CMB</strong> +24 (+26 trip); <strong>CMD</strong> 46 (48 vs. trip)</p>
+<p><strong>Feats</strong> <a class="reference internal" href="corerulebook.feats.html#blind-fight (combat)"><span class="std std-ref">Blind-Fight</span></a>, <a class="reference internal" href="corerulebook.feats.html#combat expertise (combat)"><span class="std std-ref">Combat Expertise</span></a>, <a class="reference internal" href="corerulebook.feats.html#combat reflexes (combat)"><span class="std std-ref">Combat Reflexes</span></a>, Deflect Arrows, <a class="reference internal" href="corerulebook.feats.html#dodge (combat)"><span class="std std-ref">Dodge</span></a>, Gorgon’s Fist, <a class="reference internal" href="corerulebook.feats.html#improved initiative (combat)"><span class="std std-ref">Improved Initiative</span></a>, Improved Trip, <a class="reference internal" href="corerulebook.feats.html#improved unarmed strike (combat)"><span class="std std-ref">Improved Unarmed Strike</span></a>, Improved <a class="reference internal" href="corerulebook.feats.html#vital strike (combat)"><span class="std std-ref">Vital Strike</span></a>, Lightning Stance, Medusa’s Wrath, <a class="reference internal" href="corerulebook.feats.html#power attack (combat)"><span class="std std-ref">Power Attack</span></a>, Scorpion Style, Spring Attack, Stunning Fist, <a class="reference internal" href="corerulebook.feats.html#vital strike (combat)"><span class="std std-ref">Vital Strike</span></a>, <a class="reference internal" href="corerulebook.feats.html#weapon focus (combat)"><span class="std std-ref">Weapon Focus</span></a> (unarmed strike), Wind Stance</p>
+<p><strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a> +20 (+64 when jumping), <a class="reference internal" href="corerulebook.skills.bluff.html#corerulebook-skills-bluff-bluff"><span class="std std-ref">Bluff</span></a> +5, <a class="reference internal" href="corerulebook.skills.craft.html#corerulebook-skills-craft-craft"><span class="std std-ref">Craft</span></a> (origami) +14, <a class="reference internal" href="corerulebook.skills.diplomacy.html#corerulebook-skills-diplomacy-diplomacy"><span class="std std-ref">Diplomacy</span></a> +5, <a class="reference internal" href="corerulebook.skills.heal.html#corerulebook-skills-heal-heal"><span class="std std-ref">Heal</span></a> +19, <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (arcana) +6, <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (history) +14, <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (religion) +9, <a class="reference internal" href="corerulebook.skills.linguistics.html#corerulebook-skills-linguistics-linguistics"><span class="std std-ref">Linguistics</span></a> +3, Perception +28, <a class="reference internal" href="corerulebook.skills.sensemotive.html#corerulebook-skills-sensemotive-sense-motive"><span class="std std-ref">Sense Motive</span></a> +30, <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> +18</p>
+<p><strong>Languages</strong> Common, Draconic, Dwarven, Elven; tongue of the sun and moon</p>
+<p><strong>SQ</strong> abundant step, diamond body, diamond soul, empty body, fast movement, high jump, <em>ki</em> pool (17 points, adamantine, lawful, magic), maneuver training, perfect self, purity of body, slow fall any distance, timeless body, wholeness of body</p>
+<p><strong>Combat Gear</strong><a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-dust-of-appearance"><span class="std std-ref">dust of appearance</span></a>, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-feather-token"><span class="std std-ref">feather token</span></a> (whip), potions of <a class="reference internal" href="corerulebook.spells.barkskin.html#corerulebook-spells-barkskin-barkskin"><span class="std std-ref">barkskin</span></a> (3), potions of <a class="reference internal" href="corerulebook.spells.bearsendurance.html#bear's endurance"><span class="std std-ref">bear’s endurance</span></a> (2), potions of <a class="reference internal" href="corerulebook.spells.curelightwounds.html#corerulebook-spells-curelightwounds-cure-light-wounds"><span class="std std-ref">cure light wounds</span></a> (2), potions of <a class="reference internal" href="corerulebook.spells.curemoderatewounds.html#corerulebook-spells-curemoderatewounds-cure-moderate-wounds"><span class="std std-ref">cure moderate wounds</span></a> (2), potions of <a class="reference internal" href="corerulebook.spells.cureseriouswounds.html#corerulebook-spells-cureseriouswounds-cure-serious-wounds"><span class="std std-ref">cure serious wounds</span></a> (3), potions of <a class="reference internal" href="corerulebook.spells.restoration.html#corerulebook-spells-restoration-restoration-lesser"><span class="std std-ref">lesser restoration</span></a> (2),<em>universal  solvent</em>(2); <strong>Other Gear</strong> masterwork alchemical silver dagger, shuriken (50), <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-amulet-of-mighty-fists"><span class="std std-ref">amulet of mighty fists</span></a> +3, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-bag-of-holding"><span class="std std-ref">bag of holding</span></a> (type I),  <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-belt-of-giant-strength"><span class="std std-ref">belt of giant strength</span></a> +4, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-boots-of-elvenkind"><span class="std std-ref">boots of elvenkind</span></a>, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-bracers-of-armor"><span class="std std-ref">bracers of armor</span></a> +5, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-cloak-of-resistance"><span class="std std-ref">cloak of resistance</span></a> +4, <a class="reference internal" href="corerulebook.magicitems.wondrousitems.html#corerulebook-magicitems-wondrousitems-headband-of-inspired-wisdom"><span class="std std-ref">headband of inspired wisdom</span></a> +6, <a class="reference internal" href="corerulebook.magicitems.rings.html#corerulebook-magicitems-rings-ring-of-protection"><span class="std std-ref">ring of protection</span></a> +2, healer’s kit, 130 gp</p>
+<p>Ageless masters prefer to spread wisdom, but once roused they are dangerous opponents.</p>
+</div>
+<div class="section" id="oyonchol">
+<span id="npccodex-core-monk-oyonchol"></span><h2><a class="toc-backref" href="#id189">Oyonchol</a><a class="headerlink" href="#oyonchol" title="Permalink to this headline">¶</a></h2>
+<p>Master Oyonchol spends most of his time on a high pillar on the side of a trade route in the middle of a desolate steppe. Pilgrims leave offerings at its base, and sometimes young monks camp under the pillar, hoping to gain wisdom. Most are disappointed, and at least one has died of exposure while Master Oyonchol sat silently pondering the changing seasons.</p>
+</div>
+</div>
+
+</body>

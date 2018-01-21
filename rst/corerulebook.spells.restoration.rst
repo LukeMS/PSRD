@@ -1,0 +1,60 @@
+
+.. _`corerulebook.spells.restoration`:
+
+.. contents:: \ 
+
+.. _`corerulebook.spells.restoration#restoration`:
+
+Restoration
+============
+
+\ **School**\  conjuration (healing); \ **Level**\  cleric 4, paladin 4
+
+\ **Casting Time**\  3 rounds
+
+\ **Components**\  V, S, M (diamond dust worth 100 gp or 1,000 gp, see text)
+
+\ **Range**\  touch
+
+\ **Target**\  creature touched
+
+\ **Duration**\  instantaneous
+
+\ **Saving Throw**\  :ref:`Will <corerulebook.combat#will>`\  negates (harmless); :ref:`Spell Resistance <corerulebook.glossary#spell_resistance>`\  yes (harmless)
+
+This spell functions like :ref:`lesser restoration <corerulebook.spells.restoration#restoration_lesser>`\ , except that it also dispels temporary :ref:`negative levels <corerulebook.glossary#energy_drain_and_negative_levels>`\  or one permanent negative level. If this spell is used to dispel a permanent negative level, it has a material component of diamond dust worth 1,000 gp. This spell cannot be used to dispel more than one permanent :ref:`negative level  <corerulebook.glossary#energy_drain_and_negative_levels>`\ possessed by a target in a 1-week period.
+
+\ *Restoration*\  cures all temporary ability damage, and it restores all points permanently drained from a single ability score (your choice if more than one is drained). It also eliminates any fatigue or exhaustion suffered by the target. 
+
+.. _`corerulebook.spells.restoration#restoration_greater`:
+
+Restoration, Greater
+=====================
+
+\ **School**\  conjuration (healing); \ **Level**\  cleric 7
+
+\ **Components**\  V, S, M (diamond dust worth 5,000 gp)
+
+This spell functions like :ref:`lesser restoration <corerulebook.spells.restoration#restoration_lesser>`\ , except that it dispels all permanent and temporary :ref:`negative levels <corerulebook.glossary#energy_drain_and_negative_levels>`\  afflicting the healed creature. \ *Greater restoration*\  also dispels all magical effects penalizing the creature's abilities, cures all temporary ability damage, and restores all points permanently drained from all ability scores. It also eliminates fatigue and exhaustion, and removes all forms of insanity, confusion, and similar mental effects.
+
+.. _`corerulebook.spells.restoration#restoration_lesser`:
+
+Restoration, Lesser
+====================
+
+\ **School**\  conjuration (healing); \ **Level**\  cleric 2, druid 2, paladin 1
+
+\ **Casting Time**\  3 rounds
+
+\ **Components**\  V, S
+
+\ **Range**\  touch
+
+\ **Target**\  creature touched
+
+\ **Duration**\  instantaneous
+
+\ **Saving Throw**\ :ref:`Will <corerulebook.combat#will>`\  negates (harmless); :ref:`Spell Resistance <corerulebook.glossary#spell_resistance>`\  yes (harmless)
+
+\ *Lesser restoration*\ dispels any magical effects reducing one of the subject's ability scores or cures 1d4 points of temporary ability damage to one of the subject's ability scores. It also eliminates any fatigue suffered by the character, and improves an :ref:`exhausted <corerulebook.glossary#exhausted>`\  condition to :ref:`fatigued <corerulebook.glossary#fatigued>`\ . It does not restore permanent ability drain.
+

@@ -1,0 +1,111 @@
+
+
+
+
+
+<head>
+    <link rel="stylesheet" href="_static/srd.css" type="text/css" />
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/toggle_list.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+
+
+
+<body>
+    <div class="contents topic" id="id1">
+<span id="ultimatecombat-variants-woundsandvigor"></span><p class="topic-title first"></p>
+<ul class="simple">
+<li><a class="reference internal" href="#wounds-and-vigor" id="id2">Wounds and Vigor</a></li>
+<li><a class="reference internal" href="#determining-wound-points-and-vigor-points" id="id3">Determining Wound Points and Vigor Points</a><ul>
+<li><a class="reference internal" href="#wound-points" id="id4">Wound Points</a></li>
+<li><a class="reference internal" href="#vigor-points" id="id5">Vigor Points</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#regaining-wound-points-and-vigor-points" id="id6">Regaining Wound Points and Vigor Points</a></li>
+<li><a class="reference internal" href="#attacks-that-deal-wound-point-damage" id="id7">Attacks that Deal Wound point Damage</a></li>
+<li><a class="reference internal" href="#other-considerations" id="id8">Other Considerations</a></li>
+<li><a class="reference internal" href="#wounds-and-vigor-variant-feats" id="id9">Wounds and Vigor Variant Feats</a><ul>
+<li><a class="reference internal" href="#deathless-initiate-combat" id="id10">Deathless Initiate (Combat)</a></li>
+<li><a class="reference internal" href="#deathless-master-combat" id="id11">Deathless Master (Combat)</a></li>
+<li><a class="reference internal" href="#diehard" id="id12">Diehard</a></li>
+<li><a class="reference internal" href="#toughness" id="id13">Toughness</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="wounds-and-vigor">
+<span id="ultimatecombat-variants-woundsandvigor-wounds-and-vigor"></span><h1><a class="toc-backref" href="#id2">Wounds and Vigor</a><a class="headerlink" href="#wounds-and-vigor" title="Permalink to this headline">¶</a></h1>
+<p>Hit points are an abstraction. When a fighter gains a level, his body does not suddenly become more resistant to damage. A sword’s strike does not suddenly do proportionately less damage. Rather, hit points suggest that the fighter has undergone more training, and while he may have improved his ability to deal with wounds to a small degree, the hit points gained at higher levels reflect less his capacity for physical punishment and more his skill at avoiding hits, his ability to dodge and twist and turn. Each loss of hit points, in this case, suggests that he is becoming progressively less nimble over the course of combat—in other words, that the decreasing hit points are a marker for his <em>overall</em> endurance and condition. It’s not quite as satisfying, however, to roll a critical hit and then tell a player that his opponent ducked out of the way, but that the sword’s slash made the enemy a little less lucky.</p>
+<p>This variant system for tracking wounds and vigor should help to remedy that. As with the other systems in this chapter, this system is entirely optional.</p>
+</div>
+<div class="section" id="determining-wound-points-and-vigor-points">
+<span id="ultimatecombat-variants-woundsandvigor-determining-wound-points-and-vigor-points"></span><h1><a class="toc-backref" href="#id3">Determining Wound Points and Vigor Points</a><a class="headerlink" href="#determining-wound-points-and-vigor-points" title="Permalink to this headline">¶</a></h1>
+<p>Instead of hit points, creatures using this system have a number of wound points and vigor points. These two replacement scores are kept track of separately, and represent different ways a character handles the damage inflicted on him. The following are descriptions of these scores and how they work within the variant system of damage tracking.</p>
+<div class="section" id="wound-points">
+<span id="ultimatecombat-variants-woundsandvigor-wound-points"></span><h2><a class="toc-backref" href="#id4">Wound Points</a><a class="headerlink" href="#wound-points" title="Permalink to this headline">¶</a></h2>
+<p>Typically a creature has a number of wound points equal to twice its Constitution score. It also has a wound threshold equal to its Constitution score.</p>
+<p>Wound points represent the amount of physical punishment a creature can take before it dies. When a creature’s wound points drop to or below its wound threshold, that creature becomes wounded. When a creature is wounded, it gains the staggered condition until it is no longer wounded. Furthermore, when a creature is wounded, if that creature takes any standard or move action on its turn, its remaining wound points are reduced by 1 and it must make a DC 10 Constitution check. If the creature fails that check, it falls unconscious.</p>
+<p>When a creature reaches 0 or fewer wound points, it is dead.</p>
+<p id="ultimatecombat-variants-woundsandvigor-wound-points-and-constitution-damage-drain-and-penalties"><strong>Wound Points and Constitution Damage, Drain, and Penalties</strong>: A creature’s wound points and Constitution score are intrinsically linked. For each point of Constitution damage a creature takes, it loses 2 wound points, but this damage does not affect the creature’s wound threshold. When a creature takes a penalty to its Constitution score or its Constitution is drained, it loses 1 wound point per point of drain or per penalty for the duration of the penalty or drain. A penalty to Constitution or Constitution drain has no effect on the creature’s wound threshold.</p>
+</div>
+<div class="section" id="vigor-points">
+<span id="ultimatecombat-variants-woundsandvigor-vigor-points"></span><h2><a class="toc-backref" href="#id5">Vigor Points</a><a class="headerlink" href="#vigor-points" title="Permalink to this headline">¶</a></h2>
+<p>Vigor represents a creature’s ability to avoid the majority of actual physical damage it might take from an attack. When a creature takes damage, the damage typically reduces its vigor points first. Some special attacks either deal wound point damage directly or deal both vigor and wound point damage (see Critical Hits).</p>
+<p>Creatures with one or more full Hit Dice or levels gain vigor points. With each level gained or each Hit Die a creature has, it gains a number of vigor points based on its Hit Die type. Use the creature’s Hit Dice to generate its vigor points, just like you would hit points, but without adding the creature’s Constitution modifier. A creature gains maximum vigor points on its first Hit Die if it comes from a character class level. Creatures whose first full Hit Die comes from an NPC class or from their race roll their Hit Dice to determine their starting vigor points. A creature with less than one Hit Die has no vigor points; it only has wound points.</p>
+<p>When a creature no longer has any vigor points, any additional damage it takes reduces its wound point total.</p>
+</div>
+</div>
+<div class="section" id="regaining-wound-points-and-vigor-points">
+<span id="ultimatecombat-variants-woundsandvigor-regaining-wound-points-and-vigor-points"></span><h1><a class="toc-backref" href="#id6">Regaining Wound Points and Vigor Points</a><a class="headerlink" href="#regaining-wound-points-and-vigor-points" title="Permalink to this headline">¶</a></h1>
+<p>A creature can regain wound and vigor points in a number of ways, but in general it is easier to regain vigor points.</p>
+<p id="ultimatecombat-variants-woundsandvigor-healing-spells-and-effects"><strong>Healing Spells and Effects</strong>: When casting healing spells or using an ability with a healing effect (such as channeling holy energy on living creatures or the paladin’s lay on hands ability), the creature casting the spell or using the effect must choose whether it wants to heal wound points or vigor points. The creature decides this before casting the spell or using the ability. When that creature decides to heal vigor points, the healing spell or effect acts normally, replenishing a number of vigor points equal to the number of hit points the spell or effect would normally heal. If the creature decides to heal wound points, it heals a number of wound points equal to the number of dice it would normally roll for the healing spell or effect. In the case of effects like the <a class="reference internal" href="corerulebook.spells.heal.html#corerulebook-spells-heal-heal"><span class="std std-ref">heal</span></a> spell, where a spell or effect heals 10 hit points per caster level, the creature heals its caster level in wound points.</p>
+<p>For instance, if a 12th-level cleric uses her channel positive energy power to replenish wound points to living creatures, she would typically heal 6 wound points for all living creatures with her channel energy burst. If she casts the <a class="reference internal" href="corerulebook.spells.heal.html#corerulebook-spells-heal-heal"><span class="std std-ref">heal</span></a> spell, she would restore 12 wound points to the creature touched.</p>
+<p id="ultimatecombat-variants-woundsandvigor-rest"><strong>Rest</strong>: When a creature has a full night’s rest (8 hours of sleep or more), that creature regains all its vigor points and 1 wound point. If there is a significant interruption during a rest, the creature regains neither wound points nor vigor points. If a creature undergoes complete bed rest for an entire day, it regains half its level in wound points and all its vigor points.</p>
+<p id="ultimatecombat-variants-woundsandvigor-restoration-and-similar-effects"><strong>Restoration and Similar Effects</strong>: When a creature regains Constitution points by way of the <a class="reference internal" href="corerulebook.spells.restoration.html#corerulebook-spells-restoration-restoration"><span class="std std-ref">restoration</span></a> spell or a similar effect, that creature regains 2 wound points for every Constitution point regained. Relieving a Constitution penalty or Constitution drain regains any wound points that were lost from that penalty or drain.</p>
+</div>
+<div class="section" id="attacks-that-deal-wound-point-damage">
+<span id="ultimatecombat-variants-woundsandvigor-attacks-that-deal-wound-point-damage"></span><h1><a class="toc-backref" href="#id7">Attacks that Deal Wound point Damage</a><a class="headerlink" href="#attacks-that-deal-wound-point-damage" title="Permalink to this headline">¶</a></h1>
+<p>Some attacks can be used to deal wound points damage directly.</p>
+<p id="ultimatecombat-variants-woundsandvigor-critical-hits"><strong>Critical Hits</strong>: When a creature is subject to a critical hit, the critical hit deals the damage normally, reducing vigor points first, and then reducing wound points when vigor points are gone. It also deals an amount of wound point damage equal to its critical multiplier (for example, 3 wound points for a weapon with a ×3 modifier), on top of any wound point damage the creature might take from the critical hit.</p>
+<p id="ultimatecombat-variants-woundsandvigor-negative-energy-damage"><strong>Negative Energy Damage</strong>: When a creature deals negative energy damage to a creature with a spell or effect, it can choose to deal wound point or vigor point damage (but not both) with the spell or effect. If that creature chooses to deal vigor point damage, the spell or effect deals negative energy damage normally, and that damage reduces vigor points only, even if it deals more damage than the target has vigor points. If the spell or effect deals negative energy damage to wound points directly, it deals an amount of wound point damage equal to the number of dice the creature would roll for that effect; if the effect deals a number of points per caster level (such as the <a class="reference internal" href="corerulebook.spells.harm.html#corerulebook-spells-harm-harm"><span class="std std-ref">harm</span></a> spell), it deals a number of wound points equal to the caster level of the spell.</p>
+</div>
+<div class="section" id="other-considerations">
+<span id="ultimatecombat-variants-woundsandvigor-other-considerations"></span><h1><a class="toc-backref" href="#id8">Other Considerations</a><a class="headerlink" href="#other-considerations" title="Permalink to this headline">¶</a></h1>
+<p>The following are a few other considerations to take into account when using the wounds and vigor system.</p>
+<p id="ultimatecombat-variants-woundsandvigor-temporary-hit-points"><strong>Temporary Hit Points</strong>: When a creature would normally gain temporary hit points, it gains temporary vigor points instead. When that creature takes damage, it loses these temporary vigor points first. If an attack deals damage to wound points only, these temporary vigor points are not lost.</p>
+<p id="ultimatecombat-variants-woundsandvigor-nonlethal-damage"><strong>Nonlethal Damage</strong>: When a creature takes nonlethal damage, it takes that damage in vigor points only, even if the attack deals more damage than the creature has vigor points. If the creature has no vigor points (and no temporary vigor points), each time that creature takes damage from an attack that deals nonlethal damage, it takes either 1 wound point of damage, or a number of wound points in damage equal to the attack’s critical hit modifier if the attack is a critical hit.</p>
+<p id="ultimatecombat-variants-woundsandvigor-spells-or-effects-with-hit-point-triggers"><strong>Spells or Effects with Hit Point Triggers</strong>: When using this system, if a spell or an ability has an effect that occurs when you reduce a creature to 0 or fewer hit points (such as the <a class="reference internal" href="corerulebook.spells.disintegrate.html#corerulebook-spells-disintegrate-disintegrate"><span class="std std-ref">disintegrate</span></a> spell), that effect is instead triggered when a creature is wounded. In the case of the <a class="reference internal" href="corerulebook.spells.harm.html#corerulebook-spells-harm-harm"><span class="std std-ref">harm</span></a> spell or a similar effect where a creature cannot be reduced below 1 hit point by the spell or effect, a creature’s wound points cannot be reduced to or below that creature’s wound threshold.</p>
+</div>
+<div class="section" id="wounds-and-vigor-variant-feats">
+<span id="ultimatecombat-variants-woundsandvigor-wounds-and-vigor-variant-feats"></span><h1><a class="toc-backref" href="#id9">Wounds and Vigor Variant Feats</a><a class="headerlink" href="#wounds-and-vigor-variant-feats" title="Permalink to this headline">¶</a></h1>
+<p>The following feats are either new for the wounds and vigor system or work differently in that system.</p>
+<div class="section" id="deathless-initiate-combat">
+<span id="ultimatecombat-variants-woundsandvigor-deathless-initiate-combat"></span><h2><a class="toc-backref" href="#id10">Deathless Initiate (Combat)</a><a class="headerlink" href="#deathless-initiate-combat" title="Permalink to this headline">¶</a></h2>
+<p>For you, impending death is a call to wrath.</p>
+<p id="ultimatecombat-variants-woundsandvigor-prerequisites"><strong>Prerequisites</strong>: Str 13, Con 13, <a class="reference internal" href="corerulebook.feats.html#corerulebook-feats-diehard"><span class="std std-ref">Diehard</span></a>, <a class="reference internal" href="corerulebook.feats.html#corerulebook-feats-endurance"><span class="std std-ref">Endurance</span></a>, base attack bonus +6, orc or half-orc.</p>
+<p id="ultimatecombat-variants-woundsandvigor-benefit"><strong>Benefit</strong>: You are not staggered when your wound points reach your wound threshold, but you lose 1 wound point if you take any action during your turn. You only take 1 wound point each round when you take actions. Furthermore, you gain a +2 bonus on melee attacks and damage rolls when your wound points are at or below your wound threshold.</p>
+</div>
+<div class="section" id="deathless-master-combat">
+<span id="ultimatecombat-variants-woundsandvigor-deathless-master-combat"></span><h2><a class="toc-backref" href="#id11">Deathless Master (Combat)</a><a class="headerlink" href="#deathless-master-combat" title="Permalink to this headline">¶</a></h2>
+<p>Even if you suffer a grievous wound, you can shrug off the damage and continue your relentless assault.</p>
+<p><strong>Prerequisites</strong>: Str 13, Con 15, <a class="reference internal" href="ultimatecombat.ultimatecombatfeats.html#ultimatecombat-ultimatecombatfeats-deathless-initiate-combat"><span class="std std-ref">Deathless Initiate</span></a>, <a class="reference internal" href="corerulebook.feats.html#corerulebook-feats-diehard"><span class="std std-ref">Diehard</span></a>, <a class="reference internal" href="corerulebook.feats.html#corerulebook-feats-endurance"><span class="std std-ref">Endurance</span></a>, <a class="reference internal" href="advancedplayersguide.advancedfeats.html#advancedplayersguide-advancedfeats-ironhide"><span class="std std-ref">Ironhide</span></a>, base attack bonus +9, orc or half-orc.</p>
+<p><strong>Benefit</strong>: When your wound points reach your wound threshold, you do not take 1 wound point when you take an action.</p>
+</div>
+<div class="section" id="diehard">
+<span id="ultimatecombat-variants-woundsandvigor-diehard"></span><h2><a class="toc-backref" href="#id12">Diehard</a><a class="headerlink" href="#diehard" title="Permalink to this headline">¶</a></h2>
+<p>You keep on going, even when your wound points are lower than your wound threshold.</p>
+<p><strong>Benefit</strong>: When your current wound point total is below your wound threshold, you do not need to succeed at the DC 10 Constitution check to stay conscious.</p>
+</div>
+<div class="section" id="toughness">
+<span id="ultimatecombat-variants-woundsandvigor-toughness"></span><h2><a class="toc-backref" href="#id13">Toughness</a><a class="headerlink" href="#toughness" title="Permalink to this headline">¶</a></h2>
+<p>You have enhanced physical stamina.</p>
+<p><strong>Benefit</strong>: You gain 1 wound point for every level or Hit Die your character has.</p>
+</div>
+</div>
+
+</body>

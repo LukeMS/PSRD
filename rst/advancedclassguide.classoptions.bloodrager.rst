@@ -1,0 +1,212 @@
+
+.. _`advancedclassguide.classoptions.bloodrager`:
+
+.. contents:: \ 
+
+.. _`advancedclassguide.classoptions.bloodrager#bloodrager`:
+
+Bloodrager
+###########
+
+The power within a bloodrager is essential and potent. Yet while the constraints of heredity or circumstance might taint a bloodline in a particular manner, other factors allow a great deal of diversity among bloodragers. Some have learned fighting disciplines that allow arcane energies to seep through the skin during violent contact, while others can summon creatures that benefit from the rage tied to the bloodrager's own blood.
+
+The following are varieties of bloodragers that can manifest regardless of bloodlines.
+
+.. _`advancedclassguide.classoptions.bloodrager#blood_conduit_archetype`: `advancedclassguide.classoptions.bloodrager#blood_conduit_(archetype)`_
+
+.. _`advancedclassguide.classoptions.bloodrager#blood_conduit_(archetype)`:
+
+Blood Conduit (Archetype)
+**************************
+
+Blood conduits learn to channel their arcane might directly through their flesh, without the need for mystical words or gestures.
+
+.. _`advancedclassguide.classoptions.bloodrager#contact_specialist`:
+
+\ **Contact Specialist (Ex)**\ : At 1st level, a blood conduit selects a bonus feat from the following: Improved Bull Rush, Improved Grapple, :ref:`Improved Reposition <advancedplayersguide.advancedfeats#improved_reposition>`\ , Improved Trip, or Improved Unarmed Strike. He does not need to meet the prerequisites to take this feat. He also adds the feats above to his list of bloodline feats. This ability replaces fast movement and alters bloodline feats.
+
+.. _`advancedclassguide.classoptions.bloodrager#spell_conduit`:
+
+\ **Spell Conduit (Su)**\ : At 5th level, as long as a blood conduit is wearing light armor or no armor, he can deliver bloodrager spells with a range of touch through bodily contact. When he succeeds at a combat maneuver check to bull rush, grapple, pin, reposition, or trip an opponent, or makes an unarmed strike against an enemy, he can as a swift action cast a touch spell on the creature, requiring no further touch attack roll. If this spell would usually require a successful touch attack, his successful combat maneuver check or unarmed strike counts as this attack. This ability replaces uncanny dodge and improved uncanny dodge.
+
+.. _`advancedclassguide.classoptions.bloodrager#reflexibe_conduit`:
+
+\ **Reflexive Conduit (Ex)**\ : At 14th level, a blood conduit can discharge his power into foes that attempt bodily contact with him. While wearing light armor or no armor, when the blood conduit is subject to a combat maneuver check made to bull rush, grapple, pin, reposition, or trip him, as an immediate action he can target his attacker with a bloodrager spell that has a range of touch. If the spell would normally require a touch attack, a blood conduit can attempt a combat maneuver check for this attack instead. This ability replaces indomitable will.
+
+.. _`advancedclassguide.classoptions.bloodrager#bloodrider_archetype`: `advancedclassguide.classoptions.bloodrager#bloodrider_(archetype)`_
+
+.. _`advancedclassguide.classoptions.bloodrager#bloodrider_(archetype)`:
+
+Bloodrider (Archetype)
+***********************
+
+In the world's wild lands, a mount is an advantage in both everyday life and the dealing of death. In many barbarian tribes, the true stature of a warrior is determined by his skill and ferocity when fighting astride his mount. A number of bloodragers not only are skilled in the art of mounted combat, but have learned to channel their arcane energies directly into their mounts.
+
+.. _`advancedclassguide.classoptions.bloodrager#fast_rider`:
+
+\ **Fast Rider (Ex)**\ : The bloodrider is adept at pushing his mount to its limit. The speed of any mount that the bloodrager rides increases by 10 feet. This ability replaces fast movement. 
+
+.. _`advancedclassguide.classoptions.bloodrager#feral_mount`:
+
+\ **Feral Mount (Ex)**\ : At 5th level, the bloodrider gains the service of a feral mount. This ability functions as the druid's animal companion, using the bloodrager's level – 4 as his effective druid level. This companion must be one he is capable of riding and suitable as a mount. A Medium bloodrider can select a camel or a horse. A Small bloodrider can select a pony or a wolf, and can also select a boar or a riding dog if he is at least 8th level. Whenever a bloodrider is bloodraging, this feral mount gains a +2 morale bonus to its Strength. This ability replaces uncanny dodge and improved uncanny dodge.
+
+.. _`advancedclassguide.classoptions.bloodrager#blood_bond`:
+
+\ **Blood Bond (Su)**\ : At 9th level, the bloodrider and his feral mount gain a closer bond that allows the bloodrider to augment his mount based on his bloodline. While the bloodrider is bloodraging and on his feral mount, he grants the mount all the immunities and resistances he gains from bloodline powers. Furthermore, whenever the bloodrager is affected by a spell or a spell-like ability with a range of personal while on the feral mount, the feral mount also gains the benefit of that spell. This ability replaces the bloodline feat gained at 9th level.
+
+.. _`advancedclassguide.classoptions.bloodrager#crossblooded_rager_archetype`: `advancedclassguide.classoptions.bloodrager#crossblooded_rager_(archetype)`_
+
+.. _`advancedclassguide.classoptions.bloodrager#crossblooded_rager_(archetype)`:
+
+Crossblooded Rager (Archetype)
+*******************************
+
+While most bloodragers manifest only one bloodline, there are some who, through some quirk of heredity or the conjunction of other powers, manifest two. This combination of two distinct bloodlines can create a versatile and powerful rager who stands out among the horde. 
+
+A crossblooded rager selects two different bloodlines. He gains access to the feats, bonus spells, and some of the powers of both bloodlines he is descended from, but at the cost of reducing mental clarity (see Drawbacks, below). If the crossblooded rager already has a bloodline from another class, one of the chosen bloodlines must be that bloodline.
+
+.. _`advancedclassguide.classoptions.bloodrager#crossblooded_rager_bonus_feats`:
+
+\ **Bonus Feats**\ : A crossblooded rager combines the bonus feat lists from both of his bloodlines and can select his bloodline bonus feats from this combined list.
+
+.. _`advancedclassguide.classoptions.bloodrager#crossblooded_rager_bloodline_spells`:
+
+\ **Bloodline Spells**\ : A crossblooded rager can select his bloodline spells from either of his bloodlines. He can also learn a lower-level bloodline spell he did not choose in place of a higher-level bloodline spell he would normally gain. Lower-level bloodline spells learned in this manner are always the spell level that they would be if the crossblooded rager had learned them with the appropriate bloodline spell.
+
+For example, a 7th-level aberrant/abyssal crossblooded rager has the choice of learning :ref:`enlarge person <corerulebook.spells.enlargeperson#enlarge_person>`\  or :ref:`ray of enfeeblement <corerulebook.spells.rayofenfeeblement#ray_of_enfeeblement>`\  as his bloodline spell. If he selected :ref:`ray of enfeeblement <corerulebook.spells.rayofenfeeblement#ray_of_enfeeblement>`\  as his 7th-level bloodline spell, at 10th level he could use his new bloodline spell to learn :ref:`enlarge person <corerulebook.spells.enlargeperson#enlarge_person>`\  instead of :ref:`bull's strength <corerulebook.spells.bullsstrength#bull_s_strength>`\  or :ref:`see invisibility <corerulebook.spells.seeinvisibility#see_invisibility>`\ , and he would add it to his list of 1st-level spells known (just as if he had learned it as his 7th-level bloodline spell).
+
+.. _`advancedclassguide.classoptions.bloodrager#crossblooded_rager_bloodline_powers`:
+
+\ **Bloodline Powers**\ : At 1st, 4th, 8th, 12th, 16th, and 20th levels, a crossblooded rager gains one of the two new bloodline powers available to him at that level. He can instead select a lower-level bloodline power he did not choose in place of one of these high-level powers.
+
+.. _`advancedclassguide.classoptions.bloodrager#crossblooded_rager_drawbacks`:
+
+\ **Drawbacks**\ : The furious mix of arcane power inside a crossblooded rager forces him to constantly expend mental effort to remain focused on his current situation and needs. This leaves him with less mental resolve available to deal with external threats. A crossblooded rager takes a –2 penalty to all Will saving throws at all times, and does not gain the +2 morale bonus on Will saving throws while bloodraging—though he does gain a +1 morale bonus on Will saving throws when he gains the greater bloodrage class feature, which increases to a +2 morale bonus when he gains the mighty bloodrage class feature.
+
+.. _`advancedclassguide.classoptions.bloodrager#greenrager_archetype`: `advancedclassguide.classoptions.bloodrager#greenrager_(archetype)`_
+
+.. _`advancedclassguide.classoptions.bloodrager#greenrager_(archetype)`:
+
+Greenrager (Archetype)
+***********************
+
+Typically, nature finds its greatest harmony with divine magic, but sometimes a connection with the natural world manifests itself through the arcane current in the veins of the bloodragers called greenragers. These bloodragers funnel their eldritch heritage into abilities that allow them to call powerful allies from nature and empower them with their bloodrage.
+
+.. _`advancedclassguide.classoptions.bloodrager#unfettered_fury`:
+
+\ **Unfettered Fury (Ex)**\ : At 3rd level, a greenrager's fury allows him to move through undergrowth with frightening speed and grace. This functions as the druid's woodland stride class feature, but only while the greenrager is bloodraging. This ability replaces blood sanctuary.
+
+.. _`advancedclassguide.classoptions.bloodrager#summoning_rager`:
+
+\ **Summoning Rager (Sp)**\ : At 6th level, a greenrager's magic unlocks the secrets of summoning allies from nature. He adds :ref:`summon nature's ally i <corerulebook.spells.summonnaturesally#summon_nature_s_ally_i>`\  to his list of 1st-level bloodrager spells known as a bonus spell, as if it were a bonus bloodrager spell. At 7th level, he adds :ref:`summon nature's ally II <corerulebook.spells.summonnaturesally#summon_nature_s_ally_ii>`\  as a bonus 2nd-level bloodrager spell, at 10th level he adds :ref:`summon nature's ally III <corerulebook.spells.summonnaturesally#summon_nature_s_ally_iii>`\  as a bonus 3rd-level bloodrager spell, and at 13th level he adds :ref:`summon nature's ally IV <corerulebook.spells.summonnaturesally#summon_nature_s_ally_iv>`\  as a bonus 4th-level bloodrager spell. This ability replaces the bloodline feat gained at 6th level.
+
+.. _`advancedclassguide.classoptions.bloodrager#furious_summoning`:
+
+\ **Furious Summoning (Su)**\ : At 9th level, creatures summoned by the bloodrager's \ *summon nature's ally*\  spell gain a +4 morale bonus to Strength and Constitution and gain the druid's woodland stride ability. At 11th level, this bonus increases to +6. At 20th level, it increases to +8. This ability replaces the bloodline feat gained at 9th level.
+
+.. _`advancedclassguide.classoptions.bloodrager#metamagic_rager_archetype`: `advancedclassguide.classoptions.bloodrager#metamagic_rager_(archetype)`_
+
+.. _`advancedclassguide.classoptions.bloodrager#metamagic_rager_(archetype)`:
+
+Metamagic Rager (Archetype)
+****************************
+
+While metamagic is difficult for many bloodragers to utilize, a talented few are able to channel their bloodrage in ways that push their spells to impressive ends.
+
+.. _`advancedclassguide.classoptions.bloodrager#meta_rage`:
+
+\ **Meta-Rage (Su)**\ : At 5th level, a metamagic rager can sacrifice additional rounds of bloodrage to apply a metamagic feat he knows to a bloodrager spell. This costs a number of rounds of bloodrage equal to twice what the spell's adjusted level would normally be with the metamagic feat applied (minimum 2 rounds). The metamagic rager does not have to be bloodraging to use this ability. The metamagic effect is applied without increasing the level of the spell slot expended, though the casting time is increased as normal. The metamagic rager can apply only one metamagic feat he knows in this manner with each casting. Additionally, when the metamagic rager takes a bloodline feat, he can choose to take a metamagic feat instead. This ability replaces improved uncanny dodge.
+
+.. _`advancedclassguide.classoptions.bloodrager#primalist_archetype`: `advancedclassguide.classoptions.bloodrager#primalist_(archetype)`_
+
+.. _`advancedclassguide.classoptions.bloodrager#primalist_(archetype)`:
+
+Primalist (Archetype)
+**********************
+
+While bloodline powers come from the very essence of a bloodrager's being and are often strict and immutable, some bloodragers tap into ancient traditions and primitive wisdom to enhance their rages with something more primal. The primalist mixes his bloodline with more traditional rage powers.
+
+.. _`advancedclassguide.classoptions.bloodrager#primal_choices`:
+
+\ **Primal Choices**\ : At 4th level and every 4 levels thereafter, a primalist can choose to take either his bloodline power or two barbarian rage powers. If the primalist chooses rage powers, those rage powers can be used in conjunction with his bloodrage, and his bloodrager level acts as his barbarian level when determining the effect of those rage powers and any prerequisites. Any other prerequisites for a rage power must be met before a primalist can choose it. This ability does not count as the rage power class feature for the purposes of feat prerequisites and other requirements. This ability alters the bloodline class feature.
+
+.. _`advancedclassguide.classoptions.bloodrager#rageshaper_archetype`: `advancedclassguide.classoptions.bloodrager#rageshaper_(archetype)`_
+
+.. _`advancedclassguide.classoptions.bloodrager#rageshaper_(archetype)`:
+
+Rageshaper (Archetype)
+***********************
+
+All bloodragers blend the unpredictable surge of arcane power with the savage fury of battle lust. For most, their rage is a conduit for the eldritch power locked in their heritage, but for a rageshaper, the latent magical energies in his blood bring about physical transformations and facilitate the blending of arcana and aggression into a deadly synthesis that few other barbarians (or even other bloodragers) can match.
+
+.. _`advancedclassguide.classoptions.bloodrager#bestial_aspect`:
+
+\ **Bestial Aspect (Su)**\ : At 4th level, whenever a rageshaper gains a natural attack through the use of a polymorph spell, he can increase the damage done by that attack by one die. If the spell grants multiple natural attacks, the rageshaper must choose one kind of natural attack for the ability to enhance. At 9th level, if the rageshaper's altered form grants him a new mode of movement, that movement's base speed increases by 10 feet. This is an enhancement bonus. If the rageshaper's bloodline powers already grant natural attacks or alternate modes of movement, then the bonuses granted by bestial aspect also apply to these bloodline powers. This ability replaces blood sanctuary.
+
+.. _`advancedclassguide.classoptions.bloodrager#furious_transformation`:
+
+\ **Furious Transformation (Su)**\ : At 5th level, a rageshaper can attempt to bolster any transmutation spell from the polymorph subschool on the bloodrager spell list while bloodraging. The rageshaper must succeed at a concentration check as if casting defensively to modify the spell; otherwise, the spell is wasted. If he succeeds, the spell is treated as if the rageshaper had the Extend Spell metamagic feat. The rageshaper must be the spell's intended target or must cast a spell with a range of personal to gain this effect. If the rageshaper casts a spell that is associated with his own bloodline, such as a rageshaper with the elemental bloodline who casts :ref:`elemental body I <corerulebook.spells.elementalbody#elemental_body_i>`\ , the spell is automatically extended without forcing the concentration check, so long as the rageshaper casts it while in a bloodrage. This ability replaces improved uncanny dodge.
+
+.. _`advancedclassguide.classoptions.bloodrager#spelleater_archetype`: `advancedclassguide.classoptions.bloodrager#spelleater_(archetype)`_
+
+.. _`advancedclassguide.classoptions.bloodrager#spelleater_(archetype)`:
+
+Spelleater (Archetype)
+***********************
+
+Where other bloodragers learn to avoid or shrug off minor damage of all sorts, spelleaters tap into the power of their bloodline in order to heal damage as it comes, and can even cannibalize their own magical energy to heal more damage and continue taking the fight to the enemy.
+
+.. _`advancedclassguide.classoptions.bloodrager#blood_of_life`:
+
+\ **Blood of Life (Su)**\ : A spelleater's blood empowers him to slowly recover from his wounds. At 2nd level, while bloodraging, a spelleater gains fast healing 1 (\ *Bestiary*\  300). At 7th level and every 3 levels thereafter, this increases by 1 (to a maximum of fast healing 6 at 19th level). Additionally, if the spelleater gains an increase to damage reduction from a bloodline, feat, or other ability, he is considered to have an effective damage reduction of 0, and the increase is added to this effective damage reduction. This ability replaces uncanny dodge and damage reduction.
+
+.. _`advancedclassguide.classoptions.bloodrager#spell_eating`:
+
+\ **Spell Eating (Su)**\ : At 5th level, a spelleater can consume spell slots for an extra dose of healing. As a swift action, the spelleater can expend one unused bloodrager spell slot to heal 1d8 points of damage for each level of the spell slot expended. This ability replaces improved uncanny dodge.
+
+.. _`advancedclassguide.classoptions.bloodrager#steelblood_archetype`: `advancedclassguide.classoptions.bloodrager#steelblood_(archetype)`_
+
+.. _`advancedclassguide.classoptions.bloodrager#steelblood_(archetype)`:
+
+Steelblood (Archetype)
+***********************
+
+Most bloodragers prefer light armor, but some learn the secret of using heavy armor. These steelbloods plod around the battlefield inspiring fear and delivering carnage from within a steel shell.
+
+.. _`advancedclassguide.classoptions.bloodrager#steelblood_proficiencies`:
+
+\ **Weapon and Armor Proficiency**\ : A steelblood gains proficiency with heavy armor. A steelblood can cast bloodrager spells while wearing heavy armor without incurring an arcane spell failure chance. This ability alters the bloodrager's armor proficiency.
+
+.. _`advancedclassguide.classoptions.bloodrager#indomitable_stance`:
+
+\ **Indomitable Stance (Ex)**\ : At 1st level, a steelblood gains a +1 bonus on combat maneuver checks, to CMD against overrun combat maneuvers, and on Reflex saving throws against trample attacks. He also gains a +1 bonus to his AC against charge attacks and on attack rolls and damage rolls against charging creatures. This ability replaces fast movement.
+
+.. _`advancedclassguide.classoptions.bloodrager#armored_swiftness`:
+
+\ **Armored Swiftness (Ex)**\ : At 2nd level, a steelblood moves faster in medium and heavy armor. When wearing medium armor or heavy armor, a steelblood can move 5 feet faster than normal for that armor, to a maximum of his unencumbered speed. This ability replaces uncanny dodge.
+
+.. _`advancedclassguide.classoptions.bloodrager#armor_training`:
+
+\ **Armor Training (Ex)**\ : At 5th level, a steelblood learns to be more maneuverable while wearing armor. Whenever he is wearing armor, he reduces its armor check penalty by 1 (to a maximum penalty of 0) and increases the maximum Dexterity bonus allowed by his armor by 1. Every 4 levels thereafter (9th, 13th, and 17th), these benefits improve by 1, to a maximum 4-point reduction of the armor check penalty and a +4 increase of the maximum Dexterity bonus. This ability stacks with the fighter class feature of the same name. This ability replaces improved uncanny dodge.
+
+.. _`advancedclassguide.classoptions.bloodrager#blood_deflection`:
+
+\ **Blood Deflection (Su)**\ : At 7th level, as an immediate action, a steelblood can sacrifice a bloodrager spell slot to gain a deflection bonus to AC equal to the level of the spell slot used. The deflection bonus lasts until the start of his next turn. This ability can be applied after an attack roll is made against the steelblood, allowing the steelblood to convert a hit into a miss if the deflection bonus is high enough. This ability replaces damage reduction.
+
+.. _`advancedclassguide.classoptions.bloodrager#untouchable_rager_archetype`: `advancedclassguide.classoptions.bloodrager#untouchable_rager_(archetype)`_
+
+.. _`advancedclassguide.classoptions.bloodrager#untouchable_rager_(archetype)`:
+
+Untouchable Rager (Archetype)
+******************************
+
+While most bloodragers are known for their inexplicable ability to focus their bloodline into a horrifying mix of martial terror and spellcasting fury, from time to time a bloodrager's bloodline acts differently. Instead of empowering the bloodrager, it shields the bloodrager from magic of all types, often keeping the bloodrager untouched within the midst of magical effects.
+
+.. _`advancedclassguide.classoptions.bloodrager#raging_resistance`:
+
+\ **Raging Resistance (Ex)**\ : At 4th level, instead of gaining spells, a bloodrager becomes resistant to spells. While bloodraging, he gains spell resistance equal to 8 + his bloodrager level. Unlike normal spell resistance, the untouchable rager's spell resistance cannot be voluntarily lowered. As long as the untouchable rager is bloodraging, the spell resistance is persistent and can be lowered only by ending the bloodrage. At 7th, 10th, 13th, and 16th levels (when other bloodragers would gain bloodline spells), an untouchable rager's spell resistance from raging resistance is increased by 1. This ability replaces the spells, blood casting, eschew materials, and bloodline spells class features.
+
+.. _`advancedclassguide.classoptions.bloodrager#resistance_control`:
+
+\ **Resistance Control (Ex)**\ : At 14th level, an untouchable rager gains spell resistance from raging resistance even while not bloodraging. Additionally, as long as the untouchable rager isn't bloodraging, he can lower this spell resistance.
+

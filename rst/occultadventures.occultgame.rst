@@ -1,0 +1,1064 @@
+
+.. _`occultadventures.occultgame`:
+
+.. contents:: \ 
+
+.. _`occultadventures.occultgame#running_an_occult_game`:
+
+Running an Occult Game
+#######################
+
+The word "occult" refers to that which is hidden or occluded, and it encompasses a wide range of strange disciplines known to only a few. Ancient though they may be, the mysteries of the occult remain obscure, protected by hermetic orders or locked within esoteric repositories of knowledge.
+
+In an occult adventure, the characters uncover clues as they search for the meaning behind perplexing events and supernatural phenomena. The tone is usually ominous and laden with secrecy and veiled threats as the characters untangle each portentous thread of occult mystery. Ordinary folk seldom recognize the patterns beneath events; only the truly initiated, undaunted by the risks to mind, body, and soul, dare plumb the depths of the occult in order to protect their world from unseen dangers.
+
+.. _`occultadventures.occultgame#incorporating_the_occult`:
+
+Incorporating the Occult
+*************************
+
+Incorporating occult themes into games where magic is commonplace requires careful consideration. Think of the occult like layers of an onion. By peeling back these layers one at a time, PCs can be at first perplexed by, then increasingly familiar with, the strange rules that govern this parallel world. But once PCs become comfortable with one occult reality, they discover a new deeper, darker layer.
+
+In occult adventures, each new piece of the puzzle opens up more questions than it answers, and the mysteries of the story and plot are carefully nested like so many matryoshka dolls. In such games, haunts do not hesitate to reveal the causes for their spiritual contamination, and ritually marked corpses are far more than atmospheric window dressing. The very locations adventurers investigate may themselves be intrinsically linked by mysterious ley lines to other locations with similarly disturbing histories.
+
+.. _`occultadventures.occultgame#occult_elements`:
+
+Occult Elements
+################
+
+As characters in an occult campaign start to discover the hidden strands that connect seemingly unrelated events, they begin to interact with the bizarre, esoteric trappings of occult stories, including the following elements.
+
+.. _`occultadventures.occultgame#mysteries_within_mysteries`:
+
+Mysteries within Mysteries
+***************************
+
+Standard adventures present a problem, obstacles in the form of monsters and traps, and a resolution. By comparison, occult adventures are subtler. The key to the adventurers' success often lies in investigating the unknown and the inexplicable, or following a trail of clues to its source. Strange phenomena, bizarre murders, and eerie occurrences are regular hooks in occult adventures, and the characters must peel away layer after layer to find the truth.
+
+This is not to say that an occult adventure can't also include heroic battles, dungeon exploration, or swashbuckling. It's a good idea to vary the tone and pacing of the campaign from time to time, and sometimes seemingly ominous portents can turn out to be red herrings, which have their own value in occult adventures.
+
+The occult elements in your story might also fade in and out of a campaign with an altogether different main theme, recurring every few adventures as side treks that at first have little to do with one another—or so it would seem. The further the PCs progress in the campaign story, the more clearly they begin to distinguish the patterns underlying all of their adventures. For example, the PCs might discover that all of the unearthed graves they encountered throughout several adventures were the resting places of an order of scribes who penned a tome foretelling the apocalypse. When it's time to reintroduce the occult storyline, the GM need only present a fresh clue that ties back to earlier adventures to draw the characters once again into the world of the occult.
+
+\ **Piecemeal Mysteries**\ : Mystery adventures can be tricky to write, as the GM cannot always foresee when clues are too obvious or too obscure, and either case may be frustrating for the players. Bringing the occult into the campaign one small piece at a time creates the illusion of unseen forces moving in secret, even if neither the GM nor the players know the nature of the mystery at the beginning of the campaign. As the campaign progresses and more pieces fall into place, the mystery reveals itself and takes a definite shape.
+
+\ **Clues Only for the Initiated**\ : Game Masters often try to conceal vital information in games to preserve mysteries for fateful, well-timed reveals. And all too often, canny PCs find a way to acquire the information early, disrupting the GM's carefully planned adventure and spoiling its momentum through overreliance on a few choice clues. While such reticence may sometimes be necessary to preserve intrigue and guide PCs, occult games dole out information more readily and more frequently, but in a slightly different manner. Because the most significant clues in an occult mystery may be hard to even recognize as clues, such methods can not only more easily screen the key bits of information that do propel the plot forward, but also create a more mysterious atmosphere.
+
+\ **Red Herrings That Aren't**\ : Red herrings should not always be dead ends. Instead, they may serve to set up further adventures for the PCs, leaving them with the uneasy sense that strange events driven by bizarre, eldritch motivations are hidden in the world all around them. For example, while the PCs are on the trail of a murderous demon cult, misinformation might lead them to a secret society involved in unusual initiation rites. While the lead may be a dead end in terms of their original investigation, perhaps the PCs discover the group's seemingly innocuous initiations actually involve dangerous necromancy.
+
+\ **Building PC Involvement**\ : Sometimes the best way to involve the PCs in a campaign is to ask them what they want. At the beginning of your occult campaign, ask each player to come up with a personal mystery for his or her character, such as having witnessed an unusual phenomenon or having experienced an inexplicable event as a teenager. A PC may have brief flashbacks to her childhood of visits by men in blood-red robes and disturbing animal masks, for example. The character's search to discover the meaning of this memory may lead her down dark paths, particularly when she spots a street preacher wearing the tattered remains of one of the robes in a nearby city, and discovers from him that as a child, the PC was a candidate for an apocalyptic cult. Other hooks might include the unknown fate of a friend or relative, or the significance of a city monument's unconventional design. It may center on a certain location, like a place seen in recurring dreams or the ghost-haunted gardens of some overgrown manor. It could have to do with a mysterious object, such as a locket that throbs painfully in the hands of a psychometrist or an ancient tome containing twisting, backwards writing in which a new word is scribbled each day.
+
+Some hooks may play major roles in the campaign, while others turn out to be minor anecdotes. Regardless, an adventure hook based on a character's curiosity, need, or longing is an invaluable tool for building player investment in the story.
+
+.. _`occultadventures.occultgame#unseen_realms`:
+
+Unseen Realms
+**************
+
+When running an occult game, consider replacing some of the NPCs who broker information with spirits, daemons, otherworldly entities, and mortals who traffic in the occult, such as a medium who channels spirits from a ramshackle wooden hut at the edge of a misty bog. Occult adventures emphasize the search for obscure, hidden knowledge beyond the ken of mortal minds. Such information is the province of spirits and lost souls who wander those rarely trod paths.
+
+Some buildings may have mysterious symbols hidden in their architecture, or were designed to attract or channel occult power. For instance, adventurers who disturb the cairn of a powerful sorcerer might soon discover that the occult nature of the structure itself kept his soul in check. And, of course, GMs should design interconnected webs of intrigue that subtly display these patterns, daring PCs to pull the loose threads of reality and unravel all that they know, exposing the terrible secrets that lie beneath.
+
+In a campaign steeped in occult lore and practice, spirits and demons might be the major quest-givers, regular allies, foils, or adversaries, and their machinations pull the PCs in multiple directions. They might all seem virtuous, or may all seem reprehensible, but they all want something, and they are willing to use the PCs as pawns to achieve it. An uncooperative angel may give the characters information only grudgingly, whereas a devil who wants something might be more forthcoming.
+
+.. _`occultadventures.occultgame#the_power_and_price_of_knowledge`:
+
+The Power and Price of Knowledge
+*********************************
+
+The quest for knowledge features prominently in occult adventures. Knowledge and power invariably come at a price, however, even if the cost isn't immediately evident. Calamity strikes when mortals rush blindly in, throwing open the doors to powers that they do not yet comprehend.
+
+As the characters begin to perceive the occult world that surrounds them, consider the dreadful fates and terrible sacrifices that they might face as they immerse themselves ever deeper into the occult. The price of knowledge or power may seem cheap at first—the memory of a PC's first kiss or the smell of a spring rain—but in the end, these snippets of humanity are a terrible price to pay, and the characters' own desires or desperation may prove their undoing.
+
+In the depths of the occult underworld, initiates barter for the true names of demon princes, exchange rare formulae for the creation of artificial life, and broker in corpses that conceal terrible secrets. Such mystical bargains are rarely fair trades of power, and hermetic orders and cults manipulate these exchanges to devalue the knowledge traded away and inflate the value of the knowledge earned.
+
+.. _`occultadventures.occultgame#strange_rules_and_peculiar_patterns`:
+
+Strange Rules and Peculiar Patterns
+************************************
+
+The behavior of occult denizens often falls into unusual patterns. As discussed above, these patterns often manifest in architecture, but they also show up as odd coincidences that have significance for occult investigators, such as corpses discovered in symbolic patterns. Occult creatures themselves are beings of eccentric habits, and PCs may exploit their patterns of behavior to expose or confront them, perhaps discovering the celestial alignments that must happen in order for some diabolical plan to finally come to fruition.
+
+Knowledge of these strange rules and peculiar patterns often holds the key to an antagonist's defeat. In a typical mystery adventure, the GM might keep secret the means of causing a monster's demise. But occult knowledge could give investigating player characters unusual opportunities to learn more about their foes. Perhaps divinations or phrenological readings reveal multiple weaknesses characters could exploit, though not all of them are real, and some may even empower the antagonist. Ultimately, the only way to find out may be to encounter the antagonist directly, but putting the acquired knowledge to the test may be a more dangerous affair than the PCs initially realized.
+
+.. _`occultadventures.occultgame#fates_worse_than_death`:
+
+Fates Worse Than Death
+***********************
+
+When death is final and unknown, it is as mysterious to living beings as it is terrifying. Characters accustomed to communicating with spirits, however, know that death is not the end. In fact, characters skilled in the occult might willingly wander the Ethereal Plane to quest, converse, and mingle among the bodiless spirits that reside there. In these games, characters usually have a pretty good idea of what fate awaits them, and what the final reward—or punishment—will be for their actions in life.
+
+In occult adventures where characters can leave their bodies, travel in dreams, and project their forms onto the Astral Plane, the death of the physical body could come to hold less significance. Therefore, present the characters with fates worse than death. This might amount to a torturous "living" death, such as the eternal enslavement and torture of the soul or a debilitating madness that gradually renders a psychic creature mindless and insane. Since death in fantasy roleplaying games is typically either the end of a character's story or a small inconvenience before resurrection, look for ways to offer an escape from death using occult characters' knowledge of the spirit world—but at significant cost to their bodies, minds, or souls.
+
+.. _`occultadventures.occultgame#esoteric_atmosphere`:
+
+Esoteric Atmosphere
+********************
+
+Setting the scene is important in occult adventures, which rely upon creating an eerie atmosphere of tension, dread, and wonder in the presence of the supernatural. GMs can use props and tools to create a physical atmosphere around their players that draws them in to the emotional realm of the adventure. A room illuminated by flickering candles suggests darkened seance chambers or occult rituals, and a prepared library of sounds and voices brings settings and characters to life. If the characters are occult initiates or psychics, or they consult a fortune-teller or a medium, consider using cards, crystals, talismans, talking boards, and other such items as props in those scenes. Challenge yourself to give the players goose bumps a few times over the course of your campaign.
+
+.. _`occultadventures.occultgame#occult_themes`:
+
+Occult Themes
+##############
+
+The following campaign themes combine the elements of occult adventures in different ways, and are meant to serve as packages to help GMs open the door of the occult in their campaign worlds.
+
+.. _`occultadventures.occultgame#the_occult_underworld`:
+
+The Occult Underworld
+**********************
+
+The Unseen Realms and Strange Rules and Peculiar Patterns elements introduce an occult underworld that operates beneath the veneer of everyday life. Members of the occult underworld masquerade as the ordinary folk who occupy every stratum of society. In adventures that use this theme, an air of paranoia and dread looms as the characters investigate dark mysteries. No one is safe. No one can be trusted.
+
+Not every secret society holds a dark agenda, however, and indeed some secret orders exist to oppose the machinations of evil cults. In time, the characters in an occult adventure might join such an order, or the party itself may come to be recognized as its own faction amongst the occult underworld.
+
+Moving the antagonists' goals forward creates tension and a sense of urgency, and helps to motivate the characters. Even if the characters manage to anticipate the villains' every move, you can heighten the feeling of dark agendas running beneath the surface of your campaign by creating a list of minor, unrelated victories for the secret factions the characters oppose. Perhaps while the characters are distracted stopping a cult from transforming the city gates into a portal to Hell, elsewhere a smaller branch of the cult summons a powerful devil as the first step in another part of the cult leader's overarching plan.
+
+Another way to impress the theme of a ubiquitous occult underworld upon the characters is to hit them close to home. Choose an important NPC dear to one of the characters to be a member of a secret society or a cult that the characters oppose. Consider the scenes in which your NPC has appeared and create an ulterior motive for the character within those scenes that advances the agenda of the secret society or cult to which the NPC belongs. Handled well, this character's motivations will seem clear to the PCs in hindsight, as if you had planned the betrayal from the beginning.
+
+.. _`occultadventures.occultgame#spiritual_warfare`:
+
+Spiritual Warfare
+******************
+
+Occult elements such as Mysteries within Mysteries, The Price and Power of Knowledge, and Fates Worse Than Death can combine to create a powerful overriding campaign theme highlighting the struggle for dominance between the worlds of the living and the dead. The veils between the worlds are worn thin. Haunts, ghosts, and lost souls are commonplace, though they are not the true antagonists; in such campaigns, the real villains are often powerful outsiders with legions of minions who specialize in the harvesting of souls for a profitable black market in the nether realms. Spirits who seek rest are a common occurrence, and PCs are tasked with discovering the means to help the dead move on one way or another, either through completing tasks a soul left incomplete in life, or by laying the spirit to rest permanently through force of might. Stakes are high in such games, and death is never the end.
+
+.. _`occultadventures.occultgame#into_the_great_beyond`:
+
+Into the Great Beyond
+**********************
+
+GMs who explore the Power and Price of Knowledge and Unseen Realms elements will eventually reveal the presence of parallel realities to this Material Plane. Rather than venturing outward to distant lands, your occult adventurers might turn their focus inward to the strange realms of thoughts, dreams, spirits, and the soul.
+
+When planning adventures along this theme, think about ways the characters can probe the realities before their eyes on a deeper level. For instance, as they investigate mysteries, you may want to occasionally provide ways for them to explore the Transitive Planes, and even the Outer Planes, to discover clues.
+
+A mindscape is typically a surreal puzzle environment where the characters accomplish their tasks by navigating the mindscape and deceiving or satisfying the controlling mind, overcoming its defenses, unlocking its doors, and learning the secrets buried deep within.
+
+GMs should be prepared to adjudicate scenes where the characters project themselves into nonphysical realms. Adventures along this theme might find the characters entering the twisted mindscape of an insane or possessed victim, or they might enter the mindscape of an enemy to steal hidden knowledge or implant subconscious suggestions.
+
+.. _`occultadventures.occultgame#fear_and_reverence_of_the_unknown`:
+
+Fear and Reverence of the Unknown
+**********************************
+
+The Mysteries within Mysteries and Unseen Realms elements emphasize the feeling of otherworldly awe that the occult inspires by showing how the everyday world reacts to eerie phenomena. In occult adventures, ordinary people tend to fear unknown circumstances over which they have little control. Rumor and superstition only exacerbate their distress, and a frightened populace can swiftly resort to extreme measures, including holy inquisitions and witch hunts, in order to regain some assurance of security, no matter how short-lived it be. As a result of societal paranoia, the occult might be a forbidden art for the characters, and one that they must keep secret. Adventures might involve finding and communicating with other occult initiates by signals, tokens, or a specialized cant, while the adventurers bravely fight a shadow war on behalf of a world that shuns them.
+
+As another take on this theme, the common crowd could develop a worshipful fascination toward people or entities skilled in the occult arts, consulting them for knowledge of the future or employing their psychic talents to quickly learn what ordinary folk cannot normally see or know. On the other hand, twisted individuals who wield occult power often attract lackeys and slaves willing to serve the dark arts, and the ranks of wicked cults teem with dangerous, unscrupulous predators enraptured by their charismatic cult leaders.
+
+.. _`occultadventures.occultgame#ultimate_occult`:
+
+Ultimate Occult
+****************
+
+GMs who wish to fully immerse PCs in an exclusively occult campaign will likely incorporate most or all of the occult elements, and brew multiple, overlapping themes to propel their campaigns toward darker realms. Without changing any game mechanics, arcane and divine classes can share in a game in which the characters are exceptional beings who dare to use powers beyond mortal ken.
+
+NPCs with supernatural powers should be rare, or should conceal themselves from the world at large. Large and powerful churches may exist, exerting significant economic and political power, but only a few individuals ever perform miracles, and even these persons of extraordinary faith may fall out of favor with church doctrine. Perhaps in such campaigns there are no true gods, or their status as divine entities cannot be proven. It may be that the so-called gods are actually various spirits and other inscrutable forces that occupy the space between dimensions. The Outer Planes and the gods who dwell there may be just a shared manifestation of the collective consciousness, which appears to exist only because people believe that it does.
+
+.. _`occultadventures.occultgame#occult_adventure_seeds`:
+
+Occult Adventure Seeds
+#######################
+
+The following adventure seeds play on the elements and themes integral to occult adventures.
+
+.. _`occultadventures.occultgame#a_brace_of_imps`:
+
+A Brace of Imps
+****************
+
+Rumors of the corpses of strange creatures appearing for sale in the city are confirmed with the display of a brace of dead imps in a local market. Where are they from, and why are they here?
+
+\ **Discovery**\ : The characters overhear the rush of fear and excitement when the corpses of two imps appear for sale in a local bazaar. It is soon revealed that the source of the corpses is a local ragpicker with some knowledge of the occult, who discovered the imps discarded behind an old lodge building of a defunct fraternal society. Soon, another pair is discovered, and more pairs follow on its heels. What could be causing their appearance, and who is killing them two at a time?
+
+\ **Adversary**\ : The imps are actually the messengers of a powerful devil once in league with the defunct secret society. A sorcerer recently took up residence in the old lodge, and the imps began appearing with tempting offerings from their diabolical master. The sorcerer slew the daily emissaries and disposed of their bodies. Their master is angered by the spellcaster's violent response to his daily demands, and soon more powerful forces well out of the sorcerer's league may appear to exact revenge. Can the PCs come to the sorcerer's aid, or are they already too late?
+
+\ **Further Adventures**\ : The PCs may gain a new ally in the form of the sorcerer, or a powerful antagonist if she takes the devil's bargain. Does the ragpicker know more than he is willing to admit? What dark secrets does the lodge hold that the devil may seek for himself?
+
+.. _`occultadventures.occultgame#feast_of_souls`:
+
+Feast of Souls
+***************
+
+With alarming frequency, the rising of the morning sun reveals multiple brutal murders from the night before, and the victims' souls, now separated from their mortal vessels, have failed to answer their bereaved relatives' calls during seances. Someone, or something, is harvesting the souls of the deceased before they can reach their ultimate reward.
+
+\ **Discovery**\ : The PCs encounter two competing seance circles that seek to uncover the murderer and the fate of the victims' souls. But both groups' ambitions are murky, and their combativeness threatens to rip the community apart. The PCs enter this chaotic scene as desperation sets in among the victims' families, who only want the comfort of knowing their relatives' souls have found final rest.
+
+\ **Adversary**\ : The seance circles began with good intentions, but one of them is unwittingly the pawn of a night hag, unknowingly concealing her dread ambitions. The night hag has extorted the local thieves' guild to gain its services by holding its leader hostage with her dream haunting ability. The guild is now murdering innocent victims so that she can bind their souls to her heartstone. She has also extorted a talented spiritualist in service to one seance circle to use his phantom in place of the rival circle's summoned spirits, sabotaging the group closest to discovering the terrible secret behind the murders by spreading disinformation and deceit. The PCs must reveal the truth behind these proceedings by exposing the fraudulent spiritualist or infiltrating the thieves' guild to discover the identity of the true mastermind behind the murders, before they can finally shatter the hag's heartstone and bring rest to the souls of the dead.
+
+\ **Further Adventures**\ : Destroying the hag's heartstone frees the bound souls within, but did the hag have a deeper, more insidious motivation than the mere collection of souls for profit in the evil planes? Perhaps she had captured the spirit of a powerful, corrupt entity that now threatens the city with darker strife after gaining its freedom. The PCs have brought peace to the community for a time, but at what price, and what deadly machinations await?
+
+.. _`occultadventures.occultgame#golem_revenge`: `occultadventures.occultgame#golems_revenge`_
+
+.. _`occultadventures.occultgame#golems_revenge`:
+
+Golem's Revenge
+****************
+
+Years ago, a vicious purge sought to wipe the poor and wretched from their homes in the city's slums, until a mysterious creature came to their salvation. Now, a generation later, the bodies of city authorities are left broken on the slum's streets for all to see.
+
+\ **Discovery**\ : The PCs are called on to investigate the murders and find the corpses brutally smashed and savagely disfigured in ways hardly possible for mortal man. Locals suspect a dimwitted strongman from a traveling freak show, but the true culprit is a deadly clay golem once built for protection.
+
+\ **Adversary**\ : The secret society responsible for the original purge is planning another. They decided it would be truly poetic if the same protector that stopped the previous purge became the spark for the new one. Using the :ref:`awaken construct <occultadventures.spells.awakenconstruct#awaken_construct>`\  \ \* spell, the son of the purge's original architect awakened the old protector, whose creator had since died of old age, and convinced it that he was its father. After sending it out to commit murders of authorities and build anger against the slums, the young aristocrat plans to betray the golem and come out of that betrayal as the hero who stopped the murders, as he leads a second retributive purge of the slums.
+
+\ **Further Adventures**\ : The PCs may defeat the golem, but unless they uncover the true plans of the secret society, they haven't thwarted the new purge. Will the PCs come to the rescue of those who cannot protect themselves? Convincing the golem of the truth might net the PCs a powerful ally, but if they destroyed it, they might need to find the old golem crafter's notes and try to teach themselves the occult rituals he used so they can fashion a new golem, if they are to have any hope of defeating the cult's foul undertaking.
+
+.. _`occultadventures.occultgame#lost_souls`:
+
+Lost Souls
+***********
+
+When a wise and benevolent ruler mysteriously falls unconscious and begins to waste away, turmoil erupts throughout the land as various factions vie for power.
+
+\ **Discovery**\ : The ruler's regent, a skilled spiritualist, desperately seeks the PCs. The PCs must take a dangerous psychic journey to the Ethereal Plane, the Dimension of Dreams, or both, in order to find the monarch's errant mind or soul and bring it back before the body dies and the land is divided by strife. If the PCs perish while on this journey, their bodies suffer the same fate as the ruler.
+
+\ **Adversary**\ : The ruler has no desire to return to the sorrows of life on the Material Plane, and opposes the PCs at every turn. On the Ethereal Plane, the ruler's spirit makes a procession toward Heaven accompanied by the spirits of loyal knights. The procession visits the ethereal versions of three places significant to the ruler in life. If the characters travel to the Dimension of Dreams, these places are idealized memories rather than ethereal haunts.
+
+Regardless of the reality the PCs visit, the ruler resists them. The characters must learn the true reasons for the ruler's sorrow and convince the mind or soul to return to the body. Along the way, they may clash with the ruler's champions as they seek to accomplish their goals.
+
+\ **Further Adventures**\ : If the ruler's coma was result of the dark arts or an attempted assassination, the true culprits may lurk in ambush for the characters as they voyage through these strange realms. And as the characters explore, they find the processions of other rulers heading toward Heaven or Hell. Are these events all somehow connected?
+
+.. _`occultadventures.occultgame#the_menhir`:
+
+The Menhir
+***********
+
+Every generation, the people of a village on a windswept moor venture out to a solitary menhir, where they join hands and say old words in a language that's been passed down from generation to generation. Farther from this place, in a hidden hillside glen, is a smaller circle of stones—one for every generation—with human bones buried below, the remains of offerings.
+
+\ **Discovery**\ : The PCs stop at the village during the course of their adventures. During their stay, the villagers welcome them and throw a feast, declaring one PC to be the "monarch" of the harvest and a villager the PC's symbolic "consort." During the night, the villagers make a clumsy attempt to abduct the honored PC and bring him to the menhir (if they fail to abduct the PC, they snatch a second villager instead). The villagers abandon their homes and gather around the menhir, chanting words in a forgotten language. The chosen monarchs are within the circle, seemingly unharmed. If the PCs don't interfere, the next day the king and queen are simply gone, and the villagers claim ignorance of their whereabouts and seem reluctant to investigate.
+
+\ **Adversary**\ : A psychic ghost or aberrant horror bound to the menhir manifests every generation to feed on the offerings provided by the villagers. When the being feeds, the menhir glows with a soft golden radiance, and the land for miles around becomes rich and fertile for a whole generation. If the PCs stake out the menhir during the night of the sacrifice, they have a chance to fight the creature, and if they rescue the sacrifices, the creature comes after them.
+
+\ **Further Adventures**\ : Creatures of psychic power are attracted to a ley line passing through the menhir. Following the ley line leads to other villages with their own menhirs; those that were denied their sacrifices are now surrounded by dry and desolate land where nothing lives. Ley lines lead from these menhirs as well, on and on throughout the world. Generation after generation, the beings bound to these menhirs feed and grow more powerful. How can the PCs release the common folk from these mysterious horrors?
+
+.. _`occultadventures.occultgame#mind_trap`:
+
+Mind Trap
+**********
+
+The PCs find a remarkable amount of success during their exploits, but all is not as it seems.
+
+\ **Discovery**\ : After concluding a previous adventure, the PCs celebrate a job well done. During their revelry, they meet a woman who is excited for their success and invites them to her villa. She offers comfortable beds, fine foods and drinks, and the run of her abode. She tells them they are welcome to stay as long as they like, if they help her with a simple task.
+
+\ **Adversary**\ : The woman is actually the consciousness of an ancient being imprisoned within an immersive mindscape. It long ago stopped trying to escape its mental prison, and now all it wants is some companionship. The PCs were unknowingly drawn into the consciousness's mindscape at some point during their previous adventure, and are now trapped there with it. The consciousness creates whatever the characters desire, weaving a compelling tapestry of experience at first indistinguishable from the material world. Eventually, the characters figure out that wealth, fame, and fortune are falling into their laps just a little too easily and realize they must find a way out of the mindscape.
+
+\ **Further Adventures**\ : The PCs might decide to destroy the mindscape—perhaps by traveling to the Dimension of Dreams, and possibly even freeing the ancient consciousness in the process. Other trapped creatures might exist inside the mindscape, and freeing them might provide the characters with future contacts or adversaries.
+
+.. _`occultadventures.occultgame#the_order`:
+
+The Order
+**********
+
+Following a series of disasters or a virulent plague, the desperate populace places its faith in a fanatical faction of an otherwise reputable church. With great resources now at their disposal, the zealots promise to undo the curse by appeasing the gods through punishment of evildoers and heretics.
+
+\ **Discovery**\ : "Witch hunters" begin an inquisition and arrest anyone who dabbles in magic or the supernatural, including clerics of other faiths. The PCs enter the scene when the witch hunters attempt to arrest them or their allies, or when family members and close associates are captured by the order.
+
+\ **Adversary**\ : Outwardly, the leader of the order, the Truthseeker, appears to be its most rational and penitent member. In truth, this person is a psychic tyrant who uses his abilities to read minds and expose enemies of the order. In short time, the splinter faction becomes a powerful cult as the Truthseeker trains the witch hunters to read minds and tell the future. The PCs might simply rescue their allies from the order, or they might expose the Truthseeker.
+
+\ **Further Adventures**\ : As the Truthseeker's cult gathers power, how does the original church respond? How many cities and towns has it infiltrated, and how readily does it swell its numbers? Did the cultists cause the tragic events that led to their rise to power? Even if the PCs stop the Truthseeker, is another cult member ready to take up the mantle?
+
+.. _`occultadventures.occultgame#portrait_of_evil`:
+
+Portrait of Evil
+*****************
+
+The PCs are tasked with looking into a series of disappearances in a major city. During their investigation, they accidentally come across evidence that implicates a local noble. While the evidence is conclusive in their eyes, it's inadmissible to the local courts, and they soon find themselves at odds with the accused. The PCs are unaware that their suspect is the owner of a \ *soul portrait*\ .
+
+\ **Discovery**\ : As the PCs delve into the background of the accused, they learn that despite her youthful appearance, she is well into her seventies. Further research reveals that a series of her acquaintances, competitors, and family members disappeared in the years following her thirtieth birthday. Detailed investigation discovers the accused's obsession with a portrait commissioned in her late twenties, a portrait that some visitors describe as a vision of a rare and radiant beauty, and others speak of only in haunted whispers.
+
+\ **Adversary**\ : The accused noble is defended by a legion of mercenaries who are too powerful for the PCs to assault directly. The \ *soul portrait*\  prevents divinations that would reveal her true nature, projecting the image of her innocent younger self. While the PCs are sure she is the cause of the disappearances and other crimes, the noble deflects any blame by means of her sizable wealth and perceived charitable nature.
+
+When the PCs truly become a threat to her, the noble attacks those closest to them using various forms of harassment and torture. The PCs have to contend with a foe empowered by the (mistaken) belief that she can suffer no consequences from her actions. Eventually, unless the PCs find a way to catch the accused in a situation where her portrait can't protect her, they are forced to take the law into their own hands.
+
+\ **Further Adventures**\ : When the accused is defeated, her image moves to the background of the \ *soul portrait*\ , and the PCs are left with the unsavory task of deciding what to do with the artifact. Less scrupulous PCs may decide to take it for themselves, commissioning an artist to add their likenesses to the canvas, having learned of the powers bequeathed by the portrait. PCs with stronger morals might seek to destroy the artifact, but will soon learn that only the owner of a \ *soul portrait*\  can destroy it—and at the high cost of another's life.
+
+.. _`occultadventures.occultgame#occult_locations`:
+
+Occult Locations
+#################
+
+When it comes to occult adventures, locations themselves can be living things, serving as active participants in paranormal stories.
+
+.. _`occultadventures.occultgame#loci_spirits`:
+
+Loci Spirits
+*************
+
+Loci spirits form when excess psychic energy becomes saturated with powerful positive emotional resonances. Loci spirits typically arise in places with connections to previous miracles, benevolent guardian spirits, or good-aligned deities. Loci spirits infuse a specific area; their psychic energy heightens the positive emotions experienced there to create a feeling of peace and protection. A loci spirit also manifests a unique ceremonial power linked specifically to the emotional energy that birthed the spirit. Except in rare circumstances, a given area can house at most one loci spirit.
+
+.. _`occultadventures.occultgame#loci_spirit_rules`:
+
+Loci Spirit Rules
+==================
+
+The emanating feelings of peace and protective warmth make a loci spirit obvious to those within its area. A loci spirit is always LG, NG, or CG in alignment and has the aura of a good outsider for the purposes of :ref:`detect good <corerulebook.spells.detectgood#detect_good>`\  and similar magic.
+
+A loci spirit can infuse an area with a maximum radius of 5 feet × the spirit's CR, but the actual area is usually limited by the size and shape of the area tied to the spirit's origin.
+
+\ **Permanent Effects**\ : A loci spirit generates at least one of the three following permanent effects within the area it inhabits. A loci spirit may possess an additional ongoing permanent effect, and each effect beyond the first increases the loci spirit's CR by 1.
+
+\ *Energized*\ : The DC to resist positive channeled energy within the loci spirit's area gains a +4 sacred bonus, and the DC to resist negative energy is reduced by 4. Spell resistance does not apply to this effect.
+
+\ *Protective*\ : The loci spirit's area is warded by a :ref:`magic circle against evil <corerulebook.spells.magiccircleagainstevil#magic_circle_against_evil>`\  effect.
+
+\ *Sacred*\ : Every undead creature entering the area of a loci spirit takes a –1 penalty on attack rolls, damage rolls, and saving throws.
+
+In addition to the permanent effect, each loci spirit has a ceremonial effect that another creature can activate by performing a specific ceremonial activity. Knowledge of the appropriate ceremony to activate a loci spirit's ceremonial effect is rare and can be a reward in its own right, but the GM can allow a creature to attempt a Knowledge (planes) or Knowledge (religion) check, as appropriate, with a DC equal to 20 + the loci spirit's CR to gain clues about or even fully determine the details of the ceremony.
+
+The ceremony to manifest a loci spirit's ceremonial effect requires the celebrant to perform each of the requisite skill checks detailed in the loci spirit's stat block. When the celebrant successfully completes the ceremony, the loci spirit immediately manifests its effect.
+
+\ **Manifestation Type**\ : Each loci spirit's ceremonial effect has one of the following manifestation types.
+
+\ *Singular*\ : The effect targets or affects only the celebrant.
+
+\ *Coterie*\ : The effect targets all creatures in the loci spirit's area or is potentially useful to creatures other than the celebrant (for instance, creating something that anyone could use would be a coterie manifestation).
+
+\ *Boon*\ : The effect targets all creatures in the loci spirit's area with a boon allowing affected characters to use the effect within the next 24 hours as an immediate action. A creature can benefit from only one boon from a loci spirit at a time.
+
+ After a loci spirit manifests its ceremonial effect, or after a failed ceremony, the spirit can't manifest the effect again for another 24 hours.
+
+.. _`occultadventures.occultgame#corruption`:
+
+Corruption
+===========
+
+Loci spirits can't be damaged conventionally, but are susceptible to corruption if certain actions occur within their areas. Each loci spirit has a number of hit points equal to twice its CR, which it uses to resist corruption. Certain particularly vile acts reduce a loci spirit's hit points and bring it closer to corruption, while certain acts of good can restore hit points and protect the loci spirit from corruption.
+
+.. list-table::
+   :header-rows: 1
+   :class: contrast-reading-table
+   :widths: auto
+
+   * - Act
+     - Effect
+   * - Committing a violent act
+     - Reduces hit points by 1
+   * - Committing murder
+     - Reduces hit points by 1 for every 3 Hit Dice of the victim (minimum 1 hit point)
+   * - Casting :ref:`animate dead <corerulebook.spells.animatedead#animate_dead>`
+     - Reduces hit points by 1 per undead created
+   * - Casting :ref:`create undead <corerulebook.spells.createundead#create_undead>`\  or :ref:`create greater undead <corerulebook.spells.creategreaterundead#create_greater_undead>`
+     - Reduces hit points by 1 per level of spell cast
+   * - Summoning an evil outsider
+     - Reduces hit points by 1 per evil outsider summoned
+   * - Calling an evil outsider
+     - Reduces hit points by 1 per level of spell cast
+   * - Casting \ *desecrate*
+     - Reduces hit points by 2
+   * - Casting \ *unhallow*
+     - Reduces hit points by 4
+   * - Successfully performing
+     - Restores 2 hit points the loci spirit's ceremony
+   * - Casting \ *consecrate*
+     - Restores 2 hit points (maximum once per day)
+   * - Casting \ *hallow*
+     - Restores 4 hit points
+
+If a loci spirit is reduced to 0 hit points, it becomes corrupted; thereafter, it acts as a haunt of the same CR and loses any loci spirit permanent effects. Once a loci spirit has been corrupted, its effects instead manifest as mind-affecting fear effects. These new effects should have a similar power level to that of the ceremonial effect the loci spirit previously manifested. A corrupted loci spirit has the aura of an evil outsider for the purposes of :ref:`detect evil <corerulebook.spells.detectevil#detect_evil>`\  and similar effects. Unlike a haunt, a corrupted loci spirit can't take the tricked by :ref:`hide from undead <corerulebook.spells.hidefromundead#hide_from_undead>`\  weakness, but it can take most other haunt modifiers as long as its CR remains the same. The haunt has the same number of hit points as the loci spirit originally did; these are separate from its loci spirit hit points, which remain at 0 until the loci spirit is purified.
+
+Corrupted loci spirits can be neutralized or destroyed in the same fashion as haunts. While a corrupted loci spirit is inactive because of being neutralized, characters can use effects that restore a loci spirit's hit points to attempt to purify it (see the table in the previous column). For the purpose of purification, increasing the loci spirit's hit points does not restore the haunt's hit points. If a character manages to restore the full hit points of the uncorrupted loci spirit, the character has purged the corruption entirely, and the loci spirit returns to its former benevolence. This could potentially occur over the course of multiple encounters with the corrupted spirit. Until then, the haunt continues to reset.
+
+.. _`occultadventures.occultgame#elements_of_a_loci_spirit`:
+
+Elements of a Loci Spirit
+==========================
+
+Loci spirits are presented in the following format.
+
+\ **Loci Spirit Name**\ : The loci spirit's name is followed by its CR.
+
+\ **XP**\ : This is the amount of XP to award the PCs for surviving the loci spirit's corrupted form, as determined by the spirit's CR. At the GM's discretion, characters who intentionally corrupt a loci spirit in pursuit of their goals may receive this amount of XP for doing so.
+
+\ **Alignment, Permanent Effects, Manifestation Type, and Area**\ : This line gives the loci spirit's alignment, its permanent effects and manifestation type, and the dimensions of the area it infuses (up to 5 feet per caster level).
+
+\ **Caster Level**\ : This is the loci spirit's effective caster level for the purposes of dispelling any ongoing effects with :ref:`dispel magic <corerulebook.spells.dispelmagic#dispel_magic>`\ , and for determining the results of spell effects it creates.
+
+\ **hp**\ : This lists the loci spirit's effective hit points for the purposes of resolving corruption. A loci spirit's number of hit points is equal to twice the spirit's CR.
+
+\ **Weakness**\ : Any weaknesses the loci spirit has, such as being susceptible to corruption or hard to heal, are listed here.
+
+\ **Ceremony**\ : These are the skill checks that must be performed in order for the loci spirit to manifest its ceremonial effect.
+
+\ **Effect**\ : This entry details the ceremonial effect of the loci spirit, and includes a description of how the loci spirit manifests.
+
+\ **Corruption Effect**\ : This entry gives a brief description of what the loci spirit's effects become if it is corrupted.
+
+.. _`occultadventures.occultgame#creating_a_loci_spirit`:
+
+Creating a Loci Spirit
+=======================
+
+To make your own loci spirit like the examples below, follow these steps.
+
+\ **Step 1—Determine Base CR**\ : A loci spirit's base CR is equal to 1 + the level of the spell it duplicates.
+
+\ **Step 2—Determine Actual CR**\ : Select the elements you want the loci spirit to have and add up the adjustments to its CR to arrive at the loci spirit's final CR (see the CR Modifiers for Loci Spirits table).
+
+\ **Step 3—Determine Caster Level**\ : A loci spirit's caster level is equal to its CR.
+
+\ **Step 4—Determine Hit Points**\ : A loci spirit's hit points are equal to twice its CR.
+
+\ **Step 5—Determine Ceremony DC**\ : The ceremony check DC is equal to 20 + the loci spirit's CR.
+
+\ **Step 6—Save DCs**\ : If a loci spirit's ceremonial effect allows a saving throw to resist or negate the effect, the save DC is equal to 10 + the level of the spell + the ability modifier of the minimum ability score needed to cast that level of spell. Normally, the ceremonial effect is harmless and thus applies only if a creature voluntarily wishes to resist or negate the effect.
+
+\ **Step 7—Determine Corruption Effect, Attack, and Save DCs**\ : A corrupted loci spirit manifests a mind-affecting fear effect with the same spell level as its unique effect. A corrupted loci spirit's attack bonus (if needed) is usually equal to its CR.
+
+.. list-table:: CR Modifiers for Loci Spirits
+   :header-rows: 1
+   :class: contrast-reading-table
+   :widths: auto
+
+   * - Feature Type
+     - CR Modifier
+   * - Ceremony requires more than 1 skill check
+     - +1 for each additional skill check
+   * - Permanent effects
+     - +1 for each additional permanent effect beyond the first
+   * - Singular
+     - –1
+   * - Coterie
+     - 0
+   * - Boon
+     - +1
+   * - Hard to heal\ :sup:`1`
+     - –1
+   * - Susceptible to corruption\ :sup:`2`
+     - –1
+
+**Notes:**
+
+* \ :sup:`1`\ Loci spirits that are hard to heal gain only half the normal amount of hit points from effects that restore hit points. \ :sup:`2`\ Loci spirits that are susceptible to corruption lose twice the amount of hit points from corrupting actions.
+
+.. _`occultadventures.occultgame#benevolent_priest`:
+
+Benevolent Priest
+==================
+
+**CR 5** 
+
+XP 1,600
+
+NG protective coterie loci spirit (10-ft.-by-10-ft. room)
+
+\ *Caster Level*\ 5th
+
+\ *hp*\  10; \ *Ceremony*\ Knowledge (religion) DC 25, :ref:`Survival <corerulebook.skills.survival#survival>`\  DC 25
+
+\ *Effect*\  When the celebrant performs the appropriate offering of twigs and berries, the loci spirit manifests as a ghostly, rotund man in clerical garb bearing trays of food, which he offers to the celebrant and its allies, as the :ref:`create food and water <corerulebook.spells.createfoodandwater#create_food_and_water>`\  spell.
+
+\ *Corruption Effect*\ :ref:`create food and water <corerulebook.spells.createfoodandwater#create_food_and_water>`\  becomes \ *contagion*\  (DC 14).
+
+.. _`occultadventures.occultgame#ghostly_warriors`:
+
+Ghostly Warriors
+=================
+
+**CR 5** 
+
+XP 1,600
+
+LG sacred boon loci spirit (5-ft. radius centered on the shrine)
+
+\ *Caster Level*\ 5th
+
+\ *hp*\ 10; \ *Ceremony*\ :ref:`Diplomacy <corerulebook.skills.diplomacy#diplomacy>`\  DC 25, :ref:`Perform <corerulebook.skills.perform#perform>`\  (oratory) DC 25
+
+\ *Effect*\ Invoking the ceremony with pomp and vigor rouses a cadre of ghostly figures in ancient armor that kneel before all creatures in the loci spirit's area of effect and present their weapons, granting a boon of :ref:`align weapon <corerulebook.spells.alignweapon#align_weapon>`\  (each recipient's choice of :ref:`lawful <bestiary.creaturetypes#lawful_subtype>`\  or :ref:`good <bestiary.creaturetypes#good_subtype>`\  only).
+
+\ *Corruption Effect*\ :ref:`align weapon <corerulebook.spells.alignweapon#align_weapon>`\  becomes :ref:`shatter <corerulebook.spells.shatter>`\  (DC 13).
+
+.. _`occultadventures.occultgame#hero_call`: `occultadventures.occultgame#heros_call`_
+
+.. _`occultadventures.occultgame#heros_call`:
+
+Hero's call
+============
+
+**CR 4** 
+
+XP 1,200
+
+CG energized singular loci spirit (15-ft. radius centered on the hero's statue)
+
+\ *Caster Level*\ 4th
+
+\ *hp*\ 8; \ *Ceremony*\ Knowledge (history) DC 24, :ref:`Perform <corerulebook.skills.perform#perform>`\  (oratory) DC 24
+
+\ *Effect*\ The celebrant entreats the brave hero from the ancient past, recalling the hero's great deeds and requesting some of the hero's strength for the celebrant's own quest. If the ceremony is successful, the hero's statue seems to raise its sword in a salute, and the celebrant gains the benefit of a \ *heroism*\  spell.
+
+\ *Corruption Effect*\ \ *Heroism*\  becomes :ref:`scare <corerulebook.spells.scare>`\  (DC 13).
+
+.. _`occultadventures.occultgame#occult_haunt_rules`: `occultadventures.occultgame#new_haunt_rules`_
+
+.. _`occultadventures.occultgame#new_haunt_rules`:
+
+New Haunt Rules
+****************
+
+While haunts can be complex antagonists, they are versatile tools that are well suited to portray the drama and atmosphere of occult games. This section presents new haunt rules and clarifications on previous rules.
+
+.. _`occultadventures.occultgame#holy_water`:
+
+Holy Water
+===========
+
+While haunts are typically damaged only by applied positive energy, holy water is another potential weapon against them. A flask (1 pint) of holy water that successfully hits a haunt as a splash weapon deals 2d4 points of damage to the haunt on a direct hit, and deals 1 point of damage to haunts within 5 feet of the splash radius.
+
+.. _`occultadventures.occultgame#item_bound_and_possessing_haunts`:
+
+Item-Bound and Possessing Haunts
+=================================
+
+Some haunts are tied to special objects or creatures. Such haunts take normal damage from positive energy, and follow the normal reset rules for haunts of their type. :ref:`dispel evil <corerulebook.spells.dispelevil#dispel_evil>`\  can eject a haunting presence if the spell is cast quickly; the caster must succeed at a caster level check with a DC equal to 10 + the haunt's CR + 1 for each month that the creature or object has been possessed.
+
+Bound haunts possess items when created, and gain mobility at the cost of having their tragic fates tied to physical objects that are more easily destroyed. These haunts spontaneously manifest at scenes of great terror, as the psychic residue of tragic events seeps into items tied to the events. Once bound to an item, an item-bound haunt uses all of the normal rules for haunts, with the radius of its effects centered on the haunted object. Some effects may have special triggers based on the item's nature, such as haunted instruments being played or weapons being used. The haunting presence adds 5 to the break DC for its possessed item, and doubles the item's hardness and hit points.
+
+Malevolent spirits may similarly haunt creatures rather than items, following the subjects wherever they go and causing strange occurrences and poltergeist-like activity around the subject in revenge for a perceived trespass or involvement in the tragic events that created the haunt. While they sometimes seem beneficial to their hosts at first, such haunts inevitably seek their hosts' destruction. Individuals possessed by such haunts must always take a standard action to retrieve stored items, unless it would normally take longer. In addition, any item the host drops lands 10 feet away in a random direction. A possessing haunt uses all normal rules for haunts, with the radius of its effects centered on the haunted subject, who takes a –2 penalty on all saving throws against the haunt's effects. Subject to the GM's discretion, haunted creatures may suffer tormenting dreams that cause 1 point of drain each day to an ability score appropriate for the haunt.
+
+.. _`occultadventures.occultgame#chained_haunts`:
+
+Chained Haunts
+===============
+
+Some haunts are intrinsically connected with incorporeal undead entities (most commonly ghosts) and manifest as displays of the associated creatures' fractured psyches. Chained haunts can be destroyed only by bringing final rest to their connected entities. Chained haunts can be used to illustrate and emphasize a ghost's tragic story. For example, a series of chained haunts could be spread across the site of a ruined mansion: while the linked creature—a ghost—dwells in the attic where it was murdered, a downstairs bedroom might manifest a bleeding walls haunt to emphasize the scene of a tragic loss pertinent to the ghost's history; a demanding dead haunt might cause a trespasser to dig up a shallow grave in the garden where the ghost's corpse is buried; and the murder weapon might roam the halls of the mansion, manifesting as a malignant weapon haunt.
+
+.. _`occultadventures.occultgame#seances_and_spirit_communication`:
+
+Seances and Spirit Communication
+=================================
+
+Some PCs may wish to establish communication with haunts that have been neutralized (reduced to 0 hit points) but not yet destroyed. Regardless of the haunts' original powers or CRs, GMs may elect to have neutralized haunts revert to rapping spirits or possessing dead haunts during their reset periods. Likewise, GMs may elect for rejuvenating undead such as ghosts and poltergeists to assume one of these states during rejuvenation periods. While still potentially frightening or even malevolent, these haunts can potentially communicate by using a code (such as one rap for "yes" and two for "no") in response to called out words, numbers, and letters. Those in contact with a demanding dead haunt, on the other hand, typically whisper messages in darkened seance chambers, or scribble writing at the haunt's suggestion. In either case, such spirits are often unreliable, always cryptic, and never able to convey knowledge beyond what they knew in life.
+
+Diplomacy, spells such as :ref:`calm spirit  <occultadventures.spells.calmspirit#calm_spirit>`\  \ \*, and comforting environments such as darkened seance cabinets can all improve a spirit's attitude. Some characters attempting to communicate with haunts carry flat, lettered boards known as talking boards, cone-shaped spirit trumpets, or writing planchettes—small, wheeled boards that write with chalk or charcoal pencils. While these are mundane items with no inherent magic of their own, in the hands of those with properly established rapports, these tools increase the efficiency of messages received from haunts, doubling the rate of communication from two signals (raps, letters, etc.) per round to four signals per round.
+
+.. _`occultadventures.occultgame#clarifying_haunts`:
+
+Clarifying Haunts
+******************
+
+Adjudicating the mind-affecting, fear-based effects of a haunt's primary attack can be problematic for characters outside the haunt's range or those immune to such effects. This can deprive some PCs of the ability to witness the haunt's story elements and thus assist allies plagued by a haunting presence. Fortunately, a haunt's secondary effects are less absolute. A haunt's secondary effect should reflect its primary effect in some manner, in ways all PCs can witness. For example, a spectral vermin haunt should still manifest a visible, ghostly phantom of a scurrying, skeletal rat swarm to those immune to the effect or beyond its range, even though the haunt's primary effect does not affect those PCs. This enables PCs to not only witness the haunt's secondary effect so as to better interpret a haunt's clues, but also to more easily recognize when fellow PCs are afflicted and need assistance.
+
+Haunts created using spells with non-instantaneous durations can also create problems. If the haunts do not have the persistent quality, it is unclear whether these spells continue with their normal durations after the haunt's surprise-round attack. To resolve this matter, consider creating haunts with durations as persistent haunts.
+
+.. list-table:: Additional Haunt Elements
+   :header-rows: 1
+   :class: contrast-reading-table
+   :widths: auto
+
+   * - Type
+     - CR Modifier
+   * - Belligerent (hit points equal to CR × 6 )
+     - +3
+   * - Item-bound (bound to item)
+     - –1 
+   * - Chained (bound to ghost)
+     - –1
+   * - Fast (manifests on initiative rank 20)
+     - +2
+   * - Free-roaming (gains movement speed: fly 10 ft. [good])
+     - +1
+   * - Increased area (double radius to 10 ft. per CR)
+     - +1
+   * - Possessing (bound to creature)
+     - +1
+   * - Spiteful (caster level and save DCs increase by 2)
+     - +1
+   * - Vaporous (AC = 10 + CR and gains incorporeal quality)
+     - +1
+
+.. _`occultadventures.occultgame#new_haunts`:
+
+New Haunts
+###########
+
+The following haunts use many of the new haunt rules and psychic magic effects from this book.
+
+.. _`occultadventures.occultgame#rapping_spirit`: `occultadventures.occultgame#rapping_spirit_(cr_1)`_
+
+.. _`occultadventures.occultgame#rapping_spirit_(cr_1)`:
+
+Rapping Spirit (CR 1)
+**********************
+
+The most common haunts are rapping spirits: unquiet dead with just enough substance to produce disembodied knocking and bumps in the night. Characters can attempt communication with these intelligent spirits by working out codes the spirits can use to convey cryptic messages, or by using tools like spirit planchettes to increase the efficiency of communication with the spirit.
+
+.. _`occultadventures.occultgame#rapping_spirit`:
+
+Rapping Spirit
+===============
+
+**CR 1** 
+
+XP 400
+
+Alignment varies persistent haunt (5-ft. radius)
+
+\ *Caster Level*\  1st
+
+\ *Notice*\  :ref:`Perception <corerulebook.skills.perception#perception>`\  DC 10 (to hear faint knocking on the walls, floor, and furniture)
+
+\ *hp*\  4; \ *Weakness*\  tricked by :ref:`hide from undead <corerulebook.spells.hidefromundead#hide_from_undead>`\ ; \ *Trigger*\  proximity; \ *Reset*\  1 day
+
+\ *Effect*\  A chorus of agitated raps and blows rings out from nearby hard surfaces (limited to those capable of being physically manipulated by :ref:`mage hand <corerulebook.spells.magehand#mage_hand>`\ ) as unquiet spirits convey their unrest to the living. All who hear the supernatural knocks are affected by a :ref:`cause fear <corerulebook.spells.causefear>`\  effect (Will DC 11 negates).
+
+\ *Destruction*\  Depending on its alignment, a rapping spirit typically asks for its mortal remains to be laid to rest or for the PCs to seek revenge for its death. Fulfilling the request dismisses the haunt.
+
+.. _`occultadventures.occultgame#demanding_dead`: `occultadventures.occultgame#demanding_dead_(cr_3)`_
+
+.. _`occultadventures.occultgame#demanding_dead_(cr_3)`:
+
+Demanding Dead (CR 3)
+**********************
+
+Some haunts influence the thoughts and actions of those in the mortal realms to communicate their anger, desires, or goals, which can lead to instances of direct-voice channeling and automatic writing. While the demanding dead are sometimes malevolent, more often there is a method to their requests, which could potentially reveal shocking secrets or the key to putting them to rest forever.
+
+.. _`occultadventures.occultgame#demanding_dead`:
+
+Demanding Dead
+===============
+
+**CR 3** 
+
+XP 800
+
+Alignment varies persistent haunt (15-ft. radius)
+
+\ *Caster Level*\  1st
+
+\ *Notice*\  :ref:`Perception <corerulebook.skills.perception#perception>`\  DC 15 (to hear faint mutterings and feel a cool breeze)
+
+\ *hp*\  13; \ *Weakness*\  tricked by :ref:`hide from undead <corerulebook.spells.hidefromundead#hide_from_undead>`\ ; \ *Trigger*\  proximity; \ *Reset*\  1 day
+
+\ *Effect*\  This haunt seeks to influence the actions of the living, targeting a victim with a \ *suggestion*\  effect or a heightened :ref:`command <corerulebook.spells.command>`\  (save DC 14 for either). Depending on the haunt's alignment and goals, the suggested actions may be malicious (such as subtly putting its victims in harm's way or sowing antagonistic interactions) or benign (such as prompting mysterious automatic writings or unconscious utterances in hopes of communicating its ambitions to the world of the living).
+
+\ *Destruction*\  A demanding dead typically asks for rest for its mortal remains or the resolution of desires unfulfilled in life. Fulfilling the request dismisses the haunt.
+
+.. _`occultadventures.occultgame#spectral_vermin`: `occultadventures.occultgame#spectral_vermin_(cr_5)`_
+
+.. _`occultadventures.occultgame#spectral_vermin_(cr_5)`:
+
+Spectral Vermin (CR 5)
+***********************
+
+Overwhelming, unresolved guilt—or horrific death by thousands of tiny teeth—can lead to the manifestation of ghostly vermin swarms. The haunted area often displays signs of ancient rodent infestation.
+
+.. _`occultadventures.occultgame#spectral_vermin`:
+
+Spectral Vermin
+================
+
+**CR 5** 
+
+XP 1,600
+
+CE free-roaming persistent vaporous haunt (30-ft.-by-30-ft. room)
+
+\ *Caster Level*\  5th
+
+\ *Notice*\  :ref:`Perception <corerulebook.skills.perception#perception>`\  DC 15 (to hear scratching in walls)
+
+\ *hp*\ 22; \ *Weakness*\  tricked by :ref:`hide from undead <corerulebook.spells.hidefromundead#hide_from_undead>`\ ; \ *Trigger*\  proximity; \ *Reset*\  1 day
+
+\ *Effect*\  This free-roaming haunt wanders the vacant halls of old manors and dank dungeons. When the haunt is triggered, the skeletal remains of spectral rats burst forth from every crack and crevice of the room, scurrying over the area and voraciously consuming trespassers, as the :ref:`summon swarm <corerulebook.spells.summonswarm#summon_swarm>`\  spell. 
+
+\ *Destruction*\  A character must ritually kill a common cat in the area. The cat's ghost manifests and consumes the ectoplasmic :ref:`swarm <bestiary.creaturetypes#swarm_subtype>`\  over the course of 1 week, earning both the cat and the rats permanent rest.
+
+.. _`occultadventures.occultgame#malignant_weapon`: `occultadventures.occultgame#malignant_weapon_(cr_7)`_
+
+.. _`occultadventures.occultgame#malignant_weapon_(cr_7)`:
+
+Malignant Weapon (CR 7)
+************************
+
+Sometimes a weapon that slays a powerful witch or hag becomes tainted by the victim's malignant hatred. Although haunted weapons often still bear holy marks from the original owners or relics like bones from a revered saint, these are never sufficient to contain the malevolence that dwells within the weapon.
+
+.. _`occultadventures.occultgame#malignant_weapon`:
+
+Malignant Weapon
+=================
+
+**CR 7** 
+
+XP 4,800
+
+LE persistent item-bound haunt (haunted object affecting up to a 35-ft. radius)
+
+\ *Caster Level*\  7th
+
+\ *Notice*\  :ref:`Perception <corerulebook.skills.perception#perception>`\  DC 25 (to hear distant cackling when touching the weapon)
+
+\ *hp*\ 36; \ *Weakness*\  tricked by :ref:`invisibility <corerulebook.spells.invisibility>`\ ; \ *Trigger*\  special (see below); \ *Reset*\  1 day
+
+\ *Effect*\  Whenever the wielder of the haunted weapon threatens a critical hit with the weapon, the area immediately resonates with a cacophonous cackling. All creatures within a 35-foot radius centered on the weapon suffer the effects of a :ref:`song of discord <corerulebook.spells.songofdiscord#song_of_discord>`\  spell (Will DC 17 negates) for the next 8 rounds. If the weapon's wielder is affected, she gains a +2 bonus on the critical confirmation roll.
+
+\ *Destruction*\  The weapon must be boiled in the cauldron of a willing hag's coven, which destroys both the weapon and the cauldron at the same time.
+
+.. _`occultadventures.occultgame#insidious_presence`: `occultadventures.occultgame#insidious_presence_(cr_9)`_
+
+.. _`occultadventures.occultgame#insidious_presence_(cr_9)`:
+
+Insidious Presence (CR 9)
+**************************
+
+This haunt hides within a host's body, at first offering tempting boons to make the host comfortable with their presence before ultimately seeking the host's destruction.
+
+.. _`occultadventures.occultgame#insidious_presence`:
+
+Insidious Presence
+===================
+
+**CR 9** 
+
+XP 4,800
+
+NE possessing persistent spiteful haunt (45-ft. radius when not possessing a creature)
+
+\ *Caster Level*\  10th
+
+\ *Notice*\  :ref:`Perception <corerulebook.skills.perception#perception>`\  DC 20 (to feel a malignant presence and hear faint mutterings)
+
+\ *hp*\  40; \ *Trigger*\  proximity; \ *Reset*\  1 day
+
+\ *Effect*\  This haunt subtly possesses a living host as :ref:`possession <occultadventures.spells.possession#possession>`\  \ \* (Will DC 20 negates) in order to sow :ref:`fear <bestiary.universalmonsterrules#fear>`\  and injury in the wider world. When it first possesses a host creature, the insidious presence may offer enticing boons for several months using its :ref:`shadow conjuration <corerulebook.spells.shadowconjuration#shadow_conjuration>`\  effect (such as summoning allies to assist the host). But soon, the haunt's inner malignancy takes over as it uses its :ref:`shadow conjuration <corerulebook.spells.shadowconjuration#shadow_conjuration>`\  (DC 18 where applicable) to produce harmful or even deadly effects against its host.
+
+An insidious presence that has slain a number of different hosts equal to its CR undergoes a startling transformation. This powerful entity has CR of 12, learns to utilize :ref:`greater shadow conjuration <corerulebook.spells.shadowconjuration#shadow_conjuration_greater>`\  (DC 22 where applicable), has a caster level of 14, has a radius of 60 feet when not possessing a creature, and has 54 hit points.
+
+\ *Destruction*\  An insidious presence can be destroyed only if an innocent creature willingly accepts it into its body and then intentionally sacrifices its life to destroy the haunt forever.
+
+.. _`occultadventures.occultgame#ley_lines`:
+
+Ley Lines
+**********
+
+Researchers into the occult theorize that all the worlds of the Material Plane and the planes beyond are alive. While the exact measure of life and consciousness the universe exhibits is debated, attempts to quantify this cosmic biology point toward the phenomenon of ley lines as proof. Ley lines are conduits of magical energy that traverse all known corners of creation, serving the same function as the veins and arteries of living creatures. These conduits, connecting geographical and cosmological features both great and small, grant knowledge and power to those who tap into them.
+
+.. _`occultadventures.occultgame#qualities_of_ley_lines`:
+
+Qualities of Ley Lines
+=======================
+
+A ley line carries raw magical energy along with psychic impressions and other ambient energy its absorbs from its surroundings. This causes ley lines to seed magical effects, subconscious thoughts, and other supernatural phenomena along their paths, and sometimes creates unusual supernatural effects.
+
+Psychic impressions carried down ley lines can impact the cultural and psychological growth of peoples living along the path of a ley line. Such alignments can cause two civilizations separated by thousands of miles—or even separated by planar boundaries—to evolve along similar developmental paths. Towns built on opposite ends of a ley line may have identical (or sometimes mirrored) street plans and similar histories. Artists living near a ley line may unconsciously convey their ideas to other artists on other planes, creating instances of parallel design. When a ley line penetrates planes, it can carry influences from one plane into another, making ley lines partially responsible for the appearance of tieflings and aasimars in bloodlines that had no prior history of contact with outsiders. This effect is also responsible for some of the propagation of sorcerous power, psychic powers, and other unusual magical phenomena such as haunts and loci spirits.
+
+Like the arteries of a circulatory system, ley lines come in many different sizes. The larger a ley line, the more capacity it has to carry magical energy. The size of a given ley line can change over time, however, and may vary at different points along its length. The size of a ley line generally impacts the strength and kinds of power that can be drawn from it by spellcasters. Ley lines have an effective caster level ranging from 1 to 20 that represents the overall strength of the ley line and determines the power of effects associated with it.
+
+.. _`occultadventures.occultgame#finding_ley_lines`:
+
+Finding Ley Lines
+==================
+
+A ley line's natural state is as an imperceptible current of energy. Finding a ley line requires the use of a skill or spell that can detect the magical energy a ley line radiates. :ref:`detect magic <corerulebook.spells.detectmagic#detect_magic>`\  can locate the presence of an accessible portion of a ley line within its area of effect and uses the ley line's effective caster level to determine its aura's strength as if the ley line were a magic item. :ref:`true seeing <corerulebook.spells.trueseeing#true_seeing>`\  reveals all accessible ley lines within its area of effect—they appear as ghostly bundles of tightly packed streams of energy. The color of a ley line is representative of its overall power level. Ley lines with a caster level of 1 are a dark violet color, while ley lines with a caster level of 20 are deep red. Ley lines with caster levels between 1 and 20 range across the color spectrum as appropriate (starting with violet and continuing to blue, green, yellow, orange, and finally red). Divination magic such as :ref:`contact other plane <corerulebook.spells.contactotherplane#contact_other_plane>`\ , \ *divination*\ , and :ref:`commune <corerulebook.spells.commune>`\  can help narrow down the location of a ley line. Additionally, :ref:`legend lore <corerulebook.spells.legendlore>`\  can help reveal information about a known ley line. Occult skill unlocks such as dowsing can also help detect the presence of ley lines over long distances, which can be quite useful in locating an accessible portion of a ley line.
+
+Because of ley lines' ability to pick up ambient energy, some local effects can cause portions of a ley line to become visible. For example, in areas of wild magic, an extant ley line may manifest as a shimmering river of rainbow-hued light constantly shifting through the color spectrum, while locations with a powerful presence of negative energy might cause a ley line to appear as a tendril of darkness that bleeds an ephemeral black smoke tinged with red light.
+
+Ley lines do not generally move from location to location. While the exact paths they take may drift over the course of millennia or eons, these changes are largely unnoticed by all but the longest-lived races. As such, the discovery of a ley line can impact a region for millennia and draw attention from those seeking to exploit the ley line's power. Civilizations that discover ley lines sometimes mark the locations in which their power is most easily accessible by erecting monuments such as menhir circles or obelisks. These sites are typically used to perform rituals or other functions that tap into the latent power of a ley line to enhance spellcasting. A powerful wizard might build his tower atop a particularly strong ley line, a druidic sect might construct a menhir circle nearest to where a ley line touches the ground, or an ancient dragon might build its mountaintop lair as close to a ley line in the sky as possible. Accurate maps and charts depicting the paths and intersections of ley lines are reliable for centuries or more and can reveal nodes of power across worlds and planes.
+
+.. _`occultadventures.occultgame#using_ley_lines`:
+
+Using Ley Lines
+================
+
+While a ley line can range from hundreds to thousands of miles long or more, most portions of a ley line are only faintly visible to powerful magic, and their power is inaccessible. However, spellcasters can tap into rare sites where the power of ley lines is concentrated, or where ley lines cross, to increase their power. These sites can be of any size, ranging from a tiny cave under a great mountain to an entire mountain range.
+
+Most of the effects generated by a ley line's accessible portions are passive and easy to miss. Planar energy, psychic impressions, and other collected powers bleed out into the land and influence the development of local life. A creature capable of casting spells or using spell-like abilities can attempt to tap into an accessible segment of a ley line within 100 feet. Doing so takes 1 hour per 2 caster levels of the ley line and requires a :ref:`Spellcraft <corerulebook.skills.spellcraft#spellcraft>`\  check with a DC equal to 20 + the ley line's caster level. Success indicates the creature is attuned to the ley line and gains a +1 bonus to its effective caster level for all spells and spell-like abilities. This bonus increases by 1 for every 5 caster levels of the ley line, to a maximum of +5. Depending on the nature of the ley line convergence, this bonus may apply only to certain spells and spell-like abilities. For instance, a ley line convergence atop a great volcano might apply its bonus only to spells and spell-like abilities with the fire descriptor. Hags or other creatures with the coven ability benefit from the bonus of ley line attunement so long as at least one member of the coven is attuned to the ley line and all coven members are within 10 feet of an attuned creature. Some ley lines also grant creatures attuned to them special abilities such as bonus spells, spell-like abilities, or other supernatural effects. Once a creature is attuned to a ley line, the bond is permanent unless dispelled. :ref:`dispel magic <corerulebook.spells.dispelmagic#dispel_magic>`\  and similar effects can break a creature's attunement to a ley line; the caster attempting to break the attunement must succeed at a caster level check with a DC equal to 11 + the caster level of the ley line. When an attuned creature is more than 100 feet from the ley line, it gains no benefit from the attunement, but the benefits return when it is once again in proximity.
+
+Ley lines can become damaged over the course of time, whether by extreme magical forces or other monumental events. Damage in this manner can cause a supernatural bruise that bleeds out into the location surrounding a ley line. Harming or destroying ley lines is difficult, given their monumental size and power. Even the weakest of ley lines are impervious to most physical and magical attacks, though great forces can exert influence over them. :ref:`mage's disjunction <corerulebook.spells.magesdisjunction#mage_s_disjunction>`\  can potentially destroy a ley line, though this task requires the caster to succeed at a caster level check with a DC equal to 20 + the ley line's caster level. Doing so immediately deals 2d6 points of damage per caster level of the ley line (no saving throw) to the caster. Additionally, all creatures attuned to the ley line and able to benefit from attunement take 1d6 points of nonlethal damage per caster level of the ley line when it is destroyed. There is a 1% chance per caster level of the ley line that its destruction creates a permanent :ref:`antimagic field <corerulebook.spells.antimagicfield#antimagic_field>`\  with a radius of 100 feet per caster level of the destroyed ley line. Furthermore, the caster of :ref:`mage's disjunction <corerulebook.spells.magesdisjunction#mage_s_disjunction>`\  who creates an :ref:`antimagic field <corerulebook.spells.antimagicfield#antimagic_field>`\  in this way must succeed at a DC 25 Will save or permanently lose all spellcasting abilities. These abilities cannot be recovered by mortal magic, not even via :ref:`miracle <corerulebook.spells.miracle>`\  or :ref:`wish <corerulebook.spells.wish>`\ .
+
+.. _`occultadventures.occultgame#mindscapes`:
+
+Mindscapes
+***********
+
+Mindscapes are temporary constructs of the mind that come into being on the Astral Plane and fade away again, in much the same way a sleeping person's imagined landscape forms and dissolves while he is dreaming. The primary difference between a mindscape and a dream is one of intent; a creature often deliberately and precisely constructs a mindscape, while a dreamer typically does not. A mindscape can come into existence as a result of creatures engaging in a psychic duel, as well as through certain spells, magic items, rituals, and other occult phenomena.
+
+In theory, a mindscape can take on any form or appearance—and can possess any conceivable trait—in much the same way the various planes do. In practice, mindscapes often either appear mostly normal, or feature only one or two traits that stray from reality, and creatures' psychic avatars manifesting within the mindscape might not be able to tell they're no longer in the real world.
+
+Two types of mindscape exist: binary mindscapes and immersive mindscapes. Binary mindscapes occur during psychic duels, when a creature with psychic powers draws another into a mental battle. Only two participants can occupy a binary mindscape. This cerebral combat arena does not totally engulf the participants' senses; a creature engaged in a psychic duel within a binary mindscape can still perceive the real world, but is largely consumed in her psychic battle. In this case, the mindscape is a powerful image in the mind's eye, perceived on an abstract level and capable of affecting the subject in the real world, detaching her from events in the real world but leaving her still capable of perceiving them.
+
+Immersive mindscapes are far more tangible and realistic. In an immersive mindscape, a creature's every sense perceives its imaginary surroundings completely, in effect replacing the body's actual sensory perceptions.
+
+While a creature's consciousness is within a mindscape, that creature's body in the real world can take no actions and loses its Dexterity bonus to AC, but it isn't considered helpless, as the unconscious parts of the creature's mind still provide resistance to the creature's destruction. While in an immersive mindscape, the mind gets no information about what the body sees, hears, smells, or touches. Thus, if the body takes damage from an attack in the real world, the mind remains unaware of it. A binary mindscape, however, allows a creature to monitor its own condition in the real world.
+
+.. _`occultadventures.occultgame#mental_masks`:
+
+Mental Masks
+=============
+
+Creatures drawn into mindscapes don't have to appear as themselves, and can instead assume alternate forms called mental masks. They can do so only if they know they're in a mindscape or believe they're in a dream (the creator of a mindscape almost always does). A mental mask allows a creature to hide its true identity, masking its true features from its enemies. Non-psychic creatures can't assume a mental mask; they must appear in immersive mindscapes in their true forms.
+
+.. _`occultadventures.occultgame#binary_mindscapes`:
+
+Binary Mindscapes
+==================
+
+A binary mindscape is typically only a minimalist backdrop for a psychic battle—a ghostly image, like a stark memory, lacking detail and verisimilitude. It might manifest as a flat surface surrounded by fog or a featureless plain of grass on a cloudy day. Sometimes, a binary mindscape mimics a real-world locale the creator knows well, but even then, the details at the edges of vision are usually fuzzy and indistinct, and features that invoke lesser senses, such as smell and taste, are lacking. A binary mindscape has no effect on the psychic battle; it's merely a mental construct used to assist the participants in visualizing their actions.
+
+\ **Creation and Control**
+
+As explained in the Psychic Duels section, a binary mindscape is created when two psychic creatures enter a mental confrontation. Only creatures able to cast the :ref:`instigate psychic duel <occultadventures.spells.instigatepsychicduel#instigate_psychic_duel>`\  spell can begin a psychic duel. Once a connection is established, the binary mindscape is created.
+
+Once within the mindscape, a creature can expend psychic energy to create mental hazards called manifestations to damage the other combatant or to reshape the mental landscape. Because the mindscape becomes a shared mental space after its creation, neither participant in the battle truly controls it, and they both have an equal ability to alter the environment once their minds are connected.
+
+A binary mindscape is overt, finite, and harmful (see Mindscape Traits below). Its other traits (such as gravity, time, and magic) are normal, with the exception of the special actions and limitations on spellcasting described in the Psychic Duels section.
+
+.. _`occultadventures.occultgame#immersive_mindscapes`:
+
+Immersive Mindscapes
+=====================
+
+An immersive mindscape is a less common, but far more powerful, variety of mindscape. When created, it seems every bit as palpable and vivid as the real world. A being within an immersive mindscape can see the land, feel the breeze, hear the falling rain, smell the sea, and even experience hunger and thirst. In some cases, creatures within an immersive mindscape don't even realize that's where they are. A target that's fooled into believing such a mindscape is real wastes away in the physical world while living a full life in the mindscape.
+
+An immersive mindscape can be sculpted in much more detail than a binary mindscape, and its traits vary. The creator dictates the traits of an immersive mindscape, and visitors are subject to whatever strictures the host is able to place upon the mindscape. The construction of the mindscape might be carefully designed, or might be a more instinctive expression drawn from the creator's own desires or intentions (whether conscious or subconscious). Some spells allow the creator to use a target's memories or desires when creating the mindscape to better fool the target.
+
+.. _`occultadventures.occultgame#mindscape_traits`:
+
+Mindscape Traits
+=================
+
+Each mindscape has a set of specific traits that dictate its appearance and behavior, just as the planes do. These traits supersede the normal planar traits of the Astral Plane. Often these traits mimic those of the Material Plane, for that is what the beings within a mindscape typically find most familiar and comfortable. A creature's mental avatar has the same physical characteristics in the mindscape that the creature does in real life (the same AC, hit points, ability scores, and so on). Weapons and armor, even magical ones, function inside the mindscape.
+
+Every mindscape is considered sentient, but instead of changing according to its own will, it responds to the will of those inside it. Typically, the creature that created the mindscape controls its traits. Depending on her level of expertise, the creator can alter one or more of the traits of the mindscape to suit her purposes. The psychic duel rules and some spells allow other creatures to alter mindscapes, but usually only if they're aware they're within one.
+
+\ **Transparency**
+
+A mindscape's creator typically knows when she is within her own mindscape, but other creatures might not, depending on the type of mindscape.
+
+\ **Overt**\ : Overt mindscapes are obvious to anyone drawn into them. This might be because the individual deliberately hosts and invites others, or because targets know they're being psychically attacked and caught in the mindscape, and therefore understand what has happened to them. When a creature knows it is in a mindscape, it can exit more easily (using the :ref:`mindscape door <occultadventures.spells.mindscapedoor#mindscape_door>`\  spell), but this knowledge makes the immersive mindscape no less real to it. It can still be affected by the mindscape, and can still take damage or gain conditions from a harmful mindscape (see Feedback below). Binary mindscapes are always overt.
+
+\ **Veiled**\ : The veiled immersive mindscape is the most insidious type. Its triggering mechanisms are designed to fool the target, trapping the creature in such a fashion that it doesn't realize its reality is a product of its or another's mind. The creator's memories provide the basis for the mindscape, and any place or phenomenon she hasn't experienced might be hard to replicate convincingly using only her imagination.
+
+Psychic mindscape traps and spells often include a seamless transition from the real world to the mindscape in order to maintain the veil. For example, a chest trapped with a veiled immersive mindscape might trigger a visual and tactile continuation of the current situation, making the thief believe she still kneels before the container in the chamber where she found it. If the effect is done well and is powerful enough, the thief might live out several hours, days, or weeks of her life trapped in her own mind, while her body remains slumped before the chest, slowly dying from lack of food and water.
+
+\ **Shape and Size**
+
+When the mindscape is manifested, the creator decides on the shape and size of the mental locale. Each of the following categories is possible.
+
+\ **Finite**\ : A finite mindscape has clearly discernible boundaries and limits to its space. Either there is no way to move beyond those boundaries, or there is simply nothingness beyond them. A finite mindscape might be a cavity within an endless expanse of stone, or it could be the interior of a cottage with nothing beyond the doors and windows but blackness and oblivion. Binary mindscapes are always finite.
+
+\ **Infinite**\ : A mindscape of this shape and size stretches on forever, or at least those within it perceive it as such for all practical purposes. This might result in an endless void in three dimensions, perfectly flat ground that stretches as far as the eye can see, or an endless ocean. Individual objects within the mindscape might be defined by their limits, such as a building sitting in the middle of an endless plain, or a series of floating chunks of rock within the void.
+
+\ **Self-Contained Shape**\ : A mindscape exhibiting this physical trait might seem to go on forever, but its spatial relations actually fold back upon themselves, no matter which direction creatures within it travel. Such a mindscape might consist of an staircase that is somehow a loop, a winding tunnel that appears straight but starts and ends in the same place, or a tesseract where exiting on one side of the cube always returns the traveler to the opposite side. A self-contained medieval keep, for example, might allow travelers to exit the front gate only to find themselves reentering by the rear portal.
+
+\ **Feedback**
+
+Though they're mental constructs, mindscapes can sometimes cause physiological effects through mental feedback. A creator with exceptional psychic power might be able to create a mindscape that is harmless for her but harmful for all other inhabitants, but most mindscapes affect everyone in the same way.
+
+\ **Harmful**\ : Injuries and conditions inflicted upon individuals visiting a harmful mindscape are real. Any psychic attacks harm the body by convincing the brain that the damage is real. Binary mindscapes are always harmful.
+
+\ **Harmless**\ : Occupants of a harmless mindscape still feel the sensation of the environment or other creatures harming them, but injuries and conditions are not real—they cause no physical harm to the host's body. A creature that dies in a harmless mindscape wakes up none the worse for wear.
+
+\ **Gravity**
+
+The creator or controller of a mindscape determines whether gravity exists in that mindscape, and if it does, how strongly it exerts its pull.
+
+\ **Normal Gravity**\ : Gravity functions just as it does on the Material Plane.
+
+\ **Light Gravity**\ : Gravity's effect is reduced, and creatures can jump, fly, and lift heavy objects with less effort.
+
+\ **Heavy Gravity**\ : Gravity's effect is increased, and creatures find that jumping, flying, and lifting objects require more exertion.
+
+\ **No Gravity**\ : Gravity does not exist, and objects float in space wherever they are in relation to one another, unless they're set in motion by someone, in which case they travel in a straight line at a constant rate of speed until they collide with another object or a creature somehow changes their motion.
+
+\ **Subjective Gravity**\ : Gravity functions however each individual wishes it, relative to that individual. Thus, if one creature stands on the floor of a parlor, while another envisions the ceiling of that same room as being "down" and stands upon that surface, each would experience gravity differently and see the other as "overhead" and "upside down."
+
+\ **Time**
+
+Controlling time within a mindscape is difficult. In most cases, time flows at a one-for-one ratio with the passage of time in the real world. Only a powerful psychic individual can alter the flow of time in a mindscape.
+
+\ **Normal Time**\ : Time flows normally.
+
+\ **Slow Time**\ : In certain cases, the creator of a mindscape might wish to cause time to slow down, forcing those within the mindscape to spend more real-world time engaged in activities within the mindscape. When this happens, 1 round within the mindscape takes 2 or more real-world rounds to complete.
+
+\ **Rapid Time**\ : In other instances, a mindscape's creator might desire to cause time to move faster within the mindscape than in the real world. In this instance, 2 or more rounds of activity within the mindscape could be completed while only 1 round passes in the real world. A controller could thus spend a great deal of time contemplating a complex mental puzzle, then emerge from the mindscape to rejoin her allies having lost no true time at all.
+
+\ **Alignment**
+
+Some mindscapes exhibit a palpable resonance that reflects the creator's alignment. This might be intentional or unintentional. Most mindscapes aren't aligned.
+
+\ **Mildly Aligned**\ : A mildly aligned mindscape results in very subtle effects that might or might not be noticed by its inhabitants. In such cases, the evidence might manifest as an orderly garden for a lawful creature or a serene bit of countryside with ideal weather for a good-aligned being.
+
+\ **Strongly Aligned**\ : A mindscape influenced by a strong alignment almost always exhibits noticeable characteristics. The atmosphere alone might cause discomfort for or even damage beings of a diametrically opposed alignment. A creator who wishes to create a strongly aligned mindscape might find it difficult to keep victims from noticing these features. The creeping alignment influence can give a clue to those trapped within that all is not as it seems.
+
+\ **Magic**
+
+Magic—particularly psychic magic—behaves in odd ways within a mindscape.
+
+\ **Normal Magic**\ : In an immersive mindscape where magic behaves normally, characters and creatures can use spells, spell-like abilities, and magic items as they normally would. Spells are consumed and charges or consumables are spent. Damage dealt by magic is real, and the real-world body suffers accordingly if the mindscape is harmful. However, any magic that requires physical manipulation (such as drinking a potion) might not behave in the expected manner (the character could "drink" the potion and discover that nothing happens). Some divination magic might provide strange or nonsensical information if it is providing details on what is going on in the real world while the caster's mind believes it is elsewhere. When a creature emerges from a mindscape, any magic it used while within has been consumed.
+
+\ **Dead Magic**\ : Magic might not work at all within a mindscape. The effort to summon and manipulate the energies required to set off the magic can be blocked, prevented from reaching through the psychic barrier of the creature or thing that created the mindscape. In such cases, the mindscape may or may not create false-positive results in an attempt to fool those trapped within (for example, making healing magic seem to work when it actually doesn't function). Whatever results occur within the mindscape, creatures emerge without having expended any magic. The sole exception is that psychic spells specifically designed to manipulate a mindscape work even in mindscapes with dead magic, and are expended normally.
+
+\ **Altered Magic**\ : Magic might behave very differently within a mindscape—use the rules for the enhanced, impeded, limited, or wild planar magic traits.
+
+.. _`occultadventures.occultgame#esoteric_planes`:
+
+Esoteric Planes
+################
+
+The planes of the Great Beyond encompass all of existence, from the simple and sublime wonders of the material world to the impossibilities of heavens, hells, and everything in between. Arcane tradition conceptualizes this multiverse of planes as a series of nesting spheres, with each layer and the spaces between representing different vistas of reality. At the center of it all, suspended within the silvery seas of the Astral Plane, lies the Inner Sphere of the Elemental and Material Planes. The Elemental Planes are the raw building blocks of the multiverse, while the planes aligned with positive and negative energy govern the forces of life and death, creation and destruction. The invisible mists and eddies of the Ethereal Plane connect and interpenetrate the worlds of the Inner Sphere, just as the Astral Plane connects these worlds in turn to the infinite realms of the Outer Sphere, the domains of gods and the final destination for the souls of the multiverse.
+
+The esoteric tradition, sometimes referred to as the "ancient wisdom," acknowledges the many planes, demiplanes, and corners of the Inner and Outer Spheres, but tends to focus more on the Inner Sphere than the realms of the deities. Scholars of occultism believe that their investigations reveal a hidden truth behind the multiverse, and that mastering the implications of this secret can give an adept power over not just her mortal life, but also her life after death. She can then enter a cycle of reincarnation that allows, over successive cycles of existence and reflection, the complete mastery of body, mind, and soul, opening up new vistas of consciousness and immortality.
+
+Consequently, the adept does not concern herself with the courts of petitioners enjoying their final reward or laboring eternally under fiendish masters, nor with the raw building blocks of the material world such as air, earth, fire, and water. Her final personal journey into a more evolved existence is loftier than the base elements, and more self-determined than the proscribed fate of the pious petitioner.
+
+The orthodox view of the planes sees two opposing forces underlying existence in the multiverse: positive and negative energy. Each of these primal forces commands a vast plane of its own at the core of the Inner Sphere. The Positive Energy Plane is the source of life, and the Negative Energy Plane is the source of death; each exists as antithesis to the other. The great secret of occultism holds that rather than positive and negative energy being conflicting forces, they are in fact two halves of a single whole. Their polarity is not a sign of opposition, but rather two integral aspects of a single dualistic cycle. The positive aspect of this duality is the Cosmic Fire, the breath of life that grants vital force to living creatures. The Negative Energy Plane is the intake of that same breath, a return to dust, the recycling of component parts to pave the way for that which comes next.
+
+Delving deeper into the ancient wisdom reveals even more enticing secrets regarding the nature of existence. Among the oldest creatures in the Great Beyond are the enigmatic outsiders known as aeons, who are said to be the caretakers of reality and the original architects and crafters of the multiverse itself. Befitting the esoteric view of the planes, these primordial beings always manifest a powerful dichotomy sustained in equilibrium: Birth and death. Fate and freedom. Creation and destruction.
+
+The aeons believe they are bound in a supreme oneness with the multiverse known as the "monad," or the "condition of all," the transcendental undersoul of all living creatures. They equate this oneness with both the life-giving Cosmic Fire of the Positive Energy Plane and the destructive void of the Negative Energy Plane. Furthermore, they do not limit this cosmic oneness to themselves, but rather include all of the multiverse's creatures within their concept of the monad. A human and a pleroma aeon are both emanations of the cosmic flame—the aeon is simply much closer to the source and believes itself to be in communication with it, whereas the monadic soul of a human is esoterically distant from the Fire, being focused primarily on the mortal affairs of the base Material Plane.
+
+Imagine a blazing sphere of brilliant energy blocked by a thick screen. This sphere represents the Cosmic Fire. Now imagine multitudes of tiny holes in the screen, each allowing some of the light to shine through. From the exoteric viewpoint of the uninitiated, each pinpoint of light appears distinct and unique. The esoteric perspective looks behind the screen and understands that all of the individual lights are but rays from a single source. A creature's soul is like one glimmering light in that screen's field of stars, and when mortal scholars speak of "a monad," they're usually referring to this individual-seeming expression of the universal undersoul, at once a unique entity and part of the common soul of the multiverse. The greater an adept understands her place in this scheme, the more power she holds over her eternal destiny.
+
+The short summaries below offer an occult viewpoint on the realms generally referred to as the Esoteric Planes. Many prominent planes in the orthodox scheme, such as the Shadow Plane and Elemental Planes, do not feature prominently in the cosmology of the adept concerned with multiversal truths and the journey of the mortal soul. Occultism freely acknowledges the existence of these planes, but does not dwell on them, an approach likewise observed here.
+
+.. _`occultadventures.occultgame#positive_energy_plane`:
+
+Positive Energy Plane
+**********************
+
+The Positive Energy Plane is the source of all life, the Cosmic Fire at the heart of the multiverse that gives birth to mortal souls. The plane has no surface and exists as an emanation of life-giving energy radiating from an incandescent interior that resembles the molten heart of an active star. Ironically for a plane associated with life, the Positive Energy Plane can be extremely deadly to mortal visitors, as its ambient energies are so powerful that a mortal shell cannot absorb them without bursting. At certain vertices, the refraction of the Cosmic Fire's rays create islands of solidity where the plane's energies are not so extreme, and some manner of life as mortals understand it becomes possible. Here, upon vast shimmering fields, phoenix-feathered creatures known as the jyoti tend to orchards of glowing, anemone-like trees as tall as mountains, sprouting immature souls like glossy, liquid fruit. The xenophobic jyoti dwell in complex cities of crystal specially designed to reflect the weird luminescence of the Cosmic Fire. Jyoti seldom venture from these structures, focusing all of their energies on their sacred charge of tending and defending the nascent souls of the multiverse. At the center of each jyoti city is an imposing gate to a star in the cosmos of the Material Plane. New souls pass through these gates and ride waves of light to find incarnation in mortal vessels.
+
+If the jyoti dedicate themselves to the protection of incubating immature souls, the other primary inhabitants of the Positive Energy Plane, the manasaputras, dedicate their existence to assisting the spiritual development of mortals. These "sons of mind" are the powerful psychic incarnations of mortals who have endured scores of mortal reincarnations, with each step becoming more attuned to the universal undersoul. The greatest and most powerful of the manasaputras—the glory-clad solar kumaras—dwell within the heart of the Cosmic Fire, and claim to be in communication with it. Lesser manasaputras like agnishvattas, barhisads, and manus spread through the Inner Sphere to initiate mortal adepts in the occult nature of the multiverse, so that they too might step once again into the light that birthed them.
+
+For reasons unknown even to the eldest natives, divine beings cannot enter the Positive Energy Plane. Refugees from the vengeance of the gods or those hoping to hide important relics from certain divinities sometimes venture to the Positive Energy Plane to negotiate with the jyoti, who over the centuries have amassed an astounding trove of world-shattering artifacts, illegitimate half-mortal bastards, heretics, and other dangers.
+
+.. _`occultadventures.occultgame#negative_energy_plane`:
+
+Negative Energy Plane
+**********************
+
+The orthodox view of the Inner Sphere casts the Negative Energy Plane as the jealous rival of its positive-energy twin, an empty infinite void of entropic darkness antithetical to creation, fit only to consume and destroy. Negative energy is itself a dark opposite of life-giving positive energy, yet while it is most often a source or tool of destruction, it is also the animating force of the undead. The ancient wisdom of occultism seizes on this seemingly paradoxical association with creation and posits that entropy clears the slate for what's next as the multiverse inexorably marches along an unimaginably vast evolutionary cycle of its own. Perfection is not a fixed state. It is always growing and changing. To say that there is one "natural" state—for instance, utter oblivion—that constitutes perfection is as impossible as imposing a limit on the infinite. Occultists believe that this destruction allows for and drives change.
+
+Nonetheless, negative energy sustains the undead, who throng to the sterile and desolate gulfs of nothingness that compose the overwhelming expanse of this dark and terrifying realm. The plane offers few solid surfaces, so the undead present here tend to be incorporeal and capable of taking flight on the soul-chilling currents that seem inexorably to guide visitors toward the absolute darkness at the plane's heart. This inner blackness connects via portals to the black holes scattered about the cosmos of the Material Plane. Records of astral voyages to the Material Plane side of these portals relate tales of the accretion disks of black holes swarming with incorporeal undead trapped within the event horizon.
+
+Within the plane, where the concentration of negative energy reaches an absolute, it begins to manifest a crystalline material that grows into beautiful and deadly structures of absolute entropy. When these crystals form strange angles, the plane gives birth to a sceaduinar. These vile creatures hate life and unlife alike, and exist only to sow entropy and destruction. Somehow, their manifestation seems to drain a measure of the plane's entropic energies, ironically making the regions around these haunting snowflake structures the most stable and survivable regions in the otherwise hostile plane. While negative energy is less of a concern, the sceaduinar themselves represent a significant threat to visitors.
+
+The ancient wisdom suggests that the jyoti hate the sceaduinar for their knowledge of the role destruction plays in the creation of souls, and the jyoti fear the exposure of that information. The Negative Energy Plane's most terrible and hateful residents, the undead abominations known as nightshades, care little for this squabbling between the planes. Theirs is a quest to eradicate all life in the cosmos, to cloak the stars of the Material Plane in darkness, and to quench the Cosmic Fire, no matter the consequences.
+
+.. _`occultadventures.occultgame#material_plane`:
+
+Material Plane
+***************
+
+The Material Plane is the realm of physical sensation and incarnate existence. Souls manifest here in the shell of a physical body, a union so complete that most living creatures do not spend much time contemplating the difference between the gross physical form and the higher monadic soul that guides its movements and destiny. The final destination of a soul is not yet determined during its mortal life, making the Material Plane a magnet for the attentions of gods and outsiders eager to rally mortals to their banners in the afterlife, either willingly or by force. A planar crossroads, the Material Plane is coexistent with the Ethereal and Shadow Planes and coterminous with all of the realms of the Inner Sphere.
+
+Just as little-known forces bind a physical body to its astral and ethereal counterparts, the whole of the universe is bound together by a series of ley lines—spiritual conduits that interpenetrate the many planes of the multiverse. Ley lines are prevalent on the Material Plane, and wise adepts of the occult arts, canny students of the arcane, and even village witches learn to recognize and manipulate these forces to their own ends. Some believe that one of the most prominent of these ley lines is the so-called "River of Souls" that guides a monad's spiritual journey through mortal incarnation and the afterlife, but that is just one aspect of this multiversal arterial network.
+
+.. _`occultadventures.occultgame#ethereal_plane`:
+
+Ethereal Plane
+***************
+
+The Ethereal Plane is the seat of emotional forces, the mist-shrouded home of haunts and horrors, and the ever-present doorway between the worlds of the Inner Sphere. The Ethereal Plane coexists with these planes, interpenetrating them and generally mimicking their contours and vistas, albeit with greatly reduced visibility thanks to drifting fog and the slow rise and fall of fading sheets of light like the somber interior of a thunderstorm. From within the Ethereal Plane, these neighboring worlds appear hazy and indistinct, as if viewed through frosted glass. Inhabitants of neighboring planes can't perceive the Ethereal Plane at all, though certain mortals blessed or cursed with psychic sensitivity sometimes catch glimpses of its vistas. Since the Ethereal Plane is generally invisible from the other planes of the Inner Sphere, creatures under the effects of spells like :ref:`ethereal jaunt <corerulebook.spells.etherealjaunt#ethereal_jaunt>`\  and :ref:`etherealness <corerulebook.spells.etherealness#etherealness>`\  cannot be seen by creatures who are not themselves ethereal. Normally, creatures on the Ethereal Plane cannot attack creatures on the Material Plane, and vice versa.
+
+Within the mists of the Ethereal Plane, warped, indistinct versions of locations overlap their Inner Sphere counterparts. This, coupled with the inherent weightlessness of creatures in the plane, makes it tempting to use the Ethereal Plane as a vantage to scout out unknown locales by passing through incorporeal walls and floating over traps with ease. The natural denizens of the plane make this a frightful prospect, however, and ensure that most forays into the Ethereal Plane are brief endeavors. Among the deadliest of local hazards are the blood-red xill—warlike, plane-shifting outsiders who incubate their eggs in living mortals. Worse still, hideous, cackling night hags use the Ethereal Plane as a byway to the Dimension of Dreams, where they slip into nightmares to abduct mortal souls.
+
+The twisted remnants of mortal souls comprise the vast majority of the Ethereal Plane's inhabitants. Some souls, freed from their physical bodies by death, remain tethered to the Ethereal Plane by profound emotional distress and cannot proceed along multiversal currents to join the River of Souls flowing inexorably toward the Boneyard until they sever the powerful emotional ties that bind them. Indeed, the longer these souls remain stalled on their afterlife journey, the closer they slide toward the Negative Energy Plane, and the more of their memories and personalities become subsumed by raw emotional distress and psychic damage. These souls eventually manifest as incorporeal undead, frequently in the form of wraiths and spectres.
+
+Spiritualists call out to the spirits of the Ethereal Plane and open their physical minds as refuges for them to inhabit. With practice and the help of a trained spiritualist, a spirit can even take its own physical form on the neighboring planes by cloaking itself in a sheath of ectoplasm, the ghostly substance that acts as a veil between worlds. These spirit guides are known as phantoms, and while they are loyal to the spiritualist to whom they are bound, the emotional connection to the Ethereal Plane remains strong, manifesting in jealousy and fiery outbursts from even the kindest of souls.â©The ectoplasmic nature of the Ethereal Plane is extraordinarily susceptible to the thoughts and emotions of the plane's inhabitants. The ethereal version of a physical location is informed not just by its actual dimensions and appearance, but also by the memories and impressions of the spirits that haunt it. For example, on the Ethereal Plane, an old mansion might look as it did in the era of its ghostly inhabitants. If those spirits find final rest, their memories cannot sustain the structure, and it falls into an ethereal ruin. Some incorporeal spirits become so entwined with the emotional nature of the plane that they can manifest these ectoplasmic vistas in an overlapping location on a neighboring plane, temporarily cloaking it in a disturbing reflection of some past incarnation.
+
+In a similar way that locations in the outside world possess overlapping etheric reflections, mortal creatures also have ethereal doppelgangers in the form of etheric doubles that exactly overlie their physical forms. The etheric double is a vessel for the cosmic breath of life that gives a creature animate force, most commonly known as ki. This energy collects in seven blazing vortices of colorful energy known as chakras, which bind the etheric double and the physical body together and distribute vital life energy to both. This energy extends 2 to 3 feet beyond the outlines of the creature's physical form to create its aura, a nimbus of colorful occult energies that reveals much about a creature's disposition and emotional state.
+
+A creature's etheric double, aura, and chakras are not visible except to those with the knowledge or magic to see them. From the Material Plane, this involves esoteric use of the :ref:`Perception <corerulebook.skills.perception#perception>`\  skill by a creature with the Psychic Sensitivity feat or any of a number of spells. From within the Ethereal Plane, all it takes to observe the interplay of these forces is simple concentration—if you know what to look for, it becomes plainly visible. Interpreting this information, of course, is another matter. An etheric double is outlined in violet-gray or blue-gray luminescence. Unlike an astral body generated by :ref:`astral projection <corerulebook.spells.astralprojection#astral_projection>`\  or a lucid body of the Dimension of Dreams, an etheric double is not normally capable of acting as a separate vehicle of consciousness.
+
+Finally, the sweeping expanse of the Ethereal Plane is home to countless pocket realities known as demiplanes. Many of these unique realms are the private domains of powerful arcane spellcasters, the playgrounds of minor gods, the experiments of the inscrutable elohim, or the prisons of creatures that pose such danger to the cosmos that they must never be released.
+
+.. _`occultadventures.occultgame#dimension_of_dreams`:
+
+Dimension of Dreams
+********************
+
+As a mortal sleeps, its monadic soul withdraws from the physical body to manifest in the Dimension of Dreams. This dream avatar is known as the lucid body, and can take a variety of forms based on the dreamer's sub-consciousness. The minds of the countless dreamers of the Material Plane brush up against the Ethereal Plane, bubbling forth ephemeral demiplanes in which the dreamers' lucid bodies experience fantastic adventures inspired by their own unconscious minds. A dreamer can alter her surroundings, and one with the Lucid Dreamer feat gains a greater measure of control. Spells cast and items used in a dream are not depleted in the real world. Wounds and conditions don't have any effect on the creature's waking body and mind. Fantastic adventures don't yield real treasure or experience to the waking being, though knowledge gained in the Dimension of Dreams occasionally aids in solving real challenges faced in the waking world. Even the worst nightmares hold little true danger for the dreamer. Should the lucid body die, the dreamer simply awakens, perhaps a bit shaken but otherwise little worse for the experience. A creature with the Lucid Dreamer feat awakens from such an experience fatigued, as her mind is more invested in perceptions of the dreamscape.
+
+Experience in a dreamscape is usually a private affair. Rare spells (such as :ref:`dream council <occultadventures.spells.dreamcouncil#dream_council>`\ ), magic items, and other abilities allow creatures to enter and share another creature's dream demiplane for a short amount of time. While these secondary dreamers can interact with the highly morphic qualities of the plane, with the primary dreamer, and with each other, the existence of the demiplane is still contingent on a single primary dreamer. When the primary dreamer awakens, the demiplane pops out of existence, causing any other dreamers to continue dreaming—shunted into a dreamscape of their own creation—or to wake up.
+
+A lucid body is not the only way to enter a dream, however, and considerable danger faces the explorer who enters the Dimension of Dreams in his physical body. Regular methods of planar travel like :ref:`plane shift <corerulebook.spells.planeshift#plane_shift>`\  do not offer transit to the dream world—only specialized means such as the :ref:`dream travel <occultadventures.spells.dreamtravel#dream_travel>`\  spell do the trick. When a physical creature enters a dreamscape, he doesn't have to make the check to determine his initial state, but also can't attempt impossible feats (see below). Spells cast, magic items used, and other limited abilities expended are lost just as if the creature were adventuring on some other plane. Creatures in their material forms can use items generated within a dreamscape, but these items wink out of existence when the primary dreamer awakens, or when a creature in material form leaves the dreamscape. Wounds and experiences are real, and remain after the creature leaves the dreamscape. A creature in its physical form that dies within a dream demiplane actually dies. Material creatures still within a dreamscape when the primary dreamer awakens are pushed into an abutting dreamscape or regions of the Ethereal Plane that border the Dimension of Dreams.
+
+Although each dreamer's slumbering soul conjures a personal demiplane dreamscape that manifests on the Ethereal Plane, all dreams collectively belong to the greater network of the Dimension of Dreams. When numerous dreamscapes cluster in the ethereal fog, transit between dreams is easier, and moods, emotions, and even creatures from one dream spill more easily into another. Where the individual dreamscapes brush up against the little-understood Dimension of Time, dreams often take on prophetic elements.
+
+Figments from the dream world sometimes manage to escape the Dimension of Dreams, usually at the moment when a particularly imaginative sleeper awakens, and the reality of the dream is at its weakest as the demiplane fades away. These weird, shifting creatures stalk the Ethereal Plane as animate dreams, feeding off the minds of mortals, searching for other dreams in which to take refuge and torment a new sleeper.
+
+A class of vile so-called "nightmare creatures" infests the Dimension of Dreams, venturing from dreamscape to dreamscape hunting victims to torment and destroy. A hierarchy of horror known as the Nightmare Lords rules over lesser nightmare creatures in puppet courts staffed by the soul-shriveled husks of insane enslaved dreamers. Somehow, these creatures have even found a way to manifest on the Material Plane, not content to limit their terrors to the realm of sleep.
+
+Night hags are among the most harrowing threats of the Dimension of Dreams. They walk freely between dreams, searching for chaotic or evil dreamers, on whose backs they ride until morning. Creatures they encounter between dreams or dwelling within the dreamscapes of their prey are simply cut down, regardless of alignment. Night hags collect the souls of their slain enemies in gemstones they sell to clientele throughout the planes.
+
+Although most dreamscapes are ephemeral, fading when the sleeper awakens, particularly potent dreamscapes, bolstered by recurrence or by the shared subconscious of numerous dreamers, sometimes last forever. Among the most formidable and permanent regions of the Dimension of Dreams is the bizarre realm of Leng, where near-human denizens sail ethereal seas in black-hulled ships packed with slaves bound for the dark markets of the multiverse.
+
+The Dimension of Dreams has the following traits.
+
+* \ **Flowing Time**\ : Both lucid bodies and creatures visiting the Dimension of Dream with their physical bodies are subject to the flowing time trait of a given dreamscape.
+
+* \ **Highly Morphic**\ : When a creature enters a dreamscape with a lucid body, it must make a Charisma check (DC 15) to prevent arriving in the Dimension of Dreams at a disadvantage, such as without important equipment or on the side of an arctic mountain during an avalanche. A successful save means the dreamer manifests in perfect health, with all of its regular equipment (spells and magic items used in a dream are not actually expended in the real world). Even in the worst of circumstances, however, the lucid body is capable of fantastic—even impossible—feats. As a standard action, a number of times during the dream equal to the creature's Charisma bonus (minimum 1) the dreamer can attempt one impossible action, such as casting a spell, gaining an effect of a spell as if it were cast, or conjuring a magic item. This requires a successful Charisma check (DC 10 + the level of the spell being cast or spell effect replicated or half of the caster level of the item conjured; nonmagical items are caster level 0). Other fantastic feats are also possible with GM approval and a Charisma check with a DC determined by the GM. If the check fails, the dreamer cannot perform the feat. Creatures that enter the dream with their physical bodies do not need to make the initial check and do not gain the ability to create items and spell effects or perform other fantastic feats, but must otherwise deal with the strange realities of the dreamscape.
+
+* \ **Wild Magic**\ : Both lucid bodies and creatures visiting the Dimension of Dream with their physical bodies are subject to the wild magic of dreamscapes.
+
+.. _`occultadventures.occultgame#astral_plane`:
+
+Astral Plane
+*************
+
+The Astral Plane is the great silvery sky that connects all planes to one another, the realm of pure thought and expanded consciousness. Occasional islands of solid matter float in astral space, but most of the plane is an enormous, seemingly eternal void of silver radiance. As a gateway between the Inner and Outer Spheres, the Astral Plane teems with travelers, from entities venturing between planes to explorers searching for one of the numerous demiplanes secreted here or looking for the one of the countless marooned spirits that dwell within the expanse. Its nature as a crossroads makes the Astral Plane very dangerous. Although it's possible to visit the plane bodily via :ref:`plane shift <corerulebook.spells.planeshift#plane_shift>`\  or by using an item such as a \ *robe of stars*\ , most travelers prefer to play it safe by manifesting their souls in an astral body created by spells such as :ref:`astral projection <corerulebook.spells.astralprojection#astral_projection>`\ .
+
+A creature's astral body looks like a translucent version of its physical form, usually limned with a soft nimbus of blue or violet light. A slim tether of resilient incorporeal energy known as a silver cord connects a creature's astral body to its unconscious physical body. If the astral body dies, the silver cord retracts into the physical body, returning the soul to its familiar seat (albeit at the cost of two permanent negative levels due to the resultant trauma). A silver cord resists most attempts to damage it, but if it somehow manages to break, the creature immediately dies, and the astral form housing its soul is cast adrift on the astral currents, pulled inexorably toward the enormous spire of the Boneyard, which extends up into the Astral Plane from the surface of the Outer Sphere. As a realm of thought, the Astral Plane is home to entities that represent concepts, myths, and legends spawned from mortal thoughtforms. Mediums open their consciousness to these denizens of the Astral Plane, inviting them to reside in a physical form and spread their influence on the Material Plane.
+
+Travel through the Astral Plane is a strange affair, as the plane's subjective directional gravity means that each traveler chooses the direction of gravity's pull. Creatures can move normally in any direction by imagining "down" near their feet and "falling" in that direction. In this way a creature "falls" 150 feet the first round and 300 feet on each successive round. Movement is straight-line only. A character can attempt a DC 16 Wisdom check to set a new direction of gravity or stop as a free action; this check can be attempted once per round. Any character who fails this Wisdom check on successive rounds receives a +6 bonus on subsequent checks until he succeeds. When moving in this manner, the traveler does not have the sensation of physical movement. Rather, the landscape of the Astral Plane (such as it is) seems to come toward, through, and past him. Scintillations of light are thrown off by the astral body as it moves along at great speed.
+
+The untethered astral bodies of the dead flow toward the Boneyard along the River of Souls. During this process, the dross of mortality is shed, leaving behind only the soul's core self, its memories, and the refined character of its prior life. The gods of the Outer Sphere consider the River of Souls inviolate, often sending celestial and infernal outsiders to help steward wayward souls toward judgment and eventual delivery to their afterlife of reward or punishment. Soul-collecting or soul-devouring predators such as night hags and astradaemons prey on the dead of the Astral Plane, usually limiting themselves to picking off isolated incorporeal undead but all too often raiding parties of disembodied souls as they make their way toward eternity.
+
+Other inhabitants of the Astral Plane include enormous astral leviathans that float through the silvery seas, sometimes with passengers or even semi-permanent settlements upon their backs; strange caulborn who harvest knowledge and psychic energy from astral travelers; formless nirmanakaya manasaputras who seek to guide Material Plane adepts through telepathy; and the lean humanoid outsiders known as the shulsaga, multiplanar hunters who ride magical disks and view intruders to their astral realm with xenophobic disdain.
+
+.. _`occultadventures.occultgame#akashic_record`:
+
+Akashic Record
+***************
+
+Deep within the Astral Plane lies a demiplane called the Akashic Record that forms a critical part of the ancient wisdom at the heart of occult philosophy. The Akashic Record is a visual library of perfect psychic records of every moment in the history of the multiverse. Those who find their way here can observe scenes from any moment from the recent to distant past, going all the way back to the beginning of the multiverse. When a dead creature's untethered astral body sees its life flash before its eyes as it awaits judgment in the Boneyard, its consciousness ventures to the Akashic Record. When a psychometrist divines a touched object's past, he really gains impressions from scenes stored in the Akashic Record.
+
+Unlike the history books of mundane existence, the Akashic Record is a perfect recording of events as they actually happened. Two creatures observing the same event in real time might come away with very different subjective understandings of what just occurred, but such confusion is impossible in the Akashic Record, which occultists speak of as the memory of nature. It is also known as the Book of the Lipika by the mysterious cloaked aeons who act as the Lords of Karma and who record every event in a mortal's life to measure its rightful place in the afterlife.
+
+A visitor consulting the Akashic Record simply turns her attention to the moment she wishes to observe, and it appears before her, not as a two-dimensional image like an illustration on page, but rather all around her, as if she were actually present witnessing the desired moment in history. The actors before her are unconscious of her presence, as they are but reflections. The observer can't change or affect their actions in any way.
+
+The observer can set the pace of events. He understands perfectly all communications within the record, even if he would not otherwise understand languages read or spoken, or the importance of cultural norms and signals otherwise foreign to him. If the event in question is from the observer's own life, he may choose to view it as an outsider, or may inhabit his form and live out the event again, re-experiencing the emotions associated with the event the first time around.
+
+Traveling to the Akashic Record, which abuts the mysterious Dimension of Time, is incredibly difficult. Spells that allow for planar travel, such as :ref:`plane shift <corerulebook.spells.planeshift#plane_shift>`\ , cannot take a seeker to the Akashic Record. While occult lore suggests several methods to "enter" the Akashic Record and influence the visions seen there (for example, to rescue a character from some past scene and escape with her to the Astral Plane), those doing so risk becoming lost in the currents of the Dimension of Time, marooned in the real past of the observed event, very likely never to return. Such meddling with the affairs of time risks drawing the ire of the Lords of Karma, unleashing retributive time elementals or inevitables, or attracting the bloodthirsty otherworldly predators known as the hounds of Tindalos.
+
+The Akashic Record has the following traits.
+
+* \ **Flowing Time**
+
+* \ **Finite Shape**
+
+* \ **Static**
+
+.. _`occultadventures.occultgame#the_boneyard`:
+
+The Boneyard
+*************
+
+A massive spire stretches deep into the sliver expanse of the Astral Plane from the surface of the Outer Sphere, beckoning unfettered monads on the River of Souls toward their final destinations in the afterlife. This gloomy realm, also known as Purgatory, is home to countless souls awaiting final judgment. Clad in the sheaths of their astral forms, these somber sojourners bask in deep reverie, reliving scenes from their mortal lives during a solitary, inward journey of remembrance and catharsis.
+
+This process, sometimes known as the "kama-loka," allows the soul to revisit key scenes from its mortal life and evaluate the lessons of its previous incarnation on the Material Plane. Only when it has worked through the psychological troubles of its past can it proceed further along the River of Souls. As a soul reflects upon and settles its past affairs, it lets go of its ties to these events and begins to forget them, cleansing its soul for the glorious (or terrible) transformations to come. This is why petitioners in the Outer Sphere seldom remember much of their mortal existence, and why most mortals cannot remember anything of their past incarnations on the Material Plane.
+
+The ancient wisdom sometimes analogizes the soul's final moments as gazing into the Lake of Mortal Reflections, and seeing the whole of one's existence flash before one's eyes. The lessons of the manasaputras who guide the occult development of mortals suggest that the greatest esoteric fate is not to simply glance at the lake, but to step fully into its waters and allow them to subsume you. A soul immersed fully in the waters of the Lake of Mortal Reflections sheds the karma and experiences of its past life and, once again, the cleansed monadic soul descends into a new physical body in a cycle of reincarnation. With each subsequent reincarnation, the monad gains a greater appreciation for the experiences of a multitude of different incarnations, underlying the concept of the universal undersoul represented by the Cosmic Fire. With this understanding comes greater control over the soul's final incarnation as an outsider. According to esoteric lore, the most learned adepts are able to choose their own fates, becoming powerful outsiders, peerless mortal "ascended masters," or even living gods.
+
+The majority of souls do not reincarnate. When they finish the kama-loka process, their astral forms stand ready for final judgment. For some souls, the kama-loka progresses rapidly, while for others it can take years, decades, or even longer. In the unlikely event of deathbed conversions, renouncements of faith, or disputed soul-binding pacts, advocates for the souls' potential fates argue with one another.
+
+The Boneyard has the following traits.
+
+* \ **Timeless**\ : Age, hunger, thirst, afflictions (such as diseases, curses, and poisons), and natural healing don't function in the Boneyard, though they resume functioning when the traveler leaves the Boneyard.
+
+* \ **Divinely Morphic**\ : Deities with domains in the Boneyard can alter the plane at will.
+
+* \ **Strongly Neutral-Aligned**
+
+* \ **Enhanced Magic**\ : Spells and spell-like abilities with the death descriptor, or from the Death or Repose domains, are enhanced.
+
+.. _`occultadventures.occultgame#outer_sphere`:
+
+Outer Sphere
+*************
+
+The silver void of the Astral Plane extends from the edge of the Inner Sphere to the planes of the Outer Sphere, where souls sent from the Boneyard arrive at their final afterlife destinations in realms attuned to their beliefs and alignment. By the time they arrive here, those mortal souls who did not immediately incarnate as outsiders or direct servitors of their deities are known as petitioners. Having transcended mortal life, their past existence means less and less to them as time goes on. The few petitioners who even remember those they left behind cannot bring themselves to worry for them, focusing instead on the paradises or hellscapes immediately before them.
+
+As time progresses, petitioners become more and more attuned to their chosen or assigned plane. Some manage to eventually ascend into the form of an outsider associated with their plane, but others simply end their journey of existence by merging completely with their plane in body and soul, vanishing from reality altogether and becoming quintessence—the very matter of the Outer Sphere itself.
+

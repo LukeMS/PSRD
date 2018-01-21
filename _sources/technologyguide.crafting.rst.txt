@@ -1,0 +1,59 @@
+
+.. _`technologyguide.crafting`:
+
+.. contents:: \ 
+
+.. _`technologyguide.crafting#crafting_high_tech_items`:
+
+Crafting High-Tech Items
+#########################
+
+The process of building technological items has much in common with magic item creation, though it uses different feats, skills, and facilities. As with magic items, the creator invests time and money in the creation process and at the end attempts a single skill check to complete construction. Since technological items do not have caster levels, the DC of this check is defined in the description of each technological item. Failing this check means that the item does not function and the materials are wasted. Failing this check by 5 or more may result in a catastrophic failure, such as electrocution or an explosion, at the GM's discretion.
+
+Unlike magic items, which often require spells as prerequisites for construction, high-tech items require a specialized laboratory with the necessary tools for fabrication. Using a crafting lab to build a high-tech item consumes an amount of power each day. Days when the crafting lab is without power effectively delay continued construction of a high-tech item, but time already spent building the item is not lost. In addition, crafting an item requires an expenditure of time (from a character with the appropriate crafting feat) and an expenditure of money used to secure the technological components and expendable resources needed for the work.
+
+Creating a technological item requires 8 hours of work per 1,000 gp in the item's base price (or fraction thereof). The creator must spend the gold at the beginning of the construction process. The process can be accelerated to 4 hours of work per 1,000 gp by increasing the DC to create the item by 5. When determining the required time, ignore any fixed costs such as the weapon portion of implanted weaponry.
+
+The creator can work for a maximum of 8 hours per day, even if she doesn't require sleep or rest. These days need not be consecutive. Ideally, the creator can work for at least 4 hours at a time uninterrupted, but if this is not possible (such as while adventuring), the creator can devote 4 hours of work broken up over the day, accomplishing a net of 2 hours of progress. Work under distracting or dangerous conditions nets only half the progress as well. If the creator can't dedicate at least 4 hours of work during a day (even if broken up or under distracting conditions), any work performed that day is wasted.
+
+A character can work on multiple technological items at a time, or even in the same day as long as at least 2 hours net labor can be spent on each item. This doesn't let a creator exceed the limits on work accomplished in a single day, but does require separate power expenditures for each item (working on multiple projects at a time is not particularly energy efficient).
+
+Technological items can be repaired using the appropriate crafting feats in the same way magical items can be repaired, but such methods cannot repair the more fundamental ravages of time that afflict timeworn technological items.
+
+.. _`technologyguide.crafting#crafting_laboratories`:
+
+Crafting Laboratories
+**********************
+
+Although there is a wide range of technological items, the types of laboratories needed to craft objects are relatively limited. Crafting laboratories are, unfortunately, incredibly rare, and those whose locations are currently known and found in relatively safe regions are firmly controlled. A crafting laboratory is similar to a :ref:`technological artifact <technologyguide.artifacts>`\ , in that it cannot be assembled or built with current resources. In order to craft a technological item, one must secure a laboratory for use. (This allows GMs to limit the role high-tech crafting plays in any one game—make sure to inform your players of the limited availability of crafting laboratories at the start of your game so they know whether selecting high-tech crafting feats is a useful option for their PCs!)
+
+The six types of laboratories are listed below. Each lab also lists the number of charges required for a day's work on a single project—these numbers are generally rather high, and laboratories that don't draw power from a generator can consume staggering amounts of battery power. A laboratory that uses power from a generator applies the listed charges to that generator's dedicated yield for as long as work on the item continues.
+
+\ **Cybernetics Lab (100 charges)**\ : A cybernetics lab is used to craft cybernetic equipment and devices that interface directly with a living creature's biology.
+
+\ **Graviton Lab (250 charges)**\ : A graviton lab is used to craft items that utilize graviton technology, such as gravity rifles, force fields, and magboots.
+
+\ **Medical Lab (20 charges)**\ : This lab is used to craft medical items like trauma packs and medlances and pharmaceuticals.
+
+\ **Military Lab (100 charges)**\ : A military lab is used to craft weapons that don't require more specialized laboratories.
+
+\ **Nanotech Lab (150 charges)**\ : This lab is used to craft devices that utilize nanotechnology, such as id rifles and k-lances.
+
+\ **Production Lab (50 charges)**\ : A production lab is used to craft objects that don't require more specialized laboratories.
+
+.. _`technologyguide.crafting#hybrid_items`:
+
+Hybrid Items
+*************
+
+Items with both magical and technological components, such as the :ref:`null blade <technologyguide.weapons#null_blade>`\ , use a special crafting process. The creator must first succeed at a skill check at the listed DC for crafting the technological portion of the item, and then must succeed at a check based on the item's caster level for crafting the magical portion. Any spell or level-based prerequisites not met increase this crafting DC, as described for magic item creation. The skill used for each check is based on the item creation feats required by the item. Failure on either check ruins the item. Use the item's listed price as normal for determining crafting time, and the item's cost for raw materials. If the creator has feats or abilities that accelerate item creation, only the least favorable bonus applies. In other words, to create a hybrid item faster, the creator needs to be able to create both magical and technological items faster.
+
+It is also possible to enhance high-tech armor and high-tech weaponry with armor special abilities or weapon special abilities, including magical enhancement bonuses. One could build a +2 :ref:`laser rifle <technologyguide.weapons#laser_rifle>`\ , a +4 dancing humanoid bane :ref:`chainsaw <technologyguide.weapons#chainsaw>`\ , or a +1 ghost touch :ref:`spacesuit <technologyguide.armor#spacesuit>`\ . In theory, a magic item creator could even infuse a technological item with magical intelligence. To create a magical high-tech item like this, one must first secure the high-tech item itself, either via purchase, discovery, or crafting. All high-tech weapons and armor are considered masterwork for the purposes of adding magical enhancements to them (though they do not gain the other typical benefits for masterwork items). At the GM's discretion, some magical special abilities might simply not be appropriate for application to certain technological items. When a character crafts an existing technological item into a magic item in this manner, he does not need to meet the base item's crafting requirements—a wizard with Craft Magic Arms and Armor can create a +1 :ref:`arc pistol <technologyguide.weapons#arc_pistol>`\  from a normal arc pistol without having Craft Technological Arms and Armor and without having access to a military laboratory. In a situation where a character wishes to craft the entire item from scratch, the nonmagical technological item must be fully crafted and completed before work on magically enhancing it can begin.
+
+.. _`technologyguide.crafting#pricing_and_creating_new_technological_items`:
+
+Pricing and Creating New Technological Items
+*********************************************
+
+New technological items can and should be created, using existing items for inspiration. A new item may resemble an existing magic item, such as how jet packs function like :ref:`winged boots <corerulebook.magicitems.wondrousitems#boots_winged>`\ , but there should be differences beyond just battery power to keep technology distinct. When pricing a new technological item, use the existing guidelines for estimating magic item value. There's no extra cost associated with technological items since they have extra weaknesses to go along with their advantages. Items that use charges should be priced as if they were use-activated, not as if they were charged in the way a wand or :ref:`ring of the ram <corerulebook.magicitems.rings#ring_of_the_ram>`\  is charged, unless the item is disposable and has 50 or fewer charges, as the assumption is that a newly crafted technological item can be recharged with relative ease.
+

@@ -1,0 +1,564 @@
+
+
+
+
+
+<head>
+    <link rel="stylesheet" href="_static/srd.css" type="text/css" />
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/toggle_list.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+
+
+
+<body>
+    <div class="contents topic" id="id1">
+<span id="advancedclassguide-classes-skald"></span><p class="topic-title first"></p>
+<ul class="simple">
+<li><a class="reference internal" href="#skald" id="id4">Skald</a><ul>
+<li><a class="reference internal" href="#class-skills" id="id5">Class Skills</a></li>
+<li><a class="reference internal" href="#class-features" id="id6">Class Features</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="skald">
+<span id="advancedclassguide-classes-skald-skald"></span><h1><a class="toc-backref" href="#id4">Skald</a><a class="headerlink" href="#skald" title="Permalink to this headline">¶</a></h1>
+<p>Skalds are poets, historians, and keepers of lore who use their gifts for oration and song to inspire allies into a frenzied rage. They balance a violent spirit with the veneer of civilization, recording events such as heroic battles and the deeds of great leaders, enhancing these stories in the retelling to earn bloodier victories in combat. The poetry of a skald is nuanced and often has multiple overlapping meanings, and he applies similar talents to emulate magic from other spellcasters.</p>
+<p><strong>Role</strong>: A skald inspires his allies, and often presses forward to fight enemies in melee. Outside combat, he’s useful as a healer and a scholar, less versatile but more durable than a bard.</p>
+<p><strong>Alignment</strong>: Any.</p>
+<p><strong>Hit Die</strong>: d8.</p>
+<p><strong>Parent Classes</strong>: Barbarian and bard.</p>
+<p><strong>Starting Wealth</strong>: 3d6 × 10 gp (average 105 gp).</p>
+<span id="advancedclassguide-classes-skald-arcanist-progression-table"></span><table border="1" class="colwidths-auto contrast-reading-table docutils" id="id2">
+<caption><span class="caption-text">Skald</span><a class="headerlink" href="#id2" title="Permalink to this table">¶</a></caption>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Level</th>
+<th class="head">Base Attack Bonus</th>
+<th class="head">Fort Save</th>
+<th class="head">Ref Save</th>
+<th class="head">Will Save</th>
+<th class="head">Special</th>
+<th class="head">1st</th>
+<th class="head">2nd</th>
+<th class="head">3rd</th>
+<th class="head">4th</th>
+<th class="head">5th</th>
+<th class="head">6th</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>1st</td>
+<td>+0</td>
+<td>+2</td>
+<td>+0</td>
+<td>+2</td>
+<td><a class="reference internal" href="#advancedclassguide-classes-skald-bardic-knowledge"><span class="std std-ref">Bardic knowledge</span></a>, <a class="reference internal" href="#advancedclassguide-classes-skald-cantrips"><span class="std std-ref">cantrips</span></a>, <a class="reference internal" href="#advancedclassguide-classes-skald-inspired-rage"><span class="std std-ref">inspired rage</span></a> +1 (+2 Str/Con), <a class="reference internal" href="#advancedclassguide-classes-skald-raging-song"><span class="std std-ref">raging song</span></a>, <a class="reference internal" href="#advancedclassguide-classes-skald-scribe-scroll"><span class="std std-ref">Scribe Scroll</span></a></td>
+<td>1</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-odd"><td>2nd</td>
+<td>+1</td>
+<td>+3</td>
+<td>+0</td>
+<td>+3</td>
+<td><a class="reference internal" href="#advancedclassguide-classes-skald-versatile-performance"><span class="std std-ref">Versatile performance</span></a>, <a class="reference internal" href="#advancedclassguide-classes-skald-well-versed"><span class="std std-ref">well-versed</span></a></td>
+<td>2</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-even"><td>3rd</td>
+<td>+2</td>
+<td>+3</td>
+<td>+1</td>
+<td>+3</td>
+<td><a class="reference internal" href="#advancedclassguide-classes-skald-rage-powers"><span class="std std-ref">Rage power</span></a>, <a class="reference internal" href="#advancedclassguide-classes-skald-song-of-marching"><span class="std std-ref">song of marching</span></a></td>
+<td>3</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-odd"><td>4th</td>
+<td>+3</td>
+<td>+4</td>
+<td>+1</td>
+<td>+4</td>
+<td><a class="reference internal" href="#advancedclassguide-classes-skald-inspired-rage"><span class="std std-ref">Inspired rage</span></a> +2, <a class="reference internal" href="#advancedclassguide-classes-skald-uncanny-dodge"><span class="std std-ref">uncanny dodge</span></a></td>
+<td>3</td>
+<td>1</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-even"><td>5th</td>
+<td>+3</td>
+<td>+4</td>
+<td>+1</td>
+<td>+4</td>
+<td><a class="reference internal" href="#advancedclassguide-classes-skald-spell-kenning"><span class="std std-ref">Spell kenning</span></a> 1/day</td>
+<td>4</td>
+<td>2</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-odd"><td>6th</td>
+<td>+4</td>
+<td>+5</td>
+<td>+2</td>
+<td>+5</td>
+<td><a class="reference internal" href="#advancedclassguide-classes-skald-rage-powers"><span class="std std-ref">Rage power</span></a>, <a class="reference internal" href="#advancedclassguide-classes-skald-song-of-strength"><span class="std std-ref">song of strength</span></a></td>
+<td>4</td>
+<td>3</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-even"><td>7th</td>
+<td>+5</td>
+<td>+5</td>
+<td>+2</td>
+<td>+5</td>
+<td><a class="reference internal" href="#advancedclassguide-classes-skald-lore-master"><span class="std std-ref">Lore master</span></a> 1/day, <a class="reference internal" href="#advancedclassguide-classes-skald-versatile-performance"><span class="std std-ref">versatile performance</span></a></td>
+<td>4</td>
+<td>3</td>
+<td>1</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-odd"><td>8th</td>
+<td>+6/+1</td>
+<td>+6</td>
+<td>+2</td>
+<td>+6</td>
+<td><a class="reference internal" href="#advancedclassguide-classes-skald-improved-uncanny-dodge"><span class="std std-ref">Improved uncanny dodge</span></a>, <a class="reference internal" href="#advancedclassguide-classes-skald-inspired-rage"><span class="std std-ref">inspired rage</span></a> +3 (+4 Str/Con)</td>
+<td>4</td>
+<td>4</td>
+<td>2</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-even"><td>9th</td>
+<td>+6/+1</td>
+<td>+6</td>
+<td>+3</td>
+<td>+6</td>
+<td><a class="reference internal" href="#advancedclassguide-classes-skald-rage-powers"><span class="std std-ref">Rage power</span></a>, DR 1/—</td>
+<td>5</td>
+<td>4</td>
+<td>3</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-odd"><td>10th</td>
+<td>+7/+2</td>
+<td>+7</td>
+<td>+3</td>
+<td>+7</td>
+<td><a class="reference internal" href="#advancedclassguide-classes-skald-dirge-of-doom"><span class="std std-ref">Dirge of doom</span></a></td>
+<td>5</td>
+<td>4</td>
+<td>3</td>
+<td>1</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-even"><td>11th</td>
+<td>+8/+3</td>
+<td>+7</td>
+<td>+3</td>
+<td>+7</td>
+<td><a class="reference internal" href="#advancedclassguide-classes-skald-spell-kenning"><span class="std std-ref">Spell kenning</span></a> 2/day</td>
+<td>5</td>
+<td>4</td>
+<td>4</td>
+<td>2</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-odd"><td>12th</td>
+<td>+9/+4</td>
+<td>+8</td>
+<td>+4</td>
+<td>+8</td>
+<td><a class="reference internal" href="#advancedclassguide-classes-skald-inspired-rage"><span class="std std-ref">Inspired rage</span></a> +4, <a class="reference internal" href="#advancedclassguide-classes-skald-rage-powers"><span class="std std-ref">rage power</span></a>, <a class="reference internal" href="#advancedclassguide-classes-skald-versatile-performance"><span class="std std-ref">versatile performance</span></a></td>
+<td>5</td>
+<td>5</td>
+<td>4</td>
+<td>3</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-even"><td>13th</td>
+<td>+9/+4</td>
+<td>+8</td>
+<td>+4</td>
+<td>+8</td>
+<td><a class="reference internal" href="#advancedclassguide-classes-skald-lore-master"><span class="std std-ref">Lore master</span></a> 2/day</td>
+<td>5</td>
+<td>5</td>
+<td>4</td>
+<td>3</td>
+<td>1</td>
+<td>—</td>
+</tr>
+<tr class="row-odd"><td>14th</td>
+<td>+10/+5</td>
+<td>+9</td>
+<td>+4</td>
+<td>+9</td>
+<td>DR 2/—, <a class="reference internal" href="#advancedclassguide-classes-skald-song-of-the-fallen"><span class="std std-ref">song of the fallen</span></a></td>
+<td>5</td>
+<td>5</td>
+<td>4</td>
+<td>4</td>
+<td>2</td>
+<td>—</td>
+</tr>
+<tr class="row-even"><td>15th</td>
+<td>+11/+6/+1</td>
+<td>+9</td>
+<td>+5</td>
+<td>+9</td>
+<td><a class="reference internal" href="#advancedclassguide-classes-skald-rage-powers"><span class="std std-ref">Rage power</span></a></td>
+<td>5</td>
+<td>5</td>
+<td>5</td>
+<td>4</td>
+<td>3</td>
+<td>—</td>
+</tr>
+<tr class="row-odd"><td>16th</td>
+<td>+12/+7/+2</td>
+<td>+10</td>
+<td>+5</td>
+<td>+10</td>
+<td><a class="reference internal" href="#advancedclassguide-classes-skald-inspired-rage"><span class="std std-ref">Inspired rage</span></a> +5 (+6 Str/Con)</td>
+<td>5</td>
+<td>5</td>
+<td>5</td>
+<td>4</td>
+<td>3</td>
+<td>1</td>
+</tr>
+<tr class="row-even"><td>17th</td>
+<td>+12/+7/+2</td>
+<td>+10</td>
+<td>+5</td>
+<td>+10</td>
+<td><a class="reference internal" href="#advancedclassguide-classes-skald-spell-kenning"><span class="std std-ref">Spell kenning</span></a> 3/day, <a class="reference internal" href="#advancedclassguide-classes-skald-versatile-performance"><span class="std std-ref">versatile performance</span></a></td>
+<td>5</td>
+<td>5</td>
+<td>5</td>
+<td>4</td>
+<td>4</td>
+<td>2</td>
+</tr>
+<tr class="row-odd"><td>18th</td>
+<td>+13/+8/+3</td>
+<td>+11</td>
+<td>+6</td>
+<td>+11</td>
+<td><a class="reference internal" href="#advancedclassguide-classes-skald-rage-powers"><span class="std std-ref">Rage power</span></a></td>
+<td>5</td>
+<td>5</td>
+<td>5</td>
+<td>5</td>
+<td>4</td>
+<td>3</td>
+</tr>
+<tr class="row-even"><td>19th</td>
+<td>+14/+9/+4</td>
+<td>+11</td>
+<td>+6</td>
+<td>+11</td>
+<td>DR 3/—, <a class="reference internal" href="#advancedclassguide-classes-skald-lore-master"><span class="std std-ref">lore master</span></a> 3/day</td>
+<td>5</td>
+<td>5</td>
+<td>5</td>
+<td>5</td>
+<td>5</td>
+<td>4</td>
+</tr>
+<tr class="row-odd"><td>20th</td>
+<td>+15/+10/+5</td>
+<td>+12</td>
+<td>+6</td>
+<td>+12</td>
+<td><a class="reference internal" href="#advancedclassguide-classes-skald-inspired-rage"><span class="std std-ref">Inspired rage</span></a> +6, <a class="reference internal" href="#advancedclassguide-classes-skald-master-skald"><span class="std std-ref">master skald</span></a></td>
+<td>5</td>
+<td>5</td>
+<td>5</td>
+<td>5</td>
+<td>5</td>
+<td>5</td>
+</tr>
+</tbody>
+</table>
+<span id="advancedclassguide-classes-skald-skald-spells-known"></span><table border="1" class="colwidths-auto contrast-reading-table docutils" id="id3">
+<caption><span class="caption-text">Skald Spells Known</span><a class="headerlink" href="#id3" title="Permalink to this table">¶</a></caption>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Level</th>
+<th class="head">0</th>
+<th class="head">1st</th>
+<th class="head">2nd</th>
+<th class="head">3rd</th>
+<th class="head">4th</th>
+<th class="head">5th</th>
+<th class="head">6th</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>1st</td>
+<td>4</td>
+<td>2</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-odd"><td>2nd</td>
+<td>5</td>
+<td>3</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-even"><td>3rd</td>
+<td>6</td>
+<td>4</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-odd"><td>4th</td>
+<td>6</td>
+<td>4</td>
+<td>2</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-even"><td>5th</td>
+<td>6</td>
+<td>4</td>
+<td>3</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-odd"><td>6th</td>
+<td>6</td>
+<td>4</td>
+<td>4</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-even"><td>7th</td>
+<td>6</td>
+<td>5</td>
+<td>4</td>
+<td>2</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-odd"><td>8th</td>
+<td>6</td>
+<td>5</td>
+<td>4</td>
+<td>3</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-even"><td>9th</td>
+<td>6</td>
+<td>5</td>
+<td>4</td>
+<td>4</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-odd"><td>10th</td>
+<td>6</td>
+<td>5</td>
+<td>5</td>
+<td>4</td>
+<td>2</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-even"><td>11th</td>
+<td>6</td>
+<td>6</td>
+<td>5</td>
+<td>4</td>
+<td>3</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-odd"><td>12th</td>
+<td>6</td>
+<td>6</td>
+<td>5</td>
+<td>4</td>
+<td>4</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-even"><td>13th</td>
+<td>6</td>
+<td>6</td>
+<td>5</td>
+<td>5</td>
+<td>4</td>
+<td>2</td>
+<td>—</td>
+</tr>
+<tr class="row-odd"><td>14th</td>
+<td>6</td>
+<td>6</td>
+<td>6</td>
+<td>5</td>
+<td>4</td>
+<td>3</td>
+<td>—</td>
+</tr>
+<tr class="row-even"><td>15th</td>
+<td>6</td>
+<td>6</td>
+<td>6</td>
+<td>5</td>
+<td>4</td>
+<td>4</td>
+<td>—</td>
+</tr>
+<tr class="row-odd"><td>16th</td>
+<td>6</td>
+<td>6</td>
+<td>6</td>
+<td>5</td>
+<td>5</td>
+<td>4</td>
+<td>2</td>
+</tr>
+<tr class="row-even"><td>17th</td>
+<td>6</td>
+<td>6</td>
+<td>6</td>
+<td>6</td>
+<td>5</td>
+<td>4</td>
+<td>3</td>
+</tr>
+<tr class="row-odd"><td>18th</td>
+<td>6</td>
+<td>6</td>
+<td>6</td>
+<td>6</td>
+<td>5</td>
+<td>4</td>
+<td>4</td>
+</tr>
+<tr class="row-even"><td>19th</td>
+<td>6</td>
+<td>6</td>
+<td>6</td>
+<td>6</td>
+<td>5</td>
+<td>5</td>
+<td>4</td>
+</tr>
+<tr class="row-odd"><td>20th</td>
+<td>6</td>
+<td>6</td>
+<td>6</td>
+<td>6</td>
+<td>6</td>
+<td>5</td>
+<td>5</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="class-skills">
+<span id="advancedclassguide-classes-skald-class-skills"></span><h2><a class="toc-backref" href="#id5">Class Skills</a><a class="headerlink" href="#class-skills" title="Permalink to this headline">¶</a></h2>
+<p>The skald’s class skills are <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a> (Dex), <a class="reference internal" href="corerulebook.skills.appraise.html#corerulebook-skills-appraise-appraise"><span class="std std-ref">Appraise</span></a> (Int), <a class="reference internal" href="corerulebook.skills.bluff.html#corerulebook-skills-bluff-bluff"><span class="std std-ref">Bluff</span></a> (Cha), <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> (Str), <a class="reference internal" href="corerulebook.skills.craft.html#corerulebook-skills-craft-craft"><span class="std std-ref">Craft</span></a> (Int), <a class="reference internal" href="corerulebook.skills.diplomacy.html#corerulebook-skills-diplomacy-diplomacy"><span class="std std-ref">Diplomacy</span></a> (Cha), <a class="reference internal" href="corerulebook.skills.escapeartist.html#corerulebook-skills-escapeartist-escape-artist"><span class="std std-ref">Escape Artist</span></a> (Dex), <a class="reference internal" href="corerulebook.skills.handleanimal.html#corerulebook-skills-handleanimal-handle-animal"><span class="std std-ref">Handle Animal</span></a> (Cha), <a class="reference internal" href="corerulebook.skills.intimidate.html#corerulebook-skills-intimidate-intimidate"><span class="std std-ref">Intimidate</span></a> (Cha), <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (all) (Int), <a class="reference internal" href="corerulebook.skills.linguistics.html#corerulebook-skills-linguistics-linguistics"><span class="std std-ref">Linguistics</span></a> (Int), <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> (Wis), <a class="reference internal" href="corerulebook.skills.perform.html#corerulebook-skills-perform-perform"><span class="std std-ref">Perform</span></a> (oratory, percussion, sing, string, wind) (Cha), <a class="reference internal" href="corerulebook.skills.profession.html#corerulebook-skills-profession-profession"><span class="std std-ref">Profession</span></a> (Wis), <a class="reference internal" href="corerulebook.skills.ride.html#corerulebook-skills-ride-ride"><span class="std std-ref">Ride</span></a> (Dex), <a class="reference internal" href="corerulebook.skills.sensemotive.html#corerulebook-skills-sensemotive-sense-motive"><span class="std std-ref">Sense Motive</span></a> (Wis), <a class="reference internal" href="corerulebook.skills.spellcraft.html#corerulebook-skills-spellcraft-spellcraft"><span class="std std-ref">Spellcraft</span></a> (Int), <a class="reference internal" href="corerulebook.skills.swim.html#corerulebook-skills-swim-swim"><span class="std std-ref">Swim</span></a> (Str), and <a class="reference internal" href="corerulebook.skills.usemagicdevice.html#corerulebook-skills-usemagicdevice-use-magic-device"><span class="std std-ref">Use Magic Device</span></a> (Cha).</p>
+<p><strong>Skill Ranks per Level</strong>: 4 + Int modifier.</p>
+</div>
+<div class="section" id="class-features">
+<span id="advancedclassguide-classes-skald-class-features"></span><h2><a class="toc-backref" href="#id6">Class Features</a><a class="headerlink" href="#class-features" title="Permalink to this headline">¶</a></h2>
+<p>The following are the class features of the skald.</p>
+<p><strong>Weapon and Armor Proficiency</strong>: A skald is proficient with all simple and martial weapons, as well as light armor, medium armor, and shields (except tower shields). A skald can cast skald spells while wearing light or medium armor and even while using a shield without incurring the normal arcane spell failure chance. This does not affect the arcane spell failure chance for arcane spells received from other classes. Like other arcane spellcasters, a skald wearing heavy armor incurs a chance of arcane spell failure if the spell in question has somatic components.</p>
+<p id="advancedclassguide-classes-skald-bardic-knowledge"><strong>Bardic Knowledge (Ex)</strong>: A skald adds 1/2 his class level (minimum 1) on all <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> checks, and can attempt all <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> checks untrained.</p>
+<p id="advancedclassguide-classes-skald-cantrips"><strong>Cantrips</strong>: Skalds learn a number of cantrips, or 0-level spells, as noted on the table above. These spells are cast like any other spell, but they do not consume any slots and may be used again.</p>
+<p id="advancedclassguide-classes-skald-spells"><strong>Spells</strong>: A skald casts arcane spells drawn from the <a class="reference internal" href="indices.spelllists.html#indices-spelllists"><span class="std std-ref">bard spell list</span></a>. He can cast any spell he knows without preparing it ahead of time. Every skald spell has a verbal component—these verbal components can take the form of song, recitation, or even nonverbal music like percussion. To learn or cast a spell, a skald must have a Charisma score equal to at least 10 + the spell’s level. The saving throw DC against a skald’s spell is 10 + the spell’s level + the skald’s Charisma modifier.</p>
+<p>Like other spellcasters, a skald can cast only a certain number of spells of each spell level per day. His base daily spell allotment is given on the table above. In addition, he receives bonus spells per day if he has a high Charisma score.</p>
+<p>The skald’s selection of spells is limited. A skald begins play knowing four 0-level spells and two 1st-level spells of the skald’s choice. At each new skald level, he gains one or more new spells, as indicated on the table above. Unlike spells per day, the number of spells a skald knows isn’t affected by his Charisma score; the numbers on the table above are fixed.</p>
+<p>At 5th level and every 3 levels thereafter, a skald can choose to learn a new spell in place of one he already knows. In effect, the skald loses the old spell in exchange for the new one. The new spell’s level must be the same as that of the spell being exchanged, and it must be at least 1 level lower than the highest-level skald spell the skald can cast. A skald may swap only a single spell at any given level, and must choose whether or not to swap the spell at the same time that he gains new spells known for the level.</p>
+<p>A skald need not prepare his spells in advance. He can cast any spell he knows at any time, assuming he has not yet used up his allotment of spells per day for the spell’s level.</p>
+<p id="advancedclassguide-classes-skald-raging-song"><strong>Raging Song (Su)</strong>: A skald is trained to use music, oration, and similar performances to inspire his allies to feats of strength and ferocity. At 1st level, a skald can use this ability for a number of rounds per day equal to 3 + his Charisma modifier. For each level beyond 1st, he can use raging song for 2 additional rounds per day.</p>
+<p>Starting a raging song is a standard action, but it can be maintained each round as a free action. A raging song cannot be disrupted, but it ends immediately if the skald is killed, paralyzed, stunned, knocked unconscious, or otherwise prevented from taking a free action each round to maintain it. A raging song counts as the bard’s <a class="reference internal" href="corerulebook.classes.bard.html#corerulebook-classes-bard-bardic-performance"><span class="std std-ref">bardic performance</span></a> special ability for any effect that affects bardic performances. A skald may learn <a class="reference internal" href="ultimatemagic.spellcastingclassoptions.bard.html#ultimatemagic-spellcastingclassoptions-bard-masterpieces"><span class="std std-ref">bard masterpieces</span></a>.</p>
+<p>A raging song has audible components, but not visual components. Allies must be able to hear the skald for the song to have any effect on them. A deaf skald has a 20% chance to fail when attempting to use a raging song. If he fails this check, the attempt still counts against his daily limit.</p>
+<p>When the skald begins a raging song and then on each ally’s turn, if the ally can hear the raging song, that ally must decide whether to accept or refuse its effects. This is not an action. Unconscious allies automatically accept the song. If accepted, the raging song’s effects on that ally last for that ally’s turn or until the song ends, whichever comes first.</p>
+<p>At 7th level, a skald can start a raging song as a move action instead of a standard action. At 13th level, a skald can start a raging song as a swift action instead.</p>
+<p id="advancedclassguide-classes-skald-inspired-rage"><em>Inspired Rage (Su)</em>: At 1st level, affected allies gain a +2 morale bonus to Strength and Constitution and a +1 morale bonus on Will saving throws, but also take a –1 penalty to AC. While under the effects of inspired rage, allies other than the skald cannot use any Charisma-, Dexterity-, or Intelligence-based skills (except <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a>, <a class="reference internal" href="corerulebook.skills.fly.html#corerulebook-skills-fly-fly"><span class="std std-ref">Fly</span></a>, <a class="reference internal" href="corerulebook.skills.intimidate.html#corerulebook-skills-intimidate-intimidate"><span class="std std-ref">Intimidate</span></a>, and <a class="reference internal" href="corerulebook.skills.ride.html#corerulebook-skills-ride-ride"><span class="std std-ref">Ride</span></a>) or any ability that requires patience or concentration. At 4th level and every 4 levels thereafter, the song’s bonuses on Will saves increase by 1; the penalty to AC doesn’t change. At 8th and 16th levels, the song’s bonuses to Strength and Constitution increase by 2. (Unlike with the barbarian’s rage ability, those affected are not fatigued after the song ends.)</p>
+<p>If an ally has her own rage class ability (such as barbarian’s rage, bloodrager’s bloodrage, or skald’s inspired rage), she may use the Strength, Constitution, and Will saving throw bonuses, as well as AC penalties, based on her own ability and level instead of those from the skald (still suffering no fatigue afterward). Inspired rage does not allow an ally to activate abilities dependent on other rage class abilities, such as rage powers, blood casting, or bloodrager bloodlines; the ally must activate her own rage class ability in order to use these features.</p>
+<p id="advancedclassguide-classes-skald-song-of-marching"><em>Song of Marching (Su)</em>: At 3rd level, a skald can use raging song to inspire his allies to move faster without suffering from fatigue. By expending 1 round of raging song, the skald invigorates allies within 60 feet, who may <a class="reference internal" href="corerulebook.additionalrules.html#corerulebook-additionalrules-hustle"><span class="std std-ref">hustle</span></a> for the next hour; this movement counts as a walk (not a <a class="reference internal" href="corerulebook.additionalrules.html#corerulebook-additionalrules-hustle"><span class="std std-ref">hustle</span></a>) for the purpose of accruing nonlethal damage and fatigue. The skald must continue to perform the song for the remainder of the hour, otherwise its effects end, but only 1 round of raging song is expended for that hour.</p>
+<p id="advancedclassguide-classes-skald-song-of-strength"><em>Song of Strength (Su)</em>: At 6th level, a skald can use raging song to inspire his allies to superhuman feats of strength. Once each round while the skald uses this performance, allies within 60 feet who can hear the skald may add 1/2 the skald’s level to a Strength check or a Strength-based skill check.</p>
+<p id="advancedclassguide-classes-skald-dirge-of-doom"><em>Dirge of Doom (Su)</em>: At 10th level, a skald can create a sense of growing dread in his enemies, causing them to become shaken. This ability affects only enemies that are within 30 feet and able to hear the skald’s performance. The effect persists for as long as the enemy is within 30 feet and the skald continues his performance. It cannot cause a creature to become frightened or panicked, even if the creature is already shaken from another effect. This is a sonic mind-affecting fear effect that relies on audible components.</p>
+<p id="advancedclassguide-classes-skald-song-of-the-fallen"><em>Song of the Fallen (Su)</em>: At 14th level, a skald can temporarily revive dead allies so they can continue fighting, with the same limitations as <a class="reference internal" href="corerulebook.spells.raisedead.html#corerulebook-spells-raisedead-raise-dead"><span class="std std-ref">raise dead</span></a>. The skald selects a dead ally within 60 feet and expends 1 round of raging song to bring that ally back to life. The revived ally is alive but staggered. Each round, the skald can expend another 1 round of raging song to keep that ally alive for another round. The ally automatically dies if the skald ends this performance or is interrupted. The skald can revive multiple allies with this ability (either at the same time or over successive rounds) but must expend 1 round of raging song per revived ally per round to maintain the effect.</p>
+<p id="advancedclassguide-classes-skald-scribe-scroll"><strong>Scribe Scroll</strong>: At 1st level, a skald gains <a class="reference internal" href="corerulebook.feats.html#scribe scroll (item creation)"><span class="std std-ref">Scribe Scroll</span></a> as a bonus feat.</p>
+<p id="advancedclassguide-classes-skald-versatile-performance"><strong>Versatile Performance (Ex)</strong>: At 2nd level, a skald can choose one category of <a class="reference internal" href="corerulebook.skills.perform.html#corerulebook-skills-perform-perform"><span class="std std-ref">Perform</span></a> skill associated with the skald class (see below). He can use his modifier for that skill in place of his modifier for the associated skills listed below. When substituting in this way, the skald uses his total <a class="reference internal" href="corerulebook.skills.perform.html#corerulebook-skills-perform-perform"><span class="std std-ref">Perform</span></a> skill modifier in place of the associated skill’s modifier, whether or not he has ranks in that skill or if it is a class skill. At 7th level, and every 5 levels thereafter, the skald can select an additional category of <a class="reference internal" href="corerulebook.skills.perform.html#corerulebook-skills-perform-perform"><span class="std std-ref">Perform</span></a> to substitute.</p>
+<p>The categories of <a class="reference internal" href="corerulebook.skills.perform.html#corerulebook-skills-perform-perform"><span class="std std-ref">Perform</span></a> and their associated skills are Oratory (<a class="reference internal" href="corerulebook.skills.diplomacy.html#corerulebook-skills-diplomacy-diplomacy"><span class="std std-ref">Diplomacy</span></a>, <a class="reference internal" href="corerulebook.skills.sensemotive.html#corerulebook-skills-sensemotive-sense-motive"><span class="std std-ref">Sense Motive</span></a>), Percussion (<a class="reference internal" href="corerulebook.skills.handleanimal.html#corerulebook-skills-handleanimal-handle-animal"><span class="std std-ref">Handle Animal</span></a>, <a class="reference internal" href="corerulebook.skills.intimidate.html#corerulebook-skills-intimidate-intimidate"><span class="std std-ref">Intimidate</span></a>), Sing (<a class="reference internal" href="corerulebook.skills.bluff.html#corerulebook-skills-bluff-bluff"><span class="std std-ref">Bluff</span></a>, <a class="reference internal" href="corerulebook.skills.sensemotive.html#corerulebook-skills-sensemotive-sense-motive"><span class="std std-ref">Sense Motive</span></a>), String (<a class="reference internal" href="corerulebook.skills.bluff.html#corerulebook-skills-bluff-bluff"><span class="std std-ref">Bluff</span></a>, <a class="reference internal" href="corerulebook.skills.diplomacy.html#corerulebook-skills-diplomacy-diplomacy"><span class="std std-ref">Diplomacy</span></a>), and Wind (<a class="reference internal" href="corerulebook.skills.diplomacy.html#corerulebook-skills-diplomacy-diplomacy"><span class="std std-ref">Diplomacy</span></a>, <a class="reference internal" href="corerulebook.skills.handleanimal.html#corerulebook-skills-handleanimal-handle-animal"><span class="std std-ref">Handle Animal</span></a>).</p>
+<p id="advancedclassguide-classes-skald-well-versed"><strong>Well-Versed (Ex)</strong>: At 2nd level, the skald becomes less susceptible to sonic effects. The skald gains a +4 bonus on saving throws against bardic performance, as well as all sonic or language-dependent effects.</p>
+<p id="advancedclassguide-classes-skald-rage-powers"><strong>Rage Powers (Ex)</strong>: At 3rd level and every 3 levels thereafter, a skald learns a <a class="reference internal" href="corerulebook.classes.barbarian.html#corerulebook-classes-barbarian-rage-powers"><span class="std std-ref">rage power</span></a> that affects the skald and any allies under the influence of his inspired rage. This cannot be a rage power that requires the creature to spend a standard action or rounds of rage to activate it. For example, the skald cannot choose terrifying howl (which requires a standard action to activate), but can choose knockback (which is made in place of a melee attack).</p>
+<p>Unless otherwise noted, a skald cannot select an individual rage power more than once.</p>
+<p>When starting an <a class="reference internal" href="#advancedclassguide-classes-skald-inspired-rage"><span class="std std-ref">inspired rage</span></a>, the skald chooses which rage powers (if any) to add to the song, and all affected allies gain the benefit of these rage powers, using the skald’s level as their effective barbarian level. The skald uses his skald level as his barbarian level for the purpose of selecting rage powers that require a minimum barbarian level. If the rage power’s effects depend on the skald’s ability modifier (such as <em>lesser spirit totem</em>), affected allies use the skald’s ability modifier instead of their own for the purpose of this effect.</p>
+<p>If a rage power requires another rage power (such as <a class="reference internal" href="advancedplayersguide.coreclasses.barbarian.html#advancedplayersguide-coreclasses-barbarian-disruptive"><span class="std std-ref">disruptive</span></a>, which requires <a class="reference internal" href="corerulebook.classes.barbarian.html#corerulebook-classes-barbarian-rage-powers-superstition"><span class="std std-ref">superstition</span></a>), the skald cannot grant that rage power to allies unless he can also grant that power’s prerequisite. He may add multiple rage powers to an inspired rage at the same time by means of this ability (such as granting the superstition and disruptive rage powers simultaneously).</p>
+<p>If a rage power can be used only a certain number of times per day or per rage (such as <a class="reference internal" href="corerulebook.classes.barbarian.html#corerulebook-classes-barbarian-rage-powers-renewed-vigor"><span class="std std-ref">renewed vigor</span></a>), each ally affected by the inspired rage is subject to that limit (with abilities usable once per rage limited to once per inspired rage).</p>
+<p>If the skald has rage powers from another source, he (but not his allies) can use those rage powers during an inspired rage. He cannot select a duplicate rage power, unless that rage power can be taken multiple times.</p>
+<p>If the skald has the ability to rage from another source, he can use his skald rage powers during that rage as well.</p>
+<p id="advancedclassguide-classes-skald-uncanny-dodge"><strong>Uncanny Dodge (Ex)</strong>: At 4th level, a skald gains the ability to react to danger before his senses would normally allow him to do so. He cannot be caught flat-footed, nor does he lose his Dexterity bonus to AC if the attacker is invisible. He still loses his Dexterity bonus to AC if he is immobilized. A skald with this ability can still lose his Dexterity bonus to AC if an opponent successfully uses the feint action against him.</p>
+<p>If a skald already has uncanny dodge from a different class, he automatically gains improved uncanny dodge (see below) instead.</p>
+<p id="advancedclassguide-classes-skald-spell-kenning"><strong>Spell Kenning (Su)</strong>: At 5th level, a skald is learned in the magic of other spellcasters, and can use his own magic to duplicate those classes’ spells. Once per day, a skald can cast any spell on the bard, cleric, or sorcerer/wizard spell list as if it were one of his skald spells known, expending a skald spell slot of the same spell level to cast the desired spell. A spell cast with spell kenning always has a minimum casting time of 1 full round, regardless of the casting time of the spell.</p>
+<p>At 11th level, a skald can use this ability twice per day. At 17th level, he can use this ability three times per day.</p>
+<p id="advancedclassguide-classes-skald-lore-master"><strong>Lore Master (Ex)</strong>: At 7th level, the skald becomes a master of many different types of lore, and can take 10 on any <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> check for which he has ranks. Once per day, the skald can take 20 on any <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> check as a standard action, instead of spending the normal amount of time that taking 20 requires. He can use this ability to take 20 on a <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> check twice per day at 13th level and three times per day at 19th level.</p>
+<p id="advancedclassguide-classes-skald-improved-uncanny-dodge"><strong>Improved Uncanny Dodge (Ex)</strong>: At 8th level, a skald can no longer be flanked. This defense denies enemies the ability to sneak attack the skald by flanking him, unless the attacker has at least 4 more levels in a class that grants sneak attack than the target has skald levels.</p>
+<p>If a character already has uncanny dodge (see above) from another class, the levels from the classes that grant uncanny dodge stack to determine the minimum level required to flank the character.</p>
+<p id="advancedclassguide-classes-skald-damage-reduction"><strong>Damage Reduction (Ex)</strong>: At 9th level, a skald gains damage reduction. Subtract 1 from the damage the skald takes each time he is dealt damage from a weapon or a natural attack. At 14th level and again at 19th level, this damage reduction increases by 1. Damage reduction can reduce damage to 0, but not below 0. Additionally, the skald grants this damage reduction to all allies affected by his inspired rage.</p>
+<p id="advancedclassguide-classes-skald-master-skald"><strong>Master Skald (Su)</strong>: At 20th level, a skald’s inspired rage no longer gives allies a penalty to AC, nor limits what skills or abilities they can use. Allies with rage class abilities may use features dependent on those abilities without restriction, such as a barbarian’s rage powers or a bloodrager’s blood casting and bloodline abilities. Finally, when making a full attack, affected allies may make an additional attack each round (as if using a <em>haste</em> effect).</p>
+</div>
+</div>
+
+</body>

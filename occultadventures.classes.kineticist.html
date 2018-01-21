@@ -1,0 +1,1352 @@
+
+
+
+
+
+<head>
+    <link rel="stylesheet" href="_static/srd.css" type="text/css" />
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/toggle_list.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+
+
+
+<body>
+    <div class="contents topic" id="id1">
+<span id="occultadventures-classes-kineticist"></span><p class="topic-title first"></p>
+<ul class="simple">
+<li><a class="reference internal" href="#kineticist" id="id3">Kineticist</a><ul>
+<li><a class="reference internal" href="#class-skills" id="id4">Class Skills</a></li>
+<li><a class="reference internal" href="#class-features" id="id5">Class Features</a></li>
+<li><a class="reference internal" href="#elements" id="id6">Elements</a><ul>
+<li><a class="reference internal" href="#aether" id="id7">Aether</a></li>
+<li><a class="reference internal" href="#air" id="id8">Air</a></li>
+<li><a class="reference internal" href="#earth" id="id9">Earth</a></li>
+<li><a class="reference internal" href="#fire" id="id10">Fire</a></li>
+<li><a class="reference internal" href="#water" id="id11">Water</a></li>
+<li><a class="reference internal" href="#universal" id="id12">Universal</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#wild-talents" id="id13">Wild Talents</a><ul>
+<li><a class="reference internal" href="#kinetic-blasts" id="id14">Kinetic Blasts</a></li>
+<li><a class="reference internal" href="#air-blast" id="id15">Air Blast</a></li>
+<li><a class="reference internal" href="#cold-blast" id="id16">Cold Blast</a></li>
+<li><a class="reference internal" href="#earth-blast" id="id17">Earth Blast</a></li>
+<li><a class="reference internal" href="#electric-blast" id="id18">Electric Blast</a></li>
+<li><a class="reference internal" href="#fire-blast" id="id19">Fire Blast</a></li>
+<li><a class="reference internal" href="#telekinetic-blast" id="id20">Telekinetic Blast</a></li>
+<li><a class="reference internal" href="#water-blast" id="id21">Water Blast</a></li>
+<li><a class="reference internal" href="#composite-blasts" id="id22">Composite Blasts</a></li>
+<li><a class="reference internal" href="#aetheric-boost" id="id23">Aetheric Boost</a></li>
+<li><a class="reference internal" href="#blizzard-blast" id="id24">Blizzard Blast</a></li>
+<li><a class="reference internal" href="#blue-flame-blast" id="id25">Blue Flame Blast</a></li>
+<li><a class="reference internal" href="#charged-water-blast" id="id26">Charged Water Blast</a></li>
+<li><a class="reference internal" href="#force-blast" id="id27">Force Blast</a></li>
+<li><a class="reference internal" href="#ice-blast" id="id28">Ice Blast</a></li>
+<li><a class="reference internal" href="#magma-blast" id="id29">Magma Blast</a></li>
+<li><a class="reference internal" href="#metal-blast" id="id30">Metal Blast</a></li>
+<li><a class="reference internal" href="#mud-blast" id="id31">Mud Blast</a></li>
+<li><a class="reference internal" href="#plasma-blast" id="id32">Plasma Blast</a></li>
+<li><a class="reference internal" href="#sandstorm-blast" id="id33">Sandstorm Blast</a></li>
+<li><a class="reference internal" href="#steam-blast" id="id34">Steam Blast</a></li>
+<li><a class="reference internal" href="#thunderstorm-blast" id="id35">Thunderstorm Blast</a></li>
+<li><a class="reference internal" href="#defense-wild-talents" id="id36">Defense Wild Talents</a></li>
+<li><a class="reference internal" href="#enveloping-winds" id="id37">Enveloping Winds</a></li>
+<li><a class="reference internal" href="#flesh-of-stone" id="id38">Flesh of Stone</a></li>
+<li><a class="reference internal" href="#force-ward" id="id39">Force Ward</a></li>
+<li><a class="reference internal" href="#searing-flesh" id="id40">Searing Flesh</a></li>
+<li><a class="reference internal" href="#shroud-of-water" id="id41">Shroud of Water</a></li>
+<li><a class="reference internal" href="#infusion-wild-talents" id="id42">Infusion Wild Talents</a></li>
+<li><a class="reference internal" href="#bowling-infusion" id="id43">Bowling Infusion</a></li>
+<li><a class="reference internal" href="#brilliant-infusion" id="id44">Brilliant Infusion</a></li>
+<li><a class="reference internal" href="#burning-infusion" id="id45">Burning Infusion</a></li>
+<li><a class="reference internal" href="#chain" id="id46">Chain</a></li>
+<li><a class="reference internal" href="#chilling-infusion" id="id47">Chilling Infusion</a></li>
+<li><a class="reference internal" href="#cloud" id="id48">Cloud</a></li>
+<li><a class="reference internal" href="#cyclone" id="id49">Cyclone</a></li>
+<li><a class="reference internal" href="#deadly-earth" id="id50">Deadly Earth</a></li>
+<li><a class="reference internal" href="#disintegrating-infusion" id="id51">Disintegrating Infusion</a></li>
+<li><a class="reference internal" href="#draining-infusion" id="id52">Draining Infusion</a></li>
+<li><a class="reference internal" href="#entangling-infusion" id="id53">Entangling Infusion</a></li>
+<li><a class="reference internal" href="#eruption" id="id54">Eruption</a></li>
+<li><a class="reference internal" href="#explosion" id="id55">Explosion</a></li>
+<li><a class="reference internal" href="#extended-range" id="id56">Extended Range</a></li>
+<li><a class="reference internal" href="#extreme-range" id="id57">Extreme Range</a></li>
+<li><a class="reference internal" href="#fan-of-flames" id="id58">Fan of Flames</a></li>
+<li><a class="reference internal" href="#flash-infusion" id="id59">Flash Infusion</a></li>
+<li><a class="reference internal" href="#flurry-of-blasts" id="id60">Flurry of Blasts</a></li>
+<li><a class="reference internal" href="#foe-throw" id="id61">Foe Throw</a></li>
+<li><a class="reference internal" href="#force-hook" id="id62">Force Hook</a></li>
+<li><a class="reference internal" href="#fragmentation" id="id63">Fragmentation</a></li>
+<li><a class="reference internal" href="#grappling-infusion" id="id64">Grappling Infusion</a></li>
+<li><a class="reference internal" href="#gusting-infusion" id="id65">Gusting Infusion</a></li>
+<li><a class="reference internal" href="#impale" id="id66">Impale</a></li>
+<li><a class="reference internal" href="#kinetic-blade" id="id67">Kinetic Blade</a></li>
+<li><a class="reference internal" href="#kinetic-fist" id="id68">Kinetic Fist</a></li>
+<li><a class="reference internal" href="#kinetic-whip" id="id69">Kinetic Whip</a></li>
+<li><a class="reference internal" href="#magnetic-infusion" id="id70">Magnetic Infusion</a></li>
+<li><a class="reference internal" href="#many-throw" id="id71">Many Throw</a></li>
+<li><a class="reference internal" href="#mobile-blast" id="id72">Mobile Blast</a></li>
+<li><a class="reference internal" href="#pure-flame-infusion" id="id73">Pure-flame Infusion</a></li>
+<li><a class="reference internal" href="#pushing-infusion" id="id74">Pushing Infusion</a></li>
+<li><a class="reference internal" href="#quenching-infusion" id="id75">Quenching Infusion</a></li>
+<li><a class="reference internal" href="#rare-metal-infusion" id="id76">Rare-metal Infusion</a></li>
+<li><a class="reference internal" href="#snake" id="id77">Snake</a></li>
+<li><a class="reference internal" href="#spray" id="id78">Spray</a></li>
+<li><a class="reference internal" href="#thundering-infusion" id="id79">Thundering Infusion</a></li>
+<li><a class="reference internal" href="#torrent" id="id80">Torrent</a></li>
+<li><a class="reference internal" href="#unraveling-infusion" id="id81">Unraveling Infusion</a></li>
+<li><a class="reference internal" href="#wall" id="id82">Wall</a></li>
+<li><a class="reference internal" href="#utility-wild-talents" id="id83">Utility Wild Talents</a></li>
+<li><a class="reference internal" href="#aerial-adaptation" id="id84">Aerial Adaptation</a></li>
+<li><a class="reference internal" href="#aerial-evasion" id="id85">Aerial Evasion</a></li>
+<li><a class="reference internal" href="#aether-puppet" id="id86">Aether Puppet</a></li>
+<li><a class="reference internal" href="#air-cushion" id="id87">Air Cushion</a></li>
+<li><a class="reference internal" href="#air-shroud" id="id88">Air Shroud</a></li>
+<li><a class="reference internal" href="#air-shroud-greater" id="id89">Air Shroud, Greater</a></li>
+<li><a class="reference internal" href="#air-s-leap" id="id90">Air’s Leap</a></li>
+<li><a class="reference internal" href="#air-s-reach" id="id91">Air’s Reach</a></li>
+<li><a class="reference internal" href="#basic-aerokinesis" id="id92">Basic Aerokinesis</a></li>
+<li><a class="reference internal" href="#basic-geokinesis" id="id93">Basic Geokinesis</a></li>
+<li><a class="reference internal" href="#basic-hydrokinesis" id="id94">Basic Hydrokinesis</a></li>
+<li><a class="reference internal" href="#basic-pyrokinesis" id="id95">Basic Pyrokinesis</a></li>
+<li><a class="reference internal" href="#basic-telekinesis" id="id96">Basic Telekinesis</a></li>
+<li><a class="reference internal" href="#celerity" id="id97">Celerity</a></li>
+<li><a class="reference internal" href="#cold-adaptation" id="id98">Cold Adaptation</a></li>
+<li><a class="reference internal" href="#cold-snap" id="id99">Cold Snap</a></li>
+<li><a class="reference internal" href="#earth-climb" id="id100">Earth Climb</a></li>
+<li><a class="reference internal" href="#earth-glide" id="id101">Earth Glide</a></li>
+<li><a class="reference internal" href="#earth-walk" id="id102">Earth Walk</a></li>
+<li><a class="reference internal" href="#elemental-grip" id="id103">Elemental Grip</a></li>
+<li><a class="reference internal" href="#enduring-earth" id="id104">Enduring Earth</a></li>
+<li><a class="reference internal" href="#engulfing-winds" id="id105">Engulfing Winds</a></li>
+<li><a class="reference internal" href="#expanded-defense" id="id106">Expanded Defense</a></li>
+<li><a class="reference internal" href="#fire-sculptor" id="id107">Fire Sculptor</a></li>
+<li><a class="reference internal" href="#fire-s-fury" id="id108">Fire’s Fury</a></li>
+<li><a class="reference internal" href="#firesight" id="id109">Firesight</a></li>
+<li><a class="reference internal" href="#flame-jet" id="id110">Flame Jet</a></li>
+<li><a class="reference internal" href="#flame-jet-greater" id="id111">Flame Jet, Greater</a></li>
+<li><a class="reference internal" href="#flame-shield" id="id112">Flame Shield</a></li>
+<li><a class="reference internal" href="#force-barrier" id="id113">Force Barrier</a></li>
+<li><a class="reference internal" href="#from-the-ashes" id="id114">From the Ashes</a></li>
+<li><a class="reference internal" href="#heat-adaptation" id="id115">Heat Adaptation</a></li>
+<li><a class="reference internal" href="#heat-wave" id="id116">Heat Wave</a></li>
+<li><a class="reference internal" href="#ice-path" id="id117">Ice Path</a></li>
+<li><a class="reference internal" href="#ice-sculptor" id="id118">Ice Sculptor</a></li>
+<li><a class="reference internal" href="#icewalker" id="id119">Icewalker</a></li>
+<li><a class="reference internal" href="#jagged-flesh" id="id120">Jagged Flesh</a></li>
+<li><a class="reference internal" href="#kinetic-cover" id="id121">Kinetic Cover</a></li>
+<li><a class="reference internal" href="#kinetic-form" id="id122">Kinetic Form</a></li>
+<li><a class="reference internal" href="#kinetic-healer" id="id123">Kinetic Healer</a></li>
+<li><a class="reference internal" href="#reverse-shift" id="id124">Reverse Shift</a></li>
+<li><a class="reference internal" href="#ride-the-blast" id="id125">Ride the Blast</a></li>
+<li><a class="reference internal" href="#searing-flame" id="id126">Searing Flame</a></li>
+<li><a class="reference internal" href="#seismic-master" id="id127">Seismic Master</a></li>
+<li><a class="reference internal" href="#self-telekinesis" id="id128">Self Telekinesis</a></li>
+<li><a class="reference internal" href="#self-telekinesis-greater" id="id129">Self Telekinesis, Greater</a></li>
+<li><a class="reference internal" href="#shift-earth" id="id130">Shift Earth</a></li>
+<li><a class="reference internal" href="#shift-earth-greater" id="id131">Shift Earth, Greater</a></li>
+<li><a class="reference internal" href="#shimmering-mirage" id="id132">Shimmering Mirage</a></li>
+<li><a class="reference internal" href="#skilled-kineticist" id="id133">Skilled Kineticist</a></li>
+<li><a class="reference internal" href="#skilled-kineticist-greater" id="id134">Skilled Kineticist, Greater</a></li>
+<li><a class="reference internal" href="#slick" id="id135">Slick</a></li>
+<li><a class="reference internal" href="#smoke-storm" id="id136">Smoke Storm</a></li>
+<li><a class="reference internal" href="#spark-of-life" id="id137">Spark of Life</a></li>
+<li><a class="reference internal" href="#spell-deflection" id="id138">Spell Deflection</a></li>
+<li><a class="reference internal" href="#stone-sculptor" id="id139">Stone Sculptor</a></li>
+<li><a class="reference internal" href="#suffocate" id="id140">Suffocate</a></li>
+<li><a class="reference internal" href="#telekinetic-deflection" id="id141">Telekinetic Deflection</a></li>
+<li><a class="reference internal" href="#telekinetic-finesse" id="id142">Telekinetic Finesse</a></li>
+<li><a class="reference internal" href="#telekinetic-globe" id="id143">Telekinetic Globe</a></li>
+<li><a class="reference internal" href="#telekinetic-haul" id="id144">Telekinetic Haul</a></li>
+<li><a class="reference internal" href="#telekinetic-invisibility" id="id145">Telekinetic Invisibility</a></li>
+<li><a class="reference internal" href="#telekinetic-maneuvers" id="id146">Telekinetic Maneuvers</a></li>
+<li><a class="reference internal" href="#tidal-wave" id="id147">Tidal Wave</a></li>
+<li><a class="reference internal" href="#touchsight" id="id148">Touchsight</a></li>
+<li><a class="reference internal" href="#touchsight-reactive" id="id149">Touchsight, Reactive</a></li>
+<li><a class="reference internal" href="#trail-of-flames" id="id150">Trail of Flames</a></li>
+<li><a class="reference internal" href="#tremorsense" id="id151">Tremorsense</a></li>
+<li><a class="reference internal" href="#tremorsense-greater" id="id152">Tremorsense, Greater</a></li>
+<li><a class="reference internal" href="#veil-of-mists" id="id153">Veil of Mists</a></li>
+<li><a class="reference internal" href="#voice-of-the-wind" id="id154">Voice of the Wind</a></li>
+<li><a class="reference internal" href="#water-manipulator" id="id155">Water Manipulator</a></li>
+<li><a class="reference internal" href="#waterdancer" id="id156">Waterdancer</a></li>
+<li><a class="reference internal" href="#waterdancer-greater" id="id157">Waterdancer, Greater</a></li>
+<li><a class="reference internal" href="#watersense" id="id158">Watersense</a></li>
+<li><a class="reference internal" href="#weather-master" id="id159">Weather Master</a></li>
+<li><a class="reference internal" href="#wind-manipulator" id="id160">Wind Manipulator</a></li>
+<li><a class="reference internal" href="#windsight" id="id161">Windsight</a></li>
+<li><a class="reference internal" href="#windsight-greater" id="id162">Windsight, Greater</a></li>
+<li><a class="reference internal" href="#wings-of-air" id="id163">Wings of Air</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="kineticist">
+<span id="occultadventures-classes-kineticist-kineticist"></span><h1><a class="toc-backref" href="#id3">Kineticist</a><a class="headerlink" href="#kineticist" title="Permalink to this headline">¶</a></h1>
+<p>Kineticists are living channels for elemental matter and energy, manipulating the world around them by drawing upon inner reserves from their own bodies. Kineticists often awaken to their kinetic abilities during a violent or traumatic experience, releasing their power involuntarily. As kinetic power is seldom inherited, kineticists are rarely able to find mentors to guide them, so they must delve into these mysteries on their own to learn to control their gifts.</p>
+<p><strong>Role</strong>: Kineticists generally use their powers to assail their foes from range, but based on the way their talents develop, they can channel their kinetic abilities for a variety of situations. Kineticists are usually quite different from their families and friends, so they often strike out on their own or alongside others with extraordinary talents.</p>
+<p><strong>Alignment</strong>: Any.</p>
+<p><strong>Hit Die</strong>: d8.</p>
+<p><strong>Starting Wealth</strong>: 1d6 × 10 gp (average 35 gp).</p>
+<p><a class="reference internal" href="#elements"><span class="std std-ref">Elements</span></a></p>
+<p><a class="reference internal" href="#wild talents"><span class="std std-ref">Wild Talents</span></a></p>
+<p><a class="reference internal" href="#kinetic blasts"><span class="std std-ref">Kinetic Blasts</span></a></p>
+<p><a class="reference internal" href="#composite blasts"><span class="std std-ref">Composite Blasts</span></a></p>
+<p><a class="reference internal" href="#defense wild talents"><span class="std std-ref">Defense Wild Talents</span></a></p>
+<p><a class="reference internal" href="#infusion wild talents"><span class="std std-ref">Infusion Wild Talents</span></a></p>
+<p><a class="reference internal" href="#utility wild talents"><span class="std std-ref">Utility Wild Talents</span></a></p>
+<span id="occultadventures-classes-kineticist-kineticist-progression-table"></span><table border="1" class="colwidths-auto contrast-reading-table docutils" id="id2">
+<caption><span class="caption-text">Kineticist</span><a class="headerlink" href="#id2" title="Permalink to this table">¶</a></caption>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Level</th>
+<th class="head">Base Attack Bonus</th>
+<th class="head">Fort Save</th>
+<th class="head">Ref Save</th>
+<th class="head">Will Save</th>
+<th class="head">Special</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>1st</td>
+<td>+0</td>
+<td>+2</td>
+<td>+2</td>
+<td>+0</td>
+<td>Burn, elemental focus, gather power, infusion, kinetic blast</td>
+</tr>
+<tr class="row-odd"><td>2nd</td>
+<td>+1</td>
+<td>+3</td>
+<td>+3</td>
+<td>+0</td>
+<td>Elemental defense, utility wild talent</td>
+</tr>
+<tr class="row-even"><td>3rd</td>
+<td>+2</td>
+<td>+3</td>
+<td>+3</td>
+<td>+1</td>
+<td>Elemental overflow +1, infusion</td>
+</tr>
+<tr class="row-odd"><td>4th</td>
+<td>+3</td>
+<td>+4</td>
+<td>+4</td>
+<td>+1</td>
+<td>Utility wild talent</td>
+</tr>
+<tr class="row-even"><td>5th</td>
+<td>+3</td>
+<td>+4</td>
+<td>+4</td>
+<td>+1</td>
+<td>Infusion, infusion specialization 1, metakinesis (empower)</td>
+</tr>
+<tr class="row-odd"><td>6th</td>
+<td>+4</td>
+<td>+5</td>
+<td>+5</td>
+<td>+2</td>
+<td>Elemental overflow +2, internal buffer 1, utility wild talent</td>
+</tr>
+<tr class="row-even"><td>7th</td>
+<td>+5</td>
+<td>+5</td>
+<td>+5</td>
+<td>+2</td>
+<td>Expanded element</td>
+</tr>
+<tr class="row-odd"><td>8th</td>
+<td>+6/+1</td>
+<td>+6</td>
+<td>+6</td>
+<td>+2</td>
+<td>Infusion specialization 2, utility wild talent</td>
+</tr>
+<tr class="row-even"><td>9th</td>
+<td>+6/+1</td>
+<td>+6</td>
+<td>+6</td>
+<td>+3</td>
+<td>Elemental overflow +3, infusion, metakinesis (maximize)</td>
+</tr>
+<tr class="row-odd"><td>10th</td>
+<td>+7/+2</td>
+<td>+7</td>
+<td>+7</td>
+<td>+3</td>
+<td>Utility wild talent</td>
+</tr>
+<tr class="row-even"><td>11th</td>
+<td>+8/+3</td>
+<td>+7</td>
+<td>+7</td>
+<td>+3</td>
+<td>Infusion, infusion specialization 3, internal buffer 2, supercharge</td>
+</tr>
+<tr class="row-odd"><td>12th</td>
+<td>+9/+4</td>
+<td>+8</td>
+<td>+8</td>
+<td>+4</td>
+<td>Elemental overflow +4, utility wild talent</td>
+</tr>
+<tr class="row-even"><td>13th</td>
+<td>+9/+4</td>
+<td>+8</td>
+<td>+8</td>
+<td>+4</td>
+<td>Infusion, metakinesis (quicken)</td>
+</tr>
+<tr class="row-odd"><td>14th</td>
+<td>+10/+5</td>
+<td>+9</td>
+<td>+9</td>
+<td>+4</td>
+<td>Infusion specialization 4, utility wild talent</td>
+</tr>
+<tr class="row-even"><td>15th</td>
+<td>+11/+6/+1</td>
+<td>+9</td>
+<td>+9</td>
+<td>+5</td>
+<td>Expanded element, elemental overflow +5</td>
+</tr>
+<tr class="row-odd"><td>16th</td>
+<td>+12/+7/+2</td>
+<td>+10</td>
+<td>+10</td>
+<td>+5</td>
+<td>Composite specialization, internal buffer 3, utility wild talent</td>
+</tr>
+<tr class="row-even"><td>17th</td>
+<td>+12/+7/+2</td>
+<td>+10</td>
+<td>+10</td>
+<td>+5</td>
+<td>Infusion, infusion specialization 5, metakinesis (twice)</td>
+</tr>
+<tr class="row-odd"><td>18th</td>
+<td>+13/+8/+3</td>
+<td>+11</td>
+<td>+11</td>
+<td>+6</td>
+<td>Elemental overflow +6, utility wild talent</td>
+</tr>
+<tr class="row-even"><td>19th</td>
+<td>+14/+9/+4</td>
+<td>+11</td>
+<td>+11</td>
+<td>+6</td>
+<td>Infusion, metakinetic master</td>
+</tr>
+<tr class="row-odd"><td>20th</td>
+<td>+15/+10/+5</td>
+<td>+12</td>
+<td>+12</td>
+<td>+6</td>
+<td>Infusion specialization 6, omnikinesis, utility wild talent</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="class-skills">
+<span id="occultadventures-classes-kineticist-class-skills"></span><h2><a class="toc-backref" href="#id4">Class Skills</a><a class="headerlink" href="#class-skills" title="Permalink to this headline">¶</a></h2>
+<p>The kineticist’s class skills are <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a> (Dex), <a class="reference internal" href="corerulebook.skills.craft.html#corerulebook-skills-craft-craft"><span class="std std-ref">Craft</span></a> (Int), <a class="reference internal" href="corerulebook.skills.heal.html#corerulebook-skills-heal-heal"><span class="std std-ref">Heal</span></a> (Wis), <a class="reference internal" href="corerulebook.skills.intimidate.html#corerulebook-skills-intimidate-intimidate"><span class="std std-ref">Intimidate</span></a> (Cha), <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> (Wis), <a class="reference internal" href="corerulebook.skills.profession.html#corerulebook-skills-profession-profession"><span class="std std-ref">Profession</span></a> (Wis), <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> (Dex), and <a class="reference internal" href="corerulebook.skills.usemagicdevice.html#corerulebook-skills-usemagicdevice-use-magic-device"><span class="std std-ref">Use Magic Device</span></a> (Cha).</p>
+<p><strong>Skill Ranks per Level</strong>: 4 + Int modifier.</p>
+</div>
+<div class="section" id="class-features">
+<span id="occultadventures-classes-kineticist-class-features"></span><h2><a class="toc-backref" href="#id5">Class Features</a><a class="headerlink" href="#class-features" title="Permalink to this headline">¶</a></h2>
+<p>The following are the class features of the kineticist.</p>
+<p><strong>Weapon and Armor Proficiency</strong>: Kineticists are proficient with all simple weapons and light armor, but not shields.</p>
+<p><strong>Elemental Focus (Su)</strong>: At 1st level, a kineticist chooses one primary element on which to focus. This element determines how she accesses the raw power of the Ethereal Plane, and grants her access to specific wild talents (see below) and additional class skills. She can select aether (telekinesis), air (aerokinesis), earth (geokinesis), fire (pyrokinesis), or water (hydrokinesis). She gains her selected element’s basic utility wild talent (basic telekinesis, basic aerokinesis, basic geokinesis, basic pyrokinesis, or basic hydrokinesis) as a bonus wild talent. See Elements for the specific abilities granted by each element.</p>
+<p><strong>Wild Talents</strong>: A kineticist can use wild talents—magical abilities similar to spells but drawn from the kineticist’s innate psychic talent and usable at will. Wild talents are typically spell-like abilities (though some are supernatural abilities), and take a standard action to use unless otherwise noted. A wild talent always has the elemental descriptor or descriptors (aether, air, earth, fire, or water) matching its Element entry. A wild talent that can be used with any of several elements gains the appropriate elemental descriptor when used with an element. For example, the wall wild talent gains the earth descriptor when used by a geokineticist.</p>
+<p>Every wild talent has an effective spell level. A kineticist can always select 1st-level wild talents, but she can select a wild talent of a higher level only if her kineticist level is at least double the wild talent’s effective spell level. Kinetic blast and defense wild talents are always considered to have an effective spell level equal to 1/2 the kineticist’s class level (to a maximum effective spell level of 9th at kineticist level 18th).</p>
+<p>Unless otherwise noted, the DC for a saving throw against a wild talent is equal to 10 + the wild talent’s effective spell level + the kineticist’s Constitution modifier. The kineticist uses her Constitution modifier on all concentration checks for wild talents.</p>
+<p>In addition to the wild talents she gains from her other class features, at 2nd level and every 2 levels thereafter, a kineticist selects a new utility wild talent from the list of options available to her. A kineticist can select only universal wild talents or those that match her element (see <a class="reference internal" href="advancedplayersguide.advancedfeats.html#advancedplayersguide-advancedfeats-elemental-focus"><span class="std std-ref">Elemental Focus</span></a> above). At 6th, 10th, and 16th levels, a kineticist can replace one of her utility wild talents with another wild talent of the same level or lower. She can’t replace a wild talent that she used to qualify for another of her wild talents.</p>
+<p><strong>Burn (Ex)</strong>: At 1st level, a kineticist can overexert herself to channel more power than normal, pushing past the limit of what is safe for her body by accepting burn. Some of her wild talents allow her to accept burn in exchange for a greater effect, while others require her to accept a certain amount of burn to use that talent at all. For each point of burn she accepts, a kineticist takes 1 point of nonlethal damage per character level. This damage can’t be healed by any means other than getting a full night’s rest, which removes all burn and associated nonlethal damage. Nonlethal damage from burn can’t be reduced or redirected, and a kineticist incapable of taking nonlethal damage can’t accept burn. A kineticist can accept only 1 point of burn per round. This limit rises to 2 points of burn at 6th level, and rises by 1 additional point every 3 levels thereafter. A kineticist can’t choose to accept burn if it would put her total number of points of burn higher than 3 + her Constitution modifier (though she can be forced to accept more burn from a source outside her control). A kineticist who has accepted burn never benefits from abilities that allow her to ignore or alter the effects she receives from nonlethal damage.</p>
+<p><strong>Kinetic Blast (Sp)</strong>: At 1st level, a kineticist gains a kinetic blast wild talent of her choice. This kinetic blast must be a simple blast that matches her element. As a standard action, the kineticist can unleash a kinetic blast at a single target up to a range of 30 feet. She must have at least one hand free to aim the blast (or one prehensile appendage, if she doesn’t have hands). All damage from a kinetic blast is treated as magic for the purpose of bypassing damage reduction. Kinetic blasts count as a type of weapon for the purpose of feats such as Weapon Focus. The kineticist is never considered to be wielding or gripping the kinetic blast (regardless of effects from form infusions), and she can’t use Vital Strike feats with kinetic blasts. Even the weakest kinetic blast involves a sizable mass of elemental matter or energy, so kinetic blasts always deal full damage to swarms of any size (though only area blasts deal extra damage to swarms). A readied kinetic blast can be used to counterspell any spell of equal or lower level that shares its descriptor. A kinetic blast that deals energy damage of any type (including force) has the corresponding descriptor.</p>
+<p>The various kinetic blasts, as well as additional rules for simple blasts, are described <span class="xref std std-ref">here</span>.</p>
+<p><strong>Gather Power (Su)</strong>: If she has both hands free (or all of her prehensile appendages free, for unusual kineticists), a kineticist can gather energy or elemental matter as a move action. Gathering power creates an extremely loud, visible display in a 20-foot radius centered on the kineticist, as the energy or matter swirls around her. Gathering power in this way allows the kineticist to reduce the total burn cost of a blast wild talent she uses in the same round by 1 point. The kineticist can instead gather power for 1 full round in order to reduce the total burn cost of a blast wild talent used on her next turn by 2 points (to a minimum of 0 points). If she does so, she can also gather power as a move action during her next turn to reduce the burn cost by a total of 3 points. If the kineticist takes damage during or after gathering power and before using the kinetic blast that releases it, she must succeed at a concentration check (DC = 10 + damage taken + effective spell level of her kinetic blast) or lose the energy in a wild surge that forces her to accept a number of points of burn equal to the number of points by which her gathered power would have reduced the burn cost. This ability can never reduce the burn cost of a wild talent below 0 points.</p>
+<p><strong>Infusion (Su)</strong>: At 1st level, a kineticist gains an infusion wild talent from the list of options available based on her elemental focus. She gains additional infusions at 3rd, 5th, 9th, 11th, 13th, 17th, and 19th levels. By using infusions along with her kinetic blasts, a kineticist can alter her kinetic blasts to suit her needs. Infusions come in two types, each of which changes a kinetic blast differently: a substance infusion causes an additional effect, while a form infusion causes the kinetic blast to manifest in a different way. Each infusion can alter only certain kinds of kinetic blasts, which are listed in its Associated Blasts entry. Each time the kineticist uses one of her kinetic blast wild talents, she can apply up to one associated form infusion and up to one associated substance infusion. Some infusions change the action required to activate a kinetic blast or entirely transform the kinetic blast’s normal effects. The burn cost listed in each infusion’s Burn entry is added to the burn cost of the kinetic blast the infusion modifies.</p>
+<p>The DC for a save against an infusion is based on the associated kinetic blast’s effective spell level, not the level of the infusion. The DCs for form infusions are calculated using the kineticist’s Dexterity modifier instead of her Constitution modifier. When a kineticist modifies a kinetic blast with a form infusion and a substance infusion that both require saving throws, each target first attempts a saving throw against the form infusion. If a target succeeds and a successful save negates the infusion’s effects, the entire kinetic blast is negated; otherwise, the target then attempts a saving throw against the substance infusion. If a kineticist’s form and substance infusions both alter the kinetic blast’s damage, apply the substance infusion’s alteration first.</p>
+<p>At 5th, 11th, and 17th levels, a kineticist can replace one of her infusions with another infusion of the same effective spell level or lower. She can’t replace an infusion that she used to qualify for another of her wild talents.</p>
+<p><strong>Elemental Defense (Su)</strong>: At 2nd level, a kineticist gains her element’s <a class="reference internal" href="#defense wild talents"><span class="std std-ref">defense wild talent</span></a>.</p>
+<p><strong>Elemental Overflow (Ex)</strong>: At 3rd level, a kineticist’s body surges with energy from her chosen element whenever she accepts burn, causing her to glow with a nimbus of fire, weep water from her pores, or experience some other thematic effect. In addition, she receives a bonus on her attack rolls with kinetic blasts equal to the total number of points of burn she currently has, to a maximum bonus of +1 for every 3 kineticist levels she possesses. She also receives a bonus on damage rolls with her kinetic blast equal to double the bonus on attack rolls. The kineticist can suppress the visual effects of elemental overflow by concentrating for 1 full round, but doing so suppresses all of this ability’s other benefits, as well. The next time the kineticist uses any wild talent, the visual effects and benefits return instantly.</p>
+<p>As a kineticist’s body becomes more and more suffused with her element, she begins to gain more powerful benefits. Starting at 6th level, whenever she has at least 3 points of burn, the kineticist gains a +2 size bonus to two physical ability scores of her choice. She also gains a chance to ignore the effects of a critical hit or sneak attack equal to 5% × her current number of points of burn. At 11th level, whenever the kineticist has at least 5 points of burn, these bonuses increase to a +4 size bonus to one physical ability score of her choice and a +2 size bonus to each of her other two physical ability scores. At 16th level, whenever the kineticist has at least 7 points of burn, these bonuses increase to a +6 size bonus to one physical ability score of her choice, a +4 size bonus to a second physical ability score of her choice, and a +2 size bonus to the remaining physical ability score.</p>
+<p><strong>Infusion Specialization (Ex)</strong>: At 5th level, whenever a kineticist uses one or more infusions with a blast, she reduces the combined burn cost of the infusions by 1. This can’t reduce the total cost of the infusions used below 0. She reduces the burn cost by 1 additional point at 8th, 11th, 14th, 17th, and 20th levels.</p>
+<p><strong>Metakinesis (Su)</strong>: At 5th level, a kineticist gains the ability to alter her kinetic blasts as if with metamagic feats by accepting burn. By accepting 1 point of burn, she can empower her kinetic blast (as if using Empower Spell). At 9th level, by accepting 2 points of burn, she can maximize her kinetic blast as if using Maximize Spell. At 13th level, by accepting 3 points of burn, she can quicken her kinetic blast as if using Quicken Spell. At 17th level, by accepting 4 points of burn, the kineticist can use her kinetic blast twice with the same standard action, or swift action if she also uses metakinesis to quicken the blast. When she uses a double kinetic blast, all modifications, such as metakinesis and infusions, apply to both of the blasts, but the kineticist needs to pay the burn cost only once.</p>
+<p><strong>Internal Buffer (Su)</strong>: At 6th level, a kineticist’s study of her body and the elemental forces that course through it allow her to form an internal buffer to store extra energy. The buffer starts empty and doesn’t replenish each day, but the kineticist can accept 1 point of burn to add 1 point to the buffer as a full-round action, to a maximum of 1 point total. This maximum increases to 2 points at 11th level and to 3 points at 16th level. Once the kineticist adds points to her buffer, they remain indefinitely until she spends them. When she would otherwise accept burn, a kineticist can spend 1 point from her buffer to avoid accepting 1 point of burn. She cannot spend more than 1 point from her buffer in this way for a single wild talent. Points spent from the internal buffer don’t activate elemental overflow or add to its effects. Similarly, this buffer can be used to exceed the limit on the number of points of burn the kineticist can accept in a single turn.</p>
+<p><strong>Expanded Element (Su)</strong>: At 7th level, a kineticist learns to use another element or expands her understanding of her own element. She can choose any element, including her primary element. She gains one of that element’s simple blast wild talents that she does not already possess, if any. She also gains all composite blast wild talents whose prerequisites she meets, as well as the basic wild talent of her chosen expanded element (for instance, basic aerokinesis if she chooses air). See <a class="reference internal" href="#composite blasts"><span class="std std-ref">Composite Blasts</span></a> on for additional rules for and descriptions of composite blasts. She doesn’t gain the defense wild talent of the expanded element.</p>
+<p>If the kineticist’s expanded element is different from her primary element, she treats her kineticist level as 4 levels lower for the purpose of determining which wild talents she can learn from her expanded element.</p>
+<p>If the kineticist chooses to expand her understanding of an element she already has, she gains an additional utility wild talent or infusion of her choice from that element, as if from her infusion or wild talent class feature, as appropriate.</p>
+<p>At 15th level, the kineticist can either select a new element or expand her understanding of her original element. She can’t select the same element she selected at 7th level unless it is her primary element. She gains all the benefits from her new expanded element as listed above. However, if the kineticist selected her primary element as her expanded element at both 7th and 15th levels, her mastery of that element increases. For wild talents of her element, the kineticist gains a +1 bonus on attack rolls and damage rolls, as well as to caster level and DCs.</p>
+<p><strong>Supercharge (Su)</strong>: At 11th level, when using gather power as a move action, a kineticist can reduce the total burn cost of a single wild talent by 2 points instead of 1. When using gather power for 1 full round, she can reduce the burn cost of a single wild talent by 3 points instead of 2.</p>
+<p><strong>Composite Specialization</strong> <strong>(Su)</strong>: At 16th level, a kineticist becomes more adept at creating composite blasts. She reduces the burn cost of all composite blasts by 1 point. This can’t reduce the cost of a composite blast below 0 points.</p>
+<p><strong>Metakinetic Master (Su)</strong>: At 19th level, a kineticist chooses one type of metakinesis, such as empower or quicken. She reduces the burn cost of that metakinesis by 1 point (to a minimum of 0 points).</p>
+<p><strong>Omnikinesis (Su)</strong>: At 20th level, a kineticist transcends the distinction between the different elements and can bend all creation to her will. By accepting 1 point of burn (in addition to any burn requirement of the kinetic blast she chooses), she can use any blast wild talent she doesn’t know. By accepting 1 point of burn as a standard action, she can change any of her wild talents into any other wild talent of the same category (such as simple blasts or defense) for 24 hours, ignoring any elemental requirements or restrictions (but not any other requirements or restrictions).</p>
+</div>
+<div class="section" id="elements">
+<span id="occultadventures-classes-kineticist-elements"></span><h2><a class="toc-backref" href="#id6">Elements</a><a class="headerlink" href="#elements" title="Permalink to this headline">¶</a></h2>
+<p>A kineticist can choose from among the following elements. Infusion wild talents are marked with a dagger (†); all other wild talents listed below are utility wild talents.</p>
+<div class="section" id="aether">
+<span id="occultadventures-classes-kineticist-aether"></span><h3><a class="toc-backref" href="#id7">Aether</a><a class="headerlink" href="#aether" title="Permalink to this headline">¶</a></h3>
+<p>Kineticists who focus on the element of aether—a rare substance formed when elemental energy affects the Ethereal Plane—are called telekineticists. Telekineticists use strands of aether to move objects with their minds.</p>
+<p><strong>Class Skills</strong>: A telekineticist adds <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (engineering) and <a class="reference internal" href="corerulebook.skills.sleightofhand.html#corerulebook-skills-sleightofhand-sleight-of-hand"><span class="std std-ref">Sleight of Hand</span></a> to her list of class skills.</p>
+<p><strong>Wild Talents</strong>: 1st—basic telekinesis, kinetic cover, kinetic healer, pushing infusion<em>†</em>, telekinetic finesse; 2nd—bowling infusion<em>†</em>, telekinetic haul; 3rd—foe throw<em>†</em>, force hook<em>†</em>, self telekinesis, telekinetic invisibility, touchsight; 4th—telekinetic maneuvers; 5th—aether puppet, force barrier, self telekinesis (greater), touchsight (reactive); 6th—disintegrating infusion<em>†</em>, suffocate; 7th—spell deflection; 8th—many throw<em>†</em>, telekinetic deflection, telekinetic globe.</p>
+</div>
+<div class="section" id="air">
+<span id="occultadventures-classes-kineticist-air"></span><h3><a class="toc-backref" href="#id8">Air</a><a class="headerlink" href="#air" title="Permalink to this headline">¶</a></h3>
+<p>Kineticists who focus on the element of air are called aerokineticists. Aerokineticists often control air flow or electricity, specializing in mobility and ranged combat.</p>
+<p><strong>Class Skills</strong>: An aerokineticist adds <a class="reference internal" href="corerulebook.skills.fly.html#corerulebook-skills-fly-fly"><span class="std std-ref">Fly</span></a> and <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (nature) to her list of class skills.</p>
+<p><strong>Wild Talents</strong>: 1st—aerial adaptation, air cushion, air shroud, air’s leap, air’s reach, basic aerokinesis, gusting infusion<em>†</em>, pushing infusion<em>†</em>, thundering infusion<em>†</em>, voice of the wind; 3rd—aerial evasion, celerity, engulfing winds, magnetic infusion<em>†</em>, torrent<em>†</em>, windsight, wings of air; 4th—cyclone<em>†</em>; 5th—air shroud (greater), chain<em>†</em>, windsight (greater); 6th—suffocate, wind manipulator; 7th—cloud<em>†</em>; 8th—weather master.</p>
+</div>
+<div class="section" id="earth">
+<span id="occultadventures-classes-kineticist-earth"></span><h3><a class="toc-backref" href="#id9">Earth</a><a class="headerlink" href="#earth" title="Permalink to this headline">¶</a></h3>
+<p>Kineticists who focus on the element of earth are called geokineticists. Geokineticists manipulate the earth itself, and they are masters of defensive techniques.</p>
+<p><strong>Class Skills</strong>: A geokineticist adds <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> and <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (dungeoneering) to her list of class skills.</p>
+<p><strong>Wild Talents</strong>: 1st—basic geokinesis, earth walk, kinetic cover, pushing infusion<em>†</em>; 2nd—bowling infusion<em>†</em>, earth climb, entangling infusion<em>†</em>; 3rd—impale<em>†</em>, jagged flesh, magnetic infusion<em>†</em>, rare-metal infusion<em>†</em>, tremorsense; 4th—enduring earth, shift earth; 5th—earth glide, stone sculptor, tremorsense (greater); 6th—deadly earth<em>†</em>; 7th—fragmentation<em>†</em>, shift earth (greater); 9th—seismic master.</p>
+</div>
+<div class="section" id="fire">
+<span id="occultadventures-classes-kineticist-fire"></span><h3><a class="toc-backref" href="#id10">Fire</a><a class="headerlink" href="#fire" title="Permalink to this headline">¶</a></h3>
+<p>Kineticists who focus on the element of fire are called pyrokineticists. Pyrokineticists wield elemental fire as a potent weapon, and they possess a powerful offense.</p>
+<p><strong>Class Skills</strong>: A pyrokineticist adds <a class="reference internal" href="corerulebook.skills.escapeartist.html#corerulebook-skills-escapeartist-escape-artist"><span class="std std-ref">Escape Artist</span></a> and <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (nature) to her list of class skills.</p>
+<p><strong>Wild Talents</strong>: 1st—basic pyrokinesis, burning infusion<em>†</em>, cold adaptation, fan of flames<em>†</em>, fire sculptor, fire’s fury, heat adaptation; 2nd—searing flame; 3rd—eruption<em>†</em>, firesight, flame jet, heat wave, smoke storm, torrent<em>†</em>; 4th—flash infusion<em>†</em>; 5th—flame jet (greater), flame shield, trail of flames, unraveling infusion<em>†</em>; 6th—brilliant infusion<em>†</em>; 7th—explosion<em>†</em>, pure-flame infusion<em>†</em>; 9th—from the ashes.</p>
+</div>
+<div class="section" id="water">
+<span id="occultadventures-classes-kineticist-water"></span><h3><a class="toc-backref" href="#id11">Water</a><a class="headerlink" href="#water" title="Permalink to this headline">¶</a></h3>
+<p>Kineticists who focus on the element of water are called hydrokineticists. Hydrokineticists master the flow of water or the numbing chill of cold, and they are known for their versatility and flowing forms, like the ever-changing currents.</p>
+<p><strong>Class Skills</strong>: A hydrokineticist adds <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (nature) and <a class="reference internal" href="corerulebook.skills.swim.html#corerulebook-skills-swim-swim"><span class="std std-ref">Swim</span></a> to her list of class skills.</p>
+<p><strong>Wild Talents</strong>: 1st—basic hydrokinesis, cold adaptation, heat adaptation, icewalker, kinetic cover, kinetic healer, pushing infusion<em>†</em>, quenching infusion<em>†</em>, slick; 2nd—entangling infusion<em>†</em>, veil of mists; 3rd—cold snap, impale<em>†</em>, torrent<em>†</em>, water manipulator, waterdancer; 4th—ice sculptor, spray<em>†</em>, watersense; 5th—chilling infusion<em>†</em>, shimmering mirage, waterdancer (greater); 6th—ice path, suffocate; 7th—cloud<em>†</em>, fragmentation<em>†</em>; 9th—tidal wave.</p>
+</div>
+<div class="section" id="universal">
+<span id="occultadventures-classes-kineticist-universal"></span><h3><a class="toc-backref" href="#id12">Universal</a><a class="headerlink" href="#universal" title="Permalink to this headline">¶</a></h3>
+<p>The following wild talents are available to all kineticists.</p>
+<p><strong>Wild Talents</strong>: 1st—draining infusion<em>†</em>, extended range<em>†</em>, kinetic blade<em>†</em>, kinetic fist<em>†</em>, skilled kineticist; 2nd—skilled kineticist (greater); 3rd—elemental grip, extreme range<em>†</em>, flurry of blasts<em>†</em>, kinetic whip<em>†</em>, mobile blast<em>†</em>, snake<em>†</em>; 4th—expanded defense; 5th—grappling infusion<em>†</em>, kinetic form, spark of life, wall<em>†</em>; 6th—ride the blast; 8th—reverse shift.</p>
+</div>
+</div>
+<div class="section" id="wild-talents">
+<span id="occultadventures-classes-kineticist-wild-talents"></span><h2><a class="toc-backref" href="#id13">Wild Talents</a><a class="headerlink" href="#wild-talents" title="Permalink to this headline">¶</a></h2>
+<p>Kineticists’ wild talents shape the expression of their powers.</p>
+<div class="section" id="kinetic-blasts">
+<span id="occultadventures-classes-kineticist-kinetic-blasts"></span><h3><a class="toc-backref" href="#id14">Kinetic Blasts</a><a class="headerlink" href="#kinetic-blasts" title="Permalink to this headline">¶</a></h3>
+<p>Kinetic blasts comprise simple and composite blasts.</p>
+<p><strong>Simple Blasts</strong></p>
+<p>A kineticist gains a simple blast from her primary element at 1st level—some elements offer more than one option. When a kineticist gains a new element via the expanded element class feature, she gains a simple blast from that element as well. Each simple blast is either a physical blast or an energy blast. Physical blasts are ranged attacks that deal an amount of damage equal to 1d6+1 + the kineticist’s Constitution modifier, increasing by 1d6+1 for every 2 kineticist levels beyond 1st. Spell resistance doesn’t apply against physical blasts. Energy blasts are ranged touch attacks that deal an amount of damage equal to 1d6 + 1/2 the kineticist’s Constitution modifier, increasing by 1d6 for every 2 kineticist levels beyond 1st.</p>
+</div>
+<div class="section" id="air-blast">
+<span id="occultadventures-classes-kineticist-air-blast"></span><h3><a class="toc-backref" href="#id15">Air Blast</a><a class="headerlink" href="#air-blast" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> air; <strong>Type</strong>simple blast (Sp); <strong>Level</strong> —; <strong>Burn</strong> 0</p>
+<p><strong>Blast Type</strong>physical; <strong>Damage</strong> bludgeoning</p>
+<p>You batter a single foe with a gust of air.</p>
+</div>
+<div class="section" id="cold-blast">
+<span id="occultadventures-classes-kineticist-cold-blast"></span><h3><a class="toc-backref" href="#id16">Cold Blast</a><a class="headerlink" href="#cold-blast" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> water; <strong>Type</strong>simple blast (Sp); <strong>Level</strong> —; <strong>Burn</strong> 0</p>
+<p><strong>Blast Type</strong>energy; <strong>Damage</strong> cold</p>
+<p>You emit a beam of utter cold to freeze a single foe.</p>
+</div>
+<div class="section" id="earth-blast">
+<span id="occultadventures-classes-kineticist-earth-blast"></span><h3><a class="toc-backref" href="#id17">Earth Blast</a><a class="headerlink" href="#earth-blast" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> earth; <strong>Type</strong>simple blast (Sp); <strong>Level</strong> —; <strong>Burn</strong> 0</p>
+<p><strong>Blast Type</strong>physical; <strong>Damage</strong> bludgeoning, piercing, or slashing</p>
+<p>You shape earth into clumps or shards and send them flying at a foe.</p>
+</div>
+<div class="section" id="electric-blast">
+<span id="occultadventures-classes-kineticist-electric-blast"></span><h3><a class="toc-backref" href="#id18">Electric Blast</a><a class="headerlink" href="#electric-blast" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> air; <strong>Type</strong>simple blast (Sp); <strong>Level</strong> —; <strong>Burn</strong> 0</p>
+<p><strong>Blast Type</strong>energy; <strong>Damage</strong> electricity</p>
+<p>You shoot an arc of electricity to shock a single foe.</p>
+</div>
+<div class="section" id="fire-blast">
+<span id="occultadventures-classes-kineticist-fire-blast"></span><h3><a class="toc-backref" href="#id19">Fire Blast</a><a class="headerlink" href="#fire-blast" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> fire; <strong>Type</strong>simple blast (Sp); <strong>Level</strong> —; <strong>Burn</strong> 0</p>
+<p><strong>Blast Type</strong>energy; <strong>Damage</strong> fire</p>
+<p>You unleash a gout of flickering fire to burn a single foe.</p>
+</div>
+<div class="section" id="telekinetic-blast">
+<span id="occultadventures-classes-kineticist-telekinetic-blast"></span><h3><a class="toc-backref" href="#id20">Telekinetic Blast</a><a class="headerlink" href="#telekinetic-blast" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> aether; <strong>Type</strong>simple blast (Sp); <strong>Level</strong> —; <strong>Burn</strong> 0</p>
+<p><strong>Blast Type</strong>physical; <strong>Damage</strong> bludgeoning, piercing, or slashing</p>
+<p>You throw a nearby unattended object at a single foe as a ranged attack. The object must weigh no more than 5 pounds per kineticist level you possess. If the attack hits, the target and the thrown object each take the blast’s damage. Since the object is enfolded in strands of aether, even if you use this power on a magic weapon or other unusual object, the attack doesn’t use any of the magic weapon’s bonuses or effects; it simply deals your blast damage. Alternatively, you can loosen the strands of aether in order to deal damage to both the object and the target as though you had thrown the object yourself (instead of dealing your normal blast damage). You substitute your Constitution modifier for your Strength modifier if throwing the object would have added your Strength modifier on the damage roll, and you don’t take the –4 penalty on the attack roll for throwing an object that wasn’t designed to be thrown. In this case, the object’s special effects apply (including effects from its materials), and if the object is a weapon, you must be proficient with it and able to wield it with one hand; otherwise, the item deals damage as a one-handed improvised weapon for a creature of your size.</p>
+</div>
+<div class="section" id="water-blast">
+<span id="occultadventures-classes-kineticist-water-blast"></span><h3><a class="toc-backref" href="#id21">Water Blast</a><a class="headerlink" href="#water-blast" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> water; <strong>Type</strong>simple blast (Sp); <strong>Level</strong> —; <strong>Burn</strong> 0</p>
+<p><strong>Blast Type</strong>physical; <strong>Damage</strong> bludgeoning</p>
+<p>You slam a single foe with a stream of water.</p>
+</div>
+<div class="section" id="composite-blasts">
+<span id="occultadventures-classes-kineticist-composite-blasts"></span><h3><a class="toc-backref" href="#id22">Composite Blasts</a><a class="headerlink" href="#composite-blasts" title="Permalink to this headline">¶</a></h3>
+<p>Composite blasts combine elements to form a new blast. When a kineticist gains a new element through expanded element, she gains access to all composite blasts for which she qualifies. Most composite blasts are either physical or energy blasts, like simple blasts. Physical composite blasts deal an amount of damage equal to 2d6+2 + the kineticist’s Constitution modifier, increasing by 2d6+2 for every 2 kineticist levels beyond 1st; energy composite blasts deal an amount of damage equal to 2d6 + 1/2 the kineticist’s Constitution modifier, increasing by 2d6 for every 2 kineticist levels beyond 1st.</p>
+</div>
+<div class="section" id="aetheric-boost">
+<span id="occultadventures-classes-kineticist-aetheric-boost"></span><h3><a class="toc-backref" href="#id23">Aetheric Boost</a><a class="headerlink" href="#aetheric-boost" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> aether; <strong>Type</strong> composite blast (Sp); <strong>Level</strong> —; <strong>Burn</strong> 2</p>
+<p><strong>Prerequisites</strong> telekinetic blast, expanded element (any)</p>
+<p><strong>Blast Type</strong> special; <strong>Damage</strong> see text</p>
+<p>You infuse a simple blast you know with aether, causing it to deal 1 additional point of damage of the same type for each of its damage dice; it otherwise acts as the simple blast. At 15th level, you can also infuse a composite blast with aether. To infuse a composite blast in this way, you must accept 1 additional point of burn.</p>
+</div>
+<div class="section" id="blizzard-blast">
+<span id="occultadventures-classes-kineticist-blizzard-blast"></span><h3><a class="toc-backref" href="#id24">Blizzard Blast</a><a class="headerlink" href="#blizzard-blast" title="Permalink to this headline">¶</a></h3>
+<p><strong>Elements</strong> air and water; <strong>Type</strong> composite blast (Sp); <strong>Level</strong> —; <strong>Burn</strong> 2</p>
+<p><strong>Prerequisites</strong> air blast, cold blast</p>
+<p><strong>Blast Type</strong>physical; <strong>Damage</strong> half piercing, half cold</p>
+<p>You unleash a directed blizzard at a single target.</p>
+</div>
+<div class="section" id="blue-flame-blast">
+<span id="occultadventures-classes-kineticist-blue-flame-blast"></span><h3><a class="toc-backref" href="#id25">Blue Flame Blast</a><a class="headerlink" href="#blue-flame-blast" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> fire; <strong>Type</strong> composite blast (Sp); <strong>Level</strong> —; <strong>Burn</strong> 2</p>
+<p><strong>Prerequisites</strong> primary element (fire), expanded element (fire)</p>
+<p><strong>Blast Type</strong>energy; <strong>Damage</strong> fire</p>
+<p>You unleash a concentrated blast of intense blue flame.</p>
+</div>
+<div class="section" id="charged-water-blast">
+<span id="occultadventures-classes-kineticist-charged-water-blast"></span><h3><a class="toc-backref" href="#id26">Charged Water Blast</a><a class="headerlink" href="#charged-water-blast" title="Permalink to this headline">¶</a></h3>
+<p><strong>Elements</strong> air and water; <strong>Type</strong> composite blast (Sp); <strong>Level</strong> —; <strong>Burn</strong> 2</p>
+<p><strong>Prerequisites</strong> electric blast, water blast</p>
+<p><strong>Blast Type</strong>physical; <strong>Damage</strong> half bludgeoning, half electricity</p>
+<p>You slam a single foe with a stream of electrically charged water.</p>
+</div>
+<div class="section" id="force-blast">
+<span id="occultadventures-classes-kineticist-force-blast"></span><h3><a class="toc-backref" href="#id27">Force Blast</a><a class="headerlink" href="#force-blast" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> aether; <strong>Type</strong> composite blast (Sp); <strong>Level</strong> —; <strong>Burn</strong> 2</p>
+<p><strong>Prerequisites</strong> primary element (aether), expanded element (aether)</p>
+<p><strong>Blast Type</strong>energy; <strong>Damage</strong> force (see text)</p>
+<p>You throw a burst of force at a foe. Force blast deals damage as a simple energy blast instead of a composite energy blast.</p>
+</div>
+<div class="section" id="ice-blast">
+<span id="occultadventures-classes-kineticist-ice-blast"></span><h3><a class="toc-backref" href="#id28">Ice Blast</a><a class="headerlink" href="#ice-blast" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> water; <strong>Type</strong> composite blast (Sp); <strong>Level</strong> —; <strong>Burn</strong> 2</p>
+<p><strong>Prerequisites</strong> primary element (water), expanded element (water)</p>
+<p><strong>Blast Type</strong>physical; <strong>Damage</strong> half piercing, half cold</p>
+<p>You shoot a chilling icicle to stab a single foe.</p>
+</div>
+<div class="section" id="magma-blast">
+<span id="occultadventures-classes-kineticist-magma-blast"></span><h3><a class="toc-backref" href="#id29">Magma Blast</a><a class="headerlink" href="#magma-blast" title="Permalink to this headline">¶</a></h3>
+<p><strong>Elements</strong> earth and fire; <strong>Type</strong> composite blast (Sp); <strong>Level</strong> —; <strong>Burn</strong> 2</p>
+<p><strong>Prerequisites</strong> earth blast, fire blast</p>
+<p><strong>Blast Type</strong>physical; <strong>Damage</strong> half bludgeoning, half fire</p>
+<p>You use your fire to superheat the earth into a flow of magma, which you send against a single foe.</p>
+</div>
+<div class="section" id="metal-blast">
+<span id="occultadventures-classes-kineticist-metal-blast"></span><h3><a class="toc-backref" href="#id30">Metal Blast</a><a class="headerlink" href="#metal-blast" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> earth; <strong>Type</strong> composite blast (Sp); <strong>Level</strong> —; <strong>Burn</strong> 2</p>
+<p><strong>Prerequisites</strong> primary element (earth), expanded element (earth)</p>
+<p><strong>Blast Type</strong>physical; <strong>Damage</strong> bludgeoning, piercing, or slashing</p>
+<p>You shape metal into clumps, shards, or blades and send them flying.</p>
+</div>
+<div class="section" id="mud-blast">
+<span id="occultadventures-classes-kineticist-mud-blast"></span><h3><a class="toc-backref" href="#id31">Mud Blast</a><a class="headerlink" href="#mud-blast" title="Permalink to this headline">¶</a></h3>
+<p><strong>Elements</strong> earth and water; <strong>Type</strong> composite blast (Sp); <strong>Level</strong> —; <strong>Burn</strong> 2</p>
+<p><strong>Prerequisites</strong> earth blast, water blast</p>
+<p><strong>Blast Type</strong>physical; <strong>Damage</strong> bludgeoning</p>
+<p>You infuse your water into the earth to create a powerful ball of mud and slam a single foe.</p>
+</div>
+<div class="section" id="plasma-blast">
+<span id="occultadventures-classes-kineticist-plasma-blast"></span><h3><a class="toc-backref" href="#id32">Plasma Blast</a><a class="headerlink" href="#plasma-blast" title="Permalink to this headline">¶</a></h3>
+<p><strong>Elements</strong>air and fire; <strong>Type</strong> composite blast (Sp); <strong>Level</strong> —; <strong>Burn</strong> 2</p>
+<p><strong>Prerequisites</strong> air blast, fire blast</p>
+<p><strong>Blast Type</strong>physical; <strong>Damage</strong> half bludgeoning, half fire</p>
+<p>You launch a gust of air and then use your fire to superheat the gust into plasma just as it strikes a single foe.</p>
+</div>
+<div class="section" id="sandstorm-blast">
+<span id="occultadventures-classes-kineticist-sandstorm-blast"></span><h3><a class="toc-backref" href="#id33">Sandstorm Blast</a><a class="headerlink" href="#sandstorm-blast" title="Permalink to this headline">¶</a></h3>
+<p><strong>Elements</strong> air and earth; <strong>Type</strong> composite blast (Sp); <strong>Level</strong> —; <strong>Burn</strong> 2</p>
+<p><strong>Prerequisites</strong> air blast, earth blast</p>
+<p><strong>Blast Type</strong>physical; <strong>Damage</strong> piercing and slashing</p>
+<p>You use your air to churn up sand, firing a flensing gust at a foe.</p>
+</div>
+<div class="section" id="steam-blast">
+<span id="occultadventures-classes-kineticist-steam-blast"></span><h3><a class="toc-backref" href="#id34">Steam Blast</a><a class="headerlink" href="#steam-blast" title="Permalink to this headline">¶</a></h3>
+<p><strong>Elements</strong> fire and water; <strong>Type</strong> composite blast (Sp); <strong>Level</strong> —; <strong>Burn</strong> 2</p>
+<p><strong>Prerequisites</strong> fire blast, water blast</p>
+<p><strong>Blast Type</strong>physical; <strong>Damage</strong> half bludgeoning, half fire</p>
+<p>You use your fire to superheat water into steam just as it strikes.</p>
+</div>
+<div class="section" id="thunderstorm-blast">
+<span id="occultadventures-classes-kineticist-thunderstorm-blast"></span><h3><a class="toc-backref" href="#id35">Thunderstorm Blast</a><a class="headerlink" href="#thunderstorm-blast" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> air; <strong>Type</strong> composite blast (Sp); <strong>Level</strong> —; <strong>Burn</strong> 2</p>
+<p><strong>Prerequisites</strong> primary element (air), expanded element (air)</p>
+<p><strong>Blast Type</strong>physical; <strong>Damage</strong> half bludgeoning, half electricity</p>
+<p>You batter a single foe with a gust of air crackling with electricity.</p>
+</div>
+<div class="section" id="defense-wild-talents">
+<span id="occultadventures-classes-kineticist-defense-wild-talents"></span><h3><a class="toc-backref" href="#id36">Defense Wild Talents</a><a class="headerlink" href="#defense-wild-talents" title="Permalink to this headline">¶</a></h3>
+<p>A kineticist gains the defense wild talent from her primary element at 2nd level.</p>
+</div>
+<div class="section" id="enveloping-winds">
+<span id="occultadventures-classes-kineticist-enveloping-winds"></span><h3><a class="toc-backref" href="#id37">Enveloping Winds</a><a class="headerlink" href="#enveloping-winds" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> air; <strong>Type</strong>defense (Su); <strong>Level</strong> —; <strong>Burn</strong> 0</p>
+<p>You constantly surround yourself with a whirling torrent of air, crackling arcs of lightning, or both to protect yourself from ranged attacks. All ranged attacks made with physical weapons suffer a 20% miss chance against you, except for attacks from massive weapons such as a giant’s thrown boulder or a ballista. This ability has no effect on ray attacks. The miss chance increases by 5% for every 5 kineticist levels you possess beyond 2nd. By accepting 1 point of burn, you can increase the miss chance by 5% until the next time your burn is removed. You can continue to accept points of burn to increase the miss chance further, up to a maximum of 75%. Whenever you accept burn while using an air wild talent, the energy surging through you causes your enveloping winds to also affect non-physical ranged attacks such as ray attacks for 1 round. You can dismiss or restore this effect as an immediate action.</p>
+</div>
+<div class="section" id="flesh-of-stone">
+<span id="occultadventures-classes-kineticist-flesh-of-stone"></span><h3><a class="toc-backref" href="#id38">Flesh of Stone</a><a class="headerlink" href="#flesh-of-stone" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> earth; <strong>Type</strong>defense (Su); <strong>Level</strong> —; <strong>Burn</strong> 0</p>
+<p>Your skin hardens like stone, dampening the impact of most attacks. You gain DR 1/adamantine. This DR increases by 1 for every 2 kineticist levels you possess beyond 2nd. By accepting 1 point of burn, you can increase the DR by 1 until the next time your burn is removed, to a maximum DR equal to your kineticist level. Whenever you accept burn while using an earth wild talent, the energy surging through you causes your damage reduction to change from DR/adamantine to DR/— for 1 round. You can dismiss and restore this effect as an immediate action.</p>
+</div>
+<div class="section" id="force-ward">
+<span id="occultadventures-classes-kineticist-force-ward"></span><h3><a class="toc-backref" href="#id39">Force Ward</a><a class="headerlink" href="#force-ward" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> aether; <strong>Type</strong>defense (Su); <strong>Level</strong> —; <strong>Burn</strong> 0</p>
+<p>You constantly surround yourself with a ward of force. You gain a number of temporary hit points equal to your kineticist level. You always lose these temporary hit points first, even before other temporary hit points. If an attack deals less damage than you still have as temporary hit points from force ward, it still reduces those temporary hit points but otherwise counts as a miss for the purpose of abilities that trigger on a hit or a miss. These temporary hit points regenerate at a rate of 1 per minute. By accepting 1 point of burn as a standard action, you can increase the maximum number of temporary hit points provided by your force ward by half your kineticist level until the next time your burn is removed. If you use this ability multiple times, the increases stack. For every 2 points of burn you accept in this way, your force ward’s rate of regeneration increases by 1 hit point per minute. Whenever you accept burn while using an aether wild talent, you siphon some of the energy from the aether flowing through you and your force ward recovers a number of temporary hit points equal to your character level, up to its current maximum. You can dismiss or restore your force ward as an immediate action, but doing so doesn’t change the number of temporary hit points available, and the temporary hit points don’t recover while this ability is inactive.</p>
+</div>
+<div class="section" id="searing-flesh">
+<span id="occultadventures-classes-kineticist-searing-flesh"></span><h3><a class="toc-backref" href="#id40">Searing Flesh</a><a class="headerlink" href="#searing-flesh" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> fire; <strong>Type</strong>defense (Su); <strong>Level</strong> —; <strong>Burn</strong> 0</p>
+<p>Your body becomes painfully hot. Whenever a creature hits you with a natural attack or an unarmed strike, that creature takes 1 point of fire damage per 4 kineticist levels you possess (minimum 1 point of fire damage). A creature in a grapple with you takes double this amount of damage at the end of each of its turns. Weapons that strike you also take this damage, though the damage is unlikely to penetrate the weapon’s hardness. By accepting 1 point of burn, you can increase this damage by 1 point per 4 kineticist levels you possess until the next time your burn is removed. You can increase the damage in this way up to seven times.</p>
+<p>Whenever you accept burn while using a fire wild talent, the surging flame causes your searing flesh to deal double its current amount of damage for 1 round (a creature in a grapple with you takes a total of four times as much damage as normal). You can dismiss or restore this effect as an immediate action.</p>
+</div>
+<div class="section" id="shroud-of-water">
+<span id="occultadventures-classes-kineticist-shroud-of-water"></span><h3><a class="toc-backref" href="#id41">Shroud of Water</a><a class="headerlink" href="#shroud-of-water" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> water; <strong>Type</strong>defense (Su); <strong>Level</strong> —; <strong>Burn</strong> 0</p>
+<p>You surround yourself with a shroud of water, ice, or both that protects you from harm. The shroud can either cover your body, functioning as armor, or float around you and block attacks, functioning as a shield. It grants either a +4 armor bonus to AC or a +2 shield bonus to AC, and you can change the type of bonus as a standard action. This bonus increases by 1 for every 4 kineticist levels you possess beyond 2nd. By accepting 1 point of burn, you can increase the bonus by 1 until the next time your burn is removed. You can increase the bonus multiple times in this way, but it can’t be increased by more than 50% of its starting value. When you change the shroud to grant a shield bonus, any bonus in excess of this limit doesn’t apply, but it remains if you change the shroud’s bonus type again. Whenever you accept burn while using a water wild talent, the water coalescing around you allows your shroud to grant both the armor bonus and the shield bonus for 1 round. You can dismiss or restore this effect as an immediate action.</p>
+</div>
+<div class="section" id="infusion-wild-talents">
+<span id="occultadventures-classes-kineticist-infusion-wild-talents"></span><h3><a class="toc-backref" href="#id42">Infusion Wild Talents</a><a class="headerlink" href="#infusion-wild-talents" title="Permalink to this headline">¶</a></h3>
+<p>Infusion wild talents change the way kineticists use their kinetic blasts.</p>
+</div>
+<div class="section" id="bowling-infusion">
+<span id="occultadventures-classes-kineticist-bowling-infusion"></span><h3><a class="toc-backref" href="#id43">Bowling Infusion</a><a class="headerlink" href="#bowling-infusion" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> aether or earth; <strong>Type</strong> substance infusion; <strong>Level</strong> 2; <strong>Burn</strong> 2</p>
+<p><strong>Associated Blasts</strong> earth, magma, metal, mud, telekinetic</p>
+<p><strong>Saving Throw</strong> none</p>
+<p>You bowl your foes over with the sheer mass of your kinetic blast. Attempt a trip combat maneuver check against each target damaged by your infused blast, using your Constitution modifier instead of your Strength modifier to determine your Combat Maneuver Bonus.</p>
+</div>
+<div class="section" id="brilliant-infusion">
+<span id="occultadventures-classes-kineticist-brilliant-infusion"></span><h3><a class="toc-backref" href="#id44">Brilliant Infusion</a><a class="headerlink" href="#brilliant-infusion" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> fire; <strong>Type</strong> substance infusion; <strong>Level</strong> 6; <strong>Burn</strong> 4</p>
+<p><strong>Prerequisite</strong> flash infusion</p>
+<p><strong>Associated Blasts</strong> blue flame, fire, plasma</p>
+<p><strong>Saving Throw</strong> none</p>
+<p>Your kinetic blast leaves an afterglow that banishes the darkness. Treat each square of the path of your ranged attack kinetic blast, the target square of your melee attack kinetic blast, or the area of your area of effect kinetic blast as the center of a <a class="reference internal" href="corerulebook.spells.continualflame.html#corerulebook-spells-continualflame-continual-flame"><span class="std std-ref">continual flame</span></a> effect that lasts until the end of your next turn. This effect counts as a 6th-level spell with the light descriptor.</p>
+</div>
+<div class="section" id="burning-infusion">
+<span id="occultadventures-classes-kineticist-burning-infusion"></span><h3><a class="toc-backref" href="#id45">Burning Infusion</a><a class="headerlink" href="#burning-infusion" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> fire; <strong>Type</strong> substance infusion; <strong>Level</strong> 1; <strong>Burn</strong> 1</p>
+<p><strong>Associated Blasts</strong> blue flame, fire, magma, plasma</p>
+<p><strong>Saving Throw</strong> Reflex negates</p>
+<p>Your kinetic blast ignites your foes. Whenever an infused blast hits a foe and penetrates its spell resistance, that foe catches on fire, regardless of whether it takes damage. A foe that catches fire takes 1d6 points of fire damage each round until the fire is extinguished. Against a creature on fire from this infusion, any fire kinetic blasts gain a +2 bonus on attack rolls, to DCs, and on caster level checks to overcome spell resistance.</p>
+</div>
+<div class="section" id="chain">
+<span id="occultadventures-classes-kineticist-chain"></span><h3><a class="toc-backref" href="#id46">Chain</a><a class="headerlink" href="#chain" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> air; <strong>Type</strong> form infusion; <strong>Level</strong> 5; <strong>Burn</strong> 3</p>
+<p><strong>Associated Blasts</strong> electric</p>
+<p><strong>Saving Throw</strong> none</p>
+<p>Your electric blast leaps from target to target. When you hit a target with your infused blast, you can attempt a ranged touch attack against an additional target that is within 30 feet of the first. Each additional attack originates from the previous target, which could alter cover and other conditions. Each additional target takes 1d6 fewer points of damage than the last (for example, 3d6 becomes 2d6), and you can’t chain the blast back to a previous target. You can continue chaining your blasts until a blast misses or fails to deal damage, or until your blast is reduced to a single damage die.</p>
+</div>
+<div class="section" id="chilling-infusion">
+<span id="occultadventures-classes-kineticist-chilling-infusion"></span><h3><a class="toc-backref" href="#id47">Chilling Infusion</a><a class="headerlink" href="#chilling-infusion" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> water; <strong>Type</strong> substance infusion; <strong>Level</strong> 5; <strong>Burn</strong> 3</p>
+<p><strong>Associated Blasts</strong> blizzard, cold, ice</p>
+<p><strong>Saving Throw</strong> Fortitude negates</p>
+<p>Your kinetic blast chills your foes to the bone, making their movements sluggish. Whenever an infused blast deals cold damage to a foe, that foe is staggered for 1 round.</p>
+</div>
+<div class="section" id="cloud">
+<span id="occultadventures-classes-kineticist-cloud"></span><h3><a class="toc-backref" href="#id48">Cloud</a><a class="headerlink" href="#cloud" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> air or water; <strong>Type</strong> form infusion; <strong>Level</strong> 7; <strong>Burn</strong> 4</p>
+<p><strong>Prerequisite</strong> extended range</p>
+<p><strong>Associated Blasts</strong> blizzard, sandstorm, steam, thunderstorm</p>
+<p><strong>Saving Throw</strong> none</p>
+<p>You release your power in a diffuse cloud. You can center this 20-foot-radius spread anywhere within 120 feet of you. All creatures and objects within the cloud when you create it automatically take 1/4 the normal amount of damage from your blast with no saving throw. Any time a creature enters the cloud, it takes half the normal amount of damage from your blast, as do creatures that end their turns in the cloud. Your cloud obscures vision as <a class="reference internal" href="corerulebook.spells.obscuringmist.html#corerulebook-spells-obscuringmist-obscuring-mist"><span class="std std-ref">obscuring mist</span></a>. It lasts for a number of rounds equal to your Constitution modifier or until you use the cloud infusion again.</p>
+</div>
+<div class="section" id="cyclone">
+<span id="occultadventures-classes-kineticist-cyclone"></span><h3><a class="toc-backref" href="#id49">Cyclone</a><a class="headerlink" href="#cyclone" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> air; <strong>Type</strong> form infusion; <strong>Level</strong> 4; <strong>Burn</strong> 3</p>
+<p><strong>Associated Blasts</strong> air, blizzard, sandstorm, thunderstorm</p>
+<p><strong>Saving Throw</strong> Reflex half</p>
+<p>You create a circular rush of wind. All creatures and objects within a 20-foot-radius burst centered on you take half your blast’s normal amount of damage. The saving throw DC is Dexterity-based.</p>
+</div>
+<div class="section" id="deadly-earth">
+<span id="occultadventures-classes-kineticist-deadly-earth"></span><h3><a class="toc-backref" href="#id50">Deadly Earth</a><a class="headerlink" href="#deadly-earth" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> earth; <strong>Type</strong> form infusion; <strong>Level</strong> 6; <strong>Burn</strong> 4</p>
+<p><strong>Prerequisite</strong> extended range</p>
+<p><strong>Associated Blasts</strong> earth, magma, metal, mud</p>
+<p><strong>Saving Throw</strong> none</p>
+<p>You infuse the ground in a 20-foot radius anywhere within 120 feet of you on an earthen surface (if you are using a metal blast, this infusion affects a metal surface instead). The ground roils and buckles beneath the affected area. All creatures and objects in contact with the ground within the area when you create it automatically take 1/4 of the normal damage from your blast with no saving throw. Any time a creature enters the area, it takes half the normal damage from your blast, as do creatures that end their turns in the area. The entire area counts as difficult terrain. This infusion lasts for a number of rounds equal to your Constitution modifier or until you use it again.</p>
+</div>
+<div class="section" id="disintegrating-infusion">
+<span id="occultadventures-classes-kineticist-disintegrating-infusion"></span><h3><a class="toc-backref" href="#id51">Disintegrating Infusion</a><a class="headerlink" href="#disintegrating-infusion" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> aether; <strong>Type</strong> substance infusion; <strong>Level</strong> 6; <strong>Burn</strong> 4</p>
+<p><strong>Associated Blasts</strong> force</p>
+<p><strong>Saving Throw</strong> Fortitude partial; see text</p>
+<p>You can use force to rip your targets apart. Against creatures, your kinetic blast deals double its normal amount of damage, but targets receive a saving throw to reduce the damage to half the blast’s normal amount of damage (for a total of 1/4 of the blast’s increased damage). Any creature reduced to 0 or fewer hit points by the blast is disintegrated, as the spell <a class="reference internal" href="corerulebook.spells.disintegrate.html#corerulebook-spells-disintegrate-disintegrate"><span class="std std-ref">disintegrate</span></a>. You can use the infused blast to destroy force effects or objects as <a class="reference internal" href="corerulebook.spells.disintegrate.html#corerulebook-spells-disintegrate-disintegrate"><span class="std std-ref">disintegrate</span></a>, but for each force effect or 10-foot cube of nonliving matter you destroy in this way, you must accept 1 point of burn, which can’t be reduced by effects such as infusion specialization or gather power.</p>
+</div>
+<div class="section" id="draining-infusion">
+<span id="occultadventures-classes-kineticist-draining-infusion"></span><h3><a class="toc-backref" href="#id52">Draining Infusion</a><a class="headerlink" href="#draining-infusion" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> universal; <strong>Type</strong> substance infusion; <strong>Level</strong> 1; <strong>Burn</strong> 1</p>
+<p><strong>Associated Blasts</strong> any simple</p>
+<p><strong>Saving Throw</strong> Fortitude partial; see text</p>
+<p>You can drain elemental energy and matter from your foes to strengthen your next attack. When you use this infusion, your kinetic blast affects only creatures with a subtype matching your kinetic blast’s element (for instance, a fire blast would damage only creatures of the fire subtype). Against such creatures, your blast targets touch AC (if it requires an attack roll) and always allows spell resistance. Because you are draining energy from the target, your blast doesn’t apply your elemental overflow bonuses or Constitution modifier. The target can attempt a Fortitude save to take 1/4 the normal amount of damage. Draining infusion ignores any damage reduction, resistances, and immunities the creature might possess. If at least one creature fails its saving throw against your draining infusion, you can reduce the total burn cost of any one blast wild talent used before the end of your next turn by 1, or by 2 if you have the supercharge ability. If you use draining infusion again before applying this reduction, you still deal the damage from that draining infusion, but the burn reductions don’t stack.</p>
+</div>
+<div class="section" id="entangling-infusion">
+<span id="occultadventures-classes-kineticist-entangling-infusion"></span><h3><a class="toc-backref" href="#id53">Entangling Infusion</a><a class="headerlink" href="#entangling-infusion" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> earth or water; <strong>Type</strong> substance infusion; <strong>Level</strong> 2; <strong>Burn</strong> 2</p>
+<p><strong>Associated Blasts</strong> blizzard, cold, earth, ice, magma, metal, mud, sandstorm</p>
+<p><strong>Saving Throw</strong> Reflex negates</p>
+<p>Your kinetic blast surrounds your foes in elemental matter. Whenever a blast with this infusion deals damage to a foe, that foe becomes entangled for 1 minute. The foe can remove this condition as a standard action with a successful <a class="reference internal" href="corerulebook.skills.escapeartist.html#corerulebook-skills-escapeartist-escape-artist"><span class="std std-ref">Escape Artist</span></a> or Strength check (with the same DC as for saves against your kinetic blast) or by dealing an amount of damage to the entangling matter equal to double your kineticist level (the matter has hardness 0). If the foe was already entangled by this infusion and fails its save against a second instance of this infusion, the increased amount of elemental matter fuses to the ground, causing the foe to be rooted in place as though anchored to an immobile object.</p>
+</div>
+<div class="section" id="eruption">
+<span id="occultadventures-classes-kineticist-eruption"></span><h3><a class="toc-backref" href="#id54">Eruption</a><a class="headerlink" href="#eruption" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> fire; <strong>Type</strong> form infusion; <strong>Level</strong> 3; <strong>Burn</strong> 2</p>
+<p><strong>Prerequisite</strong> extended range</p>
+<p><strong>Associated Blasts</strong> blue flame, fire, magma, steam</p>
+<p><strong>Saving Throw</strong> Reflex half</p>
+<p>Your kinetic blast erupts from the ground in a pillar centered anywhere within 120 feet of you. The pillar affects all creatures and objects in a 10-foot-radius cylinder that extends 40 feet above the ground. An energy blast infused with eruption deals its normal damage to each target, while a physical blast deals half its normal amount of damage. The saving throw DC is Dexterity-based.</p>
+</div>
+<div class="section" id="explosion">
+<span id="occultadventures-classes-kineticist-explosion"></span><h3><a class="toc-backref" href="#id55">Explosion</a><a class="headerlink" href="#explosion" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> fire; <strong>Type</strong> form infusion; <strong>Level</strong> 7; <strong>Burn</strong> 4</p>
+<p><strong>Prerequisite</strong> extended range</p>
+<p><strong>Associated Blasts</strong> blue flame, fire</p>
+<p><strong>Saving Throw</strong> Reflex half</p>
+<p>You focus your energy on a point in space and create a controlled explosion. You can center the explosion anywhere within 120 feet of you, and you can choose the radius of the spread to be 5, 10, 15, or 20 feet. All creatures and objects within the explosion take your blast’s damage. The saving throw DC is Dexterity-based.</p>
+</div>
+<div class="section" id="extended-range">
+<span id="occultadventures-classes-kineticist-extended-range"></span><h3><a class="toc-backref" href="#id56">Extended Range</a><a class="headerlink" href="#extended-range" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> universal; <strong>Type</strong> form infusion; <strong>Level</strong> 1; <strong>Burn</strong> 1</p>
+<p><strong>Associated Blasts</strong> any</p>
+<p><strong>Saving Throw</strong> none</p>
+<p>Your kinetic blast can strike any target within 120 feet.</p>
+</div>
+<div class="section" id="extreme-range">
+<span id="occultadventures-classes-kineticist-extreme-range"></span><h3><a class="toc-backref" href="#id57">Extreme Range</a><a class="headerlink" href="#extreme-range" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> universal; <strong>Type</strong> form infusion; <strong>Level</strong> 3; <strong>Burn</strong> 2</p>
+<p><strong>Prerequisite</strong>extended range</p>
+<p><strong>Associated Blasts</strong> any</p>
+<p><strong>Saving Throw</strong> none</p>
+<p>Your kinetic blast can strike any target within 480 feet.</p>
+</div>
+<div class="section" id="fan-of-flames">
+<span id="occultadventures-classes-kineticist-fan-of-flames"></span><h3><a class="toc-backref" href="#id58">Fan of Flames</a><a class="headerlink" href="#fan-of-flames" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> fire; <strong>Type</strong> form infusion; <strong>Level</strong> 1; <strong>Burn</strong> 1</p>
+<p><strong>Associated Blasts</strong> blue flame, fire</p>
+<p><strong>Saving Throw</strong> Reflex half</p>
+<p>Your kinetic blast extends in a fan of flames, damaging all creatures and objects in a 15-foot cone. The saving throw DC is Dexterity-based.</p>
+</div>
+<div class="section" id="flash-infusion">
+<span id="occultadventures-classes-kineticist-flash-infusion"></span><h3><a class="toc-backref" href="#id59">Flash Infusion</a><a class="headerlink" href="#flash-infusion" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> fire; <strong>Type</strong> substance infusion; <strong>Level</strong> 4; <strong>Burn</strong> 3</p>
+<p><strong>Associated Blasts</strong> blue flame, fire, plasma</p>
+<p><strong>Saving Throw</strong> Will negates</p>
+<p>Your kinetic blast is so bright that it blinds your foes. Whenever an infused blast hits a foe and penetrates its spell resistance, that foe must succeed at a Will save or be blinded for 1 round, regardless of whether it takes damage from the blast. You can reduce the blast’s damage by half to increase the DC of this save by 2.</p>
+</div>
+<div class="section" id="flurry-of-blasts">
+<span id="occultadventures-classes-kineticist-flurry-of-blasts"></span><h3><a class="toc-backref" href="#id60">Flurry of Blasts</a><a class="headerlink" href="#flurry-of-blasts" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> universal; <strong>Type</strong> form infusion; <strong>Level</strong> 3; <strong>Burn</strong> 2</p>
+<p><strong>Prerequisite</strong> extended range</p>
+<p><strong>Associated Blasts</strong> any</p>
+<p><strong>Saving Throw</strong> none</p>
+<p>Instead of a single kinetic blast, you shoot two kinetic blasts at targets within 120 feet that each deal damage as if your kineticist level were 1st (effects or abilities that increase your kinetic blast’s damage don’t apply). At 10th level, you can shoot three blasts with flurry of blasts; this increases to four blasts at 16th level and to five blasts at 20th level. If you are under the effect of <a class="reference internal" href="corerulebook.spells.haste.html#corerulebook-spells-haste"><span class="std std-ref">haste</span></a> or similar magic that increases your number of attacks in a full-attack action, the number of kinetic blasts in your flurry of blasts increases by 1.</p>
+<p>No two targets can be more than 30 feet apart. You must assign the targets of all your blasts before rolling any of the attacks. Any blast beyond the first that hits the same target adds 1d6 points of damage; bonuses and penalties to damage don’t apply. If you are using a substance infusion that requires a saving throw, a target attempts its save only once (even if it was hit multiple times), but it takes a penalty on the save equal to the number of times it was hit beyond the first. If you are using a substance infusion that requires a caster level check or combat maneuver check, you roll the check only once against each target, but you gain a bonus on the check equal to the number of times that target was hit beyond the first. If you are using the pushing substance infusion, the maximum distance of the push increases by 5 feet for each time the target was hit beyond the first.</p>
+</div>
+<div class="section" id="foe-throw">
+<span id="occultadventures-classes-kineticist-foe-throw"></span><h3><a class="toc-backref" href="#id61">Foe Throw</a><a class="headerlink" href="#foe-throw" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> aether; <strong>Type</strong> form infusion; <strong>Level</strong> 3; <strong>Burn</strong> 2</p>
+<p><strong>Associated Blasts</strong> telekinetic</p>
+<p><strong>Saving Throw</strong> Fortitude negates; see text</p>
+<p>Your telekinetic blast can throw a Large or smaller creature instead of an unattended object; you can increase the burn cost by 1 to affect a creature of a larger size. If the creature you attempt to throw succeeds at a Fortitude save, it negates the blast entirely. Otherwise, if your blast hits, both the thrown creature and the target take the full amount of damage from your telekinetic blast, and the thrown creature falls prone in the last unoccupied space along its path. If your blast misses, the thrown creature can choose to occupy any space within 30 feet of the target, it doesn’t fall prone, and it takes half the normal amount of damage from your blast. The movement doesn’t provoke attacks of opportunity.</p>
+</div>
+<div class="section" id="force-hook">
+<span id="occultadventures-classes-kineticist-force-hook"></span><h3><a class="toc-backref" href="#id62">Force Hook</a><a class="headerlink" href="#force-hook" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> aether; <strong>Type</strong> form infusion; <strong>Level</strong> 3; <strong>Burn</strong> 2</p>
+<p><strong>Associated Blasts</strong> force</p>
+<p><strong>Saving Throw</strong>none</p>
+<p>Your force blast hooks onto its target and drags you adjacent to it. This effect functions as <a class="reference internal" href="ultimatemagic.spells.forcehookcharge.html#ultimatemagic-spells-forcehookcharge-force-hook-charge"><span class="std std-ref">force hook charge</span></a>, except with the range and damage of your force blast.</p>
+</div>
+<div class="section" id="fragmentation">
+<span id="occultadventures-classes-kineticist-fragmentation"></span><h3><a class="toc-backref" href="#id63">Fragmentation</a><a class="headerlink" href="#fragmentation" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> earth or water; <strong>Type</strong> form infusion; <strong>Level</strong> 7; <strong>Burn</strong> 4</p>
+<p><strong>Prerequisite</strong> extended range</p>
+<p><strong>Associated Blasts</strong> earth, ice, metal</p>
+<p><strong>Saving Throw</strong> none or Reflex half; see text</p>
+<p>You throw a volatile sphere of solid matter that shatters into countless shards. Attempt a ranged attack roll against a target within 120 feet. If you hit, the target takes your kinetic blast damage with no saving throw. All other creatures and objects within a 20-foot burst take half the normal amount of damage and can attempt a Reflex save to reduce that damage by half again. If the attack misses its target, the blast has no effect. The saving throw DC is Dexterity-based.</p>
+</div>
+<div class="section" id="grappling-infusion">
+<span id="occultadventures-classes-kineticist-grappling-infusion"></span><h3><a class="toc-backref" href="#id64">Grappling Infusion</a><a class="headerlink" href="#grappling-infusion" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> universal; <strong>Type</strong> substance infusion; <strong>Level</strong> 5; <strong>Burn</strong> 3</p>
+<p><strong>Associated Blasts</strong> any</p>
+<p><strong>Saving Throw</strong> none</p>
+<p>Your cloud, deadly earth, or wall blast grows tendrils that hold your enemies in place. Whenever a creature takes damage from the infused blast, you can attempt a combat maneuver check to have the blast grapple that opponent. Your bonus on this check is equal to 2 + your kineticist level + your Constitution modifier (treat the blast as a Huge creature). The blast only grapples opponents; it can’t perform other functions of grapple maneuvers such as pinning or moving the opponent. If the blast is already grappling an opponent, it receives a +5 bonus on its combat maneuver check to maintain the grapple, as normal. You can use this infusion only if you also use the cloud, deadly earth, or wall form infusion.</p>
+</div>
+<div class="section" id="gusting-infusion">
+<span id="occultadventures-classes-kineticist-gusting-infusion"></span><h3><a class="toc-backref" href="#id65">Gusting Infusion</a><a class="headerlink" href="#gusting-infusion" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> air; <strong>Type</strong> substance infusion; <strong>Level</strong> 1; <strong>Burn</strong> 1</p>
+<p><strong>Associated Blasts</strong> air, blizzard, sandstorm, thunderstorm</p>
+<p><strong>Saving Throw</strong> Fortitude negates</p>
+<p>The wind from your infusion causes your blast to act as an instantaneous <a class="reference internal" href="corerulebook.spells.gustofwind.html#corerulebook-spells-gustofwind-gust-of-wind"><span class="std std-ref">gust of wind</span></a>. If your blast has a clear path, you can accept 2 additional points of burn or reduce the damage to 0 in order to cause the <a class="reference internal" href="corerulebook.spells.gustofwind.html#corerulebook-spells-gustofwind-gust-of-wind"><span class="std std-ref">gust of wind</span></a> effect to persist for 1 round along that path.</p>
+</div>
+<div class="section" id="impale">
+<span id="occultadventures-classes-kineticist-impale"></span><h3><a class="toc-backref" href="#id66">Impale</a><a class="headerlink" href="#impale" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> earth or water; <strong>Type</strong> form infusion; <strong>Level</strong> 3; <strong>Burn</strong> 2</p>
+<p><strong>Associated Blasts</strong> earth, ice, metal</p>
+<p><strong>Saving Throw</strong> none</p>
+<p>You extend a long, sharp spike of elemental matter along a line, impaling multiple foes. Make a single attack roll against each creature or object in a 30-foot line, starting with the closest target. If the result is a critical threat, roll to confirm against only the first target you hit. Calculate damage against each target you hit, starting from the closest. If your attack hits a target but fails to deal physical damage to that target, the spike fails to penetrate and the infused blast doesn’t continue. A blast with the impale infusion can penetrate solid barriers, but it must deal enough damage to destroy the barrier in order to continue through. Infused earth and metal blasts always deal piercing damage.</p>
+</div>
+<div class="section" id="kinetic-blade">
+<span id="occultadventures-classes-kineticist-kinetic-blade"></span><h3><a class="toc-backref" href="#id67">Kinetic Blade</a><a class="headerlink" href="#kinetic-blade" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> universal; <strong>Type</strong> form infusion; <strong>Level</strong> 1; <strong>Burn</strong> 1</p>
+<p><strong>Associated Blasts</strong> any</p>
+<p><strong>Saving Throw</strong> none</p>
+<p>You form a weapon using your kinetic abilities. You create a non-reach, light or one-handed weapon in your hand formed of pure energy or elemental matter. (If you’re a telekineticist, you instead transfer the power of your kinetic blast to any object held in one hand.) The kinetic blade’s shape is purely cosmetic and doesn’t affect the damage dice, critical threat range, or critical multiplier of the kinetic blade, nor does it grant the kinetic blade any weapon special features. The object held by a telekineticist for this form infusion doesn’t prevent her from using gather power.</p>
+<p>You can use this form infusion once as part of an attack action, a charge action, or a full-attack action in order to make melee attacks with your kinetic blade. Since it’s part of another action (and isn’t an action itself), using this wild talent doesn’t provoke any additional attacks of opportunity. The kinetic blade deals your kinetic blast damage on each hit (applying any modifiers to your kinetic blast’s damage as normal, but not your Strength modifier). The blade disappears at the end of your turn. The weapon deals the same damage type that your kinetic blast deals, and it interacts with Armor Class and spell resistance as normal for a blast of its type. Even if a telekineticist uses this power on a magic weapon or another unusual object, the attack doesn’t use any of the magic weapon’s bonuses or effects and simply deals the telekineticist’s blast damage. The kinetic blade doesn’t add the damage bonus from elemental overflow.</p>
+</div>
+<div class="section" id="kinetic-fist">
+<span id="occultadventures-classes-kineticist-kinetic-fist"></span><h3><a class="toc-backref" href="#id68">Kinetic Fist</a><a class="headerlink" href="#kinetic-fist" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> universal; <strong>Type</strong> form infusion; <strong>Level</strong> 1; <strong>Burn</strong> 1</p>
+<p><strong>Associated Blasts</strong> any</p>
+<p><strong>Saving Throw</strong> none</p>
+<p>You surround your body with energy or elemental matter from your kinetic abilities. You can use this form infusion as part of an attack action, a charge action, or a full-attack action to add damage to each of your natural attacks and unarmed strikes until the beginning of your next turn. Since kinetic fist is part of another action, using this wild talent doesn’t provoke any additional attack of opportunity. You deal an additional 1d6 points of damage per 3 dice of your kinetic blast’s damage (minimum 1d6), and this damage is of the same type as your kinetic blast’s damage. This extra damage ignores spell resistance and doesn’t apply any modifiers to your kinetic blast’s damage, such as your Constitution modifier.</p>
+</div>
+<div class="section" id="kinetic-whip">
+<span id="occultadventures-classes-kineticist-kinetic-whip"></span><h3><a class="toc-backref" href="#id69">Kinetic Whip</a><a class="headerlink" href="#kinetic-whip" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> universal; <strong>Type</strong> form infusion; <strong>Level</strong> 3; <strong>Burn</strong> 2</p>
+<p><strong>Prerequisite</strong> kinetic blade</p>
+<p><strong>Associated Blasts</strong> any</p>
+<p><strong>Saving Throw</strong> none</p>
+<p>You form a long tendril of energy or elemental matter. This functions as kinetic blade but counts as a reach weapon appropriate for your size. Unlike most reach weapons, the kinetic whip can also attack nearby creatures. The kinetic whip disappears at the beginning of your next turn, but in the intervening time, it threatens all squares within its reach, allowing you to make attacks of opportunity that deal the whip’s usual damage.</p>
+</div>
+<div class="section" id="magnetic-infusion">
+<span id="occultadventures-classes-kineticist-magnetic-infusion"></span><h3><a class="toc-backref" href="#id70">Magnetic Infusion</a><a class="headerlink" href="#magnetic-infusion" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> air or earth; <strong>Type</strong> substance infusion; <strong>Level</strong> 3; <strong>Burn</strong> 2</p>
+<p><strong>Associated Blasts</strong> charged water, electric, metal, plasma, thunderstorm</p>
+<p><strong>Saving Throw</strong> none</p>
+<p>Your kinetic blast causes your foes to become mildly magnetic. Whenever an infused blast deals damage to a foe, attacks made with metal weapons (including metal kinetic blasts) against that foe receive a +4 bonus until the end of your next turn, and the foe takes a –4 penalty on Reflex saving throws to avoid metallic objects.</p>
+</div>
+<div class="section" id="many-throw">
+<span id="occultadventures-classes-kineticist-many-throw"></span><h3><a class="toc-backref" href="#id71">Many Throw</a><a class="headerlink" href="#many-throw" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> aether; <strong>Type</strong> form infusion; <strong>Level</strong> 8; <strong>Burn</strong> 4</p>
+<p><strong>Prerequisite</strong> extended range</p>
+<p><strong>Associated Blasts</strong> telekinesis</p>
+<p><strong>Saving Throw</strong> none</p>
+<p>You grab a large number of objects and throw them all at once. You can use your telekinetic blast to make attack rolls against a number of targets equal to your kineticist level within 120 feet, but no two targets can be more than 30 feet apart.</p>
+</div>
+<div class="section" id="mobile-blast">
+<span id="occultadventures-classes-kineticist-mobile-blast"></span><h3><a class="toc-backref" href="#id72">Mobile Blast</a><a class="headerlink" href="#mobile-blast" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> universal; <strong>Type</strong> form infusion; <strong>Level</strong> 3; <strong>Burn</strong> 2</p>
+<p><strong>Associated Blasts</strong> any</p>
+<p><strong>Saving Throw</strong> Reflex negates</p>
+<p>You send an elemental mass, energy ball, or object into a particular square within 30 feet, dealing 1/4 the normal amount of damage (or half the normal amount of damage, for an energy blast) to all creatures in that square. The mobile blast lasts until you dismiss it as a free action, lose consciousness, or move farther than 30 feet from it. Each round on your turn as a move action, you can move the mobile blast to another square within range; either way, it continues to deal damage to all creatures in its final square each round if they fail their saving throws. You can have only a single mobile blast in existence at a time. If the mobile blast’s total burn cost before applying any reduction for gather power is 0, it has no maximum duration. Otherwise, it lasts for a maximum number of rounds equal to your Constitution modifier, and afterward you can’t create another mobile blast for a number of minutes equal to the number of rounds it existed. A mobile blast is always extremely loud and visible. The saving throw DC is Dexterity-based.</p>
+</div>
+<div class="section" id="pure-flame-infusion">
+<span id="occultadventures-classes-kineticist-pure-flame-infusion"></span><h3><a class="toc-backref" href="#id73">Pure-flame Infusion</a><a class="headerlink" href="#pure-flame-infusion" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> fire; <strong>Type</strong> substance infusion; <strong>Level</strong> 7; <strong>Burn</strong> 4</p>
+<p><strong>Associated Blasts</strong> blue flame</p>
+<p><strong>Saving Throw</strong> none</p>
+<p>You open a direct conduit to the purest elemental fire and send it surging forth. Your infused blast ignores spell resistance.</p>
+</div>
+<div class="section" id="pushing-infusion">
+<span id="occultadventures-classes-kineticist-pushing-infusion"></span><h3><a class="toc-backref" href="#id74">Pushing Infusion</a><a class="headerlink" href="#pushing-infusion" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> aether, air, earth, or water; <strong>Type</strong> substance infusion; <strong>Level</strong> 1; <strong>Burn</strong> 1</p>
+<p><strong>Associated Blasts</strong> air, blizzard, charged water, earth, magma, metal, mud, sandstorm, steam, telekinetic, water</p>
+<p><strong>Saving Throw</strong> none</p>
+<p>The momentum of your kinetic blast knocks foes back. Attempt a bull rush combat maneuver check against each target damaged by your infused blast, using your Constitution modifier instead of your Strength modifier to determine your bonus. This infusion can push a foe back by a maximum of 5 feet. You can increase the burn cost of this infusion to increase the maximum distance pushed by 5 feet per additional point of burn accepted. You can’t use this infusion with a form infusion such as cloud that causes your kinetic blast to lack a clear direction to push.</p>
+</div>
+<div class="section" id="quenching-infusion">
+<span id="occultadventures-classes-kineticist-quenching-infusion"></span><h3><a class="toc-backref" href="#id75">Quenching Infusion</a><a class="headerlink" href="#quenching-infusion" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> water; <strong>Type</strong> substance infusion; <strong>Level</strong> 1; <strong>Burn</strong> 1</p>
+<p><strong>Associated Blasts</strong> charged water, water</p>
+<p><strong>Saving Throw</strong> none</p>
+<p>Your blast puts out nonmagical fires as if they had been touched by a water elemental. If you increase the burn cost to 2 or reduce the damage to 0, it also dispels magical fires as if you were a water elemental with a number of Hit Dice equal to your kineticist level.</p>
+</div>
+<div class="section" id="rare-metal-infusion">
+<span id="occultadventures-classes-kineticist-rare-metal-infusion"></span><h3><a class="toc-backref" href="#id76">Rare-metal Infusion</a><a class="headerlink" href="#rare-metal-infusion" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> earth; <strong>Type</strong> substance infusion; <strong>Level</strong> 3; <strong>Burn</strong> 2</p>
+<p><strong>Associated Blasts</strong> metal</p>
+<p><strong>Saving Throw</strong> none</p>
+<p>You can control the properties of metal, allowing your metal blast to bypass damage reduction as if it were adamantine, cold iron, or silver (your choice). If your target has an unusual type of damage reduction that could be overcome with the correct type of metal (such as DR/gold), you can also select that metal for this purpose. The metal you create with this infusion crumbles away shortly thereafter and has no gp value.</p>
+</div>
+<div class="section" id="snake">
+<span id="occultadventures-classes-kineticist-snake"></span><h3><a class="toc-backref" href="#id77">Snake</a><a class="headerlink" href="#snake" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> universal; <strong>Type</strong> form infusion; <strong>Level</strong> 3; <strong>Burn</strong> 2</p>
+<p><strong>Prerequisite</strong> extended range</p>
+<p><strong>Associated Blasts</strong> any</p>
+<p><strong>Saving Throw</strong> none</p>
+<p>You have fine control over your kinetic blast, allowing you to alter its path to avoid obstacles. You can trace out any path no more than 120 feet long for your blast, potentially allowing you to avoid cover (even total cover). You can choose a path that leads into squares you cannot see.</p>
+</div>
+<div class="section" id="spray">
+<span id="occultadventures-classes-kineticist-spray"></span><h3><a class="toc-backref" href="#id78">Spray</a><a class="headerlink" href="#spray" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> water; <strong>Type</strong> form infusion; <strong>Level</strong> 4; <strong>Burn</strong> 3</p>
+<p><strong>Associated Blasts</strong> charged water, water</p>
+<p><strong>Saving Throw</strong> Reflex half</p>
+<p>You diffuse your kinetic blast to spray out wildly. All creatures and objects in a 30-foot cone take half your normal amount of blast damage. The saving throw DC is Dexterity-based.</p>
+</div>
+<div class="section" id="thundering-infusion">
+<span id="occultadventures-classes-kineticist-thundering-infusion"></span><h3><a class="toc-backref" href="#id79">Thundering Infusion</a><a class="headerlink" href="#thundering-infusion" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> air; <strong>Type</strong> substance infusion; <strong>Level</strong> 1; <strong>Burn</strong> 1</p>
+<p><strong>Associated Blasts</strong> electric, thunderstorm</p>
+<p><strong>Saving Throw</strong> Fortitude negates</p>
+<p>Your lightning brings with it a peal of thunder. Whenever your infused blast hits a foe and penetrates spell resistance, that foe becomes deafened, even if the blast doesn’t deal damage.â©</p>
+</div>
+<div class="section" id="torrent">
+<span id="occultadventures-classes-kineticist-torrent"></span><h3><a class="toc-backref" href="#id80">Torrent</a><a class="headerlink" href="#torrent" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> air, fire, or water; <strong>Type</strong> form infusion; <strong>Level</strong> 3; <strong>Burn</strong> 2</p>
+<p><strong>Associated Blasts</strong> air, blizzard, blue flame, charged water, fire, magma, mud, plasma, sandstorm, steam, thunderstorm, water</p>
+<p><strong>Saving Throw</strong> Reflex half</p>
+<p>A torrent of energy buffets or burns all foes in a 30-foot line, dealing half your normal amount of blast damage (or full damage for energy blasts). The saving throw DC is Dexterity-based.</p>
+</div>
+<div class="section" id="unraveling-infusion">
+<span id="occultadventures-classes-kineticist-unraveling-infusion"></span><h3><a class="toc-backref" href="#id81">Unraveling Infusion</a><a class="headerlink" href="#unraveling-infusion" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> fire; <strong>Type</strong> substance infusion; <strong>Level</strong> 5; <strong>Burn</strong> 3</p>
+<p><strong>Associated Blasts</strong> blue flame, fire</p>
+<p><strong>Saving Throw</strong> none</p>
+<p>Your kinetic blast burns so hot that it melts away your foe’s magical effects. Whenever your infused blast hits a foe and penetrates its spell resistance, you can attempt a caster level check as if using a targeted <a class="reference internal" href="corerulebook.spells.dispelmagic.html#corerulebook-spells-dispelmagic-dispel-magic"><span class="std std-ref">dispel magic</span></a> before determining whether the foe takes damage from the blast. You can choose to reduce the blast’s damage by half to increase your bonus on the caster level check by 2. If you don’t choose a specific spell effect to attempt to dispel, you automatically attempt to dispel effects that would protect the target from fire damage before other spells.</p>
+</div>
+<div class="section" id="wall">
+<span id="occultadventures-classes-kineticist-wall"></span><h3><a class="toc-backref" href="#id82">Wall</a><a class="headerlink" href="#wall" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> universal; <strong>Type</strong> form infusion; <strong>Level</strong> 5; <strong>Burn</strong> 3</p>
+<p><strong>Associated Blasts</strong> any</p>
+<p><strong>Saving Throw</strong> none</p>
+<p>You create a wall of churning elements, flensing debris, or roiling energy. The wall appears within 30 feet and can be either up to 10 feet high and up to 120 feet long or up to 20 feet high and up to 60 feet long. All creatures and objects in one of the wall’s squares when you create it take 1/4 the normal damage from your blast with no saving throw (or half the normal damage for an energy blast). Anytime a creature crosses the wall, it takes half the normal damage from your blast (or full damage for an energy blast). The wall is not completely solid, but it does provide cover against attacks from the other side of the wall. The wall lasts for a number of rounds equal to your Constitution modifier or until you use a wall infusion again.</p>
+</div>
+<div class="section" id="utility-wild-talents">
+<span id="occultadventures-classes-kineticist-utility-wild-talents"></span><h3><a class="toc-backref" href="#id83">Utility Wild Talents</a><a class="headerlink" href="#utility-wild-talents" title="Permalink to this headline">¶</a></h3>
+<p>A kineticist can select one of the following wild talents at each even level, provided she meets the prerequisites.</p>
+</div>
+<div class="section" id="aerial-adaptation">
+<span id="occultadventures-classes-kineticist-aerial-adaptation"></span><h3><a class="toc-backref" href="#id84">Aerial Adaptation</a><a class="headerlink" href="#aerial-adaptation" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> air; <strong>Type</strong> utility (Sp); <strong>Level</strong> 1; <strong>Burn</strong> 0</p>
+<p>You are immune to altitude sickness, and gain an amount of electricity resistance equal to twice your current amount of burn.</p>
+</div>
+<div class="section" id="aerial-evasion">
+<span id="occultadventures-classes-kineticist-aerial-evasion"></span><h3><a class="toc-backref" href="#id85">Aerial Evasion</a><a class="headerlink" href="#aerial-evasion" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> air; <strong>Type</strong> utility (Su); <strong>Level</strong> 3; <strong>Burn</strong> 1</p>
+<p><strong>Prerequisite</strong> enveloping winds</p>
+<p>You use wind to buffet yourself away from area attacks. Until the next time your burn is removed, you gain evasion, as the rogue class feature.</p>
+</div>
+<div class="section" id="aether-puppet">
+<span id="occultadventures-classes-kineticist-aether-puppet"></span><h3><a class="toc-backref" href="#id86">Aether Puppet</a><a class="headerlink" href="#aether-puppet" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> aether; <strong>Type</strong> utility (Sp); <strong>Level</strong> 5; <strong>Burn</strong> 0</p>
+<p>You use strands of aether to animate an object. You can animate a Medium or smaller object as an animated object with no Construction Point abilities (except for stone or metal [common], if the object is constructed of one of those materials). Each round on your turn, you must take a move action to guide the object, or it reverts to its inanimate state. By accepting 1 point of burn, you can pour a bit of your own sentience into the aether puppet, allowing the effect to persist for 1 round per kineticist level without requiring additional actions. At 12th level, you can animate a Large or smaller object, which gains all the abilities of the Medium animated object plus the additional attack ability. At 14th level, you can animate a Huge or smaller object, which gains all the abilities of the Large animated object. At 16th level, you can animate a Gargantuan or smaller object, which gains all the abilities of the Huge animated object, as well as the metal (mithral) ability if the object is made of mithral. At 18th level, you can animate a Colossal or smaller object, which gains all the abilities of the Gargantuan animated object, plus the metal (adamantine) ability if the object is made of adamantine.</p>
+</div>
+<div class="section" id="air-cushion">
+<span id="occultadventures-classes-kineticist-air-cushion"></span><h3><a class="toc-backref" href="#id87">Air Cushion</a><a class="headerlink" href="#air-cushion" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> air; <strong>Type</strong> utility (Sp); <strong>Level</strong> 1; <strong>Burn</strong> 0</p>
+<p>You cushion a fall from any height. You are constantly under the effects of <a class="reference internal" href="corerulebook.spells.featherfall.html#corerulebook-spells-featherfall-feather-fall"><span class="std std-ref">feather fall</span></a>, and you count as one size category larger for the purpose of determining how you are affected by wind.</p>
+</div>
+<div class="section" id="air-shroud">
+<span id="occultadventures-classes-kineticist-air-shroud"></span><h3><a class="toc-backref" href="#id88">Air Shroud</a><a class="headerlink" href="#air-shroud" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> air; <strong>Type</strong> utility (Sp); <strong>Level</strong> 1; <strong>Burn</strong> 0</p>
+<p>You are always surrounded by air, as <a class="reference internal" href="ultimatecombat.spells.airbubble.html#ultimatecombat-spells-airbubble-air-bubble"><span class="std std-ref">air bubble</span></a>. As a standard action, you can accept 1 point of burn to extend the effect to a number of additional creatures equal to your Constitution modifier for 1 minute per kineticist level you possess.</p>
+</div>
+<div class="section" id="air-shroud-greater">
+<span id="occultadventures-classes-kineticist-air-shroud-greater"></span><h3><a class="toc-backref" href="#id89">Air Shroud, Greater</a><a class="headerlink" href="#air-shroud-greater" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> air; <strong>Type</strong> utility (Sp); <strong>Level</strong> 5; <strong>Burn</strong> 0</p>
+<p><strong>Prerequisite</strong> air shroud</p>
+<p>Your air shroud improves, granting you the benefits of <a class="reference internal" href="advancedplayersguide.spells.lifebubble.html#advancedplayersguide-spells-lifebubble-life-bubble"><span class="std std-ref">life bubble</span></a>. When you accept burn to grant the benefit to others, the benefit lasts until the next time your burn is removed.</p>
+</div>
+<div class="section" id="air-s-leap">
+<span id="occultadventures-classes-kineticist-airs-leap"></span><h3><a class="toc-backref" href="#id90">Air’s Leap</a><a class="headerlink" href="#air-s-leap" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> air; <strong>Type</strong> utility (Su); <strong>Level</strong> 1; <strong>Burn</strong> 0</p>
+<p>You are always considered to have a running start when jumping, you add your kineticist level as a bonus on all <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a> checks to jump, you jump twice as far or high as the results of your check indicate, and you can accept 1 point of burn when jumping to double the distance you jump again (to a total of four times as far).</p>
+</div>
+<div class="section" id="air-s-reach">
+<span id="occultadventures-classes-kineticist-airs-reach"></span><h3><a class="toc-backref" href="#id91">Air’s Reach</a><a class="headerlink" href="#air-s-reach" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> air; <strong>Type</strong> utility (Su); <strong>Level</strong> 1; <strong>Burn</strong> —</p>
+<p>When using air blasts, air wild talents, or composite blasts that include air, double the blast’s effective range. This effect applies after altering the range due to effects such as the extended range infusion. This doubles only the blast’s effective range, not the area of effect for infusions like cloud and cyclone.</p>
+</div>
+<div class="section" id="basic-aerokinesis">
+<span id="occultadventures-classes-kineticist-basic-aerokinesis"></span><h3><a class="toc-backref" href="#id92">Basic Aerokinesis</a><a class="headerlink" href="#basic-aerokinesis" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> air; <strong>Type</strong> utility (Sp); <strong>Level</strong> 1; <strong>Burn</strong> 0</p>
+<p>You can create a light breeze that blows against a creature or object from a direction of your choice that follows the target wherever it goes. The breeze grants the subject a +2 bonus on saves against very hot conditions, severe heat, breath weapons, and cloud vapors and gases (such as <a class="reference internal" href="corerulebook.spells.cloudkill.html#corerulebook-spells-cloudkill-cloudkill"><span class="std std-ref">cloudkill</span></a>, <a class="reference internal" href="corerulebook.spells.stinkingcloud.html#corerulebook-spells-stinkingcloud-stinking-cloud"><span class="std std-ref">stinking cloud</span></a>, and inhaled poisons). This wild talent doesn’t function without air or while underwater. You can have only one such breeze active at any one time.</p>
+<p>You can also use your aerokinesis to make it harder to detect you or others by scent. You can designate a number of creatures or objects equal to your Constitution bonus. These creatures and objects always count as being downwind for the purpose of determining the distance at which they can be detected by scent. This effect lasts for 1 hour or until you use basic aerokinesis again, whichever comes first.</p>
+</div>
+<div class="section" id="basic-geokinesis">
+<span id="occultadventures-classes-kineticist-basic-geokinesis"></span><h3><a class="toc-backref" href="#id93">Basic Geokinesis</a><a class="headerlink" href="#basic-geokinesis" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> earth; <strong>Type</strong> utility (Sp); <strong>Level</strong> 1; <strong>Burn</strong> 0</p>
+<p>You can move up to 5 pounds per kineticist level of rocks, loose earth, sand, clay, and other similar materials up to 15 feet as a move action. You can search earthen and stone areas from a distance as if using the <a class="reference internal" href="advancedplayersguide.spells.sift.html#advancedplayersguide-spells-sift"><span class="std std-ref">sift</span></a> cantrip.</p>
+</div>
+<div class="section" id="basic-hydrokinesis">
+<span id="occultadventures-classes-kineticist-basic-hydrokinesis"></span><h3><a class="toc-backref" href="#id94">Basic Hydrokinesis</a><a class="headerlink" href="#basic-hydrokinesis" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> water; <strong>Type</strong> utility (Sp); <strong>Level</strong> 1; <strong>Burn</strong> 0</p>
+<p>You can create water as the cantrip <a class="reference internal" href="corerulebook.spells.createwater.html#corerulebook-spells-createwater-create-water"><span class="std std-ref">create water</span></a>, purify water as if using <a class="reference internal" href="corerulebook.spells.purifyfoodanddrink.html#corerulebook-spells-purifyfoodanddrink-purify-food-and-drink"><span class="std std-ref">purify food and drink</span></a>, and dry wet creatures and objects as if using <a class="reference internal" href="corerulebook.spells.prestidigitation.html#corerulebook-spells-prestidigitation-prestidigitation"><span class="std std-ref">prestidigitation</span></a>. While you cannot lift water into the air using this ability, you can create mild currents in a body of water by concentrating. These currents are strong enough to run a water mill as if the mill were being turned manually by a creature with a Strength score equal to your Constitution score.</p>
+</div>
+<div class="section" id="basic-pyrokinesis">
+<span id="occultadventures-classes-kineticist-basic-pyrokinesis"></span><h3><a class="toc-backref" href="#id95">Basic Pyrokinesis</a><a class="headerlink" href="#basic-pyrokinesis" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> fire; <strong>Type</strong> utility (Sp); <strong>Level</strong> 1; <strong>Burn</strong> 0</p>
+<p>You can use your inner flame to reproduce the effects of a <a class="reference internal" href="corerulebook.spells.flare.html#corerulebook-spells-flare"><span class="std std-ref">flare</span></a>, <a class="reference internal" href="corerulebook.spells.light.html#corerulebook-spells-light"><span class="std std-ref">light</span></a>, or <a class="reference internal" href="advancedplayersguide.spells.spark.html#advancedplayersguide-spells-spark"><span class="std std-ref">spark</span></a> cantrip, except that the light you create with <a class="reference internal" href="corerulebook.spells.light.html#corerulebook-spells-light"><span class="std std-ref">light</span></a> produces heat like a normal flame; using any of the three abilities ends any previous <a class="reference internal" href="corerulebook.spells.light.html#corerulebook-spells-light"><span class="std std-ref">light</span></a> effect from this wild talent.</p>
+</div>
+<div class="section" id="basic-telekinesis">
+<span id="occultadventures-classes-kineticist-basic-telekinesis"></span><h3><a class="toc-backref" href="#id96">Basic Telekinesis</a><a class="headerlink" href="#basic-telekinesis" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> aether; <strong>Type</strong> utility (Sp); <strong>Level</strong> 1; <strong>Burn</strong> 0</p>
+<p>This ability is similar to <a class="reference internal" href="corerulebook.spells.magehand.html#corerulebook-spells-magehand-mage-hand"><span class="std std-ref">mage hand</span></a>, except you can move an object that weighs up to 5 pounds per 2 kineticist levels you possess (minimum 5 pounds), and you can move magical objects. Additionally, you can create a container of entwined strands of aether in order to hold liquids or piles of small objects of the same weight. You can dip the container to pick up or drop a liquid as a move action. If you possess the extended range wild talent, you can increase the range of basic telekinesis to medium range and increase the rate of movement to 30 feet per round, and if you possess the extreme range wild talent, you can increase the range of basic telekinesis to long range and increase the rate of movement to 60 feet per round. You can also use your basic telekinesis to duplicate the effects of the <a class="reference internal" href="corerulebook.spells.openclose.html#open/close"><span class="std std-ref">open/close</span></a> cantrip.</p>
+</div>
+<div class="section" id="celerity">
+<span id="occultadventures-classes-kineticist-celerity"></span><h3><a class="toc-backref" href="#id97">Celerity</a><a class="headerlink" href="#celerity" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> air; <strong>Type</strong> utility (Sp); <strong>Level</strong> 3; <strong>Burn</strong> 0</p>
+<p>You can galvanize the flow of electricity within your allies to enhance their speed. This acts as <a class="reference internal" href="corerulebook.spells.haste.html#corerulebook-spells-haste"><span class="std std-ref">haste</span></a> except it lasts for 1 round. You can accept 1 point of burn to increase the duration to 1 round per kineticist level you possess.</p>
+</div>
+<div class="section" id="cold-adaptation">
+<span id="occultadventures-classes-kineticist-cold-adaptation"></span><h3><a class="toc-backref" href="#id98">Cold Adaptation</a><a class="headerlink" href="#cold-adaptation" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> fire or water; <strong>Type</strong> utility (Sp); <strong>Level</strong> 1; <strong>Burn</strong> 0</p>
+<p>You are constantly protected by <a class="reference internal" href="corerulebook.spells.endureelements.html#corerulebook-spells-endureelements-endure-elements"><span class="std std-ref">endure elements</span></a> against cold temperatures only. You gain cold resistance equal to twice your current amount of burn.</p>
+</div>
+<div class="section" id="cold-snap">
+<span id="occultadventures-classes-kineticist-cold-snap"></span><h3><a class="toc-backref" href="#id99">Cold Snap</a><a class="headerlink" href="#cold-snap" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> water; <strong>Type</strong> utility (Sp); <strong>Level</strong> 3; <strong>Burn</strong> 1</p>
+<p><strong>Prerequisites</strong> cold adaptation, shroud of water</p>
+<p>You chill your shroud of water and send the cold around you, creating an aura of numbing cold around yourself. Until the next time your burn is removed, you can begin or end the cold aura at will as a swift action. The temperature in the area 30 feet around you lowers by 5Â° F per kineticist level you possess, to a minimum modified temperature of –10Â° F. If this brings the temperature in the area below 40Â° F, all creatures within 5 feet of you take a –4 penalty to Dexterity. You are immune to these effects, as are creatures that are immune to cold or that benefit from effects that protect against temperature, such as <a class="reference internal" href="corerulebook.spells.endureelements.html#corerulebook-spells-endureelements-endure-elements"><span class="std std-ref">endure elements</span></a>.</p>
+</div>
+<div class="section" id="earth-climb">
+<span id="occultadventures-classes-kineticist-earth-climb"></span><h3><a class="toc-backref" href="#id100">Earth Climb</a><a class="headerlink" href="#earth-climb" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> earth; <strong>Type</strong> utility (Su); <strong>Level</strong> 2; <strong>Burn</strong> 0</p>
+<p>You use your connection to earth to meld slightly into stone and earthen surfaces, granting you a climb speed equal to your base land speed when climbing such surfaces.</p>
+</div>
+<div class="section" id="earth-glide">
+<span id="occultadventures-classes-kineticist-earth-glide"></span><h3><a class="toc-backref" href="#id101">Earth Glide</a><a class="headerlink" href="#earth-glide" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> earth; <strong>Type</strong> utility (Su); <strong>Level</strong> 5; <strong>Burn</strong> 0</p>
+<p><strong>Prerequisite</strong> earth climb</p>
+<p>You can glide through earth, as an earth elemental’s earth glide ability, with a burrow speed equal to your base land speed.</p>
+</div>
+<div class="section" id="earth-walk">
+<span id="occultadventures-classes-kineticist-earth-walk"></span><h3><a class="toc-backref" href="#id102">Earth Walk</a><a class="headerlink" href="#earth-walk" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> earth; <strong>Type</strong> utility (Su); <strong>Level</strong> 1; <strong>Burn</strong> ­—</p>
+<p>Because you meld very slightly into the earth, when you are standing on an earthen surface, you ignore difficult terrain caused by rocks, earth, or mud, and while on such surfaces you add your elemental overflow bonus to your CMD against being moved or tripped and on <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a> checks to balance.</p>
+</div>
+<div class="section" id="elemental-grip">
+<span id="occultadventures-classes-kineticist-elemental-grip"></span><h3><a class="toc-backref" href="#id103">Elemental Grip</a><a class="headerlink" href="#elemental-grip" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> universal; <strong>Type</strong> utility (Sp); <strong>Level</strong> 3; <strong>Burn</strong> 0</p>
+<p><strong>Saving Throw</strong> Will negates; <strong>Spell</strong> <strong>Resistance</strong> yes</p>
+<p>You use your element to halt a creature associated with your element, as <a class="reference internal" href="corerulebook.spells.holdmonster.html#corerulebook-spells-holdmonster"><span class="std std-ref">hold monster</span></a> except it requires concentration to maintain, and it works only on creatures with a subtype matching one of your elements (for example, a pyrokineticist could use it on creatures of the fire subtype). At any time, you can accept 1 point of burn to remove the need to concentrate.</p>
+</div>
+<div class="section" id="enduring-earth">
+<span id="occultadventures-classes-kineticist-enduring-earth"></span><h3><a class="toc-backref" href="#id104">Enduring Earth</a><a class="headerlink" href="#enduring-earth" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> earth; <strong>Type</strong> utility (Su); <strong>Level</strong> 4; <strong>Burn</strong> —</p>
+<p>When using earth blasts, earth wild talents, or composite blasts that include earth, double the duration if it’s longer than 1 round.</p>
+</div>
+<div class="section" id="engulfing-winds">
+<span id="occultadventures-classes-kineticist-engulfing-winds"></span><h3><a class="toc-backref" href="#id105">Engulfing Winds</a><a class="headerlink" href="#engulfing-winds" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> air; <strong>Type</strong> utility (Sp); <strong>Level</strong> 3; <strong>Burn</strong> 0</p>
+<p><strong>Prerequisite</strong> enveloping winds</p>
+<p>You bend your winds into a formidable barrier. Until the start of your next turn, you lose the benefits of enveloping winds, but can create a <a class="reference internal" href="corerulebook.spells.windwall.html#corerulebook-spells-windwall-wind-wall"><span class="std std-ref">wind wall</span></a> as the spell. You can extend the wall’s duration to 1 round per kineticist level by accepting 1 point of burn.</p>
+</div>
+<div class="section" id="expanded-defense">
+<span id="occultadventures-classes-kineticist-expanded-defense"></span><h3><a class="toc-backref" href="#id106">Expanded Defense</a><a class="headerlink" href="#expanded-defense" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> universal; <strong>Type</strong> utility (Su); <strong>Level</strong> 4; <strong>Burn</strong> —</p>
+<p>Choose an element you selected with expanded element. You gain that element’s defense wild talent. You can take this wild talent multiple times, choosing a different element each time.</p>
+</div>
+<div class="section" id="fire-sculptor">
+<span id="occultadventures-classes-kineticist-fire-sculptor"></span><h3><a class="toc-backref" href="#id107">Fire Sculptor</a><a class="headerlink" href="#fire-sculptor" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> fire; <strong>Type</strong> utility (Sp); <strong>Level</strong> 1; <strong>Burn</strong> 0</p>
+<p>You can sculpt shapes out of flame or alter a fire’s spread. As a standard action, you can move one 5-foot square of an ongoing fire per kineticist level you possess to any square contiguous to that fire. For instance, a 4th-level kineticist could move 4 contiguous squares from the center of a 20-foot-by-20-foot fire to the fire’s edge in order to create a safe path to escape. The fire continues to spread normally after you sculpt it.</p>
+</div>
+<div class="section" id="fire-s-fury">
+<span id="occultadventures-classes-kineticist-fires-fury"></span><h3><a class="toc-backref" href="#id108">Fire’s Fury</a><a class="headerlink" href="#fire-s-fury" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> fire; <strong>Type</strong> utility (Su); <strong>Level</strong> 1; <strong>Burn</strong> —</p>
+<p>When using fire blasts or composite blasts that include fire, add your elemental overflow bonus to the damage dealt. If the kinetic blast normally adds double your elemental overflow bonus to damage, these effects stack.</p>
+</div>
+<div class="section" id="firesight">
+<span id="occultadventures-classes-kineticist-firesight"></span><h3><a class="toc-backref" href="#id109">Firesight</a><a class="headerlink" href="#firesight" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> fire; <strong>Type</strong> utility (Su); <strong>Level</strong> 3; <strong>Burn</strong> —</p>
+<p>You can see through flames and smoke as if they were transparent. Creatures that are on fire or have the fire subtype never benefit from concealment or total concealment against you.</p>
+</div>
+<div class="section" id="flame-jet">
+<span id="occultadventures-classes-kineticist-flame-jet"></span><h3><a class="toc-backref" href="#id110">Flame Jet</a><a class="headerlink" href="#flame-jet" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> fire; <strong>Type</strong> utility (Sp); <strong>Level</strong> 3; <strong>Burn</strong> 0</p>
+<p>You shoot a burst of flame behind you as a standard action, propelling you up to 60 feet in a straight line, including into the air; any movement upward costs double. If you end your turn mid-air, you fall on your next turn unless you use flame jet again.</p>
+</div>
+<div class="section" id="flame-jet-greater">
+<span id="occultadventures-classes-kineticist-flame-jet-greater"></span><h3><a class="toc-backref" href="#id111">Flame Jet, Greater</a><a class="headerlink" href="#flame-jet-greater" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> fire; <strong>Type</strong> utility (Sp); <strong>Level</strong> 5; <strong>Burn</strong> 0</p>
+<p><strong>Prerequisite</strong> flame jet</p>
+<p>You can use flame jet as a move action and can emanate a mild jet of flame, allowing you to hover without spending an action.</p>
+</div>
+<div class="section" id="flame-shield">
+<span id="occultadventures-classes-kineticist-flame-shield"></span><h3><a class="toc-backref" href="#id112">Flame Shield</a><a class="headerlink" href="#flame-shield" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> fire; <strong>Type</strong> utility (Sp); <strong>Level</strong> 5; <strong>Burn</strong> 1</p>
+<p><strong>Prerequisite</strong> searing flesh</p>
+<p>Flickering flames surround you until the next time your burn is removed. While your searing flesh infusion is active, any creature that strikes you with a melee attack takes an amount of fire damage equal to 1/2 your kineticist level unless it is using a reach weapon. If the creature also takes damage from your searing flesh, it applies fire resistance only once against the total damage from both effects. You also gain the protection from cold of a warm <a class="reference internal" href="corerulebook.spells.fireshield.html#corerulebook-spells-fireshield-fire-shield"><span class="std std-ref">fire shield</span></a>. An attack that would deal an amount of cold damage equal to at least double your kineticist level (before you applied the protection) freezes away your flame shield after you apply its protection, ending the flame shield early.</p>
+</div>
+<div class="section" id="force-barrier">
+<span id="occultadventures-classes-kineticist-force-barrier"></span><h3><a class="toc-backref" href="#id113">Force Barrier</a><a class="headerlink" href="#force-barrier" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> aether; <strong>Type</strong> utility (Sp); <strong>Level</strong> 5; <strong>Burn</strong> 0</p>
+<p><strong>Prerequisite</strong> force ward</p>
+<p>You create an immobile sphere or hemisphere of force around your square or squares. The force barrier functions as a <a class="reference internal" href="corerulebook.spells.wallofforce.html#corerulebook-spells-wallofforce-wall-of-force"><span class="std std-ref">wall of force</span></a> in all other ways. Activating this ability is a standard action, and the barrier lasts until the beginning of your next turn. Each round, just before the barrier would disappear, you can extend its duration by accepting 1 point of burn. If an attack manages to destroy the force barrier, you immediately take 1 point of burn.</p>
+</div>
+<div class="section" id="from-the-ashes">
+<span id="occultadventures-classes-kineticist-from-the-ashes"></span><h3><a class="toc-backref" href="#id114">From the Ashes</a><a class="headerlink" href="#from-the-ashes" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> fire; <strong>Type</strong> utility (Sp); <strong>Level</strong> 9; <strong>Burn</strong> 2</p>
+<p>When you are about to fall unconscious or die from hit point damage, as an immediate action you can burst into flames that leave behind only ash, which cannot be appreciably affected by most attacks or effects, though a <a class="reference internal" href="corerulebook.spells.disintegrate.html#corerulebook-spells-disintegrate-disintegrate"><span class="std std-ref">disintegrate</span></a> spell or similar magic can annihilate it. At the start of your next turn, unless the ash has been completely destroyed, you arise in the square where the most ash is located, having taken the damage from the triggering effect but having also healed 5 points of damage per kineticist level you possess.</p>
+</div>
+<div class="section" id="heat-adaptation">
+<span id="occultadventures-classes-kineticist-heat-adaptation"></span><h3><a class="toc-backref" href="#id115">Heat Adaptation</a><a class="headerlink" href="#heat-adaptation" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> fire or water; <strong>Type</strong> utility (Sp); <strong>Level</strong> 1; <strong>Burn</strong> 0â©</p>
+<p>You are constantly protected by <a class="reference internal" href="corerulebook.spells.endureelements.html#corerulebook-spells-endureelements-endure-elements"><span class="std std-ref">endure elements</span></a> against hot temperatures only. You gain an amount of fire resistance equal to twice your current amount of burn.</p>
+</div>
+<div class="section" id="heat-wave">
+<span id="occultadventures-classes-kineticist-heat-wave"></span><h3><a class="toc-backref" href="#id116">Heat Wave</a><a class="headerlink" href="#heat-wave" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> fire; <strong>Type</strong> utility (Sp); <strong>Level</strong> 3; <strong>Burn</strong> 1</p>
+<p><strong>Prerequisites</strong> heat adaptation, searing flesh</p>
+<p>You create an aura of shimmering heat that distorts the area around you. Until the next time your burn is removed, you can begin or end the heat aura as a swift action. The temperature in the area 30 feet around you rises by 5Â° F per kineticist level you possess, to a maximum modified temperature of 120Â° F. If this brings the temperature to at least 90Â° F, all attacks made by creatures within 5 feet of you suffer a 20% miss chance due to concealment. You are immune to these effects, as are those immune to fire or benefiting from <a class="reference internal" href="corerulebook.spells.endureelements.html#corerulebook-spells-endureelements-endure-elements"><span class="std std-ref">endure elements</span></a>.</p>
+</div>
+<div class="section" id="ice-path">
+<span id="occultadventures-classes-kineticist-ice-path"></span><h3><a class="toc-backref" href="#id117">Ice Path</a><a class="headerlink" href="#ice-path" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> water; <strong>Type</strong> utility (Su); <strong>Level</strong> 6; <strong>Burn</strong> 0</p>
+<p><strong>Prerequisite</strong> icewalker</p>
+<p>You freeze water vapor in the air, allowing you to travel above the ground as <a class="reference internal" href="corerulebook.spells.airwalk.html#corerulebook-spells-airwalk-air-walk"><span class="std std-ref">air walk</span></a> by walking along the ice, and leaving a path of ice behind you that lasts for 1 round before it melts.</p>
+</div>
+<div class="section" id="ice-sculptor">
+<span id="occultadventures-classes-kineticist-ice-sculptor"></span><h3><a class="toc-backref" href="#id118">Ice Sculptor</a><a class="headerlink" href="#ice-sculptor" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> water; <strong>Type</strong> utility (Sp); <strong>Level</strong> 4; <strong>Burn</strong> 0</p>
+<p>You can sculpt ice and snow into new shapes, as the spell <a class="reference internal" href="corerulebook.spells.stoneshape.html#corerulebook-spells-stoneshape-stone-shape"><span class="std std-ref">stone shape</span></a> but affecting ice and snow instead of stone.</p>
+</div>
+<div class="section" id="icewalker">
+<span id="occultadventures-classes-kineticist-icewalker"></span><h3><a class="toc-backref" href="#id119">Icewalker</a><a class="headerlink" href="#icewalker" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> water; <strong>Type</strong> utility (Su); <strong>Level</strong> 1; <strong>Burn</strong>—</p>
+<p>You can move across wet and icy surfaces without needing to attempt <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a> checks due to slipperiness, including across areas under the effects of the slick wild talent. Additionally, you are immune to seasickness.</p>
+</div>
+<div class="section" id="jagged-flesh">
+<span id="occultadventures-classes-kineticist-jagged-flesh"></span><h3><a class="toc-backref" href="#id120">Jagged Flesh</a><a class="headerlink" href="#jagged-flesh" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> earth; <strong>Type</strong> utility (Sp); <strong>Level</strong> 3; <strong>Burn</strong> 1</p>
+<p><strong>Prerequisite</strong> flesh of stone</p>
+<p>You painfully push forth jagged chunks of rock from your flesh. Until the next time your burn is removed, while your flesh of stone is active, any creature that strikes you with an unarmed strike or natural weapon or that grapples you takes 1d6 points of piercing damage. Weapons that strike you also take this damage, though the damage is unlikely to penetrate the weapon’s hardness.</p>
+</div>
+<div class="section" id="kinetic-cover">
+<span id="occultadventures-classes-kineticist-kinetic-cover"></span><h3><a class="toc-backref" href="#id121">Kinetic Cover</a><a class="headerlink" href="#kinetic-cover" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> aether, earth, or water; <strong>Type</strong> utility (Sp); <strong>Level</strong> 1; <strong>Burn</strong> 0</p>
+<p>You call up elemental matter to defend yourself and your allies from attacks. As a standard action, you can select one face of a square within 30 feet of you and move elemental matter to block that face, providing total cover from that direction. The face you select must be supported by the ground, and the kinetic cover cannot support more than 5 pounds of weight. Water, ice, and telekinetic force are translucent, but earth, metal, mud, and the like are opaque and block line of sight. A creature who strikes the cover can easily destroy it. Regardless of its composition, the cover has hardness 0, AC 5, and 2 hit points per kineticist level you possess. You can have a number of kinetic covers in existence equal to your Constitution modifier + 1/2 your kineticist level.</p>
+</div>
+<div class="section" id="kinetic-form">
+<span id="occultadventures-classes-kineticist-kinetic-form"></span><h3><a class="toc-backref" href="#id122">Kinetic Form</a><a class="headerlink" href="#kinetic-form" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> universal; <strong>Type</strong> utility (Sp); <strong>Level</strong> 5; <strong>Burn</strong> 1</p>
+<p>You are able to suspend your body in a large mass of elemental matter. Until the next time your burn is removed, you can change your size to Large or shift back to your original size as a standard action. This doesn’t change your ability scores in any way. At 16th level, you can accept 1 additional point of burn to instead change your size to Huge. You cannot use kinetic form to decrease your size.</p>
+</div>
+<div class="section" id="kinetic-healer">
+<span id="occultadventures-classes-kineticist-kinetic-healer"></span><h3><a class="toc-backref" href="#id123">Kinetic Healer</a><a class="headerlink" href="#kinetic-healer" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> aether or water; <strong>Type</strong> utility (Sp); <strong>Level</strong> 1; <strong>Burn</strong> 1; see text</p>
+<p><strong>Saving Throw</strong> none; <strong>Spell Resistance</strong> yes</p>
+<p>With a touch, you can heal a willing living creature of an amount of damage equal to your kinetic blast’s damage. Instead of paying the burn cost yourself, you can cause the recipient to take 1 point of burn. If you do so, the recipient takes 1 point of nonlethal damage per Hit Die he possesses, as usual for burn; this damage can’t be healed by any means until the recipient takes a full night’s rest.</p>
+</div>
+<div class="section" id="reverse-shift">
+<span id="occultadventures-classes-kineticist-reverse-shift"></span><h3><a class="toc-backref" href="#id124">Reverse Shift</a><a class="headerlink" href="#reverse-shift" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> universal; <strong>Type</strong> utility (Sp); <strong>Level</strong> 8; <strong>Burn</strong> 0</p>
+<p>You reverse the flow of your connection to the planes, sending your body into the Ethereal Plane as <a class="reference internal" href="corerulebook.spells.etherealjaunt.html#corerulebook-spells-etherealjaunt-ethereal-jaunt"><span class="std std-ref">ethereal jaunt</span></a>. As long as you concentrate on reverse shift, you remain on the Ethereal Plane; after a number of consecutive rounds spent on the Ethereal Plane equal to your kineticist level (and every such interval thereafter), you must accept 1 point of burn. Once you return to the Material Plane, you cannot use reverse shift again for a number of rounds equal to the number of rounds you spent on the Ethereal Plane.</p>
+</div>
+<div class="section" id="ride-the-blast">
+<span id="occultadventures-classes-kineticist-ride-the-blast"></span><h3><a class="toc-backref" href="#id125">Ride the Blast</a><a class="headerlink" href="#ride-the-blast" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> universal; <strong>Type</strong> utility (Sp); <strong>Level</strong> 6; <strong>Burn</strong> 0</p>
+<p>You can use this wild talent as part of activating a kinetic blast other than telekinetic blast. You transform yourself into your element or energy and send yourself along with your kinetic blast. You appear at the end of the blast’s path, adjacent to the blast’s target (or final target, for form infusions like chain) or at the center of the burst or spread for form infusions like explosion. This ability doesn’t work with form infusions that involve melee attacks (such as kinetic blade) or that use a cone shape (such as spray).</p>
+</div>
+<div class="section" id="searing-flame">
+<span id="occultadventures-classes-kineticist-searing-flame"></span><h3><a class="toc-backref" href="#id126">Searing Flame</a><a class="headerlink" href="#searing-flame" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> fire; <strong>Type</strong> utility (Su); <strong>Level</strong> 2; <strong>Burn</strong> —</p>
+<p><strong>Prerequisite</strong> burning infusion</p>
+<p>Over time, your burning infusion sears away your foe’s fire resistance. When you roll burn damage from burning infusion against a foe, decrease the foe’s fire resistance by an amount equal to the unmodified burn damage; don’t apply fire resistance to this roll for the purpose of determining the reduction. This decrease lasts for a number of rounds equal to 1/2 your kineticist level. These decreases stack, to a minimum resistance of 0.</p>
+</div>
+<div class="section" id="seismic-master">
+<span id="occultadventures-classes-kineticist-seismic-master"></span><h3><a class="toc-backref" href="#id127">Seismic Master</a><a class="headerlink" href="#seismic-master" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> earth; <strong>Type</strong> utility (Sp); <strong>Level</strong> 9; <strong>Burn</strong> 0</p>
+<p>You can focus on your connection to earth and create a localized tremor, as the <em>earthquake</em> spell.</p>
+</div>
+<div class="section" id="self-telekinesis">
+<span id="occultadventures-classes-kineticist-self-telekinesis"></span><h3><a class="toc-backref" href="#id128">Self Telekinesis</a><a class="headerlink" href="#self-telekinesis" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> aether; <strong>Type</strong> utility (Sp); <strong>Level</strong> 3; <strong>Burn</strong> 0</p>
+<p>You use your telekinetic abilities to move yourself. Otherwise, this wild talent functions like flame jet.</p>
+</div>
+<div class="section" id="self-telekinesis-greater">
+<span id="occultadventures-classes-kineticist-self-telekinesis-greater"></span><h3><a class="toc-backref" href="#id129">Self Telekinesis, Greater</a><a class="headerlink" href="#self-telekinesis-greater" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> aether; <strong>Type</strong> utility (Sp); <strong>Level</strong> 5; <strong>Burn</strong> 0</p>
+<p><strong>Prerequisite</strong> self telekinesis</p>
+<p>You have greater control over your self telekinesis. Otherwise, this wild talent functions like greater flame jet.</p>
+</div>
+<div class="section" id="shift-earth">
+<span id="occultadventures-classes-kineticist-shift-earth"></span><h3><a class="toc-backref" href="#id130">Shift Earth</a><a class="headerlink" href="#shift-earth" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> earth; <strong>Type</strong> utility (Sp); <strong>Level</strong> 4; <strong>Burn</strong> 0</p>
+<p><strong>Prerequisite</strong> kinetic cover</p>
+<p><strong>Saving Throw</strong> see text; <strong>Spell Resistance</strong> no</p>
+<p>As a standard action, you can push or pull a 5-foot cube of earth or unworked stone within 30 feet, moving the cube 5 feet in any direction. You can create raised platforms, stairs up a cliff, holes, or other useful features. This doesn’t cause the earth to float in the air, although in areas with plenty of earth, you can move a cube upward, creating a short pillar. If you move the earth beneath a creature’s feet, it can attempt a DC 20 Reflex save to leap elsewhere and avoid moving along with the earth.</p>
+</div>
+<div class="section" id="shift-earth-greater">
+<span id="occultadventures-classes-kineticist-shift-earth-greater"></span><h3><a class="toc-backref" href="#id131">Shift Earth, Greater</a><a class="headerlink" href="#shift-earth-greater" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> earth; <strong>Type</strong> utility (Sp); <strong>Level</strong> 7; <strong>Burn</strong> 0</p>
+<p><strong>Prerequisites</strong> kinetic cover, shift earth</p>
+<p>You can move greater quantities of earth, as the spell <a class="reference internal" href="corerulebook.spells.moveearth.html#corerulebook-spells-moveearth-move-earth"><span class="std std-ref">move earth</span></a>.</p>
+</div>
+<div class="section" id="shimmering-mirage">
+<span id="occultadventures-classes-kineticist-shimmering-mirage"></span><h3><a class="toc-backref" href="#id132">Shimmering Mirage</a><a class="headerlink" href="#shimmering-mirage" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> water; <strong>Type</strong> utility (Sp); <strong>Level</strong> 5; <strong>Burn</strong> 1</p>
+<p><strong>Prerequisite</strong> shroud of water</p>
+<p>Your shroud bends light, creating a shimmering mirage. While your shroud of water is active, attacks against you suffer a 20% miss chance due to concealment until the next time your burn is removed.</p>
+</div>
+<div class="section" id="skilled-kineticist">
+<span id="occultadventures-classes-kineticist-skilled-kineticist"></span><h3><a class="toc-backref" href="#id133">Skilled Kineticist</a><a class="headerlink" href="#skilled-kineticist" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> universal; <strong>Type</strong> utility (Su); <strong>Level</strong> 1; <strong>Burn</strong> —</p>
+<p>You gain a bonus equal to 1/2 your kineticist level on skill checks with the skills your primary element added to your class skill list, and you can use the <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> skill associated with your primary element to identify elementals of your primary element’s subtype.</p>
+</div>
+<div class="section" id="skilled-kineticist-greater">
+<span id="occultadventures-classes-kineticist-skilled-kineticist-greater"></span><h3><a class="toc-backref" href="#id134">Skilled Kineticist, Greater</a><a class="headerlink" href="#skilled-kineticist-greater" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> universal; <strong>Type</strong> utility (Su); <strong>Level</strong> 2; <strong>Burn</strong> —</p>
+<p><strong>Prerequisite</strong> skilled kineticist</p>
+<p>By delving into study of the Ethereal and Elemental Planes, you are able to use your primary element to assist with your skills in an unusual way. Add <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (planes) to your list of class skills. Choose one of your kineticist class skills that wasn’t granted by your primary element to also receive the bonus from skilled kineticist.</p>
+</div>
+<div class="section" id="slick">
+<span id="occultadventures-classes-kineticist-slick"></span><h3><a class="toc-backref" href="#id135">Slick</a><a class="headerlink" href="#slick" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> water; <strong>Type</strong> utility (Sp); <strong>Level</strong> 1; <strong>Burn</strong> 0</p>
+<p><strong>Saving Throw</strong> Reflex negates; <strong>Spell</strong> <strong>Resistance</strong> no</p>
+<p>As a standard action, you call forth slippery water or ice, creating any of the effects of the <a class="reference internal" href="corerulebook.spells.grease.html#corerulebook-spells-grease"><span class="std std-ref">grease</span></a> spell for 1 round. You can accept 1 point of burn at the start of your next turn to extend the duration to 1 minute per kineticist level you possess.</p>
+</div>
+<div class="section" id="smoke-storm">
+<span id="occultadventures-classes-kineticist-smoke-storm"></span><h3><a class="toc-backref" href="#id136">Smoke Storm</a><a class="headerlink" href="#smoke-storm" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> fire; <strong>Type</strong> utility (Sp); <strong>Level</strong> 3; <strong>Burn</strong> 0</p>
+<p><strong>Saving Throw</strong> Fortitude negates; see text; <strong>Spell</strong> <strong>Resistance</strong> no</p>
+<p>You transform a source of open flame within 120 feet into a cloud of choking smoke, filling a 20-foot-radius spread and affecting vision like a smokestick. All creatures that begin their turns inside the area become sickened as long as they remain in the smoke and for 1d4+1 rounds thereafter (Fortitude negates).</p>
+</div>
+<div class="section" id="spark-of-life">
+<span id="occultadventures-classes-kineticist-spark-of-life"></span><h3><a class="toc-backref" href="#id137">Spark of Life</a><a class="headerlink" href="#spark-of-life" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> universal; <strong>Type</strong> utility (Sp); <strong>Level</strong> 5; <strong>Burn</strong> 0</p>
+<p>You breathe a semblance of life into elemental matter, which takes the form of a Medium elemental of any of your elements as if summoned by <a class="reference internal" href="corerulebook.spells.summonmonster.html#corerulebook-spells-summonmonster-summon-monster-iv"><span class="std std-ref">summon monster IV</span></a> with a caster level equal to your kineticist level, except the elemental gains the mindless trait. Each round on your turn, you must take a move action to guide the elemental or it collapses back into its component element. By accepting 1 point of burn, you can pour a bit of your own sentience into the elemental, removing the mindless quality and allowing it to persist for 1 round per kineticist level without requiring any further actions. At 12th level, you can choose to form a Large elemental as if by <a class="reference internal" href="corerulebook.spells.summonmonster.html#corerulebook-spells-summonmonster-summon-monster-v"><span class="std std-ref">summon monster V</span></a>; at 14th level, you can choose to form a Huge elemental as if by <a class="reference internal" href="corerulebook.spells.summonmonster.html#corerulebook-spells-summonmonster-summon-monster-vi"><span class="std std-ref">summon monster VI</span></a>; at 16th level, you can choose to form a greater elemental as if by <a class="reference internal" href="corerulebook.spells.summonmonster.html#corerulebook-spells-summonmonster-summon-monster-vii"><span class="std std-ref">summon monster VII</span></a>; and at 18th level, you can choose to form an elder elemental as if by <a class="reference internal" href="corerulebook.spells.summonmonster.html#corerulebook-spells-summonmonster-summon-monster-viii"><span class="std std-ref">summon monster VIII</span></a>.</p>
+</div>
+<div class="section" id="spell-deflection">
+<span id="occultadventures-classes-kineticist-spell-deflection"></span><h3><a class="toc-backref" href="#id138">Spell Deflection</a><a class="headerlink" href="#spell-deflection" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> aether; <strong>Type</strong> utility (Sp); <strong>Level</strong> 7; <strong>Burn</strong> 0</p>
+<p>You weave strands of aether around yourself in order to deflect targeted magic back at the caster. Until the beginning of your next turn, every time you are targeted by a spell that could be affected by <a class="reference internal" href="corerulebook.spells.spellturning.html#corerulebook-spells-spellturning-spell-turning"><span class="std std-ref">spell turning</span></a>, roll 1d10–1 and determine the effects of the spell as if you had <a class="reference internal" href="corerulebook.spells.spellturning.html#corerulebook-spells-spellturning-spell-turning"><span class="std std-ref">spell turning</span></a> with that many spell levels remaining. You can accept 1 point of burn to increase the duration to 10 minutes per kineticist level you possess, but in that case, it deflects only 10 spell levels in total (still rolled 1d10–1 at a time) before ending early.</p>
+</div>
+<div class="section" id="stone-sculptor">
+<span id="occultadventures-classes-kineticist-stone-sculptor"></span><h3><a class="toc-backref" href="#id139">Stone Sculptor</a><a class="headerlink" href="#stone-sculptor" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> earth; <strong>Type</strong> utility (Sp); <strong>Level</strong> 5; <strong>Burn</strong> 0</p>
+<p>You can sculpt earth into any shape, as the spell <a class="reference internal" href="corerulebook.spells.stoneshape.html#corerulebook-spells-stoneshape-stone-shape"><span class="std std-ref">stone shape</span></a>.</p>
+</div>
+<div class="section" id="suffocate">
+<span id="occultadventures-classes-kineticist-suffocate"></span><h3><a class="toc-backref" href="#id140">Suffocate</a><a class="headerlink" href="#suffocate" title="Permalink to this headline">¶</a></h3>
+<p><strong>Elements</strong> aether, air, or water; <strong>Type</strong> utility (Sp); <strong>Level</strong> 6; <strong>Burn</strong> 0</p>
+<p><strong>Saving Throw</strong> Fortitude partial; <strong>Spell Resistance</strong> yes</p>
+<p>You use aether to choke a creature within 120 feet, air to create an area of unbreathable air around it, or water to fill its throat with water. If your target needs to breathe, it must hold its breath for as long as you concentrate. On each of its turns, it can attempt a Fortitude save in order to speak, but it can breathe only if your concentration breaks, you leave the 120-foot range, or you break line of effect. You can accept 1 point of burn when activating this wild talent in order to expel the air from your target’s lungs. If you do so and the target fails its first Fortitude save, it becomes disabled and is reduced to 0 hit points, and on its second failed Fortitude save, it falls unconscious and is reduced to –1 hit points.</p>
+</div>
+<div class="section" id="telekinetic-deflection">
+<span id="occultadventures-classes-kineticist-telekinetic-deflection"></span><h3><a class="toc-backref" href="#id141">Telekinetic Deflection</a><a class="headerlink" href="#telekinetic-deflection" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> aether; <strong>Type</strong> utility (Sp); <strong>Level</strong> 8; <strong>Burn</strong> 0</p>
+<p>You can deflect your foes’ attacks, as the spell <em>deflection</em> with a duration of 1 round. You can accept 1 point of burn to increase the duration to 1 round per kineticist level you possess.</p>
+</div>
+<div class="section" id="telekinetic-finesse">
+<span id="occultadventures-classes-kineticist-telekinetic-finesse"></span><h3><a class="toc-backref" href="#id142">Telekinetic Finesse</a><a class="headerlink" href="#telekinetic-finesse" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> aether; <strong>Type</strong> utility (Sp); <strong>Level</strong> 1; <strong>Burn</strong> 0</p>
+<p>You can perform any sort of fine manipulation you choose within close range, including attempting <a class="reference internal" href="corerulebook.skills.sleightofhand.html#corerulebook-skills-sleightofhand-sleight-of-hand"><span class="std std-ref">Sleight of Hand</span></a> and <a class="reference internal" href="corerulebook.skills.disabledevice.html#corerulebook-skills-disabledevice-disable-device"><span class="std std-ref">Disable Device</span></a> checks.</p>
+</div>
+<div class="section" id="telekinetic-globe">
+<span id="occultadventures-classes-kineticist-telekinetic-globe"></span><h3><a class="toc-backref" href="#id143">Telekinetic Globe</a><a class="headerlink" href="#telekinetic-globe" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> aether; <strong>Type</strong> utility (Sp); <strong>Level</strong> 8; <strong>Burn</strong> 0</p>
+<p><strong>Prerequisites</strong> force barrier, force ward</p>
+<p>You can create a globe of force, as the <a class="reference internal" href="corerulebook.spells.telekineticsphere.html#corerulebook-spells-telekineticsphere-telekinetic-sphere"><span class="std std-ref">telekinetic sphere</span></a> spell, that lasts as long as you concentrate as a standard action, and you can move the globe as a move action. You can accept 1 point of burn to increase the duration to 1 minute per level and eliminate the need to concentrate to maintain the globe.</p>
+</div>
+<div class="section" id="telekinetic-haul">
+<span id="occultadventures-classes-kineticist-telekinetic-haul"></span><h3><a class="toc-backref" href="#id144">Telekinetic Haul</a><a class="headerlink" href="#telekinetic-haul" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> aether; <strong>Type</strong> utility (Sp); <strong>Level</strong> 2; <strong>Burn</strong> 0</p>
+<p><strong>Prerequisite</strong>basic telekinesis</p>
+<p>When using basic telekinesis, you can move an object that weighs up to 100 pounds per kineticist level you possess. When using your telekinetic blast, you can throw an object weighing up to 100 pounds per kineticist level you possess, but this doesn’t increase the damage. If you accept 1 point of burn, the maximum weight increases to 1,000 pounds per kineticist level you possess and the duration increases to 1 minute per kineticist level you possess.</p>
+</div>
+<div class="section" id="telekinetic-invisibility">
+<span id="occultadventures-classes-kineticist-telekinetic-invisibility"></span><h3><a class="toc-backref" href="#id145">Telekinetic Invisibility</a><a class="headerlink" href="#telekinetic-invisibility" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> aether; <strong>Type</strong> utility (Sp); <strong>Level</strong> 3; <strong>Burn</strong> 0</p>
+<p>You weave strands of aether, bending light and dampening sound; this works as <a class="reference internal" href="corerulebook.spells.invisibility.html#corerulebook-spells-invisibility"><span class="std std-ref">invisibility</span></a> except that the aetheric bending is easier to notice than normal invisibility, so your bonus on <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> checks is halved (+10 while moving and +20 while perfectly still). However, the dampened sound allows you to avoid automatic detection via sound-based blindsense and blindsight, but you do not receive the bonus on <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> checks from this wild talent against a creature with such abilities.</p>
+</div>
+<div class="section" id="telekinetic-maneuvers">
+<span id="occultadventures-classes-kineticist-telekinetic-maneuvers"></span><h3><a class="toc-backref" href="#id146">Telekinetic Maneuvers</a><a class="headerlink" href="#telekinetic-maneuvers" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> aether; <strong>Type</strong> utility (Sp); <strong>Level</strong> 4; <strong>Burn</strong> 0</p>
+<p><strong>Saving Throw</strong> none; <strong>Spell Resistance</strong> yes</p>
+<p>You can perform combat maneuvers as <a class="reference internal" href="corerulebook.spells.telekinesis.html#corerulebook-spells-telekinesis"><span class="std std-ref">telekinesis</span></a>, but you use your Constitution modifier to determine your Combat Maneuver Bonus rather than your Intelligence or Charisma modifier. If you possess the telekinetic finesse wild talent, add dirty trick and steal combat maneuvers to the list of combat maneuvers you can perform; when performing these maneuvers, determine your Combat Maneuver Bonus using your Dexterity modifier instead of your Constitution modifier.</p>
+</div>
+<div class="section" id="tidal-wave">
+<span id="occultadventures-classes-kineticist-tidal-wave"></span><h3><a class="toc-backref" href="#id147">Tidal Wave</a><a class="headerlink" href="#tidal-wave" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> water; <strong>Type</strong> utility (Sp); <strong>Level</strong> 9; <strong>Burn</strong> 1</p>
+<p>You call forth a powerful tidal wave, as <em>tsunami</em>.</p>
+</div>
+<div class="section" id="touchsight">
+<span id="occultadventures-classes-kineticist-touchsight"></span><h3><a class="toc-backref" href="#id148">Touchsight</a><a class="headerlink" href="#touchsight" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> aether; <strong>Type</strong> utility (Su); <strong>Level</strong> 3; <strong>Burn</strong> 0</p>
+<p>You attach strands of aether to everything your telekinesis touches. Any time you damage a creature using your telekinetic blast, as long as that creature doesn’t use a teleportation effect, you can see that creature at any distance as if using blindsight until the end of your next turn. Immediately after damaging a creature, you can accept 1 point of burn to strengthen the strands of aether attached to that creature, increasing the duration of the touchsight on that creature to 1 round per kineticist level.</p>
+</div>
+<div class="section" id="touchsight-reactive">
+<span id="occultadventures-classes-kineticist-touchsight-reactive"></span><h3><a class="toc-backref" href="#id149">Touchsight, Reactive</a><a class="headerlink" href="#touchsight-reactive" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> aether; <strong>Type</strong> utility (Su); <strong>Level</strong> 5; <strong>Burn</strong> 0</p>
+<p><strong>Prerequisite</strong> touchsight</p>
+<p>Your strands of aether surround you, making it virtually impossible for a violent motion to catch you off guard, so long as the motion originates within their range. You are never denied your Dexterity bonus to AC against attacks from within 30 feet because of being flat-footed or because your assailant is unseen or invisible. You always succeed at any <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> check to act on the surprise round against opponents within 30 feet.</p>
+</div>
+<div class="section" id="trail-of-flames">
+<span id="occultadventures-classes-kineticist-trail-of-flames"></span><h3><a class="toc-backref" href="#id150">Trail of Flames</a><a class="headerlink" href="#trail-of-flames" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> fire; <strong>Type</strong> utility (Sp); <strong>Level</strong> 5; <strong>Burn</strong> 0</p>
+<p><strong>Saving Throw</strong> none; <strong>Spell Resistance</strong> yes</p>
+<p>When you take the withdraw or run action, you can leave a <a class="reference internal" href="corerulebook.spells.walloffire.html#corerulebook-spells-walloffire-wall-of-fire"><span class="std std-ref">wall of fire</span></a> in all squares you exit that lasts for 1 round.</p>
+</div>
+<div class="section" id="tremorsense">
+<span id="occultadventures-classes-kineticist-tremorsense"></span><h3><a class="toc-backref" href="#id151">Tremorsense</a><a class="headerlink" href="#tremorsense" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> earth; <strong>Type</strong> utility (Su); <strong>Level</strong> 3; <strong>Burn</strong> 0</p>
+<p>You can take a move action to gain tremorsense 30 feet for 1 round on any earth or stone surface that you touch. You can accept 1 point of burn to increase the duration to 1 round per kineticist level you possess. While benefiting from this tremorsense, your earth blasts and composite blasts that include earth components don’t suffer a miss chance from concealment or total concealment against creatures you detect with your tremorsense.</p>
+</div>
+<div class="section" id="tremorsense-greater">
+<span id="occultadventures-classes-kineticist-tremorsense-greater"></span><h3><a class="toc-backref" href="#id152">Tremorsense, Greater</a><a class="headerlink" href="#tremorsense-greater" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> earth; <strong>Type</strong> utility (Su); <strong>Level</strong> 5; <strong>Burn</strong> 0</p>
+<p><strong>Prerequisite</strong>tremorsense</p>
+<p>You can spend 10 minutes to extend your tremorsense outward while in a natural underground setting, letting you learn three facts as if using <a class="reference internal" href="corerulebook.spells.communewithnature.html#corerulebook-spells-communewithnature-commune-with-nature"><span class="std std-ref">commune with nature</span></a>, except your tremorsense can’t tell if a creature is a woodland creature or a powerful unnatural creature.</p>
+</div>
+<div class="section" id="veil-of-mists">
+<span id="occultadventures-classes-kineticist-veil-of-mists"></span><h3><a class="toc-backref" href="#id153">Veil of Mists</a><a class="headerlink" href="#veil-of-mists" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> water; <strong>Type</strong> utility (Su); <strong>Level</strong> 2; <strong>Burn</strong> 0</p>
+<p>You create a misty veil over your features, disguising yourself as <a class="reference internal" href="corerulebook.spells.disguiseself.html#corerulebook-spells-disguiseself-disguise-self"><span class="std std-ref">disguise self</span></a> for a number of minutes equal to your Constitution modifier. If you accept 1 point of burn, until the next time your burn is removed, each use of this wild talent lasts until you dismiss it.</p>
+</div>
+<div class="section" id="voice-of-the-wind">
+<span id="occultadventures-classes-kineticist-voice-of-the-wind"></span><h3><a class="toc-backref" href="#id154">Voice of the Wind</a><a class="headerlink" href="#voice-of-the-wind" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> air; <strong>Type</strong> utility (Sp); <strong>Level</strong> 1; <strong>Burn</strong> 0</p>
+<p><strong>Saving Throw</strong> none; <strong>Spell Resistance</strong> yes</p>
+<p>When you whisper, you can have the wind carry your voice to the ears of anyone you can see within 120 feet, as if they were one of the targets of a <a class="reference internal" href="corerulebook.spells.message.html#corerulebook-spells-message"><span class="std std-ref">message</span></a> spell you cast. Alternatively, you can send your voice to a distant location as if casting <a class="reference internal" href="corerulebook.spells.whisperingwind.html#corerulebook-spells-whisperingwind-whispering-wind"><span class="std std-ref">whispering wind</span></a>.</p>
+</div>
+<div class="section" id="water-manipulator">
+<span id="occultadventures-classes-kineticist-water-manipulator"></span><h3><a class="toc-backref" href="#id155">Water Manipulator</a><a class="headerlink" href="#water-manipulator" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> water; <strong>Type</strong> utility (Sp); <strong>Level</strong> 3; <strong>Burn</strong> 0</p>
+<p><strong>Prerequisite</strong> kinetic cover</p>
+<p><strong>Saving Throw</strong> none; see text; <strong>Spell Resistance</strong> no</p>
+<p>You can manipulate massive quantities of water. As a standard action, you can raise or lower the level of water as if using <a class="reference internal" href="corerulebook.spells.controlwater.html#corerulebook-spells-controlwater-control-water"><span class="std std-ref">control water</span></a>, or move an amount of water equal to 1/1,000th the amount controlled by that spell to a different location in range. The water remains where you placed it for as long as you remain motionless and take a standard action each round to concentrate on this effect. This wild talent causes a <a class="reference internal" href="corerulebook.spells.slow.html#corerulebook-spells-slow"><span class="std std-ref">slow</span></a> effect on creatures made of water, just like <a class="reference internal" href="corerulebook.spells.controlwater.html#corerulebook-spells-controlwater-control-water"><span class="std std-ref">control water</span></a> (Will negates). When you cease concentrating, the water flows normally unless you accept 1 point of burn to extend the duration and hold the water in its current position for 10 minutes per kineticist level you possess.</p>
+</div>
+<div class="section" id="waterdancer">
+<span id="occultadventures-classes-kineticist-waterdancer"></span><h3><a class="toc-backref" href="#id156">Waterdancer</a><a class="headerlink" href="#waterdancer" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> water; <strong>Type</strong> utility (Sp); <strong>Level</strong> 3; <strong>Burn</strong> 0</p>
+<p>You call forth a current of water to increase your speed and allow you to swim with ease, as if under the effects of <a class="reference internal" href="advancedplayersguide.spells.slipstream.html#advancedplayersguide-spells-slipstream-slipstream"><span class="std std-ref">slipstream</span></a> with unlimited duration.</p>
+</div>
+<div class="section" id="waterdancer-greater">
+<span id="occultadventures-classes-kineticist-waterdancer-greater"></span><h3><a class="toc-backref" href="#id157">Waterdancer, Greater</a><a class="headerlink" href="#waterdancer-greater" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> water; <strong>Type</strong> utility (Su); <strong>Level</strong> 5; <strong>Burn</strong> 0</p>
+<p><strong>Prerequisite</strong> waterdancer</p>
+<p>You can move across water (as <a class="reference internal" href="corerulebook.spells.waterwalk.html#corerulebook-spells-waterwalk-water-walk"><span class="std std-ref">water walk</span></a>) at will and breathe underwater, and your slashing and bludgeoning attacks don’t take the usual penalties when you’re underwater.</p>
+</div>
+<div class="section" id="watersense">
+<span id="occultadventures-classes-kineticist-watersense"></span><h3><a class="toc-backref" href="#id158">Watersense</a><a class="headerlink" href="#watersense" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> water; <strong>Type</strong> utility (Su); <strong>Level</strong> 4; <strong>Burn</strong> —</p>
+<p>You gain tremorsense with a range of 30 feet to detect anything in contact with the same body of water as you. While you are benefiting from this tremorsense, your water blasts and composite blasts that include water don’t suffer a miss chance from concealment or total concealment against creatures you detect with this tremorsense.</p>
+</div>
+<div class="section" id="weather-master">
+<span id="occultadventures-classes-kineticist-weather-master"></span><h3><a class="toc-backref" href="#id159">Weather Master</a><a class="headerlink" href="#weather-master" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> air; <strong>Type</strong> utility (Sp); <strong>Level</strong> 8; <strong>Burn</strong> 0</p>
+<p>By focusing on your connection to air and seeding the air around you for 10 minutes, you can create powerful weather effects, as <a class="reference internal" href="corerulebook.spells.controlweather.html#corerulebook-spells-controlweather-control-weather"><span class="std std-ref">control weather</span></a>. You can create tornadoes or hurricane-force winds, as appropriate for the season. If you have access to the fire element, you can create hot weather, a heat wave, a thaw, or an early spring. If you have access to the water element, you can create all other types of weather listed in <a class="reference internal" href="corerulebook.spells.controlweather.html#corerulebook-spells-controlweather-control-weather"><span class="std std-ref">control weather</span></a>.</p>
+</div>
+<div class="section" id="wind-manipulator">
+<span id="occultadventures-classes-kineticist-wind-manipulator"></span><h3><a class="toc-backref" href="#id160">Wind Manipulator</a><a class="headerlink" href="#wind-manipulator" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> air; <strong>Type</strong> utility (Sp); <strong>Level</strong> 6; <strong>Burn</strong> 0</p>
+<p><strong>Prerequisite</strong> engulfing winds</p>
+<p>You can call forth mighty winds in an enormous area. As a standard action, you can alter the wind around you as if using <a class="reference internal" href="corerulebook.spells.controlwinds.html#corerulebook-spells-controlwinds-control-winds"><span class="std std-ref">control winds</span></a>, but the change remains only for as long as you continue to take a standard action to concentrate on this effect. If you accept 1 point of burn, you can extend the duration to 10 minutes per kineticist level you possess without your needing to concentrate.</p>
+</div>
+<div class="section" id="windsight">
+<span id="occultadventures-classes-kineticist-windsight"></span><h3><a class="toc-backref" href="#id161">Windsight</a><a class="headerlink" href="#windsight" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> air; <strong>Type</strong> utility (Su); <strong>Level</strong> 3; <strong>Burn</strong> —</p>
+<p>You can see through mist and fog (including <a class="reference internal" href="corerulebook.spells.fogcloud.html#corerulebook-spells-fogcloud"><span class="std std-ref">fog cloud</span></a> and similar magic). In areas of moderate or stronger wind, you can see and hear as if you were standing at both your own position and a position a number of feet in the wind’s direction equal to the wind’s speed in miles per hour, potentially allowing you to see around corners and other obstacles.</p>
+</div>
+<div class="section" id="windsight-greater">
+<span id="occultadventures-classes-kineticist-windsight-greater"></span><h3><a class="toc-backref" href="#id162">Windsight, Greater</a><a class="headerlink" href="#windsight-greater" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> air; <strong>Type</strong> utility (Su); <strong>Level</strong> 5; <strong>Burn</strong> 0</p>
+<p><strong>Prerequisite</strong> windsight</p>
+<p>You can send a slight breeze in a path up to 480 feet long and then back to where you wait. This allows you to use your windsight wild talent to catch a quick glimpse and hear a tiny snippet from any location that could be reached by the wind traveling that distance (the wind’s path can’t pass through openings smaller than 1 inch in diameter). The breeze travels 100 feet per round, so what you see and hear is delayed by 1 round for every 50 feet of the path. If you spend at least 10 minutes to set up a steady flow of wind, you can concentrate for up to 1 minute per level to gain continuous visual and auditory information for as long as you concentrate, delayed by 1 round for every 100 feet the wind travels (since the steady flow of wind has to travel only one way). While there is no invisible sensor to detect with this ability, creatures along the path of the breeze may notice a light wind, though it may not seem out of the ordinary.</p>
+</div>
+<div class="section" id="wings-of-air">
+<span id="occultadventures-classes-kineticist-wings-of-air"></span><h3><a class="toc-backref" href="#id163">Wings of Air</a><a class="headerlink" href="#wings-of-air" title="Permalink to this headline">¶</a></h3>
+<p><strong>Element</strong> air; <strong>Type</strong> utility (Sp); <strong>Level</strong> 3; <strong>Burn</strong> 0</p>
+<p><strong>Prerequisite</strong> air cushion or air’s leap</p>
+<p>The air bends to your will, allowing you to soar to great heights. You are constantly under the effects of <a class="reference internal" href="corerulebook.spells.fly.html#corerulebook-spells-fly"><span class="std std-ref">fly</span></a>. If this effect is dispelled, you can call it forth again as a standard action.</p>
+</div>
+</div>
+</div>
+
+</body>

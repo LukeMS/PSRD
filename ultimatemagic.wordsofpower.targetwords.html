@@ -1,0 +1,88 @@
+
+
+
+
+
+<head>
+    <link rel="stylesheet" href="_static/srd.css" type="text/css" />
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/toggle_list.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+
+
+
+<body>
+    <div class="contents topic" id="id1">
+<span id="ultimatemagic-wordsofpower-targetwords"></span><p class="topic-title first"></p>
+<ul class="simple">
+<li><a class="reference internal" href="#target-words" id="id2">Target Words</a><ul>
+<li><a class="reference internal" href="#personal" id="id3">Personal</a></li>
+<li><a class="reference internal" href="#selected" id="id4">Selected</a></li>
+<li><a class="reference internal" href="#barrier" id="id5">Barrier</a></li>
+<li><a class="reference internal" href="#burst" id="id6">Burst</a></li>
+<li><a class="reference internal" href="#cone" id="id7">Cone</a></li>
+<li><a class="reference internal" href="#line" id="id8">Line</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="target-words">
+<span id="ultimatemagic-wordsofpower-targetwords-target-words"></span><h1><a class="toc-backref" href="#id2">Target Words</a><a class="headerlink" href="#target-words" title="Permalink to this headline">¶</a></h1>
+<p>Target words establish the way in which a spell determines its targets. Some effect words restrict the type of target words that can be used in wordspells that contain them. A wordspell contains only one target word. Target words use the following format.</p>
+<p id="ultimatemagic-wordsofpower-targetwords-name"><strong>Name</strong>: This is the name of the target word. It is used as part of the wordspell’s complete title.</p>
+<p id="ultimatemagic-wordsofpower-targetwords-level"><strong>Level</strong>: This line lists the minimum level for a wordspell containing this target word.</p>
+<p id="ultimatemagic-wordsofpower-targetwords-range"><strong>Range</strong>: This line describes the range of a wordspell containing this target word.</p>
+<p id="ultimatemagic-wordsofpower-targetwords-target"><strong>Target</strong>: This paragraph describes how a wordspell using this target word determines its targets or area of effect. This could be a selection of targets by the caster or the creation of an area of effect, in which case all the creatures in the area are automatically targets of the spell. It might also create an effect that has no specific targets, instead just causing the effect word to occupy the listed space.</p>
+<p id="ultimatemagic-wordsofpower-targetwords-boost"><strong>Boost</strong>: If the target word can be boosted by the <em>boost</em> meta word, the effects are listed here. See the meta word section for more details.</p>
+<div class="section" id="personal">
+<span id="ultimatemagic-wordsofpower-targetwords-personal"></span><h2><a class="toc-backref" href="#id3">Personal</a><a class="headerlink" href="#personal" title="Permalink to this headline">¶</a></h2>
+<p><strong>Level</strong>0</p>
+<p><strong>Range</strong>no range</p>
+<p>A wordspell with this target word only affects the caster. Effect words that are restricted to this word can be combined with other effect words, but the caster is the only target, regardless of other target possibilities.</p>
+</div>
+<div class="section" id="selected">
+<span id="ultimatemagic-wordsofpower-targetwords-selected"></span><h2><a class="toc-backref" href="#id4">Selected</a><a class="headerlink" href="#selected" title="Permalink to this headline">¶</a></h2>
+<p><strong>Level</strong>0</p>
+<p><strong>Range</strong>close (25 ft. + 5 ft./2 levels)</p>
+<p>A wordspell with this target word affects a single target within range. If the wordspell deals energy damage, this word creates a ray that requires a ranged touch attack to hit, or it can be used as a melee touch attack with no range (decided by the wordcaster when the wordspell is cast). If it is used as a melee touch attack and the attack misses, the wordcaster can hold the charge and try again with subsequent attacks.</p>
+<p><strong>Boost</strong>: Instead of one target, the wordspell affects up to one target per caster level, no two of which can be more than 30 feet apart. The range increases to medium (100 ft. + 10 ft./level). If used with an effect word that deals energy damage, the wordcaster must make multiple ray attacks for each target (they cannot be made as melee touch attacks). This boosted target word increases the level of all the effect words in the spell by 3 levels.</p>
+</div>
+<div class="section" id="barrier">
+<span id="ultimatemagic-wordsofpower-targetwords-barrier"></span><h2><a class="toc-backref" href="#id5">Barrier</a><a class="headerlink" href="#barrier" title="Permalink to this headline">¶</a></h2>
+<p><strong>Level</strong>3</p>
+<p><strong>Range</strong>close (25 ft. + 5 ft./2 levels)</p>
+<p>A wordspell with this target word creates a visible barrier that is 10 feet long per caster level and 10 feet high. Creatures touching or passing through the barrier are subject to the spell’s effect. The barrier does not hinder creatures passing through it unless noted in the spell effect. Creatures occupying the space of the barrier when it forms are subject to the spell’s effect. The wall is 1 foot wide and must be anchored on a solid surface. The wall must be straight when formed.</p>
+<p><strong>Boost</strong>: The wall is 20 feet long per caster level and up to 20 feet high. The wall can take on any shape desired by the caster, but it must remain a vertical surface.</p>
+</div>
+<div class="section" id="burst">
+<span id="ultimatemagic-wordsofpower-targetwords-burst"></span><h2><a class="toc-backref" href="#id6">Burst</a><a class="headerlink" href="#burst" title="Permalink to this headline">¶</a></h2>
+<p><strong>Level</strong>1</p>
+<p><strong>Range</strong>close (25 ft. + 5 ft./2 levels)</p>
+<p>A wordspell with this target word affects everything it catches in a 10-foot-radius burst. Some effect words that use the <em>burst</em> target word are instead emanations, taking up the same area as the burst. These effect words typically have a longer duration and cannot be moved once created. They are noted by the word “emanation” in parentheses after the <em>burst</em> target restriction.</p>
+<p><strong>Boost</strong>: The spell affects everything in a 20-foot-radius burst. Its range increases to medium (100 ft. + 10 ft./level). Boosting this target word increases its level by 2.</p>
+<p><strong>Boost</strong>: The spell affects everything in a 40-foot-radius burst. Its range increases to long (400 ft. + 40 ft./level). Boosting this target word increases its level by 4.</p>
+</div>
+<div class="section" id="cone">
+<span id="ultimatemagic-wordsofpower-targetwords-cone"></span><h2><a class="toc-backref" href="#id7">Cone</a><a class="headerlink" href="#cone" title="Permalink to this headline">¶</a></h2>
+<p><strong>Level</strong>0</p>
+<p><strong>Range</strong>10 ft.</p>
+<p>A wordspell with this target word affects everything in a cone-shaped burst.</p>
+<p><strong>Boost</strong>: The range increases to 20 feet. Boosting this target word increases its level by 2.</p>
+<p><strong>Boost</strong>: The range increases to 40 feet. Boosting this target word increases its level by 4.</p>
+</div>
+<div class="section" id="line">
+<span id="ultimatemagic-wordsofpower-targetwords-line"></span><h2><a class="toc-backref" href="#id8">Line</a><a class="headerlink" href="#line" title="Permalink to this headline">¶</a></h2>
+<p><strong>Level</strong>1</p>
+<p><strong>Range</strong>20 ft.</p>
+<p>A wordspells with this target word affects everything in a 20-foot line.</p>
+<p><strong>Boost</strong>: The range increases to 60 feet. Boosting this target word increases its level by 1.</p>
+<p><strong>Boost</strong>: The range increases to 120 feet. Boosting this target word increases its level by 2.</p>
+</div>
+</div>
+
+</body>

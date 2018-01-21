@@ -1,0 +1,650 @@
+
+
+
+
+
+<head>
+    <link rel="stylesheet" href="_static/srd.css" type="text/css" />
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/toggle_list.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+
+
+
+<body>
+    <div class="contents topic" id="id1">
+<span id="technologyguide-cybertech"></span><p class="topic-title first"></p>
+<ul class="simple">
+<li><a class="reference internal" href="#cybertech" id="id12">Cybertech</a><ul>
+<li><a class="reference internal" href="#biofilter" id="id13">Biofilter</a></li>
+<li><a class="reference internal" href="#construction" id="id14">Construction</a></li>
+<li><a class="reference internal" href="#cranial-bomb" id="id15">Cranial Bomb</a></li>
+<li><a class="reference internal" href="#id2" id="id16">Construction</a></li>
+<li><a class="reference internal" href="#cyberart" id="id17">Cyberart</a></li>
+<li><a class="reference internal" href="#id3" id="id18">Construction</a></li>
+<li><a class="reference internal" href="#cyberfiber-muscles" id="id19">Cyberfiber Muscles</a></li>
+<li><a class="reference internal" href="#cybernetic-arm" id="id20">Cybernetic Arm</a></li>
+<li><a class="reference internal" href="#id4" id="id21">Construction</a></li>
+<li><a class="reference internal" href="#cybernetic-ears" id="id22">Cybernetic Ears</a></li>
+<li><a class="reference internal" href="#id5" id="id23">Construction</a></li>
+<li><a class="reference internal" href="#cybernetic-eyes" id="id24">Cybernetic Eyes</a></li>
+<li><a class="reference internal" href="#id6" id="id25">Construction</a></li>
+<li><a class="reference internal" href="#cybernetic-legs" id="id26">Cybernetic Legs</a></li>
+<li><a class="reference internal" href="#id7" id="id27">Construction</a></li>
+<li><a class="reference internal" href="#dermal-plating" id="id28">Dermal Plating</a></li>
+<li><a class="reference internal" href="#frenzychip" id="id29">Frenzychip</a></li>
+<li><a class="reference internal" href="#id8" id="id30">Construction</a></li>
+<li><a class="reference internal" href="#implanted-weaponry" id="id31">implanted Weaponry</a></li>
+<li><a class="reference internal" href="#id9" id="id32">Construction</a></li>
+<li><a class="reference internal" href="#skillslot" id="id33">Skillslot</a></li>
+<li><a class="reference internal" href="#id10" id="id34">Construction</a></li>
+<li><a class="reference internal" href="#thoracic-nanite-chamber" id="id35">Thoracic Nanite Chamber</a></li>
+<li><a class="reference internal" href="#wirejack-tendons" id="id36">Wirejack Tendons</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="cybertech">
+<span id="technologyguide-cybertech-cybertech"></span><h1><a class="toc-backref" href="#id12">Cybertech</a><a class="headerlink" href="#cybertech" title="Permalink to this headline">¶</a></h1>
+<p>Cybertech is a form of technology that must be surgically implanted into a host body before it functions. Cybertech takes up a special set of slots that correspond to a creature’s body. Most cybertech is designed for a creature with a humanoid shape—installing cybertech in a non-humanoid-shaped body is more difficult, but possible.</p>
+<p>Each piece of cybertech has an implantation value that indicates how invasive the implant is. The total combined implantation values of all cybertech implanted in a single creature can’t exceed either that creature’s Constitution score or Intelligence score—a creature’s Constitution sets the physical limit of what its body can accept in the form of cybernetic implants, while the creature’s Intelligence sets the mental limit of what its brain can control. An implant whose implantation value would cause the total to exceed either of these two scores does not function but still takes up a body slot. In addition, as long as a character has cybernetic implants installed whose combined implantation exceeds his Constitution or Intelligence, he takes a -4 penalty on all saving throws.</p>
+<p>A creature with neither a Constitution score nor an Intelligence score cannot receive benefits from cybertech, but a creature with only one of these scores can.</p>
+<p>Installing a piece of cybertech takes a number of hours equal to the cybertech’s implantation value if the installation is done by hand—certain technological items can speed this installation time. The target must be willing or helpless during the entire installation, at the end of which the installer attempts a Heal check against the cybertech’s Install DC—this specific value is listed for each cybertech item. On a success, the target takes Constitution damage equal to the cybertech’s implantation value and the cybertech immediately activates. On a failed check, the target still takes the Constitution damage but the installation fails; a new attempt to install the cybertech can be made, although it’s wise to wait for the Constitution damage to heal before trying again.</p>
+<p>Cybertech can be extracted using the same procedure as implanting it, with a failed Heal check indicating the attempt to extract the item failed. Fortunately, extraction is a simpler task than installment, and Heal checks to remove cybertech gain a +10 bonus. Extracting a piece of cybertech from a dead body requires no Heal check but takes a number of rounds equal to the cybertech’s implantation value. You can only install or extract a single piece of cybertech at a time.</p>
+<p>An NPC generally charges an amount equal to 1/10 the total price of a piece of cybertech for the service of installing the item.</p>
+<p>Each piece of cybertech has a full description, including a set of abbreviated statistics at the start. This information is organized as follows.</p>
+<p><strong>Price</strong>: This is the cost in gold pieces to buy the implant if it’s available for sale. This value does not include the cost to have the object surgically implanted. As with magic items, a piece of cybertech can be sold by PCs for half this value.</p>
+<p><strong>Slot</strong>: This is the part of the body into which the cybertech must be implanted. A single slot can only ever host a single piece of cybertech. Cybertech slots are separate from normal magic item slots and do not count as being used for the purposes of worn magic items.</p>
+<p><strong>Weight</strong>: This is the weight of the cybertech in pounds. Once installed, the cybertech’s weight does not count against a creature’s encumbrance or maximum load.</p>
+<p><strong>Install</strong>: This is the Heal check DC required to successfully implant or remove the cybertech from a creature.</p>
+<p><strong>Implantation</strong>: A numerical value indicating how invasive the cybertech is. The higher the number, the more invasive the cybertech. Implantation influences the time and difficulty of installing and removing the cybertech.</p>
+<p><strong>Description</strong>: This section describes the cybertech’s appearance and abilities.</p>
+<p><strong>Construction</strong>: Certain requirements must be met for a character to craft cybertech. These requirements generally consist of having a feat and access to a <a class="reference internal" href="technologyguide.crafting.html#technologyguide-crafting-crafting-laboratories"><span class="std std-ref">manufacturing facility</span></a>.</p>
+<p><strong>Craft</strong>: This is the Craft DC required to create the cybertech. It is also the Knowledge (engineering) DC to correctly identify the cybertech.</p>
+<p><strong>Cost</strong>: This is the cost in gold pieces to create the item. Generally this cost is equal to half the price of the item.</p>
+<table border="1" class="colwidths-auto contrast-reading-table docutils" id="id11">
+<caption><span class="caption-text">Cybertech</span><a class="headerlink" href="#id11" title="Permalink to this table">¶</a></caption>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Arm Slot Cybertech</th>
+<th class="head">Price</th>
+<th class="head">Weight</th>
+<th class="head">Implant</th>
+<th class="head">Install</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Cybernetic arm</td>
+<td>4,750 gp</td>
+<td>9 lbs.</td>
+<td>2</td>
+<td>DC 28</td>
+</tr>
+<tr class="row-odd"><td>Implanted weaponry</td>
+<td>10,000 gp (special)</td>
+<td>1 lb.</td>
+<td>2</td>
+<td>DC 26</td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="colwidths-auto contrast-reading-table docutils">
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Body Slot Cybertech</th>
+<th class="head">Price</th>
+<th class="head">Weight</th>
+<th class="head">Implant</th>
+<th class="head">Install</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Dermal plating (mark I)</td>
+<td>4,000 gp</td>
+<td>5 lbs.</td>
+<td>2</td>
+<td>DC 24</td>
+</tr>
+<tr class="row-odd"><td>Cyberfiber muscles (mark I)</td>
+<td>8,000 gp</td>
+<td>10 lbs.</td>
+<td>2</td>
+<td>DC 24</td>
+</tr>
+<tr class="row-even"><td>Thoracic nanite chamber (mark I)</td>
+<td>8,000 gp</td>
+<td>5 lbs.</td>
+<td>2</td>
+<td>DC 24</td>
+</tr>
+<tr class="row-odd"><td>Wirejack tendons (mark I)</td>
+<td>8,000 gp</td>
+<td>10 lbs.</td>
+<td>2</td>
+<td>DC 24</td>
+</tr>
+<tr class="row-even"><td>Biofilter</td>
+<td>16,000 gp</td>
+<td>2 lbs.</td>
+<td>3</td>
+<td>DC 25</td>
+</tr>
+<tr class="row-odd"><td>Dermal plating (mark II)</td>
+<td>16,000 gp</td>
+<td>5 lbs.</td>
+<td>4</td>
+<td>DC 26</td>
+</tr>
+<tr class="row-even"><td>Cyberfiber muscles (mark II)</td>
+<td>32,000 gp</td>
+<td>10 lbs.</td>
+<td>4</td>
+<td>DC 28</td>
+</tr>
+<tr class="row-odd"><td>Thoracic nanite chamber (mark II)</td>
+<td>32,000 gp</td>
+<td>5 lbs.</td>
+<td>4</td>
+<td>DC 28</td>
+</tr>
+<tr class="row-even"><td>Wirejack tendons (mark II)</td>
+<td>32,000 gp</td>
+<td>10 lbs.</td>
+<td>4</td>
+<td>DC 28</td>
+</tr>
+<tr class="row-odd"><td>Dermal plating (mark III)</td>
+<td>36,000 gp</td>
+<td>5 lbs.</td>
+<td>4</td>
+<td>DC 28</td>
+</tr>
+<tr class="row-even"><td>Dermal plating (mark IV)</td>
+<td>64,000 gp</td>
+<td>5 lbs.</td>
+<td>8</td>
+<td>DC 30</td>
+</tr>
+<tr class="row-odd"><td>Cyberfiber muscles (mark III)</td>
+<td>72,000 gp</td>
+<td>10 lbs.</td>
+<td>8</td>
+<td>DC 36</td>
+</tr>
+<tr class="row-even"><td>Thoracic nanite chamber (mark III)</td>
+<td>72,000 gp</td>
+<td>5 lbs.</td>
+<td>8</td>
+<td>DC 36</td>
+</tr>
+<tr class="row-odd"><td>Wirejack tendons (mark III)</td>
+<td>72,000 gp</td>
+<td>10 lbs.</td>
+<td>8</td>
+<td>DC 36</td>
+</tr>
+<tr class="row-even"><td>Dermal plating (mark V)</td>
+<td>100,000 gp</td>
+<td>5 lbs.</td>
+<td>10</td>
+<td>DC 32</td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="colwidths-auto contrast-reading-table docutils">
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Brain Slot Cybertech</th>
+<th class="head">Price</th>
+<th class="head">Weight</th>
+<th class="head">Implant</th>
+<th class="head">Install</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Skillslot</td>
+<td>2,000 gp</td>
+<td>1 lb.</td>
+<td>1</td>
+<td>DC 30</td>
+</tr>
+<tr class="row-odd"><td>Frenzychip</td>
+<td>36,400 gp</td>
+<td>1 lb.</td>
+<td>1</td>
+<td>DC 32</td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="colwidths-auto contrast-reading-table docutils">
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Ears Slot Cybertech</th>
+<th class="head">Price</th>
+<th class="head">Weight</th>
+<th class="head">Implant</th>
+<th class="head">Install</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Cybernetic ears</td>
+<td>4,000 gp</td>
+<td>1 lb.</td>
+<td>1</td>
+<td>DC 28</td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="colwidths-auto contrast-reading-table docutils">
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Eyes Slot Cybertech</th>
+<th class="head">Price</th>
+<th class="head">Weight</th>
+<th class="head">Implant</th>
+<th class="head">Install</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Cybernetic eyes</td>
+<td>4,000 gp</td>
+<td>1 lb.</td>
+<td>1</td>
+<td>DC 28</td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="colwidths-auto contrast-reading-table docutils">
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Head Slot Cybertech</th>
+<th class="head">Price</th>
+<th class="head">Weight</th>
+<th class="head">Implant</th>
+<th class="head">Install</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Cranial bomb</td>
+<td>4,500 gp</td>
+<td>1/2 lb.</td>
+<td>1</td>
+<td>DC 25</td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="colwidths-auto contrast-reading-table docutils">
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Legs Slot Cybertech</th>
+<th class="head">Price</th>
+<th class="head">Weight</th>
+<th class="head">Implant</th>
+<th class="head">Install</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Cybernetic legs</td>
+<td>8,500 gp</td>
+<td>12 lbs.</td>
+<td>4</td>
+<td>DC 28</td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="colwidths-auto contrast-reading-table docutils">
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Body Slot Cybertech</th>
+<th class="head">Price</th>
+<th class="head">Weight</th>
+<th class="head">Implant</th>
+<th class="head">Install</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Cyberart</td>
+<td>100 gp</td>
+<td>1 lb.</td>
+<td>0</td>
+<td>DC 20</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="biofilter">
+<span id="technologyguide-cybertech-biofilter"></span><h2><a class="toc-backref" href="#id13">Biofilter</a><a class="headerlink" href="#biofilter" title="Permalink to this headline">¶</a></h2>
+<p><strong>Price</strong> 16,000 gp; <strong>Slot</strong>  body; <strong>Weight</strong>  2 lbs.; <strong>Install</strong>  DC 25; <strong>Implantation</strong>  3</p>
+<p>A nanite matrix is installed in the kidneys and liver to help purge the body of toxins. A biofilter provides a +4 competence bonus on saving throws against disease and poison. In addition, when the user attempts such a saving throw, she rolls twice and takes the higher result.</p>
+</div>
+<div class="section" id="construction">
+<span id="technologyguide-cybertech-construction"></span><h2><a class="toc-backref" href="#id14">Construction</a><a class="headerlink" href="#construction" title="Permalink to this headline">¶</a></h2>
+<p><strong>Craft</strong> DC 25; <strong>Cost</strong> 8,000 gp</p>
+<p><a class="reference internal" href="technologyguide.feats.html#technologyguide-feats-craft-cybernetics"><span class="std std-ref">Craft Cybertech</span></a>, <span class="xref std std-ref">cybernetics lab</span></p>
+</div>
+<div class="section" id="cranial-bomb">
+<span id="technologyguide-cybertech-cranial-bomb"></span><h2><a class="toc-backref" href="#id15">Cranial Bomb</a><a class="headerlink" href="#cranial-bomb" title="Permalink to this headline">¶</a></h2>
+<p><strong>Price</strong> 4,500 gp; <strong>Slot</strong>  head; <strong>Weight</strong>  1/2 lb.; <strong>Install</strong>  DC 25; <strong>Implantation</strong>  1</p>
+<p>A cranial bomb is a bomb implanted at the base of the skull that explodes when remotely activated by a <a class="reference internal" href="technologyguide.gear.html#technologyguide-gear-detonator"><span class="std std-ref">detonator’s</span></a> signal. Though normally implanted, a cranial bomb can also be detonated outside of a body. If detonated while implanted, it deals 2d6 points of bludgeoning damage and 2d6 points of fire damage, and the recipient must succeed at a Fortitude saving throw (DC = 10 + the damage dealt) or be instantly slain. Creatures killed in this manner cannot be revived by <a class="reference internal" href="corerulebook.spells.breathoflife.html#corerulebook-spells-breathoflife-breath-of-life"><span class="std std-ref">breath of life</span></a> or <a class="reference internal" href="corerulebook.spells.raisedead.html#corerulebook-spells-raisedead-raise-dead"><span class="std std-ref">raise dead</span></a>. If detonated outside a body, the bomb instead creates a small explosion, dealing the damage detailed above in a 5-foot-radius burst (Reflex DC 13 half).</p>
+</div>
+<div class="section" id="id2">
+<h2><a class="toc-backref" href="#id16">Construction</a><a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<p><strong>Craft</strong> DC 20; <strong>Cost</strong> 2,250 gp</p>
+<p><a class="reference internal" href="technologyguide.feats.html#technologyguide-feats-craft-cybernetics"><span class="std std-ref">Craft Cybertech</span></a>, <span class="xref std std-ref">cybernetics lab</span></p>
+</div>
+<div class="section" id="cyberart">
+<span id="technologyguide-cybertech-cyberart"></span><h2><a class="toc-backref" href="#id17">Cyberart</a><a class="headerlink" href="#cyberart" title="Permalink to this headline">¶</a></h2>
+<p><strong>Price</strong> 100 gp; <strong>Slot</strong>  none; <strong>Weight</strong>  1 lb.; <strong>Install</strong>  DC 20; <strong>Implantation</strong>  0</p>
+<p>Cyberart is the least invasive of all cybertech. This implant is similar in appearance to a tattoo, except that it can glow softly if desired, providing illumination equal to that provided by a candle. Some cyberart is animated, providing a short looping scene that replays over and over. Cyberart is installed in a body with a small metallic stylus that injects low-grade nanites into a body part; the quality of the art relies on the installer’s Craft (painting or tattoo) check.</p>
+</div>
+<div class="section" id="id3">
+<h2><a class="toc-backref" href="#id18">Construction</a><a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
+<p><strong>Craft</strong> DC 20; <strong>Cost</strong> 50 gp</p>
+<p><a class="reference internal" href="technologyguide.feats.html#technologyguide-feats-craft-cybernetics"><span class="std std-ref">Craft Cybertech</span></a>, <span class="xref std std-ref">cybernetics lab</span></p>
+</div>
+<div class="section" id="cyberfiber-muscles">
+<span id="technologyguide-cybertech-cyberfiber-muscles"></span><h2><a class="toc-backref" href="#id19">Cyberfiber Muscles</a><a class="headerlink" href="#cyberfiber-muscles" title="Permalink to this headline">¶</a></h2>
+<p><strong>Price</strong> varies; <strong>Mark I</strong> 8,000 gp; <strong>Mark II</strong> 32,000 gp; <strong>Mark III</strong> 72,000 gp; <strong>Slot</strong>  body; <strong>Weight</strong>  10 lbs.; <strong>Install</strong>  varies; <strong>Implantation</strong>  varies</p>
+<p>Cyberfiber muscles are powerful synthetic muscles that augment but do not replace existing muscle mass in a creature. Once installed, cyberfiber muscles grant an enhancement bonus to Strength. This enhancement bonus alters price, implantation value, install DCs, and Craft DCs as listed below.</p>
+<table border="1" class="colwidths-auto contrast-reading-table docutils">
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Cyberfiber</th>
+<th class="head">Enhancement</th>
+<th class="head">Implantation</th>
+<th class="head">Install</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Mark I</td>
+<td>+2 Str</td>
+<td>2</td>
+<td>DC 24</td>
+</tr>
+<tr class="row-odd"><td>Mark II</td>
+<td>+4 Str</td>
+<td>4</td>
+<td>DC 28</td>
+</tr>
+<tr class="row-even"><td>Mark III</td>
+<td>+6 Str</td>
+<td>8</td>
+<td>DC 36</td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="colwidths-auto contrast-reading-table docutils">
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Construction</th>
+<th class="head">Craft (varies)</th>
+<th class="head">Cost (varies)</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Mark I</td>
+<td>DC 24</td>
+<td>4,000 gp</td>
+</tr>
+<tr class="row-odd"><td>Mark II</td>
+<td>DC 28</td>
+<td>16,000 gp</td>
+</tr>
+<tr class="row-even"><td>Mark III</td>
+<td>DC 32</td>
+<td>36,000 gp</td>
+</tr>
+</tbody>
+</table>
+<p><a class="reference internal" href="technologyguide.feats.html#technologyguide-feats-craft-cybernetics"><span class="std std-ref">Craft Cybertech</span></a>, <span class="xref std std-ref">cybernetics lab</span></p>
+</div>
+<div class="section" id="cybernetic-arm">
+<span id="technologyguide-cybertech-cybernetic-arm"></span><h2><a class="toc-backref" href="#id20">Cybernetic Arm</a><a class="headerlink" href="#cybernetic-arm" title="Permalink to this headline">¶</a></h2>
+<p><strong>Price</strong> 4,750 gp; <strong>Slot</strong>  arm; <strong>Weight</strong>  9 lbs.; <strong>Install</strong>  DC 28; <strong>Implantation</strong>  2</p>
+<p>A cybernetic arm completely replaces a normal arm, from the shoulder to the hand. It can take the place of an arm lost to a severing wound. The arm is fully functional and no different in appearance from a regular arm, although cyberart can be added to the arm at no additional cost. A cybernetic arm does not increase a user’s Strength score. If a creature has two cybernetic arms, it can lift and carry double the normal maximum weight for that creature’s Strength and size, and it gains a +5 circumstance bonus on Climb checks. A character who wields a one-handed or light weapon with a cybernetic arm gains a +5 bonus to CMD against disarm attempts; two cybernetic arms do not increase this bonus, but do allow the bonus to apply to two-handed weapons.</p>
+</div>
+<div class="section" id="id4">
+<h2><a class="toc-backref" href="#id21">Construction</a><a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
+<p><strong>Craft</strong> DC 25; <strong>Cost</strong> 2,375 gp</p>
+<p><a class="reference internal" href="technologyguide.feats.html#technologyguide-feats-craft-cybernetics"><span class="std std-ref">Craft Cybertech</span></a>, <span class="xref std std-ref">cybernetics lab</span></p>
+</div>
+<div class="section" id="cybernetic-ears">
+<span id="technologyguide-cybertech-cybernetic-ears"></span><h2><a class="toc-backref" href="#id22">Cybernetic Ears</a><a class="headerlink" href="#cybernetic-ears" title="Permalink to this headline">¶</a></h2>
+<p><strong>Price</strong> 4,000 gp; <strong>Slot</strong>  ears; <strong>Weight</strong>  1 lb.; <strong>Install</strong>  DC 28; <strong>Implantation</strong>  1</p>
+<p>A cybernetic ear can be enhanced by cyberart at no additional cost, giving it an unusual color or shape. When a pair of ears is installed, the user gains a +2 circumstance bonus on Perception checks. This bonus stacks with circumstance bonuses on Perception checks from other cybernetic senses. Cybernetic ears grant a +4 resistance bonus on all saving throws against sonic effects.</p>
+<p>The listed price, implantation value, and install DC are for having both ears installed. A single cybernetic ear costs half the price and half the listed implantation value, but a creature must replace all of its ears to receive the benefits above.</p>
+</div>
+<div class="section" id="id5">
+<h2><a class="toc-backref" href="#id23">Construction</a><a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h2>
+<p><strong>Craft</strong> DC 28; <strong>Cost</strong> 2,000 gp</p>
+<p><a class="reference internal" href="technologyguide.feats.html#technologyguide-feats-craft-cybernetics"><span class="std std-ref">Craft Cybertech</span></a>, <span class="xref std std-ref">cybernetics lab</span></p>
+</div>
+<div class="section" id="cybernetic-eyes">
+<span id="technologyguide-cybertech-cybernetic-eyes"></span><h2><a class="toc-backref" href="#id24">Cybernetic Eyes</a><a class="headerlink" href="#cybernetic-eyes" title="Permalink to this headline">¶</a></h2>
+<p><strong>Price</strong> 4,000 gp; <strong>Slot</strong>  eyes; <strong>Weight</strong>  1 lb.; <strong>Install</strong>  DC 28; <strong>Implantation</strong>  1</p>
+<p>A cybernetic eye can be enhanced by cyber art for no additional cost. When a pair of eyes is installed, the user gains a +2 circumstance bonus on Perception checks and a +4 resistance bonus on saving throws against blindness or visual effects. The bonus on Perception checks stacks with circumstance bonuses on Perception checks from other cybernetic sources. A pair of cybernetic eyes can be further enhanced by one veemod at a price equal to twice the veemod’s normal price.</p>
+<p>The listed price, implantation value, and install DC are for having two eyes installed. A single cybernetic eye costs half the price and half the listed implantation value, but a creature must replace all of its eyes to receive the benefits above.</p>
+</div>
+<div class="section" id="id6">
+<h2><a class="toc-backref" href="#id25">Construction</a><a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h2>
+<p><strong>Craft</strong> DC 28; <strong>Cost</strong> 2,000 gp</p>
+<p><a class="reference internal" href="technologyguide.feats.html#technologyguide-feats-craft-cybernetics"><span class="std std-ref">Craft Cybertech</span></a>, <span class="xref std std-ref">cybernetics lab</span></p>
+</div>
+<div class="section" id="cybernetic-legs">
+<span id="technologyguide-cybertech-cybernetic-legs"></span><h2><a class="toc-backref" href="#id26">Cybernetic Legs</a><a class="headerlink" href="#cybernetic-legs" title="Permalink to this headline">¶</a></h2>
+<p><strong>Price</strong> 8,500 gp; <strong>Slot</strong>  legs; <strong>Weight</strong>  12 lbs.; <strong>Install</strong>  DC 28; <strong>Implantation</strong>  4</p>
+<p>A cybernetic leg completely replaces a normal leg, from the hip to the foot. It can take the place of a leg lost to a severing wound. The leg is fully functional and no different in appearance from a regular leg, although cyberart can be added to the leg at no additional cost. A cybernetic leg does not increase a user’s Strength score. If both legs are replaced, they increase the user’s base land speed by 10 feet and grant a +5 bonus to CMD against trip attempts and a +5 circumstance bonus on Acrobatics checks.</p>
+<p>The listed price, implantation, and install DC are for having two legs installed. A single cybernetic leg costs half the price and half the listed implantation value, but no significant bonus is granted to a creature with only one cybernetic leg. Both legs (or all legs, in the case of multi-legged creatures) must be replaced for the above benefits to take effect.</p>
+</div>
+<div class="section" id="id7">
+<h2><a class="toc-backref" href="#id27">Construction</a><a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h2>
+<p><strong>Craft</strong> DC 25; <strong>Cost</strong> 4,250 gp</p>
+<p><a class="reference internal" href="technologyguide.feats.html#technologyguide-feats-craft-cybernetics"><span class="std std-ref">Craft Cybertech</span></a>, <span class="xref std std-ref">cybernetics lab</span></p>
+</div>
+<div class="section" id="dermal-plating">
+<span id="technologyguide-cybertech-dermal-plating"></span><h2><a class="toc-backref" href="#id28">Dermal Plating</a><a class="headerlink" href="#dermal-plating" title="Permalink to this headline">¶</a></h2>
+<p><strong>Price</strong> varies; <strong>Mark I</strong> 4,000 gp; <strong>Mark II</strong> 16,000 gp; <strong>Mark III</strong> 36,000 gp; <strong>Mark IV</strong> 64,000 gp; <strong>Mark V</strong> 100,000 gp; <strong>Slot</strong> body; <strong>Weight</strong>  5 lbs.; <strong>Install</strong>  varies; <strong>Implantation</strong>  varies</p>
+<p>Dermal plating consists of sheets of highly resistant bioplastics anchored directly onto the patient’s skin. These armored plates grant an enhancement bonus to natural armor; this bonus influences other elements of the dermal plating, as detailed below.</p>
+<table border="1" class="colwidths-auto contrast-reading-table docutils">
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Plating</th>
+<th class="head">Enhancement</th>
+<th class="head">Implantation</th>
+<th class="head">Install</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Mark I</td>
+<td>+1</td>
+<td>2</td>
+<td>DC 24</td>
+</tr>
+<tr class="row-odd"><td>Mark II</td>
+<td>+2</td>
+<td>4</td>
+<td>DC 26</td>
+</tr>
+<tr class="row-even"><td>Mark III</td>
+<td>+3</td>
+<td>4</td>
+<td>DC 28</td>
+</tr>
+<tr class="row-odd"><td>Mark IV</td>
+<td>+4</td>
+<td>8</td>
+<td>DC 30</td>
+</tr>
+<tr class="row-even"><td>Mark V</td>
+<td>+5</td>
+<td>10</td>
+<td>DC 32</td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="colwidths-auto contrast-reading-table docutils">
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Construction</th>
+<th class="head">Craft (varies)</th>
+<th class="head">Cost (varies)</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Mark I</td>
+<td>DC 24</td>
+<td>2,000 gp</td>
+</tr>
+<tr class="row-odd"><td>Mark II</td>
+<td>DC 25</td>
+<td>8,000 gp</td>
+</tr>
+<tr class="row-even"><td>Mark III</td>
+<td>DC 26</td>
+<td>18,000 gp</td>
+</tr>
+<tr class="row-odd"><td>Mark IV</td>
+<td>DC 27</td>
+<td>32,000 gp</td>
+</tr>
+<tr class="row-even"><td>Mark V</td>
+<td>DC 28</td>
+<td>50,000 gp</td>
+</tr>
+</tbody>
+</table>
+<p><a class="reference internal" href="technologyguide.feats.html#technologyguide-feats-craft-cybernetics"><span class="std std-ref">Craft Cybertech</span></a>, <span class="xref std std-ref">cybernetics lab</span></p>
+</div>
+<div class="section" id="frenzychip">
+<span id="technologyguide-cybertech-frenzychip"></span><h2><a class="toc-backref" href="#id29">Frenzychip</a><a class="headerlink" href="#frenzychip" title="Permalink to this headline">¶</a></h2>
+<p><strong>Price</strong> 36,400 gp; <strong>Slot</strong>  brain; <strong>Weight</strong>  1 lb.; <strong>Install</strong>  DC 32; <strong>Implantation</strong>  1</p>
+<p>A frenzychip is installed into a creature’s brain. Successful implantation leaves no trace of the operation. Once in place, a frenzychip patches directly in to the patient’s motor skills and emotions. As long as she’s not fatigued or exhausted, the user of a frenzychip can activate it as a swift action. While active, it grants a +2 morale bonus to Strength and Dexterity, a +1 morale bonus on Reflex saving throws, and a -2 penalty on Will saving throws. The user may use a frenzychip for up to 10 rounds per day, though the rounds need not be consecutive. Once the effects end, she becomes fatigued for twice as many rounds as she was under the frenzychip’s effects.</p>
+</div>
+<div class="section" id="id8">
+<h2><a class="toc-backref" href="#id30">Construction</a><a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h2>
+<p><strong>Craft</strong> DC 30; <strong>Cost</strong> 18,200 gp</p>
+<p><a class="reference internal" href="technologyguide.feats.html#technologyguide-feats-craft-cybernetics"><span class="std std-ref">Craft Cybertech</span></a>, <span class="xref std std-ref">cybernetics lab</span></p>
+</div>
+<div class="section" id="implanted-weaponry">
+<span id="technologyguide-cybertech-implanted-weaponry"></span><h2><a class="toc-backref" href="#id31">implanted Weaponry</a><a class="headerlink" href="#implanted-weaponry" title="Permalink to this headline">¶</a></h2>
+<p><strong>Price</strong> 10,000 gp (special); <strong>Slot</strong>  arm; <strong>Weight</strong>  1 lb. (special); <strong>Install</strong>  DC 26; <strong>Implantation</strong>  2</p>
+<p>A single light melee weapon or one-handed firearm can be implanted in an arm or cybernetic arm. Melee weapons extend or retract as a swift action. Ranged weapons fire through a port on the palm or back of the wrist. Either type of weapon has statistics identical to its normal form. Firearms reload through a breach in the arm, increasing the reloading time of the weapon to a full-round action, or doubling reloading times that already take a full round or longer. Implanted weapons are well concealed; detecting one requires a thorough search (Perception DC 25). Implanted weaponry can be damaged or destroyed by sundering, but cannot be disarmed. Weaponry installed in a cybernetic arm does not count against a creature’s implantation limit. The cost, price, and weight of the weapon to be implanted are added to the cost, price, and weight listed in this stat block.</p>
+</div>
+<div class="section" id="id9">
+<h2><a class="toc-backref" href="#id32">Construction</a><a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h2>
+<p><strong>Craft</strong> DC 25; <strong>Cost</strong> 5,000 gp (special)</p>
+<p><a class="reference internal" href="technologyguide.feats.html#technologyguide-feats-craft-cybernetics"><span class="std std-ref">Craft Cybertech</span></a>, <span class="xref std std-ref">cybernetics lab</span>, weapon to be implanted</p>
+</div>
+<div class="section" id="skillslot">
+<span id="technologyguide-cybertech-skillslot"></span><h2><a class="toc-backref" href="#id33">Skillslot</a><a class="headerlink" href="#skillslot" title="Permalink to this headline">¶</a></h2>
+<p><strong>Price</strong> 2,000 gp; <strong>Slot</strong>  brain; <strong>Weight</strong>  1 lb.; <strong>Install</strong>  DC 30; <strong>Implantation</strong>  1</p>
+<p>A skillslot is implanted into the target’s brain, leaving a small port at the base of the skull. This port is covered with a flap of skin when not in use. Once installed, a skillslot has no effect until a skillchip is inserted into the port (<a class="reference internal" href="technologyguide.gear.html#technologyguide-gear-skillchip"><span class="std std-ref">see here</span></a> for information on the various forms of available skillchips.) An inserted skillchip enhances the user’s ability in the skill encoded on the chip; the magnitude to which the skill is enhanced depends on the power of the skillchip. This does not grant ranks in the associated skill. It takes 10 minutes for a skillchip to adjust itself to a new skillslot; during this time, the user takes a -2 penalty on all skill checks as distracting sensations flood his mind. When a skillchip is removed, its benefits end immediately, but the wearer suffers no ill effects.</p>
+</div>
+<div class="section" id="id10">
+<h2><a class="toc-backref" href="#id34">Construction</a><a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h2>
+<p><strong>Craft</strong> DC 28; <strong>Cost</strong> 1,000 gp</p>
+<p><a class="reference internal" href="technologyguide.feats.html#technologyguide-feats-craft-cybernetics"><span class="std std-ref">Craft Cybertech</span></a>, <span class="xref std std-ref">cybernetics lab</span></p>
+</div>
+<div class="section" id="thoracic-nanite-chamber">
+<span id="technologyguide-cybertech-thoracic-nanite-chamber"></span><h2><a class="toc-backref" href="#id35">Thoracic Nanite Chamber</a><a class="headerlink" href="#thoracic-nanite-chamber" title="Permalink to this headline">¶</a></h2>
+<p><strong>Price</strong> varies; <strong>Mark I</strong> 8,000 gp; <strong>Mark II</strong> 32,000 gp; <strong>Mark III</strong> 72,000 gp; <strong>Slot</strong>  body; <strong>Weight</strong>  5 lbs.; <strong>Install</strong>  varies; <strong>Implantation</strong>  varies</p>
+<p>A thoracic nanite chamber augments the vital organs within a creature’s chest, particularly its heart, lungs, and pulmonary system. Once installed, a thoracic nanite chamber grants an enhancement bonus to Constitution. This enhancement bonus alters the implant’s price, implantation value, install DCs, and Craft DCs as listed below.</p>
+<table border="1" class="colwidths-auto contrast-reading-table docutils">
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Chamber</th>
+<th class="head">Enhancement</th>
+<th class="head">Implantation</th>
+<th class="head">Install</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Mark I</td>
+<td>+2</td>
+<td>Con 2</td>
+<td>DC 24</td>
+</tr>
+<tr class="row-odd"><td>Mark II</td>
+<td>+4</td>
+<td>Con 4</td>
+<td>DC 28</td>
+</tr>
+<tr class="row-even"><td>Mark III</td>
+<td>+6</td>
+<td>Con 8</td>
+<td>DC 36</td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="colwidths-auto contrast-reading-table docutils">
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Construction</th>
+<th class="head">Craft (varies)</th>
+<th class="head">Cost (varies)</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Mark I</td>
+<td>DC 24</td>
+<td>4,000 gp</td>
+</tr>
+<tr class="row-odd"><td>Mark II</td>
+<td>DC 28</td>
+<td>16,000 gp</td>
+</tr>
+<tr class="row-even"><td>Mark III</td>
+<td>DC 32</td>
+<td>36,000 gp</td>
+</tr>
+</tbody>
+</table>
+<p><a class="reference internal" href="technologyguide.feats.html#technologyguide-feats-craft-cybernetics"><span class="std std-ref">Craft Cybertech</span></a>, <span class="xref std std-ref">cybernetics lab</span></p>
+</div>
+<div class="section" id="wirejack-tendons">
+<span id="technologyguide-cybertech-wirejack-tendons"></span><h2><a class="toc-backref" href="#id36">Wirejack Tendons</a><a class="headerlink" href="#wirejack-tendons" title="Permalink to this headline">¶</a></h2>
+<p><strong>Price</strong> varies; <strong>Mark I</strong> 8,000 gp; <strong>Mark II</strong> 32,000 gp; <strong>Mark III</strong>  72,000 gp; <strong>Slot</strong>  body; <strong>Weight</strong>  10 lbs.; <strong>Install</strong>  varies; <strong>Implantation</strong>  varies</p>
+<p>Wirejack tendons not only strengthen and enhance existing reflexes, but also enhance the transmission of nerve impulses to surrounding musculature. Once installed, wirejack tendons grant an enhancement bonus to Dexterity. This enhancement bonus alters the price, implantation values, install DCs, and Craft DCs of the implant as listed below.</p>
+<table border="1" class="colwidths-auto contrast-reading-table docutils">
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Wirejack</th>
+<th class="head">Enhancement</th>
+<th class="head">Implantation</th>
+<th class="head">Install</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Mark I</td>
+<td>+2</td>
+<td>Dex 2</td>
+<td>DC 24</td>
+</tr>
+<tr class="row-odd"><td>Mark II</td>
+<td>+4</td>
+<td>Dex 4</td>
+<td>DC 28</td>
+</tr>
+<tr class="row-even"><td>Mark III</td>
+<td>+6</td>
+<td>Dex 8</td>
+<td>DC 36</td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="colwidths-auto contrast-reading-table docutils">
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Construction</th>
+<th class="head">Craft (varies)</th>
+<th class="head">Cost (varies)</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Mark I</td>
+<td>DC 24</td>
+<td>4,000 gp</td>
+</tr>
+<tr class="row-odd"><td>Mark II</td>
+<td>DC 28</td>
+<td>16,000 gp</td>
+</tr>
+<tr class="row-even"><td>Mark III</td>
+<td>DC 32</td>
+<td>36,000 gp</td>
+</tr>
+</tbody>
+</table>
+<p><a class="reference internal" href="technologyguide.feats.html#technologyguide-feats-craft-cybernetics"><span class="std std-ref">Craft Cybertech</span></a>, <span class="xref std std-ref">cybernetics lab</span></p>
+</div>
+</div>
+
+</body>

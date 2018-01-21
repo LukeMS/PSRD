@@ -1,0 +1,231 @@
+
+.. _`technologyguide.pharmaceuticals`:
+
+.. contents:: \ 
+
+.. _`technologyguide.pharmaceuticals#technology_guide_pharmaceuticals`: `technologyguide.pharmaceuticals#pharmaceuticals`_
+
+.. _`technologyguide.pharmaceuticals#pharmaceuticals`:
+
+Pharmaceuticals
+################
+
+A pharmaceutical takes a standard action to consume, or a move action if administered by a :ref:`medlance <technologyguide.gear#medlance>`\ . A single dose of any pharmaceutical weighs only a tenth of a pound—no entry for weight is given for the following item descriptions. Individual doses of pharmaceuticals can take various forms, from an injected serum to an ingested pill. Each pharmaceutical is assumed to contain a means of delivery included in its weight and cost. Any pharmaceutical can be used with a medlance to speed up its administration time, regardless of its form.
+
+Each pharmaceutical has a full description, including a set of abbreviated statistics, organized as follows.
+
+\ **Price**\ : This is the cost in gold pieces to purchase the pharmaceutical if it's available for sale. As with magic potions, a pharmaceutical can be sold by PCs for half this value.
+
+\ **Construction Requirements**\ : Certain requirements must be met for a character to craft a pharmaceutical. These requirements generally include a feat and access to a :ref:`medical lab <technologyguide.crafting#crafting_laboratories>`\ oratory. Crafting components are consumed during construction and are not counted as part of the item's cost; if the crafting attempt fails, new crafting components must be provided for the next attempt.
+
+\ **Craft**\ : This is the Craft DC required to create the pharmaceutical. It is also the Knowledge (engineering) or Heal DC to correctly identify the pharmaceutical.
+
+\ **Cost**\ : This is the cost in gold pieces to create the pharmaceutical. Generally this cost is equal to half the price of the pharmaceutical.
+
+.. list-table:: Pharmaceuticals
+   :header-rows: 1
+   :class: contrast-reading-table
+   :widths: auto
+
+   * - Pharmaceutical
+     - Price
+   * - Baseline
+     - 2,250 gp
+   * - Cardioamp
+     - 4,550 gp
+   * - Cureall
+     - 1,400 gp
+   * - Hemochem (Grade I)
+     - 250 gp
+   * - Hemochem (Grade II)
+     - 500 gp
+   * - Hemochem (Grade III)
+     - 750 gp
+   * - Hemochem (Grade IV)
+     - 1,000 gp
+   * - Hemochem (Grade V)
+     - 1,250 gp
+   * - Hype
+     - 250 gp
+   * - Torpinal
+     - 300 gp
+   * - Vive
+     - 200 gp
+   * - Zortaphen
+     - 2,250 gp
+
+.. _`technologyguide.pharmaceuticals#baseline`:
+
+Baseline
+=========
+
+\ **Price**\  2,250 gp
+
+An injection of baseline floods the brain with neuroinhibitors that purge the mind of excess emotion. Baseline has an onset time of 10 minutes. When it takes effect, baseline renders the recipient immune to insanity, mind-affecting effects, and morale bonuses for 1 hour, as well as suppressing (but not removing) any such active, ongoing effects. It can be resisted with a successful DC 14 Fortitude saving throw. Once a creature has been affected by baseline, it cannot be affected by additional doses for 24 hours.
+
+.. _`technologyguide.pharmaceuticals#construction`:
+
+Construction
+=============
+
+\ **Craft**\  DC 26; \ **Cost**\  1,125 gp
+
+:ref:`Craft Pharmaceutical <technologyguide.feats#craft_pharmaceutical>`\ , :ref:`medical lab <technologyguide.crafting#crafting_laboratories>`
+
+.. _`technologyguide.pharmaceuticals#cardioamp`:
+
+Cardioamp
+==========
+
+\ **Price**\  4,550 gp
+
+This potent drug can revive a recently deceased victim. If administered to a corpse within 1 minute of death, the victim can immediately attempt a Fortitude saving throw (DC = 15 + 1 per round since death occurred) to be restored to life, automatically stabilizing at -1 hit point. Multiple doses injected within this 1-minute period can grant the deceased additional attempts at revival; each additional dose grants a cumulative +2 bonus to the Fortitude saving throw. As with most other effects that revive the dead, a creature restored to life in this manner gains 1 negative level. Cardioamp only works on bodies that are relatively intact. Bodies that have been dismembered, horribly burned, or otherwise mutilated (at the GM's discretion) cannot be revived by cardioamp, but bodies slain by death effects can be.
+
+Cardioamp can be deadly if injected into a living creature. A living creature injected with cardioamp must succeed at a DC 16 Fortitude saving throw to resist taking 3d6 points of Constitution damage from a sudden heart attack. If the save is successful, the Constitution damage is negated but the victim becomes sickened for 1d6 rounds. The effect when injected in a living creature is a poison effect.
+
+Construction
+=============
+
+\ **Craft**\  DC 30; \ **Cost**\  2,275 gp
+
+:ref:`Craft Pharmaceutical <technologyguide.feats#craft_pharmaceutical>`\ , :ref:`medical lab <technologyguide.crafting#crafting_laboratories>`
+
+.. _`technologyguide.pharmaceuticals#cureall`:
+
+Cureall
+========
+
+\ **Price**\  1,400 gp
+
+A dose of cureall allows the target to attempt an additional saving throw against a single disease or poison effect currently afflicting him. This additional saving throw counts for the total number of successful saves needed to recover from the disease or poison. If the target is suffering from multiple afflictions, a single dose of cureall works against only the effect with the highest save DC currently afflicting him.
+
+Cureall also restores 1d4 points of ability damage or 1 point of ability drain that has been inflicted by a disease or poison, even if the user doesn't succeed at the save. A dose cures any ability drain before curing ability damage. If the target is suffering from drain or damage to multiple ability scores, the cureall cures the score with the most damage or drain (or randomly selects one if multiple scores have equal drain or damage).
+
+Construction
+=============
+
+\ **Craft**\  DC 25; \ **Cost**\  700 gp
+
+:ref:`Craft Pharmaceutical <technologyguide.feats#craft_pharmaceutical>`\ , :ref:`medical lab <technologyguide.crafting#crafting_laboratories>`
+
+.. _`technologyguide.pharmaceuticals#hemochem`:
+
+Hemochem
+=========
+
+\ **Price**\  varies; \ **Grade I**\  250 gp; \ **Grade II**\  500 gp; \ **Grade III**\  750 gp; \ **Grade IV**\  1,000 gp; \ **Grade V**\  1,250 gp
+
+Hemochem stops bleeding and promotes healing. A single dose of hemochem grants fast healing for 1 minute. Multiple doses injected do not stack, but they do reset the duration of the fast healing back to 1 minute. Five grades of hemochem exist; the fast healing granted by a dose depends on the pharmaceutical's grade, as detailed below.
+
+.. list-table::
+   :header-rows: 1
+   :class: contrast-reading-table
+   :widths: auto
+
+   * - Grade
+     - Fast Healing
+   * - Grade I
+     - 1
+   * - Grade II
+     - 2
+   * - Grade III
+     - 3
+   * - Grade IV
+     - 4
+   * - Grade V
+     - 5
+
+.. list-table::
+   :header-rows: 1
+   :class: contrast-reading-table
+   :widths: auto
+
+   * - Construction
+     - Craft (varies)
+     - Cost (varies)
+   * - Grade I
+     - DC 23
+     - 125 gp
+   * - Grade II
+     - DC 24
+     - 250 gp
+   * - Grade III
+     - DC 25
+     - 375 gp
+   * - Grade IV
+     - DC 26
+     - 500 gp
+   * - Grade V
+     - DC 27
+     - 625 gp
+
+:ref:`Craft Pharmaceutical <technologyguide.feats#craft_pharmaceutical>`\ , :ref:`medical lab <technologyguide.crafting#crafting_laboratories>`
+
+.. _`technologyguide.pharmaceuticals#hype`:
+
+Hype
+=====
+
+\ **Price**\  250 gp
+
+A synthetic adrenaline derivative once used by soldiers, hype boosts perception and reaction time but comes with some nasty side effects. This pharmaceutical has an onset time of 1 round and its effects last for 1 hour. It provides a +5 competence bonus on Perception checks and increases the user's base land speed by 10 feet, but the user takes a -4 penalty on concentration checks and on all Intelligence-, Wisdom-, and Charisma-based skill checks (with the exception of Perception).
+
+Construction
+=============
+
+\ **Craft**\  DC 24; \ **Cost**\  125 gp
+
+:ref:`Craft Pharmaceutical <technologyguide.feats#craft_pharmaceutical>`\ , :ref:`medical lab <technologyguide.crafting#crafting_laboratories>`
+
+.. _`technologyguide.pharmaceuticals#torpinal`:
+
+Torpinal
+=========
+
+\ **Price**\  300 gp
+
+Torpinal is a serum that makes the injected subject more cooperative during interrogation. It has a 1-minute onset time. The effects of a single dose of torpinal can be resisted with a successful DC 12 Will saving throw. Additional dose can be used, and often are when the subject succeeds at a save against torpinal. Each dose administered within a 1-minute period forces a new saving throw to resist the effects, with the DC increasing by 2 per additional dose (to a maximum of DC 22).
+
+A victim that succumbs to torpinal becomes highly suggestible to revealing truthful information for 10 minutes. Whenever the victim is posed a question during this time, the victim must succeed at a Will saving throw (DC = the DC of the dose of torpinal the victim failed his saving throw against) to resist replying to the question in as truthful a manner as he can. The victim isn't compelled to follow any suggestions other than the one to answer questions truthfully. A victim under the effects of torpinal takes a -10 penalty on Bluff checks, making it difficult to lie even if successfully saving against the torpinal's ongoing effects. Torpinal is a poison and mind-affecting effect.
+
+Construction
+=============
+
+\ **Craft**\  DC 25; \ **Cost**\  150 gp
+
+:ref:`Craft Pharmaceutical <technologyguide.feats#craft_pharmaceutical>`\ , :ref:`medical lab <technologyguide.crafting#crafting_laboratories>`
+
+.. _`technologyguide.pharmaceuticals#vive`:
+
+Vive
+=====
+
+\ **Price**\  200 gp
+
+Vive revitalizes the body at the cost of mental acuity. This pharmaceutical has an onset time of 1 minute. It eliminates fatigue and exhaustion and heals 1d4 points of ability damage to a physical ability score (Strength, Dexterity, or Constitution) of the target's choice. The first dose taken in a 24-hour period deals 1d2 points of ability damage to Intelligence and Wisdom; additional doses in that period deal 1d4 points of ability damage instead. Vive can be resisted with a successful DC 12 Fortitude saving throw. 
+
+Construction
+=============
+
+\ **Craft**\  DC 22; \ **Cost**\  100 gp
+
+:ref:`Craft Pharmaceutical <technologyguide.feats#craft_pharmaceutical>`\ , :ref:`medical lab <technologyguide.crafting#crafting_laboratories>`
+
+.. _`technologyguide.pharmaceuticals#zortaphen`:
+
+Zortaphen
+==========
+
+\ **Price**\  2,250 gp
+
+Zortaphen is a powerful anesthetic. A creature that takes a dose of zortaphen must succeed at a DC 15 Fortitude saving throw or become unconscious for 1 hour; the unconsciousness takes effect 1d6 rounds after the failed save. A creature under the effects of zortaphen is numbed as well, making it immune to pain effects while sleeping. Damage inflicted on someone put to sleep with zortaphen does not cause the sleeper to awaken. Awakening someone early requires a successful DC 20 Heal check and a full-round action. Zortaphen is a poison and sleep effect.
+
+Zortaphen can be dangerous if too much is taken at once. A skilled character can use a successful DC 15 Heal check to keep someone under the effects of zortaphen unconscious indefinitely by injecting a new dose every hour. On a failed Heal check or if a second dose is administered without attempting a Heal check, a victim already under the effects of zortaphen must succeed at a DC 15 Fortitude save or take 1d6 points of Constitution damage.
+
+Construction
+=============
+
+\ **Craft**\  DC 22; \ **Cost**\  1,125 gp
+
+:ref:`Craft Pharmaceutical <technologyguide.feats#craft_pharmaceutical>`\ , :ref:`medical lab <technologyguide.crafting#crafting_laboratories>`
+

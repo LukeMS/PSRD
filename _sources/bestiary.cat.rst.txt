@@ -1,0 +1,141 @@
+
+.. _`bestiary.cat`:
+
+.. contents:: \ 
+
+.. _`bestiary.cat#cat_cheetah`:
+
+Cat, Cheetah
+*************
+
+\ *This large, sleek feline has a golden coat spotted with black. Its long and powerful legs are obviously capable of great speed.*
+
+.. _`bestiary.cat#cheetah`:
+
+Cheetah
+========
+
+**CR 2** 
+
+\ **XP 600**
+
+N Medium :ref:`animal <bestiary.creaturetypes#animal>`\  
+
+\ **Init**\  +8; \ **Senses**\  low-light vision, :ref:`scent <bestiary.universalmonsterrules#scent>`\ ; :ref:`Perception <corerulebook.skills.perception#perception>`\  +5
+
+.. _`bestiary.cat#defense`:
+
+Defense
+========
+
+\ **AC**\  15, touch 14, flat-footed 11 (+4 Dex, +1 natural)
+
+\ **hp**\  19 (3d8+6)
+
+\ **Fort**\  +5, \ **Ref**\  +7, \ **Will**\  +2
+
+.. _`bestiary.cat#offense`:
+
+Offense
+========
+
+\ **Speed**\  50 ft.; sprint
+
+\ **Melee**\  bite +6 (1d6+3 plus :ref:`trip <bestiary.universalmonsterrules#trip>`\ ), 2 claws +6 (1d3+3) 
+
+.. _`bestiary.cat#statistics`:
+
+Statistics
+===========
+
+\ **Str**\  17, \ **Dex**\  19, \ **Con**\  15, \ **Int**\  2, \ **Wis**\  12, \ **Cha**\  6
+
+\ **Base Atk**\  +2; \ **CMB**\  +5; \ **CMD**\  19 (23 vs. trip)
+
+\ **Feats**\  :ref:`Improved Initiative <corerulebook.feats#improved_initiative>`\ , :ref:`Weapon Finesse <corerulebook.feats#weapon_finesse>`
+
+\ **Skills**\  :ref:`Acrobatics <corerulebook.skills.acrobatics#acrobatics>`\  +8, :ref:`Perception <corerulebook.skills.perception#perception>`\  +5, :ref:`Stealth <corerulebook.skills.stealth#stealth>`\  +8 (+12 in tall grass); \ **Racial Modifiers**\  +4 :ref:`Stealth <corerulebook.skills.stealth#stealth>`\  in tall grass
+
+.. _`bestiary.cat#ecology`:
+
+Ecology
+========
+
+\ **Environment**\  warm plains
+
+\ **Organization**\  solitary or pair
+
+\ **Treasure**\  none
+
+.. _`bestiary.cat#special_abilities`:
+
+Special Abilities
+==================
+
+\ **Sprint (Ex)**\  Once per hour, a cheetah can move at 10 times its normal speed (500 feet) when it makes a charge.
+
+The cheetah is a swift and deadly predator capable of moving with incredible speed, allowing it to run down unsuspecting foes hundreds of feet away. The hunting cat avoids areas of dense and tangled undergrowth, but has great skill at lying in wait in tall grass.
+
+An adult cheetah is 4-1/2 feet long and weighs 140 pounds.
+
+.. _`bestiary.cat#cat_leopard`:
+
+Cat, Leopard
+*************
+
+\ *With each graceful step, this leopard's steely muscles ripple beneath its spotted fur.*
+
+.. _`bestiary.cat#leopard`:
+
+Leopard
+========
+
+**CR 2** 
+
+\ **XP 600**
+
+N Medium :ref:`animal <bestiary.creaturetypes#animal>`\  
+
+\ **Init**\  +4; \ **Senses**\  low-light vision, :ref:`scent <bestiary.universalmonsterrules#scent>`\ ; :ref:`Perception <corerulebook.skills.perception#perception>`\  +5
+
+Defense
+========
+
+\ **AC**\  15, touch 14, flat-footed 11 (+4 Dex, +1 natural)
+
+\ **hp**\  19 (3d8+6)
+
+\ **Fort**\  +5, \ **Ref**\  +7, \ **Will**\  +2
+
+Offense
+========
+
+\ **Speed**\  30 ft., climb 20 ft.
+
+\ **Melee**\  bite +6 (1d6+3 plus :ref:`grab <bestiary.universalmonsterrules#grab>`\ ), 2 claws +6 (1d3+3) 
+
+\ **Special Attacks**\  :ref:`pounce <bestiary.universalmonsterrules#pounce>`\ , :ref:`rake <bestiary.universalmonsterrules#rake>`\  (2 claws +6, 1d3+3)
+
+Statistics
+===========
+
+\ **Str**\  16, \ **Dex**\  19, \ **Con**\  15, \ **Int**\  2, \ **Wis**\  13, \ **Cha**\  6
+
+\ **Base Atk**\  +2; \ **CMB**\  +5 (+9 grapple); \ **CMD**\  19 (23 vs. trip)
+
+\ **Feats**\  :ref:`Skill Focus <corerulebook.feats#skill_focus>`\  (:ref:`Stealth <corerulebook.skills.stealth#stealth>`\ ), :ref:`Weapon Finesse <corerulebook.feats#weapon_finesse>`
+
+\ **Skills**\  :ref:`Acrobatics <corerulebook.skills.acrobatics#acrobatics>`\  +8, :ref:`Climb <corerulebook.skills.climb#climb>`\  +11, :ref:`Perception <corerulebook.skills.perception#perception>`\  +5, :ref:`Stealth <corerulebook.skills.stealth#stealth>`\  +11 (+15 in undergrowth); \ **Racial Modifiers**\  +4 on :ref:`Stealth <corerulebook.skills.stealth#stealth>`\  in undergrowth
+
+Ecology
+========
+
+\ **Environment**\  any forest
+
+\ **Organization**\  solitary or pair
+
+\ **Treasure**\  none
+
+Leopards are 4 feet long and weigh 120 pounds. The statistics presented here can describe any feline of similar size, such as jaguars, panthers, and mountain lions—what differentiates these big cats from the similarly sized cheetah is primarily their habitats—leopards and their kin prefer to hunt at night and ambush their prey from above, pouncing down from trees or high rocks.
+
+Leopards eat almost any animal they can run down and catch, preferring Small prey but capable of downing Large herbivores or surviving on rodents, birds, and insects. Healthy leopards are generally not aggressive toward humanoids, and if they aren't hungry and don't feel threatened, it is possible to approach closely without a hostile reaction. Yet a leopard that settles in an area bordered by humanoid civilization can easily and swiftly become a dangerous predator.

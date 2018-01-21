@@ -1,0 +1,15 @@
+
+.. _`mythicadventures.mythicspells.chillmetal`:
+
+.. contents:: \ 
+
+.. _`mythicadventures.mythicspells.chillmetal#chill_metal_mythic`: `mythicadventures.mythicspells.chillmetal#chill_metal`_
+
+.. _`mythicadventures.mythicspells.chillmetal#chill_metal`:
+
+Chill Metal
+============
+
+\ **Source**\  :ref:`chill metal <corerulebook.spells.chillmetal#chill_metal>`
+
+The damage dealt increases to 1d8 points of cold damage on rounds 2 and 6, and to 2d8 points of cold damage on rounds 3 through 5. Each round a creature takes cold damage from this spell, it also takes 1 point of Dexterity damage (Fortitude negates).

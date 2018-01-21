@@ -1,0 +1,585 @@
+
+
+
+
+
+<head>
+    <link rel="stylesheet" href="_static/srd.css" type="text/css" />
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/toggle_list.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+
+
+
+<body>
+    <div class="contents topic" id="id1">
+<span id="ultimatecampaign-downtime-buildingsandorganizations"></span><p class="topic-title first"></p>
+<ul class="simple">
+<li><a class="reference internal" href="#buildings-and-organizations" id="id4">Buildings and Organizations</a><ul>
+<li><a class="reference internal" href="#construction-examples" id="id5">Construction Examples</a><ul>
+<li><a class="reference internal" href="#inn" id="id6">Inn</a></li>
+<li><a class="reference internal" href="#thieves-guild" id="id7">Thieves’ Guild</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#restrictions-on-earnings" id="id8">Restrictions on Earnings</a></li>
+<li><a class="reference internal" href="#buildings" id="id9">Buildings</a><ul>
+<li><a class="reference internal" href="#academy" id="id10">Academy</a></li>
+<li><a class="reference internal" href="#alchemist" id="id11">Alchemist</a></li>
+<li><a class="reference internal" href="#arena" id="id12">Arena</a></li>
+<li><a class="reference internal" href="#bank" id="id13">Bank</a></li>
+<li><a class="reference internal" href="#bardic-college" id="id14">Bardic College</a></li>
+<li><a class="reference internal" href="#barracks" id="id15">Barracks</a></li>
+<li><a class="reference internal" href="#black-market" id="id16">Black Market</a></li>
+<li><a class="reference internal" href="#brewery" id="id17">Brewery</a></li>
+<li><a class="reference internal" href="#bureau" id="id18">Bureau</a></li>
+<li><a class="reference internal" href="#caster-s-tower" id="id19">Caster’s Tower</a></li>
+<li><a class="reference internal" href="#castle" id="id20">Castle</a></li>
+<li><a class="reference internal" href="#cathedral" id="id21">Cathedral</a></li>
+<li><a class="reference internal" href="#courthouse" id="id22">Courthouse</a></li>
+<li><a class="reference internal" href="#dance-hall" id="id23">Dance Hall</a></li>
+<li><a class="reference internal" href="#exotic-artisan" id="id24">Exotic Artisan</a></li>
+<li><a class="reference internal" href="#farm" id="id25">Farm</a></li>
+<li><a class="reference internal" href="#fort" id="id26">Fort</a></li>
+<li><a class="reference internal" href="#garrison" id="id27">Garrison</a></li>
+<li><a class="reference internal" href="#granary" id="id28">Granary</a></li>
+<li><a class="reference internal" href="#graveyard" id="id29">Graveyard</a></li>
+<li><a class="reference internal" href="#guildhall" id="id30">Guildhall</a></li>
+<li><a class="reference internal" href="#herbalist" id="id31">Herbalist</a></li>
+<li><a class="reference internal" href="#hospital" id="id32">Hospital</a></li>
+<li><a class="reference internal" href="#house" id="id33">House</a></li>
+<li><a class="reference internal" href="#id2" id="id34">Inn</a></li>
+<li><a class="reference internal" href="#jail" id="id35">Jail</a></li>
+<li><a class="reference internal" href="#library" id="id36">Library</a></li>
+<li><a class="reference internal" href="#luxury-store" id="id37">Luxury Store</a></li>
+<li><a class="reference internal" href="#magic-shop" id="id38">Magic Shop</a></li>
+<li><a class="reference internal" href="#magical-academy" id="id39">Magical Academy</a></li>
+<li><a class="reference internal" href="#mansion" id="id40">Mansion</a></li>
+<li><a class="reference internal" href="#menagerie" id="id41">Menagerie</a></li>
+<li><a class="reference internal" href="#military-academy" id="id42">Military Academy</a></li>
+<li><a class="reference internal" href="#mill" id="id43">Mill</a></li>
+<li><a class="reference internal" href="#mint" id="id44">Mint</a></li>
+<li><a class="reference internal" href="#monastery" id="id45">Monastery</a></li>
+<li><a class="reference internal" href="#monument" id="id46">Monument</a></li>
+<li><a class="reference internal" href="#museum" id="id47">Museum</a></li>
+<li><a class="reference internal" href="#noble-villa" id="id48">Noble Villa</a></li>
+<li><a class="reference internal" href="#observatory" id="id49">Observatory</a></li>
+<li><a class="reference internal" href="#orphanage" id="id50">Orphanage</a></li>
+<li><a class="reference internal" href="#palace" id="id51">Palace</a></li>
+<li><a class="reference internal" href="#pier" id="id52">Pier</a></li>
+<li><a class="reference internal" href="#school" id="id53">School</a></li>
+<li><a class="reference internal" href="#shop" id="id54">Shop</a></li>
+<li><a class="reference internal" href="#shrine" id="id55">Shrine</a></li>
+<li><a class="reference internal" href="#smithy" id="id56">Smithy</a></li>
+<li><a class="reference internal" href="#stable" id="id57">Stable</a></li>
+<li><a class="reference internal" href="#stockyard" id="id58">Stockyard</a></li>
+<li><a class="reference internal" href="#tannery" id="id59">Tannery</a></li>
+<li><a class="reference internal" href="#tavern" id="id60">Tavern</a></li>
+<li><a class="reference internal" href="#temple" id="id61">Temple</a></li>
+<li><a class="reference internal" href="#tenement" id="id62">Tenement</a></li>
+<li><a class="reference internal" href="#theater" id="id63">Theater</a></li>
+<li><a class="reference internal" href="#town-hall" id="id64">Town Hall</a></li>
+<li><a class="reference internal" href="#trade-shop" id="id65">Trade Shop</a></li>
+<li><a class="reference internal" href="#university" id="id66">University</a></li>
+<li><a class="reference internal" href="#watchtower" id="id67">Watchtower</a></li>
+<li><a class="reference internal" href="#waterfront" id="id68">Waterfront</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#organizations" id="id69">Organizations</a><ul>
+<li><a class="reference internal" href="#artisans-guild" id="id70">Artisans’ Guild</a></li>
+<li><a class="reference internal" href="#bounty-hunters" id="id71">Bounty Hunters</a></li>
+<li><a class="reference internal" href="#brute-squad" id="id72">Brute Squad</a></li>
+<li><a class="reference internal" href="#cabal" id="id73">Cabal</a></li>
+<li><a class="reference internal" href="#caravan-crew" id="id74">Caravan Crew</a></li>
+<li><a class="reference internal" href="#cult" id="id75">Cult</a></li>
+<li><a class="reference internal" href="#entourage" id="id76">Entourage</a></li>
+<li><a class="reference internal" href="#fight-club" id="id77">Fight Club</a></li>
+<li><a class="reference internal" href="#hunting-party" id="id78">Hunting Party</a></li>
+<li><a class="reference internal" href="#mercenary-company" id="id79">Mercenary Company</a></li>
+<li><a class="reference internal" href="#ship-crew" id="id80">Ship Crew</a></li>
+<li><a class="reference internal" href="#theater-company" id="id81">Theater Company</a></li>
+<li><a class="reference internal" href="#id3" id="id82">Thieves’ Guild</a></li>
+<li><a class="reference internal" href="#vagabonds" id="id83">Vagabonds</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="buildings-and-organizations">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-buildings-and-organizations"></span><h1><a class="toc-backref" href="#id4">Buildings and Organizations</a><a class="headerlink" href="#buildings-and-organizations" title="Permalink to this headline">¶</a></h1>
+<p>This section presents many standard buildings and organizations. Each example lists exactly what rooms or teams are used to construct it, a total of each type of capital required if you want to construct one of your own, and a gp total if you want to purchase a completed building of this type. The listed gp value assumes you are purchasing the building instead of constructing it by spending earned capital (see Purchased Cost values from the <a class="reference internal" href="ultimatecampaign.downtime.html#ultimatecampaign-downtime-table-capital-values"><span class="std std-ref">Capital Values table</span></a>).</p>
+<p>The examples that follow are not the only ways to construct these kinds of buildings and organizations. A particular Inn might have two Lodgings instead of one, include a Trophy Room instead of a Bar, or display a Statue of the goddess of travelers. A Thieves’ Guild might be larger and more thuggish because it includes more Cutpurses and Soldiers than are listed in this section. Use these as typical examples of these kinds of buildings and organizations, a baseline for designing your own versions, or a springboard for ideas on how to use this system to design whatever you want. The system is designed to be flexible so you can construct the kind of building you want to own.</p>
+<p>Interspersed with these stat blocks are example maps of various types of buildings. These maps are not intended to exactly correspond to the buildings described in this section. Rather, you can use these maps as inspiration for buildings of their type or adapt them to other purposes. For example, even if players aren’t using the downtime system to construct or purchase buildings of their own, a busy GM can use the maps for encounters in town.</p>
+<div class="section" id="construction-examples">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-construction-examples"></span><h2><a class="toc-backref" href="#id5">Construction Examples</a><a class="headerlink" href="#construction-examples" title="Permalink to this headline">¶</a></h2>
+<p>The following are examples of how you can construct your own Inn using rooms or create your own Thieves’ Guild using teams.</p>
+<div class="section" id="inn">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-inn"></span><h3><a class="toc-backref" href="#id6">Inn</a><a class="headerlink" href="#inn" title="Permalink to this headline">¶</a></h3>
+<p>Suppose you want to spend downtime constructing a friendly traveler’s Inn. It needs a Bar so it can sell drinks, and a Kitchen so it can serve food. Guests need a place to eat and rooms to sleep in, so it must include a Common Room and a Lodging. To keep your guests’ horses safe, it must include a Stall. By adding up all the Goods, Influence, Labor, and Magic values in the Create and Time entries of the rooms’ stat blocks, you get a total of 33 points of Goods, 3 points of Influence, 32 points of Labor, and 90 days. By spending that capital, after 90 days of construction time your inn is finished.</p>
+<p>Alternatively, if you just wanted to purchase a completed Inn and the GM says one is available, you can add up the gp cost listed in the Create entries of the Inn’s rooms and pay that amount to the current owner. For the friendly traveler’s Inn described above, that total price is 1,390 gp.</p>
+</div>
+<div class="section" id="thieves-guild">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-thieves-guild"></span><h3><a class="toc-backref" href="#id7">Thieves’ Guild</a><a class="headerlink" href="#thieves-guild" title="Permalink to this headline">¶</a></h3>
+<p>Suppose you want to create a network of thieves and spies in town. You need eyes and ears on the street, so you should include a Cutpurse team. You want people to be able to break into homes and steal valuables, so you should include a Robber team. To hide your wealth from the tax collector, you need a Bureaucrat team. By adding up all the Goods, Influence, Labor, and Magic values in the Create and Time entries of the rooms’ stat blocks, you get a total of 3 points of Goods, 11 points of Influence, 6 points of Labor, and 6 days. If you spend that capital, after 6 days of recruiting, your guild is ready to work.</p>
+<p>Alternatively, if you wanted to just purchase an existing guild, with the GM’s approval you can add up the gp prices for those teams and pay that amount to the current guildmaster. For the Thieves’ Guild described above, the total price is 510 gp.</p>
+</div>
+</div>
+<div class="section" id="restrictions-on-earnings">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-restrictions-on-earnings"></span><h2><a class="toc-backref" href="#id8">Restrictions on Earnings</a><a class="headerlink" href="#restrictions-on-earnings" title="Permalink to this headline">¶</a></h2>
+<p>Whether a unit generates its listed capital depends on your intentions for the building or organization, and should follow common sense. For example, if you construct a building with a Bar, Common Room, and Kitchen, you might want to use it as a tavern or a headquarters for your adventuring party. If it’s a tavern, it’s open to the public and generates capital. Otherwise, it’s a private building and doesn’t generate capital because it’s used by only you and your friends. If you start your own cult with Acolytes and Priests, you might decide they sell healing and generate income. If your thieves’ guild has Acolytes, you might decide they only heal members of your guild, and therefore don’t generate income.</p>
+<p>If you intend for your building or organization to generate capital, you must explain to the GM how it does so. You can change the purpose of your building or organization (for example, renovating an old military barracks into an inn or turning your greedy cult into a generous one) and in doing so change the capital it generates. You should choose one idea and stick to it, however, as a business that’s open to the public on an irregular basis makes less money, as does a business that frequently changes its purpose. The GM might reduce the capital buildings generate in such situations.</p>
+</div>
+<div class="section" id="buildings">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-buildings"></span><h2><a class="toc-backref" href="#id9">Buildings</a><a class="headerlink" href="#buildings" title="Permalink to this headline">¶</a></h2>
+<p>Below are example buildings and their component rooms. Note that many of these buildings can also be found in the kingdom-building rules.</p>
+<div class="section" id="academy">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-academy"></span><h3><a class="toc-backref" href="#id10">Academy</a><a class="headerlink" href="#academy" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 120 Goods, 16 Influence, 109 Labor, 3 Magic (5,360 gp)</p>
+<p><strong>Rooms</strong> 1 Alchemy Lab, 2 Baths, 1 Bedroom, 1 Bell Tower, 1 Book Repository, 1 Bunks, 2 Classrooms, 1 Common Room, 1 Courtyard, 1 Greenhouse, 1 Kitchen, 1 Lavatory, 1 Observation Dome, 2 Offices, 1 Scriptorium, 1 Sitting Room, 1 Statue</p>
+<p>An institution of higher learning.</p>
+</div>
+<div class="section" id="alchemist">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-alchemist"></span><h3><a class="toc-backref" href="#id11">Alchemist</a><a class="headerlink" href="#alchemist" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 48 Goods, 2 Influence, 41 Labor, 1 Magic (1,940 gp)</p>
+<p><strong>Rooms</strong> 1 Alchemy Lab, 1 Bedroom, 1 Garden, 1 Kitchen, 1 Lavatory, 1 Sitting Room, 1 Storage, 1 Storefront</p>
+<p>The laboratory and home for a creator of potions, poisons, and alchemical items.</p>
+</div>
+<div class="section" id="arena">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-arena"></span><h3><a class="toc-backref" href="#id12">Arena</a><a class="headerlink" href="#arena" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 109 Goods, 20 Influence, 96 Labor, 1 Magic (4,800 gp)</p>
+<p><strong>Rooms</strong> 1 Bar, 1 Bath, 4 Battle Rings, 1 Game Room, 1 Infirmary, 1 Lavatory, 1 Office, 1 Storage, 1 Storefront</p>
+<p>A large public structure for competitions, demonstrations, team sports, or bloodsports.</p>
+</div>
+<div class="section" id="bank">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-bank"></span><h3><a class="toc-backref" href="#id13">Bank</a><a class="headerlink" href="#bank" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 39 Goods, 3 Influence, 35 Labor (1,570 gp)</p>
+<p><strong>Rooms</strong> 1 Guard Post, 2 Offices, 1 Secret Room, 1 Storefront, 2 Vaults</p>
+<p>A secure building for storing coins and valuables, and for making loans to those in need.</p>
+</div>
+<div class="section" id="bardic-college">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-bardic-college"></span><h3><a class="toc-backref" href="#id14">Bardic College</a><a class="headerlink" href="#bardic-college" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 107 Goods, 13 Influence, 109 Labor, 1 Magic (4,810 gp)</p>
+<p><strong>Rooms</strong> 1 Auditorium, 2 Baths, 1 Bedroom, 1 Book Repository, 1 Bunks, 2 Classrooms, 1 Common Room, 1 Courtyard, 1 Kitchen, 1 Lavatory, 2 Offices, 1 Scriptorium, 1 Sitting Room, 1 Statue, 1 Storage</p>
+<p>A center for artistic learning in the visual and performing arts, literature, music, and lore.</p>
+</div>
+<div class="section" id="barracks">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-barracks"></span><h3><a class="toc-backref" href="#id15">Barracks</a><a class="headerlink" href="#barracks" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 80 Goods, 18 Influence, 73 Labor, 1 Magic (3,700 gp)</p>
+<p><strong>Rooms</strong> 2 Armories, 1 Bedroom, 2 Bunks, 1 Common Room, 1 Dojo, 1 Guard Post, 1 Infirmary, 1 Kitchen, 1 Lavatory, 1 Office, 1 Storage</p>
+<p>A building to house guards, militias, or other military forces.</p>
+</div>
+<div class="section" id="black-market">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-black-market"></span><h3><a class="toc-backref" href="#id16">Black Market</a><a class="headerlink" href="#black-market" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 53 Goods, 6 Influence, 48 Labor (2,200 gp)</p>
+<p><strong>Rooms</strong> 1 Armory, 1 Cell, 1 Escape Route, 1 False Front, 1 Guard Post, 1 Office, 1 Secret Room, 1 Storage, 1 Vault</p>
+<p>A secret shop that buys and sells a variety of shady, dangerous, and illicit wares.</p>
+</div>
+<div class="section" id="brewery">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-brewery"></span><h3><a class="toc-backref" href="#id17">Brewery</a><a class="headerlink" href="#brewery" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 36 Goods, 3 Influence, 32 Labor (1,450 gp)</p>
+<p><strong>Rooms</strong> 1 Bar, 1 Brewery, 1 Kitchen, 1 Office, 2 Storages, 1 Workstation</p>
+<p>A building for beer and ale brewing, winemaking, distilling, or some similar use.</p>
+</div>
+<div class="section" id="bureau">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-bureau"></span><h3><a class="toc-backref" href="#id18">Bureau</a><a class="headerlink" href="#bureau" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 55 Goods, 6 Influence, 52 Labor, 1 Magic (2,420 gp)</p>
+<p><strong>Rooms</strong> 1 Book Repository, 1 Lavatory, 4 Offices, 2 Scriptoriums, 1 Sitting Room, 2 Storages</p>
+<p>A large warren of offices for clerks and record-keepers working for a guild or government.</p>
+</div>
+<div class="section" id="caster-s-tower">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-casters-tower"></span><h3><a class="toc-backref" href="#id19">Caster’s Tower</a><a class="headerlink" href="#caster-s-tower" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 88 Goods, 9 Influence, 81 Labor, 11 Magic (4,750 gp)</p>
+<p><strong>Rooms</strong> 1 Artisan’s Workshop, 1 Bath, 1 Bedroom, 1 Cell, 1 Ceremonial Room, 1 Kitchen, 1 Lavatory, 1 Magical Repository, 1 Office, 1 Scriptorium, 1 Scrying Room, 1 Sitting Room, 1 Storage</p>
+<p>The home and laboratory for a spellcaster.</p>
+</div>
+<div class="section" id="castle">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-castle"></span><h3><a class="toc-backref" href="#id20">Castle</a><a class="headerlink" href="#castle" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 165 Goods, 31 Influence, 148 Labor, 2 Magic (7,390 gp)</p>
+<p><strong>Rooms</strong> 2 Armories, 3 Bedrooms, 2 Bunks, 1 Cell, 1 Courtyard, 1 Crypt, 4 Defensive Walls, 1 Drawbridge, 1 Escape Route, 1 Garden, 1 Gatehouse, 1 Gauntlet, 1 Kitchen, 1 Lavatory, 1 Office, 1 Sitting Room, 1 Stall, 2 Storages</p>
+<p>An elaborate fortified home, a noble’s retreat, or the heart of a settlement’s defenses.</p>
+</div>
+<div class="section" id="cathedral">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-cathedral"></span><h3><a class="toc-backref" href="#id21">Cathedral</a><a class="headerlink" href="#cathedral" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 91 Goods, 12 Influence, 84 Labor, 11 Magic (4,960 gp)</p>
+<p><strong>Rooms</strong> 1 Altar, 1 Bedroom, 1 Bell Tower, 1 Book Repository, 1 Cell, 1 Ceremonial Room, 1 Confessional, 1 Courtyard, 1 Crypt, 1 Garden, 1 Office, 1 Reliquary, 1 Sanctum, 1 Sitting Room, 1 Statue, 1 Storage</p>
+<p>A center of religious and spiritual leadership.</p>
+</div>
+<div class="section" id="courthouse">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-courthouse"></span><h3><a class="toc-backref" href="#id22">Courthouse</a><a class="headerlink" href="#courthouse" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 43 Goods, 2 Influence, 41 Labor, 1 Magic (1,840 gp)</p>
+<p><strong>Rooms</strong> 1 Book Repository, 2 Cells, 1 Common Room, 2 Offices, 1 Sitting Room</p>
+<p>A building where cases are heard and disputes resolved according to the rule of law by generally impartial justices.</p>
+</div>
+<div class="section" id="dance-hall">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-dance-hall"></span><h3><a class="toc-backref" href="#id23">Dance Hall</a><a class="headerlink" href="#dance-hall" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 53 Goods, 1 Influence, 53 Labor (2,150 gp)</p>
+<p><strong>Rooms</strong> 1 Ballroom, 1 Bar, 1 Common Room, 1 Lavatory, 1 Office, 1 Sitting Room, 1 Storage</p>
+<p>An establishment for dancing, drinking, and consorting with attractive people. It is often a place where members of different social classes can intermingle discreetly, sometimes using masks or other disguises.</p>
+</div>
+<div class="section" id="exotic-artisan">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-exotic-artisan"></span><h3><a class="toc-backref" href="#id24">Exotic Artisan</a><a class="headerlink" href="#exotic-artisan" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 44 Goods, 1 Influence, 41 Labor (1,730 gp)</p>
+<p><strong>Rooms</strong> 1 Artisan’s Workshop, 1 Bedroom, 1 Kitchen, 1 Lavatory, 1 Sitting Room, 1 Storage, 1 Storefront</p>
+<p>The workshop and home for a creator of magic items, a fireworks maker, a glassblower, or the like.</p>
+</div>
+<div class="section" id="farm">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-farm"></span><h3><a class="toc-backref" href="#id25">Farm</a><a class="headerlink" href="#farm" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 53 Goods, 1 Influence, 50 Labor (2,090 gp)</p>
+<p><strong>Rooms</strong> 1 Animal Pen, 1 Bedroom, 1 Farmland, 1 Garden, 1 Kitchen, 1 Lavatory, 1 Sitting Room</p>
+<p>A small family farm or ranch.</p>
+</div>
+<div class="section" id="fort">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-fort"></span><h3><a class="toc-backref" href="#id26">Fort</a><a class="headerlink" href="#fort" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 136 Goods, 25 Influence, 124 Labor, 1 Magic (6,050 gp)</p>
+<p><strong>Rooms</strong> 2 Armories, 1 Bedroom, 2 Bunks, 1 Cell, 1 Common Room, 1 Courtyard, 3 Defensive Walls, 1 Dojo, 2 Fortifications (in the Common Room and Gatehouse), 1 Gatehouse, 1 Infirmary, 1 Kitchen, 1 Lavatory, 1 Office, 1 Storage, 1 War Room</p>
+<p>A fortified outpost for bandits, mercenaries, soldiers, or dangerous humanoids.</p>
+</div>
+<div class="section" id="garrison">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-garrison"></span><h3><a class="toc-backref" href="#id27">Garrison</a><a class="headerlink" href="#garrison" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 126 Goods, 32 Influence, 112 Labor, 1 Magic (5,820 gp)</p>
+<p><strong>Rooms</strong> 4 Armories, 2 Bedrooms, 4 Bunks, 1 Common Room, 1 Dojo, 1 Guard Post, 1 Infirmary, 1 Kitchen, 1 Lavatory, 2 Offices, 2 Storages</p>
+<p>A large building to house armies, train guards, and recruit militias; it is larger and more versatile than a Barracks.</p>
+</div>
+<div class="section" id="granary">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-granary"></span><h3><a class="toc-backref" href="#id28">Granary</a><a class="headerlink" href="#granary" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 30 Goods, 30 Labor (1,200 gp)</p>
+<p><strong>Rooms</strong> 10 Storages</p>
+<p>A place to store grain and food.</p>
+</div>
+<div class="section" id="graveyard">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-graveyard"></span><h3><a class="toc-backref" href="#id29">Graveyard</a><a class="headerlink" href="#graveyard" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 18 Goods, 12 Influence, 19 Labor, 5 Magic (1,600 gp)</p>
+<p><strong>Rooms</strong> 3 Burial Grounds, 1 Crypt, 1 Statue</p>
+<p>A plot of land where the dead are buried and honored.</p>
+</div>
+<div class="section" id="guildhall">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-guildhall"></span><h3><a class="toc-backref" href="#id30">Guildhall</a><a class="headerlink" href="#guildhall" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 67 Goods, 66 Labor (2,660 gp)</p>
+<p><strong>Rooms</strong> 1 Common Room, 1 Kitchen, 1 Lavatory, 2 Offices, 1 Secret Room, 1 Sitting Room, 2 Storages, 3 Workstations</p>
+<p>The headquarters for a guild or similar organization.</p>
+</div>
+<div class="section" id="herbalist">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-herbalist"></span><h3><a class="toc-backref" href="#id31">Herbalist</a><a class="headerlink" href="#herbalist" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 52 Goods, 1 Influence, 48 Labor (2,030 gp)</p>
+<p><strong>Rooms</strong> 1 Artisan’s Workshop, 1 Bedroom, 1 Greenhouse, 1 Kitchen, 1 Lavatory, 1 Sitting Room, 1 Storage, 1 Storefront</p>
+<p>The workshop and home of a gardener, healer, poisoner, or potion crafter.</p>
+</div>
+<div class="section" id="hospital">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-hospital"></span><h3><a class="toc-backref" href="#id32">Hospital</a><a class="headerlink" href="#hospital" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 45 Goods, 4 Influence, 43 Labor, 2 Magic (2,080 gp)</p>
+<p><strong>Rooms</strong> 1 Bath, 1 Common Room, 2 Infirmaries, 1 Lavatory, 1 Office, 1 Statue, 1 Storage, 1 Storefront, 1 Workstation</p>
+<p>A building designated as a place for healing the sick.</p>
+</div>
+<div class="section" id="house">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-house"></span><h3><a class="toc-backref" href="#id33">House</a><a class="headerlink" href="#house" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 32 Goods, 1 Influence, 31 Labor (1,290 gp)</p>
+<p><strong>Rooms</strong> 1 Bedroom, 1 Kitchen, 1 Lavatory, 1 Sewer Access, 1 Sitting Room, 1 Storage</p>
+<p>A small cottage that can house up to two adults or a new family.</p>
+</div>
+<div class="section" id="id2">
+<h3><a class="toc-backref" href="#id34">Inn</a><a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 52 Goods, 5 Influence, 47 Labor (2,130 gp)</p>
+<p><strong>Rooms</strong> 1 Bar, 1 Bath, 1 Bedroom, 1 Common Room, 1 Kitchen, 1 Lavatory, 1 Lodging, 1 Stall, 1 Storefront</p>
+<p>A place for visitors to stay and rest.</p>
+</div>
+<div class="section" id="jail">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-jail"></span><h3><a class="toc-backref" href="#id35">Jail</a><a class="headerlink" href="#jail" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 40 Goods, 5 Influence, 33 Labor (1,610 gp)</p>
+<p><strong>Rooms</strong> 4 Cells, 1 Guard Post, 1 Office, 1 Storage, 1 Torture Chamber</p>
+<p>A fortified structure for confining criminals.</p>
+</div>
+<div class="section" id="library">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-library"></span><h3><a class="toc-backref" href="#id36">Library</a><a class="headerlink" href="#library" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 29 Goods, 4 Influence, 28 Labor, 2 Magic (1,460 gp)</p>
+<p><strong>Rooms</strong> 2 Book Repositories, 1 Common Room, 1 Office, 1 Storage</p>
+<p>A large building containing an archive of books.</p>
+</div>
+<div class="section" id="luxury-store">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-luxury-store"></span><h3><a class="toc-backref" href="#id37">Luxury Store</a><a class="headerlink" href="#luxury-store" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 28 Goods, 1 Influence, 22 Labor (1,030 gp)</p>
+<p><strong>Rooms</strong> 1 Furnishings (Storefront), 1 Office, 1 Storage, 1 Storefront, 1 Vault</p>
+<p>A shop that specializes in expensive wares and luxuries.</p>
+</div>
+<div class="section" id="magic-shop">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-magic-shop"></span><h3><a class="toc-backref" href="#id38">Magic Shop</a><a class="headerlink" href="#magic-shop" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 40 Goods, 1 Influence, 33 Labor, 1 Magic (1,590 gp)</p>
+<p><strong>Rooms</strong> 1 Furnishings (Storefront), 1 Office, 1 Reliquary, 1 Storage, 1 Storefront, 2 Vaults</p>
+<p>A shop that specializes in buying and selling magic items, spells, and magical remedies.</p>
+</div>
+<div class="section" id="magical-academy">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-magical-academy"></span><h3><a class="toc-backref" href="#id39">Magical Academy</a><a class="headerlink" href="#magical-academy" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 121 Goods, 17 Influence, 110 Labor, 5 Magic (5,630 gp)</p>
+<p><strong>Rooms</strong> 1 Alchemy Lab, 2 Baths, 1 Bedroom, 1 Bell Tower, 1 Bunks, 2 Classrooms, 1 Common Room, 1 Courtyard, 1 Greenhouse, 1 Kitchen, 1 Lavatory, 1 Magical Repository, 1 Observation Dome, 2 Offices, 1 Scriptorium, 1 Sitting Room, 1 Statue</p>
+<p>An institution for training students in the magical arts.</p>
+</div>
+<div class="section" id="mansion">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-mansion"></span><h3><a class="toc-backref" href="#id40">Mansion</a><a class="headerlink" href="#mansion" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 132 Goods, 4 Influence, 120 Labor (5,160 gp)</p>
+<p><strong>Rooms</strong> 1 Bar, 1 Bath, 4 Bedrooms, 1 Escape Route, 2 Furnishings (Bedroom and Sitting Room), 1 Kitchen, 1 Laundry, 1 Lavatory, 1 Lodging, 1 Office, 1 Secret Room, 2 Sitting Rooms, 1 Stall, 2 Storages</p>
+<p>A huge manor housing a rich family and its servants.</p>
+</div>
+<div class="section" id="menagerie">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-menagerie"></span><h3><a class="toc-backref" href="#id41">Menagerie</a><a class="headerlink" href="#menagerie" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 200 Goods, 33 Influence, 188 Labor (8,750 gp)</p>
+<p><strong>Rooms</strong> 2 Animal Pens, 1 Courtyard, 4 Defensive Walls, 1 Farmland, 1 Guard Post, 6 Habitats, 1 Hatchery, 1 Kitchen, 1 Lavatory, 2 Offices, 1 Stall, 2 Storages, 1 Storefront</p>
+<p>A large park stocked with exotic animals and magical beasts.</p>
+</div>
+<div class="section" id="military-academy">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-military-academy"></span><h3><a class="toc-backref" href="#id42">Military Academy</a><a class="headerlink" href="#military-academy" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 142 Goods, 16 Influence, 129 Labor, 2 Magic (6,100 gp)</p>
+<p><strong>Rooms</strong> 1 Armory, 1 Bath, 1 Bedroom, 1 Bell Tower, 1 Book Repository, 1 Cell, 2 Classrooms, 1 Common Room, 1 Courtyard, 1 Dojo, 1 Greenhouse, 1 Infirmary, 1 Kitchen, 1 Lavatory, 1 Lodging, 2 Offices, 1 Scriptorium, 1 Sitting Room, 1 Statue, 1 Storage, 1 War Room</p>
+<p>An institution dedicated to the study of war and the training of elite soldiers and officers.</p>
+</div>
+<div class="section" id="mill">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-mill"></span><h3><a class="toc-backref" href="#id43">Mill</a><a class="headerlink" href="#mill" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 17 Goods, 16 Labor (660 gp)</p>
+<p><strong>Rooms</strong> 1 Mill Room, 1 Office, 2 Storages</p>
+<p>A building used to cut lumber or grind grain.</p>
+</div>
+<div class="section" id="mint">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-mint"></span><h3><a class="toc-backref" href="#id44">Mint</a><a class="headerlink" href="#mint" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 49 Goods, 2 Influence, 45 Labor (1,940 gp)</p>
+<p><strong>Rooms</strong> 1 Artisan’s Workshop, 1 Fortification (Vault), 1 Guard Post, 1 Lavatory, 1 Office, 1 Storage, 2 Vaults</p>
+<p>A secure building where coinage is minted and standard weights and measures are kept.</p>
+</div>
+<div class="section" id="monastery">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-monastery"></span><h3><a class="toc-backref" href="#id45">Monastery</a><a class="headerlink" href="#monastery" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 58 Goods, 15 Influence, 53 Labor, 6 Magic (3,270 gp)</p>
+<p><strong>Rooms</strong> 1 Altar, 1 Bath, 1 Book Repository, 1 Bunks, 1 Courtyard, 1 Crypt, 1 Garden, 1 Kitchen, 1 Laundry, 1 Lavatory, 1 Office, 2 Sanctums, 1 Scriptorium</p>
+<p>A cloister for meditation and study.</p>
+</div>
+<div class="section" id="monument">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-monument"></span><h3><a class="toc-backref" href="#id46">Monument</a><a class="headerlink" href="#monument" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 10 Goods, 8 Labor (360 gp)</p>
+<p><strong>Rooms</strong> 1 Furnishings (Statue), 1 Statue</p>
+<p>A statue of a famous person, a memorial for fallen warriors, or a public display of art.</p>
+</div>
+<div class="section" id="museum">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-museum"></span><h3><a class="toc-backref" href="#id47">Museum</a><a class="headerlink" href="#museum" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 47 Goods, 5 Influence, 43 Labor, 1 Magic (2,050 gp)</p>
+<p><strong>Rooms</strong> 1 Guard Post, 1 Office, 1 Reliquary, 2 Statues, 2 Storages, 1 Storefront, 2 Trophy Rooms, 1 Vault</p>
+<p>A place to display art and artifacts both modern and historical.</p>
+</div>
+<div class="section" id="noble-villa">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-noble-villa"></span><h3><a class="toc-backref" href="#id48">Noble Villa</a><a class="headerlink" href="#noble-villa" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 218 Goods, 16 Influence, 204 Labor (8,920 gp)</p>
+<p><strong>Rooms</strong> 1 Bar, 1 Bath, 4 Bedrooms, 2 Courtyards, 4 Defensive Walls, 1 Escape Route, 2 Furnishings (Bedroom and Sitting Room), 1 Garden, 1 Gatehouse, 1 Kitchen, 1 Labyrinth, 1 Laundry, 1 Lavatory, 1 Lodging, 2 Offices, 2 Secret Rooms, 2 Sitting Rooms, 1 Stall, 1 Statue, 2 Storages, 1 Trophy Room, 1 Vault</p>
+<p>A sprawling manor with luxurious grounds.</p>
+</div>
+<div class="section" id="observatory">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-observatory"></span><h3><a class="toc-backref" href="#id49">Observatory</a><a class="headerlink" href="#observatory" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 32 Goods, 4 Influence, 31 Labor, 2 Magic (1,580 gp)</p>
+<p><strong>Rooms</strong> 1 Book Repository, 1 Lavatory, 1 Observation Dome, 1 Office, 1 Scriptorium, 1 Storage</p>
+<p>A high dome or tower with optical devices for viewing the heavens.</p>
+</div>
+<div class="section" id="orphanage">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-orphanage"></span><h3><a class="toc-backref" href="#id50">Orphanage</a><a class="headerlink" href="#orphanage" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 63 Goods, 7 Influence, 62 Labor, 1 Magic (2,810 gp)</p>
+<p><strong>Rooms</strong> 1 Bedroom, 1 Bunks, 1 Classroom, 1 Common Room, 1 Courtyard, 1 Infirmary, 1 Kitchen, 1 Laundry, 1 Lavatory, 1 Nursery, 1 Office, 2 Storages</p>
+<p>A place for taking care of a large number of orphans.</p>
+</div>
+<div class="section" id="palace">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-palace"></span><h3><a class="toc-backref" href="#id51">Palace</a><a class="headerlink" href="#palace" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 453 Goods, 42 Influence, 421 Labor, 9 Magic (19,640 gp)</p>
+<p><strong>Rooms</strong> 1 Altar, 1 Ballroom, 1 Bar, 2 Baths, 6 Bedrooms, 1 Bunks, 1 Cell, 1 Common Room, 2 Courtyards, 1 Crypt, 6 Defensive Walls, 1 Escape Route, 6 Furnishings (in the Ballroom, 2 Bedrooms, Office, Sitting Room, and the Throne Room), 1 Garden, 1 Gatehouse, 2 Kitchens, 1 Labyrinth, 1 Laundry, 2 Lavatories, 2 Lodgings, 2 Offices, 1 Sanctum, 3 Secret Rooms, 3 Sitting Rooms, 1 Sports Field, 4 Stalls, 2 Statues, 6 Storages, 1 Throne Room, 1 Trophy Room, 2 Vaults, 1 War Room</p>
+<p>A grand edifice and grounds demonstrating wealth, power, and authority to the world.</p>
+</div>
+<div class="section" id="pier">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-pier"></span><h3><a class="toc-backref" href="#id52">Pier</a><a class="headerlink" href="#pier" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 22 Goods, 3 Influence, 20 Labor (930 gp)</p>
+<p><strong>Rooms</strong> 1 Animal Pen, 1 Dock, 1 Office, 2 Storages</p>
+<p>Warehouses and workshops for docking ships and handling cargo and passengers.</p>
+</div>
+<div class="section" id="school">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-school"></span><h3><a class="toc-backref" href="#id53">School</a><a class="headerlink" href="#school" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 58 Goods, 5 Influence, 53 Labor (2,370 gp)</p>
+<p><strong>Rooms</strong> 1 Bell Tower, 2 Classrooms, 1 Common Room, 1 Courtyard, 1 Kitchen, 1 Lavatory, 1 Office, 2 Storages, 1 Workstation</p>
+<p>A place for educating children and young adults.</p>
+</div>
+<div class="section" id="shop">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-shop"></span><h3><a class="toc-backref" href="#id54">Shop</a><a class="headerlink" href="#shop" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 14 Goods, 1 Influence, 12 Labor (550 gp)</p>
+<p><strong>Rooms</strong> 1 Lavatory, 1 Office, 1 Storage, 1 Storefront</p>
+<p>A general store.</p>
+</div>
+<div class="section" id="shrine">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-shrine"></span><h3><a class="toc-backref" href="#id55">Shrine</a><a class="headerlink" href="#shrine" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 3 Goods, 1 Influence, 4 Labor, 1 Magic (270 gp)</p>
+<p><strong>Rooms</strong> 1 Altar, 1 Statue</p>
+<p>A shrine, idol, sacred grove, or similar holy site.</p>
+</div>
+<div class="section" id="smithy">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-smithy"></span><h3><a class="toc-backref" href="#id56">Smithy</a><a class="headerlink" href="#smithy" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 18 Goods, 1 Influence, 17 Labor (730 gp)</p>
+<p><strong>Rooms</strong> 1 Forge, 1 Office, 2 Storages</p>
+<p>An armorsmith, blacksmith, or weaponsmith.</p>
+</div>
+<div class="section" id="stable">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-stable"></span><h3><a class="toc-backref" href="#id57">Stable</a><a class="headerlink" href="#stable" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 42 Goods, 3 Influence, 39 Labor (1,710 gp)</p>
+<p><strong>Rooms</strong> 1 Animal Pen, 1 Farmland, 1 Lavatory, 1 Office, 2 Stalls, 1 Storage</p>
+<p>A structure for housing or selling horses and other mounts.</p>
+</div>
+<div class="section" id="stockyard">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-stockyard"></span><h3><a class="toc-backref" href="#id58">Stockyard</a><a class="headerlink" href="#stockyard" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 42 Goods, 4 Influence, 37 Labor (1,700 gp)</p>
+<p><strong>Rooms</strong> 4 Animal Pens, 1 Lavatory, 1 Office, 1 Pit, 1 Storage, 1 Workstation</p>
+<p>Barns and pens where herd animals are stored and prepared for nearby slaughterhouses.</p>
+</div>
+<div class="section" id="tannery">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-tannery"></span><h3><a class="toc-backref" href="#id59">Tannery</a><a class="headerlink" href="#tannery" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 20 Goods, 1 Influence, 20 Labor (830 gp)</p>
+<p><strong>Rooms</strong> 1 Laundry, 1 Lavatory, 1 Leather Workshop, 1 Office, 1 Pit, 1 Storage</p>
+<p>A structure where workers prepare hides and leather.</p>
+</div>
+<div class="section" id="tavern">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-tavern"></span><h3><a class="toc-backref" href="#id60">Tavern</a><a class="headerlink" href="#tavern" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 22 Goods, 1 Influence, 22 Labor (910 gp)</p>
+<p><strong>Rooms</strong> 1 Bar, 1 Common Room, 1 Lavatory, 1 Office, 1 Storage</p>
+<p>An eating or drinking establishment.</p>
+</div>
+<div class="section" id="temple">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-temple"></span><h3><a class="toc-backref" href="#id61">Temple</a><a class="headerlink" href="#temple" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 28 Goods, 2 Influence, 29 Labor, 2 Magic (1,400 gp)</p>
+<p><strong>Rooms</strong> 1 Altar, 1 Bedroom, 1 Common Room, 1 Confessional, 1 Office, 1 Sanctum, 1 Statue, 1 Storage</p>
+<p>A large place of worship dedicated to a deity.</p>
+</div>
+<div class="section" id="tenement">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-tenement"></span><h3><a class="toc-backref" href="#id62">Tenement</a><a class="headerlink" href="#tenement" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 41 Goods, 16 Influence, 41 Labor (2,120 gp)</p>
+<p><strong>Rooms</strong> 4 Bunks, 1 Kitchen, 1 Lavatory, 1 Office, 1 Storage</p>
+<p>A flophouse for housing a large number of people who pay low rent.</p>
+</div>
+<div class="section" id="theater">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-theater"></span><h3><a class="toc-backref" href="#id63">Theater</a><a class="headerlink" href="#theater" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 41 Goods, 2 Influence, 46 Labor (1,800 gp)</p>
+<p><strong>Rooms</strong> 1 Auditorium, 1 Lavatory, 1 Office, 1 Secret Room, 2 Storages, 1 Storefront</p>
+<p>A venue for entertainment such as plays, operas, and concerts.</p>
+</div>
+<div class="section" id="town-hall">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-town-hall"></span><h3><a class="toc-backref" href="#id64">Town Hall</a><a class="headerlink" href="#town-hall" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 23 Goods, 2 Influence, 23 Labor (980 gp)</p>
+<p><strong>Rooms</strong> 1 Common Room, 1 Lavatory, 1 Office, 1 Scriptorium, 1 Storage</p>
+<p>A public venue for holding town meetings, with storage for town records.</p>
+</div>
+<div class="section" id="trade-shop">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-trade-shop"></span><h3><a class="toc-backref" href="#id65">Trade Shop</a><a class="headerlink" href="#trade-shop" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 19 Goods, 1 Influence, 16 Labor (730 gp)</p>
+<p><strong>Rooms</strong> 1 Lavatory, 1 Storage, 1 Storefront, 1 Workstation</p>
+<p>A shop front for a tradesperson such as a baker or butcher.</p>
+</div>
+<div class="section" id="university">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-university"></span><h3><a class="toc-backref" href="#id66">University</a><a class="headerlink" href="#university" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 94 Goods, 10 Influence, 88 Labor, 2 Magic (4,140 gp)</p>
+<p><strong>Rooms</strong> 1 Bath, 1 Bell Tower, 1 Book Repository, 2 Classrooms, 1 Common Room, 1 Courtyard, 1 Greenhouse, 1 Kitchen, 1 Lavatory, 1 Observation Dome, 2 Offices, 1 Scriptorium, 1 Sitting Room, 1 Statue</p>
+<p>An institution of higher learning.</p>
+</div>
+<div class="section" id="watchtower">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-watchtower"></span><h3><a class="toc-backref" href="#id67">Watchtower</a><a class="headerlink" href="#watchtower" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 35 Goods, 9 Influence, 25 Labor (1,470 gp)</p>
+<p><strong>Rooms</strong> 1 Armory, 1 Bell Tower, 1 Gatehouse</p>
+<p>A tall structure that serves as a guard post.</p>
+</div>
+<div class="section" id="waterfront">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-waterfront"></span><h3><a class="toc-backref" href="#id68">Waterfront</a><a class="headerlink" href="#waterfront" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 63 Goods, 10 Influence, 56 Labor (2,680 gp)</p>
+<p><strong>Rooms</strong> 2 Animal Pens, 4 Docks, 1 Office, 4 Storages, 1 Workstation</p>
+<p>A port for waterborne arrival and departure, with facilities for shipping and shipbuilding.</p>
+</div>
+</div>
+<div class="section" id="organizations">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-organizations"></span><h2><a class="toc-backref" href="#id69">Organizations</a><a class="headerlink" href="#organizations" title="Permalink to this headline">¶</a></h2>
+<p>This section details several standard organizations, the cost of creating them, and which teams from the downtime system you can recruit to form them. Unless you own a building where these people can reside, they have their own homes.</p>
+<div class="section" id="artisans-guild">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-artisans-guild"></span><h3><a class="toc-backref" href="#id70">Artisans’ Guild</a><a class="headerlink" href="#artisans-guild" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 8 Goods, 10 Influence, 14 Labor (740 gp)</p>
+<p><strong>Teams</strong> 1 Bureaucrats, 2 Craftspeople, 2 Laborers</p>
+<p>Artisans and assistants who create quality goods.</p>
+</div>
+<div class="section" id="bounty-hunters">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-bounty-hunters"></span><h3><a class="toc-backref" href="#id71">Bounty Hunters</a><a class="headerlink" href="#bounty-hunters" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 8 Goods, 8 Influence, 10 Labor (600 gp)</p>
+<p><strong>Teams</strong> 1 Archers, 1 Bureaucrats, 1 Driver</p>
+<p>Fighters trained to find and capture criminals and escapees.</p>
+</div>
+<div class="section" id="brute-squad">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-brute-squad"></span><h3><a class="toc-backref" href="#id72">Brute Squad</a><a class="headerlink" href="#brute-squad" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 7 Goods, 8 Influence, 13 Labor (640 gp)</p>
+<p><strong>Teams</strong> 1 Robbers, 2 Soldiers</p>
+<p>A gang of well-armed professionals who throw their weight around on your behalf.</p>
+</div>
+<div class="section" id="cabal">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-cabal"></span><h3><a class="toc-backref" href="#id73">Cabal</a><a class="headerlink" href="#cabal" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 16 Goods, 12 Influence, 8 Labor, 24 Magic (3,240 gp)</p>
+<p><strong>Teams</strong> 4 Apprentices, 1 Mage, 1 Sage</p>
+<p>A study group of peers and apprentices devoted to arcane mysteries and research.</p>
+</div>
+<div class="section" id="caravan-crew">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-caravan-crew"></span><h3><a class="toc-backref" href="#id74">Caravan Crew</a><a class="headerlink" href="#caravan-crew" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 6 Goods, 3 Influence, 7 Labor (350 gp)</p>
+<p><strong>Teams</strong> 2 Drivers, 1 Guards, 1 Laborers</p>
+<p>Travelers skilled in loading, transporting, and unloading trade goods from animals, wagons, and ships.</p>
+</div>
+<div class="section" id="cult">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-cult"></span><h3><a class="toc-backref" href="#id75">Cult</a><a class="headerlink" href="#cult" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 15 Goods, 11 Influence, 17 Labor, 18 Magic (2,770 gp)</p>
+<p><strong>Teams</strong> 4 Acolytes, 2 Guards, 1 Priest</p>
+<p>A splinter religion or secret society that believes yours is the true faith.</p>
+</div>
+<div class="section" id="entourage">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-entourage"></span><h3><a class="toc-backref" href="#id76">Entourage</a><a class="headerlink" href="#entourage" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 6 Goods, 9 Influence, 7 Labor (530 gp)</p>
+<p><strong>Teams</strong> 1 Bureaucrats, 1 Driver, 2 Lackeys</p>
+<p>Friends and toadies who take care of your eating, sleeping, travel, and entertainment arrangements.</p>
+</div>
+<div class="section" id="fight-club">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-fight-club"></span><h3><a class="toc-backref" href="#id77">Fight Club</a><a class="headerlink" href="#fight-club" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 5 Goods, 7 Influence, 10 Labor (510 gp)</p>
+<p><strong>Teams</strong> 1 Driver, 1 Guards, 1 Laborers, 1 Lackeys, 1 Scofflaws</p>
+<p>A possibly illegal association of boxing aficionados.</p>
+</div>
+<div class="section" id="hunting-party">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-hunting-party"></span><h3><a class="toc-backref" href="#id78">Hunting Party</a><a class="headerlink" href="#hunting-party" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 5 Goods, 6 Influence, 11 Labor (500 gp)</p>
+<p><strong>Teams</strong> 1 Archers, 1 Laborers, 1 Lackeys</p>
+<p>The necessary guides and assistants for sport hunting.</p>
+</div>
+<div class="section" id="mercenary-company">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-mercenary-company"></span><h3><a class="toc-backref" href="#id79">Mercenary Company</a><a class="headerlink" href="#mercenary-company" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 18 Goods, 13 Influence, 25 Labor, 6 Magic (1,850 gp)</p>
+<p><strong>Teams</strong> 1 Elite Archers, 2 Elite Soldiers, 1 Priest</p>
+<p>A well-armed group of warriors who are loyal to you, and who are paid to guard or fight.</p>
+</div>
+<div class="section" id="ship-crew">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-ship-crew"></span><h3><a class="toc-backref" href="#id80">Ship Crew</a><a class="headerlink" href="#ship-crew" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 1 Goods, 2 Influence, 4 Labor (160 gp)</p>
+<p><strong>Teams</strong> 1 Laborers, 1 Sailors</p>
+<p>The crew of a small sailing vessel.</p>
+</div>
+<div class="section" id="theater-company">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-theater-company"></span><h3><a class="toc-backref" href="#id81">Theater Company</a><a class="headerlink" href="#theater-company" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 15 Goods, 17 Influence, 13 Labor, 20 Magic (3,070 gp)</p>
+<p><strong>Teams</strong> 5 Apprentices, 1 Bureaucrats, 1 Craftspeople, 1 Laborers</p>
+<p>Performers, set dressers, and costumers for an acting troupe or similar group.</p>
+</div>
+<div class="section" id="id3">
+<h3><a class="toc-backref" href="#id82">Thieves’ Guild</a><a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 4 Goods, 15 Influence, 12 Labor (770 gp)</p>
+<p><strong>Teams</strong> 2 Cutpurses, 1 Robbers, 1 Scofflaws, 1 Soldiers</p>
+<p>A band of criminals and thugs who commit illegal acts.</p>
+</div>
+<div class="section" id="vagabonds">
+<span id="ultimatecampaign-downtime-buildingsandorganizations-vagabonds"></span><h3><a class="toc-backref" href="#id83">Vagabonds</a><a class="headerlink" href="#vagabonds" title="Permalink to this headline">¶</a></h3>
+<p><strong>Create</strong> 10 Goods, 13 Influence, 13 Labor, 7 Magic (1,550 gp)</p>
+<p><strong>Teams</strong> 1 Acolyte, 1 Apprentice, 1 Cutpurses, 2 Drivers, 1 Guards, 1 Laborers, 1 Scofflaws</p>
+<p>Unsavory wanderers skilled at stage magic, fortunetelling, rigged games, and snake oil.</p>
+</div>
+</div>
+</div>
+
+</body>

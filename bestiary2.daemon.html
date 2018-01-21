@@ -1,0 +1,736 @@
+
+
+
+
+
+<head>
+    <link rel="stylesheet" href="_static/srd.css" type="text/css" />
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/toggle_list.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+
+
+
+<body>
+    <div class="contents topic" id="id1">
+<span id="bestiary2-daemon"></span><p class="topic-title first"></p>
+<ul class="simple">
+<li><a class="reference internal" href="#daemon" id="id52">Daemon</a></li>
+<li><a class="reference internal" href="#the-four-horsemen" id="id53">The Four Horsemen</a></li>
+<li><a class="reference internal" href="#daemon-astradaemon" id="id54">Daemon, Astradaemon</a><ul>
+<li><a class="reference internal" href="#astradaemon" id="id55">Astradaemon</a></li>
+<li><a class="reference internal" href="#defense" id="id56">Defense</a></li>
+<li><a class="reference internal" href="#offense" id="id57">Offense</a></li>
+<li><a class="reference internal" href="#statistics" id="id58">Statistics</a></li>
+<li><a class="reference internal" href="#ecology" id="id59">Ecology</a></li>
+<li><a class="reference internal" href="#special-abilities" id="id60">Special Abilities</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#daemon-cacodaemon" id="id61">Daemon, Cacodaemon</a><ul>
+<li><a class="reference internal" href="#cacodaemon" id="id62">Cacodaemon</a></li>
+<li><a class="reference internal" href="#id2" id="id63">Defense</a></li>
+<li><a class="reference internal" href="#id3" id="id64">Offense</a></li>
+<li><a class="reference internal" href="#id4" id="id65">Statistics</a></li>
+<li><a class="reference internal" href="#id5" id="id66">Ecology</a></li>
+<li><a class="reference internal" href="#id6" id="id67">Special Abilities</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#daemon-ceustodaemon" id="id68">Daemon, Ceustodaemon</a><ul>
+<li><a class="reference internal" href="#ceustodaemon" id="id69">Ceustodaemon</a></li>
+<li><a class="reference internal" href="#id7" id="id70">Defense</a></li>
+<li><a class="reference internal" href="#id8" id="id71">Offense</a></li>
+<li><a class="reference internal" href="#id9" id="id72">Statistics</a></li>
+<li><a class="reference internal" href="#id10" id="id73">Ecology</a></li>
+<li><a class="reference internal" href="#id11" id="id74">Special Abilities</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#daemon-derghodaemon" id="id75">Daemon, Derghodaemon</a><ul>
+<li><a class="reference internal" href="#derghodaemon" id="id76">Derghodaemon</a></li>
+<li><a class="reference internal" href="#id12" id="id77">Defense</a></li>
+<li><a class="reference internal" href="#id13" id="id78">Offense</a></li>
+<li><a class="reference internal" href="#id14" id="id79">Statistics</a></li>
+<li><a class="reference internal" href="#id15" id="id80">Ecology</a></li>
+<li><a class="reference internal" href="#id16" id="id81">Special Abilities</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#daemon-hydrodaemon" id="id82">Daemon, Hydrodaemon</a><ul>
+<li><a class="reference internal" href="#hydrodaemon" id="id83">Hydrodaemon</a></li>
+<li><a class="reference internal" href="#id17" id="id84">Defense</a></li>
+<li><a class="reference internal" href="#id18" id="id85">Offense</a></li>
+<li><a class="reference internal" href="#id19" id="id86">Statistics</a></li>
+<li><a class="reference internal" href="#id20" id="id87">Ecology</a></li>
+<li><a class="reference internal" href="#id21" id="id88">Special Abilities</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#daemon-leukodaemon" id="id89">Daemon, Leukodaemon</a><ul>
+<li><a class="reference internal" href="#leukodaemon" id="id90">Leukodaemon</a></li>
+<li><a class="reference internal" href="#id22" id="id91">Defense</a></li>
+<li><a class="reference internal" href="#id23" id="id92">Offense</a></li>
+<li><a class="reference internal" href="#id24" id="id93">Statistics</a></li>
+<li><a class="reference internal" href="#id25" id="id94">Ecology</a></li>
+<li><a class="reference internal" href="#id26" id="id95">Special Abilities</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#daemon-meladaemon" id="id96">Daemon, Meladaemon</a><ul>
+<li><a class="reference internal" href="#meladaemon" id="id97">Meladaemon</a></li>
+<li><a class="reference internal" href="#id27" id="id98">Defense</a></li>
+<li><a class="reference internal" href="#id28" id="id99">Offense</a></li>
+<li><a class="reference internal" href="#id29" id="id100">Statistics</a></li>
+<li><a class="reference internal" href="#id30" id="id101">Ecology</a></li>
+<li><a class="reference internal" href="#id31" id="id102">Special Abilities</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#daemon-olethrodaemon" id="id103">Daemon, Olethrodaemon</a><ul>
+<li><a class="reference internal" href="#olethrodaemon" id="id104">Olethrodaemon</a></li>
+<li><a class="reference internal" href="#id32" id="id105">Defense</a></li>
+<li><a class="reference internal" href="#id33" id="id106">Offense</a></li>
+<li><a class="reference internal" href="#id34" id="id107">Statistics</a></li>
+<li><a class="reference internal" href="#id35" id="id108">Ecology</a></li>
+<li><a class="reference internal" href="#id36" id="id109">Special Abilities</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#olethrodaemon-paragons" id="id110">Olethrodaemon Paragons</a></li>
+<li><a class="reference internal" href="#daemon-piscodaemon" id="id111">Daemon, Piscodaemon</a><ul>
+<li><a class="reference internal" href="#piscodaemon" id="id112">Piscodaemon</a></li>
+<li><a class="reference internal" href="#id37" id="id113">Defense</a></li>
+<li><a class="reference internal" href="#id38" id="id114">Offense</a></li>
+<li><a class="reference internal" href="#id39" id="id115">Statistics</a></li>
+<li><a class="reference internal" href="#id40" id="id116">Ecology</a></li>
+<li><a class="reference internal" href="#id41" id="id117">Special Abilities</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#daemon-purrodaemon" id="id118">Daemon, Purrodaemon</a><ul>
+<li><a class="reference internal" href="#purrodaemon" id="id119">Purrodaemon</a></li>
+<li><a class="reference internal" href="#id42" id="id120">Defense</a></li>
+<li><a class="reference internal" href="#id43" id="id121">Offense</a></li>
+<li><a class="reference internal" href="#id44" id="id122">Statistics</a></li>
+<li><a class="reference internal" href="#id45" id="id123">Ecology</a></li>
+<li><a class="reference internal" href="#id46" id="id124">Special Abilities</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#daemon-thanadaemon" id="id125">Daemon, Thanadaemon</a><ul>
+<li><a class="reference internal" href="#thanadaemon" id="id126">Thanadaemon</a></li>
+<li><a class="reference internal" href="#id47" id="id127">Defense</a></li>
+<li><a class="reference internal" href="#id48" id="id128">Offense</a></li>
+<li><a class="reference internal" href="#id49" id="id129">Statistics</a></li>
+<li><a class="reference internal" href="#id50" id="id130">Ecology</a></li>
+<li><a class="reference internal" href="#id51" id="id131">Special Abilities</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="daemon">
+<span id="bestiary2-daemon-daemon"></span><h1><a class="toc-backref" href="#id52">Daemon</a><a class="headerlink" href="#daemon" title="Permalink to this headline">¶</a></h1>
+<p>Harbingers of ruin and embodiments of the worst ways to die, daemons epitomize painful death, the all-consuming hunger of evil, and the utter annihilation of life. While demons seek to pervert and destroy in endless unholy rampages, and devils vex and enslave in hopes of corrupting mortals, daemons seek only to consume mortal life itself. While some use brute force to despoil life or prey upon vulnerable souls, others wage campaigns of deceit to draw whole realms into ruin. With each life claimed and each atrocity meted out, daemons spread fear, mistrust, and despair, tarnishing the luster of existence and drawing the planes ever closer to their final, ultimate ruin.
+Notorious for their hatred of the living, daemons are the things of dark dreams and fearful tales, as their ultimate ambitions include extinguishing every individual mortal life—and the more violent or terrible the end, the better. Their methods vary wildly, typically differentiated by daemonic breed. Many seek to infiltrate the mortal plane and sow death by their own taloned hands, while others manipulate agents (both mortal and immortal) as malevolent puppet masters, instigating calamities on massive scales from their grim realms. Such diversity of methods causes many planar scholars to misattribute the machinations of daemons to other types of fiends. These often deadly mistakes are further propagated by daemons’ frequent dealings with and manipulation of other outsiders. Yet in all cases, despair, ruin, and death, spreading like contagion, typify the touch of daemonkind, though such symptoms often prove recognizable only after the hour is far too late.
+Daemons flourish upon the plane of Abaddon, a bleak expanse of cold mists, fearful shapes, and hunted souls. Upon these wastes, the souls of evil mortals flee predation by the native fiends, and terror and the powers of the evil plane eventually transform the most ruthless into daemons themselves. Amid these scarred wastelands, poison swamps, and realms of endless night rise the foul domains of the tyrants of daemonkind, the Four Horsemen of the Apocalypse. Lords of devastation, these powerful and unique daemons desire slaughter, ruin, and death on a cosmic scale, and drive hordes of their lesser kin to spread terror and sorrow across the planes. Although the Horsemen share a singular goal, their tactics and ambitions vary widely.
+Along with mastery over vast realms, the Horsemen are served by unimaginably enormous armies of their lesser brethren, but are obeyed most closely by retinues of daemons enslaved to their titles. These specific strains of daemonic servitors, known among daemonkind as deacons, serve whoever holds the title of Horseman. Although these instruments of the archdaemons differ in strength and ability, their numbers provide their lords with legions capable of near-equal terrorization.
+More so than among any other fiendish race, several breeds of daemons lust after souls. While other foul inhabitants of the planes seek the corruption and destruction of living essences, many daemons value possession and control over mortal animas, entrapping and hoarding souls—and in so doing disrupting the natural progression of life and perverting the quintessence of creation to serve their own terrible whims. While not all daemons possess the ability to steal a mortal being’s soul and turn it to their use, the lowliest of daemonkind, the maniacal cacodaemons, endlessly seek life essences to consume and imprison. These base daemons enthusiastically serve their more powerful kin, eager for increased opportunities to doom mortal spirits. While cacodaemons place little value upon the souls they imprison, greater daemons eagerly gather them as trophies, fuel for terrible rites, or offerings to curry the favor of their lords. Several breeds of daemons also posses their own notorious abilities to capture mortal spirits or draw upon the power of souls, turning the forces of utter annihilation to their own sinister ends.</p>
+</div>
+<div class="section" id="the-four-horsemen">
+<span id="bestiary2-daemon-the-four-horsemen"></span><h1><a class="toc-backref" href="#id53">The Four Horsemen</a><a class="headerlink" href="#the-four-horsemen" title="Permalink to this headline">¶</a></h1>
+<p>Four dread lords, infamous across all the planes, rule the disparate hordes of daemonkind. Risen from among the ranks of their terrible brethren to displace those fiendish tyrants before them, they are the archdaemons, the End Bringers, the Four Horsemen of the Apocalypse. In the blasphemous annals of fiendish lore, they are the prophesied architects of multiversal ruin, destined to stand triumphant over cadaverous cosmoses and infinities of silence before also giving way to absolute oblivion. Undisputed in his power among their kind, each Horseman rules a vast realm upon the bleak plains of Abaddon and a distinctive method of mortal ruin: pestilence, famine, war, or death from old age. Yet while each archdaemon commands measureless influence, daemons know nothing of loyalty and serve only those they cannot overcome. Thus, though the Horsemen stand peerless in their power and manipulations among daemonkind, they must ever defend their thrones from the machinations of ambitious underlings and the plots of other archdaemons.
+Upon the poisonous expanses of Abaddon, lesser daemonic peers carve petty fiefdoms and posture as lords, but despite their world-spanning intrigues, all bow before the Horsemen—though most do so only grudgingly. Ancient myths also tell of a mysterious fifth Horseman, the Oinodaemon, though nearly all mention of such a creature has been scoured from the multiverse.</p>
+</div>
+<div class="section" id="daemon-astradaemon">
+<span id="bestiary2-daemon-daemon-astradaemon"></span><h1><a class="toc-backref" href="#id54">Daemon, Astradaemon</a><a class="headerlink" href="#daemon-astradaemon" title="Permalink to this headline">¶</a></h1>
+<p>Vaguely humanoid in shape, this gaunt fiend has the face of a hideous fish and a body of lanky limbs and writhing tendrils.</p>
+<div class="section" id="astradaemon">
+<span id="bestiary2-daemon-astradaemon"></span><h2><a class="toc-backref" href="#id55">Astradaemon</a><a class="headerlink" href="#astradaemon" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 16</strong>
+<strong>XP 76,800</strong>
+NE Large <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-outsider"><span class="std std-ref">outsider</span></a> (<a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-daemon-subtype"><span class="std std-ref">daemon</span></a>, <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-evil-subtype"><span class="std std-ref">evil</span></a>, <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-extraplanar-subtype"><span class="std std-ref">extraplanar</span></a>)
+<strong>Init</strong> +7; <strong>Senses</strong> darkvision 60 ft., <a class="reference internal" href="corerulebook.spells.deathwatch.html#corerulebook-spells-deathwatch-deathwatch"><span class="std std-ref">deathwatch</span></a>, <a class="reference internal" href="corerulebook.spells.trueseeing.html#corerulebook-spells-trueseeing-true-seeing"><span class="std std-ref">true seeing</span></a>; <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> +22
+<strong>Aura</strong> soul siphon (10 ft.)</p>
+</div>
+<div class="section" id="defense">
+<span id="bestiary2-daemon-defense"></span><h2><a class="toc-backref" href="#id56">Defense</a><a class="headerlink" href="#defense" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 29, touch 17, flat-footed 21 (+7 Dex, +1 dodge, +12 natural, –1 size)
+<strong>hp</strong> 212 (17d10+119)
+<strong>Fort</strong> +12, <strong>Ref</strong> +17, <strong>Will</strong> +14
+<strong>Defensive Abilities</strong> <a class="reference internal" href="corerulebook.spells.displacement.html#corerulebook-spells-displacement-displacement"><span class="std std-ref">displacement</span></a>; <strong>DR</strong> 10/good and silver; <strong>Immune</strong> acid, death effects, <span class="xref std std-ref">disease</span>, <span class="xref std std-ref">poison</span>; <strong>Resist</strong> <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-cold-subtype"><span class="std std-ref">cold</span></a> 10, electricity 10, <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-fire-subtype"><span class="std std-ref">fire</span></a> 10; <strong>SR</strong> 27</p>
+</div>
+<div class="section" id="offense">
+<span id="bestiary2-daemon-offense"></span><h2><a class="toc-backref" href="#id57">Offense</a><a class="headerlink" href="#offense" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 90 ft., fly 90 ft. (good)
+<strong>Melee</strong> bite +23 (2d6+5 plus energy drain and <a class="reference internal" href="bestiary.universalmonsterrules.html#bestiary-universalmonsterrules-grab"><span class="std std-ref">grab</span></a>), 2 claws +23 (1d8+5 plus energy drain), tail slap +18 (1d12+2 plus energy drain)
+<strong>Space</strong> 10 ft.; <strong>Reach</strong> 10 ft. (15 ft. with tail)
+<strong>Special Attacks</strong> devour soul, energy drain (1 level, DC 25)
+<strong>Spell-Like Abilities</strong> (CL 17th; concentration +24)</p>
+<blockquote>
+<div>Constant—<a class="reference internal" href="corerulebook.spells.deathwatch.html#corerulebook-spells-deathwatch-deathwatch"><span class="std std-ref">deathwatch</span></a>, <a class="reference internal" href="corerulebook.spells.displacement.html#corerulebook-spells-displacement-displacement"><span class="std std-ref">displacement</span></a>, <a class="reference internal" href="corerulebook.spells.trueseeing.html#corerulebook-spells-trueseeing-true-seeing"><span class="std std-ref">true seeing</span></a>
+At will—<a class="reference internal" href="corerulebook.spells.enervation.html#corerulebook-spells-enervation-enervation"><span class="std std-ref">enervation</span></a>, <a class="reference internal" href="corerulebook.spells.fear.html#corerulebook-spells-fear-fear"><span class="std std-ref">fear</span></a> (DC21), <a class="reference internal" href="corerulebook.spells.teleport.html#corerulebook-spells-teleport-teleport-greater"><span class="std std-ref">greater teleport</span></a> (self plus 50 lbs. of objects only), <a class="reference internal" href="corerulebook.spells.vampirictouch.html#corerulebook-spells-vampirictouch-vampiric-touch"><span class="std std-ref">vampiric touch</span></a>
+3/day—<a class="reference internal" href="corerulebook.spells.locatecreature.html#corerulebook-spells-locatecreature-locate-creature"><span class="std std-ref">locate creature</span></a>, <a class="reference internal" href="corerulebook.spells.planeshift.html#corerulebook-spells-planeshift-plane-shift"><span class="std std-ref">plane shift</span></a> (DC 24)
+1/day—<a class="reference internal" href="corerulebook.spells.energydrain.html#corerulebook-spells-energydrain-energy-drain"><span class="std std-ref">energy drain</span></a> (DC 24), <a class="reference internal" href="corerulebook.spells.fingerofdeath.html#corerulebook-spells-fingerofdeath-finger-of-death"><span class="std std-ref">finger of death</span></a> (DC 24), summon (level 6, 1d3 derghodaemons 50%)</div></blockquote>
+</div>
+<div class="section" id="statistics">
+<span id="bestiary2-daemon-statistics"></span><h2><a class="toc-backref" href="#id58">Statistics</a><a class="headerlink" href="#statistics" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 21, <strong>Dex</strong> 25, <strong>Con</strong> 24, <strong>Int</strong> 14, <strong>Wis</strong> 15, <strong>Cha</strong> 24
+<strong>Base Atk</strong> +17; <strong>CMB</strong> +23; <strong>CMD</strong> 41
+<strong>Feats</strong> <a class="reference internal" href="corerulebook.feats.html#combat reflexes (combat)"><span class="std std-ref">Combat Reflexes</span></a>, <a class="reference internal" href="corerulebook.feats.html#dodge (combat)"><span class="std std-ref">Dodge</span></a>, <a class="reference internal" href="bestiary.monsterfeats.html#bestiary-monsterfeats-flyby-attack"><span class="std std-ref">Flyby Attack</span></a>, <a class="reference internal" href="corerulebook.feats.html#corerulebook-feats-iron-will"><span class="std std-ref">Iron Will</span></a>, <a class="reference internal" href="corerulebook.feats.html#mobility (combat)"><span class="std std-ref">Mobility</span></a>, <a class="reference internal" href="corerulebook.feats.html#corerulebook-feats-nimble-moves"><span class="std std-ref">Nimble Moves</span></a>, <a class="reference internal" href="corerulebook.feats.html#power attack (combat)"><span class="std std-ref">Power Attack</span></a>, <a class="reference internal" href="corerulebook.feats.html#spring attack (combat)"><span class="std std-ref">Spring Attack</span></a>, <a class="reference internal" href="corerulebook.feats.html#weapon finesse (combat)"><span class="std std-ref">Weapon Finesse</span></a>
+<strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a> +24 (+48 jump), <a class="reference internal" href="corerulebook.skills.escapeartist.html#corerulebook-skills-escapeartist-escape-artist"><span class="std std-ref">Escape Artist</span></a> +27, <a class="reference internal" href="corerulebook.skills.fly.html#corerulebook-skills-fly-fly"><span class="std std-ref">Fly</span></a> +9, <a class="reference internal" href="corerulebook.skills.intimidate.html#corerulebook-skills-intimidate-intimidate"><span class="std std-ref">Intimidate</span></a> +27, <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (planes) +22, <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> +22, <a class="reference internal" href="corerulebook.skills.sensemotive.html#corerulebook-skills-sensemotive-sense-motive"><span class="std std-ref">Sense Motive</span></a> +22, <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> +23, <a class="reference internal" href="corerulebook.skills.survival.html#corerulebook-skills-survival-survival"><span class="std std-ref">Survival</span></a> +22
+<strong>Languages</strong> Abyssal, Infernal; telepathy 100 ft.</p>
+</div>
+<div class="section" id="ecology">
+<span id="bestiary2-daemon-ecology"></span><h2><a class="toc-backref" href="#id59">Ecology</a><a class="headerlink" href="#ecology" title="Permalink to this headline">¶</a></h2>
+<p><strong>Environment</strong> any (Abaddon or Astral Plane)
+<strong>Organization</strong> solitary, pair, or pack (3–6)
+<strong>Treasure</strong> standard</p>
+</div>
+<div class="section" id="special-abilities">
+<span id="bestiary2-daemon-special-abilities"></span><h2><a class="toc-backref" href="#id60">Special Abilities</a><a class="headerlink" href="#special-abilities" title="Permalink to this headline">¶</a></h2>
+<p><strong>Devour Soul (Su)</strong> As a standard action, an astradaemon that begins its turn with a grappled opponent can attempt to draw out and consume the soul of its victim, killing it instantly. This ability only works on living creatures, which may resist with a DC 25 Fortitude saving throw. The save is Constitution-based. For every 5 HD of the slain creature, the <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-daemon-subtype"><span class="std std-ref">daemon</span></a> gains a +1 profane bonus on attacks, saving throws, and checks for 24 hours. This ability does not consume all of the soul, and pieces of it still exist after the <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-daemon-subtype"><span class="std std-ref">daemon</span></a> completes its feast (enough to be able to resurrect the slain victim normally).
+<strong>Soul Siphon (Su)</strong> If a Small or larger living creature dies within 10 feet of an astradaemon, the <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-daemon-subtype"><span class="std std-ref">daemon</span></a> gains 1d8 temporary hit points and a +2 bonus to Strength for 10 minutes. These bonuses stack with themselves. <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-incorporeal-subtype"><span class="std std-ref">Incorporeal</span></a> <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-undead"><span class="std std-ref">undead</span></a> and living spirits traveling outside the body (such as a person using <a class="reference internal" href="corerulebook.spells.astralprojection.html#corerulebook-spells-astralprojection-astral-projection"><span class="std std-ref">astral projection</span></a> or <a class="reference internal" href="corerulebook.spells.magicjar.html#corerulebook-spells-magicjar-magic-jar"><span class="std std-ref">magic jar</span></a>) take 1d8 points of damage each round within the <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-daemon-subtype"><span class="std std-ref">daemon</span></a>’s aura.
+Believed to be creations of the Four Horsemen, astradaemons live out their existence in search of souls to harvest. These deadly creatures are ravening planar predators, openly hunting throughout the void for souls on which to feed. These voracious creatures are the personifications of death resulting from negative energy or level drain. Their vile touch drains life force from their enemies, and even perishing near them sates their thirst for life and souls.</p>
+</div>
+</div>
+<div class="section" id="daemon-cacodaemon">
+<span id="bestiary2-daemon-daemon-cacodaemon"></span><h1><a class="toc-backref" href="#id61">Daemon, Cacodaemon</a><a class="headerlink" href="#daemon-cacodaemon" title="Permalink to this headline">¶</a></h1>
+<p>An ever-gnashing maw, filled with row after row of mismatched teeth, dominates this frightful creature’s orb-like body.</p>
+<div class="section" id="cacodaemon">
+<span id="bestiary2-daemon-cacodaemon"></span><h2><a class="toc-backref" href="#id62">Cacodaemon</a><a class="headerlink" href="#cacodaemon" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 2</strong>
+<strong>XP 600</strong>
+NE Tiny <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-outsider"><span class="std std-ref">outsider</span></a> (<a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-daemon-subtype"><span class="std std-ref">daemon</span></a>, <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-evil-subtype"><span class="std std-ref">evil</span></a>, <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-extraplanar-subtype"><span class="std std-ref">extraplanar</span></a>)
+<strong>Init</strong> +4; <strong>Senses</strong> darkvision 60 ft., <a class="reference internal" href="corerulebook.spells.detectgood.html#corerulebook-spells-detectgood-detect-good"><span class="std std-ref">detect good</span></a>, <a class="reference internal" href="corerulebook.spells.detectmagic.html#corerulebook-spells-detectmagic-detect-magic"><span class="std std-ref">detect magic</span></a>; <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> +7</p>
+</div>
+<div class="section" id="id2">
+<h2><a class="toc-backref" href="#id63">Defense</a><a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 16, touch 12, flat-footed 16 (+4 natural, +2 size)
+<strong>hp</strong> 19 (3d10+3); fast healing 2
+<strong>Fort</strong> +2, <strong>Ref</strong> +5, <strong>Will</strong> +4
+<strong>DR</strong> 5/good or silver; <strong>Immune</strong> acid, death effects, <span class="xref std std-ref">disease</span>, <span class="xref std std-ref">poison</span>; <strong>Resist</strong> <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-cold-subtype"><span class="std std-ref">cold</span></a> 10, electricity 10, <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-fire-subtype"><span class="std std-ref">fire</span></a> 10</p>
+</div>
+<div class="section" id="id3">
+<h2><a class="toc-backref" href="#id64">Offense</a><a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 5 ft., fly 50 ft. (perfect)
+<strong>Melee</strong> bite +6 (1d4+1 plus <span class="xref std std-ref">disease</span>)
+<strong>Space</strong> 2-1/2 ft.; <strong>Reach</strong> 0 ft.
+<strong>Special Attacks</strong> soul lock
+<strong>Spell-Like Abilities</strong> (CL 6th; concentration +7)</p>
+<blockquote>
+<div>Constant—<a class="reference internal" href="corerulebook.spells.detectgood.html#corerulebook-spells-detectgood-detect-good"><span class="std std-ref">detect good</span></a>, <a class="reference internal" href="corerulebook.spells.detectmagic.html#corerulebook-spells-detectmagic-detect-magic"><span class="std std-ref">detect magic</span></a>
+At will—<a class="reference internal" href="corerulebook.spells.invisibility.html#corerulebook-spells-invisibility-invisibility"><span class="std std-ref">invisibility</span></a> (self only)
+3/day—<a class="reference internal" href="corerulebook.spells.confusion.html#corerulebook-spells-confusion-confusion-lesser"><span class="std std-ref">lesser confusion</span></a> (DC 12)
+1/week—<a class="reference internal" href="corerulebook.spells.commune.html#corerulebook-spells-commune-commune"><span class="std std-ref">commune</span></a> (CL 12th, six questions)</div></blockquote>
+</div>
+<div class="section" id="id4">
+<h2><a class="toc-backref" href="#id65">Statistics</a><a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 12, <strong>Dex</strong> 11, <strong>Con</strong> 13, <strong>Int</strong> 8, <strong>Wis</strong> 13, <strong>Cha</strong> 12
+<strong>Base Atk</strong> +3; <strong>CMB</strong> +1; <strong>CMD</strong> 12
+<strong>Feats</strong> <a class="reference internal" href="corerulebook.feats.html#improved initiative (combat)"><span class="std std-ref">Improved Initiative</span></a>, <a class="reference internal" href="corerulebook.feats.html#corerulebook-feats-lightning-reflexes"><span class="std std-ref">Lightning Reflexes</span></a>
+<strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.bluff.html#corerulebook-skills-bluff-bluff"><span class="std std-ref">Bluff</span></a> +7, <a class="reference internal" href="corerulebook.skills.fly.html#corerulebook-skills-fly-fly"><span class="std std-ref">Fly</span></a> +18, <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (planes) +5, <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> +7, <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> +14
+<strong>Languages</strong> Abyssal, Common, Infernal; telepathy 100 ft.
+<strong>SQ</strong> <a class="reference internal" href="bestiary.universalmonsterrules.html#bestiary-universalmonsterrules-change-shape"><span class="std std-ref">change shape</span></a> (2 of the following forms: lizard, octopus, Small scorpion, venomous snake, <a class="reference internal" href="corerulebook.spells.polymorph.html#corerulebook-spells-polymorph-polymorph"><span class="std std-ref">polymorph</span></a>)</p>
+</div>
+<div class="section" id="id5">
+<h2><a class="toc-backref" href="#id66">Ecology</a><a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h2>
+<p><strong>Environment</strong> any (Abaddon)
+<strong>Organization</strong> solitary or <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-swarm-subtype"><span class="std std-ref">swarm</span></a> (2–10)
+<strong>Treasure</strong> standard</p>
+</div>
+<div class="section" id="id6">
+<h2><a class="toc-backref" href="#id67">Special Abilities</a><a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h2>
+<p><span class="xref std std-ref">Disease</span> (Su) <em>Cacodaemonia</em>: Bite—injury; <em>save</em> Fort DC 12; <em>onset</em> 1 day; <em>frequency</em> 1/day; <em>effect</em> 1d2 Wis damage, <em>cure</em> 2 consecutive saves. In addition to the normal effects of the <span class="xref std std-ref">disease</span>, as long as a victim is infected, the cacodaemon can telepathically communicate with the creature over any distance (as long as they remain on the same plane).
+<strong>Soul Lock (Su)</strong>Once per day as a full-round action, a cacodaemon can ingest the spirit of any sentient creature that has died within the last minute. This causes a soul gem to grow inside of the cacodaemon’s gut, which it can regurgitate as a standard action. A soul gem is a fine-sized object with 1 hit point and hardness 2. Destroying a soul gem frees the soul within, though it does not return the deceased creature to life. This is a death effect.&nbsp;Any attempt to resurrect a body whose soul is trapped in a soul gem requires a DC 12 caster level check. Failure results in the spell having no effect, while success shatters the victim’s soul gem and returns the creature to life as normal. If the soul gem rests in an unholy location, such as that created by the spell&nbsp;<a class="reference internal" href="corerulebook.spells.unhallow.html#corerulebook-spells-unhallow-unhallow"><span class="std std-ref">unhallow</span></a>, the DC of this caster level check increases by +2. The caster level check DC is Charisma-based.
+Any <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-evil-subtype"><span class="std std-ref">evil</span></a> <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-outsider"><span class="std std-ref">outsider</span></a> can, as a standard action, ingest a soul gem. Doing so frees the soul within, but condemns it to one of the lower planes (though the soul can be returned to life as normal). The <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-outsider"><span class="std std-ref">outsider</span></a> gains fast healing 2 for a number of rounds equal to its Hit Dice.
+The least of daemonkind, cacodaemons spawn from eddies of angry, violent, and demented souls amid the mists of Abaddon. Dim-witted but utterly evil, they endlessly seek to cause pain and indulge their hunger for mortal souls. Many more powerful fiends keep cacodaemons as pets, if only to be able to harvest the tiny creatures’ soul gems. A 7th-level spellcaster can gain a cacodaemon as a familiar if she has the <a class="reference internal" href="corerulebook.feats.html#corerulebook-feats-improved-familiar"><span class="std std-ref">Improved Familiar</span></a> feat.</p>
+</div>
+</div>
+<div class="section" id="daemon-ceustodaemon">
+<span id="bestiary2-daemon-daemon-ceustodaemon"></span><h1><a class="toc-backref" href="#id68">Daemon, Ceustodaemon</a><a class="headerlink" href="#daemon-ceustodaemon" title="Permalink to this headline">¶</a></h1>
+<p>This brown, shaggy-furred beast stands on slate grey hooves. Its head resembles that of a maniacal horned ape.</p>
+<div class="section" id="ceustodaemon">
+<span id="bestiary2-daemon-ceustodaemon"></span><h2><a class="toc-backref" href="#id69">Ceustodaemon</a><a class="headerlink" href="#ceustodaemon" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 6</strong>
+<strong>XP 2,400</strong>
+NE Large <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-outsider"><span class="std std-ref">outsider</span></a> (<a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-daemon-subtype"><span class="std std-ref">daemon</span></a>, <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-evil-subtype"><span class="std std-ref">evil</span></a>, <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-extraplanar-subtype"><span class="std std-ref">extraplanar</span></a>)
+<strong>Init</strong> +1; <strong>Senses</strong> darkvision 60 ft., <a class="reference internal" href="corerulebook.spells.detectgood.html#corerulebook-spells-detectgood-detect-good"><span class="std std-ref">detect good</span></a>, <a class="reference internal" href="corerulebook.spells.detectmagic.html#corerulebook-spells-detectmagic-detect-magic"><span class="std std-ref">detect magic</span></a>, <a class="reference internal" href="corerulebook.spells.seeinvisibility.html#corerulebook-spells-seeinvisibility-see-invisibility"><span class="std std-ref">see invisibility</span></a>; <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> +15</p>
+</div>
+<div class="section" id="id7">
+<h2><a class="toc-backref" href="#id70">Defense</a><a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 20, touch 10, flat-footed 19 (+1 Dex, +10 natural, –1 size)
+<strong>hp</strong> 68 (8d10+24)
+<strong>Fort</strong> +9, <strong>Ref</strong> +3, <strong>Will</strong> +8
+<strong>DR</strong> 10/good or silver; <strong>Immune</strong> acid, death effects, <span class="xref std std-ref">disease</span>, mind-affecting effects, paralysis, <span class="xref std std-ref">poison</span>, polymorph effects, sleep effects; <strong>Resist</strong> <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-cold-subtype"><span class="std std-ref">cold</span></a> 10, electricity 10, <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-fire-subtype"><span class="std std-ref">fire</span></a> 10</p>
+</div>
+<div class="section" id="id8">
+<h2><a class="toc-backref" href="#id71">Offense</a><a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 30 ft.
+<strong>Melee</strong> bite +11 (2d6+4), 2 claws +11 (1d6+4)
+<strong>Space</strong> 10 ft.; <strong>Reach</strong> 10 ft.
+<strong>Special Attacks</strong> <a class="reference internal" href="bestiary.universalmonsterrules.html#bestiary-universalmonsterrules-breath-weapon"><span class="std std-ref">breath weapon</span></a> (30-ft. cone; 6d6 <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-fire-subtype"><span class="std std-ref">fire</span></a> damage; Reflex DC 17 for half; usable once every 1d4 rounds)
+<strong>Spell-Like Abilities</strong> (CL 8th; concentration +10)</p>
+<blockquote>
+<div>Constant—<a class="reference internal" href="corerulebook.spells.detectgood.html#corerulebook-spells-detectgood-detect-good"><span class="std std-ref">detect good</span></a>, <a class="reference internal" href="corerulebook.spells.detectmagic.html#corerulebook-spells-detectmagic-detect-magic"><span class="std std-ref">detect magic</span></a>, <a class="reference internal" href="corerulebook.spells.seeinvisibility.html#corerulebook-spells-seeinvisibility-see-invisibility"><span class="std std-ref">see invisibility</span></a>
+At will—<a class="reference internal" href="corerulebook.spells.dimensiondoor.html#corerulebook-spells-dimensiondoor-dimension-door"><span class="std std-ref">dimension door</span></a>
+3/day—<a class="reference internal" href="corerulebook.spells.dispelmagic.html#corerulebook-spells-dispelmagic-dispel-magic"><span class="std std-ref">dispel magic</span></a>, <a class="reference internal" href="corerulebook.spells.fly.html#corerulebook-spells-fly"><span class="std std-ref">fly</span></a>
+1/day—<a class="reference internal" href="corerulebook.spells.holdmonster.html#corerulebook-spells-holdmonster-hold-monster"><span class="std std-ref">hold monster</span></a> (DC 17), <a class="reference internal" href="corerulebook.spells.slow.html#corerulebook-spells-slow-slow"><span class="std std-ref">slow</span></a> (DC 15)</div></blockquote>
+</div>
+<div class="section" id="id9">
+<h2><a class="toc-backref" href="#id72">Statistics</a><a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 18, <strong>Dex</strong> 13, <strong>Con</strong> 16, <strong>Int</strong> 11, <strong>Wis</strong> 14, <strong>Cha</strong> 15
+<strong>Base Atk</strong> +8; <strong>CMB</strong> +13; <strong>CMD</strong> 24
+<strong>Feats</strong> <a class="reference internal" href="corerulebook.feats.html#corerulebook-feats-alertness"><span class="std std-ref">Alertness</span></a>, <a class="reference internal" href="corerulebook.feats.html#blind-fight (combat)"><span class="std std-ref">Blind-Fight</span></a>, <a class="reference internal" href="corerulebook.feats.html#power attack (combat)"><span class="std std-ref">Power Attack</span></a>, <a class="reference internal" href="corerulebook.feats.html#step up (combat)"><span class="std std-ref">Step Up</span></a>
+<strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.bluff.html#corerulebook-skills-bluff-bluff"><span class="std std-ref">Bluff</span></a> +13, <a class="reference internal" href="corerulebook.skills.intimidate.html#corerulebook-skills-intimidate-intimidate"><span class="std std-ref">Intimidate</span></a> +11, <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (planes) +9, <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> +15, <a class="reference internal" href="corerulebook.skills.sensemotive.html#corerulebook-skills-sensemotive-sense-motive"><span class="std std-ref">Sense Motive</span></a> +15, <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> +8, <a class="reference internal" href="corerulebook.skills.survival.html#corerulebook-skills-survival-survival"><span class="std std-ref">Survival</span></a> +9
+<strong>Languages</strong> Abyssal, Infernal; telepathy 100 ft.
+<strong>SQ</strong> drawn to service</p>
+</div>
+<div class="section" id="id10">
+<h2><a class="toc-backref" href="#id73">Ecology</a><a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h2>
+<p><strong>Environment</strong> any (Abaddon)
+<strong>Organization</strong> solitary
+<strong>Treasure</strong> none</p>
+</div>
+<div class="section" id="id11">
+<h2><a class="toc-backref" href="#id74">Special Abilities</a><a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h2>
+<p><strong>Drawn to Service (Su)</strong> When brought to another plane with a <a class="reference internal" href="corerulebook.spells.planarbinding.html#corerulebook-spells-planarbinding-planar-binding"><span class="std std-ref">planar binding</span></a> or <a class="reference internal" href="corerulebook.spells.planarally.html#corerulebook-spells-planarally-planar-ally"><span class="std std-ref">planar ally</span></a> spell (or any similar calling effect), ceustodaemons take a –5 penalty on the initial Will save and on their Charisma check to refuse service. Ceustodaemons also take a –5 penalty on saves against <a class="reference internal" href="corerulebook.spells.binding.html#corerulebook-spells-binding-binding"><span class="std std-ref">binding</span></a>, <a class="reference internal" href="corerulebook.spells.planarbinding.html#corerulebook-spells-planarbinding-planar-binding"><span class="std std-ref">planar binding</span></a>, and other spells designed to bind a creature to a particular plane as long as the <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-daemon-subtype"><span class="std std-ref">daemon</span></a> is commanded to serve as a guardian for a single area or small complex.
+Some claim the Four Horsemen created these creatures to serve as summoning fodder. Others believe that they form from neutral evil souls who commit suicide. Wherever the truth lies, ceustodaemons find themselves on the Material Plane more often than any other daemon, as they are easily pressured into service—many call these creatures “guardian daemons” as a result. Yet in the back of their wicked minds, ceustodaemons always think about escaping their bonds and ripping to shreds the ones who summoned them.
+Greater and lesser versions of these creatures exist. These variants can be represented by applying either the young creature or advanced creature simple templates, along with the following adjustments.</p>
+<p id="bestiary2-daemon-lesser-ceustodaemon"><strong>Lesser Ceustodaemon</strong>: This Medium daemon looks like a horned frog with a wide, toothy mouth. Its breath weapon is a chilling cone of ice that deals cold damage.</p>
+<p id="bestiary2-daemon-greater-ceustodaemon"><strong>Greater Ceustodaemon</strong>: This daemon resembles a gigantic humanoid bear with the talons of an eagle and curling ram horns sprouting from its head. Its breath weapon is a fan of sparks that deals electricity damage.</p>
+</div>
+</div>
+<div class="section" id="daemon-derghodaemon">
+<span id="bestiary2-daemon-daemon-derghodaemon"></span><h1><a class="toc-backref" href="#id75">Daemon, Derghodaemon</a><a class="headerlink" href="#daemon-derghodaemon" title="Permalink to this headline">¶</a></h1>
+<p>A deadly and vicious bouquet of insectile claws sprouts from this horrid, three-legged, multi-eyed beast.</p>
+<div class="section" id="derghodaemon">
+<span id="bestiary2-daemon-derghodaemon"></span><h2><a class="toc-backref" href="#id76">Derghodaemon</a><a class="headerlink" href="#derghodaemon" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 12</strong>
+<strong>XP 19,200</strong>
+NE Large <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-outsider"><span class="std std-ref">outsider</span></a> (<a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-daemon-subtype"><span class="std std-ref">daemon</span></a>, <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-evil-subtype"><span class="std std-ref">evil</span></a>, <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-extraplanar-subtype"><span class="std std-ref">extraplanar</span></a>)
+<strong>Init</strong> +5; <strong>Senses</strong> <a class="reference internal" href="bestiary.universalmonsterrules.html#bestiary-universalmonsterrules-all-around-vision"><span class="std std-ref">all-around vision</span></a>, darkvision 60 ft., <a class="reference internal" href="corerulebook.spells.detectmagic.html#corerulebook-spells-detectmagic-detect-magic"><span class="std std-ref">detect magic</span></a>, <a class="reference internal" href="corerulebook.spells.seeinvisibility.html#corerulebook-spells-seeinvisibility-see-invisibility"><span class="std std-ref">see invisibility</span></a>; <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> +28
+<strong>Aura</strong> <a class="reference internal" href="corerulebook.spells.feeblemind.html#corerulebook-spells-feeblemind-feeblemind"><span class="std std-ref">feeblemind</span></a> (DC 20)</p>
+</div>
+<div class="section" id="id12">
+<h2><a class="toc-backref" href="#id77">Defense</a><a class="headerlink" href="#id12" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 27, touch 14, flat-footed 22 (+5 Dex, +13 natural, –1 size)
+<strong>hp</strong> 161 (14d10+84)
+<strong>Fort</strong> +15, <strong>Ref</strong> +14, <strong>Will</strong> +7
+<strong>DR</strong> 10/good; <strong>Immune</strong> acid, death effects, <span class="xref std std-ref">disease</span>, <span class="xref std std-ref">poison</span>; <strong>Resist</strong> <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-cold-subtype"><span class="std std-ref">cold</span></a> 10, electricity 10, <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-fire-subtype"><span class="std std-ref">fire</span></a> 10; <strong>SR</strong> 23</p>
+</div>
+<div class="section" id="id13">
+<h2><a class="toc-backref" href="#id78">Offense</a><a class="headerlink" href="#id13" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 40 ft.
+<strong>Melee</strong> 5 claws +21 (1d6+8/19–20)
+<strong>Space</strong> 10 ft.; <strong>Reach</strong> 10 ft.
+<strong>Special Attacks</strong> rend (2 claws, 1d8+12 plus 2 Con damage)
+<strong>Spell-like Abilities</strong> (CL 12th; concentration +15)</p>
+<blockquote>
+<div>Constant—<a class="reference internal" href="corerulebook.spells.detectmagic.html#corerulebook-spells-detectmagic-detect-magic"><span class="std std-ref">detect magic</span></a>, <a class="reference internal" href="corerulebook.spells.seeinvisibility.html#corerulebook-spells-seeinvisibility-see-invisibility"><span class="std std-ref">see invisibility</span></a>
+At will—<a class="reference internal" href="corerulebook.spells.teleport.html#corerulebook-spells-teleport-teleport-greater"><span class="std std-ref">greater teleport</span></a> (self plus 50 lbs. of objects only)
+3/day—<a class="reference internal" href="corerulebook.spells.fear.html#corerulebook-spells-fear-fear"><span class="std std-ref">fear</span></a> (DC 17), quickened <a class="reference internal" href="corerulebook.spells.summonswarm.html#corerulebook-spells-summonswarm-summon-swarm"><span class="std std-ref">summon swarm</span></a>
+1/day—<a class="reference internal" href="corerulebook.spells.creepingdoom.html#corerulebook-spells-creepingdoom-creeping-doom"><span class="std std-ref">creeping doom</span></a>, <a class="reference internal" href="corerulebook.spells.insectplague.html#corerulebook-spells-insectplague-insect-plague"><span class="std std-ref">insect plague</span></a>, summon (level 4, 1 derghodaemon 30%)</div></blockquote>
+</div>
+<div class="section" id="id14">
+<h2><a class="toc-backref" href="#id79">Statistics</a><a class="headerlink" href="#id14" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 27, <strong>Dex</strong> 20, <strong>Con</strong> 22, <strong>Int</strong> 7, <strong>Wis</strong> 17, <strong>Cha</strong> 16
+<strong>Base Atk</strong> +14; <strong>CMB</strong> +23; <strong>CMD</strong> 38 (40 vs. trip)
+<strong>Feats</strong> <a class="reference internal" href="corerulebook.feats.html#cleave (combat)"><span class="std std-ref">Cleave</span></a>, <a class="reference internal" href="corerulebook.feats.html#critical focus (combat)"><span class="std std-ref">Critical Focus</span></a>, <a class="reference internal" href="corerulebook.feats.html#improved critical (combat)"><span class="std std-ref">Improved Critical</span></a> (claws), <a class="reference internal" href="corerulebook.feats.html#power attack (combat)"><span class="std std-ref">Power Attack</span></a>, <a class="reference internal" href="bestiary.monsterfeats.html#bestiary-monsterfeats-quicken-spell-like-ability"><span class="std std-ref">Quicken Spell-Like Ability</span></a> (<a class="reference internal" href="corerulebook.spells.summonswarm.html#corerulebook-spells-summonswarm-summon-swarm"><span class="std std-ref">summon swarm</span></a>), <a class="reference internal" href="corerulebook.feats.html#sickening critical (combat, critical)"><span class="std std-ref">Sickening Critical</span></a>, <a class="reference internal" href="corerulebook.feats.html#vital strike (combat)"><span class="std std-ref">Vital Strike</span></a>
+<strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.intimidate.html#corerulebook-skills-intimidate-intimidate"><span class="std std-ref">Intimidate</span></a> +20, <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> +28, <a class="reference internal" href="corerulebook.skills.sensemotive.html#corerulebook-skills-sensemotive-sense-motive"><span class="std std-ref">Sense Motive</span></a> +20, <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> +18; <strong>Racial Modifiers</strong> +4 Perception
+<strong>Languages</strong> Abyssal, Draconic, Infernal; telepathy 100 ft.
+<strong>SQ</strong> swarmwalking</p>
+</div>
+<div class="section" id="id15">
+<h2><a class="toc-backref" href="#id80">Ecology</a><a class="headerlink" href="#id15" title="Permalink to this headline">¶</a></h2>
+<p><strong>Environment</strong> any (Abaddon)
+<strong>Organization</strong>solitary or infestation (2–6)
+<strong>Treasure</strong> standard</p>
+</div>
+<div class="section" id="id16">
+<h2><a class="toc-backref" href="#id81">Special Abilities</a><a class="headerlink" href="#id16" title="Permalink to this headline">¶</a></h2>
+<p><strong>Feeblemind Aura (Su)</strong> By grinding and clicking its mandibles and chitinous plates together (a free action), a derghodaemon can affect all creatures within 30 feet as if by a <a class="reference internal" href="corerulebook.spells.feeblemind.html#corerulebook-spells-feeblemind-feeblemind"><span class="std std-ref">feeblemind</span></a> spell. Daemons are immune to this effect, but all other creatures must make a DC 20 Will save to resist the effects. A creature that makes this save is immune to the effect for 24 hours. A creature that fails remains affected as long as the derghodaemon continues to maintain the aura and the subject remains within 30 feet of the derghodaemon. Once either condition ends, the victim of this effect can attempt a new DC 20 Will save once per minute to recover from the effect; otherwise, it can be cured by a <a class="reference internal" href="corerulebook.spells.heal.html#corerulebook-spells-heal-heal"><span class="std std-ref">heal</span></a>, <a class="reference internal" href="corerulebook.spells.limitedwish.html#corerulebook-spells-limitedwish-limited-wish"><span class="std std-ref">limited wish</span></a>, <a class="reference internal" href="corerulebook.spells.miracle.html#corerulebook-spells-miracle-miracle"><span class="std std-ref">miracle</span></a>, or <a class="reference internal" href="corerulebook.spells.wish.html#corerulebook-spells-wish-wish"><span class="std std-ref">wish</span></a> spell. A derghodaemon cannot use its spell-like abilities or rend attack in any round in which it uses its feeblemind aura. This is a sonic mind-affecting effect. The save DC is Charisma-based.
+<strong>Swarmwalking (Su)</strong> A derghodaemon is immune to damage or <a class="reference internal" href="bestiary.universalmonsterrules.html#bestiary-universalmonsterrules-distraction"><span class="std std-ref">distraction</span></a> effects caused by swarms.
+These brutal daemons personify death resulting from violent insanity, such as being murdered by a maniac or torn to shreds by a pack of rabid predators. These insectoid creatures roam the Outer Planes, scavenging battlefields and following the inevitable trail of violence in those hostile worlds. They hunt the weak and dying along the fringe of battles, feeding off their victims’ suffering until they make their kill. Attacks from a derghodaemon often come from within a cloud of biting insects.
+Brutish and low on intellect, derghodaemons find themselves serving as front-line fighters in fiendish armies. A derghodaemon stands 9 feet tall and weighs 800 pounds.</p>
+</div>
+</div>
+<div class="section" id="daemon-hydrodaemon">
+<span id="bestiary2-daemon-daemon-hydrodaemon"></span><h1><a class="toc-backref" href="#id82">Daemon, Hydrodaemon</a><a class="headerlink" href="#daemon-hydrodaemon" title="Permalink to this headline">¶</a></h1>
+<p>The skin on this frog-like fiend is clammy and its eyes look dead and milky; its wide face is split by a fanged maw.</p>
+<div class="section" id="hydrodaemon">
+<span id="bestiary2-daemon-hydrodaemon"></span><h2><a class="toc-backref" href="#id83">Hydrodaemon</a><a class="headerlink" href="#hydrodaemon" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 8</strong>
+<strong>XP 4,800</strong>
+NE Large <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-outsider"><span class="std std-ref">outsider</span></a> (<a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-aquatic-subtype"><span class="std std-ref">aquatic</span></a>, <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-daemon-subtype"><span class="std std-ref">daemon</span></a>, <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-evil-subtype"><span class="std std-ref">evil</span></a>, <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-extraplanar-subtype"><span class="std std-ref">extraplanar</span></a>)
+<strong>Init</strong> +2; <strong>Senses</strong> darkvision 60 ft., <a class="reference internal" href="corerulebook.spells.detectmagic.html#corerulebook-spells-detectmagic-detect-magic"><span class="std std-ref">detect magic</span></a>; <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> +15</p>
+</div>
+<div class="section" id="id17">
+<h2><a class="toc-backref" href="#id84">Defense</a><a class="headerlink" href="#id17" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 20, touch 11, flat-footed 18 (+2 Dex, +9 natural, –1 size)
+<strong>hp</strong> 95 (10d10+40)
+<strong>Fort</strong> +11, <strong>Ref</strong> +9, <strong>Will</strong> +3
+<strong>DR</strong> 10/cold iron or silver; <strong>Immune</strong> acid, death effects, <span class="xref std std-ref">disease</span>, <span class="xref std std-ref">poison</span>, waters of the River Styx; <strong>Resist</strong> <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-cold-subtype"><span class="std std-ref">cold</span></a> 10, electricity 10, <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-fire-subtype"><span class="std std-ref">fire</span></a> 10; <strong>SR</strong> 19</p>
+</div>
+<div class="section" id="id18">
+<h2><a class="toc-backref" href="#id85">Offense</a><a class="headerlink" href="#id18" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 30 ft., fly 40 ft. (average; see glide, below), swim 60 ft.
+<strong>Melee</strong> bite +13 (1d8+4 plus <a class="reference internal" href="bestiary.universalmonsterrules.html#bestiary-universalmonsterrules-grab"><span class="std std-ref">grab</span></a>), 2 claws +13 (1d6+4)
+<strong>Ranged</strong>sleep spittle +11 (sleep)
+<strong>Space</strong> 10 ft.; <strong>Reach</strong> 10 ft.
+<strong>Special Attacks</strong> <a class="reference internal" href="bestiary.universalmonsterrules.html#bestiary-universalmonsterrules-rake"><span class="std std-ref">rake</span></a> (2 claws +13, 1d6+4)
+<strong>Spell-Like Abilities</strong> (CL 9th; concentration +11)</p>
+<blockquote>
+<div>Constant—<a class="reference internal" href="corerulebook.spells.detectmagic.html#corerulebook-spells-detectmagic-detect-magic"><span class="std std-ref">detect magic</span></a>, <a class="reference internal" href="corerulebook.spells.waterwalk.html#corerulebook-spells-waterwalk-water-walk"><span class="std std-ref">water walk</span></a>
+At will—<a class="reference internal" href="corerulebook.spells.acidarrow.html#corerulebook-spells-acidarrow-acid-arrow"><span class="std std-ref">acid arrow</span></a>, <a class="reference internal" href="corerulebook.spells.deeperdarkness.html#corerulebook-spells-deeperdarkness-deeper-darkness"><span class="std std-ref">deeper darkness</span></a>
+3/day—<a class="reference internal" href="corerulebook.spells.controlwater.html#corerulebook-spells-controlwater-control-water"><span class="std std-ref">control water</span></a>, <a class="reference internal" href="corerulebook.spells.teleport.html#corerulebook-spells-teleport-teleport-greater"><span class="std std-ref">greater teleport</span></a> (self plus 50 lbs. of objects only), <a class="reference internal" href="corerulebook.spells.summonmonster.html#corerulebook-spells-summonmonster-summon-monster-v"><span class="std std-ref">summon monster V</span></a> (Large water elemental only)
+1/day—<a class="reference internal" href="corerulebook.spells.desecrate.html#corerulebook-spells-desecrate-desecrate"><span class="std std-ref">desecrate</span></a>, summon (level 3, 1 hydrodaemon 50%)</div></blockquote>
+</div>
+<div class="section" id="id19">
+<h2><a class="toc-backref" href="#id86">Statistics</a><a class="headerlink" href="#id19" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 18, <strong>Dex</strong> 15, <strong>Con</strong> 18, <strong>Int</strong> 9, <strong>Wis</strong> 11, <strong>Cha</strong> 14
+<strong>Base Atk</strong> +10; <strong>CMB</strong> +15 (+9 grapple); <strong>CMD</strong> 27
+<strong>Feats</strong> <a class="reference internal" href="corerulebook.feats.html#cleave (combat)"><span class="std std-ref">Cleave</span></a>, <a class="reference internal" href="corerulebook.feats.html#point-blank shot (combat)"><span class="std std-ref">Point-Blank Shot</span></a>, <a class="reference internal" href="corerulebook.feats.html#power attack (combat)"><span class="std std-ref">Power Attack</span></a>, <a class="reference internal" href="corerulebook.feats.html#precise shot (combat)"><span class="std std-ref">Precise Shot</span></a>, <a class="reference internal" href="corerulebook.feats.html#corerulebook-feats-skill-focus"><span class="std std-ref">Skill Focus</span></a> (<a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a>)
+<strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.fly.html#corerulebook-skills-fly-fly"><span class="std std-ref">Fly</span></a> +0, <a class="reference internal" href="corerulebook.skills.intimidate.html#corerulebook-skills-intimidate-intimidate"><span class="std std-ref">Intimidate</span></a> +14, <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (planes) +10, <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> +15, <a class="reference internal" href="corerulebook.skills.sensemotive.html#corerulebook-skills-sensemotive-sense-motive"><span class="std std-ref">Sense Motive</span></a> +12, <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> +10, <a class="reference internal" href="corerulebook.skills.swim.html#corerulebook-skills-swim-swim"><span class="std std-ref">Swim</span></a> +21
+<strong>Languages</strong> Abyssal, Infernal; telepathy 100 ft.
+<strong>SQ</strong> amphibious, glide</p>
+</div>
+<div class="section" id="id20">
+<h2><a class="toc-backref" href="#id87">Ecology</a><a class="headerlink" href="#id20" title="Permalink to this headline">¶</a></h2>
+<p><strong>Environment</strong> any (Abaddon)
+<strong>Organization</strong> solitary, gang (2–5), or mob (6–12)
+<strong>Treasure</strong> standard</p>
+</div>
+<div class="section" id="id21">
+<h2><a class="toc-backref" href="#id88">Special Abilities</a><a class="headerlink" href="#id21" title="Permalink to this headline">¶</a></h2>
+<p><strong>Glide (Ex)</strong>A hydrodaemon can launch itself into the <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-air-subtype"><span class="std std-ref">air</span></a> and glide along for 1 minute, gaining a fly speed of 40 feet with average maneuverability. While gliding, the hydrodaemon gains the <a class="reference internal" href="bestiary.universalmonsterrules.html#bestiary-universalmonsterrules-pounce"><span class="std std-ref">pounce</span></a> ability.
+<strong>Sleep Spittle (Su)</strong>A hydrodaemon can spit at a single target within 20 feet, making a ranged touch attack as a standard action. A target hit by this spittle must succeed on a DC 19 Will save or fall asleep for 6 rounds. The save DC is Constitution-based.
+While at first glance these creatures seem like enormous and foul boggards, their dangerous gait, dead eyes, and wicked claws give away their fiendish nature. In their home environment, hydrodaemons swim the sickening rivers and seas of Abaddon and the River Styx, ducking beneath the rivers of pus and bile only to leap out at enemies and rend their flesh with tooth and claw. It is said these are among the few creatures able to survive in the deadly waters of the River Styx. When called to the Material Plane, hydrodaemons serve powerful spellcasters, protecting domains dotted with pools, streams, and even sewer complexes. Associated with death by drowning, these fiends use a favored tactic to draw the most anguish from their victims. Hydrodaemons first attack with their inky black sleep spittle, hoping to render victims unconscious. With their opponents unable to fight back, hydrodaemons drag their enemies into the foul waters they call home and delight as the liquid fills their victims’ gasping lungs. If unable to drown a victim, they finish the job with jaws and claws.
+Hydrodaemons possess an awkward gait, springing back on their heels and leaping about like humanoid frogs. Even so, they move in an unpredictable manner, twisting their bodies with each hopping movement. Hydrodaemons can also unfurl flaps of skin that allow them to glide through the air. Hydrodaemons stand 10 feet tall and weigh upward of 3,000 pounds.</p>
+</div>
+</div>
+<div class="section" id="daemon-leukodaemon">
+<span id="bestiary2-daemon-daemon-leukodaemon"></span><h1><a class="toc-backref" href="#id89">Daemon, Leukodaemon</a><a class="headerlink" href="#daemon-leukodaemon" title="Permalink to this headline">¶</a></h1>
+<p>This human-shaped beast has a horse’s skull for a head. It walks on cracked hooves and bears the rotting wings of a carrion bird.</p>
+<div class="section" id="leukodaemon">
+<span id="bestiary2-daemon-leukodaemon"></span><h2><a class="toc-backref" href="#id90">Leukodaemon</a><a class="headerlink" href="#leukodaemon" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 9</strong>
+<strong>XP 6,400</strong>
+NE Large <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-outsider"><span class="std std-ref">outsider</span></a> (<a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-daemon-subtype"><span class="std std-ref">daemon</span></a>, <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-evil-subtype"><span class="std std-ref">evil</span></a>, <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-extraplanar-subtype"><span class="std std-ref">extraplanar</span></a>)
+<strong>Init</strong> +11; <strong>Senses</strong> darkvision 60 ft., <a class="reference internal" href="corerulebook.spells.deathwatch.html#corerulebook-spells-deathwatch-deathwatch"><span class="std std-ref">deathwatch</span></a>, <a class="reference internal" href="corerulebook.spells.detectgood.html#corerulebook-spells-detectgood-detect-good"><span class="std std-ref">detect good</span></a>; <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> +22
+<strong>Aura</strong> infectious aura (50 ft.)</p>
+</div>
+<div class="section" id="id22">
+<h2><a class="toc-backref" href="#id91">Defense</a><a class="headerlink" href="#id22" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 23, touch 16, flat-footed 16 (+7 Dex, +7 natural, –1 size)
+<strong>hp</strong> 115 (10d10+60)
+<strong>Fort</strong> +9, <strong>Ref</strong> +14, <strong>Will</strong> +12
+<strong>DR</strong> 10/good or silver; <strong>Immune</strong> acid, death effects, <span class="xref std std-ref">disease</span>, <span class="xref std std-ref">poison</span>; <strong>Resist</strong> <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-cold-subtype"><span class="std std-ref">cold</span></a> 10, electricity 10, <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-fire-subtype"><span class="std std-ref">fire</span></a> 10; <strong>SR</strong> 20</p>
+</div>
+<div class="section" id="id23">
+<h2><a class="toc-backref" href="#id92">Offense</a><a class="headerlink" href="#id23" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 30 ft., fly 60 ft. (average)
+<strong>Melee</strong> bite +16 (1d8+7), 2 claws +16 (1d6+7)
+<strong>Ranged</strong><em>+1 composite longbow</em> +18/+13 (2d6+8/×3 plus contagion)
+<strong>Space</strong> 10 ft.; <strong>Reach</strong> 10 ft.
+<strong>Special Attacks</strong> breath of flies
+<strong>Spell-Like Abilities</strong> (CL 10th; concentration +13)</p>
+<blockquote>
+<div>Constant—<a class="reference internal" href="corerulebook.spells.deathwatch.html#corerulebook-spells-deathwatch-deathwatch"><span class="std std-ref">deathwatch</span></a>, <a class="reference internal" href="corerulebook.spells.detectgood.html#corerulebook-spells-detectgood-detect-good"><span class="std std-ref">detect good</span></a>
+At will—<a class="reference internal" href="corerulebook.spells.contagion.html#corerulebook-spells-contagion-contagion"><span class="std std-ref">contagion</span></a> (DC 17), <a class="reference internal" href="corerulebook.spells.dispelmagic.html#corerulebook-spells-dispelmagic-dispel-magic"><span class="std std-ref">dispel magic</span></a>, <a class="reference internal" href="corerulebook.spells.teleport.html#corerulebook-spells-teleport-teleport-greater"><span class="std std-ref">greater teleport</span></a> (self plus 50 lbs. of objects only)
+1/day­—<a class="reference internal" href="corerulebook.spells.harm.html#corerulebook-spells-harm-harm"><span class="std std-ref">harm</span></a> (DC 19), summon (level 3, 1 leukodaemon only, 35%)</div></blockquote>
+</div>
+<div class="section" id="id24">
+<h2><a class="toc-backref" href="#id93">Statistics</a><a class="headerlink" href="#id24" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 25, <strong>Dex</strong> 24, <strong>Con</strong> 23, <strong>Int</strong> 16, <strong>Wis</strong> 21, <strong>Cha</strong> 16
+<strong>Base Atk</strong> +10; <strong>CMB</strong> +18; <strong>CMD</strong> 35
+<strong>Feats</strong> <a class="reference internal" href="corerulebook.feats.html#corerulebook-feats-alertness"><span class="std std-ref">Alertness</span></a>, <a class="reference internal" href="bestiary.monsterfeats.html#bestiary-monsterfeats-hover"><span class="std std-ref">Hover</span></a>, <a class="reference internal" href="corerulebook.feats.html#improved initiative (combat)"><span class="std std-ref">Improved Initiative</span></a>, <a class="reference internal" href="corerulebook.feats.html#point-blank shot (combat)"><span class="std std-ref">Point-Blank Shot</span></a>, <a class="reference internal" href="corerulebook.feats.html#weapon focus (combat)"><span class="std std-ref">Weapon Focus</span></a> (longbow)
+<strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.fly.html#corerulebook-skills-fly-fly"><span class="std std-ref">Fly</span></a> +18, <a class="reference internal" href="corerulebook.skills.heal.html#corerulebook-skills-heal-heal"><span class="std std-ref">Heal</span></a> +18, <a class="reference internal" href="corerulebook.skills.intimidate.html#corerulebook-skills-intimidate-intimidate"><span class="std std-ref">Intimidate</span></a> +16, <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (planes) +16, <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> +22, <a class="reference internal" href="corerulebook.skills.sensemotive.html#corerulebook-skills-sensemotive-sense-motive"><span class="std std-ref">Sense Motive</span></a> +22, <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> +16, <a class="reference internal" href="corerulebook.skills.survival.html#corerulebook-skills-survival-survival"><span class="std std-ref">Survival</span></a> +15, <a class="reference internal" href="corerulebook.skills.usemagicdevice.html#corerulebook-skills-usemagicdevice-use-magic-device"><span class="std std-ref">Use Magic Device</span></a> +16
+<strong>Languages</strong> Abyssal, Draconic, Infernal; telepathy 100 ft.</p>
+</div>
+<div class="section" id="id25">
+<h2><a class="toc-backref" href="#id94">Ecology</a><a class="headerlink" href="#id25" title="Permalink to this headline">¶</a></h2>
+<p><strong>Environment</strong> any (Abaddon)
+<strong>Organization</strong> solitary or wake (2–10)
+<strong>Treasure</strong> standard (+1 <em>composite longbow</em>, other treasure)</p>
+</div>
+<div class="section" id="id26">
+<h2><a class="toc-backref" href="#id95">Special Abilities</a><a class="headerlink" href="#id26" title="Permalink to this headline">¶</a></h2>
+<p><strong>Breath of Flies (Su)</strong>Once per minute as a standard action, a leukodaemon can unleash a cloud of corpse-bloated, biting black flies in a 20-foot cone. Those caught in the cone take 8d6 points of slashing damage. A DC 21 Reflex save halves this damage. Those who take any damage are also sickened for 1 minute. In addition, the flies linger for 1d4+1 rounds, congealing into a buzzing 20-foot-square cloud centered on the cone’s original point of origin. Any creature that ends its turn in this cloud must make a DC 21 Reflex save to avoid taking 4d6 points of damage and becoming sickened for 1 minute. This cloud of flies may be dispersed by any area effect that does damage or creates wind of at least strong wind force. All daemons are immune to this effect. The save DCs are Constitution-based.
+<strong>Contagion (Su)</strong>Any arrow a leukodaemon fires from a bow is tainted with <span class="xref std std-ref">disease</span>. If a creature is damaged by a leukodaemon’s arrow, it must make a DC 19 Fortitude save or be affected as if by the spell <a class="reference internal" href="corerulebook.spells.contagion.html#corerulebook-spells-contagion-contagion"><span class="std std-ref">contagion</span></a>. A leukodaemon can manifest arrows at will and never runs out of ammunition.
+<strong>Infectious Aura (Su)</strong>All creatures within 50 feet of a leukodaemon take a –4 penalty on Fortitude saves against <span class="xref std std-ref">disease</span> effects.
+Deacons of the Horseman of Pestilence, leukodaemons serve their lord in Abaddon as well as across the planes by spreading plagues and pandemics.
+Leukodaemons stand upward of 14 feet tall but weigh just over 200 pounds. The skulls that serve as their heads can be replaced with any skulls, yet these creatures choose horse skulls to show their loyalty to the Horsemen. The creature’s true head is merely a blistered knob between its shoulders.</p>
+</div>
+</div>
+<div class="section" id="daemon-meladaemon">
+<span id="bestiary2-daemon-daemon-meladaemon"></span><h1><a class="toc-backref" href="#id96">Daemon, Meladaemon</a><a class="headerlink" href="#daemon-meladaemon" title="Permalink to this headline">¶</a></h1>
+<p>This foul creature looks like an emaciated humanoid with the head of a jackal.</p>
+<div class="section" id="meladaemon">
+<span id="bestiary2-daemon-meladaemon"></span><h2><a class="toc-backref" href="#id97">Meladaemon</a><a class="headerlink" href="#meladaemon" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 11</strong>
+<strong>XP 12,800</strong>
+NE Large <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-outsider"><span class="std std-ref">outsider</span></a> (<a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-daemon-subtype"><span class="std std-ref">daemon</span></a>, <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-evil-subtype"><span class="std std-ref">evil</span></a>, <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-extraplanar-subtype"><span class="std std-ref">extraplanar</span></a>)
+<strong>Init</strong> +6; <strong>Senses</strong> darkvision 60 ft., <a class="reference internal" href="corerulebook.spells.detectgood.html#corerulebook-spells-detectgood-detect-good"><span class="std std-ref">detect good</span></a>, <a class="reference internal" href="corerulebook.spells.detectmagic.html#corerulebook-spells-detectmagic-detect-magic"><span class="std std-ref">detect magic</span></a>; <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> +20
+<strong>Aura</strong> consumptive aura (20 ft.)</p>
+</div>
+<div class="section" id="id27">
+<h2><a class="toc-backref" href="#id98">Defense</a><a class="headerlink" href="#id27" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 25, touch 15, flat-footed 19 (+6 Dex, +10 natural, –1 size)
+<strong>hp</strong> 147 (14d10+70)
+<strong>Fort</strong> +11, <strong>Ref</strong> +15, <strong>Will</strong> +14
+<strong>DR</strong> 10/good; <strong>Immune</strong> acid, critical hits, death effects, <span class="xref std std-ref">disease</span>, <span class="xref std std-ref">poison</span>, sneak attack; <strong>Resist</strong> <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-cold-subtype"><span class="std std-ref">cold</span></a> 10, electricity 10, <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-fire-subtype"><span class="std std-ref">fire</span></a> 10; <strong>SR</strong> 22</p>
+</div>
+<div class="section" id="id28">
+<h2><a class="toc-backref" href="#id99">Offense</a><a class="headerlink" href="#id28" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 30 ft., fly 60 ft. (average)
+<strong>Melee</strong> bite +20 (2d8+6/19–20 plus <span class="xref std std-ref">disease</span>), 2 claws +19 (2d6+6 plus hunger)
+<strong>Space</strong> 10 ft.; <strong>Reach</strong> 10 ft.
+<strong>Spell-Like Abilities</strong> (CL 11th; concentration +15)</p>
+<blockquote>
+<div>Constant—<a class="reference internal" href="corerulebook.spells.detectgood.html#corerulebook-spells-detectgood-detect-good"><span class="std std-ref">detect good</span></a>, <a class="reference internal" href="corerulebook.spells.detectmagic.html#corerulebook-spells-detectmagic-detect-magic"><span class="std std-ref">detect magic</span></a>, <a class="reference internal" href="corerulebook.spells.seeinvisibility.html#corerulebook-spells-seeinvisibility-see-invisibility"><span class="std std-ref">see invisibility</span></a>
+At will—<em>cause fear</em> (DC 15), <a class="reference internal" href="corerulebook.spells.deeperdarkness.html#corerulebook-spells-deeperdarkness-deeper-darkness"><span class="std std-ref">deeper darkness</span></a>, <a class="reference internal" href="corerulebook.spells.teleport.html#corerulebook-spells-teleport-teleport-greater"><span class="std std-ref">greater teleport</span></a> (self plus 50 lbs. of objects only)
+3/day—<a class="reference internal" href="corerulebook.spells.blight.html#corerulebook-spells-blight-blight"><span class="std std-ref">blight</span></a> (DC 19), <a class="reference internal" href="corerulebook.spells.diminishplants.html#corerulebook-spells-diminishplants-diminish-plants"><span class="std std-ref">diminish plants</span></a>, quickened <a class="reference internal" href="corerulebook.spells.magicmissile.html#corerulebook-spells-magicmissile-magic-missile"><span class="std std-ref">magic missile</span></a>
+1/day—<a class="reference internal" href="corerulebook.spells.horridwilting.html#corerulebook-spells-horridwilting-horrid-wilting"><span class="std std-ref">horrid wilting</span></a> (DC 22), <a class="reference internal" href="corerulebook.spells.wavesoffatigue.html#corerulebook-spells-wavesoffatigue-waves-of-fatigue"><span class="std std-ref">waves of fatigue</span></a></div></blockquote>
+</div>
+<div class="section" id="id29">
+<h2><a class="toc-backref" href="#id100">Statistics</a><a class="headerlink" href="#id29" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 22, <strong>Dex</strong> 22, <strong>Con</strong> 21, <strong>Int</strong> 21, <strong>Wis</strong> 17, <strong>Cha</strong> 18
+<strong>Base Atk</strong> +14; <strong>CMB</strong> +21; <strong>CMD</strong> 37
+<strong>Feats</strong> <a class="reference internal" href="corerulebook.feats.html#blind-fight (combat)"><span class="std std-ref">Blind-Fight</span></a>, <a class="reference internal" href="corerulebook.feats.html#combat reflexes (combat)"><span class="std std-ref">Combat Reflexes</span></a>, <a class="reference internal" href="corerulebook.feats.html#corerulebook-feats-great-fortitude"><span class="std std-ref">Great Fortitude</span></a>, <a class="reference internal" href="corerulebook.feats.html#improved critical (combat)"><span class="std std-ref">Improved Critical</span></a> (bite), <a class="reference internal" href="corerulebook.feats.html#corerulebook-feats-iron-will"><span class="std std-ref">Iron Will</span></a>, <a class="reference internal" href="bestiary.monsterfeats.html#bestiary-monsterfeats-quicken-spell-like-ability"><span class="std std-ref">Quicken Spell-Like Ability</span></a> (<a class="reference internal" href="corerulebook.spells.magicmissile.html#corerulebook-spells-magicmissile-magic-missile"><span class="std std-ref">magic missile</span></a>), <a class="reference internal" href="corerulebook.feats.html#weapon focus (combat)"><span class="std std-ref">Weapon Focus</span></a> (bite)
+<strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.bluff.html#corerulebook-skills-bluff-bluff"><span class="std std-ref">Bluff</span></a> +21, <a class="reference internal" href="corerulebook.skills.fly.html#corerulebook-skills-fly-fly"><span class="std std-ref">Fly</span></a> +17, <a class="reference internal" href="corerulebook.skills.heal.html#corerulebook-skills-heal-heal"><span class="std std-ref">Heal</span></a> +11, <a class="reference internal" href="corerulebook.skills.intimidate.html#corerulebook-skills-intimidate-intimidate"><span class="std std-ref">Intimidate</span></a> +21, <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (planes) +22, <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (religion) +22, <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> +20, <a class="reference internal" href="corerulebook.skills.sensemotive.html#corerulebook-skills-sensemotive-sense-motive"><span class="std std-ref">Sense Motive</span></a> +20, <a class="reference internal" href="corerulebook.skills.spellcraft.html#corerulebook-skills-spellcraft-spellcraft"><span class="std std-ref">Spellcraft</span></a> +22, <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> +19, <a class="reference internal" href="corerulebook.skills.survival.html#corerulebook-skills-survival-survival"><span class="std std-ref">Survival</span></a> +20, <a class="reference internal" href="corerulebook.skills.usemagicdevice.html#corerulebook-skills-usemagicdevice-use-magic-device"><span class="std std-ref">Use Magic Device</span></a> +14
+<strong>Languages</strong> Abyssal, Draconic, Infernal; telepathy 100 ft.</p>
+</div>
+<div class="section" id="id30">
+<h2><a class="toc-backref" href="#id101">Ecology</a><a class="headerlink" href="#id30" title="Permalink to this headline">¶</a></h2>
+<p><strong>Environment</strong> any (Abaddon)
+<strong>Organization</strong> solitary, pack (2–5), or cabal (6–12)
+<strong>Treasure</strong> standard</p>
+</div>
+<div class="section" id="id31">
+<h2><a class="toc-backref" href="#id102">Special Abilities</a><a class="headerlink" href="#id31" title="Permalink to this headline">¶</a></h2>
+<p><strong>Consumptive Aura (Su)</strong> A meladaemon radiates an aura of hunger to a radius of 20 feet. Every round a creature begins its turn within this aura, it must succeed at a DC 22 Fortitude save or take 1d6 nonlethal damage and become fatigued from extreme hunger. Creatures that do not need to eat are immune to this effect. The save DC is Constitution-based.
+<span class="xref std std-ref">Disease</span> (Ex) <em>Daemonic wasting</em>: Bite—injury; <em>save</em> Fort DC 22; <em>onset</em> 1 day; <em>frequency</em> 1/day; <em>effect</em> 1d4 Con and 1d4 Cha damage; <em>cure</em> 2 consecutive saves. The save DC is Constitution-based.
+<strong>Hunger (Su)</strong> A meladaemon’s claw attack deals an additional 1d6 points of nonlethal damage as it causes sudden pangs of horrific hunger in its foe. Creatures that do not need to eat are immune to this effect.
+As personifications of death from starvation and thirst, these withered fiends spend their time destroying resources and spreading hunger. Deacons of the Horseman of Famine, these creatures visit worlds throughout the planes, destroying acres of crops and slaughtering livestock in order to harvest souls for their honored master. Meladaemons delight in the slow death of starvation, going so far as to experiment with various bodily deficiencies and mortal weaknesses. Arrogant and utterly bound to their patron, meladaemons rarely work with others of their kind and never serve any of the other three Horsemen except in the rarest of circumstances.
+Meladaemons stand approximately 12 feet tall and weigh 350 pounds.</p>
+</div>
+</div>
+<div class="section" id="daemon-olethrodaemon">
+<span id="bestiary2-daemon-daemon-olethrodaemon"></span><h1><a class="toc-backref" href="#id103">Daemon, Olethrodaemon</a><a class="headerlink" href="#daemon-olethrodaemon" title="Permalink to this headline">¶</a></h1>
+<p>Crowned with a wicked array of twisted horns, this wide-mouthed, spherical behemoth stands on four stout legs.</p>
+<div class="section" id="olethrodaemon">
+<span id="bestiary2-daemon-olethrodaemon"></span><h2><a class="toc-backref" href="#id104">Olethrodaemon</a><a class="headerlink" href="#olethrodaemon" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 20</strong>
+<strong>XP 307,200</strong>
+NE Gargantuan <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-outsider"><span class="std std-ref">outsider</span></a> (<a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-daemon-subtype"><span class="std std-ref">daemon</span></a>, <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-evil-subtype"><span class="std std-ref">evil</span></a>, <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-extraplanar-subtype"><span class="std std-ref">extraplanar</span></a>)
+<strong>Init</strong> +12; <strong>Senses</strong> darkvision 60 ft., <a class="reference internal" href="corerulebook.spells.trueseeing.html#corerulebook-spells-trueseeing-true-seeing"><span class="std std-ref">true seeing</span></a>; <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> +31
+<strong>Aura</strong> <a class="reference internal" href="corerulebook.spells.unholyaura.html#corerulebook-spells-unholyaura-unholy-aura"><span class="std std-ref">unholy aura</span></a></p>
+</div>
+<div class="section" id="id32">
+<h2><a class="toc-backref" href="#id105">Defense</a><a class="headerlink" href="#id32" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 38, touch 18, flat-footed 30 (+4 deflection, +8 Dex, +20 natural, –4 size)
+<strong>hp</strong> 370 (20d10+260)
+<strong>Fort</strong> +29, <strong>Ref</strong> +18, <strong>Will</strong> +26
+<strong>DR</strong> 10/good and silver; <strong>Immune</strong> acid, death effects, <span class="xref std std-ref">disease</span>, <span class="xref std std-ref">poison</span>; <strong>Resist</strong> <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-cold-subtype"><span class="std std-ref">cold</span></a> 10, electricity 10, <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-fire-subtype"><span class="std std-ref">fire</span></a> 10; <strong>SR</strong> 31</p>
+</div>
+<div class="section" id="id33">
+<h2><a class="toc-backref" href="#id106">Offense</a><a class="headerlink" href="#id33" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 40 ft., burrow 50 ft.
+<strong>Melee</strong> 2 bites +28 (2d8+12/19–20 plus <a class="reference internal" href="bestiary.universalmonsterrules.html#bestiary-universalmonsterrules-grab"><span class="std std-ref">grab</span></a>), 4 claws +28 (2d6+12 plus <a class="reference internal" href="bestiary.universalmonsterrules.html#bestiary-universalmonsterrules-grab"><span class="std std-ref">grab</span></a>), gore +28 (2d8+12)
+<strong>Space</strong> 20 ft.; <strong>Reach</strong> 20 ft.
+<strong>Special Attacks</strong> drain soul, soul-drained breath, trample (2d8+18, DC 32)
+<strong>Spell-Like Abilities</strong> (CL 20th; concentration +27)</p>
+<blockquote>
+<div>Constant—<a class="reference internal" href="corerulebook.spells.airwalk.html#corerulebook-spells-airwalk-air-walk"><span class="std std-ref">air walk</span></a>, <a class="reference internal" href="corerulebook.spells.trueseeing.html#corerulebook-spells-trueseeing-true-seeing"><span class="std std-ref">true seeing</span></a>, <a class="reference internal" href="corerulebook.spells.unholyaura.html#corerulebook-spells-unholyaura-unholy-aura"><span class="std std-ref">unholy aura</span></a> (DC 25)
+At will—<a class="reference internal" href="corerulebook.spells.teleport.html#corerulebook-spells-teleport-teleport-greater"><span class="std std-ref">greater teleport</span></a> (self plus 50 lbs. objects only), <a class="reference internal" href="corerulebook.spells.telekinesis.html#corerulebook-spells-telekinesis-telekinesis"><span class="std std-ref">telekinesis</span></a>, <a class="reference internal" href="corerulebook.spells.walloffire.html#corerulebook-spells-walloffire-wall-of-fire"><span class="std std-ref">wall of fire</span></a>, <a class="reference internal" href="corerulebook.spells.wallofice.html#corerulebook-spells-wallofice-wall-of-ice"><span class="std std-ref">wall of ice</span></a>
+3/day—quickened <a class="reference internal" href="corerulebook.spells.disintegrate.html#corerulebook-spells-disintegrate-disintegrate"><span class="std std-ref">disintegrate</span></a> (DC 23), <a class="reference internal" href="corerulebook.spells.wallofforce.html#corerulebook-spells-wallofforce-wall-of-force"><span class="std std-ref">wall of force</span></a>
+1/day—<a class="reference internal" href="corerulebook.spells.blasphemy.html#corerulebook-spells-blasphemy-blasphemy"><span class="std std-ref">blasphemy</span></a> (DC 24), summon (level 9 any 1 CR 19 or lower daemon, 100%), <a class="reference internal" href="corerulebook.spells.wailofthebanshee.html#corerulebook-spells-wailofthebanshee-wail-of-the-banshee"><span class="std std-ref">wail of the banshee</span></a> (DC 26)</div></blockquote>
+</div>
+<div class="section" id="id34">
+<h2><a class="toc-backref" href="#id107">Statistics</a><a class="headerlink" href="#id34" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 35, <strong>Dex</strong> 26, <strong>Con</strong> 37, <strong>Int</strong> 12, <strong>Wis</strong> 26, <strong>Cha</strong> 25
+<strong>Base Atk</strong> +20; <strong>CMB</strong> +36 (+40 grapple); <strong>CMD</strong> 54 (58 vs. trip)
+<strong>Feats</strong> <a class="reference internal" href="bestiary.monsterfeats.html#awesome blow (combat)"><span class="std std-ref">Awesome Blow</span></a>, <a class="reference internal" href="corerulebook.feats.html#cleave (combat)"><span class="std std-ref">Cleave</span></a>, <a class="reference internal" href="corerulebook.feats.html#great cleave (combat)"><span class="std std-ref">Great Cleave</span></a>, <a class="reference internal" href="corerulebook.feats.html#improved bull rush (combat)"><span class="std std-ref">Improved Bull Rush</span></a>, <a class="reference internal" href="corerulebook.feats.html#improved critical (combat)"><span class="std std-ref">Improved Critical</span></a> (bite), <a class="reference internal" href="corerulebook.feats.html#improved initiative (combat)"><span class="std std-ref">Improved Initiative</span></a>, <a class="reference internal" href="corerulebook.feats.html#improved sunder (combat)"><span class="std std-ref">Improved Sunder</span></a>, <a class="reference internal" href="corerulebook.feats.html#corerulebook-feats-iron-will"><span class="std std-ref">Iron Will</span></a>, <a class="reference internal" href="corerulebook.feats.html#power attack (combat)"><span class="std std-ref">Power Attack</span></a>, <a class="reference internal" href="bestiary.monsterfeats.html#bestiary-monsterfeats-quicken-spell-like-ability"><span class="std std-ref">Quicken Spell-Like Ability</span></a> (<a class="reference internal" href="corerulebook.spells.disintegrate.html#corerulebook-spells-disintegrate-disintegrate"><span class="std std-ref">disintegrate</span></a>)
+<strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> +35, <a class="reference internal" href="corerulebook.skills.intimidate.html#corerulebook-skills-intimidate-intimidate"><span class="std std-ref">Intimidate</span></a> +30, <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (planes) +24, <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> +31, <a class="reference internal" href="corerulebook.skills.sensemotive.html#corerulebook-skills-sensemotive-sense-motive"><span class="std std-ref">Sense Motive</span></a> +31, <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> +19, <a class="reference internal" href="corerulebook.skills.survival.html#corerulebook-skills-survival-survival"><span class="std std-ref">Survival</span></a> +31
+<strong>Languages</strong> Abyssal, Infernal; telepathy 100 ft.
+<strong>SQ</strong> adamantine claws</p>
+</div>
+<div class="section" id="id35">
+<h2><a class="toc-backref" href="#id108">Ecology</a><a class="headerlink" href="#id35" title="Permalink to this headline">¶</a></h2>
+<p><strong>Environment</strong> any (Abaddon)
+<strong>Organization</strong> solitary, pair, or apocalypse (3–5)
+<strong>Treasure</strong> standard</p>
+</div>
+<div class="section" id="id36">
+<h2><a class="toc-backref" href="#id109">Special Abilities</a><a class="headerlink" href="#id36" title="Permalink to this headline">¶</a></h2>
+<p><strong>Adamantine Claws (Ex)</strong> Able to tear through stone, an olethrodaemon’s claws are treated as though they were adamantine. This ability also allows an olethrodaemon to make use of its burrow speed through stone.
+<strong>Drain Soul (Su)</strong> A creature grappled by an olethrodaemon’s <a class="reference internal" href="bestiary.universalmonsterrules.html#bestiary-universalmonsterrules-grab"><span class="std std-ref">grab</span></a> attack from its claws can be transferred to its mouth as a move action requiring no combat maneuver check. As a standard action, an olethrodaemon that begins its turn with an opponent grappled in either of its mouths can swallow the opponent by succeeding on another grapple check. If successful, the creature is swallowed into one of the olethrodaemon’s many stomachs. These stomachs grind their contents and drain the life force from living creatures. Every round a creature remains in an olethrodaemon’s stomach, it takes 4d8+18 points of damage and gains 1d4 negative levels. The creature can attempt to cut its way out of the olethrodaemon’s stomach, but it suffers the chance of just cutting into another stomach chamber. An olethrodaemon’s stomach is AC 20 and has 40 hit points. Once a creature deals enough damage to allow escape, it has a 50% chance to end up in another stomach chamber instead of escaping. Due to the multiple stomach chambers, an olethrodaemon can house and drain up to four medium creatures at one time. This ability otherwise functions as the swallow whole special attack. It is a DC 33 Fortitude save to remove negative levels gained in this fashion. This save is Constitution-based.
+<strong>Soul-Drained Breath (Su)</strong> An olethrodaemon can convert life energy it has consumed into a potent <a class="reference internal" href="bestiary.universalmonsterrules.html#bestiary-universalmonsterrules-breath-weapon"><span class="std std-ref">breath weapon</span></a>. Up to three times per day, but no more often than once every 1d4 rounds, an olethrodaemon can expel a 120-foot line or a 60-foot cone of shrieking black smoke and wind from one of its mouths as a standard action. Any living creature in the area of this attack takes 20d10 points of damage from negative energy, or half on a successful DC 27 Reflex save. <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-undead"><span class="std std-ref">Undead</span></a> creatures caught in this negative energy are healed for the same amount instead of damaged. The save DC for this effect is Charisma-based.
+While some of the more powerful daemons are servitors to one of the Four Horsemen, olethrodaemons serve as juggernauts for all of the Four. These massive creatures are the embodiment of death and destruction­—the very vessels of apocalypse that daemons wish to see wrought upon the multiverse. These nihilistic behemoths roam the gray expanses of Abaddon, feasting on the souls of evil mortals damned to their realm. When on the Material Plane, olethrodaemons act as agents of destruction, spreading ruin and devouring mortal souls as they plow through cities and countrysides, bent on devastation. It’s rare for a mortal to be able to control such a potent force, but sometimes mad spellcasters utilize effects like <a class="reference internal" href="corerulebook.spells.gate.html#corerulebook-spells-gate-gate"><span class="std std-ref">gate</span></a> to urge an olethrodaemon to visit a devastating holocaust upon an enemy region—the olethrodaemon generally does not hold a grudge against a mortal that asks such a service from it.
+These immense creatures stand over 25 feet tall and weigh close to 12,000 pounds, their powerful, muscular bodies covered by durable plates and head thronged with dangerous, twisted horns. Olethrodaemons stand on four stout legs, and possess an equal number of arms, each ending in wickedly sharp claws able to tear through stone as easily as flesh. The creature’s eyes, as well as its two mouths, glow like coals in a kiln. The creature feeds on souls and has multiple stomachs to digest mortal essences.
+While not as intelligent or scheming as many other powerful daemons (or other fiends who match their power, for that matter), olethrodaemons remain dangerous foes. They do not generally wish to lead armies and gain power by control, but rather to revel in the evil purity of annihilation. Among olethrodaemons, the greatest desire is to be the one to devour the very last mortal soul. They angle and shove for this honor, often ceding a city or group of victims to a rival if they believe that, in so doing, they might gain the advantage of positioning to consume the final soul once the multiverse has been devoured.</p>
+</div>
+</div>
+<div class="section" id="olethrodaemon-paragons">
+<span id="bestiary2-daemon-olethrodaemon-paragons"></span><h1><a class="toc-backref" href="#id110">Olethrodaemon Paragons</a><a class="headerlink" href="#olethrodaemon-paragons" title="Permalink to this headline">¶</a></h1>
+<p>Just as powerful balors become lords and pit fiends clamor for positions as infernal dukes, olethrodaemons can achieve a unique level of power among their kin. These creatures are known as paragons, and gain this level of power by pledging their loyalty to one of the Four Horsemen as a chosen agent of apocalypse. These advanced olethrodaemons specialize in their patron’s particular method of annihilation, their abilities evolving to suit the method of ruin. An olethrodaemon paragon generally has from 4 to 8 additional Hit Dice, and is usually a CR 22 to CR 24 creature.
+Some planar scholars postulate that olethrodaemons are actually the creations of the Four Horsemen, and that the Four worked foul rites upon a fifth Horseman, with these interactions spawning olethrodaemons to serve their will and spread oblivion throughout the multiverse. The abilities of these chosen spawn warp to the tendencies of their daemonic lords.
+Olethrodaemons serving the Horseman of Pestilence can infect their victims with a powerful disease by means of all their natural attacks. Creatures who succumb to this attack are affected as if by a maximized <a class="reference internal" href="corerulebook.spells.contagion.html#corerulebook-spells-contagion-contagion"><span class="std std-ref">contagion</span></a> spell, heightened to 9th level.
+Olethrodaemons serving the Horseman of War can imbue their natural attacks with additional properties. As a free action, an olethrodaemon can apply any special weapon property equivalent to a +2 enhancement to its bite, claw, gore, or trample attacks for 1 round—most of these olethrodaemon paragons elect to grant their natural weapons the unholy enhancement.
+Olethrodaemons serving the Horseman of Famine gain the consumptive aura ability of the meladaemon, but the nonlethal damage dealt increases to 6d6 and victims who succumb become exhausted rather than merely fatigued.
+Olethrodaemons serving the Horseman of Death gain the ability to inflict a negative level on a foe each time they strike with a claw attack, or else gain the ability to cause those they damage to age rapidly and grow old and frail with hideous speed.</p>
+</div>
+<div class="section" id="daemon-piscodaemon">
+<span id="bestiary2-daemon-daemon-piscodaemon"></span><h1><a class="toc-backref" href="#id111">Daemon, Piscodaemon</a><a class="headerlink" href="#daemon-piscodaemon" title="Permalink to this headline">¶</a></h1>
+<p>This hideous cross between a lobster, an octopus, and a human threatens enemies with powerful claws and writhing tentacles.</p>
+<div class="section" id="piscodaemon">
+<span id="bestiary2-daemon-piscodaemon"></span><h2><a class="toc-backref" href="#id112">Piscodaemon</a><a class="headerlink" href="#piscodaemon" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 10</strong>
+XP 9,600
+NE Medium <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-outsider"><span class="std std-ref">outsider</span></a> (<a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-aquatic-subtype"><span class="std std-ref">aquatic</span></a>, <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-daemon-subtype"><span class="std std-ref">daemon</span></a>, <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-evil-subtype"><span class="std std-ref">evil</span></a>, <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-extraplanar-subtype"><span class="std std-ref">extraplanar</span></a>)
+<strong>Init</strong> +8; <strong>Senses</strong> darkvision 60 ft., <a class="reference internal" href="corerulebook.spells.detectgood.html#corerulebook-spells-detectgood-detect-good"><span class="std std-ref">detect good</span></a>, <a class="reference internal" href="corerulebook.spells.detectmagic.html#corerulebook-spells-detectmagic-detect-magic"><span class="std std-ref">detect magic</span></a>, <a class="reference internal" href="corerulebook.spells.seeinvisibility.html#corerulebook-spells-seeinvisibility-see-invisibility"><span class="std std-ref">see invisibility</span></a>; <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> +16</p>
+</div>
+<div class="section" id="id37">
+<h2><a class="toc-backref" href="#id113">Defense</a><a class="headerlink" href="#id37" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 24, touch 14, flat-footed 20 (+4 Dex, +10 natural)
+<strong>hp</strong> 137 (11d10+77)
+<strong>Fort</strong> +14, <strong>Ref</strong> +7, <strong>Will</strong> +9
+<strong>DR</strong> 10/good; <strong>Immune</strong> acid, death effects, <span class="xref std std-ref">disease</span>, <span class="xref std std-ref">poison</span>; <strong>Resist</strong> <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-cold-subtype"><span class="std std-ref">cold</span></a> 10, electricity 10, <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-fire-subtype"><span class="std std-ref">fire</span></a> 10; <strong>SR</strong> 21</p>
+</div>
+<div class="section" id="id38">
+<h2><a class="toc-backref" href="#id114">Offense</a><a class="headerlink" href="#id38" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 30 ft., swim 50 ft.
+<strong>Melee</strong> 2 claws +18 (2d6+7/18-20/×3 plus <a class="reference internal" href="bestiary.universalmonsterrules.html#bestiary-universalmonsterrules-grab"><span class="std std-ref">grab</span></a> and 1d6 <a class="reference internal" href="bestiary.universalmonsterrules.html#bestiary-universalmonsterrules-bleed"><span class="std std-ref">bleed</span></a>), tentacles +16 (1d10+3 plus <span class="xref std std-ref">poison</span>)
+<strong>Special Attacks</strong> <a class="reference internal" href="bestiary.universalmonsterrules.html#bestiary-universalmonsterrules-constrict"><span class="std std-ref">constrict</span></a> (2d6+10)
+<strong>Spell-Like Abilities</strong> (CL 11th; concentration +14)</p>
+<blockquote>
+<div>Constant—<a class="reference internal" href="corerulebook.spells.detectgood.html#corerulebook-spells-detectgood-detect-good"><span class="std std-ref">detect good</span></a>, <a class="reference internal" href="corerulebook.spells.detectmagic.html#corerulebook-spells-detectmagic-detect-magic"><span class="std std-ref">detect magic</span></a>, <a class="reference internal" href="corerulebook.spells.seeinvisibility.html#corerulebook-spells-seeinvisibility-see-invisibility"><span class="std std-ref">see invisibility</span></a>
+At will—<a class="reference internal" href="corerulebook.spells.dispelmagic.html#corerulebook-spells-dispelmagic-dispel-magic"><span class="std std-ref">dispel magic</span></a>, <a class="reference internal" href="corerulebook.spells.teleport.html#corerulebook-spells-teleport-teleport-greater"><span class="std std-ref">greater teleport</span></a> (self plus 50 lbs. of objects only)
+3/day—<a class="reference internal" href="corerulebook.spells.fly.html#corerulebook-spells-fly"><span class="std std-ref">fly</span></a>, <a class="reference internal" href="corerulebook.spells.stinkingcloud.html#corerulebook-spells-stinkingcloud-stinking-cloud"><span class="std std-ref">stinking cloud</span></a> (DC 16)
+1/day—summon (level 4, 1d3 hydrodaemons 35%)</div></blockquote>
+</div>
+<div class="section" id="id39">
+<h2><a class="toc-backref" href="#id115">Statistics</a><a class="headerlink" href="#id39" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 25, <strong>Dex</strong> 18, <strong>Con</strong> 24, <strong>Int</strong> 14, <strong>Wis</strong> 15, <strong>Cha</strong> 17
+<strong>Base Atk</strong> +11; <strong>CMB</strong> +18 (+22 grapple); <strong>CMD</strong> 32
+<strong>Feats</strong> <a class="reference internal" href="corerulebook.feats.html#critical focus (combat)"><span class="std std-ref">Critical Focus</span></a>, <a class="reference internal" href="corerulebook.feats.html#improved initiative (combat)"><span class="std std-ref">Improved Initiative</span></a>, <a class="reference internal" href="bestiary.monsterfeats.html#multiattack (combat)"><span class="std std-ref">Multiattack</span></a>, <a class="reference internal" href="corerulebook.feats.html#power attack (combat)"><span class="std std-ref">Power Attack</span></a>, <a class="reference internal" href="corerulebook.feats.html#sickening critical (combat, critical)"><span class="std std-ref">Sickening Critical</span></a>, <a class="reference internal" href="corerulebook.feats.html#vital strike (combat)"><span class="std std-ref">Vital Strike</span></a>
+<strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.escapeartist.html#corerulebook-skills-escapeartist-escape-artist"><span class="std std-ref">Escape Artist</span></a> +18, <a class="reference internal" href="corerulebook.skills.intimidate.html#corerulebook-skills-intimidate-intimidate"><span class="std std-ref">Intimidate</span></a> +17, <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (planes) +16, <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> +16, <a class="reference internal" href="corerulebook.skills.sensemotive.html#corerulebook-skills-sensemotive-sense-motive"><span class="std std-ref">Sense Motive</span></a> +16, <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> +18, <a class="reference internal" href="corerulebook.skills.survival.html#corerulebook-skills-survival-survival"><span class="std std-ref">Survival</span></a> +16, <a class="reference internal" href="corerulebook.skills.swim.html#corerulebook-skills-swim-swim"><span class="std std-ref">Swim</span></a> +29
+<strong>Languages</strong> Abyssal, Draconic, Infernal; telepathy 100 ft.
+<strong>SQ</strong> amphibious, <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-augmented-subtype"><span class="std std-ref">augmented</span></a> critical</p>
+</div>
+<div class="section" id="id40">
+<h2><a class="toc-backref" href="#id116">Ecology</a><a class="headerlink" href="#id40" title="Permalink to this headline">¶</a></h2>
+<p><strong>Environment</strong> any (Abaddon)
+<strong>Organization</strong> solitary, pair, or knot (3–5)
+<strong>Treasure</strong> standard</p>
+</div>
+<div class="section" id="id41">
+<h2><a class="toc-backref" href="#id117">Special Abilities</a><a class="headerlink" href="#id41" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-augmented-subtype"><span class="std std-ref">Augmented</span></a> Critical (Ex) A piscodaemon’s claws threaten a critical hit on an 18–20 and inflict ×3 damage on a successful critical hit.
+<span class="xref std std-ref">Poison</span> (Ex) Tentacles—injury; <em>save</em> Fort DC 22; <em>frequency</em> 1/round for 6 rounds; <em>effect</em> 1d2 Con plus staggered for 1 round; <em>cure</em> 2 consecutive saves.
+These aquatic daemons roam the lower planes sowing misery and blight. They delight in drawn-out deaths, poisoning creatures or dismembering victims to watch them slowly bleed out. On their home plane of Abaddon, piscodaemons gravitate toward the same aquatic regions inhabited by hydrodaemons, and often the stronger among their ranks end up leading armies of hydrodaemons against their enemies. These creatures serve as sergeants in the hierarchy of Abaddon, and run their units with an excess of cruelty and violence.
+Instead of preying on the weak, piscodaemons enjoy targeting strong, well-armored warriors, knowing the pain of their weakening poison rests poorly on shoulders accustomed to bearing heavy weights and delivering devastating blows.
+Piscodaemons are 7 feet tall and weigh 400 pounds.</p>
+</div>
+</div>
+<div class="section" id="daemon-purrodaemon">
+<span id="bestiary2-daemon-daemon-purrodaemon"></span><h1><a class="toc-backref" href="#id118">Daemon, Purrodaemon</a><a class="headerlink" href="#daemon-purrodaemon" title="Permalink to this headline">¶</a></h1>
+<p>Dozens of weapons pierce this massive monster’s body. Red eyes glow with wickedness in its vulture-like head.</p>
+<div class="section" id="purrodaemon">
+<span id="bestiary2-daemon-purrodaemon"></span><h2><a class="toc-backref" href="#id119">Purrodaemon</a><a class="headerlink" href="#purrodaemon" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 18</strong>
+XP 153,600
+NE Large <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-outsider"><span class="std std-ref">outsider</span></a> (<a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-daemon-subtype"><span class="std std-ref">daemon</span></a>, <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-evil-subtype"><span class="std std-ref">evil</span></a>, <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-extraplanar-subtype"><span class="std std-ref">extraplanar</span></a>)
+<strong>Init</strong> +10; <strong>Senses</strong> darkvision 60 ft., <a class="reference internal" href="corerulebook.spells.trueseeing.html#corerulebook-spells-trueseeing-true-seeing"><span class="std std-ref">true seeing</span></a>; <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> +26
+<strong>Aura</strong> <span class="xref std std-ref">fear</span> (15 ft., DC 24), <a class="reference internal" href="corerulebook.spells.unholyaura.html#corerulebook-spells-unholyaura-unholy-aura"><span class="std std-ref">unholy aura</span></a></p>
+</div>
+<div class="section" id="id42">
+<h2><a class="toc-backref" href="#id120">Defense</a><a class="headerlink" href="#id42" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 35, touch 19, flat-footed 29 (+4 deflection, +6 Dex, +16 natural, –1 size)
+<strong>hp</strong> 294 (19d10+190)
+<strong>Fort</strong> +25, <strong>Ref</strong> +21, <strong>Will</strong> +14
+<strong>DR</strong> 10/good and silver; <strong>Immune</strong> acid, death effects, <span class="xref std std-ref">disease</span>, <span class="xref std std-ref">poison</span>; <strong>Resist</strong> <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-cold-subtype"><span class="std std-ref">cold</span></a> 10, electricity 10, <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-fire-subtype"><span class="std std-ref">fire</span></a> 10; <strong>SR</strong> 29</p>
+</div>
+<div class="section" id="id43">
+<h2><a class="toc-backref" href="#id121">Offense</a><a class="headerlink" href="#id43" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 30 ft., fly 60 ft. (good)
+<strong>Melee</strong> +2 <a class="reference internal" href="corerulebook.magicitems.weapons.html#corerulebook-magicitems-weapons-wounding"><span class="std std-ref">wounding</span></a> halberd 2d8+18/19-20/x3, bite +24 (1d8+5)
+<strong>Space</strong> 10 ft.; <strong>Reach</strong> 10 ft.
+<strong>Special Attacks</strong> weapon steep
+<strong>Spell-Like Abilities</strong> (CL 18th; concentration +23)</p>
+<blockquote>
+<div>Constant—<a class="reference internal" href="corerulebook.spells.trueseeing.html#corerulebook-spells-trueseeing-true-seeing"><span class="std std-ref">true seeing</span></a>, <a class="reference internal" href="corerulebook.spells.unholyaura.html#corerulebook-spells-unholyaura-unholy-aura"><span class="std std-ref">unholy aura</span></a> (DC 23)
+At will—<a class="reference internal" href="corerulebook.spells.teleport.html#corerulebook-spells-teleport-teleport-greater"><span class="std std-ref">greater teleport</span></a> (self plus 50 lbs. of objects only)
+3/day—<a class="reference internal" href="corerulebook.spells.chainlightning.html#corerulebook-spells-chainlightning-chain-lightning"><span class="std std-ref">chain lightning</span></a> (DC 21), <a class="reference internal" href="corerulebook.spells.coneofcold.html#corerulebook-spells-coneofcold-cone-of-cold"><span class="std std-ref">cone of cold</span></a> (DC 20), <a class="reference internal" href="corerulebook.spells.flamestrike.html#corerulebook-spells-flamestrike-flame-strike"><span class="std std-ref">flame strike</span></a> (DC 20)
+1/day—summon (level 5, 2 derghodaemons 50%)</div></blockquote>
+</div>
+<div class="section" id="id44">
+<h2><a class="toc-backref" href="#id122">Statistics</a><a class="headerlink" href="#id44" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 32, <strong>Dex</strong> 23, <strong>Con</strong> 30, <strong>Int</strong> 17, <strong>Wis</strong> 18, <strong>Cha</strong> 21
+<strong>Base Atk</strong> +19; <strong>CMB</strong> +31; <strong>CMD</strong> 51
+<strong>Feats</strong> <a class="reference internal" href="corerulebook.feats.html#combat expertise (combat)"><span class="std std-ref">Combat Expertise</span></a>, <a class="reference internal" href="corerulebook.feats.html#combat reflexes (combat)"><span class="std std-ref">Combat Reflexes</span></a>, <a class="reference internal" href="corerulebook.feats.html#greater vital strike (combat)"><span class="std std-ref">Greater Vital Strike</span></a>, <a class="reference internal" href="corerulebook.feats.html#improved critical (combat)"><span class="std std-ref">Improved Critical</span></a><sup>B</sup> (halberd), <a class="reference internal" href="corerulebook.feats.html#improved initiative (combat)"><span class="std std-ref">Improved Initiative</span></a>, <a class="reference internal" href="corerulebook.feats.html#improved sunder (combat)"><span class="std std-ref">Improved Sunder</span></a>, <a class="reference internal" href="corerulebook.feats.html#improved vital strike (combat)"><span class="std std-ref">Improved Vital Strike</span></a>, <a class="reference internal" href="corerulebook.feats.html#lunge (combat)"><span class="std std-ref">Lunge</span></a>, <a class="reference internal" href="corerulebook.feats.html#power attack (combat)"><span class="std std-ref">Power Attack</span></a>, <a class="reference internal" href="corerulebook.feats.html#quick draw (combat)"><span class="std std-ref">Quick Draw</span></a>, <a class="reference internal" href="corerulebook.feats.html#vital strike (combat)"><span class="std std-ref">Vital Strike</span></a>, <a class="reference internal" href="corerulebook.feats.html#weapon focus (combat)"><span class="std std-ref">Weapon Focus</span></a><sup>B</sup> (halberd)
+<strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a> +28, <a class="reference internal" href="corerulebook.skills.bluff.html#corerulebook-skills-bluff-bluff"><span class="std std-ref">Bluff</span></a> +21, <a class="reference internal" href="corerulebook.skills.diplomacy.html#corerulebook-skills-diplomacy-diplomacy"><span class="std std-ref">Diplomacy</span></a> +17, <a class="reference internal" href="corerulebook.skills.fly.html#corerulebook-skills-fly-fly"><span class="std std-ref">Fly</span></a> +16, <a class="reference internal" href="corerulebook.skills.intimidate.html#corerulebook-skills-intimidate-intimidate"><span class="std std-ref">Intimidate</span></a> +27, <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (planes) +25, <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> +26, <a class="reference internal" href="corerulebook.skills.sensemotive.html#corerulebook-skills-sensemotive-sense-motive"><span class="std std-ref">Sense Motive</span></a> +26, <a class="reference internal" href="corerulebook.skills.spellcraft.html#corerulebook-skills-spellcraft-spellcraft"><span class="std std-ref">Spellcraft</span></a> +23, <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> +24, <a class="reference internal" href="corerulebook.skills.survival.html#corerulebook-skills-survival-survival"><span class="std std-ref">Survival</span></a> +17
+<strong>Languages</strong> Abyssal, Draconic, Infernal; telepathy 100 ft.</p>
+</div>
+<div class="section" id="id45">
+<h2><a class="toc-backref" href="#id123">Ecology</a><a class="headerlink" href="#id45" title="Permalink to this headline">¶</a></h2>
+<p><strong>Environment</strong> any (Abaddon)
+<strong>Organization</strong> solitary, patrol (2–5), or unit (6–12)
+<strong>Treasure</strong> standard</p>
+</div>
+<div class="section" id="id46">
+<h2><a class="toc-backref" href="#id124">Special Abilities</a><a class="headerlink" href="#id46" title="Permalink to this headline">¶</a></h2>
+<p><strong>Weapon Steep (Su)</strong> A purrodaemon can sheathe a weapon in its flesh as a swift action. This does no damage to the <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-daemon-subtype"><span class="std std-ref">daemon</span></a>. If a weapon remains sheathed in its body for at least 24 hours, the weapon absorbs some of its essence and gains magical enhancements. A purrodaemon can have up to a dozen weapons lodged in its body at a time, but only one can possess magical enhancements at a time. The total enhancements cannot exceed a +4 effective enhancement—most purrodaemons opt to create +2 <a class="reference internal" href="corerulebook.magicitems.weapons.html#corerulebook-magicitems-weapons-wounding"><span class="std std-ref">wounding</span></a> weapons in this manner. A weapon’s enhancements vanish as soon as the purrodaemon dies or releases the weapon. A purrodaemon gains <a class="reference internal" href="corerulebook.feats.html#weapon focus (combat)"><span class="std std-ref">Weapon Focus</span></a> and <a class="reference internal" href="corerulebook.feats.html#improved critical (combat)"><span class="std std-ref">Improved Critical</span></a> as bonus feats as long as it wields a weapon benefiting from its weapon steep ability.
+Deacons of War, purrodaemons ravage the planes as generals of massive battles. They employ creative tactics and never launch an assault without carefully looking over the plans or surveying the battlefield themselves. A purrodaemon is 12 feet tall and weighs 1,300 pounds.</p>
+</div>
+</div>
+<div class="section" id="daemon-thanadaemon">
+<span id="bestiary2-daemon-daemon-thanadaemon"></span><h1><a class="toc-backref" href="#id125">Daemon, Thanadaemon</a><a class="headerlink" href="#daemon-thanadaemon" title="Permalink to this headline">¶</a></h1>
+<p>Rattling with each stride, this looming, horned, skeletal figure clutches a wicked staff. A seething glow burns in its eye sockets.</p>
+<div class="section" id="thanadaemon">
+<span id="bestiary2-daemon-thanadaemon"></span><h2><a class="toc-backref" href="#id126">Thanadaemon</a><a class="headerlink" href="#thanadaemon" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 13</strong>
+<strong>XP 25,600</strong>
+NE Medium <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-outsider"><span class="std std-ref">outsider</span></a> (<a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-daemon-subtype"><span class="std std-ref">daemon</span></a>, <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-evil-subtype"><span class="std std-ref">evil</span></a>, <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-extraplanar-subtype"><span class="std std-ref">extraplanar</span></a>)
+<strong>Init</strong> +7; <strong>Senses</strong> darkvision 60 ft., <a class="reference internal" href="corerulebook.spells.trueseeing.html#corerulebook-spells-trueseeing-true-seeing"><span class="std std-ref">true seeing</span></a>; <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> +25</p>
+</div>
+<div class="section" id="id47">
+<h2><a class="toc-backref" href="#id127">Defense</a><a class="headerlink" href="#id47" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 27, touch 14, flat-footed 23 (+3 Dex, +1 dodge, +13 natural)
+<strong>hp</strong> 172 (15d10+90)
+<strong>Fort</strong> +11, <strong>Ref</strong> +12, <strong>Will</strong> +14
+<strong>DR</strong> 10/good; <strong>Immune</strong> acid, death effects, <span class="xref std std-ref">disease</span>, <span class="xref std std-ref">poison</span>; <strong>Resist</strong> <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-cold-subtype"><span class="std std-ref">cold</span></a> 10, electricity 10, <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-fire-subtype"><span class="std std-ref">fire</span></a> 10; <strong>SR</strong> 24</p>
+</div>
+<div class="section" id="id48">
+<h2><a class="toc-backref" href="#id128">Offense</a><a class="headerlink" href="#id48" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 30 ft.
+<strong>Melee</strong> <em>+2 quarterstaff</em> +22/+17/+12 (1d6+9 plus energy drain) or
+2 claws +20 (1d4+5 plus energy drain)
+<strong>Special Attacks</strong> draining weapon, energy drain (1 level, DC 21), <span class="xref std std-ref">fear</span> <a class="reference internal" href="bestiary.universalmonsterrules.html#bestiary-universalmonsterrules-gaze"><span class="std std-ref">gaze</span></a>, soul crush
+<strong>Spell-Like Abilities</strong> (CL 15th; concentration +19)</p>
+<blockquote>
+<div>Constant—<a class="reference internal" href="corerulebook.spells.airwalk.html#corerulebook-spells-airwalk-air-walk"><span class="std std-ref">air walk</span></a>, <a class="reference internal" href="corerulebook.spells.trueseeing.html#corerulebook-spells-trueseeing-true-seeing"><span class="std std-ref">true seeing</span></a>
+At will—<a class="reference internal" href="corerulebook.spells.teleport.html#corerulebook-spells-teleport-teleport-greater"><span class="std std-ref">greater teleport</span></a> (self plus skiff and passengers only), <a class="reference internal" href="corerulebook.spells.planeshift.html#corerulebook-spells-planeshift-plane-shift"><span class="std std-ref">plane shift</span></a> (self plus skiff and passengers only, Astral, Ethereal, and evil-aligned planes only)
+3/day—<a class="reference internal" href="corerulebook.spells.animatedead.html#corerulebook-spells-animatedead-animate-dead"><span class="std std-ref">animate dead</span></a>, <a class="reference internal" href="corerulebook.spells.desecrate.html#corerulebook-spells-desecrate-desecrate"><span class="std std-ref">desecrate</span></a>, <a class="reference internal" href="corerulebook.spells.enervation.html#corerulebook-spells-enervation-enervation"><span class="std std-ref">enervation</span></a>
+1/day—summon (level 4, 1d4 hydrodaemons 80% or 1 thanadaemon 35%)</div></blockquote>
+</div>
+<div class="section" id="id49">
+<h2><a class="toc-backref" href="#id129">Statistics</a><a class="headerlink" href="#id49" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 21, <strong>Dex</strong> 16, <strong>Con</strong> 23, <strong>Int</strong> 17, <strong>Wis</strong> 17, <strong>Cha</strong> 18
+<strong>Base Atk</strong> +15; <strong>CMB</strong> +20; <strong>CMD</strong> 34
+<strong>Feats</strong> <a class="reference internal" href="corerulebook.feats.html#corerulebook-feats-alertness"><span class="std std-ref">Alertness</span></a>, <a class="reference internal" href="corerulebook.feats.html#blind-fight (combat)"><span class="std std-ref">Blind-Fight</span></a>, <a class="reference internal" href="corerulebook.feats.html#dodge (combat)"><span class="std std-ref">Dodge</span></a>, <a class="reference internal" href="corerulebook.feats.html#improved initiative (combat)"><span class="std std-ref">Improved Initiative</span></a>, <a class="reference internal" href="corerulebook.feats.html#corerulebook-feats-iron-will"><span class="std std-ref">Iron Will</span></a>, <a class="reference internal" href="corerulebook.feats.html#lunge (combat)"><span class="std std-ref">Lunge</span></a>, <a class="reference internal" href="corerulebook.feats.html#mobility (combat)"><span class="std std-ref">Mobility</span></a>, <a class="reference internal" href="corerulebook.feats.html#power attack (combat)"><span class="std std-ref">Power Attack</span></a>
+<strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a> +21, <a class="reference internal" href="corerulebook.skills.bluff.html#corerulebook-skills-bluff-bluff"><span class="std std-ref">Bluff</span></a> +22, <a class="reference internal" href="corerulebook.skills.diplomacy.html#corerulebook-skills-diplomacy-diplomacy"><span class="std std-ref">Diplomacy</span></a> +22, <a class="reference internal" href="corerulebook.skills.intimidate.html#corerulebook-skills-intimidate-intimidate"><span class="std std-ref">Intimidate</span></a> +22, <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (planes) +21, <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (religion) +21, <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> +25, <a class="reference internal" href="corerulebook.skills.sensemotive.html#corerulebook-skills-sensemotive-sense-motive"><span class="std std-ref">Sense Motive</span></a> +25, <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> +14, <a class="reference internal" href="corerulebook.skills.survival.html#corerulebook-skills-survival-survival"><span class="std std-ref">Survival</span></a> +10
+<strong>Languages</strong> Abyssal, Draconic, Infernal; telepathy 100 ft.</p>
+</div>
+<div class="section" id="id50">
+<h2><a class="toc-backref" href="#id130">Ecology</a><a class="headerlink" href="#id50" title="Permalink to this headline">¶</a></h2>
+<p><strong>Environment</strong> any (Abaddon)
+<strong>Organization</strong> solitary, pair, or council (3–11)
+<strong>Treasure</strong> standard (+2 quarterstaff, other treasure)</p>
+</div>
+<div class="section" id="id51">
+<h2><a class="toc-backref" href="#id131">Special Abilities</a><a class="headerlink" href="#id51" title="Permalink to this headline">¶</a></h2>
+<p><strong>Draining Weapon (Su)</strong> A thanadaemon’s energy drain attack functions through any melee weapon it wields.
+<span class="xref std std-ref">Fear</span> <a class="reference internal" href="bestiary.universalmonsterrules.html#bestiary-universalmonsterrules-gaze"><span class="std std-ref">Gaze</span></a> (Su) Cower in <span class="xref std std-ref">fear</span> for 1d6 rounds, 30 feet, Will DC 21 negates. This is a mind-affecting <span class="xref std std-ref">fear</span> effect. The save DC is Charisma-based.
+<strong>Soul Crush (Su)</strong> A thanadaemon can crush a soul gem (see cacodaemon) as a standard action to gain fast healing 15 for 15 rounds (this is a standard action). This action condemns the crushed soul to Abaddon—resurrecting this victim requires a DC 28 caster level check.
+While all daemons represent death in some fashion, thanadaemons, the Deacons of Death, represent the inevitable death through old age. Thanadaemons effortlessly work eerie skiffs along every pus- and bile-choked river in Abaddon, including the legendary River Styx. For the right price (typically 50 pp or 2 gems worth at least 300 gp each), a thanadaemon will even carry passengers on its skiff, yet those who travel with these fiends should beware—they frequently renegotiate the terms once they’ve got their passengers in dangerous realms.</p>
+</div>
+</div>
+
+</body>

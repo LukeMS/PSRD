@@ -1,0 +1,15 @@
+
+.. _`mythicadventures.mythicspells.chainlightning`:
+
+.. contents:: \ 
+
+.. _`mythicadventures.mythicspells.chainlightning#chain_lightning_mythic`: `mythicadventures.mythicspells.chainlightning#chain_lightning`_
+
+.. _`mythicadventures.mythicspells.chainlightning#chain_lightning`:
+
+Chain Lightning
+================
+
+\ **Source**\  :ref:`chain lightning <corerulebook.spells.chainlightning#chain_lightning>`
+
+This spell deals 1d10 points of damage per caster level (maximum 20d10) and the save DC isn't reduced for secondary targets. Secondary targets have to be within 30 feet of any other target, not necessarily the primary target.

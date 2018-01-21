@@ -1,0 +1,26 @@
+
+.. _`ultimatemagic.spells.sculptsimulacrum`:
+
+.. contents:: \ 
+
+.. _`ultimatemagic.spells.sculptsimulacrum#sculpt_simulacrum`:
+
+Sculpt Simulacrum
+==================
+
+\ **School**\  transmutation; \ **Level**\  sorcerer/wizard 2
+
+\ **Casting Time**\ 1 standard action
+
+\ **Components**\  V, S
+
+\ **Range**\  touch
+
+\ **Target**\  simulacrum touched
+
+\ **Duration**\ instantaneous
+
+\ **Saving Throw**\  Fortitude negates; \ **Spell Resistance**\  yes
+
+You create cosmetic changes to a simulacrum, similar to :ref:`disguise self <corerulebook.spells.disguiseself#disguise_self>`\ , except the changes are physical rather than illusory. This does not change any of the simulacrum's abilities.
+

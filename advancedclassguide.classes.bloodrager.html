@@ -1,0 +1,680 @@
+
+
+
+
+
+<head>
+    <link rel="stylesheet" href="_static/srd.css" type="text/css" />
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/toggle_list.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+
+
+
+<body>
+    <div class="contents topic" id="id1">
+<span id="advancedclassguide-classes-bloodrager"></span><p class="topic-title first"></p>
+<ul class="simple">
+<li><a class="reference internal" href="#bloodrager" id="id4">Bloodrager</a><ul>
+<li><a class="reference internal" href="#class-skills" id="id5">Class Skills</a></li>
+<li><a class="reference internal" href="#class-features" id="id6">Class Features</a></li>
+<li><a class="reference internal" href="#bloodrager-bloodlines" id="id7">Bloodrager Bloodlines</a><ul>
+<li><a class="reference internal" href="#aberrant" id="id8">Aberrant</a></li>
+<li><a class="reference internal" href="#abyssal" id="id9">Abyssal</a></li>
+<li><a class="reference internal" href="#arcane" id="id10">Arcane</a></li>
+<li><a class="reference internal" href="#celestial" id="id11">Celestial</a></li>
+<li><a class="reference internal" href="#destined" id="id12">Destined</a></li>
+<li><a class="reference internal" href="#draconic" id="id13">Draconic</a></li>
+<li><a class="reference internal" href="#elemental" id="id14">Elemental</a></li>
+<li><a class="reference internal" href="#fey" id="id15">Fey</a></li>
+<li><a class="reference internal" href="#infernal" id="id16">Infernal</a></li>
+<li><a class="reference internal" href="#undead" id="id17">Undead</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#bloodrager-spells" id="id18">Bloodrager Spells</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="bloodrager">
+<span id="advancedclassguide-classes-bloodrager-bloodrager"></span><h1><a class="toc-backref" href="#id4">Bloodrager</a><a class="headerlink" href="#bloodrager" title="Permalink to this headline">¶</a></h1>
+<p>While many ferocious combatants can tap into a deep reservoir of buried rage, bloodragers have an intrinsic power that seethes within. Like sorcerers, bloodragers’ veins surge with arcane power. While sorcerers use this power for spellcasting, bloodragers enter an altered state in which their bloodline becomes manifest, where the echoes of their strange ancestry lash out with devastating power. In these states, bloodragers can cast some arcane spells instinctively. The bloodrager’s magic is as fast, violent, and seemingly unstoppable as their physical prowess.</p>
+<p><strong>Role</strong>: Masters of the battlefield, bloodragers unleash fearful carnage on their enemies using their bloodlines and combat prowess. The bloodrager’s place is on the front lines, right in his enemies’ faces, supplying tremendous martial force bolstered by a trace of arcane magic.</p>
+<p><strong>Alignment</strong>: Any.</p>
+<p><strong>Hit Die</strong>: d10.</p>
+<p><strong>Parent Classes</strong>: Barbarian and sorcerer.</p>
+<p><strong>Starting Wealth</strong>: 3d6 × 10 gp (average 105 gp).</p>
+<span id="advancedclassguide-classes-bloodrager-bloodrager-progression-table"></span><table border="1" class="colwidths-auto contrast-reading-table docutils" id="id2">
+<caption><span class="caption-text">Bloodrager</span><a class="headerlink" href="#id2" title="Permalink to this table">¶</a></caption>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Level</th>
+<th class="head">Base Attack Bonus</th>
+<th class="head">Fort Save</th>
+<th class="head">Ref Save</th>
+<th class="head">Will Save</th>
+<th class="head">Special</th>
+<th class="head">1st</th>
+<th class="head">2nd</th>
+<th class="head">3rd</th>
+<th class="head">4th</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>1st</td>
+<td>+1</td>
+<td>+2</td>
+<td>+0</td>
+<td>+0</td>
+<td>Bloodline, bloodline power, bloodrage, fast movement</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-odd"><td>2nd</td>
+<td>+2</td>
+<td>+3</td>
+<td>+0</td>
+<td>+0</td>
+<td>Uncanny dodge</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-even"><td>3rd</td>
+<td>+3</td>
+<td>+3</td>
+<td>+1</td>
+<td>+1</td>
+<td>Blood sanctuary</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-odd"><td>4th</td>
+<td>+4</td>
+<td>+4</td>
+<td>+1</td>
+<td>+1</td>
+<td>Blood casting, bloodline power, Eschew Materials</td>
+<td>1</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-even"><td>5th</td>
+<td>+5</td>
+<td>+4</td>
+<td>+1</td>
+<td>+1</td>
+<td>Improved uncanny dodge</td>
+<td>1</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-odd"><td>6th</td>
+<td>+6/+1</td>
+<td>+5</td>
+<td>+2</td>
+<td>+2</td>
+<td>Bloodline feat</td>
+<td>1</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-even"><td>7th</td>
+<td>+7/+2</td>
+<td>+5</td>
+<td>+2</td>
+<td>+2</td>
+<td>Bloodline spell, damage reduction 1/—</td>
+<td>1</td>
+<td>1</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-odd"><td>8th</td>
+<td>+8/+3</td>
+<td>+6</td>
+<td>+2</td>
+<td>+2</td>
+<td>Bloodline power</td>
+<td>1</td>
+<td>1</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-even"><td>9th</td>
+<td>+9/+4</td>
+<td>+6</td>
+<td>+3</td>
+<td>+3</td>
+<td>Bloodline feat</td>
+<td>2</td>
+<td>1</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-odd"><td>10th</td>
+<td>+10/+5</td>
+<td>+7</td>
+<td>+3</td>
+<td>+3</td>
+<td>Bloodline spell, damage reduction 2/—</td>
+<td>2</td>
+<td>1</td>
+<td>1</td>
+<td>—</td>
+</tr>
+<tr class="row-even"><td>11th</td>
+<td>+11/+6/+1</td>
+<td>+7</td>
+<td>+3</td>
+<td>+3</td>
+<td>Greater bloodrage</td>
+<td>2</td>
+<td>1</td>
+<td>1</td>
+<td>—</td>
+</tr>
+<tr class="row-odd"><td>12th</td>
+<td>+12/+7/+2</td>
+<td>+8</td>
+<td>+4</td>
+<td>+4</td>
+<td>Bloodline feat, bloodline power</td>
+<td>2</td>
+<td>2</td>
+<td>1</td>
+<td>—</td>
+</tr>
+<tr class="row-even"><td>13th</td>
+<td>+13/+8/+3</td>
+<td>+8</td>
+<td>+4</td>
+<td>+4</td>
+<td>Bloodline spell, damage reduction 3/—</td>
+<td>3</td>
+<td>2</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr class="row-odd"><td>14th</td>
+<td>+14/+9/+4</td>
+<td>+9</td>
+<td>+4</td>
+<td>+4</td>
+<td>Indomitable will</td>
+<td>3</td>
+<td>2</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr class="row-even"><td>15th</td>
+<td>+15/+10/+5</td>
+<td>+9</td>
+<td>+5</td>
+<td>+5</td>
+<td>Bloodline feat</td>
+<td>3</td>
+<td>2</td>
+<td>2</td>
+<td>1</td>
+</tr>
+<tr class="row-odd"><td>16th</td>
+<td>+16/+11/+6/+1</td>
+<td>+10</td>
+<td>+5</td>
+<td>+5</td>
+<td>Bloodline spell, bloodline power, damage reduction 4/—</td>
+<td>3</td>
+<td>3</td>
+<td>2</td>
+<td>1</td>
+</tr>
+<tr class="row-even"><td>17th</td>
+<td>+17/+12/+7/+2</td>
+<td>+10</td>
+<td>+5</td>
+<td>+5</td>
+<td>Tireless bloodrage</td>
+<td>4</td>
+<td>3</td>
+<td>2</td>
+<td>1</td>
+</tr>
+<tr class="row-odd"><td>18th</td>
+<td>+18/+13/+8/+3</td>
+<td>+11</td>
+<td>+6</td>
+<td>+6</td>
+<td>Bloodline feat</td>
+<td>4</td>
+<td>3</td>
+<td>2</td>
+<td>2</td>
+</tr>
+<tr class="row-even"><td>19th</td>
+<td>+19/+14/+9/+4</td>
+<td>+11</td>
+<td>+6</td>
+<td>+6</td>
+<td>Damage reduction 5/—</td>
+<td>4</td>
+<td>3</td>
+<td>3</td>
+<td>2</td>
+</tr>
+<tr class="row-odd"><td>20th</td>
+<td>+20/+15/+10/+5</td>
+<td>+12</td>
+<td>+6</td>
+<td>+6</td>
+<td>Bloodline power, mighty bloodrage</td>
+<td>4</td>
+<td>4</td>
+<td>3</td>
+<td>2</td>
+</tr>
+</tbody>
+</table>
+<span id="advancedclassguide-classes-bloodrager-bloodrager-spells-known"></span><table border="1" class="colwidths-auto contrast-reading-table docutils" id="id3">
+<caption><span class="caption-text">Bloodrager Spells Known</span><a class="headerlink" href="#id3" title="Permalink to this table">¶</a></caption>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Level</th>
+<th class="head">1st</th>
+<th class="head">2nd</th>
+<th class="head">3rd</th>
+<th class="head">4th</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>1st</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-odd"><td>2nd</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-even"><td>3rd</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-odd"><td>4th</td>
+<td>2</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-even"><td>5th</td>
+<td>3</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-odd"><td>6th</td>
+<td>4</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-even"><td>7th</td>
+<td>4</td>
+<td>2</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-odd"><td>8th</td>
+<td>4</td>
+<td>3</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-even"><td>9th</td>
+<td>5</td>
+<td>4</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-odd"><td>10th</td>
+<td>5</td>
+<td>4</td>
+<td>2</td>
+<td>—</td>
+</tr>
+<tr class="row-even"><td>11th</td>
+<td>5</td>
+<td>4</td>
+<td>3</td>
+<td>—</td>
+</tr>
+<tr class="row-odd"><td>12th</td>
+<td>6</td>
+<td>5</td>
+<td>4</td>
+<td>—</td>
+</tr>
+<tr class="row-even"><td>13th</td>
+<td>6</td>
+<td>5</td>
+<td>4</td>
+<td>2</td>
+</tr>
+<tr class="row-odd"><td>14th</td>
+<td>6</td>
+<td>5</td>
+<td>4</td>
+<td>3</td>
+</tr>
+<tr class="row-even"><td>15th</td>
+<td>6</td>
+<td>6</td>
+<td>5</td>
+<td>4</td>
+</tr>
+<tr class="row-odd"><td>16th</td>
+<td>6</td>
+<td>6</td>
+<td>5</td>
+<td>4</td>
+</tr>
+<tr class="row-even"><td>17th</td>
+<td>6</td>
+<td>6</td>
+<td>5</td>
+<td>4</td>
+</tr>
+<tr class="row-odd"><td>18th</td>
+<td>6</td>
+<td>6</td>
+<td>6</td>
+<td>5</td>
+</tr>
+<tr class="row-even"><td>19th</td>
+<td>6</td>
+<td>6</td>
+<td>6</td>
+<td>5</td>
+</tr>
+<tr class="row-odd"><td>20th</td>
+<td>6</td>
+<td>6</td>
+<td>6</td>
+<td>5</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="class-skills">
+<span id="advancedclassguide-classes-bloodrager-class-skills"></span><h2><a class="toc-backref" href="#id5">Class Skills</a><a class="headerlink" href="#class-skills" title="Permalink to this headline">¶</a></h2>
+<p>The bloodrager’s class skills are <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a> (Dex), <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> (Str), <a class="reference internal" href="corerulebook.skills.craft.html#corerulebook-skills-craft-craft"><span class="std std-ref">Craft</span></a> (Int), <a class="reference internal" href="corerulebook.skills.handleanimal.html#corerulebook-skills-handleanimal-handle-animal"><span class="std std-ref">Handle Animal</span></a> (Cha), <a class="reference internal" href="corerulebook.skills.intimidate.html#corerulebook-skills-intimidate-intimidate"><span class="std std-ref">Intimidate</span></a> (Cha), <a class="reference internal" href="corerulebook.skills.knowledge.html#corerulebook-skills-knowledge-knowledge"><span class="std std-ref">Knowledge</span></a> (arcana) (Int), <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> (Wis), <a class="reference internal" href="corerulebook.skills.ride.html#corerulebook-skills-ride-ride"><span class="std std-ref">Ride</span></a> (Dex), <a class="reference internal" href="corerulebook.skills.spellcraft.html#corerulebook-skills-spellcraft-spellcraft"><span class="std std-ref">Spellcraft</span></a> (Int), <a class="reference internal" href="corerulebook.skills.survival.html#corerulebook-skills-survival-survival"><span class="std std-ref">Survival</span></a> (Wis), and <a class="reference internal" href="corerulebook.skills.swim.html#corerulebook-skills-swim-swim"><span class="std std-ref">Swim</span></a> (Str).</p>
+<p><strong>Skill Ranks per Level</strong>: 4 + Int modifier.</p>
+</div>
+<div class="section" id="class-features">
+<span id="advancedclassguide-classes-bloodrager-class-features"></span><h2><a class="toc-backref" href="#id6">Class Features</a><a class="headerlink" href="#class-features" title="Permalink to this headline">¶</a></h2>
+<p>The following are the class features of the bloodrager.</p>
+<p><strong>Weapon and Armor Proficiency</strong>: Bloodragers are proficient with all simple and martial weapons, light armor, medium armor, and shields (except tower shields). A bloodrager can cast bloodrager spells while wearing light armor or medium armor without incurring the normal arcane spell failure chance. This does not affect the arcane spell failure chance for arcane spells received from other classes. Like other arcane spellcasters, a bloodrager wearing heavy armor or wielding a shield incurs a chance of arcane spell failure if the spell in question has somatic components.</p>
+<p id="advancedclassguide-classes-bloodrager-bloodline"><strong>Bloodline</strong>: Each bloodrager has a source of magic somewhere in his heritage that empowers his bloodrages, bonus feats, and bonus spells. Sometimes this source reflects a distant blood relationship to a powerful being, or is due to an extreme event involving such a creature somewhere in his family’s past. Regardless of the source, this influence manifests in a number of ways. A bloodrager must pick one bloodline upon taking his first level of bloodrager. Once made, this choice cannot be changed.</p>
+<p>When choosing a bloodline, the bloodrager’s alignment doesn’t restrict his choices. A good bloodrager could come from an abyssal bloodline, a celestial bloodline could beget an evil bloodrager generations later, a bloodrager from an infernal bloodline could be chaotic, and so on. Though his bloodline empowers him, it doesn’t dictate or limit his thoughts and behavior.</p>
+<p>The bloodrager gains bloodline powers at 1st level, 4th level, and every 4 levels thereafter. The bloodline powers a bloodrager gains are described in his chosen bloodline. For all spell-like bloodline powers, treat the character’s bloodrager level as the caster level.</p>
+<p>At 6th level and every 3 levels thereafter, a bloodrager receives one bonus feat chosen from a list specific to each bloodline. The bloodrager must meet the prerequisites for these bonus feats.</p>
+<p>At 7th, 10th, 13th, and 16th levels, a bloodrager learns an additional spell derived from his bloodline. These spells are in addition to the number of spells given on Table 1–4. These spells cannot be exchanged for different spells at higher levels.</p>
+<p>If the bloodrager takes levels in another class that grants a bloodline, the bloodlines must be the same type, even if that means that the bloodline of one of the classes must change. Subject to GM discretion, the bloodrager can change his previous bloodline to make them conform.</p>
+<p id="advancedclassguide-classes-bloodrager-bloodrage"><strong>Bloodrage (Su)</strong>: The bloodrager’s source of internal power grants him the ability to bloodrage. At 1st level, a bloodrager can bloodrage for a number of rounds per day equal to 4 + his Constitution modifier. At each level after 1st, he can bloodrage for 2 additional rounds per day. Temporary increases to Constitution (such as those gained from bloodraging or spells like <a class="reference internal" href="corerulebook.spells.bearsendurance.html#bear's endurance"><span class="std std-ref">bear’s endurance</span></a>) don’t increase the total number of rounds that a bloodrager can bloodrage per day. The total number of rounds of bloodrage per day is renewed after resting for 8 hours, although these hours don’t need to be consecutive.</p>
+<p>A bloodrager can enter a bloodrage as a free action. While in a bloodrage, a bloodrager gains a +4 morale bonus to his Strength and Constitution, as well as a +2 morale bonus on Will saves. In addition, he takes a –2 penalty to Armor Class. The increase to Constitution grants the bloodrager 2 hit points per Hit Die, but these disappear when the bloodrage ends and are not lost first like temporary hit points. While bloodraging, a bloodrager cannot use any Charisma-, Dexterity-, or Intelligence-based skills (except <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a>, <a class="reference internal" href="corerulebook.skills.fly.html#corerulebook-skills-fly-fly"><span class="std std-ref">Fly</span></a>, <a class="reference internal" href="corerulebook.skills.intimidate.html#corerulebook-skills-intimidate-intimidate"><span class="std std-ref">Intimidate</span></a>, and <a class="reference internal" href="corerulebook.skills.ride.html#corerulebook-skills-ride-ride"><span class="std std-ref">Ride</span></a>) or any ability that requires patience or concentration.</p>
+<p>A bloodrager can end his bloodrage as a free action. When the bloodrage ends, he’s fatigued for a number of rounds equal to twice the number of rounds spent in the bloodrage. A bloodrager cannot enter a new bloodrage while fatigued or exhausted, but can otherwise enter a bloodrage multiple times during a single encounter or combat. If a bloodrager falls unconscious, his bloodrage immediately ends, placing him in peril of death.</p>
+<p>Bloodrage counts as the <a class="reference internal" href="corerulebook.classes.barbarian.html#corerulebook-classes-barbarian-rage"><span class="std std-ref">barbarian’s rage class feature</span></a> for the purpose of feat prerequisites, feat abilities, magic item abilities, and spell effects.</p>
+<p id="advancedclassguide-classes-bloodrager-fast-movement"><strong>Fast Movement (Ex)</strong>: A bloodrager’s base speed is faster than is normal for his race by 10 feet. This benefit applies only when he is wearing no armor, light armor, or medium armor, and not carrying a heavy load. Apply this bonus before modifying the bloodrager’s speed due to any armor worn or load carried. This bonus stacks with any other bonuses to the bloodrager’s base speed.</p>
+<p id="advancedclassguide-classes-bloodrager-uncanny-dodge"><strong>Uncanny Dodge (Ex)</strong>: At 2nd level, a bloodrager can react to danger before his senses would normally allow him to do so. He cannot be caught flat-footed, nor does he lose his Dexterity bonus to AC if the attacker is invisible. He still loses his Dexterity bonus to AC if immobilized. A bloodrager with this ability can still lose his Dexterity bonus to AC if an opponent successfully uses the feint action against him.</p>
+<p>If a bloodrager already possesses uncanny dodge from a different class, he automatically gains <a class="reference internal" href="#advancedclassguide-classes-bloodrager-improved-uncanny-dodge"><span class="std std-ref">improved uncanny dodge</span></a> instead.</p>
+<p id="advancedclassguide-classes-bloodrager-blood-sanctuary"><strong>Blood Sanctuary (Su)</strong>: At 3rd level, due to the power of his blood, a bloodrager can stand confidently amid the effects of spells cast by himself or his allies. He gains a +2 bonus on saving throws against spells that he or an ally casts.</p>
+<p id="advancedclassguide-classes-bloodrager-blood-casting"><strong>Blood Casting (Su)</strong>: At 4th level, the bloodrager gains the ability to cast spells even while bloodraging. He can also cast these spells defensively and can attempt concentration checks for these spells while bloodraging. While bloodraging, he can cast and concentrate on only his <a class="reference internal" href="#advancedclassguide-classes-bloodrager-spells"><span class="std std-ref">bloodrager spells</span></a>; spells from other classes cannot be cast during this state.</p>
+<p id="advancedclassguide-classes-bloodrager-eschew-materials"><strong>Eschew Materials</strong>: At 4th level, the bloodrager gains Eschew Materials as a bonus feat.</p>
+<p id="advancedclassguide-classes-bloodrager-spells"><strong>Spells</strong>: Beginning at 4th level, a bloodrager gains the ability to cast a small number of arcane spells drawn from the <a class="reference internal" href="indices.spelllists.html#indices-spelllists"><span class="std std-ref">bloodrager spell list</span></a>. To learn or cast a spell, a bloodrager must have a Charisma score equal to at least 10 + the spell level. He can cast spells he knows without preparing them ahead of time. The saving throw DC against a bloodrager’s spell is 10 + the spell level + the bloodrager’s Charisma modifier.</p>
+<p>Like other spellcasters, a bloodrager can cast only a certain number of spells of each level per day. His base daily spell allotment is given on the table above. In addition, he receives bonus spells per day if he has a high Charisma score. The bloodrager does not need to prepare these spells in advance; he can cast any spell he knows at any time, assuming he hasn’t yet used up his allotment of spells per day for the spell’s level.</p>
+<p>The bloodrager’s selection of spells is limited. At 4th level, a bloodrager knows two 1st-level spells of his choice. A bloodrager gains more spells as he increases in level, as indicated on the table above. Unlike spells per day, the number of spells a bloodrager knows is not affected by his Charisma score, but it is affected by any bonus spells he gains from his bloodline. At 8th level and every 3 levels thereafter, a bloodrager can choose to learn a new spell in place of one he already knows. This swap follows all the same rules as for a sorcerer.</p>
+<p id="advancedclassguide-classes-bloodrager-improved-uncanny-dodge"><strong>Improved Uncanny Dodge (Ex)</strong>: At 5th level, a bloodrager can no longer be flanked. This defense denies rogues (or other classes with the sneak attack ability) the ability to sneak attack the bloodrager by flanking him, unless the attacker has at least four more rogue levels (or levels in the class granting sneak attack) than the target has bloodrager levels.</p>
+<p>If a character already has uncanny dodge from another class, the levels from the classes that grant uncanny dodge stack when determining the minimum rogue level required to flank the character.</p>
+<p id="advancedclassguide-classes-bloodrager-damage-reduction"><strong>Damage Reduction (Ex)</strong>: At 7th level, a bloodrager gains damage reduction. Subtract 1 from the damage the bloodrager takes each time he is dealt damage from a weapon or a natural attack. At 10th level, and every 3 levels thereafter, this damage reduction increases by 1 point. Damage reduction can reduce damage to 0, but not below 0.</p>
+<p id="advancedclassguide-classes-bloodrager-greater-bloodrage"><strong>Greater Bloodrage (Su)</strong>: At 11th level, when a bloodrager enters a bloodrage, the morale bonus to his Strength and Constitution increases to +6 and the morale bonus on his Will saves increases to +3. In addition, upon entering a bloodrage, the bloodrager can apply the effects a bloodrager spell he knows of 2nd level or lower to himself. The spell must have a range of touch or personal. If the spell’s duration is greater than 1 round, it instead lasts for the duration of the bloodrage. This use consumes a bloodrager spell slot, as if he had cast the spell; he must have the spell slot available to take advantage of this effect.</p>
+<p>Greater bloodrage counts as the <a class="reference internal" href="corerulebook.classes.barbarian.html#corerulebook-classes-barbarian-greater-rage"><span class="std std-ref">barbarian’s greater rage ability</span></a> for the purposes of feat prerequisites, feat abilities, magic item abilities, and spell effects.</p>
+<p id="advancedclassguide-classes-bloodrager-indomitable-will"><strong>Indomitable Will (Ex)</strong>: At 14th level, a bloodrager gains a +4 bonus on Will saves to resist enchantment spells while bloodraging. This bonus stacks with all other modifiers, including the morale bonus on Will saves he also receives during his bloodrage.</p>
+<p id="advancedclassguide-classes-bloodrager-tireless-bloodrage"><strong>Tireless Bloodrage (Su)</strong>: At 17th level, a bloodrager no longer becomes fatigued at the end of his bloodrage.</p>
+<p id="advancedclassguide-classes-bloodrager-mighty-bloodrage"><strong>Mighty Bloodrage (Su)</strong>: At 20th level, when a bloodrager enters a bloodrage, the morale bonus to his Strength and Constitution increases to +8, and the morale bonus on his Will saves increases to +4. Furthermore, the spell he can apply to himself at the beginning of a bloodrage due to the greater bloodrage class feature is not limited to only spells of 2nd level or lower.</p>
+</div>
+<div class="section" id="bloodrager-bloodlines">
+<span id="advancedclassguide-classes-bloodrager-bloodrager-bloodlines"></span><h2><a class="toc-backref" href="#id7">Bloodrager Bloodlines</a><a class="headerlink" href="#bloodrager-bloodlines" title="Permalink to this headline">¶</a></h2>
+<p>When a bloodrager enters a bloodrage, he often takes on a physical transformation influenced by his bloodline and powered by the magic that roils within him. Unless otherwise specified, he gains the effects of his bloodline powers only while in a bloodrage; once the bloodrage ends, all powers from his bloodline immediately cease, and any physical changes the bloodrager underwent revert, restoring him to normal.</p>
+<div class="section" id="aberrant">
+<span id="advancedclassguide-classes-bloodrager-aberrant"></span><h3><a class="toc-backref" href="#id8">Aberrant</a><a class="headerlink" href="#aberrant" title="Permalink to this headline">¶</a></h3>
+<p>There is a taint in your blood that is both alien and bizarre. When you bloodrage, this manifests in peculiar and terrifying ways.</p>
+<p><strong>Bonus Feats</strong>: Combat Reflexes, Great Fortitude, Improved Disarm, Improved Grapple, Improved Initiative, Improved Unarmed Strike, Iron Will.</p>
+<p><strong>Bonus Spells</strong>: <a class="reference internal" href="corerulebook.spells.enlargeperson.html#corerulebook-spells-enlargeperson-enlarge-person"><span class="std std-ref">enlarge person</span></a> (7th), <a class="reference internal" href="corerulebook.spells.seeinvisibility.html#corerulebook-spells-seeinvisibility-see-invisibility"><span class="std std-ref">see invisibility</span></a> (10th), <a class="reference internal" href="corerulebook.spells.displacement.html#corerulebook-spells-displacement-displacement"><span class="std std-ref">displacement</span></a> (13th), <a class="reference internal" href="corerulebook.spells.blacktentacles.html#corerulebook-spells-blacktentacles-black-tentacles"><span class="std std-ref">black tentacles</span></a> (16th).</p>
+<p><strong>Bloodline Powers</strong>: While bloodraging, you gain the abilities and immunities of some aberrations, but show signs of your tainted heritage.</p>
+<p id="advancedclassguide-classes-bloodrager-staggering-strike"><em>Staggering Strike (Su)</em>: At 1st level, when you confirm a critical hit the target must succeed at a Fortitude saving throw or be staggered for 1 round. The DC of this save is equal to 10 + 1/2 your bloodrager level + your Constitution modifier. These effects stack with the Staggering Critical feat; the target must save against each effect individually.</p>
+<p id="advancedclassguide-classes-bloodrager-abnormal-reach"><em>Abnormal Reach (Su)</em>: At 4th level, your limbs elongate; your reach increases by 5 feet.</p>
+<p id="advancedclassguide-classes-bloodrager-aberrant-fortitude"><em>Aberrant Fortitude (Su)</em>: At 8th level, you become immune to the sickened and nauseated conditions.</p>
+<p id="advancedclassguide-classes-bloodrager-unusual-anatomy"><em>Unusual Anatomy (Su)</em>: At 12th level, your internal anatomy shifts and changes, giving you a 50% chance to negate any critical hit or sneak attack that hits you. The damage is instead rolled normally.</p>
+<p id="advancedclassguide-classes-bloodrager-aberrant-resistance"><em>Aberrant Resistance (Su)</em>: At 16th level, you are immune to disease, exhaustion, fatigue, and poison, and to the staggered condition.</p>
+<p id="advancedclassguide-classes-bloodrager-aberrant-form"><em>Aberrant Form (Su)</em>: At 20th level, your body becomes truly unnatural. You are immune to critical hits and sneak attacks. In addition, you gain blindsight with a range of 60 feet and your bloodrager damage reduction increases by 1. You have these benefits constantly, even while not bloodraging.</p>
+</div>
+<div class="section" id="abyssal">
+<span id="advancedclassguide-classes-bloodrager-abyssal"></span><h3><a class="toc-backref" href="#id9">Abyssal</a><a class="headerlink" href="#abyssal" title="Permalink to this headline">¶</a></h3>
+<p>Generations ago, a demon spread its filth into the essence of your bloodline. While it doesn’t manifest in all of your kin, in those moments when you’re bloodraging, you embody its terrifying presence.</p>
+<p><strong>Bonus Feats</strong>: Cleave, Great Fortitude, Improved Bull Rush, Improved Sunder, Intimidating Prowess, Power Attack, Toughness.</p>
+<p><strong>Bonus Spells</strong>: <a class="reference internal" href="corerulebook.spells.rayofenfeeblement.html#corerulebook-spells-rayofenfeeblement-ray-of-enfeeblement"><span class="std std-ref">ray of enfeeblement</span></a> (7th), <a class="reference internal" href="corerulebook.spells.bullsstrength.html#bull's strength"><span class="std std-ref">bull’s strength</span></a> (10th), <a class="reference internal" href="corerulebook.spells.rage.html#corerulebook-spells-rage-rage"><span class="std std-ref">rage</span></a> (13th), <a class="reference internal" href="corerulebook.spells.stoneskin.html#corerulebook-spells-stoneskin-stoneskin"><span class="std std-ref">stoneskin</span></a> (16th).</p>
+<p><strong>Bloodline Powers</strong>: The power of the Abyss courses through your veins, causing horrific transformations during your bloodrage.</p>
+<p id="advancedclassguide-classes-bloodrager-claws"><em>Claws (Su)</em>: At 1st level, you grow claws while bloodraging. These claws are treated as natural weapons, allowing you to make two claw attacks as a full attack, using your full base attack bonus. These attacks each deal an amount of damage equal to 1d6 (1d4 if you are Small) + your Strength modifier. At 4th level, these claws are considered magic weapons for the purpose of overcoming damage resistance. At 8th level, the damage increases to 1d8 points (1d6 if you are Small). At 12th level, these claws become <a class="reference internal" href="corerulebook.magicitems.weapons.html#corerulebook-magicitems-weapons-weapons-flaming"><span class="std std-ref">flaming</span></a> weapons, which deal an additional 1d6 points of fire damage on a hit.</p>
+<p id="advancedclassguide-classes-bloodrager-demonic-bulk"><em>Demonic Bulk (Su)</em>: At 4th level, when entering a bloodrage, you can grow one size category larger than your base size (as <a class="reference internal" href="corerulebook.spells.enlargeperson.html#corerulebook-spells-enlargeperson-enlarge-person"><span class="std std-ref">enlarge person</span></a>) even if you aren’t humanoid.</p>
+<p id="advancedclassguide-classes-bloodrager-demon-resistances"><em>Demon Resistances (Su)</em>: At 8th level, you gain resistance 5 to acid, cold, and fire. At 16th level, these resistances increase to 10.</p>
+<p id="advancedclassguide-classes-bloodrager-abyssal-bloodrage"><em>Abyssal Bloodrage (Su)</em>: At 12th level, the morale bonus to Strength granted by your bloodrage increases by 2, but the penalty to AC becomes –4 instead of –2. At 16th level, this bonus increases by 4 instead. At 20th level, it increases by 6 instead.</p>
+<p id="advancedclassguide-classes-bloodrager-demonic-aura"><em>Demonic Aura (Su)</em>: At 16th level, when entering a bloodrage you can exude an aura of fire. The aura is a 5-foot burst centered on you, and deals a number of points of fire damage equal to 2d6 + your Constitution modifier to creatures that end their turns within it.</p>
+<p id="advancedclassguide-classes-bloodrager-demonic-immunities"><em>Demonic Immunities (Su)</em>: At 20th level, you’re immune to electricity and poison. You have these benefits constantly, even while not bloodraging.</p>
+</div>
+<div class="section" id="arcane">
+<span id="advancedclassguide-classes-bloodrager-arcane"></span><h3><a class="toc-backref" href="#id10">Arcane</a><a class="headerlink" href="#arcane" title="Permalink to this headline">¶</a></h3>
+<p>While others of your kin may be powerful wizards and sorcerers, the eldritch nature of the blood coursing through your veins transforms you into a spell-breaking terror.</p>
+<p><strong>Bonus Feats</strong>: Combat Reflexes, Disruptive *, Improved Initiative, Iron Will, Power Attack, Quick Draw, Spellbreaker *. (Your bloodrager levels count as fighter levels for the purpose of qualifying for any feats marked with an asterisk [ *].) This stacks with any levels in fighter you have.</p>
+<p><strong>Bonus Spells</strong>: <a class="reference internal" href="corerulebook.spells.magicmissile.html#corerulebook-spells-magicmissile-magic-missile"><span class="std std-ref">magic missile</span></a> (7th), <a class="reference internal" href="corerulebook.spells.invisibility.html#corerulebook-spells-invisibility-invisibility"><span class="std std-ref">invisibility</span></a> (10th), <a class="reference internal" href="corerulebook.spells.lightningbolt.html#corerulebook-spells-lightningbolt-lightning-bolt"><span class="std std-ref">lightning bolt</span></a> (13th), <a class="reference internal" href="corerulebook.spells.dimensiondoor.html#corerulebook-spells-dimensiondoor-dimension-door"><span class="std std-ref">dimension door</span></a> (16th).</p>
+<p><strong>Bloodline Powers</strong>: When you bloodrage, arcane power transforms you into an arcane juggernaut who can cut down even the most careful caster.</p>
+<p id="advancedclassguide-classes-bloodrager-disruptive-bloodrage"><em>Disruptive Bloodrage (Su)</em>: At 1st level, the DC to cast spells defensively increases by 2 for enemies within your threatened area. This increase stacks with that granted by the Disruptive feat.</p>
+<p id="advancedclassguide-classes-bloodrager-arcane-bloodrage"><em>Arcane Bloodrage (Sp)</em>: At 4th level, when entering a bloodrage you can choose one of the following spells and apply its effects to yourself: <a class="reference internal" href="corerulebook.spells.blur.html#corerulebook-spells-blur-blur"><span class="std std-ref">blur</span></a>, <a class="reference internal" href="corerulebook.spells.protectionfromarrows.html#corerulebook-spells-protectionfromarrows-protection-from-arrows"><span class="std std-ref">protection from arrows</span></a>, <a class="reference internal" href="corerulebook.spells.resistenergy.html#corerulebook-spells-resistenergy-resist-energy"><span class="std std-ref">resist energy</span></a> (choose one energy type), or <a class="reference internal" href="corerulebook.spells.spiderclimb.html#corerulebook-spells-spiderclimb-spider-climb"><span class="std std-ref">spider climb</span></a>. These effects last for as long as you continue bloodraging, regardless of the spell’s normal duration.</p>
+<p id="advancedclassguide-classes-bloodrager-greater-arcane-bloodrage"><em>Greater Arcane Bloodrage (Sp)</em>: At 8th level, when entering a bloodrage, you can apply the effects of either <a class="reference internal" href="corerulebook.spells.displacement.html#corerulebook-spells-displacement-displacement"><span class="std std-ref">displacement</span></a> or <a class="reference internal" href="corerulebook.spells.haste.html#corerulebook-spells-haste-haste"><span class="std std-ref">haste</span></a> to yourself. This is in addition to arcane bloodrage, and otherwise works as that ability.</p>
+<p id="advancedclassguide-classes-bloodrager-casters-scourge"><em>Caster’s Scourge (Ex)</em>: At 12th level, you gain a number of extra attacks of opportunity equal to your Dexterity modifier (minimum 1). You can use these attacks of opportunity only against spellcasters in your threatened area who cast or attempt to cast defensively. The Spellbreaker feat, the caster’s bane bloodrage power (see below), or some similar effect is still required to make attacks of opportunity against spellcasters who are casting defensively. You have this benefit constantly, even while not bloodraging.</p>
+<p id="advancedclassguide-classes-bloodrager-true-arcane-bloodrage"><em>True Arcane Bloodrage (Sp)</em>: At 16th level, when entering a bloodrage, you can choose one of the following spells and apply its effects to yourself: <a class="reference internal" href="corerulebook.spells.beastshape.html#corerulebook-spells-beastshape-beast-shape-iv"><span class="std std-ref">beast shape IV</span></a> (choose a creature your size or larger only), <a class="reference internal" href="corerulebook.spells.formofthedragon.html#corerulebook-spells-formofthedragon-form-of-the-dragon-i"><span class="std std-ref">form of the dragon I</span></a>, or <a class="reference internal" href="corerulebook.spells.transformation.html#corerulebook-spells-transformation-transformation"><span class="std std-ref">transformation</span></a>. This is in addition to arcane bloodrage and greater arcane bloodrage, and otherwise works as those abilities.</p>
+<p id="advancedclassguide-classes-bloodrager-casters-bane"><em>Caster’s Bane (Ex)</em>: At 20th level, spellcasters with a caster level lower than your bloodrager level always provoke attacks of opportunity from you within your threatened area, even when they cast defensively. You have this benefit constantly, even while not bloodraging.</p>
+</div>
+<div class="section" id="celestial">
+<span id="advancedclassguide-classes-bloodrager-celestial"></span><h3><a class="toc-backref" href="#id11">Celestial</a><a class="headerlink" href="#celestial" title="Permalink to this headline">¶</a></h3>
+<p>By way of a celestial ancestor or divine intervention, the blood of angels fills your body with a holy potency, granting you a majestic visage and angelic powers when you enter your bloodrage.</p>
+<p><strong>Bonus Feats</strong>: Dodge, Improved Initiative, Iron Will, Mobility, Mounted Combat, Ride-By Attack, Weapon Focus.</p>
+<p><strong>Bonus Spells</strong>: <a class="reference internal" href="corerulebook.spells.bless.html#corerulebook-spells-bless-bless"><span class="std std-ref">bless</span></a> (7th), <a class="reference internal" href="corerulebook.spells.resistenergy.html#corerulebook-spells-resistenergy-resist-energy"><span class="std std-ref">resist energy</span></a> (10th), <a class="reference internal" href="corerulebook.spells.heroism.html#corerulebook-spells-heroism-heroism"><span class="std std-ref">heroism</span></a> (13th), <a class="reference internal" href="corerulebook.spells.holysmite.html#corerulebook-spells-holysmite-holy-smite"><span class="std std-ref">holy smite</span></a> (16th).</p>
+<p><strong>Bloodline Powers</strong>: Your bloodline grants a number of resistances and changes your form to something angelic and terrible to behold when you bloodrage.</p>
+<p id="advancedclassguide-classes-bloodrager-angelic-attacks"><em>Angelic Attacks (Su)</em>: At 1st level, your melee attacks are considered good-aligned weapons for the purpose of bypassing damage reduction. Furthermore, when you deal damage with a melee attack to an evil outsider, you deal an additional 1d6 points of damage. This additional damage stacks with effects such as <a class="reference internal" href="corerulebook.spells.alignweapon.html#corerulebook-spells-alignweapon-align-weapon"><span class="std std-ref">align weapon</span></a> and those granted by a weapon with the <a class="reference internal" href="corerulebook.magicitems.weapons.html#corerulebook-magicitems-weapons-weapons-holy"><span class="std std-ref">holy</span></a> weapon special ability.</p>
+<p id="advancedclassguide-classes-bloodrager-celestial-resistances"><em>Celestial Resistances (Ex)</em>: At 4th level, you gain resistance 5 to acid and cold. At 12th level, these resistances increase to 10.</p>
+<p id="advancedclassguide-classes-bloodrager-conviction"><em>Conviction (Su)</em>: At 8th level, once per bloodrage you can reroll one ability check, skill check, or saving throw you just made. You must decide to use this ability after the die is rolled, but before the GM reveals the result. You must take the second result, even if it’s worse.</p>
+<p id="advancedclassguide-classes-bloodrager-wings-of-heaven"><em>Wings of Heaven (Su)</em>: At 12th level, you can choose to sprout feathery wings and fly with a speed of 60 feet and good maneuverability. At 20th level, your fly speed increases to 80 feet.</p>
+<p id="advancedclassguide-classes-bloodrager-angelic-protection"><em>Angelic Protection (Su)</em>: At 16th level, you gain a +4 deflection bonus to AC and a +4 resistance bonus on saving throws against attacks made or effects created by evil creatures. In addition, you are affected as if subject to a <a class="reference internal" href="corerulebook.spells.protectionfromevil.html#corerulebook-spells-protectionfromevil-protection-from-evil"><span class="std std-ref">protection from evil</span></a> spell. This effect cannot be dispelled.</p>
+<p id="advancedclassguide-classes-bloodrager-ascension"><em>Ascension (Su)</em>: At 20th level, you become infused with the power of the heavens. You gain immunity to acid, cold, and petrification. You also gain resistance 10 to electricity and fire, as well as a +4 racial bonus on saving throws against poison. You have these benefits constantly, even while not bloodraging.</p>
+</div>
+<div class="section" id="destined">
+<span id="advancedclassguide-classes-bloodrager-destined"></span><h3><a class="toc-backref" href="#id12">Destined</a><a class="headerlink" href="#destined" title="Permalink to this headline">¶</a></h3>
+<p>Your bloodline is destined for great things. When you bloodrage, you exude a measure of greatness that makes all but the most legendary creatures seem lesser.</p>
+<p><strong>Bonus Feats</strong>: Diehard, Endurance, Improved Initiative, Intimidating Prowess, Leadership, Lightning Reflexes, Weapon Focus.</p>
+<p><strong>Bonus Spells</strong>: <a class="reference internal" href="corerulebook.spells.shield.html#corerulebook-spells-shield-shield"><span class="std std-ref">shield</span></a> (7th), <a class="reference internal" href="corerulebook.spells.blur.html#corerulebook-spells-blur-blur"><span class="std std-ref">blur</span></a> (10th), <a class="reference internal" href="corerulebook.spells.protectionfromenergy.html#corerulebook-spells-protectionfromenergy-protection-from-energy"><span class="std std-ref">protection from energy</span></a> (13th), <a class="reference internal" href="corerulebook.spells.freedomofmovement.html#corerulebook-spells-freedomofmovement-freedom-of-movement"><span class="std std-ref">freedom of movement</span></a> (16th).</p>
+<p><strong>Bloodline Powers</strong>: Your future greatness grants you the might to strike your enemies in awe-inspiring ways.</p>
+<p id="advancedclassguide-classes-bloodrager-destined-strike"><em>Destined Strike (Su)</em>: At 1st level, as a free action up to three times per day, you can grant yourself an insight bonus equal to 1/2 your bloodrager level (minimum 1) on one melee attack. At 12th level, you can use this ability up to five times per day.</p>
+<p id="advancedclassguide-classes-bloodrager-fated-bloodrager"><em>Fated Bloodrager (Su)</em>: At 4th level, you gain a +1 luck bonus to AC and on saving throws. At 8th level and every 4 levels thereafter, this bonus increases by 1 (to a maximum of +5 at 20th level).</p>
+<p id="advancedclassguide-classes-bloodrager-certain-strike"><em>Certain Strike (Su)</em>: At 8th level, you may reroll an attack roll once during a bloodrage. You must decide to use this ability after the die is rolled, but before the GM reveals the result. You must take the second result, even if it’s worse.</p>
+<p id="advancedclassguide-classes-bloodrager-defy-death"><em>Defy Death (Su)</em>: At 12th level, once per day when an attack or a spell that deals damage would result in your death, you can attempt a DC 20 Fortitude save. If you succeed, you are instead reduced to 1 hit point; if you succeed and already have 0 hit points or fewer, you instead take no damage.</p>
+<p id="advancedclassguide-classes-bloodrager-unstoppable"><em>Unstoppable (Su)</em>: At 16th level, any critical threats you score are automatically confirmed. Any critical threats made against you are confirmed only if the second roll results in a natural 20 (or if the threat is automatically confirmed).</p>
+<p id="advancedclassguide-classes-bloodrager-victory-or-death"><em>Victory or Death (Su)</em>: At 20th level, you gain immunity to paralysis and petrification, as well as to the stunned, dazed, and staggered conditions. You have these benefits constantly, even while not bloodraging.</p>
+</div>
+<div class="section" id="draconic">
+<span id="advancedclassguide-classes-bloodrager-draconic"></span><h3><a class="toc-backref" href="#id13">Draconic</a><a class="headerlink" href="#draconic" title="Permalink to this headline">¶</a></h3>
+<p>At some point in your family’s history, a dragon interbred with your bloodline. Now, the sublime monster’s ancient power fuels your bloodrage.</p>
+<p><strong>Bonus Feats</strong>: Blind-Fight, Cleave, Great Fortitude, Improved Initiative, Power Attack, Skill Focus (<a class="reference internal" href="corerulebook.skills.fly.html#corerulebook-skills-fly-fly"><span class="std std-ref">Fly</span></a>), Toughness.</p>
+<p><strong>Bonus Spells</strong>: <a class="reference internal" href="corerulebook.spells.shield.html#corerulebook-spells-shield-shield"><span class="std std-ref">shield</span></a> (7th), <a class="reference internal" href="corerulebook.spells.resistenergy.html#corerulebook-spells-resistenergy-resist-energy"><span class="std std-ref">resist energy</span></a> (10th), <a class="reference internal" href="corerulebook.spells.fly.html#corerulebook-spells-fly-fly"><span class="std std-ref">fly</span></a> (13th), <a class="reference internal" href="corerulebook.spells.fear.html#corerulebook-spells-fear-fear"><span class="std std-ref">fear</span></a> (16th).</p>
+<p><strong>Bloodline Powers</strong>: The power of dragons flows through you and manifests in a number of ways. At 1st level, you must select a chromatic or metallic dragon type (see the table below). Once chosen, this type cannot be changed. A number of your bloodline powers deal damage and grant resistances based on your dragon type, as noted below.</p>
+<table border="1" class="colwidths-auto contrast-reading-table docutils">
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Dragon Type</th>
+<th class="head">Energy Type</th>
+<th class="head">Breath Shape</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Black</td>
+<td>Acid</td>
+<td>60-foot line</td>
+</tr>
+<tr class="row-odd"><td>Blue</td>
+<td>Electricity</td>
+<td>60-foot line</td>
+</tr>
+<tr class="row-even"><td>Green</td>
+<td>Acid</td>
+<td>30-foot cone</td>
+</tr>
+<tr class="row-odd"><td>Red</td>
+<td>Fire</td>
+<td>30-foot cone</td>
+</tr>
+<tr class="row-even"><td>White</td>
+<td>Cold</td>
+<td>30-foot cone</td>
+</tr>
+<tr class="row-odd"><td>Brass</td>
+<td>Fire</td>
+<td>60-foot line</td>
+</tr>
+<tr class="row-even"><td>Bronze</td>
+<td>Electricity</td>
+<td>60-foot line</td>
+</tr>
+<tr class="row-odd"><td>Copper</td>
+<td>Acid</td>
+<td>60-foot line</td>
+</tr>
+<tr class="row-even"><td>Gold</td>
+<td>Fire</td>
+<td>30-foot cone</td>
+</tr>
+<tr class="row-odd"><td>Silver</td>
+<td>Cold</td>
+<td>30-foot cone</td>
+</tr>
+</tbody>
+</table>
+<p><em>Claws (Su)</em>: At 1st level, you grow claws. These claws are treated as natural weapons, allowing you to make two claw attacks as a full attack, using your full base attack bonus. These attacks each deal an amount of damage equal to 1d6 (1d4 if you are Small) + your Strength modifier. At 4th level, these claws are considered magic weapons for the purpose of overcoming damage reduction. At 8th level, the amount of damage increases to 1d8 (1d6 if you are Small) + your Strength modifier. At 12th level, these claws deal an additional 1d6 points of damage of your energy type on a hit.</p>
+<p id="advancedclassguide-classes-bloodrager-draconic-resistance"><em>Draconic Resistance (Ex)</em>: At 4th level, you gain resistance 5 against your energy type and a +1 natural armor bonus to AC. At 8th level, your energy resistance increases to 10 and your natural armor bonus increases to +2. At 16th level, your natural armor bonus increases to +4.</p>
+<p id="advancedclassguide-classes-bloodrager-breath-weapon"><em>Breath Weapon (Su)</em>: At 8th level, you gain a breath weapon that you can use once per day. This breath weapon deals 1d6 points of damage of your energy type per bloodrager level. Those caught in the area of your breath weapon can attempt a Reflex saving throw for half damage. The DC of this save is equal to 10 + 1/2 your bloodrager level + your Constitution modifier. The shape of the breath weapon depends on your dragon type (as indicated on the above table). At 16th level, you can use this ability twice per day. At 20th level, you can use this ability three times per day.</p>
+<p id="advancedclassguide-classes-bloodrager-dragon-wings"><em>Dragon Wings (Su)</em>: At 12th level, when entering a bloodrage, you can choose to have leathery wings grow from your back, giving you a fly speed of 60 feet with average maneuverability. At 16th level, your fly speed increases to 80 feet with good maneuverability.</p>
+<p id="advancedclassguide-classes-bloodrager-dragon-form"><em>Dragon Form (Su)</em>: At 16th level, when entering a bloodrage, you can choose to take the form of your chosen dragon type (as <a class="reference internal" href="corerulebook.spells.formofthedragon.html#corerulebook-spells-formofthedragon-form-of-the-dragon-ii"><span class="std std-ref">form of the dragon II</span></a>, but with good maneuverability, as you would gain from the dragon wings bloodrage power above).</p>
+<p id="advancedclassguide-classes-bloodrager-power-of-wyrms"><em>Power of Wyrms (Su)</em>: At 20th level, you gain immunity to paralysis, sleep, and damage from your energy type. You also gain blindsense with a range of 60 feet. You have these benefits constantly, even while not bloodraging.</p>
+</div>
+<div class="section" id="elemental">
+<span id="advancedclassguide-classes-bloodrager-elemental"></span><h3><a class="toc-backref" href="#id14">Elemental</a><a class="headerlink" href="#elemental" title="Permalink to this headline">¶</a></h3>
+<p>The power of the elements resides in you, and at times you can hardly control its fury. This influence comes either from an elemental outsider in your family history or from a moment when you or your ancestors were exposed to a powerful elemental force or cataclysm.</p>
+<p><strong>Bonus Feats</strong>: Cleave, Dodge, Great Fortitude, Improved Initiative, Lightning Reflexes, Power Attack, Weapon Focus.</p>
+<p><strong>Bonus Spells</strong>: <a class="reference internal" href="corerulebook.spells.burninghands.html#corerulebook-spells-burninghands-burning-hands"><span class="std std-ref">burning hands</span></a> * (7th), <a class="reference internal" href="corerulebook.spells.scorchingray.html#corerulebook-spells-scorchingray-scorching-ray"><span class="std std-ref">scorching ray</span></a> * (10th), <a class="reference internal" href="corerulebook.spells.protectionfromenergy.html#corerulebook-spells-protectionfromenergy-protection-from-energy"><span class="std std-ref">protection from energy</span></a> (13th), <a class="reference internal" href="corerulebook.spells.elementalbody.html#corerulebook-spells-elementalbody-elemental-body-i"><span class="std std-ref">elemental body I</span></a> (16th). (Spells marked with an asterisk [ *] always deal a type of energy damage determined by your element, regardless of the spell’s normal effects. In addition, the subtypes of these spells change to match the energy type of your element.)</p>
+<p><strong>Bloodline Powers</strong>: One of the four elements infuses your being, and you can draw upon its power while bloodraging. At 1st level, you must select an element: air, earth, fire, or water. Once chosen, this element cannot be changed. A number of your abilities deal damage and grant resistances based on your element, as noted in the table below.</p>
+<table border="1" class="colwidths-auto contrast-reading-table docutils">
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Element</th>
+<th class="head">Energy Type</th>
+<th class="head">Elemental Movement</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Air</td>
+<td>Electricity</td>
+<td><a class="reference internal" href="corerulebook.skills.fly.html#corerulebook-skills-fly-fly"><span class="std std-ref">Fly</span></a> 60 feet (good)</td>
+</tr>
+<tr class="row-odd"><td>Earth</td>
+<td>Acid</td>
+<td>Burrow 30 feet</td>
+</tr>
+<tr class="row-even"><td>Fire</td>
+<td>Fire</td>
+<td>+30 feet base land speed</td>
+</tr>
+<tr class="row-odd"><td>Water</td>
+<td>Cold</td>
+<td><a class="reference internal" href="corerulebook.skills.swim.html#corerulebook-skills-swim-swim"><span class="std std-ref">Swim</span></a> 60 feet</td>
+</tr>
+</tbody>
+</table>
+<p id="advancedclassguide-classes-bloodrager-elemental-strikes"><em>Elemental Strikes (Su)</em>: At 1st level, three times a day as a swift action you can imbue your melee attacks with elemental energy. For 1 round, your melee attacks deal an additional 1d6 points of damage of your energy type. At 8th level, you can use this ability up to five times per day. At 20th level, all your melee attacks deal this damage, and you don’t need to activate this ability.</p>
+<p id="advancedclassguide-classes-bloodrager-elemental-resistance"><em>Elemental Resistance (Ex)</em>: At 4th level, you gain energy resistance 10 against your energy type.</p>
+<p id="advancedclassguide-classes-bloodrager-elemental-movement"><em>Elemental Movement (Su)</em>: At 8th level, you gain a special movement type or bonus to your speed based on your chosen element, as indicated on the above table.</p>
+<p id="advancedclassguide-classes-bloodrager-power-of-the-elements"><em>Power of the Elements (Su)</em>: At 12th level, the energy damage done by your elemental strikes bloodline power bypasses resistance to that energy type, and still deals half damage to creatures that have immunity to energy of that type.</p>
+<p id="advancedclassguide-classes-bloodrager-elemental-form"><em>Elemental Form (Su)</em>: At 16th level, once per day when entering a bloodrage, you can take an elemental form, as per <a class="reference internal" href="corerulebook.spells.elementalbody.html#corerulebook-spells-elementalbody-elemental-body-iv"><span class="std std-ref">elemental body IV</span></a>.</p>
+<p id="advancedclassguide-classes-bloodrager-elemental-body"><em>Elemental Body (Su):</em> At 20th level, elemental power surges through your body. You gain immunity to sneak attacks, critical hits, and damage from your energy type. You have these benefits constantly, even while not bloodraging.</p>
+</div>
+<div class="section" id="fey">
+<span id="advancedclassguide-classes-bloodrager-fey"></span><h3><a class="toc-backref" href="#id15">Fey</a><a class="headerlink" href="#fey" title="Permalink to this headline">¶</a></h3>
+<p>One of your ancestors was fey, or the fey realm somehow intermixed with your bloodline. This fact affects your bloodrage in tricky and surprising ways.</p>
+<p><strong>Bonus Feats</strong>: Combat Reflexes, Dodge, Improved Initiative, Lightning Reflexes, Mobility, Step Up, Intimidating Prowess.</p>
+<p><strong>Bonus Spells</strong>: <a class="reference internal" href="corerulebook.spells.entangle.html#corerulebook-spells-entangle-entangle"><span class="std std-ref">entangle</span></a>(7th), <a class="reference internal" href="corerulebook.spells.hideouslaughter.html#corerulebook-spells-hideouslaughter-hideous-laughter"><span class="std std-ref">hideous laughter</span></a> (10th), <a class="reference internal" href="corerulebook.spells.haste.html#corerulebook-spells-haste-haste"><span class="std std-ref">haste</span></a> (13th), <a class="reference internal" href="corerulebook.spells.confusion.html#corerulebook-spells-confusion-confusion"><span class="std std-ref">confusion</span></a> (16th).</p>
+<p><strong>Bloodline Powers</strong>: The power of the natural world saturates your being, and manifests itself when you bloodrage.</p>
+<p id="advancedclassguide-classes-bloodrager-confusing-critical"><em>Confusing Critical (Su)</em>: At 1st level, fey power courses through your attacks. Each time you confirm a critical hit, the target must succeed at a Will saving throw or be confused for 1 round. The DC of this save is equal to 10 + 1/2 your bloodrager level + your Constitution modifier. This is a mind-affecting compulsion effect.</p>
+<p id="advancedclassguide-classes-bloodrager-leaping-charger"><em>Leaping Charger (Su)</em>: At 4th level, you are able to leap over overgrowth and similar impediments with ease while charging. When you charge, you ignore difficult terrain (but not other creatures). You can move through it at normal speed, and it does not impede your charge.</p>
+<p id="advancedclassguide-classes-bloodrager-blurring-movement"><em>Blurring Movement (Su)</em>: At 8th level, you become a blur of motion when you move. As long as you move at least 10 feet, you gain the effects of <a class="reference internal" href="corerulebook.spells.blur.html#corerulebook-spells-blur-blur"><span class="std std-ref">blur</span></a> for 1 round.</p>
+<p id="advancedclassguide-classes-bloodrager-quickling-bloodrage"><em>Quickling Bloodrage (Sp)</em>: At 12th level, while bloodraging you’re treated as if you were under the effects of <a class="reference internal" href="corerulebook.spells.haste.html#corerulebook-spells-haste-haste"><span class="std std-ref">haste</span></a>.</p>
+<p id="advancedclassguide-classes-bloodrager-one-with-nature"><em>One with Nature (Su)</em>: At 16th level, creatures of the animal or plant types don’t attack you unless they’re compelled to do so by magic or you attack them first. Three times per day, you can transport yourself from one tree to another tree, as <a class="reference internal" href="corerulebook.spells.treestride.html#corerulebook-spells-treestride-tree-stride"><span class="std std-ref">tree stride</span></a> with half the transport range. Moving from one tree to another in this manner is a move action. You have these benefits constantly, even while not bloodraging.</p>
+<p id="advancedclassguide-classes-bloodrager-fury-of-the-fey"><em>Fury of the Fey (Su)</em>: At 20th level, when entering a bloodrage, you can choose one type of creature (and subtype for humanoids or outsiders) that can be affected by the <a class="reference internal" href="corerulebook.magicitems.weapons.html#corerulebook-magicitems-weapons-weapons-bane"><span class="std std-ref">bane</span></a> weapon special ability. All of your melee attacks are considered to have the <a class="reference internal" href="corerulebook.magicitems.weapons.html#corerulebook-magicitems-weapons-weapons-bane"><span class="std std-ref">bane</span></a> special ability corresponding to that type. This ability doesn’t stack with other forms of <a class="reference internal" href="corerulebook.magicitems.weapons.html#corerulebook-magicitems-weapons-weapons-bane"><span class="std std-ref">bane</span></a>.</p>
+</div>
+<div class="section" id="infernal">
+<span id="advancedclassguide-classes-bloodrager-infernal"></span><h3><a class="toc-backref" href="#id16">Infernal</a><a class="headerlink" href="#infernal" title="Permalink to this headline">¶</a></h3>
+<p>The Pit lives in your blood. Maybe one of your ancestors was seduced by the powers of Hell or made a deal with a devil. Either way, corruption seethes within your lineage.</p>
+<p><strong>Bonus Feats</strong>: Blind-Fight, Combat Reflexes, Deceitful, Improved Disarm, Improved Sunder, Intimidating Prowess, Iron Will.</p>
+<p><strong>Bonus Spells</strong>: <a class="reference internal" href="corerulebook.spells.protectionfromgood.html#corerulebook-spells-protectionfromgood-protection-from-good"><span class="std std-ref">protection from good</span></a> (7th), <a class="reference internal" href="corerulebook.spells.scorchingray.html#corerulebook-spells-scorchingray-scorching-ray"><span class="std std-ref">scorching ray</span></a> (10th), <a class="reference internal" href="corerulebook.spells.suggestion.html#corerulebook-spells-suggestion-suggestion"><span class="std std-ref">suggestion</span></a> (13th), <a class="reference internal" href="corerulebook.spells.fireshield.html#corerulebook-spells-fireshield-fire-shield"><span class="std std-ref">fire shield</span></a> (16th).</p>
+<p><strong>Bloodline Powers</strong>: When you bloodrage, hellfire infuses your blood with terrifying effects.</p>
+<p id="advancedclassguide-classes-bloodrager-hellfire-strike"><em>Hellfire Strike (Su)</em>: At 1st level, as a swift action up to three times per day you can infuse your attacks with hellfire. When you do, your melee attacks gain the <a class="reference internal" href="corerulebook.magicitems.weapons.html#corerulebook-magicitems-weapons-weapons-flaming"><span class="std std-ref">flaming</span></a> weapon special ability for 1 round. At 12th level, you can use this ability five times per day, and the effect is treated as <a class="reference internal" href="corerulebook.magicitems.weapons.html#corerulebook-magicitems-weapons-weapons-flaming"><span class="std std-ref">flaming</span></a> &nbsp;burst.</p>
+<p id="advancedclassguide-classes-bloodrager-infernal-resistance"><em>Infernal Resistance (Ex)</em>: At 4th level, you gain fire resistance 5, as well as a +2 bonus on saving throws against poison. At 8th level, your fire resistance increases to 10, and the bonus on saving throws against poison increases to +4.</p>
+<p id="advancedclassguide-classes-bloodrager-diabolical-arrogance"><em>Diabolical Arrogance (Su)</em>: At 8th level, you gain a +4 bonus on saving throws against enchantment and fear effects.</p>
+<p id="advancedclassguide-classes-bloodrager-dark-wings"><em>Dark Wings (Su)</em>: At 12th level, when entering a bloodrage, you can grow batlike wings from your back, giving you a fly speed of 60 feet with average maneuverability. At 16th level, your fly speed increases to 80 feet with good maneuverability.</p>
+<p id="advancedclassguide-classes-bloodrager-hellfire-charge"><em>Hellfire Charge (Su)</em>: At 16th level, when you charge, the attack you make at the end of the charge gains the benefit of your hellfire strike without expending a use of it. If you already have hellfire strike active, the fire damage ignores fire resistance of 10 or lower.</p>
+<p id="advancedclassguide-classes-bloodrager-fiend-of-the-pit"><em>Fiend of the Pit (Su)</em>: At 20th level, you gain immunity to fire and poison. You also gain resistance 10 to acid and cold, and you gain the see in darkness ability. You have these benefits constantly, even while not bloodraging.</p>
+</div>
+<div class="section" id="undead">
+<span id="advancedclassguide-classes-bloodrager-undead"></span><h3><a class="toc-backref" href="#id17">Undead</a><a class="headerlink" href="#undead" title="Permalink to this headline">¶</a></h3>
+<p>The foul corruption of undeath is a part of you. Somewhere in the past, death became infused with your lineage. Your connection to the attributes of the undead bestows frightening power when you bloodrage.</p>
+<p><strong>Bonus Feats</strong>: Diehard, Dodge, Endurance, Intimidating Prowess, Iron Will, Mobility, Toughness.</p>
+<p><strong>Bonus Spells</strong>: <a class="reference internal" href="corerulebook.spells.chilltouch.html#corerulebook-spells-chilltouch-chill-touch"><span class="std std-ref">chill touch</span></a> (7th), <a class="reference internal" href="corerulebook.spells.falselife.html#corerulebook-spells-falselife-false-life"><span class="std std-ref">false life</span></a> (10th), <a class="reference internal" href="corerulebook.spells.vampirictouch.html#corerulebook-spells-vampirictouch-vampiric-touch"><span class="std std-ref">vampiric touch</span></a> (13th), <a class="reference internal" href="corerulebook.spells.enervation.html#corerulebook-spells-enervation-enervation"><span class="std std-ref">enervation</span></a> (16th).</p>
+<p><strong>Bloodline Powers</strong>: When you enter a bloodrage, the powers of undeath manifest, empowering your attacks with fear and your body with foul resistances.</p>
+<p id="advancedclassguide-classes-bloodrager-frightful-charger"><em>Frightful Charger (Su)</em>: At 1st level, when you hit a creature with a charge attack, that creature becomes shaken for a number of rounds equal to 1/2 your bloodrager level (minimum 1). This effect does not cause an existing shaken or frightened condition (from this ability or another source) to turn into frightened or panicked. This is a mind-affecting fear effect.</p>
+<p id="advancedclassguide-classes-bloodrager-ghost-strike"><em>Ghost Strike (Su)</em>: At 4th level, your melee attacks are treated as if they have the <a class="reference internal" href="corerulebook.magicitems.weapons.html#corerulebook-magicitems-weapons-weapons-ghost-touch"><span class="std std-ref">ghost touch</span></a> weapon special ability.</p>
+<p id="advancedclassguide-classes-bloodrager-deaths-gift"><em>Death’s Gift (Su)</em>: At 8th level, you gain cold resistance 10, as well as DR 10/— against nonlethal damage.</p>
+<p id="advancedclassguide-classes-bloodrager-frightful-strikes"><em>Frightful Strikes (Su)</em>: At 12th level, as a swift action once per bloodrage you can empower your melee attacks with fear. For 1 round, creatures you hit with your melee attacks become shaken. Creatures that are already shaken become frightened. At 16th level, those that are already frightened become panicked. This is a mind-affecting fear effect.</p>
+<p id="advancedclassguide-classes-bloodrager-incorporeal-bloodrager"><em>Incorporeal Bloodrager (Su)</em>: At 16th level, once per day you can choose to become incorporeal. You take only half damage from magic corporeal sources, and you take no damage from nonmagical weapons and objects. Your attacks deal damage as normal due to your ghost strike bloodrage power.</p>
+<p id="advancedclassguide-classes-bloodrager-one-foot-in-the-grave"><em>One Foot in the Grave (Ex)</em>: At 20th level, you gain immunity to cold, nonlethal damage, paralysis, and sleep. Your bloodrager damage reduction increases to 8. Unintelligent undead don’t notice you unless you attack them. You gain a +4 morale bonus on saving throws against spells and spell-like abilities cast by undead. You have these benefits constantly, even while not bloodraging.</p>
+</div>
+</div>
+<div class="section" id="bloodrager-spells">
+<span id="advancedclassguide-classes-bloodrager-bloodrager-spells"></span><h2><a class="toc-backref" href="#id18">Bloodrager Spells</a><a class="headerlink" href="#bloodrager-spells" title="Permalink to this headline">¶</a></h2>
+<p>Bloodragers gain access to the following spells.</p>
+<p><strong>1st-Level Bloodrager Spells</strong>: <a class="reference internal" href="advancedclassguide.spells.bladelash.html#advancedclassguide-spells-bladelash"><span class="std std-ref">blade lash</span></a>, <a class="reference internal" href="advancedclassguide.spells.blurredmovement.html#advancedclassguide-spells-blurredmovement"><span class="std std-ref">blurred movement</span></a>, <a class="reference internal" href="advancedplayersguide.spells.break.html#advancedplayersguide-spells-break-break"><span class="std std-ref">break</span></a>, <a class="reference internal" href="corerulebook.spells.burninghands.html#corerulebook-spells-burninghands-burning-hands"><span class="std std-ref">burning hands</span></a>, <a class="reference internal" href="corerulebook.spells.causefear.html#corerulebook-spells-causefear-cause-fear"><span class="std std-ref">cause fear</span></a>, <a class="reference internal" href="corerulebook.spells.chilltouch.html#corerulebook-spells-chilltouch-chill-touch"><span class="std std-ref">chill touch</span></a>, <a class="reference internal" href="corerulebook.spells.colorspray.html#corerulebook-spells-colorspray-color-spray"><span class="std std-ref">color spray</span></a>, <a class="reference internal" href="ultimatemagic.spells.corrosivetouch.html#ultimatemagic-spells-corrosivetouch-corrosive-touch"><span class="std std-ref">corrosive touch</span></a>, <a class="reference internal" href="ultimatemagic.spells.earpiercingscream.html#ultimatemagic-spells-earpiercingscream-ear-piercing-scream"><span class="std std-ref">ear-piercing scream</span></a>, <a class="reference internal" href="corerulebook.spells.endureelements.html#corerulebook-spells-endureelements-endure-elements"><span class="std std-ref">endure elements</span></a>, <a class="reference internal" href="corerulebook.spells.enlargeperson.html#corerulebook-spells-enlargeperson-enlarge-person"><span class="std std-ref">enlarge person</span></a>, <a class="reference internal" href="corerulebook.spells.expeditiousretreat.html#corerulebook-spells-expeditiousretreat-expeditious-retreat"><span class="std std-ref">expeditious retreat</span></a>, <a class="reference internal" href="corerulebook.spells.featherfall.html#corerulebook-spells-featherfall-feather-fall"><span class="std std-ref">feather fall</span></a>, <a class="reference internal" href="advancedplayersguide.spells.flareburst.html#advancedplayersguide-spells-flareburst-flare-burst"><span class="std std-ref">flare burst</span></a>, <a class="reference internal" href="ultimatemagic.spells.frostbite.html#ultimatemagic-spells-frostbite-frostbite"><span class="std std-ref">frostbite</span></a>, <a class="reference internal" href="advancedplayersguide.spells.hydraulicpush.html#advancedplayersguide-spells-hydraulicpush-hydraulic-push"><span class="std std-ref">hydraulic push</span></a>, <a class="reference internal" href="ultimatemagic.spells.icicledagger.html#ultimatemagic-spells-icicledagger-icicle-dagger"><span class="std std-ref">icicle dagger</span></a>, <a class="reference internal" href="corerulebook.spells.jump.html#corerulebook-spells-jump-jump"><span class="std std-ref">jump</span></a>, <a class="reference internal" href="advancedclassguide.spells.lineinthesand.html#advancedclassguide-spells-lineinthesand"><span class="std std-ref">line in the sand</span></a>, <a class="reference internal" href="advancedclassguide.spells.longarm.html#advancedclassguide-spells-longarm"><span class="std std-ref">long arm</span></a>, <a class="reference internal" href="corerulebook.spells.magearmor.html#corerulebook-spells-magearmor-mage-armor"><span class="std std-ref">mage armor</span></a>, <a class="reference internal" href="corerulebook.spells.magicmissile.html#corerulebook-spells-magicmissile-magic-missile"><span class="std std-ref">magic missile</span></a>, <a class="reference internal" href="corerulebook.spells.magicweapon.html#corerulebook-spells-magicweapon-magic-weapon"><span class="std std-ref">magic weapon</span></a>, <a class="reference internal" href="advancedraceguide.featuredraces.undines.html#advancedraceguide-featuredraces-undines-marids-mastery"><span class="std std-ref">marid’s mastery</span></a>, <a class="reference internal" href="ultimatecombat.spells.mirrorstrike.html#ultimatecombat-spells-mirrorstrike-mirror-strike"><span class="std std-ref">mirror strike</span></a>, <a class="reference internal" href="corerulebook.spells.mount.html#corerulebook-spells-mount-mount"><span class="std std-ref">mount</span></a>, <a class="reference internal" href="advancedraceguide.featuredraces.goblins.html#advancedraceguide-featuredraces-goblins-mudball"><span class="std std-ref">mudball</span></a>, <a class="reference internal" href="advancedclassguide.spells.phantomblood.html#advancedclassguide-spells-phantomblood"><span class="std std-ref">phantom blood</span></a>, <a class="reference internal" href="corerulebook.spells.protectionfromchaos.html#corerulebook-spells-protectionfromchaos-protection-from-chaos"><span class="std std-ref">protection from chaos</span></a>/<a class="reference internal" href="corerulebook.spells.protectionfromevil.html#corerulebook-spells-protectionfromevil-protection-from-evil"><span class="std std-ref">evil</span></a>/<a class="reference internal" href="corerulebook.spells.protectionfromgood.html#corerulebook-spells-protectionfromgood-protection-from-good"><span class="std std-ref">good</span></a>/<a class="reference internal" href="corerulebook.spells.protectionfromlaw.html#corerulebook-spells-protectionfromlaw-protection-from-law"><span class="std std-ref">law</span></a>, <a class="reference internal" href="corerulebook.spells.rayofenfeeblement.html#corerulebook-spells-rayofenfeeblement-ray-of-enfeeblement"><span class="std std-ref">ray of enfeeblement</span></a>, <a class="reference internal" href="ultimatemagic.spells.rayofsickening.html#ultimatemagic-spells-rayofsickening-ray-of-sickening"><span class="std std-ref">ray of sickening</span></a>, <a class="reference internal" href="corerulebook.spells.reduceperson.html#corerulebook-spells-reduceperson-reduce-person"><span class="std std-ref">reduce person</span></a>, <a class="reference internal" href="ultimatecombat.spells.returningweapon.html#ultimatecombat-spells-returningweapon-returning-weapon"><span class="std std-ref">returning weapon</span></a>, <a class="reference internal" href="ultimatemagic.spells.shadowweapon.html#ultimatemagic-spells-shadowweapon-shadow-weapon"><span class="std std-ref">shadow weapon</span></a>, <a class="reference internal" href="corerulebook.spells.shield.html#corerulebook-spells-shield-shield"><span class="std std-ref">shield</span></a>, <a class="reference internal" href="ultimatecombat.spells.shockshield.html#ultimatecombat-spells-shockshield-shock-shield"><span class="std std-ref">shock shield</span></a>, <a class="reference internal" href="corerulebook.spells.shockinggrasp.html#corerulebook-spells-shockinggrasp-shocking-grasp"><span class="std std-ref">shocking grasp</span></a>, <a class="reference internal" href="advancedplayersguide.spells.stonefist.html#advancedplayersguide-spells-stonefist-stone-fist"><span class="std std-ref">stone fist</span></a>, <a class="reference internal" href="advancedraceguide.featuredraces.oreads.html#advancedraceguide-featuredraces-oreads-stone-shield"><span class="std std-ref">stone shield</span></a>, <a class="reference internal" href="advancedraceguide.uncommonraces.strix.html#advancedraceguide-uncommonraces-strix-strong-wings"><span class="std std-ref">strong wings</span></a>, <a class="reference internal" href="advancedclassguide.spells.sunderingshards.html#advancedclassguide-spells-sunderingshards"><span class="std std-ref">sundering shards</span></a>, <a class="reference internal" href="advancedclassguide.spells.thunderstomp.html#advancedclassguide-spells-thunderstomp"><span class="std std-ref">thunderstomp</span></a>, <a class="reference internal" href="advancedraceguide.featuredraces.ifrits.html#advancedraceguide-featuredraces-ifrits-touch-of-combustion"><span class="std std-ref">touch of combustion</span></a>, <a class="reference internal" href="advancedplayersguide.spells.touchofgracelessness.html#advancedplayersguide-spells-touchofgracelessness-touch-of-gracelessness"><span class="std std-ref">touch of gracelessness</span></a>, <a class="reference internal" href="advancedplayersguide.spells.touchofthesea.html#advancedplayersguide-spells-touchofthesea-touch-of-the-sea"><span class="std std-ref">touch of the sea</span></a>, <a class="reference internal" href="corerulebook.spells.truestrike.html#corerulebook-spells-truestrike-true-strike"><span class="std std-ref">true strike</span></a>, <a class="reference internal" href="ultimatecombat.spells.unerringweapon.html#ultimatecombat-spells-unerringweapon-unerring-weapon"><span class="std std-ref">unerring weapon</span></a>, <a class="reference internal" href="ultimatecombat.spells.wardingweapon.html#ultimatecombat-spells-wardingweapon-warding-weapon"><span class="std std-ref">warding weapon</span></a>, <a class="reference internal" href="advancedclassguide.spells.waveshield.html#advancedclassguide-spells-waveshield"><span class="std std-ref">wave shield</span></a>, <a class="reference internal" href="advancedraceguide.featuredraces.drow.html#advancedraceguide-featuredraces-drow-web-bolt"><span class="std std-ref">web bolt</span></a>, <a class="reference internal" href="advancedraceguide.featuredraces.sylphs.html#advancedraceguide-featuredraces-sylphs-windy-escape"><span class="std std-ref">windy escape</span></a>, <a class="reference internal" href="advancedraceguide.featuredraces.tengus.html#advancedraceguide-featuredraces-tengus-winter-feathers"><span class="std std-ref">winter feathers</span></a>.</p>
+<p><strong>2nd-Level Bloodrager Spells</strong>: <a class="reference internal" href="ultimatecombat.spells.ablativebarrier.html#ultimatecombat-spells-ablativebarrier-ablative-barrier"><span class="std std-ref">Ablative barrier</span></a>, <a class="reference internal" href="corerulebook.spells.acidarrow.html#corerulebook-spells-acidarrow-acid-arrow"><span class="std std-ref">acid arrow</span></a>, <a class="reference internal" href="advancedclassguide.spells.adhesiveblood.html#advancedclassguide-spells-adhesiveblood"><span class="std std-ref">adhesive blood</span></a>, <a class="reference internal" href="ultimatecombat.spells.animalaspect.html#ultimatecombat-spells-animalaspect-animal-aspect"><span class="std std-ref">animal aspect</span></a>, <a class="reference internal" href="corerulebook.spells.bearsendurance.html#bear's endurance"><span class="std std-ref">bear’s endurance</span></a>, <a class="reference internal" href="corerulebook.spells.blindnessdeafness.html#blindness/deafness"><span class="std std-ref">blindness/deafness</span></a>, <a class="reference internal" href="advancedclassguide.spells.bloodarmor.html#advancedclassguide-spells-bloodarmor"><span class="std std-ref">blood armor</span></a>, <a class="reference internal" href="advancedraceguide.featuredraces.orcs.html#advancedraceguide-featuredraces-orcs-blood-blaze"><span class="std std-ref">blood blaze</span></a>, <a class="reference internal" href="ultimatemagic.spells.boilingblood.html#ultimatemagic-spells-boilingblood-boiling-blood"><span class="std std-ref">boiling blood</span></a>, <a class="reference internal" href="ultimatecombat.spells.browgasher.html#ultimatecombat-spells-browgasher-brow-gasher"><span class="std std-ref">brow gasher</span></a>, <a class="reference internal" href="ultimatecombat.spells.bulletshield.html#ultimatecombat-spells-bulletshield-bullet-shield"><span class="std std-ref">bullet shield</span></a>, <a class="reference internal" href="corerulebook.spells.bullsstrength.html#bull's strength"><span class="std std-ref">bull’s strength</span></a>, <a class="reference internal" href="advancedplayersguide.spells.burninggaze.html#advancedplayersguide-spells-burninggaze-burning-gaze"><span class="std std-ref">burning gaze</span></a>, <a class="reference internal" href="corerulebook.spells.catsgrace.html#cat's grace"><span class="std std-ref">cat’s grace</span></a>, <a class="reference internal" href="ultimatecombat.spells.certaingrip.html#ultimatecombat-spells-certaingrip-certain-grip"><span class="std std-ref">certain grip</span></a>, <a class="reference internal" href="corerulebook.spells.dazemonster.html#corerulebook-spells-dazemonster-daze-monster"><span class="std std-ref">daze monster</span></a>, <a class="reference internal" href="advancedraceguide.coreraces.gnomes.html#advancedraceguide-coreraces-gnomes-death-from-below"><span class="std std-ref">death from below</span></a>, <a class="reference internal" href="ultimatemagic.spells.defensiveshock.html#ultimatemagic-spells-defensiveshock-defensive-shock"><span class="std std-ref">defensive shock</span></a>, <a class="reference internal" href="ultimatemagic.spells.delaypain.html#ultimatemagic-spells-delaypain-delay-pain"><span class="std std-ref">delay pain</span></a>, <a class="reference internal" href="ultimatemagic.spells.disfiguringtouch.html#ultimatemagic-spells-disfiguringtouch-disfiguring-touch"><span class="std std-ref">disfiguring touch</span></a>, <a class="reference internal" href="advancedplayersguide.spells.dustoftwilight.html#advancedplayersguide-spells-dustoftwilight-dust-of-twilight"><span class="std std-ref">dust of twilight</span></a>, <a class="reference internal" href="corerulebook.spells.eaglessplendor.html#eagle's splendor"><span class="std std-ref">eagle’s splendor</span></a>, <a class="reference internal" href="advancedplayersguide.spells.elementaltouch.html#advancedplayersguide-spells-elementaltouch-elemental-touch"><span class="std std-ref">elemental touch</span></a>, <a class="reference internal" href="advancedclassguide.spells.extremeflexibility.html#advancedclassguide-spells-extremeflexibility"><span class="std std-ref">extreme flexibility</span></a>, <a class="reference internal" href="corerulebook.spells.falselife.html#corerulebook-spells-falselife-false-life"><span class="std std-ref">false life</span></a>, <a class="reference internal" href="advancedplayersguide.spells.firebreath.html#advancedplayersguide-spells-firebreath-fire-breath"><span class="std std-ref">fire breath</span></a>, <a class="reference internal" href="corerulebook.magicitems.weapons.html#corerulebook-magicitems-weapons-weapons-flaming"><span class="std std-ref">flaming sphere</span></a>, <a class="reference internal" href="ultimatemagic.spells.frigidtouch.html#ultimatemagic-spells-frigidtouch-frigid-touch"><span class="std std-ref">frigid touch</span></a>, <a class="reference internal" href="corerulebook.spells.ghoultouch.html#corerulebook-spells-ghoultouch-ghoul-touch"><span class="std std-ref">ghoul touch</span></a>, <a class="reference internal" href="corerulebook.spells.glitterdust.html#corerulebook-spells-glitterdust-glitterdust"><span class="std std-ref">glitterdust</span></a>, <a class="reference internal" href="corerulebook.spells.gustofwind.html#corerulebook-spells-gustofwind-gust-of-wind"><span class="std std-ref">gust of wind</span></a>, <a class="reference internal" href="advancedraceguide.featuredraces.sylphs.html#advancedraceguide-featuredraces-sylphs-gusting-sphere"><span class="std std-ref">gusting sphere</span></a>, <a class="reference internal" href="advancedraceguide.uncommonraces.sulis.html#advancedraceguide-uncommonraces-sulis-imbue-with-elemental-might"><span class="std std-ref">imbue with elemental might</span></a>, <a class="reference internal" href="corerulebook.spells.mirrorimage.html#corerulebook-spells-mirrorimage-mirror-image"><span class="std std-ref">mirror image</span></a>, <a class="reference internal" href="advancedclassguide.spells.moltenorb.html#advancedclassguide-spells-moltenorb"><span class="std std-ref">molten orb</span></a>, <a class="reference internal" href="corerulebook.spells.protectionfromarrows.html#corerulebook-spells-protectionfromarrows-protection-from-arrows"><span class="std std-ref">protection from arrows</span></a>, <a class="reference internal" href="corerulebook.spells.pyrotechnics.html#corerulebook-spells-pyrotechnics-pyrotechnics"><span class="std std-ref">pyrotechnics</span></a>, <a class="reference internal" href="corerulebook.spells.resistenergy.html#corerulebook-spells-resistenergy-resist-energy"><span class="std std-ref">resist energy</span></a>, <a class="reference internal" href="corerulebook.spells.scorchingray.html#corerulebook-spells-scorchingray-scorching-ray"><span class="std std-ref">scorching ray</span></a>, <a class="reference internal" href="corerulebook.spells.seeinvisibility.html#corerulebook-spells-seeinvisibility-see-invisibility"><span class="std std-ref">see invisibility</span></a>, <a class="reference internal" href="corerulebook.spells.shatter.html#corerulebook-spells-shatter-shatter"><span class="std std-ref">shatter</span></a>, <a class="reference internal" href="advancedplayersguide.spells.slipstream.html#advancedplayersguide-spells-slipstream-slipstream"><span class="std std-ref">slipstream</span></a>, <a class="reference internal" href="advancedclassguide.spells.sonicscream.html#advancedclassguide-spells-sonicscream"><span class="std std-ref">sonic scream</span></a>, <a class="reference internal" href="corerulebook.spells.spiderclimb.html#corerulebook-spells-spiderclimb-spider-climb"><span class="std std-ref">spider climb</span></a>, <a class="reference internal" href="advancedraceguide.featuredraces.catfolk.html#advancedraceguide-featuredraces-catfolk-steal-breath"><span class="std std-ref">steal breath</span></a>, <a class="reference internal" href="advancedplayersguide.spells.stonecall.html#advancedplayersguide-spells-stonecall-stone-call"><span class="std std-ref">stone call</span></a>, <a class="reference internal" href="advancedclassguide.spells.stonediscus.html#advancedclassguide-spells-stonediscus"><span class="std std-ref">stone discus</span></a>, <a class="reference internal" href="corerulebook.spells.touchofidiocy.html#corerulebook-spells-touchofidiocy-touch-of-idiocy"><span class="std std-ref">touch of idiocy</span></a>, <a class="reference internal" href="ultimatemagic.spells.unshakablechill.html#ultimatemagic-spells-unshakablechill-unshakable-chill"><span class="std std-ref">unshakable chill</span></a>.</p>
+<p><strong>3rd-Level Bloodrager Spells</strong>: <a class="reference internal" href="advancedclassguide.spells.airgeyser.html#advancedclassguide-spells-airgeyser"><span class="std std-ref">Air geyser</span></a>, <a class="reference internal" href="ultimatecombat.spells.animalaspect.html#ultimatecombat-spells-animalaspect-animal-aspect-greater"><span class="std std-ref">animal aspect (greater)</span></a>, <a class="reference internal" href="advancedplayersguide.spells.aqueousorb.html#advancedplayersguide-spells-aqueousorb-aqueous-orb"><span class="std std-ref">aqueous orb</span></a>, <a class="reference internal" href="corerulebook.spells.beastshape.html#corerulebook-spells-beastshape-beast-shape-i"><span class="std std-ref">beast shape I</span></a>, <a class="reference internal" href="advancedplayersguide.spells.bloodbiography.html#advancedplayersguide-spells-bloodbiography-blood-biography"><span class="std std-ref">blood biography</span></a>, <a class="reference internal" href="advancedraceguide.featuredraces.orcs.html#advancedraceguide-featuredraces-orcs-blood-scent"><span class="std std-ref">blood scent</span></a>, <a class="reference internal" href="ultimatemagic.spells.burrow.html#ultimatemagic-spells-burrow-burrow"><span class="std std-ref">burrow</span></a>, <a class="reference internal" href="ultimatecombat.spells.burstofspeed.html#ultimatecombat-spells-burstofspeed-burst-of-speed"><span class="std std-ref">burst of speed</span></a>, <a class="reference internal" href="ultimatecombat.spells.chainofperdition.html#ultimatecombat-spells-chainofperdition-chain-of-perdition"><span class="std std-ref">chain of perdition</span></a>, <a class="reference internal" href="advancedplayersguide.spells.cloakofwinds.html#advancedplayersguide-spells-cloakofwinds-cloak-of-winds"><span class="std std-ref">cloak of winds</span></a>, <a class="reference internal" href="ultimatemagic.spells.countlesseyes.html#ultimatemagic-spells-countlesseyes-countless-eyes"><span class="std std-ref">countless eyes</span></a>, <a class="reference internal" href="advancedplayersguide.spells.draconicreservoir.html#advancedplayersguide-spells-draconicreservoir-draconic-reservoir"><span class="std std-ref">draconic reservoir</span></a>, <a class="reference internal" href="advancedplayersguide.spells.elementalaura.html#advancedplayersguide-spells-elementalaura-elemental-aura"><span class="std std-ref">elemental aura</span></a>, <a class="reference internal" href="ultimatemagic.spells.eruptivepustules.html#ultimatemagic-spells-eruptivepustules-eruptive-pustules"><span class="std std-ref">eruptive pustules</span></a>, <a class="reference internal" href="ultimatemagic.spells.excruciatingdeformation.html#ultimatemagic-spells-excruciatingdeformation-excruciating-deformation"><span class="std std-ref">excruciating deformation</span></a>, <a class="reference internal" href="advancedraceguide.featuredraces.goblins.html#advancedraceguide-featuredraces-goblins-fire-trail"><span class="std std-ref">fire trail</span></a>, <a class="reference internal" href="corerulebook.spells.fireball.html#corerulebook-spells-fireball-fireball"><span class="std std-ref">fireball</span></a>, <a class="reference internal" href="advancedraceguide.featuredraces.ifrits.html#advancedraceguide-featuredraces-ifrits-firestream"><span class="std std-ref">firestream</span></a>, <a class="reference internal" href="corerulebook.spells.flamearrow.html#corerulebook-spells-flamearrow-flame-arrow"><span class="std std-ref">flame arrow</span></a>, <a class="reference internal" href="corerulebook.spells.fly.html#corerulebook-spells-fly-fly"><span class="std std-ref">fly</span></a>, <a class="reference internal" href="ultimatemagic.spells.forcehookcharge.html#ultimatemagic-spells-forcehookcharge-force-hook-charge"><span class="std std-ref">force hook charge</span></a>, <a class="reference internal" href="ultimatemagic.spells.forcepunch.html#ultimatemagic-spells-forcepunch-force-punch"><span class="std std-ref">force punch</span></a>, <a class="reference internal" href="advancedraceguide.featuredraces.fetchlings.html#advancedraceguide-featuredraces-fetchlings-gloomblind-bolts"><span class="std std-ref">gloomblind bolts</span></a>, <a class="reference internal" href="corerulebook.spells.haste.html#corerulebook-spells-haste-haste"><span class="std std-ref">haste</span></a>, <a class="reference internal" href="corerulebook.spells.heroism.html#corerulebook-spells-heroism-heroism"><span class="std std-ref">heroism</span></a>, <a class="reference internal" href="corerulebook.spells.holdperson.html#corerulebook-spells-holdperson-hold-person"><span class="std std-ref">hold person</span></a>, <a class="reference internal" href="ultimatecombat.spells.hostilelevitation.html#ultimatecombat-spells-hostilelevitation-hostile-levitation"><span class="std std-ref">hostile levitation</span></a>, <a class="reference internal" href="ultimatemagic.spells.howlingagony.html#ultimatemagic-spells-howlingagony-howling-agony"><span class="std std-ref">howling agony</span></a>, <a class="reference internal" href="advancedplayersguide.spells.hydraulictorrent.html#advancedplayersguide-spells-hydraulictorrent-hydraulic-torrent"><span class="std std-ref">hydraulic torrent</span></a>, <a class="reference internal" href="corerulebook.spells.keenedge.html#corerulebook-spells-keenedge-keen-edge"><span class="std std-ref">keen edge</span></a>, <a class="reference internal" href="corerulebook.spells.lightningbolt.html#corerulebook-spells-lightningbolt-lightning-bolt"><span class="std std-ref">lightning bolt</span></a>, <a class="reference internal" href="ultimatecombat.spells.locateweakness.html#ultimatecombat-spells-locateweakness-locate-weakness"><span class="std std-ref">locate weakness</span></a>, <a class="reference internal" href="corerulebook.spells.magicweapon.html#corerulebook-spells-magicweapon-magic-weapon-greater"><span class="std std-ref">magic weapon (greater)</span></a>, <a class="reference internal" href="ultimatemagic.spells.monstrousphysique.html#ultimatemagic-spells-monstrousphysique-monstrous-physique-i"><span class="std std-ref">monstrous physique I</span></a>, <a class="reference internal" href="advancedplayersguide.spells.painstrike.html#advancedplayersguide-spells-painstrike-pain-strike"><span class="std std-ref">pain strike</span></a>, <a class="reference internal" href="advancedraceguide.coreraces.halfelves.html#advancedraceguide-coreraces-halfelves-paragon-surge"><span class="std std-ref">paragon surge</span></a>, <a class="reference internal" href="corerulebook.spells.phantomsteed.html#corerulebook-spells-phantomsteed-phantom-steed"><span class="std std-ref">phantom steed</span></a>, <a class="reference internal" href="corerulebook.spells.protectionfromenergy.html#corerulebook-spells-protectionfromenergy-protection-from-energy"><span class="std std-ref">protection from energy</span></a>, <a class="reference internal" href="corerulebook.spells.rage.html#corerulebook-spells-rage-rage"><span class="std std-ref">rage</span></a>, <a class="reference internal" href="advancedraceguide.featuredraces.oreads.html#advancedraceguide-featuredraces-oreads-raging-rubble"><span class="std std-ref">raging rubble</span></a>, <a class="reference internal" href="corerulebook.spells.rayofexhaustion.html#corerulebook-spells-rayofexhaustion-ray-of-exhaustion"><span class="std std-ref">ray of exhaustion</span></a>, <a class="reference internal" href="ultimatecombat.spells.resinousskin.html#ultimatecombat-spells-resinousskin-resinous-skin"><span class="std std-ref">resinous skin</span></a>, <a class="reference internal" href="advancedclassguide.spells.silverdarts.html#advancedclassguide-spells-silverdarts"><span class="std std-ref">silver darts</span></a>, <a class="reference internal" href="corerulebook.spells.sleetstorm.html#corerulebook-spells-sleetstorm-sleet-storm"><span class="std std-ref">sleet storm</span></a>, <a class="reference internal" href="corerulebook.spells.slow.html#corerulebook-spells-slow-slow"><span class="std std-ref">slow</span></a>, <a class="reference internal" href="corerulebook.spells.stinkingcloud.html#corerulebook-spells-stinkingcloud-stinking-cloud"><span class="std std-ref">stinking cloud</span></a>, <a class="reference internal" href="advancedclassguide.spells.thunderstomp.html#advancedclassguide-spells-thunderstomp-thunderstomp-greater"><span class="std std-ref">thunderstomp (greater)</span></a>, <a class="reference internal" href="advancedplayersguide.spells.twilightknife.html#advancedplayersguide-spells-twilightknife-twilight-knife"><span class="std std-ref">twilight knife</span></a>, <a class="reference internal" href="ultimatemagic.spells.undeadanatomy.html#ultimatemagic-spells-undeadanatomy-undead-anatomy-i"><span class="std std-ref">undead anatomy I</span></a>, <a class="reference internal" href="corerulebook.spells.vampirictouch.html#corerulebook-spells-vampirictouch-vampiric-touch"><span class="std std-ref">vampiric touch</span></a>, <a class="reference internal" href="advancedplayersguide.spells.versatileweapon.html#advancedplayersguide-spells-versatileweapon-versatile-weapon"><span class="std std-ref">versatile weapon</span></a>, <a class="reference internal" href="ultimatemagic.spells.visionofhell.html#ultimatemagic-spells-visionofhell-vision-of-hell"><span class="std std-ref">vision of hell</span></a>, <a class="reference internal" href="corerulebook.spells.waterbreathing.html#corerulebook-spells-waterbreathing-water-breathing"><span class="std std-ref">water breathing</span></a>, <a class="reference internal" href="corerulebook.spells.windwall.html#corerulebook-spells-windwall-wind-wall"><span class="std std-ref">wind wall</span></a>.</p>
+<p><strong>4th-Level Bloodrager Spells</strong>: <a class="reference internal" href="advancedraceguide.featuredraces.sylphs.html#advancedraceguide-featuredraces-sylphs-absorbing-inhalation"><span class="std std-ref">absorbing inhalation</span></a>, <a class="reference internal" href="advancedplayersguide.spells.balllightning.html#advancedplayersguide-spells-balllightning-ball-lightning"><span class="std std-ref">ball lightning</span></a>, <a class="reference internal" href="corerulebook.spells.beastshape.html#corerulebook-spells-beastshape-beast-shape-ii"><span class="std std-ref">beast shape II</span></a>, <a class="reference internal" href="corerulebook.spells.bestowcurse.html#corerulebook-spells-bestowcurse-bestow-curse"><span class="std std-ref">bestow curse</span></a>, <a class="reference internal" href="corerulebook.spells.blacktentacles.html#corerulebook-spells-blacktentacles-black-tentacles"><span class="std std-ref">black tentacles</span></a>, <a class="reference internal" href="advancedplayersguide.spells.calcifictouch.html#advancedplayersguide-spells-calcifictouch-calcific-touch"><span class="std std-ref">calcific touch</span></a>, <a class="reference internal" href="corerulebook.spells.confusion.html#corerulebook-spells-confusion-confusion"><span class="std std-ref">confusion</span></a>, <a class="reference internal" href="corerulebook.spells.contagion.html#corerulebook-spells-contagion-contagion"><span class="std std-ref">contagion</span></a>, <a class="reference internal" href="corerulebook.spells.crushingdespair.html#corerulebook-spells-crushingdespair-crushing-despair"><span class="std std-ref">crushing despair</span></a>, <a class="reference internal" href="advancedplayersguide.spells.detonate.html#advancedplayersguide-spells-detonate-detonate"><span class="std std-ref">detonate</span></a>, <a class="reference internal" href="advancedplayersguide.spells.dragonsbreath.html#advancedplayersguide-spells-dragonsbreath-dragons-breath"><span class="std std-ref">dragon’s breath</span></a>, <a class="reference internal" href="advancedraceguide.uncommonraces.svirfneblins.html#advancedraceguide-uncommonraces-svirfneblins-earth-glide"><span class="std std-ref">earth glide</span></a>, <a class="reference internal" href="corerulebook.spells.elementalbody.html#corerulebook-spells-elementalbody-elemental-body-i"><span class="std std-ref">elemental body I</span></a>, <a class="reference internal" href="corerulebook.spells.enervation.html#corerulebook-spells-enervation-enervation"><span class="std std-ref">enervation</span></a>, <a class="reference internal" href="corerulebook.spells.enlargeperson.html#corerulebook-spells-enlargeperson-enlarge-person-mass"><span class="std std-ref">enlarge person (mass)</span></a>, <a class="reference internal" href="ultimatemagic.spells.falselife.html#ultimatemagic-spells-falselife-false-life-greater"><span class="std std-ref">false life (greater)</span></a>, <a class="reference internal" href="corerulebook.spells.fear.html#corerulebook-spells-fear-fear"><span class="std std-ref">fear</span></a>, <a class="reference internal" href="corerulebook.spells.fireshield.html#corerulebook-spells-fireshield-fire-shield"><span class="std std-ref">fire shield</span></a>, <a class="reference internal" href="advancedplayersguide.spells.firefall.html#advancedplayersguide-spells-firefall-firefall"><span class="std std-ref">firefall</span></a>, <a class="reference internal" href="corerulebook.magicitems.weapons.html#corerulebook-magicitems-weapons-weapons-flaming"><span class="std std-ref">flaming sphere (greater)</span></a>, <a class="reference internal" href="advancedraceguide.coreraces.halforcs.html#advancedraceguide-coreraces-halforcs-ghost-wolf"><span class="std std-ref">ghost wolf</span></a>, <a class="reference internal" href="advancedraceguide.featuredraces.tieflings.html#advancedraceguide-featuredraces-tieflings-hellmouth-lash"><span class="std std-ref">hellmouth lash</span></a>, <a class="reference internal" href="corerulebook.spells.icestorm.html#corerulebook-spells-icestorm-ice-storm"><span class="std std-ref">ice storm</span></a>, <a class="reference internal" href="ultimatemagic.spells.monstrousphysique.html#ultimatemagic-spells-monstrousphysique-monstrous-physique-ii"><span class="std std-ref">monstrous physique II</span></a>, <a class="reference internal" href="advancedplayersguide.spells.moonstruck.html#advancedplayersguide-spells-moonstruck-moonstruck"><span class="std std-ref">moonstruck</span></a>, <a class="reference internal" href="ultimatecombat.spells.pelletblast.html#ultimatecombat-spells-pelletblast-pellet-blast"><span class="std std-ref">pellet blast</span></a>, <a class="reference internal" href="corerulebook.spells.phantasmalkiller.html#corerulebook-spells-phantasmalkiller-phantasmal-killer"><span class="std std-ref">phantasmal killer</span></a>, <a class="reference internal" href="corerulebook.spells.reduceperson.html#corerulebook-spells-reduceperson-reduce-person-mass"><span class="std std-ref">reduce person (mass)</span></a>, <a class="reference internal" href="ultimatemagic.spells.ridethewaves.html#ultimatemagic-spells-ridethewaves-ride-the-waves"><span class="std std-ref">ride the waves</span></a>, <a class="reference internal" href="advancedplayersguide.spells.riverofwind.html#advancedplayersguide-spells-riverofwind-river-of-wind"><span class="std std-ref">river of wind</span></a>, <a class="reference internal" href="ultimatecombat.spells.shockingimage.html#ultimatecombat-spells-shockingimage-shocking-image"><span class="std std-ref">shocking image</span></a>, <a class="reference internal" href="corerulebook.spells.shout.html#corerulebook-spells-shout-shout"><span class="std std-ref">shout</span></a>, <a class="reference internal" href="corerulebook.spells.stoneskin.html#corerulebook-spells-stoneskin-stoneskin"><span class="std std-ref">stoneskin</span></a>, <a class="reference internal" href="ultimatecombat.spells.telekineticcharge.html#ultimatecombat-spells-telekineticcharge-telekinetic-charge"><span class="std std-ref">telekinetic charge</span></a>, <a class="reference internal" href="ultimatemagic.spells.touchofslime.html#ultimatemagic-spells-touchofslime-touch-of-slime"><span class="std std-ref">touch of slime</span></a>, <a class="reference internal" href="ultimatemagic.spells.verminshape.html#ultimatemagic-spells-verminshape-vermin-shape-i"><span class="std std-ref">vermin shape I</span></a>, <a class="reference internal" href="ultimatemagic.spells.vitriolicmist.html#ultimatemagic-spells-vitriolicmist-vitriolic-mist"><span class="std std-ref">vitriolic mist</span></a>, <a class="reference internal" href="ultimatemagic.spells.volcanicstorm.html#ultimatemagic-spells-volcanicstorm-volcanic-storm"><span class="std std-ref">volcanic storm</span></a>, <a class="reference internal" href="corerulebook.spells.walloffire.html#corerulebook-spells-walloffire-wall-of-fire"><span class="std std-ref">wall of fire</span></a>, <a class="reference internal" href="corerulebook.spells.wallofice.html#corerulebook-spells-wallofice-wall-of-ice"><span class="std std-ref">wall of ice</span></a>, <a class="reference internal" href="ultimatemagic.spells.wallofsound.html#ultimatemagic-spells-wallofsound-wall-of-sound"><span class="std std-ref">wall of sound</span></a>, <a class="reference internal" href="ultimatecombat.spells.wreathofblades.html#ultimatecombat-spells-wreathofblades-wreath-of-blades"><span class="std std-ref">wreath of blades</span></a>.</p>
+</div>
+</div>
+
+</body>

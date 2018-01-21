@@ -1,0 +1,94 @@
+
+.. _`bestiary5.dwiergeth`:
+
+.. contents:: \ 
+
+.. _`bestiary5.dwiergeth#dwiergeth`:
+
+Dwiergeth
+**********
+
+This beast's bulbous body perches atop four sucker-ended, multi- jointed legs, and possesses two gnashing, ophidian maws.
+
+Dwiergeth
+==========
+
+**CR 13** 
+
+XP 25,600
+
+CE Large aberration (extraplanar)
+
+\ **Init**\  +11; \ **Senses**\  darkvision 60 ft.; Perception +16
+
+.. _`bestiary5.dwiergeth#defense`:
+
+Defense
+========
+
+\ **AC**\  28, touch 17, flat-footed 20 (+7 Dex, +1 :ref:`Dodge <corerulebook.feats#dodge>`\ , +11 natural, -1 size)
+
+\ **hp**\  175 (13d8+117)
+
+\ **Fort**\  +13, \ **Ref**\  +11, \ **Will**\  +15
+
+\ **Defensive Abilities**\  all-around vision; \ **DR**\  10/lawful; \ **Immune**\  blindness, dazzling, poison, visual effects; \ **Resist**\  cold 20, fire 20; \ **SR**\  24
+
+.. _`bestiary5.dwiergeth#offense`:
+
+Offense
+========
+
+\ **Speed**\  60 ft., climb 60 ft.
+
+\ **Melee**\  2 bites +19 (4d6+11/19-20 plus grab)
+
+\ **Space**\  10 ft.; \ **Reach**\  10 ft.
+
+\ **Special Attacks**\  fast swallow, forever gullet, swallow whole (8d6 slashing damage, AC 15, 17 hp)
+
+\ **Spell-Like Abilities**\  (CL 13th; concentration +16)
+
+ Constant—:ref:`feather fall <corerulebook.spells.featherfall#feather_fall>`
+
+ At will—:ref:`gust of wind <corerulebook.spells.gustofwind#gust_of_wind>`\  (DC 15)
+
+ 1/day—:ref:`control winds <corerulebook.spells.controlwinds#control_winds>`\  (DC 18), :ref:`wind wall <corerulebook.spells.windwall#wind_wall>`
+
+.. _`bestiary5.dwiergeth#statistics`:
+
+Statistics
+===========
+
+\ **Str**\  32, \ **Dex**\  25, \ **Con**\  28, \ **Int**\  5, \ **Wis**\  24, \ **Cha**\  17
+
+\ **Base Atk**\  +9; \ **CMB**\  +21 (+25 grapple); \ **CMD**\  39 (43 vs. trip)
+
+\ **Feats**\  :ref:`Combat Reflexes <corerulebook.feats#combat_reflexes>`\ , :ref:`Dodge <corerulebook.feats#dodge>`\ , :ref:`Improved Critical <corerulebook.feats#improved_critical>`\  (bite), :ref:`Improved Initiative <corerulebook.feats#improved_initiative>`\ , :ref:`Mobility <corerulebook.feats#mobility>`\ , :ref:`Spring Attack <corerulebook.feats#spring_attack>`\ , :ref:`Wind Stance <corerulebook.feats#wind_stance>`
+
+\ **Skills**\  Climb +29, Perception +16
+
+\ **Languages**\  Abyssal
+
+.. _`bestiary5.dwiergeth#ecology`:
+
+Ecology
+========
+
+\ **Environment**\  cold mountains (Material Plane or Abyss)
+
+\ **Organization**\  solitary, pair, or pack (3-6)
+
+\ **Treasure**\  incidental
+
+.. _`bestiary5.dwiergeth#special_abilities`:
+
+Special Abilities
+==================
+
+\ **Forever Gullet (Su)**\  When a dwiergeth swallows a creature whole, the act shunts the victim through extradimensional orifices within the creature's body and into a seemingly endless maze of tooth-lined entrails that exist outside of reality, similar to the labyrinth created by a \ *maze*\  spell but horribly organic and hungry. If a swallowed creature successfully cuts its way out of a dwiergeth, it must attempt a DC 15 Intelligence check as it crawls out of the hole. If the victim is successful, it escapes the creature, but on a failure, the victim merely crawls from one extradimensional intestine to another and must endure another round of being swallowed whole. A dwiergeth can continue to use swallow whole even after a creature cuts its way out. A creature casting any teleportation spell or spell-like ability while within 5 feet of a dwiergeth must succeed at a DC 21 Will save or the effect instead sends the target into the dwiergeth's forever gullet. When a dwiergeth is under the effects of :ref:`dimensional anchor <corerulebook.spells.dimensionalanchor#dimensional_anchor>`\  or in an area that prohibits extradimensional travel, it loses the abilities of its forever gullet, but its swallow whole ability functions normally. If a dwiergeth dies, the extradimensional space contracts, disgorging any swallowed creature into the corpse's space. The save DC is Charisma-based, and includes a +2 racial bonus.
+
+Dwiergeths hunt Abyssal rift valleys, digesting prey in a gnawing process of transdimensional rumination. Sure-footed dwiergeths leap and sprint along vertical surfaces with disturbing ease, and often cling to cliff sides for hours or even days, waiting for prey to approach from either above or below. They have a supernatural mastery over the wind as well, and make use of their spell-like abilities to cause climbers to fall from cliffs or flying creatures to be dashed against rocky walls—it's easier to eat bleeding, broken meat, after all.
+
+A dwiergeth's anatomy is often difficult for humanoids to comprehend. Trembling bristles protruding from the creature's flesh act as eyes, allowing it to see in all directions at once. Although dissection of a slain dwiergeth reveals a single coiling digestive tract winding from one of its mouths through its bulbous body to the other mouth, the entrails of a living dwiergeth actually extend into other strange dimensions generated by the monster's Abyssal heritage.
+

@@ -1,0 +1,460 @@
+
+
+
+
+
+<head>
+    <link rel="stylesheet" href="_static/srd.css" type="text/css" />
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/toggle_list.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+
+
+
+<body>
+    <div class="contents topic" id="id1">
+<span id="bestiary-dinosaur"></span><p class="topic-title first"></p>
+<ul class="simple">
+<li><a class="reference internal" href="#dinosaur-ankylosaurus" id="id31">Dinosaur, Ankylosaurus</a><ul>
+<li><a class="reference internal" href="#ankylosaurus" id="id32">Ankylosaurus</a></li>
+<li><a class="reference internal" href="#defense" id="id33">Defense</a></li>
+<li><a class="reference internal" href="#offense" id="id34">Offense</a></li>
+<li><a class="reference internal" href="#statistics" id="id35">Statistics</a></li>
+<li><a class="reference internal" href="#ecology" id="id36">Ecology</a></li>
+<li><a class="reference internal" href="#special-abilities" id="id37">Special Abilities</a><ul>
+<li><a class="reference internal" href="#ankylosaurus-companions" id="id38">Ankylosaurus Companions</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#dinosaur-brachiosaurus" id="id39">Dinosaur, Brachiosaurus</a><ul>
+<li><a class="reference internal" href="#brachiosaurus" id="id40">Brachiosaurus</a></li>
+<li><a class="reference internal" href="#id2" id="id41">Defense</a></li>
+<li><a class="reference internal" href="#id3" id="id42">Offense</a></li>
+<li><a class="reference internal" href="#id4" id="id43">Statistics</a></li>
+<li><a class="reference internal" href="#id5" id="id44">Ecology</a><ul>
+<li><a class="reference internal" href="#brachiosaurus-companions" id="id45">Brachiosaurus Companions</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#dinosaur-deinonychus" id="id46">Dinosaur, Deinonychus</a><ul>
+<li><a class="reference internal" href="#deinonychus" id="id47">Deinonychus</a></li>
+<li><a class="reference internal" href="#id6" id="id48">Defense</a></li>
+<li><a class="reference internal" href="#id7" id="id49">Offense</a></li>
+<li><a class="reference internal" href="#id8" id="id50">Statistics</a></li>
+<li><a class="reference internal" href="#id9" id="id51">Ecology</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#dinosaur-elasmosaurus" id="id52">Dinosaur, Elasmosaurus</a><ul>
+<li><a class="reference internal" href="#elasmosaurus" id="id53">Elasmosaurus</a></li>
+<li><a class="reference internal" href="#id10" id="id54">Defense</a></li>
+<li><a class="reference internal" href="#id11" id="id55">Offense</a></li>
+<li><a class="reference internal" href="#id12" id="id56">Statistics</a></li>
+<li><a class="reference internal" href="#id13" id="id57">Ecology</a><ul>
+<li><a class="reference internal" href="#elasmosaurus-companions" id="id58">Elasmosaurus Companions</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#dinosaur-pteranodon" id="id59">Dinosaur, Pteranodon</a><ul>
+<li><a class="reference internal" href="#pteranodon" id="id60">Pteranodon</a></li>
+<li><a class="reference internal" href="#id14" id="id61">Defense</a></li>
+<li><a class="reference internal" href="#id15" id="id62">Offense</a></li>
+<li><a class="reference internal" href="#id16" id="id63">Statistics</a></li>
+<li><a class="reference internal" href="#id17" id="id64">Ecology</a><ul>
+<li><a class="reference internal" href="#pteranodon-companions" id="id65">Pteranodon Companions</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#dinosaur-stegosaurus" id="id66">Dinosaur, Stegosaurus</a><ul>
+<li><a class="reference internal" href="#stegosaurus" id="id67">Stegosaurus</a></li>
+<li><a class="reference internal" href="#id18" id="id68">Defense</a></li>
+<li><a class="reference internal" href="#id19" id="id69">Offense</a></li>
+<li><a class="reference internal" href="#id20" id="id70">Statistics</a></li>
+<li><a class="reference internal" href="#id21" id="id71">Ecology</a><ul>
+<li><a class="reference internal" href="#stegosaurus-companions" id="id72">Stegosaurus Companions</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#dinosaur-triceratops" id="id73">Dinosaur, Triceratops</a><ul>
+<li><a class="reference internal" href="#triceratops" id="id74">Triceratops</a></li>
+<li><a class="reference internal" href="#id22" id="id75">Defense</a></li>
+<li><a class="reference internal" href="#id23" id="id76">Offense</a></li>
+<li><a class="reference internal" href="#id24" id="id77">Statistics</a></li>
+<li><a class="reference internal" href="#id25" id="id78">Ecology</a><ul>
+<li><a class="reference internal" href="#triceratops-companions" id="id79">Triceratops Companions</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#dinosaur-tyrannosaurus" id="id80">Dinosaur, Tyrannosaurus</a><ul>
+<li><a class="reference internal" href="#tyrannosaurus" id="id81">Tyrannosaurus</a></li>
+<li><a class="reference internal" href="#id26" id="id82">Defense</a></li>
+<li><a class="reference internal" href="#id27" id="id83">Offense</a></li>
+<li><a class="reference internal" href="#id28" id="id84">Statistics</a></li>
+<li><a class="reference internal" href="#id29" id="id85">Ecology</a></li>
+<li><a class="reference internal" href="#id30" id="id86">Special Abilities</a><ul>
+<li><a class="reference internal" href="#tyrannosaurus-companions" id="id87">Tyrannosaurus Companions</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="dinosaur-ankylosaurus">
+<span id="bestiary-dinosaur-dinosaur-ankylosaurus"></span><h1><a class="toc-backref" href="#id31">Dinosaur, Ankylosaurus</a><a class="headerlink" href="#dinosaur-ankylosaurus" title="Permalink to this headline">¶</a></h1>
+<p><em>Thick bony plates armor the domelike back of this quadrupedal dinosaur, its powerfully muscled tail ending in a bony club.</em></p>
+<div class="section" id="ankylosaurus">
+<span id="bestiary-dinosaur-ankylosaurus"></span><h2><a class="toc-backref" href="#id32">Ankylosaurus</a><a class="headerlink" href="#ankylosaurus" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 6</strong></p>
+<p><strong>XP 2,400</strong></p>
+<p>N Huge <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-animal"><span class="std std-ref">animal</span></a></p>
+<p><strong>Init</strong> +0; <strong>Senses</strong> low-light vision, <a class="reference internal" href="bestiary.universalmonsterrules.html#bestiary-universalmonsterrules-scent"><span class="std std-ref">scent</span></a>; <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> +14</p>
+</div>
+<div class="section" id="defense">
+<span id="bestiary-dinosaur-defense"></span><h2><a class="toc-backref" href="#id33">Defense</a><a class="headerlink" href="#defense" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 22, touch 8, flat-footed 22 (+14 natural, –2 size)</p>
+<p><strong>hp</strong> 75 (10d8+30)</p>
+<p><strong>Fort</strong> +12, <strong>Ref</strong> +7, <strong>Will</strong> +4</p>
+</div>
+<div class="section" id="offense">
+<span id="bestiary-dinosaur-offense"></span><h2><a class="toc-backref" href="#id34">Offense</a><a class="headerlink" href="#offense" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 30 ft.</p>
+<p><strong>Melee</strong> tail +14 (3d6+12 plus stun)</p>
+<p><strong>Space</strong> 15 ft.; <strong>Reach</strong> 15 ft.</p>
+</div>
+<div class="section" id="statistics">
+<span id="bestiary-dinosaur-statistics"></span><h2><a class="toc-backref" href="#id35">Statistics</a><a class="headerlink" href="#statistics" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 27, <strong>Dex</strong> 10, <strong>Con</strong> 17, <strong>Int</strong> 2, <strong>Wis</strong> 13, <strong>Cha</strong> 8</p>
+<p><strong>Base Atk</strong> +7; <strong>CMB</strong> +17; <strong>CMD</strong> 27 (31 vs. trip)</p>
+<p><strong>Feats</strong> <a class="reference internal" href="corerulebook.feats.html#corerulebook-feats-great-fortitude"><span class="std std-ref">Great Fortitude</span></a>, <a class="reference internal" href="corerulebook.feats.html#improved bull rush (combat)"><span class="std std-ref">Improved Bull Rush</span></a>, <a class="reference internal" href="corerulebook.feats.html#improved overrun (combat)"><span class="std std-ref">Improved Overrun</span></a>, <a class="reference internal" href="corerulebook.feats.html#power attack (combat)"><span class="std std-ref">Power Attack</span></a>, <a class="reference internal" href="corerulebook.feats.html#weapon focus (combat)"><span class="std std-ref">Weapon Focus</span></a> (tail)</p>
+<p><strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> +14</p>
+</div>
+<div class="section" id="ecology">
+<span id="bestiary-dinosaur-ecology"></span><h2><a class="toc-backref" href="#id36">Ecology</a><a class="headerlink" href="#ecology" title="Permalink to this headline">¶</a></h2>
+<p><strong>Environment</strong> warm forests and plains</p>
+<p><strong>Organization</strong> solitary, pair, or herd (3–12)</p>
+<p><strong>Treasure</strong> none</p>
+</div>
+<div class="section" id="special-abilities">
+<span id="bestiary-dinosaur-special-abilities"></span><h2><a class="toc-backref" href="#id37">Special Abilities</a><a class="headerlink" href="#special-abilities" title="Permalink to this headline">¶</a></h2>
+<p><strong>Stun (Ex)</strong> The ankylosaurus’s tail can deliver a powerful, stunning blow. A creature struck by this attack must make a DC 23 save or be dazed for 1 round. If the strike is a critical hit and the target fails its save, it is instead stunned for 1d4 rounds. The save DC is Strength-based.</p>
+<p>The ankylosaurus is a powerful, squat dinosaur more than capable of defending itself against enemies. Its back is heavily armored with thick bony plates and spikes. A solid blow from an ankylosaurus’s tail can leave most creatures stunned long enough for the armored dinosaur to make good an escape, although once confronted, most ankylosauruses are too ill-tempered and stubborn to flee. Instead, they stand their ground and use their tails to great effect in battle. An ankylosaurus is 30 feet long and weighs 6,000 pounds.</p>
+<div class="section" id="ankylosaurus-companions">
+<span id="bestiary-dinosaur-ankylosaurus-companions"></span><h3><a class="toc-backref" href="#id38">Ankylosaurus Companions</a><a class="headerlink" href="#ankylosaurus-companions" title="Permalink to this headline">¶</a></h3>
+<p><strong>Starting Statistics</strong>: <strong>Size</strong> Medium; <strong>Speed</strong> 30 ft.; <strong>AC</strong> +9 natural armor; <strong>Attack</strong> tail (1d6); <strong>Ability Scores</strong> Str 10, Dex 14, Con 9, Int 2, Wis 12, Cha 8; <strong>Special Qualities</strong> low-light vision, scent.</p>
+<p><strong>7th-Level Advancement</strong>: <strong>Size</strong> Large; <strong>AC</strong> +2 natural armor; <strong>Attack</strong> tail (2d6); <strong>Ability Scores</strong> Str +8, Dex –2, Con +4; <strong>Special Qualities</strong> stun.</p>
+</div>
+</div>
+</div>
+<div class="section" id="dinosaur-brachiosaurus">
+<span id="bestiary-dinosaur-dinosaur-brachiosaurus"></span><h1><a class="toc-backref" href="#id39">Dinosaur, Brachiosaurus</a><a class="headerlink" href="#dinosaur-brachiosaurus" title="Permalink to this headline">¶</a></h1>
+<p><em>A long tail counterbalances this reptile’s equally long neck, at the end of which a relatively small head pulls food from the treetop.</em></p>
+<div class="section" id="brachiosaurus">
+<span id="bestiary-dinosaur-brachiosaurus"></span><h2><a class="toc-backref" href="#id40">Brachiosaurus</a><a class="headerlink" href="#brachiosaurus" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 10</strong></p>
+<p><strong>XP 9,600</strong></p>
+<p>N Gargantuan <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-animal"><span class="std std-ref">animal</span></a></p>
+<p><strong>Init</strong> +0; <strong>Senses</strong> low-light vision, <a class="reference internal" href="bestiary.universalmonsterrules.html#bestiary-universalmonsterrules-scent"><span class="std std-ref">scent</span></a>; <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> +28</p>
+</div>
+<div class="section" id="id2">
+<h2><a class="toc-backref" href="#id41">Defense</a><a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 18, touch 6, flat-footed 18 (+12 natural, –4 size)</p>
+<p><strong>hp</strong> 171 (18d8+90)</p>
+<p><strong>Fort</strong> +18, <strong>Ref</strong> +11, <strong>Will</strong> +9</p>
+</div>
+<div class="section" id="id3">
+<h2><a class="toc-backref" href="#id42">Offense</a><a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 30 ft.</p>
+<p><strong>Melee</strong> tail +23 (4d6+19)</p>
+<p><strong>Space</strong> 20 ft.; <strong>Reach</strong> 20 ft.</p>
+<p><strong>Special Attack</strong> <a class="reference internal" href="bestiary.universalmonsterrules.html#bestiary-universalmonsterrules-trample"><span class="std std-ref">trample</span></a> (2d6+19, DC 32)</p>
+</div>
+<div class="section" id="id4">
+<h2><a class="toc-backref" href="#id43">Statistics</a><a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 37, <strong>Dex</strong> 10, <strong>Con</strong> 21, <strong>Int</strong> 2, <strong>Wis</strong> 13, <strong>Cha</strong> 10</p>
+<p><strong>Base Atk</strong> +13; <strong>CMB</strong> +30; <strong>CMD</strong> 40 (44 vs. trip)</p>
+<p><strong>Feats</strong> <a class="reference internal" href="corerulebook.feats.html#cleave (combat)"><span class="std std-ref">Cleave</span></a>, <a class="reference internal" href="corerulebook.feats.html#great cleave (combat)"><span class="std std-ref">Great Cleave</span></a>, <a class="reference internal" href="corerulebook.feats.html#corerulebook-feats-great-fortitude"><span class="std std-ref">Great Fortitude</span></a>, <a class="reference internal" href="corerulebook.feats.html#greater overrun (combat)"><span class="std std-ref">Greater Overrun</span></a>, <a class="reference internal" href="corerulebook.feats.html#improved bull rush (combat)"><span class="std std-ref">Improved Bull Rush</span></a>, <a class="reference internal" href="corerulebook.feats.html#corerulebook-feats-iron-will"><span class="std std-ref">Iron Will</span></a>, <a class="reference internal" href="corerulebook.feats.html#power attack (combat)"><span class="std std-ref">Power Attack</span></a>, <a class="reference internal" href="corerulebook.feats.html#corerulebook-feats-skill-focus"><span class="std std-ref">Skill Focus</span></a> (<a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a>), <a class="reference internal" href="corerulebook.feats.html#weapon focus (combat)"><span class="std std-ref">Weapon Focus</span></a> (tail)</p>
+<p><strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> +28</p>
+</div>
+<div class="section" id="id5">
+<h2><a class="toc-backref" href="#id44">Ecology</a><a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h2>
+<p><strong>Environment</strong> warm forests or plains</p>
+<p><strong>Organization</strong> solitary, pair, or herd (3–12)</p>
+<p><strong>Treasure</strong> none</p>
+<p>A brachiosaurus is 80 feet long and weighs 32 tons.</p>
+<div class="section" id="brachiosaurus-companions">
+<span id="bestiary-dinosaur-brachiosaurus-companions"></span><h3><a class="toc-backref" href="#id45">Brachiosaurus Companions</a><a class="headerlink" href="#brachiosaurus-companions" title="Permalink to this headline">¶</a></h3>
+<p><strong>Starting Statistics</strong>: <strong>Size</strong> Medium; <strong>Speed</strong> 30 ft.; <strong>AC</strong> +3 natural armor; <strong>Attack</strong> tail (2d4); <strong>Ability Scores</strong> Str 13, Dex 14, Con 11, Int 2, Wis 13, Cha 10; <strong>Special Qualities</strong> low-light vision, scent.</p>
+<p><strong>7th-Level Adv.</strong>: <strong>Size</strong> Large; <strong>AC</strong> +2 natural armor; <strong>Attack</strong> tail (2d6); <strong>Ability Scores</strong> Str +8, Dex –2, Con +4; <strong>Special Qualities</strong> trample (1d8).</p>
+</div>
+</div>
+</div>
+<div class="section" id="dinosaur-deinonychus">
+<span id="bestiary-dinosaur-dinosaur-deinonychus"></span><h1><a class="toc-backref" href="#id46">Dinosaur, Deinonychus</a><a class="headerlink" href="#dinosaur-deinonychus" title="Permalink to this headline">¶</a></h1>
+<p><em>This brightly colored dinosaur exudes a dangerous ferocity. Each foot is armed with a large, sickle-shaped claw.</em></p>
+<div class="section" id="deinonychus">
+<span id="bestiary-dinosaur-deinonychus"></span><h2><a class="toc-backref" href="#id47">Deinonychus</a><a class="headerlink" href="#deinonychus" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 3</strong></p>
+<p><strong>XP 800</strong></p>
+<p>N Medium <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-animal"><span class="std std-ref">animal</span></a></p>
+<p><strong>Init</strong> +6; <strong>Senses</strong> low-light vision, <a class="reference internal" href="bestiary.universalmonsterrules.html#bestiary-universalmonsterrules-scent"><span class="std std-ref">scent</span></a>; <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> +14</p>
+</div>
+<div class="section" id="id6">
+<h2><a class="toc-backref" href="#id48">Defense</a><a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 15, touch 12, flat-footed 13 (+2 Dex, +3 natural)</p>
+<p><strong>hp</strong> 34 (4d8+16)</p>
+<p><strong>Fort</strong> +8, <strong>Ref</strong> +6, <strong>Will</strong> +2</p>
+</div>
+<div class="section" id="id7">
+<h2><a class="toc-backref" href="#id49">Offense</a><a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 60 ft.</p>
+<p><strong>Melee</strong> 2 talons +5 (1d8+2),bite +5 (1d6+2), foreclaws +0 (1d4+1)</p>
+<p><strong>Special Attacks</strong> <a class="reference internal" href="bestiary.universalmonsterrules.html#bestiary-universalmonsterrules-pounce"><span class="std std-ref">pounce</span></a></p>
+</div>
+<div class="section" id="id8">
+<h2><a class="toc-backref" href="#id50">Statistics</a><a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 15, <strong>Dex</strong> 15, <strong>Con</strong> 19, <strong>Int</strong> 2, <strong>Wis</strong> 12, <strong>Cha</strong> 14</p>
+<p><strong>Base Atk</strong> +3; <strong>CMB</strong> +5; <strong>CMD</strong> 17</p>
+<p><strong>Feats</strong> <a class="reference internal" href="corerulebook.feats.html#improved initiative (combat)"><span class="std std-ref">Improved Initiative</span></a>, <a class="reference internal" href="corerulebook.feats.html#corerulebook-feats-run"><span class="std std-ref">Run</span></a></p>
+<p><strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a> +10 (+22 jump), <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> +14, <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> +15; <strong>Racial Modifiers</strong> +8 <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a>, +8 <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a>, +8 <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a></p>
+</div>
+<div class="section" id="id9">
+<h2><a class="toc-backref" href="#id51">Ecology</a><a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h2>
+<p><strong>Environment</strong> warm forests</p>
+<p><strong>Organization</strong> solitary, pair, or pack (3–12)</p>
+<p><strong>Treasure</strong> none</p>
+<p>As swift and agile as it is deadly, the deinonychus is a pack hunter, running with several of its kind to take down prey and rip it apart with their gutting talons.</p>
+<p>You can apply the young simple template to create statistics for smaller, more agile velociraptors. Conversely, you can either increase the deinonychus to Large size and its Hit Dice to 8 or simply apply the giant and advanced simple templates to create a formidable megaraptor.</p>
+</div>
+</div>
+<div class="section" id="dinosaur-elasmosaurus">
+<span id="bestiary-dinosaur-dinosaur-elasmosaurus"></span><h1><a class="toc-backref" href="#id52">Dinosaur, Elasmosaurus</a><a class="headerlink" href="#dinosaur-elasmosaurus" title="Permalink to this headline">¶</a></h1>
+<p><em>Long-necked and long-tailed, this large, predatory reptile glides through the water on four powerful flippers.</em></p>
+<div class="section" id="elasmosaurus">
+<span id="bestiary-dinosaur-elasmosaurus"></span><h2><a class="toc-backref" href="#id53">Elasmosaurus</a><a class="headerlink" href="#elasmosaurus" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 7</strong></p>
+<p><strong>XP 3,200</strong></p>
+<p>N Huge <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-animal"><span class="std std-ref">animal</span></a></p>
+<p><strong>Init</strong> +2; <strong>Senses</strong> low-light vision, <a class="reference internal" href="bestiary.universalmonsterrules.html#bestiary-universalmonsterrules-scent"><span class="std std-ref">scent</span></a>; <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> +14</p>
+</div>
+<div class="section" id="id10">
+<h2><a class="toc-backref" href="#id54">Defense</a><a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 20, touch 11, flat-footed 17 (+2 Dex, +1 dodge, +9 natural, –2 size)</p>
+<p><strong>hp</strong> 105 (10d8+60)</p>
+<p><strong>Fort</strong> +14, <strong>Ref</strong> +9, <strong>Will</strong> +6</p>
+</div>
+<div class="section" id="id11">
+<h2><a class="toc-backref" href="#id55">Offense</a><a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 20 ft., swim 50 ft.</p>
+<p><strong>Melee</strong> bite +13 (2d8+12)</p>
+<p><strong>Space</strong> 15 ft.; <strong>Reach</strong> 20 ft.</p>
+</div>
+<div class="section" id="id12">
+<h2><a class="toc-backref" href="#id56">Statistics</a><a class="headerlink" href="#id12" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 26, <strong>Dex</strong> 15, <strong>Con</strong> 20, <strong>Int</strong> 2, <strong>Wis</strong> 13, <strong>Cha</strong> 9</p>
+<p><strong>Base Atk</strong> +7; <strong>CMB</strong> +17; <strong>CMD</strong> 30 (34 vs. trip)</p>
+<p><strong>Feats</strong> <a class="reference internal" href="corerulebook.feats.html#dodge (combat)"><span class="std std-ref">Dodge</span></a>, <a class="reference internal" href="corerulebook.feats.html#corerulebook-feats-great-fortitude"><span class="std std-ref">Great Fortitude</span></a>, <a class="reference internal" href="corerulebook.feats.html#corerulebook-feats-iron-will"><span class="std std-ref">Iron Will</span></a>, <a class="reference internal" href="corerulebook.feats.html#mobility (combat)"><span class="std std-ref">Mobility</span></a>, <a class="reference internal" href="corerulebook.feats.html#corerulebook-feats-toughness"><span class="std std-ref">Toughness</span></a></p>
+<p><strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> +14, <a class="reference internal" href="corerulebook.skills.swim.html#corerulebook-skills-swim-swim"><span class="std std-ref">Swim</span></a> +16</p>
+</div>
+<div class="section" id="id13">
+<h2><a class="toc-backref" href="#id57">Ecology</a><a class="headerlink" href="#id13" title="Permalink to this headline">¶</a></h2>
+<p><strong>Environment</strong> warm aquatic</p>
+<p><strong>Organization</strong> solitary, pair, or school (3–6)</p>
+<p><strong>Treasure</strong> none</p>
+<p>The sleek elasmosaurus is a long-necked, aquatic reptile. Although not technically a dinosaur, they and their kind are often found hunting in oceans and lakes in areas where dinosaurs are more common. You can create statistics for smaller, similar aquatic reptiles (such as the pleisosaurus) by applying the young simple template to the statistics presented above. An elasmosaurus is 45 feet long and weighs 4,000 pounds.</p>
+<div class="section" id="elasmosaurus-companions">
+<span id="bestiary-dinosaur-elasmosaurus-companions"></span><h3><a class="toc-backref" href="#id58">Elasmosaurus Companions</a><a class="headerlink" href="#elasmosaurus-companions" title="Permalink to this headline">¶</a></h3>
+<p><strong>Starting Statistics</strong>: <strong>Size</strong> Medium; <strong>Speed</strong> 20 ft., swim 50 ft.; <strong>AC</strong> +2 natural armor; <strong>Attack</strong> bite (1d8); <strong>Ability Scores</strong> Str 10, Dex 18, Con 12, Int 2, Wis 13, Cha 9; <strong>Special Qualities</strong> low-light vision, scent.</p>
+<p><strong>4th-Level Advancement</strong>: <strong>Size</strong> Large; <strong>AC</strong> +3 natural armor; <strong>Attack</strong> bite (2d6); <strong>Ability Scores</strong> Str +8, Dex –2, Con +4.</p>
+</div>
+</div>
+</div>
+<div class="section" id="dinosaur-pteranodon">
+<span id="bestiary-dinosaur-dinosaur-pteranodon"></span><h1><a class="toc-backref" href="#id59">Dinosaur, Pteranodon</a><a class="headerlink" href="#dinosaur-pteranodon" title="Permalink to this headline">¶</a></h1>
+<p><em>This flying reptile has two huge wings and a distinctive backward-sweeping crest decorating its head.</em></p>
+<div class="section" id="pteranodon">
+<span id="bestiary-dinosaur-pteranodon"></span><h2><a class="toc-backref" href="#id60">Pteranodon</a><a class="headerlink" href="#pteranodon" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 3</strong></p>
+<p><strong>XP 800</strong></p>
+<p>N Large <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-animal"><span class="std std-ref">animal</span></a></p>
+<p><strong>Init</strong> +8; <strong>Senses</strong> low-light vision, <a class="reference internal" href="bestiary.universalmonsterrules.html#bestiary-universalmonsterrules-scent"><span class="std std-ref">scent</span></a>; <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> +11</p>
+</div>
+<div class="section" id="id14">
+<h2><a class="toc-backref" href="#id61">Defense</a><a class="headerlink" href="#id14" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 16, touch 14, flat-footed 11 (+4 Dex, +1 dodge, +2 natural, –1 size)</p>
+<p><strong>hp</strong> 32 (5d8+10)</p>
+<p><strong>Fort</strong> +6, <strong>Ref</strong> +8, <strong>Will</strong> +3</p>
+</div>
+<div class="section" id="id15">
+<h2><a class="toc-backref" href="#id62">Offense</a><a class="headerlink" href="#id15" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 10 ft., fly 50 ft. (clumsy)</p>
+<p><strong>Melee</strong> bite +5 (2d6+4)</p>
+<p><strong>Space</strong> 10 ft.; <strong>Reach</strong> 10 ft.</p>
+</div>
+<div class="section" id="id16">
+<h2><a class="toc-backref" href="#id63">Statistics</a><a class="headerlink" href="#id16" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 16, <strong>Dex</strong> 19, <strong>Con</strong> 15, <strong>Int</strong> 2, <strong>Wis</strong> 15, <strong>Cha</strong> 12</p>
+<p><strong>Base Atk</strong> +3; <strong>CMB</strong> +7; <strong>CMD</strong> 21</p>
+<p><strong>Feats</strong> <a class="reference internal" href="corerulebook.feats.html#dodge (combat)"><span class="std std-ref">Dodge</span></a>, <a class="reference internal" href="corerulebook.feats.html#improved initiative (combat)"><span class="std std-ref">Improved Initiative</span></a>, <a class="reference internal" href="corerulebook.feats.html#corerulebook-feats-skill-focus"><span class="std std-ref">Skill Focus</span></a> (<a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a>)</p>
+<p><strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.fly.html#corerulebook-skills-fly-fly"><span class="std std-ref">Fly</span></a> –1, <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> +11</p>
+</div>
+<div class="section" id="id17">
+<h2><a class="toc-backref" href="#id64">Ecology</a><a class="headerlink" href="#id17" title="Permalink to this headline">¶</a></h2>
+<p><strong>Environment</strong> warm coastline</p>
+<p><strong>Organization</strong> solitary, pair, or flock (3–12)</p>
+<p><strong>Treasure</strong> none</p>
+<p>The pteranodon is not itself a dinosaur but rather a large flying reptile that is often found in areas dinosaurs are common. Its flight lacks grace, so it lands on the ground to fight foes it can’t carry away.</p>
+<p>A pteranodon has a wingspan of 30 feet but only weighs 40 pounds.</p>
+<div class="section" id="pteranodon-companions">
+<span id="bestiary-dinosaur-pteranodon-companions"></span><h3><a class="toc-backref" href="#id65">Pteranodon Companions</a><a class="headerlink" href="#pteranodon-companions" title="Permalink to this headline">¶</a></h3>
+<p><strong>Starting Statistics</strong>: <strong>Size</strong> Medium; <strong>Speed</strong> 10 ft., fly 50 ft. (clumsy); <strong>AC</strong> +0 natural armor; <strong>Attack</strong> bite (1d8); <strong>Ability Scores</strong> Str 8, Dex 21, Con 10, Int 2, Wis 14, Cha 12; <strong>Special Qualities</strong> low-light vision, scent.</p>
+<p><strong>7th-Level Advancement</strong>: <strong>Size</strong> Large; <strong>AC</strong> +2 natural armor; <strong>Attack</strong> bite (2d6); <strong>Ability Scores</strong> Str +8, Dex –2, Con +4.</p>
+</div>
+</div>
+</div>
+<div class="section" id="dinosaur-stegosaurus">
+<span id="bestiary-dinosaur-dinosaur-stegosaurus"></span><h1><a class="toc-backref" href="#id66">Dinosaur, Stegosaurus</a><a class="headerlink" href="#dinosaur-stegosaurus" title="Permalink to this headline">¶</a></h1>
+<p><em>This huge dinosaur has a small head, twin rows of sharp dorsal plates, and a muscular tail terminating in a set of bony spikes.</em></p>
+<div class="section" id="stegosaurus">
+<span id="bestiary-dinosaur-stegosaurus"></span><h2><a class="toc-backref" href="#id67">Stegosaurus</a><a class="headerlink" href="#stegosaurus" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 7</strong></p>
+<p><strong>XP 3,200</strong></p>
+<p>N Huge <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-animal"><span class="std std-ref">animal</span></a></p>
+<p><strong>Init</strong> +6; <strong>Senses</strong> low-light vision, <a class="reference internal" href="bestiary.universalmonsterrules.html#bestiary-universalmonsterrules-scent"><span class="std std-ref">scent</span></a>; <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> +16</p>
+</div>
+<div class="section" id="id18">
+<h2><a class="toc-backref" href="#id68">Defense</a><a class="headerlink" href="#id18" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 22, touch 10, flat-footed 20 (+2 Dex, +12 natural, –2 size)</p>
+<p><strong>hp</strong> 90 (12d8+36)</p>
+<p><strong>Fort</strong> +13, <strong>Ref</strong> +10, <strong>Will</strong> +5</p>
+</div>
+<div class="section" id="id19">
+<h2><a class="toc-backref" href="#id69">Offense</a><a class="headerlink" href="#id19" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 30 ft.</p>
+<p><strong>Melee</strong> tail +16 (4d6+12 plus <a class="reference internal" href="bestiary.universalmonsterrules.html#bestiary-universalmonsterrules-trip"><span class="std std-ref">trip</span></a>)</p>
+<p><strong>Space</strong> 15 ft.; <strong>Reach</strong> 15 ft.</p>
+</div>
+<div class="section" id="id20">
+<h2><a class="toc-backref" href="#id70">Statistics</a><a class="headerlink" href="#id20" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 27, <strong>Dex</strong> 14, <strong>Con</strong> 17, <strong>Int</strong> 2, <strong>Wis</strong> 13, <strong>Cha</strong> 10</p>
+<p><strong>Base Atk</strong> +9; <strong>CMB</strong> +19; <strong>CMD</strong> 31 (35 vs. trip)</p>
+<p><strong>Feats</strong> <a class="reference internal" href="corerulebook.feats.html#cleave (combat)"><span class="std std-ref">Cleave</span></a>, <a class="reference internal" href="corerulebook.feats.html#corerulebook-feats-great-fortitude"><span class="std std-ref">Great Fortitude</span></a>, <a class="reference internal" href="corerulebook.feats.html#improved initiative (combat)"><span class="std std-ref">Improved Initiative</span></a>, <a class="reference internal" href="corerulebook.feats.html#improved overrun (combat)"><span class="std std-ref">Improved Overrun</span></a>, <a class="reference internal" href="corerulebook.feats.html#power attack (combat)"><span class="std std-ref">Power Attack</span></a>, <a class="reference internal" href="corerulebook.feats.html#weapon focus (combat)"><span class="std std-ref">Weapon Focus</span></a> (tail)</p>
+<p><strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> +16</p>
+</div>
+<div class="section" id="id21">
+<h2><a class="toc-backref" href="#id71">Ecology</a><a class="headerlink" href="#id21" title="Permalink to this headline">¶</a></h2>
+<p><strong>Environment</strong> warm plains</p>
+<p><strong>Organization</strong> solitary, pair, or herd (3–12)</p>
+<p><strong>Treasure</strong> none</p>
+<blockquote>
+<div>The stegosaurus is one of the most distinctive-looking dinosaurs—its twin rows of dorsal plates and spiked tail are enough to give most predators second thoughts before attacking. It is 30 feet long, 14 feet tall, and weighs 5,000 pounds.</div></blockquote>
+<div class="section" id="stegosaurus-companions">
+<span id="bestiary-dinosaur-stegosaurus-companions"></span><h3><a class="toc-backref" href="#id72">Stegosaurus Companions</a><a class="headerlink" href="#stegosaurus-companions" title="Permalink to this headline">¶</a></h3>
+<p><strong>Starting Stats</strong>: <strong>Size</strong> Med.; <strong>Speed</strong> 30 ft.; <strong>AC</strong> +6 natural armor; <strong>Attack</strong> tail (2d6); <strong>Ability Scores</strong> Str 10, Dex 18, Con 10, Int 2, Wis 12, Cha 10; <strong>Special Qualities</strong> low-light vision, scent.</p>
+<p><strong>7th-Level Adv</strong>: <strong>Size</strong> Large; <strong>AC</strong> +3 natural armor; <strong>Attack</strong> tail (2d8 plus trip); <strong>Ability Scores</strong> Str +8, Dex –2, Con +4.</p>
+</div>
+</div>
+</div>
+<div class="section" id="dinosaur-triceratops">
+<span id="bestiary-dinosaur-dinosaur-triceratops"></span><h1><a class="toc-backref" href="#id73">Dinosaur, Triceratops</a><a class="headerlink" href="#dinosaur-triceratops" title="Permalink to this headline">¶</a></h1>
+<p><em>This beast’s armored head has three sharp horns decorating its face and a large round crest angling back over its neck from its skull.</em></p>
+<div class="section" id="triceratops">
+<span id="bestiary-dinosaur-triceratops"></span><h2><a class="toc-backref" href="#id74">Triceratops</a><a class="headerlink" href="#triceratops" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 8</strong></p>
+<p><strong>XP 4,800</strong></p>
+<p>N Huge <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-animal"><span class="std std-ref">animal</span></a></p>
+<p><strong>Init</strong> –1; <strong>Senses</strong> low-light vision, <a class="reference internal" href="bestiary.universalmonsterrules.html#bestiary-universalmonsterrules-scent"><span class="std std-ref">scent</span></a>; <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> +24</p>
+</div>
+<div class="section" id="id22">
+<h2><a class="toc-backref" href="#id75">Defense</a><a class="headerlink" href="#id22" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 21, touch 7, flat-footed 21 (–1 Dex, +14 natural, –2 size)</p>
+<p><strong>hp</strong> 119 (14d8+56)</p>
+<p><strong>Fort</strong> +15, <strong>Ref</strong> +8, <strong>Will</strong> +5</p>
+</div>
+<div class="section" id="id23">
+<h2><a class="toc-backref" href="#id76">Offense</a><a class="headerlink" href="#id23" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 30 ft.</p>
+<p><strong>Melee</strong> gore +17 (2d10+12)</p>
+<p><strong>Space</strong> 15 ft.; <strong>Reach</strong> 15 ft.</p>
+<p><strong>Special Attacks</strong> <a class="reference internal" href="bestiary.universalmonsterrules.html#bestiary-universalmonsterrules-powerful-charge"><span class="std std-ref">powerful charge</span></a> (gore, 4d10+16), <a class="reference internal" href="bestiary.universalmonsterrules.html#bestiary-universalmonsterrules-trample"><span class="std std-ref">trample</span></a> (1d8+12, DC 25)</p>
+</div>
+<div class="section" id="id24">
+<h2><a class="toc-backref" href="#id77">Statistics</a><a class="headerlink" href="#id24" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 26, <strong>Dex</strong> 9, <strong>Con</strong> 19, <strong>Int</strong> 2, <strong>Wis</strong> 12, <strong>Cha</strong> 7</p>
+<p><strong>Base Atk</strong> +10; <strong>CMB</strong> +20; <strong>CMD</strong> 29 (33 vs. trip)</p>
+<p><strong>Feats</strong> <a class="reference internal" href="corerulebook.feats.html#corerulebook-feats-great-fortitude"><span class="std std-ref">Great Fortitude</span></a>, <a class="reference internal" href="corerulebook.feats.html#improved bull rush (combat)"><span class="std std-ref">Improved Bull Rush</span></a>, <a class="reference internal" href="corerulebook.feats.html#improved critical (combat)"><span class="std std-ref">Improved Critical</span></a>, <a class="reference internal" href="corerulebook.feats.html#power attack (combat)"><span class="std std-ref">Power Attack</span></a>, <a class="reference internal" href="corerulebook.feats.html#corerulebook-feats-run"><span class="std std-ref">Run</span></a>, <a class="reference internal" href="corerulebook.feats.html#corerulebook-feats-skill-focus"><span class="std std-ref">Skill Focus</span></a> (<a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a>), <a class="reference internal" href="corerulebook.feats.html#weapon focus (combat)"><span class="std std-ref">Weapon Focus</span></a> (gore)</p>
+<p><strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> +24</p>
+</div>
+<div class="section" id="id25">
+<h2><a class="toc-backref" href="#id78">Ecology</a><a class="headerlink" href="#id25" title="Permalink to this headline">¶</a></h2>
+<p><strong>Environment</strong> warm plains</p>
+<p><strong>Organization</strong> solitary, pair, or herd (5–8)</p>
+<p><strong>Treasure</strong> none</p>
+<p>The triceratops is a stubborn and short-tempered herbivore.</p>
+<p>A typical triceratops is 30 feet long and weighs 20,000 pounds.</p>
+<div class="section" id="triceratops-companions">
+<span id="bestiary-dinosaur-triceratops-companions"></span><h3><a class="toc-backref" href="#id79">Triceratops Companions</a><a class="headerlink" href="#triceratops-companions" title="Permalink to this headline">¶</a></h3>
+<p><strong>Starting Statistics</strong>: <strong>Size</strong> Medium; <strong>Speed</strong>30 ft.; <strong>AC</strong> +6 natural armor; <strong>Attack</strong> gore (1d8); <strong>Ability Scores</strong> Str 10, Dex 13, Con 11, Int 2, Wis 12, Cha 7.</p>
+<p><strong>7th-Level Advancement</strong>: <strong>Size</strong> Large, <strong>AC</strong> +3 natural armor; <strong>Attack</strong> gore (2d6); <strong>Ability Scores</strong> Str +8, Dex –2, Con +4; <strong>Special Qualities</strong> powerful charge.</p>
+</div>
+</div>
+</div>
+<div class="section" id="dinosaur-tyrannosaurus">
+<span id="bestiary-dinosaur-dinosaur-tyrannosaurus"></span><h1><a class="toc-backref" href="#id80">Dinosaur, Tyrannosaurus</a><a class="headerlink" href="#dinosaur-tyrannosaurus" title="Permalink to this headline">¶</a></h1>
+<p><em>This bipedal dinosaur’s front arms seem small compared to the rest of its bulk, but its enormous head is all teeth.</em></p>
+<div class="section" id="tyrannosaurus">
+<span id="bestiary-dinosaur-tyrannosaurus"></span><h2><a class="toc-backref" href="#id81">Tyrannosaurus</a><a class="headerlink" href="#tyrannosaurus" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 9</strong></p>
+<p><strong>XP 6,400</strong></p>
+<p>N Gargantuan <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-animal"><span class="std std-ref">animal</span></a></p>
+<p><strong>Init</strong> +5; <strong>Senses</strong> low-light vision, <a class="reference internal" href="bestiary.universalmonsterrules.html#bestiary-universalmonsterrules-scent"><span class="std std-ref">scent</span></a>; <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> +37</p>
+</div>
+<div class="section" id="id26">
+<h2><a class="toc-backref" href="#id82">Defense</a><a class="headerlink" href="#id26" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 21, touch 7, flat-footed 20 (+1 Dex, +14 natural, –4 size)</p>
+<p><strong>hp</strong> 153 (18d8+72)</p>
+<p><strong>Fort</strong> +15, <strong>Ref</strong> +12, <strong>Will</strong> +10</p>
+</div>
+<div class="section" id="id27">
+<h2><a class="toc-backref" href="#id83">Offense</a><a class="headerlink" href="#id27" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 40 ft.</p>
+<p><strong>Melee</strong> bite +20 (4d6+22/19–20 plus <a class="reference internal" href="bestiary.universalmonsterrules.html#bestiary-universalmonsterrules-grab"><span class="std std-ref">grab</span></a>)</p>
+<p><strong>Space</strong> 20 ft.; <strong>Reach</strong> 20 ft.</p>
+<p><strong>Special Attacks</strong> <a class="reference internal" href="bestiary.universalmonsterrules.html#bestiary-universalmonsterrules-swallow-whole"><span class="std std-ref">swallow whole</span></a> (2d8+11, AC 17, hp 15)</p>
+</div>
+<div class="section" id="id28">
+<h2><a class="toc-backref" href="#id84">Statistics</a><a class="headerlink" href="#id28" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 32, <strong>Dex</strong> 13, <strong>Con</strong> 19, <strong>Int</strong> 2, <strong>Wis</strong> 15, <strong>Cha</strong> 10</p>
+<p><strong>Base Atk</strong> +13; <strong>CMB</strong> +28 (+32 grapple); <strong>CMD</strong> 39</p>
+<p><strong>Feats</strong> <a class="reference internal" href="corerulebook.feats.html#bleeding critical (combat, critical)"><span class="std std-ref">Bleeding Critical</span></a>, <a class="reference internal" href="corerulebook.feats.html#critical focus (combat)"><span class="std std-ref">Critical Focus</span></a>, <a class="reference internal" href="corerulebook.feats.html#corerulebook-feats-diehard"><span class="std std-ref">Diehard</span></a>, <a class="reference internal" href="corerulebook.feats.html#corerulebook-feats-endurance"><span class="std std-ref">Endurance</span></a>, <a class="reference internal" href="corerulebook.feats.html#improved critical (combat)"><span class="std std-ref">Improved Critical</span></a> (bite), <a class="reference internal" href="corerulebook.feats.html#improved initiative (combat)"><span class="std std-ref">Improved Initiative</span></a>, <a class="reference internal" href="corerulebook.feats.html#corerulebook-feats-iron-will"><span class="std std-ref">Iron Will</span></a>, <a class="reference internal" href="corerulebook.feats.html#corerulebook-feats-run"><span class="std std-ref">Run</span></a>, <a class="reference internal" href="corerulebook.feats.html#corerulebook-feats-skill-focus"><span class="std std-ref">Skill Focus</span></a> (<a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a>)</p>
+<p><strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> +37; <strong>Racial Modifiers</strong> +8 <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a></p>
+<p><strong>SQ</strong> powerful bite</p>
+</div>
+<div class="section" id="id29">
+<h2><a class="toc-backref" href="#id85">Ecology</a><a class="headerlink" href="#id29" title="Permalink to this headline">¶</a></h2>
+<p><strong>Environment</strong> warm forest and plains</p>
+<p><strong>Organization</strong> solitary, pair, or pack (3–6)</p>
+<p><strong>Treasure</strong> none</p>
+</div>
+<div class="section" id="id30">
+<h2><a class="toc-backref" href="#id86">Special Abilities</a><a class="headerlink" href="#id30" title="Permalink to this headline">¶</a></h2>
+<p><strong>Powerful Bite (Ex)</strong> A tyrannosaurus applies twice its Strength modifier to bite damage.</p>
+<p>The tyrannosaurus is an apex predator that measures 40 feet long and weighs 14,000 pounds.</p>
+<div class="section" id="tyrannosaurus-companions">
+<span id="bestiary-dinosaur-tyrannosaurus-companions"></span><h3><a class="toc-backref" href="#id87">Tyrannosaurus Companions</a><a class="headerlink" href="#tyrannosaurus-companions" title="Permalink to this headline">¶</a></h3>
+<p><strong>Starting Statistics</strong>: <strong>Size</strong> Medium, <strong>Speed</strong>30 ft.; <strong>AC</strong> +4 natural armor; <strong>Attack</strong> bite (1d8); <strong>Ability Scores</strong> Str 14, Dex 16, Con 10, Int 2, Wis 15, Cha 10; <strong>Special Qualities</strong> low-light vision, scent.</p>
+<p><strong>7th-Level Adv.</strong>: <strong>Size</strong> Large; <strong>AC</strong> +3 natural armor; <strong>Attack</strong> bite (2d6); <strong>Ability Scores</strong> Str +8, Dex –2, Con +4; <strong>Special Qualities</strong> grab, powerful bite.</p>
+</div>
+</div>
+</div>
+
+</body>

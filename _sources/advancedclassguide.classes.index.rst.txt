@@ -1,0 +1,245 @@
+
+.. _`advancedclassguide.classes.index`:
+
+.. contents:: \ 
+
+.. _`advancedclassguide.classes.index#hybrid_classes`:
+
+Hybrid Classes
+###############
+
+Most heroes progress along a single path—choosing to become a fearsome fighter, pious cleric, or mighty wizard—but some are drawn to many roads. For them, it can be hard to find a balance between abilities offered by disparate classes. Hybrid classes solve this dilemma by blending features from two classes, adding rules to make them work seamlessly together. 
+
+\ **Parent Classes**\ : Each of the following classes draws upon two classes to form the basis of its theme. While a character can multiclass with these parent classes, doing so usually results in redundant abilities. Such abilities don't stack unless specified. If a class feature allows the character to make a one-time choice (such as a bloodline), that choice must match similar choices made by the parent classes and vice-versa (such as selecting the same bloodline). 
+
+.. _`advancedclassguide.classes.index#classes`:
+
+Classes
+********
+
+The ten new classes presented in this book are all hybrids of two existing classes from the \ *Pathfinder Roleplaying Game Core Rulebook, Pathfinder Roleplaying Game Advanced Player's Guide*\ , and \ *Pathfinder Roleplaying Game Ultimate Combat*\ . The new classes are as follows.
+
+:ref:`Arcanist <advancedclassguide.classes.arcanist>`\ : Blending the power of the sorcerer with the versatility of the wizard, the arcanist draws upon a reservoir of power to bend magic to her will.
+
+:ref:`Bloodrager <advancedclassguide.classes.bloodrager>`\ : Fusing the frenzy of the barbarian with the bloodline might of the sorcerer, the bloodrager calls upon innate power to give himself extraordinary abilities.
+
+:ref:`Brawler <advancedclassguide.classes.brawler>`\ : Focusing on hand-to-hand combat, the brawler mixes the martial artistry of the monk with the specialist training of the fighter.
+
+:ref:`Hunter <advancedclassguide.classes.hunter>`\ : Though both the druid and ranger can have animal companions, the hunter takes this bond to the next level, forming a deadly duo with her savage ally.
+
+:ref:`Investigator <advancedclassguide.classes.investigator>`\ : With the rogue's cunning complemented by the alchemist's magical talent, the investigator is a peerless problem solver.
+
+:ref:`Shaman <advancedclassguide.classes.shaman>`\ : Calling on the divine power of the oracle and the hexes of a witch, the shaman communes with her spirit animal to unleash doom upon her foes.
+
+:ref:`Skald <advancedclassguide.classes.skald>`\ : Sharing fury through song and deed, the skald takes the rage that lives in the heart of the barbarian and inspires it in others using the performances of the bard. 
+
+:ref:`Slayer <advancedclassguide.classes.slayer>`\ : Mixing the precise strikes of the rogue with the special training of the ranger, the slayer hunts down his foes with ruthless efficiency.
+
+:ref:`Swashbuckler <advancedclassguide.classes.swashbuckler>`\ : Combining the prowess of the fighter with the determination of the gunslinger, the swashbuckler is an acrobatic melee combatant.
+
+:ref:`Warpriest <advancedclassguide.classes.warpriest>`\ : Blending the cleric's divine might and the fighter's martial skills, the warpriest brings the fight to the enemies of his faith.
+
+.. _`advancedclassguide.classes.index#racial_favored_class_options`:
+
+Racial Favored Class Options
+#############################
+
+The rules below allow members of races from the \ *Pathfinder Roleplaying Game Core Rulebook*\  to take alternate rewards when they gain a level in a favored class chosen from among the classes in this book. Racial favored class options were introduced in the \ *Advanced Player's Guide*\ , and expanded upon in the \ *Pathfinder Roleplaying Game Advanced Race Guide*\ , which covers the base classes from the \ *Core Rulebook*\ , the \ *Advanced Player's Guide*\ , \ *Ultimate Combat*\ , and \ *Ultimate Magic*\ .
+
+Each of these rewards replaces the normal reward for having a level in a favored class (gaining 1 extra hit point or 1 extra skill rank). Unlike those general rewards, these alternate favored class options speak directly to the features of specific classes and the general tendencies of various races.
+
+Whenever you gain a level, you can choose which favored class option you take. Unless otherwise noted, these benefits always stack with themselves.
+
+Many of these alternate class rewards add only 1/2, 1/3, 1/4, or 1/6 to a roll (rather than 1) each time the reward is selected, or add 1/2, 1/3, 1/4, or 1/6 to a class ability (such as a bloodrager's number of bloodrages per day or a swashbuckler's total number of panache points). When applying such a benefit to a die roll or a class ability, always round down (minimum 0). You might thus need to select such an option several times before the benefit applies.
+
+Some options have a fixed numerical limit, after which selecting such a favored class reward again has no effect. In these cases, you can always select from among the standard rewards when taking a level in a favored class (gaining 1 extra hit point or 1 extra skill rank).
+
+.. _`advancedclassguide.classes.index#dwarves`:
+
+Dwarves
+********
+
+Dwarves' hardiness and stalwart resolve make them particularly well suited to the martial classes, but those who imagine them to be bereft of magic quickly learn the error of their ways. The following options are available to all dwarves who have the indicated favored class.
+
+\ **Arcanist**\ : Add 1/4 to the arcanist's effective class level when determining the effects of the arcane barrier and arcane weapon arcanist exploits.
+
+\ **Bloodrager**\ : Increase the bloodrager's total number of bloodrage rounds per day by 1.
+
+\ **Brawler**\ : Reduce the hardness of any object made from clay, stone, or metal by 1 (minimum 0) whenever the object is struck by the brawler's unarmed strike.
+
+\ **Hunter**\ : Gain a +1/2 bonus on wild empathy checks the hunter makes to influence animals and magical beasts that live underground.
+
+\ **Investigator**\ : Gain a +1/4 bonus on :ref:`Perception <corerulebook.skills.perception#perception>`\  checks when underground and a +1/2 bonus to the investigator's trap sense ability regarding stone traps.
+
+\ **Shaman**\ : Add 1/4 to the natural armor bonus of the shaman's spirit animal.
+
+\ **Skald**\ : Reduce the arcane spell failure chance for casting skald spells when wearing heavy armor by 1%. Once this reduction reaches 10%, the skald also receives Heavy Armor Proficiency (if the skald does not already possess it).
+
+\ **Slayer**\ : Gain a +1/3 bonus on :ref:`Knowledge <corerulebook.skills.knowledge#knowledge>`\  (dungeoneering) checks and on :ref:`Survival <corerulebook.skills.survival#survival>`\  checks when underground. If the slayer has at least a +1 bonus on :ref:`Knowledge <corerulebook.skills.knowledge#knowledge>`\  (dungeoneering) checks from this ability, he is also considered trained in that skill.
+
+\ **Swashbuckler**\ : Add 1/4 to the swashbuckler's effective class level to determine the extra damage she deals because of the precise strike deed when wielding a light pick or a heavy pick. If the swashbuckler has the Slashing Grace feat or another similar effect, she can treat the battleaxe or the handaxe as a one-handed piercing melee weapon, and she gains this benefit when wielding the appropriate weapon for the feat as well. 
+
+\ **Warpriest**\ : Add 1/3 to the number of times per day the warpriest can use blessings, but these additional uses must be of blessings that affect weapons or armor.
+
+.. _`advancedclassguide.classes.index#elves`:
+
+Elves
+******
+
+Elves' grace and intellect lends itself to many classes. The following options are available to all elves who have the indicated favored class.
+
+\ **Arcanist**\ : Increase the maximum number of points in the arcanist's arcane reservoir by 1.
+
+\ **Bloodrager**\ : Add 1 foot to the bloodrager's base speed. In combat, this benefit has an effect only after every five such increases in base speed. This bonus stacks with the bloodrager's fast movement class feature, and applies under the same conditions as that feature.
+
+\ **Brawler**\ : Add 1 foot to the brawler's base speed. In combat, this benefit has an effect only after every five such increases in the brawler's base speed.
+
+\ **Hunter**\ : Choose a weapon from the following list: longbow, longsword, rapier, short sword, shortbow, or any weapon with "elven" in its name. Gain a +1/2 bonus on critical hit confirmation rolls made while using that type of weapon (maximum bonus +4). This bonus does not stack with those gained through Critical Focus and similar effects.
+
+\ **Investigator**\ : Increase the number of points in the investigator's inspiration pool by 1/3.
+
+\ **Shaman**\ : Add 5 feet to the range of a chosen shaman hex. Multiple bonuses from this ability can apply to the same hex, to a maximum of an additional 30 feet for any single hex.
+
+\ **Skald**\ : Increase the bonus granted by the well-versed class feature by 1/4 (maximum bonus +8). 
+
+\ **Slayer**\ : Increase the studied target bonus on :ref:`Perception <corerulebook.skills.perception#perception>`\  and :ref:`Survival <corerulebook.skills.survival#survival>`\  checks by 1/4. When the slayer gains the stalker class feature, he also gains this increase to his studied target bonus on :ref:`Stealth <corerulebook.skills.stealth#stealth>`\  checks. 
+
+\ **Swashbuckler**\ : Increase the total number of points in the swashbuckler's panache pool by 1/4.
+
+\ **Warpriest**\ : Add 1/2 to the number of times per day the warpriest can use blessings, but these additional uses can be from only the Air, Animal, Charm, Magic, Plant, and Sun blessings. 
+
+.. _`advancedclassguide.classes.index#gnomes`:
+
+Gnomes
+*******
+
+Gnomes' natural curiosity leads them to fling themselves into whatever pursuit they choose, often taking practices in bold new directions. The following options are available to all gnomes who have the indicated favored class.
+
+\ **Arcanist**\ : Add 1/6 to the number of points the arcanist gains in her arcane reservoir each day. 
+
+\ **Bloodrager**\ : Add 1/4 to the bloodrager's effective class level when determining the strength of her bloodrager bloodline powers.
+
+\ **Brawler**\ : Increase the number of times per day the brawler can use martial flexibility by 1/4.
+
+\ **Hunter**\ : Add DR 1/magic to the hunter's animal companion. Each time the hunter gains another level, the DR increases by 1/2 (maximum DR 10/magic). If the hunter replaces her animal companion, the new companion gains this damage reduction.
+
+\ **Investigator**\ : Add one extract formula from the investigator's list to his formula book. This formula must be at least 1 level lower than the highest level of formula the investigator can create.
+
+\ **Shaman**\ : The shaman gains 1/6 of a new shaman hex.
+
+\ **Skald**\ : Add a +1 bonus on concentration checks when casting skald spells. 
+
+\ **Slayer**\ : The slayer gains 1/6 of a new slayer talent. 
+
+\ **Swashbuckler**\ : Increase the number of times per day the swashbuckler can use charmed life by 1/4. 
+
+\ **Warpriest**\ : Add 1/2 to the result of the warpriest's channeled energy when healing creatures of the animal, fey, and plant types.
+
+.. _`advancedclassguide.classes.index#half_elves`:
+
+Half-Elves
+***********
+
+Half-elves blend the strengths of both their heritages, making them unusually versatile. The following options are available to all half-elves who have the indicated favored class.
+
+\ **Arcanist**\ : When casting arcanist enchantment spells, add 1/3 to the effective caster level, but only for the purpose of determining duration.
+
+\ **Bloodrager**\ : Increase the bonus gained from blood sanctuary by 1/4.
+
+\ **Brawler**\ : Add 1 to the brawler's CMD when she's resisting a trip or overrun combat maneuver.
+
+\ **Hunter**\ : Add 1 foot to the hunter's companion's base speed. In combat, this benefit has an effect only after every five such increases in base speed. If the hunter replaces her animal companion, the new companion gains this benefit.
+
+\ **Investigator**\ : Gain a +1/4 bonus on inspiration die rolls.
+
+\ **Shaman**\ : Add one spell from the cleric spell list that isn't on the shaman spell list to the list of spells the shaman knows. This spell must be at least 1 level lower than the highest-level spell the shaman can cast.
+
+\ **Skald**\ : Increase the skald's total number of raging song rounds per day by 1. 
+
+\ **Slayer**\ : Gain a +1/2 bonus on :ref:`Bluff <corerulebook.skills.bluff#bluff>`\  checks to feint and on :ref:`Diplomacy <corerulebook.skills.diplomacy#diplomacy>`\  checks to gain information. 
+
+\ **Swashbuckler**\ : Increase the number of times per day the swashbuckler can use charmed life by 1/4.
+
+\ **Warpriest**\ : Gain a +1/3 bonus on the damage dealt or healed with the warpriest's channel energy ability.
+
+.. _`advancedclassguide.classes.index#halflings`:
+
+Halflings
+**********
+
+Halflings' ability to coexist with other races's societies makes them supremely adaptable and open to new ways of seeing the world or practicing the arts of magic and combat. The following options are available to all halflings who have the indicated favored class. 
+
+\ **Arcanist**\ : Gain 1/6 of a new arcanist exploit. 
+
+\ **Bloodrager**\ : Gain a +1/4 dodge bonus to AC while bloodraging against creatures at least one size category larger than the bloodrager.
+
+\ **Brawler**\ : Gain a +1 bonus to the brawler's CMD when resisting a grapple or overrun combat maneuver.
+
+\ **Hunter**\ : The hunter's animal companion gains a +1/4 luck bonus on saving throws. If the hunter replaces her animal companion, the new companion gains this bonus.
+
+\ **Investigator**\ : Add one extract formula from the investigator's list to his formula book. This formula must be at least 1 level lower than the highest level of formula the investigator can create.
+
+\ **Shaman**\ : Add 1/2 to the shaman's effective class level for the purpose of determining her spirit animal's natural armor adjustment, Intelligence, and special abilities.
+
+\ **Skald**\ : Choose a weapon from the following list: dagger, sling, or any weapon with the word "halfling" in its name. Add a +1/2 bonus on critical hit confirmation rolls with that weapon (maximum bonus +4). This bonus doesn't stack with those gained through Critical Focus and similar effects.
+
+\ **Slayer**\ : Add a +1/4 dodge bonus to Armor Class against the slayer's studied target. 
+
+\ **Swashbuckler**\ : Increase the number of times the swashbuckler can use charmed life by 1/4.
+
+\ **Warpriest**\ : Add 1/4 to the warpriest's effective level when determining the damage of his sacred weapon.
+
+.. _`advancedclassguide.classes.index#half_orcs`:
+
+Half-Orcs
+**********
+
+Half-orcs combine humans' versatility with orcs' ferocity. The following options are available to all half-orcs who have the indicated favored class.
+
+\ **Arcanist**\ : Gain a +1 bonus on concentration checks made because of taking damage while casting arcanist spells.
+
+\ **Bloodrager**\ : Increase the bloodrager's total number of bloodrage rounds per day by 1.
+
+\ **Brawler**\ : Add 1/4 to the brawler's effective level to determine her unarmed strike damage.
+
+\ **Hunter**\ : Add 1 hit point to the hunter's animal companion. If the hunter replaces her animal companion, the new companion gains these bonus hit points.
+
+\ **Investigator**\ : Gain a +1/3 bonus on critical hit confirmation rolls made while using studied combat (maximum bonus +5). This bonus does not stack with those gained through Critical Focus and similar effects.
+
+\ **Shaman**\ : Add one spell from the cleric spell list that isn't on the shaman spell list to the list of spells the shaman knows. This spell must be at least 1 level lower than the highest-level spell the shaman can cast.
+
+\ **Skald**\ : Increase the skald's total number of raging song rounds per day by 1.
+
+\ **Slayer**\ : Gain a +1/3 bonus on critical hit confirmation rolls made while using sneak attack (maximum bonus +5). This bonus doesn't stack with those gained through Critical Focus and similar effects. 
+
+\ **Swashbuckler**\ : Gain a +1/3 bonus on all critical hit confirmation rolls made while using the precise strike deed (maximum bonus +5). This bonus doesn't stack with those gained through Critical Focus and similar effects.
+
+\ **Warpriest**\ : Gain a +2 bonus on rolls to stabilize when dying.
+
+.. _`advancedclassguide.classes.index#humans`:
+
+Humans
+*******
+
+Humans achieved their status as the most prominent race in the Pathfinder campaign setting by being quick to adopt new practices and fill new niches if doing so gives them an advantage. The following options are available to all humans who have the indicated favored class. 
+
+\ **Arcanist**\ : Add one spell from the arcanist spell list to the arcanist's spellbook. This spell must be at least 1 level lower than the highest-level spell the arcanist can cast.
+
+\ **Bloodrager**\ : Increase the bloodrager's total number of bloodrage rounds per day by 1.
+
+\ **Brawler**\ : Gain a +1 bonus to the brawler's CMD when resisting two combat maneuvers of the brawler's choice.
+
+\ **Hunter**\ : Add 1 skill rank to the hunter's animal companion. If the hunter replaces her animal companion, the new companion gains these skill ranks.
+
+\ **Investigator**\ : Add one extract formula from the investigator's formula list to his formula book. This formula must be at least 1 level lower than the highest level of formula the investigator can create.
+
+\ **Shaman**\ : Add one spell from the cleric spell list that isn't on the shaman spell list to the list of spells the shaman knows. This spell must be at least 1 level lower than the highest-level spell the shaman can cast.
+
+\ **Skald**\ : Add one spell from the skald's spell list to the skald's known spells. This spell must be at least 1 level lower than the highest-level spell the skald can cast.
+
+\ **Slayer**\ : Gain 1/6 of a new slayer talent.
+
+\ **Swashbuckler**\ : Increase the total number of points in the swashbuckler's panache pool by 1/4.
+
+\ **Warpriest**\ : Gain 1/6 of a new bonus combat feat.
+

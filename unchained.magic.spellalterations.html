@@ -1,0 +1,375 @@
+
+
+
+
+
+<head>
+    <link rel="stylesheet" href="_static/srd.css" type="text/css" />
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/toggle_list.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+
+
+
+<body>
+    <div class="contents topic" id="id1">
+<span id="unchained-magic-spellalterations"></span><p class="topic-title first"></p>
+<ul class="simple">
+<li><a class="reference internal" href="#spell-alterations" id="id6">Spell Alterations</a><ul>
+<li><a class="reference internal" href="#limited-magic" id="id7">Limited Magic</a><ul>
+<li><a class="reference internal" href="#magic-items" id="id8">Magic Items</a></li>
+<li><a class="reference internal" href="#heighten-spell" id="id9">Heighten Spell</a></li>
+<li><a class="reference internal" href="#other-considerations" id="id10">Other Considerations</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#wild-magic" id="id11">Wild Magic</a><ul>
+<li><a class="reference internal" href="#implementing-wild-magic" id="id12">Implementing Wild Magic</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#active-spellcasting" id="id13">Active Spellcasting</a><ul>
+<li><a class="reference internal" href="#overclocked-spells" id="id14">Overclocked Spells</a></li>
+<li><a class="reference internal" href="#spell-attack-roll" id="id15">Spell Attack Roll</a></li>
+<li><a class="reference internal" href="#spell-critical-hits" id="id16">Spell Critical Hits</a></li>
+<li><a class="reference internal" href="#spell-fumbles" id="id17">Spell Fumbles</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="spell-alterations">
+<span id="unchained-magic-spellalterations-spell-alterations"></span><h1><a class="toc-backref" href="#id6">Spell Alterations</a><a class="headerlink" href="#spell-alterations" title="Permalink to this headline">¶</a></h1>
+<p>The following optional rules alter normal spellcasting in fun new ways. Each system is fairly simple in concept, but could generate ramifications not fully detailed below, and GMs should be ready to reconcile or arbitrate unexpected effects.</p>
+<div class="section" id="limited-magic">
+<span id="unchained-magic-spellalterations-limited-magic"></span><h2><a class="toc-backref" href="#id7">Limited Magic</a><a class="headerlink" href="#limited-magic" title="Permalink to this headline">¶</a></h2>
+<p>As a character gains caster levels under the normal magic system, the efficacy of her spells can swing wildly, necessitating a constant reevaluation of each spell’s utility. The limited magic rules are meant to keep spells’ power more tightly tiered by spell level and reduce the amount by which a caster’s power level escalates.</p>
+<p>When using limited magic rules, all spells are cast at the minimum caster level and with the minimum required ability score. The minimum caster level of a spell is fixed at 2 × the spell’s level – 1, and does not change based on class levels. A spell’s level can vary by class; therefore, different classes may have different minimum caster levels for the same spell. The minimum ability score for any spell is 10 + the spell’s level, so the save DC for each spell (10 + the spell’s level + the caster’s ability score modifier) is also constant. These values are listed below on <a class="reference internal" href="#unchained-magic-spellalterations-limited-magic-table"><span class="std std-ref">Table: Limited Magic</span></a> for ease of reference. The CL (9) column lists the minimum caster level for casters who get up to 9th-level spells, such as the cleric, druid, or wizard. The CL (6) column covers casters who get 6th-level spells, such as bards. The CL (4) column covers casters who get up to only 4th-level spells, such as paladins and rangers. If a class’s spellcasting progression differs from these minimum caster levels, it always overrides the numbers on this table.</p>
+<span id="unchained-magic-spellalterations-limited-magic-table"></span><table border="1" class="colwidths-auto contrast-reading-table docutils" id="id2">
+<caption><span class="caption-text">Limited Magic</span><a class="headerlink" href="#id2" title="Permalink to this table">¶</a></caption>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Level</th>
+<th class="head">CL (9) *</th>
+<th class="head">CL (6)</th>
+<th class="head">CL (4)</th>
+<th class="head">Ability Score</th>
+<th class="head">DC</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>0</td>
+<td>1</td>
+<td>1</td>
+<td>—</td>
+<td>10</td>
+<td>10</td>
+</tr>
+<tr class="row-odd"><td>1</td>
+<td>1</td>
+<td>1</td>
+<td>4</td>
+<td>11</td>
+<td>11</td>
+</tr>
+<tr class="row-even"><td>2</td>
+<td>3</td>
+<td>4</td>
+<td>7</td>
+<td>12</td>
+<td>13</td>
+</tr>
+<tr class="row-odd"><td>3</td>
+<td>5</td>
+<td>7</td>
+<td>10</td>
+<td>13</td>
+<td>14</td>
+</tr>
+<tr class="row-even"><td>4</td>
+<td>7</td>
+<td>10</td>
+<td>13</td>
+<td>14</td>
+<td>16</td>
+</tr>
+<tr class="row-odd"><td>5</td>
+<td>9</td>
+<td>13</td>
+<td>—</td>
+<td>15</td>
+<td>17</td>
+</tr>
+<tr class="row-even"><td>6</td>
+<td>11</td>
+<td>16</td>
+<td>—</td>
+<td>16</td>
+<td>19</td>
+</tr>
+<tr class="row-odd"><td>7</td>
+<td>13</td>
+<td>—</td>
+<td>—</td>
+<td>17</td>
+<td>20</td>
+</tr>
+<tr class="row-even"><td>8</td>
+<td>15</td>
+<td>—</td>
+<td>—</td>
+<td>18</td>
+<td>22</td>
+</tr>
+<tr class="row-odd"><td>9</td>
+<td>17</td>
+<td>—</td>
+<td>—</td>
+<td>19</td>
+<td>23</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Notes:</strong></p>
+<ul class="simple">
+<li>For a sorcerer, increase the minimum caster level of any spell of 2nd level or higher by 1.</li>
+</ul>
+<div class="section" id="magic-items">
+<span id="unchained-magic-spellalterations-magic-items"></span><h3><a class="toc-backref" href="#id8">Magic Items</a><a class="headerlink" href="#magic-items" title="Permalink to this headline">¶</a></h3>
+<p>Spells from magic items use the same rules as above. That means a <a class="reference internal" href="corerulebook.spells.fireball.html#corerulebook-spells-fireball-fireball"><span class="std std-ref">fireball</span></a> cast from a wand created by a sorcerer or wizard has the same save DC and amount of damage dice as a <a class="reference internal" href="corerulebook.spells.fireball.html#corerulebook-spells-fireball-fireball"><span class="std std-ref">fireball</span></a> cast by any sorcerer or wizard. When calculating the base cost or price of a magic item, always use the minimum CL as defined by this system (even if the item’s creator would have had a higher caster level). Potions and scrolls always default to the appropriate cleric, druid, or wizard spell level to determine their base costs.</p>
+</div>
+<div class="section" id="heighten-spell">
+<span id="unchained-magic-spellalterations-heighten-spell"></span><h3><a class="toc-backref" href="#id9">Heighten Spell</a><a class="headerlink" href="#heighten-spell" title="Permalink to this headline">¶</a></h3>
+<p>Under this system, spells can still be improved using Heighten Spell. A heightened spell uses the minimum CL, but does so as though it were a higher-level spell. For example, a <a class="reference internal" href="corerulebook.spells.fireball.html#corerulebook-spells-fireball-fireball"><span class="std std-ref">fireball</span></a> heightened to 5th level would have a DC of 17 and deal 9d6 points of damage, the same as a <a class="reference internal" href="corerulebook.spells.coneofcold.html#corerulebook-spells-coneofcold-cone-of-cold"><span class="std std-ref">cone of cold</span></a> cast in the same slot.</p>
+</div>
+<div class="section" id="other-considerations">
+<span id="unchained-magic-spellalterations-other-considerations"></span><h3><a class="toc-backref" href="#id10">Other Considerations</a><a class="headerlink" href="#other-considerations" title="Permalink to this headline">¶</a></h3>
+<p>Limited magic can take some getting used to. It reduces the power of most spellcasters dramatically, but can speed the game up by requiring less research into the caster levels of monsters, NPCs, and magic items. Limited magic can also encourage better-rounded spellcaster characters, especially if you’re using the purchase system to generate ability scores, as there’s less reward for focusing solely on their spellcasting attributes.</p>
+<p>Using this system means that if a class gets a spell at a lower level than another class does, that spell’s effects are weaker for the former class. A bard’s <em>heroism</em> is not as good as a wizard’s. However, classes with slower spell progressions (such as the bard, paladin, and ranger) have other abilities that keep them competitive when limited magic weakens the overall power of spells.</p>
+<p>Consider altering other rules to account for a landscape with lower average DCs. For instance, Great Fortitude, Iron Will, and Lightning Reflexes might provide only a +1 bonus on saves, or the increases to spell DCs from Spell Focus and Greater Spell Focus could go up to 2.</p>
+<p><strong>With Esoteric Spell Components</strong>: This system works especially well with the <a class="reference internal" href="unchained.magic.esotericmaterialcomponents.html#unchained-magic-esotericmaterialcomponents"><span class="std std-ref">esoteric spell components system</span></a>. Using both systems means that spellcasting in the campaign is weaker overall, but can be boosted on occasion by characters willing to spend money to increase the potency of their spells.</p>
+</div>
+</div>
+<div class="section" id="wild-magic">
+<span id="unchained-magic-spellalterations-wild-magic"></span><h2><a class="toc-backref" href="#id11">Wild Magic</a><a class="headerlink" href="#wild-magic" title="Permalink to this headline">¶</a></h2>
+<p>Though many spellcasters like to consider their use of magic a science, the effects of magic are not always easy to predict. Wild, uncontrolled magic sometimes surges as a side effect of spellcasting or magical experimentation. Wild magic can be used in any situation where magic might cause randomness and chaotic effects. When a character casts a spell or takes an action that could trigger a surge of wild magic (see Implementing Wild Magic below), roll on <a class="reference internal" href="#unchained-magic-spellalterations-wild-magic-surge"><span class="std std-ref">Table: Wild Magic Surge</span></a>.</p>
+<p>Roll to determine the surge effect before the spell is cast, but apply the effect after the spell is cast unless it alters the spell itself in some way (such as changing the effective caster level). Any reference on the table to the spell or the spell’s level applies to the spell being cast, supernatural ability being used, or magic item effect being activated. Similarly, any reference to the caster applies to the character who triggers the surge. If an effect requires a caster level, use the caster’s full character level.</p>
+<p>If the wild magic surge effect you roll isn’t possible due to the nature of the spell or effect, roll instead on <a class="reference internal" href="#unchained-magic-spellalterations-universal-surge-effects"><span class="std std-ref">Table: Universal Surge Effects</span></a>. A wild magic surge effect doesn’t allow a saving throw, even if it’s replicating a spell that normally would, and any effect that would normally have a limit on the amount of Hit Dice it can affect ignores that limit. Higher results on the table are more likely to be beneficial, so a GM might give a bonus or penalty on the check if an action would alter how likely it is that the wild magic surge would be helpful.</p>
+<div class="section" id="implementing-wild-magic">
+<span id="unchained-magic-spellalterations-implementing-wild-magic"></span><h3><a class="toc-backref" href="#id12">Implementing Wild Magic</a><a class="headerlink" href="#implementing-wild-magic" title="Permalink to this headline">¶</a></h3>
+<p>Though the rules on when to use wild magic are deliberately vague to give the GM leeway, here are some suggestions, presented in order from simplest to most complex.</p>
+<p><strong>Failed Concentration</strong>: When a caster fails a concentration check, and thereby loses a spell, some of the spell’s energy escapes in a wild magic surge.</p>
+<p><strong>Dispel and Counterspell</strong>: When a spell or magical effect is dispelled or counterspelled, it triggers a wild magic surge on the caster or subject.</p>
+<p><strong>Wild Zones</strong>: Some places are magically unstable. When a creature casts a spell, uses a spell-like ability, or activates a magic item in such an area, it causes a wild magic surge.</p>
+<p><strong>Boost Casting</strong>: A caster can attempt to use a metamagic feat she has with a spell she’s casting without expending a higher-level spell slot, needing to prepare the spell at a higher level (if a prepared caster), or increasing the casting time (if a spontaneous caster). To do so, she must attempt a caster level check with a DC equal to 10 + the spell’s level + 5 for every increase in spell level the metamagic feat would normally cause. If she succeeds, her spell gains the metamagic feat’s benefit and she causes a wild magic surge. If she fails, she still rolls on <a class="reference internal" href="#unchained-magic-spellalterations-wild-magic-surge"><span class="std std-ref">Table: Wild Magic Surge</span></a>, but subtracts from the result a number equal to the amount by which she failed the check.</p>
+<span id="unchained-magic-spellalterations-wild-magic-surge"></span><table border="1" class="colwidths-auto contrast-reading-table docutils" id="id3">
+<caption><span class="caption-text">Wild Magic Surge</span><a class="headerlink" href="#id3" title="Permalink to this table">¶</a></caption>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">d%</th>
+<th class="head">Surge Effect</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>01–02</td>
+<td>The caster takes 1d6 points of damage per spell level.</td>
+</tr>
+<tr class="row-odd"><td>03–04</td>
+<td>The caster is affected by a <em>slow</em> spell for 5 rounds.</td>
+</tr>
+<tr class="row-even"><td>05</td>
+<td>The spell takes effect at a random location within the spell’s range.</td>
+</tr>
+<tr class="row-odd"><td>06</td>
+<td>The caster is confused for 1 round (as <em>confusion</em>).</td>
+</tr>
+<tr class="row-even"><td>07</td>
+<td>The caster takes 1 point of Constitution bleed.</td>
+</tr>
+<tr class="row-odd"><td>08</td>
+<td>The caster takes 1 point of ability bleed that matches her spellcasting ability score (determine randomly if the creature isn’t a spellcaster).</td>
+</tr>
+<tr class="row-even"><td>09–10</td>
+<td>The caster is dazed for 1 round (as <a class="reference internal" href="corerulebook.spells.dazemonster.html#corerulebook-spells-dazemonster-daze-monster"><span class="std std-ref">daze monster</span></a>).</td>
+</tr>
+<tr class="row-odd"><td>11–12</td>
+<td>The spell deals half as much damage as normal.</td>
+</tr>
+<tr class="row-even"><td>13</td>
+<td>The caster takes 1d4 points of bleed damage.</td>
+</tr>
+<tr class="row-odd"><td>14</td>
+<td>The caster falls asleep for 1 minute (as <em>sleep</em>).</td>
+</tr>
+<tr class="row-even"><td>15–16</td>
+<td>The caster can’t cast or concentrate on spells for 1 round.</td>
+</tr>
+<tr class="row-odd"><td>17</td>
+<td>The caster is affected by <a class="reference internal" href="corerulebook.spells.reduceperson.html#corerulebook-spells-reduceperson-reduce-person"><span class="std std-ref">reduce person</span></a> for 1 minute.</td>
+</tr>
+<tr class="row-even"><td>18–19</td>
+<td>The caster becomes sickened for 5 rounds.</td>
+</tr>
+<tr class="row-odd"><td>20</td>
+<td>A <a class="reference internal" href="corerulebook.spells.zoneoftruth.html#corerulebook-spells-zoneoftruth-zone-of-truth"><span class="std std-ref">zone of truth</span></a> appears, centered on the caster.</td>
+</tr>
+<tr class="row-even"><td>21–29</td>
+<td>The caster is affected as if targeted by the spell.</td>
+</tr>
+<tr class="row-odd"><td>30–32</td>
+<td>All targets of the spell are affected by <span class="xref std std-ref">lesser restoration</span>.</td>
+</tr>
+<tr class="row-even"><td>33–38</td>
+<td>All targets of the spell are healed of 1d8+1 points of damage. This is a positive energy effect.</td>
+</tr>
+<tr class="row-odd"><td>39–43</td>
+<td>The spell’s area or the targets of the spell become affected by <em>silence</em> for 3 rounds.</td>
+</tr>
+<tr class="row-even"><td>44–50</td>
+<td>All targets of the spell become invisible for 1 round (as <em>invisibility</em>).</td>
+</tr>
+<tr class="row-odd"><td>51–58</td>
+<td>The area of the spell is filled with <em>daylight</em>.</td>
+</tr>
+<tr class="row-even"><td>59–64</td>
+<td>A <em>shatter</em> spell affects a 5-foot radius around each target of the spell (or the spell’s area).</td>
+</tr>
+<tr class="row-odd"><td>65–71</td>
+<td>The spell’s area is coated in <em>grease</em>.</td>
+</tr>
+<tr class="row-even"><td>72–74</td>
+<td>One random tree or animal targeted by the spell or in the spell’s area is affected by <em>awaken</em>.</td>
+</tr>
+<tr class="row-odd"><td>75–78</td>
+<td>An instrument appears adjacent to each target (as <a class="reference internal" href="corerulebook.spells.summoninstrument.html#corerulebook-spells-summoninstrument-summon-instrument"><span class="std std-ref">summon instrument</span></a>).</td>
+</tr>
+<tr class="row-even"><td>79–80</td>
+<td>Every door within 100 feet of the caster is affected by a <em>knock</em> spell.</td>
+</tr>
+<tr class="row-odd"><td>81–83</td>
+<td>The caster teleports to a square of her choice adjacent to the spell’s target or within the spell’s area.</td>
+</tr>
+<tr class="row-even"><td>84–86</td>
+<td>The next spell targeting the caster is turned back, as <a class="reference internal" href="corerulebook.spells.spellturning.html#corerulebook-spells-spellturning-spell-turning"><span class="std std-ref">spell turning</span></a>.</td>
+</tr>
+<tr class="row-odd"><td>87–90</td>
+<td>The caster gains 2d6 temporary hit points that last 1 hour and don’t stack with any other temporary hit points.</td>
+</tr>
+<tr class="row-even"><td>91–92</td>
+<td>A random creature from the <a class="reference internal" href="corerulebook.spells.summonmonster.html#corerulebook-spells-summonmonster-summon-monster-i"><span class="std std-ref">summon monster I</span></a> list is summoned in a square adjacent to the caster. It is under the caster’s control.</td>
+</tr>
+<tr class="row-odd"><td>93–95</td>
+<td>The caster is affected by <em>tongues</em> for 10 minutes.</td>
+</tr>
+<tr class="row-even"><td>96–97</td>
+<td>The caster is affected by <em>haste</em> for 5 rounds.</td>
+</tr>
+<tr class="row-odd"><td>98</td>
+<td>The spell is extended.</td>
+</tr>
+<tr class="row-even"><td>99</td>
+<td>The spell is maximized.</td>
+</tr>
+<tr class="row-odd"><td>100</td>
+<td>The spell slot used to cast the spell is not expended.</td>
+</tr>
+</tbody>
+</table>
+<span id="unchained-magic-spellalterations-universal-surge-effects"></span><table border="1" class="colwidths-auto contrast-reading-table docutils" id="id4">
+<caption><span class="caption-text">Universal Surge Effects</span><a class="headerlink" href="#id4" title="Permalink to this table">¶</a></caption>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">d%</th>
+<th class="head">Surge Effect</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>01–20</td>
+<td>The caster takes 1d6 points of damage that can’t be prevented in any way.</td>
+</tr>
+<tr class="row-odd"><td>21–80</td>
+<td>The caster is affected by <a class="reference internal" href="corerulebook.spells.faeriefire.html#corerulebook-spells-faeriefire-faerie-fire"><span class="std std-ref">faerie fire</span></a> for 1 round.</td>
+</tr>
+<tr class="row-even"><td>81–100</td>
+<td>The caster gains 1d6 temporary hit points that last for 1 hour. These don’t stack with other temporary hit points.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="active-spellcasting">
+<span id="unchained-magic-spellalterations-active-spellcasting"></span><h2><a class="toc-backref" href="#id13">Active Spellcasting</a><a class="headerlink" href="#active-spellcasting" title="Permalink to this headline">¶</a></h2>
+<p>Under the core rules, a spellcaster is largely passive when resolving the effects of her spells. She announces which spell she’s casting, and the targets roll their saves in response. Compare this with attacks, where the attacker rolls all the dice. The following variants help spellcasters feel more involved in the resolution of spells.</p>
+<div class="section" id="overclocked-spells">
+<span id="unchained-magic-spellalterations-overclocked-spells"></span><h3><a class="toc-backref" href="#id14">Overclocked Spells</a><a class="headerlink" href="#overclocked-spells" title="Permalink to this headline">¶</a></h3>
+<p>Using the overclocked spells variant, confident spellcasters can attempt to weave more power into their spells as they cast them. This is not without risk: deviating from the stable, standard formulation of the spell risks collapse of the spell and the magical energy therein.</p>
+<p>As a swift action while casting a spell, a spellcaster can attempt to increase either the spell’s DC or her caster level for the spell. She must attempt a <a class="reference internal" href="corerulebook.skills.spellcraft.html#corerulebook-skills-spellcraft-spellcraft"><span class="std std-ref">Spellcraft</span></a> check with a DC equal to 15 + the spell’s level + the minimum caster level of that spell for her class. If she succeeds, she can increase either her caster level or the DC of the spell by 2. If she fails, the spell is not cast and she loses the prepared spell or spell slot. If she fails the <a class="reference internal" href="corerulebook.skills.spellcraft.html#corerulebook-skills-spellcraft-spellcraft"><span class="std std-ref">Spellcraft</span></a> check by 5 or more, she also suffers a mishap, similar to a <a class="reference internal" href="corerulebook.magicitems.scrolls.html#corerulebook-magicitems-scrolls"><span class="std std-ref">scroll mishap</span></a>.</p>
+<p><strong>With Limited Magic</strong>: If you are using the <a class="reference internal" href="#unchained-magic-spellalterations-limited-magic"><span class="std std-ref">limited magic rules</span></a>, instead of increasing the caster level or DC by 2 on a successfully overclocked spell, instead allow the caster to gain the standard benefits of her full caster level and ability scores.</p>
+<p><strong>With Spell Fumbles</strong>: Apply the results of a <a class="reference internal" href="#unchained-magic-spellalterations-spell-fumbles"><span class="std std-ref">spell fumble</span></a> in place of a mishap.</p>
+</div>
+<div class="section" id="spell-attack-roll">
+<span id="unchained-magic-spellalterations-spell-attack-roll"></span><h3><a class="toc-backref" href="#id15">Spell Attack Roll</a><a class="headerlink" href="#spell-attack-roll" title="Permalink to this headline">¶</a></h3>
+<p>When casting a spell or using a magical effect that allows a saving throw, the caster makes a spell attack roll, rolling 1d20 with a bonus equal to her spellcasting ability modifier plus the spell’s level. Any bonuses that would normally make the spell more difficult to avoid (such as the Spell Focus feat) also apply. The DC of this roll is equal to 11 + the target’s relevant save bonus. If the caster succeeds, treat the spell or effect as if the target had failed its save. Otherwise, treat it as if the target succeeded at its save. Just like an ordinary attack roll, a natural 1 is an automatic failure, while a natural 20 is an automatic success. This rule does not change the chances of success; it just changes who is rolling the die.</p>
+<p>For example, a wizard with an Intelligence score of 18 casts <em>charm person</em> on an orc guard. Normally, the orc would attempt a DC 15 Will saving throw (10 + 1 for a 1st-level spell + 4 for the wizard’s Intelligence bonus). Since the orc’s Will save modifier is –1, he has to roll a 16 to succeed, and thus will fail his save 80% of the time. Under the spell attack roll rules, rather than the orc attempting a Will save, the wizard makes a spell attack roll with a +5 bonus (the spell’s DC of 15 – 10) against a DC of 10 (11 + the orc’s –1 Will save modifier). The wizard has to roll at least a 5 to succeed, so he still affects his target 80% of the time.</p>
+<p>This variant puts more dice in the hands of the players. Consider running NPC spellcasters under the core rules instead, so that players can feel responsible for their own saves. It’s usually easiest for the player to write down the spell attack roll bonus for each level.</p>
+<p><strong>Faster Variant</strong>: Normally, a caster would roll a separate spell attack roll against each target. A GM who wants to speed up play (at the expense of making the game more prone to extremes and not matching the core rules as closely) can instead require only a single roll and apply it against the defenses of all the targets.</p>
+</div>
+<div class="section" id="spell-critical-hits">
+<span id="unchained-magic-spellalterations-spell-critical-hits"></span><h3><a class="toc-backref" href="#id16">Spell Critical Hits</a><a class="headerlink" href="#spell-critical-hits" title="Permalink to this headline">¶</a></h3>
+<p>Spells that require attack rolls follow the standard critical hit rules as described in the <em>Core Rulebook</em>. With this variant, spells that require a saving throw gain the same benefit. If a creature rolls a natural 1 on its saving throw, the spell threatens a critical hit. That creature rolls the save again, and if it fails on this second roll, the critical hit is confirmed, and any numeric effect of the spell is doubled. For spells that lack a direct numeric effect, such as <em>charm person</em>, the duration is doubled instead. A spell that requires both an attack roll and a saving throw (such as <a class="reference internal" href="corerulebook.spells.rayofenfeeblement.html#corerulebook-spells-rayofenfeeblement-ray-of-enfeeblement"><span class="std std-ref">ray of enfeeblement</span></a>) can threaten a critical hit only on the attack roll.</p>
+<p>The GM is encouraged to apply other types of doubling where appropriate. For instance, a <em>poison</em> spell might afflict a target with 2 doses of poison on a critical hit instead of doubling the effect of the poison.</p>
+<p><strong>With Spell Attack Rolls</strong>: This rule combines well with the spell attack roll rule. If you roll a natural 20 on your spell attack roll, you threaten a critical hit, then roll the attack roll again to confirm the critical. Avoid the faster variant of spell attack rolls if you’re also using spell critical hits, or at the very least roll to confirm each one separately.</p>
+<p><strong>With Spell Fumbles</strong>: This system is meant to be used in a campaign alongside the spell fumbles variant, though the two can be used separately.</p>
+</div>
+<div class="section" id="spell-fumbles">
+<span id="unchained-magic-spellalterations-spell-fumbles"></span><h3><a class="toc-backref" href="#id17">Spell Fumbles</a><a class="headerlink" href="#spell-fumbles" title="Permalink to this headline">¶</a></h3>
+<p>Spells have a chance to automatically miss, just like any other attack. Normally, this is represented by the target rolling a natural 20 on its save. However, you might be interested in a more dramatic “fumble” result. If an enemy rolls a natural 20 on its save, it rolls the save again. If it succeeds at the second save, then the spell was fumbled, resulting in an accident similar to a <a class="reference internal" href="corerulebook.magicitems.scrolls.html#corerulebook-magicitems-scrolls"><span class="std std-ref">scroll mishap</span></a>. Roll 1d10 and consult <a class="reference internal" href="#unchained-magic-spellalterations-spell-fumbles-table"><span class="std std-ref">Table: Spell Fumbles</span></a>. You can fumble only once per spell cast. If more than one target rolls a 20, only the first target rolls to confirm the fumble.</p>
+<span id="unchained-magic-spellalterations-spell-fumbles-table"></span><table border="1" class="colwidths-auto contrast-reading-table docutils" id="id5">
+<caption><span class="caption-text">Spell Fumbles</span><a class="headerlink" href="#id5" title="Permalink to this table">¶</a></caption>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">d10</th>
+<th class="head">Fumble Result</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>1</td>
+<td>A surge of uncontrolled magical energy deals 1d6 points of damage per spell level to the caster.</td>
+</tr>
+<tr class="row-odd"><td>2</td>
+<td>The spell strikes the caster or an ally instead of the intended target.</td>
+</tr>
+<tr class="row-even"><td>3</td>
+<td>The spell takes effect at a random location within the spell’s range.</td>
+</tr>
+<tr class="row-odd"><td>4</td>
+<td>The spell’s effect on the target is contrary to the spell’s normal effect.</td>
+</tr>
+<tr class="row-even"><td>5</td>
+<td>The spellcaster suffers some minor but bizarre effect related to the spell in some way. Most such effects should last only as long as the original spell’s duration, or 2d10 minutes for instantaneous spells.</td>
+</tr>
+<tr class="row-odd"><td>6</td>
+<td>A random innocuous item or items suddenly appear in the spell’s area.</td>
+</tr>
+<tr class="row-even"><td>7</td>
+<td>The spell’s effect is delayed. Sometime within the next 1d12 hours, the spell activates. The spell goes off in the general direction of the original target, up to the spell’s maximum range if the target has moved away.</td>
+</tr>
+<tr class="row-odd"><td>8</td>
+<td>The caster can’t cast or concentrate on spells for 1 round.</td>
+</tr>
+<tr class="row-even"><td>9</td>
+<td>The caster is dazed for 1 round.</td>
+</tr>
+<tr class="row-odd"><td>10</td>
+<td>The caster takes 1 point of Constitution damage.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>With a fumble deck</strong>: If you’re using a fumble deck in your game, draw a fumble card and apply the Magic result instead of rolling on the fumble table. You can use the fumble deck for spell fumbles in your game even if you aren’t using it to add other fumbles.</p>
+<p><strong>With Wild Magic</strong>: You can use <a class="reference internal" href="#unchained-magic-spellalterations-wild-magic-surge"><span class="std std-ref">Table: Wild Magic Surge</span></a> instead of <a class="reference internal" href="#unchained-magic-spellalterations-spell-fumbles-table"><span class="std std-ref">Table: Spell Fumbles</span></a>. If you use that table, roll 1d20 instead of d%.</p>
+<p><strong>With Spell Attack Rolls</strong>: When using the <a class="reference internal" href="#unchained-magic-spellalterations-spell-attack-roll"><span class="std std-ref">spell attack roll</span></a> variant, a fumble might occur if you roll a natural 1 on the attack roll. Roll the attack roll a second time—if it would miss again, the spell has fumbled.</p>
+</div>
+</div>
+</div>
+
+</body>

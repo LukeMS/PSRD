@@ -1,0 +1,453 @@
+
+
+
+
+
+<head>
+    <link rel="stylesheet" href="_static/srd.css" type="text/css" />
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/toggle_list.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+
+
+
+<body>
+    <div class="contents topic" id="id1">
+<span id="bestiary-familiar"></span><p class="topic-title first"></p>
+<ul class="simple">
+<li><a class="reference internal" href="#familiar" id="id43">Familiar</a><ul>
+<li><a class="reference internal" href="#bat" id="id44">Bat</a></li>
+<li><a class="reference internal" href="#defense" id="id45">Defense</a></li>
+<li><a class="reference internal" href="#offense" id="id46">Offense</a></li>
+<li><a class="reference internal" href="#statistics" id="id47">Statistics</a></li>
+<li><a class="reference internal" href="#ecology" id="id48">Ecology</a></li>
+<li><a class="reference internal" href="#cat" id="id49">Cat</a></li>
+<li><a class="reference internal" href="#id2" id="id50">Defense</a></li>
+<li><a class="reference internal" href="#id3" id="id51">Offense</a></li>
+<li><a class="reference internal" href="#id4" id="id52">Statistics</a></li>
+<li><a class="reference internal" href="#id5" id="id53">Ecology</a></li>
+<li><a class="reference internal" href="#hawk" id="id54">Hawk</a></li>
+<li><a class="reference internal" href="#id6" id="id55">Defense</a></li>
+<li><a class="reference internal" href="#id7" id="id56">Offense</a></li>
+<li><a class="reference internal" href="#id8" id="id57">Statistics</a></li>
+<li><a class="reference internal" href="#id9" id="id58">Ecology</a></li>
+<li><a class="reference internal" href="#lizard" id="id59">Lizard</a></li>
+<li><a class="reference internal" href="#id10" id="id60">Defense</a></li>
+<li><a class="reference internal" href="#id11" id="id61">Offense</a></li>
+<li><a class="reference internal" href="#id12" id="id62">Statistics</a></li>
+<li><a class="reference internal" href="#id13" id="id63">Ecology</a></li>
+<li><a class="reference internal" href="#monkey" id="id64">Monkey</a></li>
+<li><a class="reference internal" href="#id14" id="id65">Defense</a></li>
+<li><a class="reference internal" href="#id15" id="id66">Offense</a></li>
+<li><a class="reference internal" href="#id16" id="id67">Statistics</a></li>
+<li><a class="reference internal" href="#id17" id="id68">Ecology</a></li>
+<li><a class="reference internal" href="#owl" id="id69">Owl</a></li>
+<li><a class="reference internal" href="#id18" id="id70">Defense</a></li>
+<li><a class="reference internal" href="#id19" id="id71">Offense</a></li>
+<li><a class="reference internal" href="#id20" id="id72">Statistics</a></li>
+<li><a class="reference internal" href="#id21" id="id73">Ecology</a></li>
+<li><a class="reference internal" href="#rat" id="id74">Rat</a></li>
+<li><a class="reference internal" href="#id22" id="id75">Defense</a></li>
+<li><a class="reference internal" href="#id23" id="id76">Offense</a></li>
+<li><a class="reference internal" href="#id24" id="id77">Statistics</a></li>
+<li><a class="reference internal" href="#id25" id="id78">Ecology</a></li>
+<li><a class="reference internal" href="#raven" id="id79">Raven</a></li>
+<li><a class="reference internal" href="#id26" id="id80">Defense</a></li>
+<li><a class="reference internal" href="#id27" id="id81">Offense</a></li>
+<li><a class="reference internal" href="#id28" id="id82">Statistics</a></li>
+<li><a class="reference internal" href="#id29" id="id83">Ecology</a></li>
+<li><a class="reference internal" href="#toad" id="id84">Toad</a></li>
+<li><a class="reference internal" href="#id30" id="id85">Defense</a></li>
+<li><a class="reference internal" href="#id31" id="id86">Offense</a></li>
+<li><a class="reference internal" href="#id32" id="id87">Statistics</a></li>
+<li><a class="reference internal" href="#id33" id="id88">Ecology</a></li>
+<li><a class="reference internal" href="#viper" id="id89">Viper</a></li>
+<li><a class="reference internal" href="#id34" id="id90">Defense</a></li>
+<li><a class="reference internal" href="#id35" id="id91">Offense</a></li>
+<li><a class="reference internal" href="#id36" id="id92">Statistics</a></li>
+<li><a class="reference internal" href="#id37" id="id93">Ecology</a></li>
+<li><a class="reference internal" href="#special-abilities" id="id94">Special Abilities</a></li>
+<li><a class="reference internal" href="#weasel" id="id95">Weasel</a></li>
+<li><a class="reference internal" href="#id38" id="id96">Defense</a></li>
+<li><a class="reference internal" href="#id39" id="id97">Offense</a></li>
+<li><a class="reference internal" href="#id40" id="id98">Statistics</a></li>
+<li><a class="reference internal" href="#id41" id="id99">Ecology</a></li>
+<li><a class="reference internal" href="#id42" id="id100">Special Abilities</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="familiar">
+<span id="bestiary-familiar-familiar"></span><h1><a class="toc-backref" href="#id43">Familiar</a><a class="headerlink" href="#familiar" title="Permalink to this headline">¶</a></h1>
+<p>Presented here are the base animal statistics for all of the most commonly used familiars—of course, these statistics can also be used for normal animals as well. Small animals like these use Dexterity to modify <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> and <a class="reference internal" href="corerulebook.skills.swim.html#corerulebook-skills-swim-swim"><span class="std std-ref">Swim</span></a> checks.</p>
+<div class="section" id="bat">
+<span id="bestiary-familiar-bat"></span><h2><a class="toc-backref" href="#id44">Bat</a><a class="headerlink" href="#bat" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 1/8</strong>
+<strong>XP 50</strong>
+N Diminutive <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-animal"><span class="std std-ref">animal</span></a><strong>Init</strong> +2; <strong>Senses</strong> <a class="reference internal" href="bestiary.universalmonsterrules.html#bestiary-universalmonsterrules-blindsense"><span class="std std-ref">blindsense</span></a> 20 ft., low-light vision; <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> +6</p>
+</div>
+<div class="section" id="defense">
+<span id="bestiary-familiar-defense"></span><h2><a class="toc-backref" href="#id45">Defense</a><a class="headerlink" href="#defense" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 16, touch 16, flat-footed 14 (+2 Dex, +4 size)
+<strong>hp</strong> 2 (1d8–2)
+<strong>Fort</strong> +0, <strong>Ref</strong> +4, <strong>Will</strong> +2</p>
+</div>
+<div class="section" id="offense">
+<span id="bestiary-familiar-offense"></span><h2><a class="toc-backref" href="#id46">Offense</a><a class="headerlink" href="#offense" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 5 ft., fly 40 ft. (good)
+<strong>Melee</strong> bite +6 (1d3–5)
+<strong>Space</strong> 1 ft.; <strong>Reach</strong> 0 ft.</p>
+</div>
+<div class="section" id="statistics">
+<span id="bestiary-familiar-statistics"></span><h2><a class="toc-backref" href="#id47">Statistics</a><a class="headerlink" href="#statistics" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 1, <strong>Dex</strong> 15, <strong>Con</strong> 6, <strong>Int</strong> 2, <strong>Wis</strong> 14, <strong>Cha</strong> 5
+<strong>Base Atk</strong> +0; <strong>CMB</strong> –2; <strong>CMD</strong> 3
+<strong>Feats</strong> <a class="reference internal" href="corerulebook.feats.html#weapon finesse (combat)"><span class="std std-ref">Weapon Finesse</span></a>
+<strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.fly.html#corerulebook-skills-fly-fly"><span class="std std-ref">Fly</span></a> +16, <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> +6; <strong>Racial Modifier</strong> +4 <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a></p>
+</div>
+<div class="section" id="ecology">
+<span id="bestiary-familiar-ecology"></span><h2><a class="toc-backref" href="#id48">Ecology</a><a class="headerlink" href="#ecology" title="Permalink to this headline">¶</a></h2>
+<p><strong>Environment</strong> temperate and hot forests and deserts
+<strong>Organization</strong> colony (10–400)
+<strong>Treasure</strong> none
+Most bats are insectivores or fruit-eaters, but at least one species drinks blood.</p>
+</div>
+<div class="section" id="cat">
+<span id="bestiary-familiar-cat"></span><h2><a class="toc-backref" href="#id49">Cat</a><a class="headerlink" href="#cat" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 1/4</strong>
+<strong>XP 100</strong>
+N Tiny <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-animal"><span class="std std-ref">animal</span></a><strong>Init</strong> +2; <strong>Senses</strong> low-light vision, <a class="reference internal" href="bestiary.universalmonsterrules.html#bestiary-universalmonsterrules-scent"><span class="std std-ref">scent</span></a>; <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> +5</p>
+</div>
+<div class="section" id="id2">
+<h2><a class="toc-backref" href="#id50">Defense</a><a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 14, touch 14, flat-footed 12 (+2 Dex, +2 size)
+<strong>hp</strong> 3 (1d8–1)
+<strong>Fort</strong> +1, <strong>Ref</strong> +4, <strong>Will</strong> +1</p>
+</div>
+<div class="section" id="id3">
+<h2><a class="toc-backref" href="#id51">Offense</a><a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 30 ft.
+<strong>Melee</strong> 2 claws +4 (1d2–4), bite +4 (1d3–4)
+<strong>Space</strong> 2-1/2 ft.; <strong>Reach</strong> 0 ft.</p>
+</div>
+<div class="section" id="id4">
+<h2><a class="toc-backref" href="#id52">Statistics</a><a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 3, <strong>Dex</strong> 15, <strong>Con</strong> 8, <strong>Int</strong> 2, <strong>Wis</strong> 12, <strong>Cha</strong> 7
+<strong>Base Atk</strong> +0; <strong>CMB</strong> +0; <strong>CMD</strong> 6 (10 vs. trip)
+<strong>Feats</strong> <a class="reference internal" href="corerulebook.feats.html#weapon finesse (combat)"><span class="std std-ref">Weapon Finesse</span></a>
+<strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> +6, <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> +5, <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> +14; <strong>Racial Modifiers</strong> +4 <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a>, +4 <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a></p>
+</div>
+<div class="section" id="id5">
+<h2><a class="toc-backref" href="#id53">Ecology</a><a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h2>
+<p><strong>Environment</strong> temperate and hot plains or urban
+<strong>Organization</strong> solitary, pair, or pack (3–12)
+<strong>Treasure</strong> none
+Cats typically weigh 5–15 pounds when fully grown.</p>
+</div>
+<div class="section" id="hawk">
+<span id="bestiary-familiar-hawk"></span><h2><a class="toc-backref" href="#id54">Hawk</a><a class="headerlink" href="#hawk" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 1/3</strong>
+<strong>XP 135</strong>
+N Tiny <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-animal"><span class="std std-ref">animal</span></a>
+<strong>Init</strong> +3; <strong>Senses</strong> low-light vision; <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> +14</p>
+</div>
+<div class="section" id="id6">
+<h2><a class="toc-backref" href="#id55">Defense</a><a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 15, touch 15, flat-footed 12 (+3 Dex, +2 size)
+<strong>hp</strong> 4 (1d8)
+<strong>Fort</strong> +2, <strong>Ref</strong> +5, <strong>Will</strong> +2</p>
+</div>
+<div class="section" id="id7">
+<h2><a class="toc-backref" href="#id56">Offense</a><a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 10 ft., fly 60 ft. (average)
+<strong>Melee</strong> 2 talons +5 (1d4–2)
+<strong>Space</strong> 2-1/2 ft.; <strong>Reach</strong> 0 ft.</p>
+</div>
+<div class="section" id="id8">
+<h2><a class="toc-backref" href="#id57">Statistics</a><a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 6, <strong>Dex</strong> 17, <strong>Con</strong> 11, <strong>Int</strong> 2, <strong>Wis</strong> 14, <strong>Cha</strong> 7
+<strong>Base</strong> <strong>Atk</strong> +0; <strong>CMB</strong> +1; <strong>CMD</strong>9
+<strong>Feats</strong> <a class="reference internal" href="corerulebook.feats.html#weapon finesse (combat)"><span class="std std-ref">Weapon Finesse</span></a>
+<strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.fly.html#corerulebook-skills-fly-fly"><span class="std std-ref">Fly</span></a> +7, <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> +14; <strong>Racial Modifier</strong> +8 <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a></p>
+</div>
+<div class="section" id="id9">
+<h2><a class="toc-backref" href="#id58">Ecology</a><a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h2>
+<p><strong>Environment</strong>temperate forests
+<strong>Organization</strong> solitary or pair
+<strong>Treasure</strong> none
+Falconers prize these majestic birds as trained hunting companions if raised from chicks and properly instructed.</p>
+</div>
+<div class="section" id="lizard">
+<span id="bestiary-familiar-lizard"></span><h2><a class="toc-backref" href="#id59">Lizard</a><a class="headerlink" href="#lizard" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 1/6</strong>
+<strong>XP 65</strong>
+N Tiny <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-animal"><span class="std std-ref">animal</span></a><strong>Init</strong> +2; <strong>Senses</strong> low-light vision; <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> +1</p>
+</div>
+<div class="section" id="id10">
+<h2><a class="toc-backref" href="#id60">Defense</a><a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 14, touch 14, flat-footed 12 (+2 Dex, +2 size)
+<strong>hp</strong> 3 (1d8–1)
+<strong>Fort</strong> +1, <strong>Ref</strong> +4, <strong>Will</strong> +1</p>
+</div>
+<div class="section" id="id11">
+<h2><a class="toc-backref" href="#id61">Offense</a><a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 20 ft., climb 20 ft.
+<strong>Melee</strong> bite +4 (1d4–4)
+<strong>Space</strong> 2-1/2 ft.; <strong>Reach</strong> 0 ft.</p>
+</div>
+<div class="section" id="id12">
+<h2><a class="toc-backref" href="#id62">Statistics</a><a class="headerlink" href="#id12" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 3, <strong>Dex</strong> 15, <strong>Con</strong> 8, <strong>Int</strong> 1, <strong>Wis</strong> 12, <strong>Cha</strong> 2
+<strong>Base Atk</strong> +0; <strong>CMB</strong> +0; <strong>CMD</strong> 6 (10 vs. trip)
+<strong>Feats</strong> <a class="reference internal" href="corerulebook.feats.html#weapon finesse (combat)"><span class="std std-ref">Weapon Finesse</span></a><strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a> +10, <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> +10, <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> +14; <strong>Racial Modifiers</strong> +8 <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a></p>
+</div>
+<div class="section" id="id13">
+<h2><a class="toc-backref" href="#id63">Ecology</a><a class="headerlink" href="#id13" title="Permalink to this headline">¶</a></h2>
+<p><strong>Environment</strong> any temperate or warm
+<strong>Organization</strong> solitary, pair, or nest (3–8)
+<strong>Treasure</strong> none
+Lizards can be found in any temperate or tropical climate. When confronted with predators, a lizard flees and hides.</p>
+</div>
+<div class="section" id="monkey">
+<span id="bestiary-familiar-monkey"></span><h2><a class="toc-backref" href="#id64">Monkey</a><a class="headerlink" href="#monkey" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 1/4</strong>
+<strong>XP 100</strong>
+N Tiny <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-animal"><span class="std std-ref">animal</span></a>
+<strong>Init</strong> +2; <strong>Senses</strong> low-light vision; <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> +5</p>
+</div>
+<div class="section" id="id14">
+<h2><a class="toc-backref" href="#id65">Defense</a><a class="headerlink" href="#id14" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong>14, touch 14, flat-footed 12 (+2 Dex, +2 size)
+<strong>hp</strong> 4 (1d8)
+<strong>Fort</strong> +2, <strong>Ref</strong> +4, <strong>Will</strong> +1</p>
+</div>
+<div class="section" id="id15">
+<h2><a class="toc-backref" href="#id66">Offense</a><a class="headerlink" href="#id15" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 30 ft., climb 30 ft.
+<strong>Melee</strong> bite +4 melee (1d3–4)
+<strong>Space</strong> 2-1/2 ft.; <strong>Reach</strong> 0 ft.</p>
+</div>
+<div class="section" id="id16">
+<h2><a class="toc-backref" href="#id67">Statistics</a><a class="headerlink" href="#id16" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 3, <strong>Dex</strong> 15, <strong>Con</strong> 10, <strong>Int</strong> 2, <strong>Wis</strong> 12, <strong>Cha</strong> 5
+<strong>Base Atk</strong> +0; <strong>CMB</strong> +0; <strong>CMD</strong> 6
+<strong>Feats</strong> <a class="reference internal" href="corerulebook.feats.html#weapon finesse (combat)"><span class="std std-ref">Weapon Finesse</span></a>
+<strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a> +10, <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> +10, <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> +5; <strong>Racial Modifiers</strong> +8 <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a></p>
+</div>
+<div class="section" id="id17">
+<h2><a class="toc-backref" href="#id68">Ecology</a><a class="headerlink" href="#id17" title="Permalink to this headline">¶</a></h2>
+<p><strong>Environment</strong> warm forests
+<strong>Organization</strong>solitary, pair, band (3–9), or troop (10–40)
+<strong>Treasure</strong> none
+Monkeys are highly social creatures. They spend the majority of their day searching for food.</p>
+</div>
+<div class="section" id="owl">
+<span id="bestiary-familiar-owl"></span><h2><a class="toc-backref" href="#id69">Owl</a><a class="headerlink" href="#owl" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 1/3</strong>
+<strong>XP 135</strong>
+N Tiny <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-animal"><span class="std std-ref">animal</span></a>
+<strong>Init</strong> +3; <strong>Senses</strong> low-light vision; <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> +10</p>
+</div>
+<div class="section" id="id18">
+<h2><a class="toc-backref" href="#id70">Defense</a><a class="headerlink" href="#id18" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 15, touch 15, flat-footed 12 (+3 Dex, +2 size)
+<strong>hp</strong> 4 (1d8)
+<strong>Fort</strong> +2, <strong>Ref</strong> +5, <strong>Will</strong> +2</p>
+</div>
+<div class="section" id="id19">
+<h2><a class="toc-backref" href="#id71">Offense</a><a class="headerlink" href="#id19" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 10 ft., fly 60 ft. (average)
+<strong>Melee</strong> 2 talons +5 (1d4–2)
+<strong>Space</strong> 2-1/2 ft.; <strong>Reach</strong> 0 ft.</p>
+</div>
+<div class="section" id="id20">
+<h2><a class="toc-backref" href="#id72">Statistics</a><a class="headerlink" href="#id20" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 6, <strong>Dex</strong> 17, <strong>Con</strong> 11, <strong>Int</strong> 2, <strong>Wis</strong> 15, <strong>Cha</strong> 6
+<strong>Base</strong> <strong>Atk</strong> +0; <strong>CMB</strong> +1; <strong>CMD</strong>9
+<strong>Feats</strong> <a class="reference internal" href="corerulebook.feats.html#weapon finesse (combat)"><span class="std std-ref">Weapon Finesse</span></a>
+<strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.fly.html#corerulebook-skills-fly-fly"><span class="std std-ref">Fly</span></a> +7, <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> +10, <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> +15; <strong>Racial Modifiers</strong> +4 <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a>, +4 <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a></p>
+</div>
+<div class="section" id="id21">
+<h2><a class="toc-backref" href="#id73">Ecology</a><a class="headerlink" href="#id21" title="Permalink to this headline">¶</a></h2>
+<p><strong>Environment</strong>temperate forests
+<strong>Organization</strong> solitary or pair
+<strong>Treasure</strong> none
+Owls are nocturnal, rodent-eating birds that make very little noise in flight.</p>
+</div>
+<div class="section" id="rat">
+<span id="bestiary-familiar-rat"></span><h2><a class="toc-backref" href="#id74">Rat</a><a class="headerlink" href="#rat" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 1/4</strong>
+<strong>XP 100</strong>
+N Tiny <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-animal"><span class="std std-ref">animal</span></a>
+<strong>Init</strong> +2; <strong>Senses</strong> low-light vision, <a class="reference internal" href="bestiary.universalmonsterrules.html#bestiary-universalmonsterrules-scent"><span class="std std-ref">scent</span></a>; <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> +1</p>
+</div>
+<div class="section" id="id22">
+<h2><a class="toc-backref" href="#id75">Defense</a><a class="headerlink" href="#id22" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 14, touch 14, flat-footed 12 (+2 Dex, +2 size)
+<strong>hp</strong> 4 (1d8)
+<strong>Fort</strong> +2, <strong>Ref</strong> +4, <strong>Will</strong> +1</p>
+</div>
+<div class="section" id="id23">
+<h2><a class="toc-backref" href="#id76">Offense</a><a class="headerlink" href="#id23" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 15 ft., climb 15 ft., swim 15 ft.
+<strong>Melee</strong> bite +4 (1d3–4)
+<strong>Space</strong> 2-1/2 ft.; <strong>Reach</strong> 0 ft.</p>
+</div>
+<div class="section" id="id24">
+<h2><a class="toc-backref" href="#id77">Statistics</a><a class="headerlink" href="#id24" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 2, <strong>Dex</strong> 15, <strong>Con</strong> 11, <strong>Int</strong> 2, <strong>Wis</strong> 13, <strong>Cha</strong> 2
+<strong>Base</strong> <strong>Atk</strong> +0; <strong>CMB</strong> +0; <strong>CMD</strong>6 (10 vs. trip)
+<strong>Feats</strong> <a class="reference internal" href="corerulebook.feats.html#weapon finesse (combat)"><span class="std std-ref">Weapon Finesse</span></a>
+<strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> +10, <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> +18, <a class="reference internal" href="corerulebook.skills.swim.html#corerulebook-skills-swim-swim"><span class="std std-ref">Swim</span></a> +10; <strong>Racial Modifiers</strong> +4 <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a></p>
+</div>
+<div class="section" id="id25">
+<h2><a class="toc-backref" href="#id78">Ecology</a><a class="headerlink" href="#id25" title="Permalink to this headline">¶</a></h2>
+<p><strong>Environment</strong>any temperate
+<strong>Organization</strong> solitary, pair, nest (3–12), or plague (13–100)
+<strong>Treasure</strong> none
+Fecund and secretive, rats are omnivorous rodents that particularly thrive in urban areas.</p>
+</div>
+<div class="section" id="raven">
+<span id="bestiary-familiar-raven"></span><h2><a class="toc-backref" href="#id79">Raven</a><a class="headerlink" href="#raven" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 1/6</strong>
+<strong>XP 65</strong>
+N Tiny <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-animal"><span class="std std-ref">animal</span></a>
+<strong>Init</strong> +2; <strong>Senses</strong> low-light vision; <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> +6</p>
+</div>
+<div class="section" id="id26">
+<h2><a class="toc-backref" href="#id80">Defense</a><a class="headerlink" href="#id26" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 14, touch 14, flat-footed 12 (+2 Dex, +2 size)
+<strong>hp</strong> 3 (1d8–1)
+<strong>Fort</strong> +1, <strong>Ref</strong> +4, <strong>Will</strong> +2</p>
+</div>
+<div class="section" id="id27">
+<h2><a class="toc-backref" href="#id81">Offense</a><a class="headerlink" href="#id27" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 10 ft., fly 40 ft. (average)
+<strong>Melee</strong> bite +4 (1d3–4)
+<strong>Space</strong> 2-1/2 ft.; <strong>Reach</strong> 0 ft.</p>
+</div>
+<div class="section" id="id28">
+<h2><a class="toc-backref" href="#id82">Statistics</a><a class="headerlink" href="#id28" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 2, <strong>Dex</strong> 15, <strong>Con</strong> 8, <strong>Int</strong> 2, <strong>Wis</strong> 15, <strong>Cha</strong> 7
+<strong>Base</strong> <strong>Atk</strong> +0; <strong>CMB</strong> +0; <strong>CMD</strong> 6
+<strong>Feats</strong> Skill Focus (Perception), <a class="reference internal" href="corerulebook.feats.html#weapon finesse (combat)"><span class="std std-ref">Weapon Finesse</span></a>
+<strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.fly.html#corerulebook-skills-fly-fly"><span class="std std-ref">Fly</span></a> +6, <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> +3</p>
+</div>
+<div class="section" id="id29">
+<h2><a class="toc-backref" href="#id83">Ecology</a><a class="headerlink" href="#id29" title="Permalink to this headline">¶</a></h2>
+<p><strong>Environment</strong> any temperate
+<strong>Organization</strong> solitary, pair, flock (3–12), or unkindness (13–100)
+<strong>Treasure</strong> none
+The raven is an omnivorous scavenger that eats carrion, insects, food waste, berries, and even small animals.</p>
+</div>
+<div class="section" id="toad">
+<span id="bestiary-familiar-toad"></span><h2><a class="toc-backref" href="#id84">Toad</a><a class="headerlink" href="#toad" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 1/8</strong>
+<strong>XP 50</strong>
+N Diminutive <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-animal"><span class="std std-ref">animal</span></a><strong>Init</strong> +1; <strong>Senses</strong> low-light vision, <a class="reference internal" href="bestiary.universalmonsterrules.html#bestiary-universalmonsterrules-scent"><span class="std std-ref">scent</span></a>; <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> +5</p>
+</div>
+<div class="section" id="id30">
+<h2><a class="toc-backref" href="#id85">Defense</a><a class="headerlink" href="#id30" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 15, touch 15, flat-footed 14 (+1 Dex, +4 size)
+<strong>hp</strong> 2 (1d8–2)
+<strong>Fort</strong> +0, <strong>Ref</strong> +3, <strong>Will</strong> +2</p>
+</div>
+<div class="section" id="id31">
+<h2><a class="toc-backref" href="#id86">Offense</a><a class="headerlink" href="#id31" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 5 ft.
+<strong>Space</strong> 1 ft.; <strong>Reach</strong> 0 ft.</p>
+</div>
+<div class="section" id="id32">
+<h2><a class="toc-backref" href="#id87">Statistics</a><a class="headerlink" href="#id32" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 1, <strong>Dex</strong> 12, <strong>Con</strong> 6, <strong>Int</strong> 1, <strong>Wis</strong> 15, <strong>Cha</strong> 4
+<strong>Base Atk</strong>+0; <strong>CMB</strong> –3; <strong>CMD</strong> 2 (6 vs. trip)
+<strong>Feats</strong> <a class="reference internal" href="corerulebook.feats.html#corerulebook-feats-skill-focus"><span class="std std-ref">Skill Focus</span></a> (<a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a>)
+<strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> +5, <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> +21; <strong>Racial Modifiers</strong> +4 <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a></p>
+</div>
+<div class="section" id="id33">
+<h2><a class="toc-backref" href="#id88">Ecology</a><a class="headerlink" href="#id33" title="Permalink to this headline">¶</a></h2>
+<p><strong>Environment</strong> temperate and warm forests
+<strong>Organization</strong> solitary, pair, or knot (3–100)
+<strong>Treasure</strong> none
+Toads are harmless, rough-skinned amphibians.</p>
+</div>
+<div class="section" id="viper">
+<span id="bestiary-familiar-viper"></span><h2><a class="toc-backref" href="#id89">Viper</a><a class="headerlink" href="#viper" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 1/2</strong>
+<strong>XP 200</strong>
+N Tiny <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-animal"><span class="std std-ref">animal</span></a><strong>Init</strong> +3; <strong>Senses</strong> low-light vision, <a class="reference internal" href="bestiary.universalmonsterrules.html#bestiary-universalmonsterrules-scent"><span class="std std-ref">scent</span></a>; <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> +9</p>
+</div>
+<div class="section" id="id34">
+<h2><a class="toc-backref" href="#id90">Defense</a><a class="headerlink" href="#id34" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 16, touch 15, flat-footed 13 (+3 Dex, +1 natural, +2 size)
+<strong>hp</strong> 3 (1d8–1)
+<strong>Fort</strong> +1, <strong>Ref</strong> +5, <strong>Will</strong> +1</p>
+</div>
+<div class="section" id="id35">
+<h2><a class="toc-backref" href="#id91">Offense</a><a class="headerlink" href="#id35" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 20 ft., climb 20 ft., swim 20 ft.
+<strong>Melee</strong> bite +5 (1d2–2 plus poison)
+<strong>Space</strong> 2-1/2 ft.; <strong>Reach</strong> 0 ft.</p>
+</div>
+<div class="section" id="id36">
+<h2><a class="toc-backref" href="#id92">Statistics</a><a class="headerlink" href="#id36" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 4, <strong>Dex</strong> 17, <strong>Con</strong> 8, <strong>Int</strong> 1, <strong>Wis</strong> 13, <strong>Cha</strong> 2
+<strong>Base Atk</strong>+0; <strong>CMB</strong> +1; <strong>CMD</strong> 8 (can’t be tripped)
+<strong>Feats</strong> <a class="reference internal" href="corerulebook.feats.html#weapon finesse (combat)"><span class="std std-ref">Weapon Finesse</span></a>
+<strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> +11, <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> +9, <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> +15, <a class="reference internal" href="corerulebook.skills.swim.html#corerulebook-skills-swim-swim"><span class="std std-ref">Swim</span></a> +11; <strong>Racial Modifiers</strong> +4 <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a>, +4 <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a></p>
+</div>
+<div class="section" id="id37">
+<h2><a class="toc-backref" href="#id93">Ecology</a><a class="headerlink" href="#id37" title="Permalink to this headline">¶</a></h2>
+<p><strong>Environment</strong> any temperate and warm
+<strong>Organization</strong> solitary
+<strong>Treasure</strong> none</p>
+</div>
+<div class="section" id="special-abilities">
+<span id="bestiary-familiar-special-abilities"></span><h2><a class="toc-backref" href="#id94">Special Abilities</a><a class="headerlink" href="#special-abilities" title="Permalink to this headline">¶</a></h2>
+<p><strong>Poison (Ex)</strong> Bite—injury; <em>save</em> Fort DC 9; <em>frequency</em> 1/round for 6 rounds; <em>effect</em> 1d2 Con; <em>cure</em> 1 save.
+Vipers are not particularly aggressive snakes, but their poisonous bite can be deadly.</p>
+</div>
+<div class="section" id="weasel">
+<span id="bestiary-familiar-weasel"></span><h2><a class="toc-backref" href="#id95">Weasel</a><a class="headerlink" href="#weasel" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 1/2</strong>
+<strong>XP 200</strong>
+N Tiny <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-animal"><span class="std std-ref">animal</span></a><strong>Init</strong> +2; <strong>Senses</strong> low-light vision, <a class="reference internal" href="bestiary.universalmonsterrules.html#bestiary-universalmonsterrules-scent"><span class="std std-ref">scent</span></a>; <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> +1</p>
+</div>
+<div class="section" id="id38">
+<h2><a class="toc-backref" href="#id96">Defense</a><a class="headerlink" href="#id38" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 15, touch 14, flat-footed 13 (+2 Dex, +1 natural, +2 size)
+<strong>hp</strong> 4 (1d8)
+<strong>Fort</strong> +2, <strong>Ref</strong> +4, <strong>Will</strong> +1</p>
+</div>
+<div class="section" id="id39">
+<h2><a class="toc-backref" href="#id97">Offense</a><a class="headerlink" href="#id39" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 20 ft., climb 20 ft.
+<strong>Melee</strong> bite +4 (1d3–4 plus attach)
+<strong>Space</strong> 2-1/2 ft.; <strong>Reach</strong> 0 ft.</p>
+</div>
+<div class="section" id="id40">
+<h2><a class="toc-backref" href="#id98">Statistics</a><a class="headerlink" href="#id40" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 3, <strong>Dex</strong> 15, <strong>Con</strong> 10, <strong>Int</strong> 2, <strong>Wis</strong> 12, <strong>Cha</strong> 5
+<strong>Base Atk</strong>+0; <strong>CMB</strong> +0; <strong>CMD</strong> 6 (10 vs. trip)
+<strong>Feats</strong> <a class="reference internal" href="corerulebook.feats.html#weapon finesse (combat)"><span class="std std-ref">Weapon Finesse</span></a>
+<strong>Skills</strong> <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a> +10, <a class="reference internal" href="corerulebook.skills.climb.html#corerulebook-skills-climb-climb"><span class="std std-ref">Climb</span></a> +10, <a class="reference internal" href="corerulebook.skills.escapeartist.html#corerulebook-skills-escapeartist-escape-artist"><span class="std std-ref">Escape Artist</span></a> +3, <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> +14; <strong>Racial Modifiers</strong> +4 <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a>, +8 <a class="reference internal" href="corerulebook.skills.acrobatics.html#corerulebook-skills-acrobatics-acrobatics"><span class="std std-ref">Acrobatics</span></a></p>
+</div>
+<div class="section" id="id41">
+<h2><a class="toc-backref" href="#id99">Ecology</a><a class="headerlink" href="#id41" title="Permalink to this headline">¶</a></h2>
+<p><strong>Environment</strong> temperate hills
+<strong>Organization</strong> solitary
+<strong>Treasure</strong> none</p>
+</div>
+<div class="section" id="id42">
+<h2><a class="toc-backref" href="#id100">Special Abilities</a><a class="headerlink" href="#id42" title="Permalink to this headline">¶</a></h2>
+<p><strong>Attach (Ex)</strong> When a weasel hits with a bite attack, it automatically grapples its foe, inflicting automatic bite damage each round.
+Weasels are predators content with raiding chicken coops or attacking pets when they encounter civilization.</p>
+</div>
+</div>
+
+</body>

@@ -1,0 +1,875 @@
+
+
+
+
+
+<head>
+    <link rel="stylesheet" href="_static/srd.css" type="text/css" />
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/toggle_list.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+
+
+
+<body>
+    <div class="contents topic" id="id1">
+<span id="advancedclassguide-spells-spelllists"></span><p class="topic-title first"></p>
+<ul class="simple">
+<li><a class="reference internal" href="#spell-lists" id="id24">Spell Lists</a><ul>
+<li><a class="reference internal" href="#alchemist-spells" id="id25">Alchemist Spells</a><ul>
+<li><a class="reference internal" href="#st-level-alchemist-spells" id="id26">1st-Level Alchemist Spells</a></li>
+<li><a class="reference internal" href="#nd-level-alchemist-spells" id="id27">2nd-Level Alchemist Spells</a></li>
+<li><a class="reference internal" href="#rd-level-alchemist-spells" id="id28">3rd-Level Alchemist Spells</a></li>
+<li><a class="reference internal" href="#th-level-alchemist-spells" id="id29">4th-Level Alchemist Spells</a></li>
+<li><a class="reference internal" href="#advancedclassguide-spells-spelllists-6th-level-alchemist-spells" id="id30">6th-Level Alchemist Spells</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#antipaladin-spells" id="id31">Antipaladin Spells</a><ul>
+<li><a class="reference internal" href="#st-level-antipaladin-spells" id="id32">1st-Level Antipaladin Spells</a></li>
+<li><a class="reference internal" href="#nd-level-antipaladin-spells" id="id33">2nd-Level Antipaladin Spells</a></li>
+<li><a class="reference internal" href="#rd-level-antipaladin-spells" id="id34">3rd-Level Antipaladin Spells</a></li>
+<li><a class="reference internal" href="#th-level-antipaladin-spells" id="id35">4th-Level Antipaladin Spells</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#bard-spells" id="id36">Bard Spells</a><ul>
+<li><a class="reference internal" href="#st-level-bard-spells" id="id37">1st-Level Bard Spells</a></li>
+<li><a class="reference internal" href="#nd-level-bard-spells" id="id38">2nd-Level Bard Spells</a></li>
+<li><a class="reference internal" href="#rd-level-bard-spells" id="id39">3rd-Level Bard Spells</a></li>
+<li><a class="reference internal" href="#th-level-bard-spells" id="id40">4th-Level Bard Spells</a></li>
+<li><a class="reference internal" href="#advancedclassguide-spells-spelllists-5th-level-bard-spells" id="id41">5th-Level Bard Spells</a></li>
+<li><a class="reference internal" href="#advancedclassguide-spells-spelllists-6th-level-bard-spells" id="id42">6th-Level Bard Spells</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#bloodrager-spells" id="id43">Bloodrager Spells</a><ul>
+<li><a class="reference internal" href="#st-level-bloodrager-spells" id="id44">1st-Level Bloodrager Spells</a></li>
+<li><a class="reference internal" href="#nd-level-bloodrager-spells" id="id45">2nd-Level Bloodrager Spells</a></li>
+<li><a class="reference internal" href="#rd-level-bloodrager-spells" id="id46">3rd-Level Bloodrager Spells</a></li>
+<li><a class="reference internal" href="#th-level-bloodrager-spells" id="id47">4th-Level Bloodrager Spells</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#cleric-spells" id="id48">Cleric Spells</a><ul>
+<li><a class="reference internal" href="#st-level-cleric-spells" id="id49">1st-Level Cleric Spells</a></li>
+<li><a class="reference internal" href="#nd-level-cleric-spells" id="id50">2nd-Level Cleric Spells</a></li>
+<li><a class="reference internal" href="#rd-level-cleric-spells" id="id51">3rd-Level Cleric Spells</a></li>
+<li><a class="reference internal" href="#th-level-cleric-spells" id="id52">4th-Level Cleric Spells</a></li>
+<li><a class="reference internal" href="#advancedclassguide-spells-spelllists-5th-level-cleric-spells" id="id53">5th-Level Cleric Spells</a></li>
+<li><a class="reference internal" href="#advancedclassguide-spells-spelllists-6th-level-cleric-spells" id="id54">6th-Level Cleric Spells</a></li>
+<li><a class="reference internal" href="#advancedclassguide-spells-spelllists-8th-level-cleric-spells" id="id55">8th-Level Cleric Spells</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#druid-spells" id="id56">Druid Spells</a><ul>
+<li><a class="reference internal" href="#st-level-druid-spells" id="id57">1st-Level Druid Spells</a></li>
+<li><a class="reference internal" href="#nd-level-druid-spells" id="id58">2nd-Level Druid Spells</a></li>
+<li><a class="reference internal" href="#rd-level-druid-spells" id="id59">3rd-Level Druid Spells</a></li>
+<li><a class="reference internal" href="#th-level-druid-spells" id="id60">4th-Level Druid Spells</a></li>
+<li><a class="reference internal" href="#advancedclassguide-spells-spelllists-5th-level-druid-spells" id="id61">5th-Level Druid Spells</a></li>
+<li><a class="reference internal" href="#advancedclassguide-spells-spelllists-6th-level-druid-spells" id="id62">6th-Level Druid Spells</a></li>
+<li><a class="reference internal" href="#advancedclassguide-spells-spelllists-7th-level-druid-spells" id="id63">7th-Level Druid Spells</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#inquisitor-spells" id="id64">Inquisitor Spells</a><ul>
+<li><a class="reference internal" href="#st-level-inquisitor-spells" id="id65">1st-Level Inquisitor Spells</a></li>
+<li><a class="reference internal" href="#nd-level-inquisitor-spells" id="id66">2nd-Level Inquisitor Spells</a></li>
+<li><a class="reference internal" href="#rd-level-inquisitor-spells" id="id67">3rd-Level Inquisitor Spells</a></li>
+<li><a class="reference internal" href="#th-level-inquisitor-spells" id="id68">4th-Level Inquisitor Spells</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#magus-spells" id="id69">Magus Spells</a><ul>
+<li><a class="reference internal" href="#st-level-magus-spells" id="id70">1st-Level Magus Spells</a></li>
+<li><a class="reference internal" href="#nd-level-magus-spells" id="id71">2nd-Level Magus Spells</a></li>
+<li><a class="reference internal" href="#rd-level-magus-spells" id="id72">3rd-Level Magus Spells</a></li>
+<li><a class="reference internal" href="#th-level-magus-spells" id="id73">4th-Level Magus Spells</a></li>
+<li><a class="reference internal" href="#advancedclassguide-spells-spelllists-5th-level-magus-spells" id="id74">5th-Level Magus Spells</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#paladin-spells" id="id75">Paladin Spells</a><ul>
+<li><a class="reference internal" href="#st-level-paladin-spells" id="id76">1st-Level Paladin Spells</a></li>
+<li><a class="reference internal" href="#nd-level-paladin-spells" id="id77">2nd-Level Paladin Spells</a></li>
+<li><a class="reference internal" href="#rd-level-paladin-spells" id="id78">3rd-Level Paladin Spells</a></li>
+<li><a class="reference internal" href="#th-level-paladin-spells" id="id79">4th-Level Paladin Spells</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#ranger-spells" id="id80">Ranger Spells</a><ul>
+<li><a class="reference internal" href="#st-level-ranger-spells" id="id81">1st-Level Ranger Spells</a></li>
+<li><a class="reference internal" href="#nd-level-ranger-spells" id="id82">2nd-Level Ranger Spells</a></li>
+<li><a class="reference internal" href="#rd-level-ranger-spells" id="id83">3rd-Level Ranger Spells</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#shaman-spells" id="id84">Shaman Spells</a><ul>
+<li><a class="reference internal" href="#st-level-shaman-spells" id="id85">1st-Level Shaman Spells</a></li>
+<li><a class="reference internal" href="#nd-level-shaman-spells" id="id86">2nd-Level Shaman Spells</a></li>
+<li><a class="reference internal" href="#rd-level-shaman-spells" id="id87">3rd-Level Shaman Spells</a></li>
+<li><a class="reference internal" href="#th-level-shaman-spells" id="id88">4th-Level Shaman Spells</a></li>
+<li><a class="reference internal" href="#advancedclassguide-spells-spelllists-5th-level-shaman-spells" id="id89">5th-Level Shaman Spells</a></li>
+<li><a class="reference internal" href="#advancedclassguide-spells-spelllists-7th-level-shaman-spells" id="id90">7th-Level Shaman Spells</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#sorcerer-wizard-spells" id="id91">Sorcerer/Wizard Spells</a><ul>
+<li><a class="reference internal" href="#st-level-sorcerer-wizard-spells" id="id92">1st-Level Sorcerer/Wizard Spells</a></li>
+<li><a class="reference internal" href="#nd-level-sorcerer-wizard-spells" id="id93">2nd-Level Sorcerer/Wizard Spells</a></li>
+<li><a class="reference internal" href="#rd-level-sorcerer-wizard-spells" id="id94">3rd-Level Sorcerer/Wizard Spells</a></li>
+<li><a class="reference internal" href="#th-level-sorcerer-wizard-spells" id="id95">4th-Level Sorcerer/Wizard Spells</a></li>
+<li><a class="reference internal" href="#advancedclassguide-spells-spelllists-5th-level-sorcerer-wizard-spells" id="id96">5th-Level Sorcerer/Wizard Spells</a></li>
+<li><a class="reference internal" href="#advancedclassguide-spells-spelllists-6th-level-sorcerer-wizard-spells" id="id97">6th-Level Sorcerer/Wizard Spells</a></li>
+<li><a class="reference internal" href="#advancedclassguide-spells-spelllists-7th-level-sorcerer-wizard-spells" id="id98">7th-Level Sorcerer/Wizard Spells</a></li>
+<li><a class="reference internal" href="#advancedclassguide-spells-spelllists-8th-level-sorcerer-wizard-spells" id="id99">8th-Level Sorcerer/Wizard Spells</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#summoner-spells" id="id100">Summoner Spells</a><ul>
+<li><a class="reference internal" href="#st-level-summoner-spells" id="id101">1st-Level Summoner Spells</a></li>
+<li><a class="reference internal" href="#nd-level-summoner-spells" id="id102">2nd-Level Summoner Spells</a></li>
+<li><a class="reference internal" href="#rd-level-summoner-spells" id="id103">3rd-Level Summoner Spells</a></li>
+<li><a class="reference internal" href="#th-level-summoner-spells" id="id104">4th-Level Summoner Spells</a></li>
+<li><a class="reference internal" href="#advancedclassguide-spells-spelllists-5th-level-summoner-spells" id="id105">5th-Level Summoner Spells</a></li>
+<li><a class="reference internal" href="#advancedclassguide-spells-spelllists-6th-level-summoner-spells" id="id106">6th-Level Summoner Spells</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#witch-spells" id="id107">Witch Spells</a><ul>
+<li><a class="reference internal" href="#st-level-witch-spells" id="id108">1st-Level Witch Spells</a></li>
+<li><a class="reference internal" href="#nd-level-witch-spells" id="id109">2nd-Level Witch Spells</a></li>
+<li><a class="reference internal" href="#rd-level-witch-spells" id="id110">3rd-Level Witch Spells</a></li>
+<li><a class="reference internal" href="#th-level-witch-spells" id="id111">4th-Level Witch Spells</a></li>
+<li><a class="reference internal" href="#advancedclassguide-spells-spelllists-5th-level-witch-spells" id="id112">5th-Level Witch Spells</a></li>
+<li><a class="reference internal" href="#advancedclassguide-spells-spelllists-6th-level-witch-spells" id="id113">6th-Level Witch Spells</a></li>
+<li><a class="reference internal" href="#advancedclassguide-spells-spelllists-7th-level-witch-spells" id="id114">7th-Level Witch Spells</a></li>
+<li><a class="reference internal" href="#advancedclassguide-spells-spelllists-8th-level-witch-spells" id="id115">8th-Level Witch Spells</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="spell-lists">
+<span id="advancedclassguide-spells-spelllists-spell-lists"></span><h1><a class="toc-backref" href="#id24">Spell Lists</a><a class="headerlink" href="#spell-lists" title="Permalink to this headline">¶</a></h1>
+<p>The following lists summarize the new spells presented in this book, arranged by class and level. A superscript “F” or “M” appearing at the end of a spell’s name in the spell lists denotes a focus or material component not normally included in a spell component pouch.</p>
+<p><strong>Order of Presentation</strong>: These lists present the spells in alphabetical order by name, except when a spell’s name begins with “communal,” “lesser,” “greater,” or “mass,” in which case it is alphabetized under the second word of the spell name.</p>
+<p><strong>Hit Dice</strong>: The term “Hit Dice” is used synonymously with “character levels” for effects that affect a specific number of Hit Dice of creatures.</p>
+<p><strong>Caster Level</strong>: A spell’s power often depends on caster level, which is defined as the caster’s class level for the purpose of casting a particular spell. The word “level” in the short spell descriptions that follow always refers to caster level.</p>
+<p><strong>Creatures and Characters</strong>: “Creature” and “character” are used synonymously in the short descriptions.</p>
+<p><strong>Communal Spells</strong>: Communal spells function like other spells, except they allow you to divide the duration among multiple targets, treating each target as a subject of the spell. When you divide the duration, you must divide it as evenly as possible among the targets. Furthermore, unless a communal spell’s description indicates otherwise, no target can receive a duration increment smaller than the smallest increment of duration given in the spell description. For example, if you are 5th level, your communal spell’s duration is 10 minutes per level, and you have four targets, then each target must receive 10 minutes of duration. The extra 10 minutes of duration must be assigned to one of the four targets (your choice) or it is wasted.</p>
+<p><strong>A Note on Alchemists</strong>: Alchemists can dispense communal formulae to creatures only if they have the infusion discovery. Without it, an alchemist cannot use communal spells as formulae.</p>
+<div class="section" id="alchemist-spells">
+<span id="advancedclassguide-spells-spelllists-alchemist-spells"></span><h2><a class="toc-backref" href="#id25">Alchemist Spells</a><a class="headerlink" href="#alchemist-spells" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="st-level-alchemist-spells">
+<span id="advancedclassguide-spells-spelllists-1st-level-alchemist-spells"></span><h3><a class="toc-backref" href="#id26">1st-Level Alchemist Spells</a><a class="headerlink" href="#st-level-alchemist-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.adhesivespittle.html#advancedclassguide-spells-adhesivespittle"><span class="std std-ref">Adhesive Spittle</span></a>: Spit a tanglefoot bag at a creature.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.blurredmovement.html#advancedclassguide-spells-blurredmovement"><span class="std std-ref">Blurred Movement</span></a>: As <a class="reference internal" href="corerulebook.spells.blur.html#corerulebook-spells-blur-blur"><span class="std std-ref">blur</span></a>, but only while you are moving.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.bodycapacitance.html#advancedclassguide-spells-bodycapacitance"><span class="std std-ref">Body Capacitance</span></a>: Store electricity attacks used against you and release the energy as a touch attack.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.heightenedawareness.html#advancedclassguide-spells-heightenedawareness"><span class="std std-ref">Heightened Awareness</span></a>: Your recall and ability to process information improve.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.invisibilityalarm.html#advancedclassguide-spells-invisibilityalarm"><span class="std std-ref">Invisibility Alarm</span></a>: As <a class="reference internal" href="corerulebook.spells.alarm.html#corerulebook-spells-alarm-alarm"><span class="std std-ref">alarm</span></a>, but reacting only to invisible creatures.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.longarm.html#advancedclassguide-spells-longarm"><span class="std std-ref">Long Arm</span></a>: Your arms lengthen, giving you extra reach.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.monkeyfish.html#advancedclassguide-spells-monkeyfish"><span class="std std-ref">Monkey Fish</span></a>: Gain a climb speed and a swim speed of 10 ft. for a time.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.phantomblood.html#advancedclassguide-spells-phantomblood"><span class="std std-ref">Phantom Blood</span></a>: Gain temporary hp if Con loss would knock you out or kill you.</p>
+</div>
+<div class="section" id="nd-level-alchemist-spells">
+<span id="advancedclassguide-spells-spelllists-2nd-level-alchemist-spells"></span><h3><a class="toc-backref" href="#id27">2nd-Level Alchemist Spells</a><a class="headerlink" href="#nd-level-alchemist-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.adhesiveblood.html#advancedclassguide-spells-adhesiveblood"><span class="std std-ref">Adhesive Blood</span></a>: Attackers’ weapons stick to your gluey blood.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.airstep.html#advancedclassguide-spells-airstep"><span class="std std-ref">Air Step</span></a>: Tread unsteadily on air, with limitations.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.bloodarmor.html#advancedclassguide-spells-bloodarmor"><span class="std std-ref">Blood Armor</span></a>: Your blood hardens when you are wounded, increasing your AC.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.extremeflexibility.html#advancedclassguide-spells-extremeflexibility"><span class="std std-ref">Extreme Flexibility</span></a>: Gain a bonus to AC, on <a class="reference internal" href="corerulebook.skills.escapeartist.html#corerulebook-skills-escapeartist-escape-artist"><span class="std std-ref">Escape Artist</span></a> checks, and when grappling.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.focusedscrutiny.html#advancedclassguide-spells-focusedscrutiny"><span class="std std-ref">Focused Scrutiny</span></a>: Gain skill bonuses when interacting with the target.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.investigativemind.html#advancedclassguide-spells-investigativemind"><span class="std std-ref">Investigative Mind</span></a>: Roll twice and take the higher roll when using certain mental skills.</p>
+</div>
+<div class="section" id="rd-level-alchemist-spells">
+<span id="advancedclassguide-spells-spelllists-3rd-level-alchemist-spells"></span><h3><a class="toc-backref" href="#id28">3rd-Level Alchemist Spells</a><a class="headerlink" href="#rd-level-alchemist-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.adjustabledisguise.html#advancedclassguide-spells-adjustabledisguise"><span class="std std-ref">Adjustable Disguise</span></a>: As <a class="reference internal" href="corerulebook.spells.disguiseself.html#corerulebook-spells-disguiseself-disguise-self"><span class="std std-ref">disguise self</span></a>, but you can change the disguise as a swift action.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.anchoredstep.html#advancedclassguide-spells-anchoredstep"><span class="std std-ref">Anchored Step</span></a>: Vines beneath your feet stabilize you but slow you down.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.aurasight.html#advancedclassguide-spells-aurasight"><span class="std std-ref">Aura Sight</span></a>: Alignment auras become visible to you.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.bloodsentinel.html#advancedclassguide-spells-bloodsentinel"><span class="std std-ref">Blood Sentinel</span></a><sup>M</sup>: Animate an animal sculpture to be your temporary familiar.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.disableconstruct.html#advancedclassguide-spells-disableconstruct"><span class="std std-ref">Disable Construct</span></a>: Touch attack makes a construct helpless for 1 round/level.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.nauseatingtrail.html#advancedclassguide-spells-nauseatingtrail"><span class="std std-ref">Nauseating Trail</span></a>&gt;: Creature leaves a trail of stinking cloud squares.</p>
+</div>
+<div class="section" id="th-level-alchemist-spells">
+<span id="advancedclassguide-spells-spelllists-4th-level-alchemist-spells"></span><h3><a class="toc-backref" href="#id29">4th-Level Alchemist Spells</a><a class="headerlink" href="#th-level-alchemist-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.adjustablepolymorph.html#advancedclassguide-spells-adjustablepolymorph"><span class="std std-ref">Adjustable Polymorph</span></a>: As <a class="reference internal" href="corerulebook.spells.alterself.html#corerulebook-spells-alterself-alter-self"><span class="std std-ref">alter self</span></a>, but you can change the shape as a swift action.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.enchantmentfoil.html#advancedclassguide-spells-enchantmentfoil"><span class="std std-ref">Enchantment Foil</span></a>: Trick opponents who try to cast enchantments on you.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.eyesofthevoid.html#advancedclassguide-spells-eyesofthevoid"><span class="std std-ref">Eyes of the Void</span></a>: See 60 ft. in darkness, including magical darkness.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.persistentvigor.html#advancedclassguide-spells-persistentvigor"><span class="std std-ref">Persistent Vigor</span></a>: Gain fast healing 2, immunity to bleed, and faster recovery from diseases and poisons.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.unbearablebrightness.html#advancedclassguide-spells-unbearablebrightness"><span class="std std-ref">Unbearable Brightness</span></a>: Your glowing body dazzles or blinds others.</p>
+</div>
+<div class="section" id="advancedclassguide-spells-spelllists-6th-level-alchemist-spells">
+<span id="id2"></span><h3><a class="toc-backref" href="#id30">6th-Level Alchemist Spells</a><a class="headerlink" href="#advancedclassguide-spells-spelllists-6th-level-alchemist-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.sonicform.html#advancedclassguide-spells-sonicform"><span class="std std-ref">Sonic Form</span></a>: Turn yourself into a creature of semisolid sound.</p>
+</div>
+</div>
+<div class="section" id="antipaladin-spells">
+<span id="advancedclassguide-spells-spelllists-antipaladin-spells"></span><h2><a class="toc-backref" href="#id31">Antipaladin Spells</a><a class="headerlink" href="#antipaladin-spells" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="st-level-antipaladin-spells">
+<span id="advancedclassguide-spells-spelllists-1st-level-antipaladin-spells"></span><h3><a class="toc-backref" href="#id32">1st-Level Antipaladin Spells</a><a class="headerlink" href="#st-level-antipaladin-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.animalpurposetraining.html#advancedclassguide-spells-animalpurposetraining"><span class="std std-ref">Animal Purpose Training</span></a>: Animal gains a new general purpose</p>
+</div>
+<div class="section" id="nd-level-antipaladin-spells">
+<span id="advancedclassguide-spells-spelllists-2nd-level-antipaladin-spells"></span><h3><a class="toc-backref" href="#id33">2nd-Level Antipaladin Spells</a><a class="headerlink" href="#nd-level-antipaladin-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.bulletward.html#advancedclassguide-spells-bulletward"><span class="std std-ref">Bullet Ward</span></a><sup>F</sup>: Adamantine bullets intercept firearm attacks.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.widenauras.html#advancedclassguide-spells-widenauras"><span class="std std-ref">Widen Auras</span></a>: Increase the range of auras bestowed by your class.</p>
+</div>
+<div class="section" id="rd-level-antipaladin-spells">
+<span id="advancedclassguide-spells-spelllists-3rd-level-antipaladin-spells"></span><h3><a class="toc-backref" href="#id34">3rd-Level Antipaladin Spells</a><a class="headerlink" href="#rd-level-antipaladin-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.adjustabledisguise.html#advancedclassguide-spells-adjustabledisguise"><span class="std std-ref">Adjustable Disguise</span></a>: As <a class="reference internal" href="corerulebook.spells.disguiseself.html#corerulebook-spells-disguiseself-disguise-self"><span class="std std-ref">disguise self</span></a>, but you can change the disguise as a swift action.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.bestowauras.html#advancedclassguide-spells-bestowauras"><span class="std std-ref">Bestow Auras</span></a>: Transfer your paladin or antipaladin auras to another creature.</p>
+</div>
+<div class="section" id="th-level-antipaladin-spells">
+<span id="advancedclassguide-spells-spelllists-4th-level-antipaladin-spells"></span><h3><a class="toc-backref" href="#id35">4th-Level Antipaladin Spells</a><a class="headerlink" href="#th-level-antipaladin-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.bloatbomb.html#advancedclassguide-spells-bloatbomb"><span class="std std-ref">Bloatbomb</span></a>: Kill a weak creature and turn its corpse into an explosive trap.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.eyesofthevoid.html#advancedclassguide-spells-eyesofthevoid"><span class="std std-ref">Eyes of the Void</span></a>: See 60 ft. in darkness, including magical darkness.</p>
+</div>
+</div>
+<div class="section" id="bard-spells">
+<span id="advancedclassguide-spells-spelllists-bard-spells"></span><h2><a class="toc-backref" href="#id36">Bard Spells</a><a class="headerlink" href="#bard-spells" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="st-level-bard-spells">
+<span id="advancedclassguide-spells-spelllists-1st-level-bard-spells"></span><h3><a class="toc-backref" href="#id37">1st-Level Bard Spells</a><a class="headerlink" href="#st-level-bard-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.altermusicalinstrument.html#advancedclassguide-spells-altermusicalinstrument"><span class="std std-ref">Alter Musical Instrument</span></a>&gt;<sup>F</sup>: Make one instrument sound like a different kind of instrument.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.blurredmovement.html#advancedclassguide-spells-blurredmovement"><span class="std std-ref">Blurred Movement</span></a>: As <a class="reference internal" href="corerulebook.spells.blur.html#corerulebook-spells-blur-blur"><span class="std std-ref">blur</span></a>, but only while you are moving.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.discernnextofkin.html#advancedclassguide-spells-discernnextofkin"><span class="std std-ref">Discern Next of Kin</span></a>: Read the target’s mind to learn about its family.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.disguiseweapon.html#advancedclassguide-spells-disguiseweapon"><span class="std std-ref">Disguise Weapon</span></a>: Changes one weapon’s appearance.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.glueseal.html#advancedclassguide-spells-glueseal"><span class="std std-ref">Glue Seal</span></a>: Makes one 5-ft. square or one object sticky.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.heightenedawareness.html#advancedclassguide-spells-heightenedawareness"><span class="std std-ref">Heightened Awareness</span></a>: Your recall and ability to process information improve.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.invisibilityalarm.html#advancedclassguide-spells-invisibilityalarm"><span class="std std-ref">Invisibility Alarm</span></a>: As <a class="reference internal" href="corerulebook.spells.alarm.html#corerulebook-spells-alarm-alarm"><span class="std std-ref">alarm</span></a>, but reacting only to invisible creatures.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.memorizepage.html#advancedclassguide-spells-memorizepage"><span class="std std-ref">Memorize Page</span></a><sup>F</sup>: Target perfectly memorizes one page of information.</p>
+</div>
+<div class="section" id="nd-level-bard-spells">
+<span id="advancedclassguide-spells-spelllists-2nd-level-bard-spells"></span><h3><a class="toc-backref" href="#id38">2nd-Level Bard Spells</a><a class="headerlink" href="#nd-level-bard-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.airstep.html#advancedclassguide-spells-airstep"><span class="std std-ref">Air Step</span></a>: Tread unsteadily on air, with limitations.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.animalpurposetraining.html#advancedclassguide-spells-animalpurposetraining"><span class="std std-ref">Animal Purpose Training</span></a>: Animal gains a new general purpose.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.anonymousinteraction.html#advancedclassguide-spells-anonymousinteraction"><span class="std std-ref">Anonymous Interaction</span></a>: Creatures forget details about you and conversations with you.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.bulletward.html#advancedclassguide-spells-bulletward"><span class="std std-ref">Bullet Ward</span></a><sup>M</sup>: Adamantine bullets intercept firearm attacks.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.buoyancy.html#advancedclassguide-spells-buoyancy"><span class="std std-ref">Buoyancy</span></a>: Targets easily float on water.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.focusedscrutiny.html#advancedclassguide-spells-focusedscrutiny"><span class="std std-ref">Focused Scrutiny</span></a>: Gain skill bonuses when interacting with the target.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.heightenedreflexes.html#advancedclassguide-spells-heightenedreflexes"><span class="std std-ref">Heightened Reflexes</span></a>: Each ally in area gains a +10 bonus on one Reflex save.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.investigativemind.html#advancedclassguide-spells-investigativemind"><span class="std std-ref">Investigative Mind</span></a>: Roll twice and take the higher roll when using certain mental skills.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.marchingchant.html#advancedclassguide-spells-marchingchant"><span class="std std-ref">Marching Chant</span></a>: Allies can hustle without penalty while you sing or chant.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.mindlockedmessenger.html#advancedclassguide-spells-mindlockedmessenger"><span class="std std-ref">Mindlocked Messenger</span></a>: Target gains a message that can be given only to its intended recipient.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.mufflesound.html#advancedclassguide-spells-mufflesound"><span class="std std-ref">Muffle Sound</span></a>: Allies gain a bonus on <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> checks but risk verbal spell failure.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.pathofglory.html#advancedclassguide-spells-pathofglory"><span class="std std-ref">Path of Glory</span></a>: Create an expanding glow that heals allies within it of 1 hp of damage.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.silenttable.html#advancedclassguide-spells-silenttable"><span class="std std-ref">Silent Table</span></a>: Give yourself privacy by muffling sound leaving the area.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.sonicscream.html#advancedclassguide-spells-sonicscream"><span class="std std-ref">Sonic Scream</span></a>: Create a cone of damaging sound at will.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.whipofspiders.html#advancedclassguide-spells-whipofspiders"><span class="std std-ref">Whip of Spiders</span></a>: Create a whip made of poisonous spiders.</p>
+</div>
+<div class="section" id="rd-level-bard-spells">
+<span id="advancedclassguide-spells-spelllists-3rd-level-bard-spells"></span><h3><a class="toc-backref" href="#id39">3rd-Level Bard Spells</a><a class="headerlink" href="#rd-level-bard-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.adjustabledisguise.html#advancedclassguide-spells-adjustabledisguise"><span class="std std-ref">Adjustable Disguise</span></a>: As <a class="reference internal" href="corerulebook.spells.disguiseself.html#corerulebook-spells-disguiseself-disguise-self"><span class="std std-ref">disguise self</span></a>, but you can change the disguise as a swift action.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.contingentaction.html#advancedclassguide-spells-contingentaction"><span class="std std-ref">Contingent Action</span></a>: Set the condition for triggering a target’s readied standard, move, or swift action.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.flexiblefury.html#advancedclassguide-spells-flexiblefury"><span class="std std-ref">Flexible Fury</span></a>: Swap one rage power for another.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.piercedisguise.html#advancedclassguide-spells-piercedisguise"><span class="std std-ref">Pierce Disguise</span></a>: See through low-level magical disguises.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.triggeredsuggestion.html#advancedclassguide-spells-triggeredsuggestion"><span class="std std-ref">Triggered Suggestion</span></a>: As <a class="reference internal" href="corerulebook.spells.suggestion.html#corerulebook-spells-suggestion-suggestion"><span class="std std-ref">suggestion</span></a>, but triggered only and target doesn’t remember the suggestion.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.wallofnausea.html#advancedclassguide-spells-wallofnausea"><span class="std std-ref">Wall of Nausea</span></a>: Creatures that pass through the wall are nauseated and might fall prone.</p>
+</div>
+<div class="section" id="th-level-bard-spells">
+<span id="advancedclassguide-spells-spelllists-4th-level-bard-spells"></span><h3><a class="toc-backref" href="#id40">4th-Level Bard Spells</a><a class="headerlink" href="#th-level-bard-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.adjustablepolymorph.html#advancedclassguide-spells-adjustablepolymorph"><span class="std std-ref">Adjustable Polymorph</span></a>: As <a class="reference internal" href="corerulebook.spells.alterself.html#corerulebook-spells-alterself-alter-self"><span class="std std-ref">alter self</span></a>, but you can change the shape as a swift action.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.contingentscroll.html#advancedclassguide-spells-contingentscroll"><span class="std std-ref">Contingent Scroll</span></a><sup>F, M</sup>: Transfer a scroll’s power to the target; the scroll is then triggered as <a class="reference internal" href="corerulebook.spells.contingency.html#corerulebook-spells-contingency-contingency"><span class="std std-ref">contingency</span></a>.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.feastonfear.html#advancedclassguide-spells-feastonfear"><span class="std std-ref">Feast on Fear</span></a>: Targets are panicked, and you gain temporary hit points.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.pathofglory.html#advancedclassguide-spells-pathofglory"><span class="std std-ref">Path of Glory, Greater</span></a>: Create an expanding glow that heals allies within it of 5 hp of damage.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.wallofblindnessdeafness.html#advancedclassguide-spells-wallofblindnessdeafness"><span class="std std-ref">Wall of Blindness/Deafness</span></a>: Translucent wall blinds or deafens creatures that pass through it.</p>
+</div>
+<div class="section" id="advancedclassguide-spells-spelllists-5th-level-bard-spells">
+<span id="id3"></span><h3><a class="toc-backref" href="#id41">5th-Level Bard Spells</a><a class="headerlink" href="#advancedclassguide-spells-spelllists-5th-level-bard-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.whipofcentipedes.html#advancedclassguide-spells-whipofcentipedes"><span class="std std-ref">Whip of Centipedes</span></a>: Create a whip made of poisonous centipedes.</p>
+</div>
+<div class="section" id="advancedclassguide-spells-spelllists-6th-level-bard-spells">
+<span id="id4"></span><h3><a class="toc-backref" href="#id42">6th-Level Bard Spells</a><a class="headerlink" href="#advancedclassguide-spells-spelllists-6th-level-bard-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.magnifyingchime.html#advancedclassguide-spells-magnifyingchime"><span class="std std-ref">Magnifying Chime</span></a>: Touched object deals increasing sonic damage each round.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.sonicform.html#advancedclassguide-spells-sonicform"><span class="std std-ref">Sonic Form</span></a>: Turn yourself into a creature of semisolid sound.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.whipofants.html#advancedclassguide-spells-whipofants"><span class="std std-ref">Whip of Ants</span></a>: Create a whip made of army ants.</p>
+</div>
+</div>
+<div class="section" id="bloodrager-spells">
+<span id="advancedclassguide-spells-spelllists-bloodrager-spells"></span><h2><a class="toc-backref" href="#id43">Bloodrager Spells</a><a class="headerlink" href="#bloodrager-spells" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="st-level-bloodrager-spells">
+<span id="advancedclassguide-spells-spelllists-1st-level-bloodrager-spells"></span><h3><a class="toc-backref" href="#id44">1st-Level Bloodrager Spells</a><a class="headerlink" href="#st-level-bloodrager-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.bladelash.html#advancedclassguide-spells-bladelash"><span class="std std-ref">Blade Lash</span></a>: Use your weapon like a whip to trip an opponent.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.blurredmovement.html#advancedclassguide-spells-blurredmovement"><span class="std std-ref">Blurred Movement</span></a>: As <a class="reference internal" href="corerulebook.spells.blur.html#corerulebook-spells-blur-blur"><span class="std std-ref">blur</span></a>, but only while you are moving.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.lineinthesand.html#advancedclassguide-spells-lineinthesand"><span class="std std-ref">Line in the Sand</span></a>: Increase your attacks of opportunity per round.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.longarm.html#advancedclassguide-spells-longarm"><span class="std std-ref">Long Arm</span></a>: Your arms lengthen, giving you extra reach.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.phantomblood.html#advancedclassguide-spells-phantomblood"><span class="std std-ref">Phantom Blood</span></a>: Gain temporary hp if Con loss would knock you out or kill you.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.sunderingshards.html#advancedclassguide-spells-sunderingshards"><span class="std std-ref">Sundering Shards</span></a>: Sundered item explodes, dealing 1d6 damage to adjacent creatures.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.thunderstomp.html#advancedclassguide-spells-thunderstomp"><span class="std std-ref">Thunderstomp</span></a>: Trip one creature within range.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.waveshield.html#advancedclassguide-spells-waveshield"><span class="std std-ref">Wave Shield</span></a>: Water blunts one incoming attack or fire effect.</p>
+</div>
+<div class="section" id="nd-level-bloodrager-spells">
+<span id="advancedclassguide-spells-spelllists-2nd-level-bloodrager-spells"></span><h3><a class="toc-backref" href="#id45">2nd-Level Bloodrager Spells</a><a class="headerlink" href="#nd-level-bloodrager-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.adhesiveblood.html#advancedclassguide-spells-adhesiveblood"><span class="std std-ref">Adhesive Blood</span></a>: Attackers’ weapons stick to your gluey blood.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.bloodarmor.html#advancedclassguide-spells-bloodarmor"><span class="std std-ref">Blood Armor</span></a>: Your blood hardens when you are wounded, increasing your AC.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.extremeflexibility.html#advancedclassguide-spells-extremeflexibility"><span class="std std-ref">Extreme Flexibility</span></a>: Gain a bonus to AC, on <a class="reference internal" href="corerulebook.skills.escapeartist.html#corerulebook-skills-escapeartist-escape-artist"><span class="std std-ref">Escape Artist</span></a> checks, and when grappling.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.moltenorb.html#advancedclassguide-spells-moltenorb"><span class="std std-ref">Molten Orb</span></a>: Molten metal splash weapon deals 2d6 fire damage plus ongoing damage.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.sonicscream.html#advancedclassguide-spells-sonicscream"><span class="std std-ref">Sonic Scream</span></a>: Create a cone of damaging sound at will.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.stonediscus.html#advancedclassguide-spells-stonediscus"><span class="std std-ref">Stone Discus</span></a>: Flying discus deals bludgeoning or slashing damage.</p>
+</div>
+<div class="section" id="rd-level-bloodrager-spells">
+<span id="advancedclassguide-spells-spelllists-3rd-level-bloodrager-spells"></span><h3><a class="toc-backref" href="#id46">3rd-Level Bloodrager Spells</a><a class="headerlink" href="#rd-level-bloodrager-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.airgeyser.html#advancedclassguide-spells-airgeyser"><span class="std std-ref">Air Geyser</span></a>: Blast of air deals 2d6 bludgeoning damage and knocks opponent upward.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.silverdarts.html#advancedclassguide-spells-silverdarts"><span class="std std-ref">Silver Darts</span></a>: Cone of silver darts deals 1d6 piercing damage/level, less against armored targets.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.thunderstomp.html#advancedclassguide-spells-thunderstomp"><span class="std std-ref">Thunderstomp, Greater</span></a>: Trip multiple creatures within range.</p>
+</div>
+<div class="section" id="th-level-bloodrager-spells">
+<span id="advancedclassguide-spells-spelllists-4th-level-bloodrager-spells"></span><h3><a class="toc-backref" href="#id47">4th-Level Bloodrager Spells</a><a class="headerlink" href="#th-level-bloodrager-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.flamingsphere.html#advancedclassguide-spells-flamingsphere"><span class="std std-ref">Flaming Sphere, Greater</span></a>: Rolling ball of fire deals 6d6 fire damage and ignites targets.</p>
+</div>
+</div>
+<div class="section" id="cleric-spells">
+<span id="advancedclassguide-spells-spelllists-cleric-spells"></span><h2><a class="toc-backref" href="#id48">Cleric Spells</a><a class="headerlink" href="#cleric-spells" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="st-level-cleric-spells">
+<span id="advancedclassguide-spells-spelllists-1st-level-cleric-spells"></span><h3><a class="toc-backref" href="#id49">1st-Level Cleric Spells</a><a class="headerlink" href="#st-level-cleric-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.blessedfist.html#advancedclassguide-spells-blessedfist"><span class="std std-ref">Blessed Fist</span></a>: Target doesn’t provoke attacks of opportunity with unarmed strikes.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.refineimprovisedweapon.html#advancedclassguide-spells-refineimprovisedweapon"><span class="std std-ref">Refine Improvised Weapon</span></a>: Transform improvised weapon into a masterwork simple or martial weapon.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.stunningbarrier.html#advancedclassguide-spells-stunningbarrier"><span class="std std-ref">Stunning Barrier</span></a>: Magical field grants a +1 bonus to AC and on saves, and stuns one creature attacking you.</p>
+</div>
+<div class="section" id="nd-level-cleric-spells">
+<span id="advancedclassguide-spells-spelllists-2nd-level-cleric-spells"></span><h3><a class="toc-backref" href="#id50">2nd-Level Cleric Spells</a><a class="headerlink" href="#nd-level-cleric-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.airstep.html#advancedclassguide-spells-airstep"><span class="std std-ref">Air Step</span></a>: Tread unsteadily on air, with limitations.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.holyiceweapon.html#advancedclassguide-spells-holyiceweapon"><span class="std std-ref">Holy Ice Weapon</span></a><sup>M</sup>: Create a masterwork weapon made of frozen holy water.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.lifepact.html#advancedclassguide-spells-lifepact"><span class="std std-ref">Life Pact</span></a>: Affected creatures automatically donate hp to stabilize fallen ally.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.marchingchant.html#advancedclassguide-spells-marchingchant"><span class="std std-ref">Marching Chant</span></a>: Allies can hustle without penalty while you sing or chant.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.mufflesound.html#advancedclassguide-spells-mufflesound"><span class="std std-ref">Muffle Sound</span></a>: Allies gain a bonus on <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> checks but risk verbal spell failure.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.pathofglory.html#advancedclassguide-spells-pathofglory"><span class="std std-ref">Path of Glory</span></a>: Create an expanding glow that heals allies within it of 1 hp of damage.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.shieldoffortification.html#advancedclassguide-spells-shieldoffortification"><span class="std std-ref">Shield of Fortification</span></a>: Target gains a 25% chance to treat critical hits and sneak attacks as normal hits.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.silenttable.html#advancedclassguide-spells-silenttable"><span class="std std-ref">Silent Table</span></a>: Give yourself privacy by muffling sound.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.unholyiceweapon.html#advancedclassguide-spells-unholyiceweapon"><span class="std std-ref">Unholy Ice Weapon</span></a><sup>M</sup>: Create a masterwork weapon made of frozen unholy water.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.unlivingrage.html#advancedclassguide-spells-unlivingrage"><span class="std std-ref">Unliving Rage</span></a>: As <a class="reference internal" href="corerulebook.spells.rage.html#corerulebook-spells-rage-rage"><span class="std std-ref">rage</span></a>, except affecting only undead.</p>
+</div>
+<div class="section" id="rd-level-cleric-spells">
+<span id="advancedclassguide-spells-spelllists-3rd-level-cleric-spells"></span><h3><a class="toc-backref" href="#id51">3rd-Level Cleric Spells</a><a class="headerlink" href="#rd-level-cleric-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.alignweapon.html#advancedclassguide-spells-alignweapon"><span class="std std-ref">Align Weapon, Communal</span></a>: As <a class="reference internal" href="corerulebook.spells.alignweapon.html#corerulebook-spells-alignweapon-align-weapon"><span class="std std-ref">align weapon</span></a>, but you can divide the duration among weapons touched.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.aurasight.html#advancedclassguide-spells-aurasight"><span class="std std-ref">Aura Sight</span></a>: Alignment auras become visible to you.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.mantleofcalm.html#advancedclassguide-spells-mantleofcalm"><span class="std std-ref">Mantle of Calm</span></a>: Neutralize the rage effects of those who have attacked you.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.markofobviousethics.html#advancedclassguide-spells-markofobviousethics"><span class="std std-ref">Mark of Obvious Ethics</span></a>: Other creatures can determine the target’s alignment.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.stunningbarrier.html#advancedclassguide-spells-stunningbarrier"><span class="std std-ref">Stunning Barrier, Greater</span></a>: Magical field grants a +2 bonus to AC and on saves, and stuns multiple creatures attacking you.</p>
+</div>
+<div class="section" id="th-level-cleric-spells">
+<span id="advancedclassguide-spells-spelllists-4th-level-cleric-spells"></span><h3><a class="toc-backref" href="#id52">4th-Level Cleric Spells</a><a class="headerlink" href="#th-level-cleric-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.antiincorporealshell.html#advancedclassguide-spells-antiincorporealshell"><span class="std std-ref">Anti-Incorporeal Shell</span></a>: Incorporeal creatures stay 10 ft. away from you.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.bloatbomb.html#advancedclassguide-spells-bloatbomb"><span class="std std-ref">Bloatbomb</span></a>: Kill a weak creature and turn its corpse into an explosive trap.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.enchantmentfoil.html#advancedclassguide-spells-enchantmentfoil"><span class="std std-ref">Enchantment Foil</span></a>: Trick opponents who try to cast enchantments on you.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.guardianoffaith.html#advancedclassguide-spells-guardianoffaith"><span class="std std-ref">Guardian of Faith</span></a>: Target is protected by <a class="reference internal" href="corerulebook.spells.shieldoffaith.html#corerulebook-spells-shieldoffaith-shield-of-faith"><span class="std std-ref">shield of faith</span></a> and a protection spell, and can transfer the effects to another creature.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.pathofglory.html#advancedclassguide-spells-pathofglory"><span class="std std-ref">Path of Glory, Greater</span></a>: Create an expanding glow that heals allies within it of 5 hp of damage.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.persistentvigor.html#advancedclassguide-spells-persistentvigor"><span class="std std-ref">Persistent Vigor</span></a>: Gain fast healing 2, immunity to bleed, and faster recovery from diseases and poisons.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.shieldoffortification.html#advancedclassguide-spells-shieldoffortification-shield-of-fortification-greater"><span class="std std-ref">Shield of Fortification, Greater</span></a>: Target gains a 50% chance to treat critical hits and sneak attacks as normal hits.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.speakwithhaunt.html#advancedclassguide-spells-speakwithhaunt"><span class="std std-ref">Speak with Haunt</span></a>: Haunt answers one question/2 levels.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.spellcrash.html#advancedclassguide-spells-spellcrash"><span class="std std-ref">Spellcrash, Lesser</span></a>: Target loses a 3rd-level prepared spell or spell slot.</p>
+</div>
+<div class="section" id="advancedclassguide-spells-spelllists-5th-level-cleric-spells">
+<span id="id5"></span><h3><a class="toc-backref" href="#id53">5th-Level Cleric Spells</a><a class="headerlink" href="#advancedclassguide-spells-spelllists-5th-level-cleric-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.planeslayerscall.html#advancedclassguide-spells-planeslayerscall"><span class="std std-ref">Planeslayer’s Call</span></a>: Allies gain benefits against outsiders of an alignment you choose.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.wallofblindnessdeafness.html#advancedclassguide-spells-wallofblindnessdeafness"><span class="std std-ref">Wall of Blindness/Deafness</span></a>: Translucent wall blinds or deafens creatures that pass through it.</p>
+</div>
+<div class="section" id="advancedclassguide-spells-spelllists-6th-level-cleric-spells">
+<span id="id6"></span><h3><a class="toc-backref" href="#id54">6th-Level Cleric Spells</a><a class="headerlink" href="#advancedclassguide-spells-spelllists-6th-level-cleric-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.spellcrash.html#advancedclassguide-spells-spellcrash"><span class="std std-ref">Spellcrash</span></a>: Target loses a 5th-level prepared spell or spell slot.</p>
+</div>
+<div class="section" id="advancedclassguide-spells-spelllists-8th-level-cleric-spells">
+<span id="id7"></span><h3><a class="toc-backref" href="#id55">8th-Level Cleric Spells</a><a class="headerlink" href="#advancedclassguide-spells-spelllists-8th-level-cleric-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.spellcrash.html#advancedclassguide-spells-spellcrash"><span class="std std-ref">Spellcrash, Greater</span></a>: Target loses a 7th-level prepared spell or spell slot.</p>
+</div>
+</div>
+<div class="section" id="druid-spells">
+<span id="advancedclassguide-spells-spelllists-druid-spells"></span><h2><a class="toc-backref" href="#id56">Druid Spells</a><a class="headerlink" href="#druid-spells" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="st-level-druid-spells">
+<span id="advancedclassguide-spells-spelllists-1st-level-druid-spells"></span><h3><a class="toc-backref" href="#id57">1st-Level Druid Spells</a><a class="headerlink" href="#st-level-druid-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.gentlebreeze.html#advancedclassguide-spells-gentlebreeze"><span class="std std-ref">Gentle Breeze</span></a>: Light wind protects one target from clouds, gases, heat, and vapors.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.heightenedawareness.html#advancedclassguide-spells-heightenedawareness"><span class="std std-ref">Heightened Awareness</span></a>: Your recall and ability to process information improve.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.monkeyfish.html#advancedclassguide-spells-monkeyfish"><span class="std std-ref">Monkey Fish</span></a>: Gain a climb speed and a swim speed of 10 ft. for a time.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.nauseatingdart.html#advancedclassguide-spells-nauseatingdart"><span class="std std-ref">Nauseating Dart</span></a>: Poisonous stinger deals 1d2 damage and sickens target.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.thornjavelin.html#advancedclassguide-spells-thornjavelin"><span class="std std-ref">Thorn Javelin</span></a>: Wield a javelin that sickens opponents when it strikes.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.thunderstomp.html#advancedclassguide-spells-thunderstomp"><span class="std std-ref">Thunderstomp</span></a>: Trip one creature within range.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.waveshield.html#advancedclassguide-spells-waveshield"><span class="std std-ref">Wave Shield</span></a>: Water blunts one incoming attack or fire effect.</p>
+</div>
+<div class="section" id="nd-level-druid-spells">
+<span id="advancedclassguide-spells-spelllists-2nd-level-druid-spells"></span><h3><a class="toc-backref" href="#id58">2nd-Level Druid Spells</a><a class="headerlink" href="#nd-level-druid-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.aggressivethundercloud.html#advancedclassguide-spells-aggressivethundercloud"><span class="std std-ref">Aggressive Thundercloud</span></a>: Flying storm cloud deals 3d6 electricity damage.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.airstep.html#advancedclassguide-spells-airstep"><span class="std std-ref">Air Step</span></a>: Tread unsteadily on air, with limitations.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.animalpurposetraining.html#advancedclassguide-spells-animalpurposetraining"><span class="std std-ref">Animal Purpose Training</span></a>: Animal gains a new general purpose.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.beastspeak.html#advancedclassguide-spells-beastspeak"><span class="std std-ref">Beastspeak</span></a>: Speak normally while in animal form.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.climbingbeanstalk.html#advancedclassguide-spells-climbingbeanstalk"><span class="std std-ref">Climbing Beanstalk</span></a>: Create a beanstalk that is easy to climb.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.companionlifelink.html#advancedclassguide-spells-companionlifelink"><span class="std std-ref">Companion Life Link</span></a>: Sense whenever your companion is wounded and call out to it in a time of need.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.euphoriccloud.html#advancedclassguide-spells-euphoriccloud"><span class="std std-ref">Euphoric Cloud</span></a><sup>M</sup>: Fog obscures vision and fascinates living creatures.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.sickeningentanglement.html#advancedclassguide-spells-sickeningentanglement"><span class="std std-ref">Sickening Entanglement</span></a>: As <a class="reference internal" href="corerulebook.spells.entangle.html#corerulebook-spells-entangle-entangle"><span class="std std-ref">entangle</span></a>, but plants have sickening sap.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.stonediscus.html#advancedclassguide-spells-stonediscus"><span class="std std-ref">Stone Discus</span></a>: Flying discus deals bludgeoning or slashing damage.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.whipofspiders.html#advancedclassguide-spells-whipofspiders"><span class="std std-ref">Whip of Spiders</span></a>: Create a whip made of poisonous spiders.</p>
+</div>
+<div class="section" id="rd-level-druid-spells">
+<span id="advancedclassguide-spells-spelllists-3rd-level-druid-spells"></span><h3><a class="toc-backref" href="#id59">3rd-Level Druid Spells</a><a class="headerlink" href="#rd-level-druid-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.airgeyser.html#advancedclassguide-spells-airgeyser"><span class="std std-ref">Air Geyser</span></a>: Blast of air deals 2d6 bludgeoning damage and knocks opponent upward.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.anchoredstep.html#advancedclassguide-spells-anchoredstep"><span class="std std-ref">Anchored Step</span></a>: Vines beneath your feet stabilize you but slow you down.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.longstrider.html#advancedclassguide-spells-longstrider"><span class="std std-ref">Longstrider, Greater</span></a>: As <a class="reference internal" href="corerulebook.spells.longstrider.html#corerulebook-spells-longstrider-longstrider"><span class="std std-ref">longstrider</span></a>, plus the speeds of other movement modes increase.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.nauseatingtrail.html#advancedclassguide-spells-nauseatingtrail"><span class="std std-ref">Nauseating Trail</span></a>: Creature leaves a trail of <em>stinking cloud</em> squares.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.stenchofprey.html#advancedclassguide-spells-stenchofprey"><span class="std std-ref">Stench of Prey</span></a>: Predatory animals must successfully save or attack the target.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.thornyentanglement.html#advancedclassguide-spells-thornyentanglement"><span class="std std-ref">Thorny Entanglement</span></a>: As <a class="reference internal" href="corerulebook.spells.entangle.html#corerulebook-spells-entangle-entangle"><span class="std std-ref">entangle</span></a>, plus plants make ranged attacks.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.thunderstomp.html#advancedclassguide-spells-thunderstomp"><span class="std std-ref">Thunderstomp, Greater</span></a>: Trip multiple creatures within range.</p>
+</div>
+<div class="section" id="th-level-druid-spells">
+<span id="advancedclassguide-spells-spelllists-4th-level-druid-spells"></span><h3><a class="toc-backref" href="#id60">4th-Level Druid Spells</a><a class="headerlink" href="#th-level-druid-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.aggressivethundercloud.html#advancedclassguide-spells-aggressivethundercloud"><span class="std std-ref">Aggressive Thundercloud, Greater</span></a>: Flying storm cloud deals 6d6 electricity damage.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.creepingice.html#advancedclassguide-spells-creepingice"><span class="std std-ref">Creeping Ice</span></a>: Sheet of ice slowly spreads outward on a horizontal surface.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.flamingsphere.html#advancedclassguide-spells-flamingsphere"><span class="std std-ref">Flaming Sphere, Greater</span></a>: Rolling ball of fire deals 6d6 fire damage and ignites targets.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.slowingmud.html#advancedclassguide-spells-slowingmud"><span class="std std-ref">Slowing Mud</span></a>: Targets are covered in mud that blinds them and acts like <a class="reference internal" href="corerulebook.spells.slow.html#corerulebook-spells-slow-slow"><span class="std std-ref">slow</span></a>.</p>
+</div>
+<div class="section" id="advancedclassguide-spells-spelllists-5th-level-druid-spells">
+<span id="id8"></span><h3><a class="toc-backref" href="#id61">5th-Level Druid Spells</a><a class="headerlink" href="#advancedclassguide-spells-spelllists-5th-level-druid-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.whipofcentipedes.html#advancedclassguide-spells-whipofcentipedes"><span class="std std-ref">Whip of Centipedes</span></a>: Create a whip made of poisonous centipedes.</p>
+</div>
+<div class="section" id="advancedclassguide-spells-spelllists-6th-level-druid-spells">
+<span id="id9"></span><h3><a class="toc-backref" href="#id62">6th-Level Druid Spells</a><a class="headerlink" href="#advancedclassguide-spells-spelllists-6th-level-druid-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.blazingrainbow.html#advancedclassguide-spells-blazingrainbow"><span class="std std-ref">Blazing Rainbow</span></a>: Create bow with <a class="reference internal" href="corerulebook.magicitems.weapons.html#corerulebook-magicitems-weapons-weapons-brilliant-energy"><span class="std std-ref">brilliant energy</span></a> arrows or a bridge that helps allies and hinders opponents.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.whipofants.html#advancedclassguide-spells-whipofants"><span class="std std-ref">Whip of Ants</span></a>: Create a whip made of army ants.</p>
+</div>
+<div class="section" id="advancedclassguide-spells-spelllists-7th-level-druid-spells">
+<span id="id10"></span><h3><a class="toc-backref" href="#id63">7th-Level Druid Spells</a><a class="headerlink" href="#advancedclassguide-spells-spelllists-7th-level-druid-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.fairyringretreat.html#advancedclassguide-spells-fairyringretreat"><span class="std std-ref">Fairy Ring Retreat</span></a>: Toadstool circle leads to an extradimensional meadow.</p>
+</div>
+</div>
+<div class="section" id="inquisitor-spells">
+<span id="advancedclassguide-spells-spelllists-inquisitor-spells"></span><h2><a class="toc-backref" href="#id64">Inquisitor Spells</a><a class="headerlink" href="#inquisitor-spells" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="st-level-inquisitor-spells">
+<span id="advancedclassguide-spells-spelllists-1st-level-inquisitor-spells"></span><h3><a class="toc-backref" href="#id65">1st-Level Inquisitor Spells</a><a class="headerlink" href="#st-level-inquisitor-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.animalpurposetraining.html#advancedclassguide-spells-animalpurposetraining"><span class="std std-ref">Animal Purpose Training</span></a>: Animal gains a new general purpose.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.heightenedawareness.html#advancedclassguide-spells-heightenedawareness"><span class="std std-ref">Heightened Awareness</span></a>: Your recall and ability to process information improve.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.invisibilityalarm.html#advancedclassguide-spells-invisibilityalarm"><span class="std std-ref">Invisibility Alarm</span></a>: As <a class="reference internal" href="corerulebook.spells.alarm.html#corerulebook-spells-alarm-alarm"><span class="std std-ref">alarm</span></a>, but reacting only to invisible creatures.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.refineimprovisedweapon.html#advancedclassguide-spells-refineimprovisedweapon"><span class="std std-ref">Refine Improvised Weapon</span></a>: Transform improvised weapon into a masterwork simple or martial weapon.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.shieldoffortification.html#advancedclassguide-spells-shieldoffortification"><span class="std std-ref">Shield of Fortification</span></a>: Target gains a 25% chance to treat critical hits and sneak attacks as normal hits.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.stunningbarrier.html#advancedclassguide-spells-stunningbarrier"><span class="std std-ref">Stunning Barrier</span></a>: Magical field grants a +1 bonus to AC and on saves, and stuns one creature attacking you.</p>
+</div>
+<div class="section" id="nd-level-inquisitor-spells">
+<span id="advancedclassguide-spells-spelllists-2nd-level-inquisitor-spells"></span><h3><a class="toc-backref" href="#id66">2nd-Level Inquisitor Spells</a><a class="headerlink" href="#nd-level-inquisitor-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.bulletward.html#advancedclassguide-spells-bulletward"><span class="std std-ref">Bullet Ward</span></a><sup>F</sup>: Adamantine bullets intercept firearm attacks.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.focusedscrutiny.html#advancedclassguide-spells-focusedscrutiny"><span class="std std-ref">Focused Scrutiny</span></a>: Gain skill bonuses when interacting with the target.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.holyiceweapon.html#advancedclassguide-spells-holyiceweapon"><span class="std std-ref">Holy Ice Weapon</span></a><sup>M</sup>: Create a masterwork weapon made of frozen holy water.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.mufflesound.html#advancedclassguide-spells-mufflesound"><span class="std std-ref">Muffle Sound</span></a>: Allies gain a bonus on <a class="reference internal" href="corerulebook.skills.stealth.html#corerulebook-skills-stealth-stealth"><span class="std std-ref">Stealth</span></a> checks but risk verbal spell failure.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.strickenheart.html#advancedclassguide-spells-strickenheart"><span class="std std-ref">Stricken Heart</span></a>: Touch attack deals 2d6 damage and staggers target.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.unholyiceweapon.html#advancedclassguide-spells-unholyiceweapon"><span class="std std-ref">Unholy Ice Weapon</span></a><sup>M</sup>: Create a masterwork weapon made of frozen unholy water.</p>
+</div>
+<div class="section" id="rd-level-inquisitor-spells">
+<span id="advancedclassguide-spells-spelllists-3rd-level-inquisitor-spells"></span><h3><a class="toc-backref" href="#id67">3rd-Level Inquisitor Spells</a><a class="headerlink" href="#rd-level-inquisitor-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.adjustabledisguise.html#advancedclassguide-spells-adjustabledisguise"><span class="std std-ref">Adjustable Disguise</span></a>: As <a class="reference internal" href="corerulebook.spells.disguiseself.html#corerulebook-spells-disguiseself-disguise-self"><span class="std std-ref">disguise self</span></a>, but you can change the disguise as a swift action.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.alignweapon.html#advancedclassguide-spells-alignweapon"><span class="std std-ref">Align Weapon, Communal</span></a>: As <a class="reference internal" href="corerulebook.spells.alignweapon.html#corerulebook-spells-alignweapon-align-weapon"><span class="std std-ref">align weapon</span></a>, but you can divide the duration among weapons touched.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.mantleofcalm.html#advancedclassguide-spells-mantleofcalm"><span class="std std-ref">Mantle of Calm</span></a>: Neutralize the rage effects of those who have attacked you.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.shieldoffortification.html#advancedclassguide-spells-shieldoffortification-shield-of-fortification-greater"><span class="std std-ref">Shield of Fortification, Greater</span></a>: Target gains a 50% chance to treat critical hits and sneak attacks as normal hits.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.stunningbarrier.html#advancedclassguide-spells-stunningbarrier"><span class="std std-ref">Stunning Barrier, Greater</span></a>: Magical field grants a +2 bonus to AC and on saves, and stuns multiple creatures attacking you.</p>
+</div>
+<div class="section" id="th-level-inquisitor-spells">
+<span id="advancedclassguide-spells-spelllists-4th-level-inquisitor-spells"></span><h3><a class="toc-backref" href="#id68">4th-Level Inquisitor Spells</a><a class="headerlink" href="#th-level-inquisitor-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.aurasight.html#advancedclassguide-spells-aurasight"><span class="std std-ref">Aura Sight</span></a>: Alignment auras become visible to you.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.enchantmentfoil.html#advancedclassguide-spells-enchantmentfoil"><span class="std std-ref">Enchantment Foil</span></a>: Trick opponents who try to cast enchantments on you.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.persistentvigor.html#advancedclassguide-spells-persistentvigor"><span class="std std-ref">Persistent Vigor</span></a>: Gain fast healing 2, immunity to bleed, and faster recovery from diseases and poisons.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.planeslayerscall.html#advancedclassguide-spells-planeslayerscall"><span class="std std-ref">Planeslayer’s Call</span></a>: Allies gain benefits against outsiders of an alignment you choose.</p>
+</div>
+</div>
+<div class="section" id="magus-spells">
+<span id="advancedclassguide-spells-spelllists-magus-spells"></span><h2><a class="toc-backref" href="#id69">Magus Spells</a><a class="headerlink" href="#magus-spells" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="st-level-magus-spells">
+<span id="advancedclassguide-spells-spelllists-1st-level-magus-spells"></span><h3><a class="toc-backref" href="#id70">1st-Level Magus Spells</a><a class="headerlink" href="#st-level-magus-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.bladelash.html#advancedclassguide-spells-bladelash"><span class="std std-ref">Blade Lash</span></a>: Use your weapon like a whip to trip an opponent.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.blurredmovement.html#advancedclassguide-spells-blurredmovement"><span class="std std-ref">Blurred Movement</span></a>: As <a class="reference internal" href="corerulebook.spells.blur.html#corerulebook-spells-blur-blur"><span class="std std-ref">blur</span></a>, but only while you are moving.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.disguiseweapon.html#advancedclassguide-spells-disguiseweapon"><span class="std std-ref">Disguise Weapon</span></a>: Changes one weapon’s appearance.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.glueseal.html#advancedclassguide-spells-glueseal"><span class="std std-ref">Glue Seal</span></a>: Makes one 5-ft. square or one object sticky.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.lineinthesand.html#advancedclassguide-spells-lineinthesand"><span class="std std-ref">Line in the Sand</span></a>: Increase your attacks of opportunity per round.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.longarm.html#advancedclassguide-spells-longarm"><span class="std std-ref">Long Arm</span></a>: Your arms lengthen, giving you extra reach.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.monkeyfish.html#advancedclassguide-spells-monkeyfish"><span class="std std-ref">Monkey Fish</span></a>: Gain a climb speed and a swim speed of 10 ft. for a time.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.phantomblood.html#advancedclassguide-spells-phantomblood"><span class="std std-ref">Phantom Blood</span></a>: Gain temporary hp if Con loss would knock you out or kill you.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.sunderbreaker.html#advancedclassguide-spells-sunderbreaker"><span class="std std-ref">Sunder Breaker</span></a>: The next weapon that sunders an item belonging to the target takes damage.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.sunderingshards.html#advancedclassguide-spells-sunderingshards"><span class="std std-ref">Sundering Shards</span></a>: Sundered item explodes, dealing 1d6 damage to adjacent creatures.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.thunderstomp.html#advancedclassguide-spells-thunderstomp"><span class="std std-ref">Thunderstomp</span></a>: Trip one creature within range.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.waveshield.html#advancedclassguide-spells-waveshield"><span class="std std-ref">Wave Shield</span></a>: Water blunts one incoming attack or fire effect.</p>
+</div>
+<div class="section" id="nd-level-magus-spells">
+<span id="advancedclassguide-spells-spelllists-2nd-level-magus-spells"></span><h3><a class="toc-backref" href="#id71">2nd-Level Magus Spells</a><a class="headerlink" href="#nd-level-magus-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.aggressivethundercloud.html#advancedclassguide-spells-aggressivethundercloud"><span class="std std-ref">Aggressive Thundercloud</span></a>: Flying storm cloud deals 3d6 electricity damage.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.euphoriccloud.html#advancedclassguide-spells-euphoriccloud"><span class="std std-ref">Euphoric Cloud</span></a><sup>M</sup>: Fog obscures vision and fascinates living creatures.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.extremeflexibility.html#advancedclassguide-spells-extremeflexibility"><span class="std std-ref">Extreme Flexibility</span></a>: Gain a bonus to AC, on <a class="reference internal" href="corerulebook.skills.escapeartist.html#corerulebook-skills-escapeartist-escape-artist"><span class="std std-ref">Escape Artist</span></a> checks, and when grappling.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.moltenorb.html#advancedclassguide-spells-moltenorb"><span class="std std-ref">Molten Orb</span></a>: Molten metal splash weapon deals 2d6 fire damage plus ongoing damage.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.riverwhip.html#advancedclassguide-spells-riverwhip"><span class="std std-ref">River Whip</span></a>: Create a whip of water that you wield as a weapon.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.sonicscream.html#advancedclassguide-spells-sonicscream"><span class="std std-ref">Sonic Scream</span></a>: Create a cone of damaging sound at will.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.stonediscus.html#advancedclassguide-spells-stonediscus"><span class="std std-ref">Stone Discus</span></a>: Flying discus deals bludgeoning or slashing damage.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.timeshudder.html#advancedclassguide-spells-timeshudder"><span class="std std-ref">Time Shudder</span></a>: Nearby creatures are affected by <a class="reference internal" href="corerulebook.spells.haste.html#corerulebook-spells-haste-haste"><span class="std std-ref">haste</span></a> or <a class="reference internal" href="corerulebook.spells.slow.html#corerulebook-spells-slow-slow"><span class="std std-ref">slow</span></a> each round.</p>
+</div>
+<div class="section" id="rd-level-magus-spells">
+<span id="advancedclassguide-spells-spelllists-3rd-level-magus-spells"></span><h3><a class="toc-backref" href="#id72">3rd-Level Magus Spells</a><a class="headerlink" href="#rd-level-magus-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.airgeyser.html#advancedclassguide-spells-airgeyser"><span class="std std-ref">Air Geyser</span></a>: Blast of air deals 2d6 bludgeoning damage and knocks opponent upward.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.heartofthemetal.html#advancedclassguide-spells-heartofthemetal"><span class="std std-ref">Heart of the Metal</span></a><sup>M</sup>: Enable weapons to overcome DR like adamantine, cold iron, or silver.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.nauseatingtrail.html#advancedclassguide-spells-nauseatingtrail"><span class="std std-ref">Nauseating Trail</span></a>&gt;: Creature leaves a trail of <a class="reference internal" href="corerulebook.spells.stinkingcloud.html#corerulebook-spells-stinkingcloud-stinking-cloud"><span class="std std-ref">stinking cloud</span></a> squares.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.silverdarts.html#advancedclassguide-spells-silverdarts"><span class="std std-ref">Silver Darts</span></a>: Cone of silver darts deals 1d6 piercing damage/level, less against armored targets.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.thunderstomp.html#advancedclassguide-spells-thunderstomp"><span class="std std-ref">Thunderstomp, Greater</span></a>: Trip multiple creatures within range.</p>
+</div>
+<div class="section" id="th-level-magus-spells">
+<span id="advancedclassguide-spells-spelllists-4th-level-magus-spells"></span><h3><a class="toc-backref" href="#id73">4th-Level Magus Spells</a><a class="headerlink" href="#th-level-magus-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.adjustablepolymorph.html#advancedclassguide-spells-adjustablepolymorph"><span class="std std-ref">Adjustable Polymorph</span></a>: As <a class="reference internal" href="corerulebook.spells.alterself.html#corerulebook-spells-alterself-alter-self"><span class="std std-ref">alter self</span></a>, but you can change the shape as a swift action.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.aggressivethundercloud.html#advancedclassguide-spells-aggressivethundercloud"><span class="std std-ref">Aggressive Thundercloud, Greater</span></a>: Flying storm cloud deals 6d6 electricity damage.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.flamingsphere.html#advancedclassguide-spells-flamingsphere"><span class="std std-ref">Flaming Sphere, Greater</span></a>: Rolling ball of fire deals 6d6 fire damage and ignites targets.</p>
+</div>
+<div class="section" id="advancedclassguide-spells-spelllists-5th-level-magus-spells">
+<span id="id11"></span><h3><a class="toc-backref" href="#id74">5th-Level Magus Spells</a><a class="headerlink" href="#advancedclassguide-spells-spelllists-5th-level-magus-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.vampiricshadowshield.html#advancedclassguide-spells-vampiricshadowshield"><span class="std std-ref">Vampiric Shadow Shield</span></a>: As <a class="reference internal" href="corerulebook.spells.fireshield.html#corerulebook-spells-fireshield-fire-shield"><span class="std std-ref">fire shield</span></a>, except attackers take negative energy damage and attacks heal you.</p>
+</div>
+</div>
+<div class="section" id="paladin-spells">
+<span id="advancedclassguide-spells-spelllists-paladin-spells"></span><h2><a class="toc-backref" href="#id75">Paladin Spells</a><a class="headerlink" href="#paladin-spells" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="st-level-paladin-spells">
+<span id="advancedclassguide-spells-spelllists-1st-level-paladin-spells"></span><h3><a class="toc-backref" href="#id76">1st-Level Paladin Spells</a><a class="headerlink" href="#st-level-paladin-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.animalpurposetraining.html#advancedclassguide-spells-animalpurposetraining"><span class="std std-ref">Animal Purpose Training</span></a>: Animal gains a new general purpose.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.blessedfist.html#advancedclassguide-spells-blessedfist"><span class="std std-ref">Blessed Fist</span></a>: Target doesn’t provoke attacks of opportunity with unarmed strikes.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.shieldoffortification.html#advancedclassguide-spells-shieldoffortification"><span class="std std-ref">Shield of Fortification</span></a>: Target gains a 25% chance to treat critical hits and sneak attacks as normal hits.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.stunningbarrier.html#advancedclassguide-spells-stunningbarrier"><span class="std std-ref">Stunning Barrier</span></a>: Magical field grants a +1 bonus to AC and on saves, and stuns one creature attacking you.</p>
+</div>
+<div class="section" id="nd-level-paladin-spells">
+<span id="advancedclassguide-spells-spelllists-2nd-level-paladin-spells"></span><h3><a class="toc-backref" href="#id77">2nd-Level Paladin Spells</a><a class="headerlink" href="#nd-level-paladin-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.bulletward.html#advancedclassguide-spells-bulletward"><span class="std std-ref">Bullet Ward</span></a><sup>F</sup>: Adamantine bullets intercept firearm attacks.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.shieldcompanion.html#advancedclassguide-spells-shieldcompanion"><span class="std std-ref">Shield Companion</span></a>: As <a class="reference internal" href="corerulebook.spells.shieldother.html#corerulebook-spells-shieldother-shield-other"><span class="std std-ref">shield other</span></a>, but affecting your companion creature.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.widenauras.html#advancedclassguide-spells-widenauras"><span class="std std-ref">Widen Auras</span></a>: Increase the range of auras bestowed by your class.</p>
+</div>
+<div class="section" id="rd-level-paladin-spells">
+<span id="advancedclassguide-spells-spelllists-3rd-level-paladin-spells"></span><h3><a class="toc-backref" href="#id78">3rd-Level Paladin Spells</a><a class="headerlink" href="#rd-level-paladin-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.bestowauras.html#advancedclassguide-spells-bestowauras"><span class="std std-ref">Bestow Auras</span></a>: Transfer your paladin or antipaladin auras to another creature.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.mantleofcalm.html#advancedclassguide-spells-mantleofcalm"><span class="std std-ref">Mantle of Calm</span></a>: Neutralize the rage effects of those who have attacked you.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.shieldoffortification.html#advancedclassguide-spells-shieldoffortification"><span class="std std-ref">Shield of Fortification</span></a>: Target gains a 50% chance to treat critical hits and sneak attacks as normal hits.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.stunningbarrier.html#advancedclassguide-spells-stunningbarrier"><span class="std std-ref">Stunning Barrier, Greater</span></a>: Magical field grants a +2 bonus to AC and on saves, and stuns multiple creatures attacking you.</p>
+</div>
+<div class="section" id="th-level-paladin-spells">
+<span id="advancedclassguide-spells-spelllists-4th-level-paladin-spells"></span><h3><a class="toc-backref" href="#id79">4th-Level Paladin Spells</a><a class="headerlink" href="#th-level-paladin-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.guardianoffaith.html#advancedclassguide-spells-guardianoffaith"><span class="std std-ref">Guardian of Faith</span></a>: Target is protected by <a class="reference internal" href="corerulebook.spells.shieldoffaith.html#corerulebook-spells-shieldoffaith-shield-of-faith"><span class="std std-ref">shield of faith</span></a> and a protection spell, and can transfer the effects to another creature.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.planeslayerscall.html#advancedclassguide-spells-planeslayerscall"><span class="std std-ref">Planslayer’s Call</span></a>: Allies gain benefits against outsiders of an alignment you choose.</p>
+</div>
+</div>
+<div class="section" id="ranger-spells">
+<span id="advancedclassguide-spells-spelllists-ranger-spells"></span><h2><a class="toc-backref" href="#id80">Ranger Spells</a><a class="headerlink" href="#ranger-spells" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="st-level-ranger-spells">
+<span id="advancedclassguide-spells-spelllists-1st-level-ranger-spells"></span><h3><a class="toc-backref" href="#id81">1st-Level Ranger Spells</a><a class="headerlink" href="#st-level-ranger-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.animalpurposetraining.html#advancedclassguide-spells-animalpurposetraining"><span class="std std-ref">Animal Purpose Training</span></a>: Animal gains a new general purpose.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.heightenedawareness.html#advancedclassguide-spells-heightenedawareness"><span class="std std-ref">Heightened Awareness</span></a>: Your recall and ability to process information improve.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.invisibilityalarm.html#advancedclassguide-spells-invisibilityalarm"><span class="std std-ref">Invisibility Alarm</span></a>: As <a class="reference internal" href="corerulebook.spells.alarm.html#corerulebook-spells-alarm-alarm"><span class="std std-ref">alarm</span></a>, but reacting only to invisible creatures.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.refineimprovisedweapon.html#advancedclassguide-spells-refineimprovisedweapon"><span class="std std-ref">Refine Improvised Weapon</span></a>: Transform improvised weapon into a masterwork simple or martial weapon.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.thornjavelin.html#advancedclassguide-spells-thornjavelin"><span class="std std-ref">Thorn Javelin</span></a>: Wield a javelin that sickens opponents when it strikes.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.thunderstomp.html#advancedclassguide-spells-thunderstomp"><span class="std std-ref">Thunderstomp</span></a>: Trip one creature within range.</p>
+</div>
+<div class="section" id="nd-level-ranger-spells">
+<span id="advancedclassguide-spells-spelllists-2nd-level-ranger-spells"></span><h3><a class="toc-backref" href="#id82">2nd-Level Ranger Spells</a><a class="headerlink" href="#nd-level-ranger-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.airstep.html#advancedclassguide-spells-airstep"><span class="std std-ref">Air Step</span></a>: Tread unsteadily on air, with limitations.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.bulletward.html#advancedclassguide-spells-bulletward"><span class="std std-ref">Bullet Ward</span></a><sup>F</sup>: Adamantine bullets intercept firearm attacks.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.companionlifelink.html#advancedclassguide-spells-companionlifelink"><span class="std std-ref">Companion Life Link</span></a>: Sense whenever your companion is wounded and call out to it in a time of need.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.enemyinsight.html#advancedclassguide-spells-enemyinsight"><span class="std std-ref">Enemy Insight</span></a>: Grant others a bonus against your favored enemies.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.shieldcompanion.html#advancedclassguide-spells-shieldcompanion"><span class="std std-ref">Shield Companion</span></a>: As <a class="reference internal" href="corerulebook.spells.shieldother.html#corerulebook-spells-shieldother-shield-other"><span class="std std-ref">shield other</span></a>, but affecting your companion creature.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.sickeningentanglement.html#advancedclassguide-spells-sickeningentanglement"><span class="std std-ref">Sickening Entanglement</span></a>: As <a class="reference internal" href="corerulebook.spells.entangle.html#corerulebook-spells-entangle-entangle"><span class="std std-ref">entangle</span></a>, but plants have sickening sap.</p>
+</div>
+<div class="section" id="rd-level-ranger-spells">
+<span id="advancedclassguide-spells-spelllists-3rd-level-ranger-spells"></span><h3><a class="toc-backref" href="#id83">3rd-Level Ranger Spells</a><a class="headerlink" href="#rd-level-ranger-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.chameleonstride.html#advancedclassguide-spells-chameleonstride"><span class="std std-ref">Chameleon Stride, Greater</span></a>: As <a class="reference internal" href="advancedplayersguide.spells.chameleonstride.html#advancedplayersguide-spells-chameleonstride-chameleon-stride"><span class="std std-ref">chameleon stride</span></a>, but affecting all nearby creatures.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.longstrider.html#advancedclassguide-spells-longstrider"><span class="std std-ref">Longstrider, Greater</span></a>: As <a class="reference internal" href="corerulebook.spells.longstrider.html#corerulebook-spells-longstrider-longstrider"><span class="std std-ref">longstrider</span></a>, plus the speeds of other movement modes increase.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.stenchofprey.html#advancedclassguide-spells-stenchofprey"><span class="std std-ref">Stench of Prey</span></a>: Predatory animals must successfully save or attack the target.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.thornyentanglement.html#advancedclassguide-spells-thornyentanglement"><span class="std std-ref">Thorny Entanglement</span></a>: As <a class="reference internal" href="corerulebook.spells.entangle.html#corerulebook-spells-entangle-entangle"><span class="std std-ref">entangle</span></a>, plus plants make ranged attacks.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.thunderstomp.html#advancedclassguide-spells-thunderstomp"><span class="std std-ref">Thunderstomp, Greater</span></a>: Trip multiple creatures within range.</p>
+</div>
+</div>
+<div class="section" id="shaman-spells">
+<span id="advancedclassguide-spells-spelllists-shaman-spells"></span><h2><a class="toc-backref" href="#id84">Shaman Spells</a><a class="headerlink" href="#shaman-spells" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="st-level-shaman-spells">
+<span id="advancedclassguide-spells-spelllists-1st-level-shaman-spells"></span><h3><a class="toc-backref" href="#id85">1st-Level Shaman Spells</a><a class="headerlink" href="#st-level-shaman-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.discernnextofkin.html#advancedclassguide-spells-discernnextofkin"><span class="std std-ref">Discern Next of Kin</span></a>: Read the target’s mind to learn about its family.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.gentlebreeze.html#advancedclassguide-spells-gentlebreeze"><span class="std std-ref">Gentle Breeze</span></a>: Light wind protects one target from clouds, gases, heat, and vapors.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.heightenedawareness.html#advancedclassguide-spells-heightenedawareness"><span class="std std-ref">Heightened Awareness</span></a>: Your recall and ability to process information improve.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.hexvulnerability.html#advancedclassguide-spells-hexvulnerability"><span class="std std-ref">Hex Vulnerability</span></a>: Reuse a hex on a specific target.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.monkeyfish.html#advancedclassguide-spells-monkeyfish"><span class="std std-ref">Monkey Fish</span></a>: Gain a climb speed and a swim speed of 10 ft. for a time.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.sensespiritmagic.html#advancedclassguide-spells-sensespiritmagic"><span class="std std-ref">Sense Spirit Magic</span></a>: Gain bonuses on identifying and resisting spells associated with your spirits.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.thornjavelin.html#advancedclassguide-spells-thornjavelin"><span class="std std-ref">Thorn Javelin</span></a>: Wield a javelin that sickens opponents when it strikes.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.waveshield.html#advancedclassguide-spells-waveshield"><span class="std std-ref">Wave Shield</span></a>: Water blunts one incoming attack or fire effect.</p>
+</div>
+<div class="section" id="nd-level-shaman-spells">
+<span id="advancedclassguide-spells-spelllists-2nd-level-shaman-spells"></span><h3><a class="toc-backref" href="#id86">2nd-Level Shaman Spells</a><a class="headerlink" href="#nd-level-shaman-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.animalpurposetraining.html#advancedclassguide-spells-animalpurposetraining"><span class="std std-ref">Animal Purpose Training</span></a>: Animal gains a new general purpose.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.beastspeak.html#advancedclassguide-spells-beastspeak"><span class="std std-ref">Beastspeak</span></a>: Speak normally while in animal form.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.buoyancy.html#advancedclassguide-spells-buoyancy"><span class="std std-ref">Buoyancy</span></a>: Targets easily float on water.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.focusedscrutiny.html#advancedclassguide-spells-focusedscrutiny"><span class="std std-ref">Focused Scrutiny</span></a>: Gain skill bonuses when interacting with the target.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.lifepact.html#advancedclassguide-spells-lifepact"><span class="std std-ref">Life Pact</span></a>: Affected creatures automatically donate hp to stabilize fallen ally.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.shieldcompanion.html#advancedclassguide-spells-shieldcompanion"><span class="std std-ref">Shield Companion</span></a>: As <a class="reference internal" href="corerulebook.spells.shieldother.html#corerulebook-spells-shieldother-shield-other"><span class="std std-ref">shield other</span></a>, but affecting your companion creature.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.sickeningentanglement.html#advancedclassguide-spells-sickeningentanglement"><span class="std std-ref">Sickening Entanglement</span></a>: As <a class="reference internal" href="corerulebook.spells.entangle.html#corerulebook-spells-entangle-entangle"><span class="std std-ref">entangle</span></a>, but plants have sickening sap.</p>
+</div>
+<div class="section" id="rd-level-shaman-spells">
+<span id="advancedclassguide-spells-spelllists-3rd-level-shaman-spells"></span><h3><a class="toc-backref" href="#id87">3rd-Level Shaman Spells</a><a class="headerlink" href="#rd-level-shaman-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.anchoredstep.html#advancedclassguide-spells-anchoredstep"><span class="std std-ref">Anchored Step</span></a>: Vines beneath your feet stabilize you but slow you down.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.aurasight.html#advancedclassguide-spells-aurasight"><span class="std std-ref">Aura Sight</span></a>: Alignment auras become visible to you.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.fontofspiritmagic.html#advancedclassguide-spells-fontofspiritmagic"><span class="std std-ref">Font of Spirit Magic</span></a><sup>M</sup>: When allies cast your spirit’s spells, they gain other bonuses.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.hexglyph.html#advancedclassguide-spells-hexglyph"><span class="std std-ref">Hex Glyph</span></a><sup>M</sup>: Inscription casts your hex on those who pass it.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.mantleofcalm.html#advancedclassguide-spells-mantleofcalm"><span class="std std-ref">Mantle of Calm</span></a>: Neutralize the rage effects of those who have attacked you.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.mindlockedmessenger.html#advancedclassguide-spells-mindlockedmessenger"><span class="std std-ref">Mindlocked Messenger</span></a>: Target gains a message that can be given only to its intended recipient.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.nauseatingtrail.html#advancedclassguide-spells-nauseatingtrail"><span class="std std-ref">Nauseating Trail</span></a>&gt;: Creature leaves a trail of <a class="reference internal" href="corerulebook.spells.stinkingcloud.html#corerulebook-spells-stinkingcloud-stinking-cloud"><span class="std std-ref">stinking cloud</span></a> squares.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.piercedisguise.html#advancedclassguide-spells-piercedisguise"><span class="std std-ref">Pierce Disguise</span></a>: See through low-level magical disguises.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.polymorphfamiliar.html#advancedclassguide-spells-polymorphfamiliar"><span class="std std-ref">Polymorph Familiar</span></a>: Give your familiar the shape of another animal.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.speakwithhaunt.html#advancedclassguide-spells-speakwithhaunt"><span class="std std-ref">Speak with Haunt</span></a>: Haunt answers one question/2 levels.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.stenchofprey.html#advancedclassguide-spells-stenchofprey"><span class="std std-ref">Stench of Prey</span></a>: Predatory animals must successfully save or attack the target.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.strickenheart.html#advancedclassguide-spells-strickenheart"><span class="std std-ref">Stricken Heart</span></a>: Touch attack deals 2d6 damage and staggers target.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.thornyentanglement.html#advancedclassguide-spells-thornyentanglement"><span class="std std-ref">Thorny Entanglement</span></a>: As <a class="reference internal" href="corerulebook.spells.entangle.html#corerulebook-spells-entangle-entangle"><span class="std std-ref">entangle</span></a>, plus plants make ranged attacks.</p>
+</div>
+<div class="section" id="th-level-shaman-spells">
+<span id="advancedclassguide-spells-spelllists-4th-level-shaman-spells"></span><h3><a class="toc-backref" href="#id88">4th-Level Shaman Spells</a><a class="headerlink" href="#th-level-shaman-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.adjustablepolymorph.html#advancedclassguide-spells-adjustablepolymorph"><span class="std std-ref">Adjustable Polymorph</span></a>: As <a class="reference internal" href="corerulebook.spells.alterself.html#corerulebook-spells-alterself-alter-self"><span class="std std-ref">alter self</span></a>, but you can change the shape as a swift action.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.airgeyser.html#advancedclassguide-spells-airgeyser"><span class="std std-ref">Air Geyser</span></a>: Blast of air deals 2d6 bludgeoning damage and knocks opponent upward.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.antiincorporealshell.html#advancedclassguide-spells-antiincorporealshell"><span class="std std-ref">Anti-Incorporeal Shell</span></a>: Incorporeal creatures stay 10 ft. away from you.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.curseofburningsleep.html#advancedclassguide-spells-curseofburningsleep"><span class="std std-ref">Curse of Burning Sleep</span></a>: Creature catches fire the next time it sleeps for an hour.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.persistentvigor.html#advancedclassguide-spells-persistentvigor"><span class="std std-ref">Persistent Vigor</span></a>: Gain fast healing 2, immunity to bleed, and faster recovery from diseases and poisons.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.slowingmud.html#advancedclassguide-spells-slowingmud"><span class="std std-ref">Slowing Mud</span></a>: Targets are covered in mud that blinds them and acts like <a class="reference internal" href="corerulebook.spells.slow.html#corerulebook-spells-slow-slow"><span class="std std-ref">slow</span></a>.</p>
+</div>
+<div class="section" id="advancedclassguide-spells-spelllists-5th-level-shaman-spells">
+<span id="id12"></span><h3><a class="toc-backref" href="#id89">5th-Level Shaman Spells</a><a class="headerlink" href="#advancedclassguide-spells-spelllists-5th-level-shaman-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.feastonfear.html#advancedclassguide-spells-feastonfear"><span class="std std-ref">Feast on Fear</span></a>: Targets are panicked, and you gain temporary hit points.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.hexglyph.html#advancedclassguide-spells-hexglyph"><span class="std std-ref">Hex Glyph, Greater</span></a><sup>M</sup>: Inscription casts your hex or major hex on those who pass it.</p>
+</div>
+<div class="section" id="advancedclassguide-spells-spelllists-7th-level-shaman-spells">
+<span id="id13"></span><h3><a class="toc-backref" href="#id90">7th-Level Shaman Spells</a><a class="headerlink" href="#advancedclassguide-spells-spelllists-7th-level-shaman-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.fairyringretreat.html#advancedclassguide-spells-fairyringretreat"><span class="std std-ref">Fairy Ring Retreat</span></a>: Toadstool circle leads to an extradimensional meadow.</p>
+</div>
+</div>
+<div class="section" id="sorcerer-wizard-spells">
+<span id="advancedclassguide-spells-spelllists-sorcerer-wizard-spells"></span><h2><a class="toc-backref" href="#id91">Sorcerer/Wizard Spells</a><a class="headerlink" href="#sorcerer-wizard-spells" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="st-level-sorcerer-wizard-spells">
+<span id="advancedclassguide-spells-spelllists-1st-level-sorcerer-wizard-spells"></span><h3><a class="toc-backref" href="#id92">1st-Level Sorcerer/Wizard Spells</a><a class="headerlink" href="#st-level-sorcerer-wizard-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.adhesivespittle.html#advancedclassguide-spells-adhesivespittle"><span class="std std-ref">Adhesive Spittle</span></a>: Spit a tanglefoot bag at a creature.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.altermusicalinstrument.html#advancedclassguide-spells-altermusicalinstrument"><span class="std std-ref">Alter Musical Instrument</span></a>&gt;<sup>F</sup>: Make one instrument sound like a different kind of instrument.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.blurredmovement.html#advancedclassguide-spells-blurredmovement"><span class="std std-ref">Blurred Movement</span></a>: As <a class="reference internal" href="corerulebook.spells.blur.html#corerulebook-spells-blur-blur"><span class="std std-ref">blur</span></a>, but only while you are moving.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.bodycapacitance.html#advancedclassguide-spells-bodycapacitance"><span class="std std-ref">Body Capacitance</span></a>: Store electricity attacks used against you and release the energy as a touch attack.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.discernnextofkin.html#advancedclassguide-spells-discernnextofkin"><span class="std std-ref">Discern Next of Kin</span></a>: Read the target’s mind to learn about its family.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.disguiseweapon.html#advancedclassguide-spells-disguiseweapon"><span class="std std-ref">Disguise Weapon</span></a>: Changes one weapon’s appearance.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.gentlebreeze.html#advancedclassguide-spells-gentlebreeze"><span class="std std-ref">Gentle Breeze</span></a>: Light wind protects one target from clouds, gases, heat, and vapors.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.glueseal.html#advancedclassguide-spells-glueseal"><span class="std std-ref">Glue Seal</span></a>: Makes one 5-ft. square or one object sticky.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.heightenedawareness.html#advancedclassguide-spells-heightenedawareness"><span class="std std-ref">Heightened Awareness</span></a>: Your recall and ability to process information improve.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.invisibilityalarm.html#advancedclassguide-spells-invisibilityalarm"><span class="std std-ref">Invisibility Alarm</span></a>: As <a class="reference internal" href="corerulebook.spells.alarm.html#corerulebook-spells-alarm-alarm"><span class="std std-ref">alarm</span></a>, but reacting only to invisible creatures.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.lineinthesand.html#advancedclassguide-spells-lineinthesand"><span class="std std-ref">Line in the Sand</span></a>: Increase your attacks of opportunity per round.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.longarm.html#advancedclassguide-spells-longarm"><span class="std std-ref">Long Arm</span></a>: Your arms lengthen, giving you extra reach.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.memorizepage.html#advancedclassguide-spells-memorizepage"><span class="std std-ref">Memorize Page</span></a><sup>F</sup>: Target perfectly memorizes one page of information.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.mirrorpolish.html#advancedclassguide-spells-mirrorpolish"><span class="std std-ref">Mirror Polish</span></a>: Polish a metal item until it’s usable as a mirror.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.monkeyfish.html#advancedclassguide-spells-monkeyfish"><span class="std std-ref">Monkey Fish</span></a>: Gain a climb speed and a swim speed of 10 ft. for a time.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.phantomblood.html#advancedclassguide-spells-phantomblood"><span class="std std-ref">Phantom Blood</span></a>: Gain temporary hp if Con loss would knock you out or kill you.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.refineimprovisedweapon.html#advancedclassguide-spells-refineimprovisedweapon"><span class="std std-ref">Refine Improvised Weapon</span></a>: Transform improvised weapon into a masterwork simple or martial weapon.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.repairundead.html#advancedclassguide-spells-repairundead"><span class="std std-ref">Repair Undead</span></a>: Heals one undead of 1d8 hp + 1/level (max +5).</p>
+<p><a class="reference internal" href="advancedclassguide.spells.stunningbarrier.html#advancedclassguide-spells-stunningbarrier"><span class="std std-ref">Stunning Barrier</span></a>: Magical field grants a +1 bonus to AC and on saves, and stuns one creature attacking you.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.sunderbreaker.html#advancedclassguide-spells-sunderbreaker"><span class="std std-ref">Sunder Breaker</span></a>: The next weapon that sunders an item belonging to the target takes damage.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.sunderingshards.html#advancedclassguide-spells-sunderingshards"><span class="std std-ref">Sundering Shards</span></a>: Sundered item explodes, dealing 1d6 damage to adjacent creatures.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.thunderstomp.html#advancedclassguide-spells-thunderstomp"><span class="std std-ref">Thunderstomp</span></a>: Trip one creature within range.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.waveshield.html#advancedclassguide-spells-waveshield"><span class="std std-ref">Wave Shield</span></a>: Water blunts one incoming attack or fire effect.</p>
+</div>
+<div class="section" id="nd-level-sorcerer-wizard-spells">
+<span id="advancedclassguide-spells-spelllists-2nd-level-sorcerer-wizard-spells"></span><h3><a class="toc-backref" href="#id93">2nd-Level Sorcerer/Wizard Spells</a><a class="headerlink" href="#nd-level-sorcerer-wizard-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.adhesiveblood.html#advancedclassguide-spells-adhesiveblood"><span class="std std-ref">Adhesive Blood</span></a>: Attackers’ weapons stick to your gluey blood.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.aggressivethundercloud.html#advancedclassguide-spells-aggressivethundercloud"><span class="std std-ref">Aggressive Thundercloud</span></a>: Flying storm cloud deals 3d6 electricity damage.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.airstep.html#advancedclassguide-spells-airstep"><span class="std std-ref">Air Step</span></a>: Tread unsteadily on air, with limitations.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.bloodarmor.html#advancedclassguide-spells-bloodarmor"><span class="std std-ref">Blood Armor</span></a>: Your blood hardens when you are wounded, increasing your AC.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.bulletward.html#advancedclassguide-spells-bulletward"><span class="std std-ref">Bullet Ward</span></a><sup>F</sup>: Adamantine bullets intercept firearm attacks.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.buoyancy.html#advancedclassguide-spells-buoyancy"><span class="std std-ref">Buoyancy</span></a>: Targets easily float on water.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.companionlifelink.html#advancedclassguide-spells-companionlifelink"><span class="std std-ref">Companion Life Link</span></a>: Sense whenever your companion is wounded and call out to it in a time of need.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.crimsonconfession.html#advancedclassguide-spells-crimsonconfession"><span class="std std-ref">Crimson Confession</span></a>: Touching the marked object or area turns one’s skin red.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.euphoriccloud.html#advancedclassguide-spells-euphoriccloud"><span class="std std-ref">Euphoric Cloud</span></a><sup>M</sup>: Fog obscures vision and fascinates living creatures.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.extremeflexibility.html#advancedclassguide-spells-extremeflexibility"><span class="std std-ref">Extreme Flexibility</span></a>: Gain a bonus to AC, on <a class="reference internal" href="corerulebook.skills.escapeartist.html#corerulebook-skills-escapeartist-escape-artist"><span class="std std-ref">Escape Artist</span></a> checks, and when grappling.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.investigativemind.html#advancedclassguide-spells-investigativemind"><span class="std std-ref">Investigative Mind</span></a>: Roll twice and take the higher roll when using certain mental skills.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.lifepact.html#advancedclassguide-spells-lifepact"><span class="std std-ref">Life Pact</span></a>: Affected creatures automatically donate hp to stabilize fallen ally.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.mirrorhideaway.html#advancedclassguide-spells-mirrorhideaway"><span class="std std-ref">Mirror Hideaway</span></a>: As many as eight creatures hide in an extradimensional space.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.moltenorb.html#advancedclassguide-spells-moltenorb"><span class="std std-ref">Molten Orb</span></a>: Molten metal splash weapon deals 2d6 fire damage plus ongoing damage.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.riverwhip.html#advancedclassguide-spells-riverwhip"><span class="std std-ref">River Whip</span></a>: Create a whip of water that you wield as a weapon.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.silenttable.html#advancedclassguide-spells-silenttable"><span class="std std-ref">Silent Table</span></a>: Give yourself privacy by muffling sound leaving the area.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.sonicscream.html#advancedclassguide-spells-sonicscream"><span class="std std-ref">Sonic Scream</span></a>: Create a cone of damaging sound at will.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.stonediscus.html#advancedclassguide-spells-stonediscus"><span class="std std-ref">Stone Discus</span></a>: Flying discus deals bludgeoning or slashing damage.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.strickenheart.html#advancedclassguide-spells-strickenheart"><span class="std std-ref">Stricken Heart</span></a>: Touch attack deals 2d6 damage and staggers target.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.timeshudder.html#advancedclassguide-spells-timeshudder"><span class="std std-ref">Time Shudder</span></a>: Nearby creatures are affected by <a class="reference internal" href="corerulebook.spells.haste.html#corerulebook-spells-haste-haste"><span class="std std-ref">haste</span></a> or <a class="reference internal" href="corerulebook.spells.slow.html#corerulebook-spells-slow-slow"><span class="std std-ref">slow</span></a> each round.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.twilighthaze.html#advancedclassguide-spells-twilighthaze"><span class="std std-ref">Twilight Haze</span></a>: Illusory fog obscures vision.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.whipofspiders.html#advancedclassguide-spells-whipofspiders"><span class="std std-ref">Whip of Spiders</span></a>: Create a whip made of poisonous spiders.</p>
+</div>
+<div class="section" id="rd-level-sorcerer-wizard-spells">
+<span id="advancedclassguide-spells-spelllists-3rd-level-sorcerer-wizard-spells"></span><h3><a class="toc-backref" href="#id94">3rd-Level Sorcerer/Wizard Spells</a><a class="headerlink" href="#rd-level-sorcerer-wizard-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.adjustabledisguise.html#advancedclassguide-spells-adjustabledisguise"><span class="std std-ref">Adjustable Disguise</span></a>: As <a class="reference internal" href="corerulebook.spells.disguiseself.html#corerulebook-spells-disguiseself-disguise-self"><span class="std std-ref">disguise self</span></a>, but you can change the disguise as a swift action.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.airgeyser.html#advancedclassguide-spells-airgeyser"><span class="std std-ref">Air Geyser</span></a>: Blast of air deals 2d6 bludgeoning damage and knocks opponent upward.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.anchoredstep.html#advancedclassguide-spells-anchoredstep"><span class="std std-ref">Anchored Step</span></a>: Vines beneath your feet stabilize you but slow you down.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.aurasight.html#advancedclassguide-spells-aurasight"><span class="std std-ref">Aura Sight</span></a>: Alignment auras become visible to you.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.barrowhaze.html#advancedclassguide-spells-barrowhaze"><span class="std std-ref">Barrow Haze</span></a>: Fog obscures the vision of others and extends the range of your hexes.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.bloodsentinel.html#advancedclassguide-spells-bloodsentinel"><span class="std std-ref">Blood Sentinel</span></a><sup>M</sup>: Animate an animal sculpture to be your temporary familiar.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.contingentaction.html#advancedclassguide-spells-contingentaction"><span class="std std-ref">Contingent Action</span></a>: Set the condition for triggering a target’s readied standard, move, or swift action.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.disableconstruct.html#advancedclassguide-spells-disableconstruct"><span class="std std-ref">Disable Construct</span></a>: Touch attack makes a construct helpless for 1 round/level.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.heartofthemetal.html#advancedclassguide-spells-heartofthemetal"><span class="std std-ref">Heart of the Metal</span></a><sup>M</sup>: Enable weapons to overcome DR like adamantine, cold iron, or silver.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.mindlockedmessenger.html#advancedclassguide-spells-mindlockedmessenger"><span class="std std-ref">Mindlocked Messenger</span></a>: Target gains a message that can be given only to its intended recipient.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.nauseatingtrail.html#advancedclassguide-spells-nauseatingtrail"><span class="std std-ref">Nauseating Trail</span></a>&gt;: Creature leaves a trail of <a class="reference internal" href="corerulebook.spells.stinkingcloud.html#corerulebook-spells-stinkingcloud-stinking-cloud"><span class="std std-ref">stinking cloud</span></a> squares.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.piercedisguise.html#advancedclassguide-spells-piercedisguise"><span class="std std-ref">Pierce Disguise</span></a>: See through low-level magical disguises.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.polymorphfamiliar.html#advancedclassguide-spells-polymorphfamiliar"><span class="std std-ref">Polymorph Familiar</span></a>: Give your familiar the shape of another animal.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.shieldcompanion.html#advancedclassguide-spells-shieldcompanion"><span class="std std-ref">Shield Companion</span></a>: As <a class="reference internal" href="corerulebook.spells.shieldother.html#corerulebook-spells-shieldother-shield-other"><span class="std std-ref">shield other</span></a>, but affecting your companion creature.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.silverdarts.html#advancedclassguide-spells-silverdarts"><span class="std std-ref">Silver Darts</span></a>: Cone of silver darts deals 1d6 piercing damage/level, less against armored targets.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.stunningbarrier.html#advancedclassguide-spells-stunningbarrier"><span class="std std-ref">Stunning Barrier, Greater</span></a>: Magical field grants a +2 bonus to AC and on saves, and stuns multiple creatures attacking you.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.thunderstomp.html#advancedclassguide-spells-thunderstomp"><span class="std std-ref">Thunderstomp, Greater</span></a>: Trip multiple creatures within range.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.unlivingrage.html#advancedclassguide-spells-unlivingrage"><span class="std std-ref">Unliving Rage</span></a>: As <a class="reference internal" href="corerulebook.spells.rage.html#corerulebook-spells-rage-rage"><span class="std std-ref">rage</span></a>, except affecting only undead.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.wallofnausea.html#advancedclassguide-spells-wallofnausea"><span class="std std-ref">Wall of Nausea</span></a>: Creatures that pass through the wall are nauseated and might fall prone.</p>
+</div>
+<div class="section" id="th-level-sorcerer-wizard-spells">
+<span id="advancedclassguide-spells-spelllists-4th-level-sorcerer-wizard-spells"></span><h3><a class="toc-backref" href="#id95">4th-Level Sorcerer/Wizard Spells</a><a class="headerlink" href="#th-level-sorcerer-wizard-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.adjustablepolymorph.html#advancedclassguide-spells-adjustablepolymorph"><span class="std std-ref">Adjustable Polymorph</span></a>: As <a class="reference internal" href="corerulebook.spells.alterself.html#corerulebook-spells-alterself-alter-self"><span class="std std-ref">alter self</span></a>, but you can change the shape as a swift action.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.aggressivethundercloud.html#advancedclassguide-spells-aggressivethundercloud"><span class="std std-ref">Aggressive Thundercloud, Greater</span></a>: Flying storm cloud deals 6d6 electricity damage.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.bloatbomb.html#advancedclassguide-spells-bloatbomb"><span class="std std-ref">Bloatbomb</span></a>: Kill a weak creature and turn its corpse into an explosive trap.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.contingentscroll.html#advancedclassguide-spells-contingentscroll"><span class="std std-ref">Contingent Scroll</span></a><sup>F, M</sup>: Transfer a scroll’s power to the target; the scroll is then triggered as <a class="reference internal" href="corerulebook.spells.contingency.html#corerulebook-spells-contingency-contingency"><span class="std std-ref">contingency</span></a>.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.creepingice.html#advancedclassguide-spells-creepingice"><span class="std std-ref">Creeping Ice</span></a>: Sheet of ice slowly spreads outward on a horizontal surface.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.curseofburningsleep.html#advancedclassguide-spells-curseofburningsleep"><span class="std std-ref">Curse of Burning Sleep</span></a>: Creature catches fire the next time it sleeps for an hour.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.enchantmentfoil.html#advancedclassguide-spells-enchantmentfoil"><span class="std std-ref">Enchantment Foil</span></a>: Trick opponents who try to cast enchantments on you.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.eyesofthevoid.html#advancedclassguide-spells-eyesofthevoid"><span class="std std-ref">Eyes of the Void</span></a>: See 60 ft. in darkness, including magical darkness.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.flamingsphere.html#advancedclassguide-spells-flamingsphere"><span class="std std-ref">Flaming Sphere, Greater</span></a>: Rolling ball of fire deals 6d6 fire damage and ignites targets.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.mirrortransport.html#advancedclassguide-spells-mirrortransport"><span class="std std-ref">Mirror Transport</span></a>: Mirror becomes a multiple-use <a class="reference internal" href="corerulebook.spells.dimensiondoor.html#corerulebook-spells-dimensiondoor-dimension-door"><span class="std std-ref">dimension door</span></a>.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.spellcrash.html#advancedclassguide-spells-spellcrash"><span class="std std-ref">Spellcrash, Lesser</span></a>: Target loses a 3rd-level prepared spell or spell slot.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.symboloflaughter.html#advancedclassguide-spells-symboloflaughter"><span class="std std-ref">Symbol of Laughter</span></a><sup>M</sup>: Triggered rune makes nearby creatures lose actions for 1 round/level.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.triggeredsuggestion.html#advancedclassguide-spells-triggeredsuggestion"><span class="std std-ref">Triggered Suggestion</span></a>: As <a class="reference internal" href="corerulebook.spells.suggestion.html#corerulebook-spells-suggestion-suggestion"><span class="std std-ref">suggestion</span></a>, but triggered only and target doesn’t remember the suggestion.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.unbearablebrightness.html#advancedclassguide-spells-unbearablebrightness"><span class="std std-ref">Unbearable Brightness</span></a>: Your glowing body dazzles or blinds others.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.wallofblindnessdeafness.html#advancedclassguide-spells-wallofblindnessdeafness"><span class="std std-ref">Wall of Blindness/Deafness</span></a>: Translucent wall blinds or deafens creatures that pass through it.</p>
+</div>
+<div class="section" id="advancedclassguide-spells-spelllists-5th-level-sorcerer-wizard-spells">
+<span id="id14"></span><h3><a class="toc-backref" href="#id96">5th-Level Sorcerer/Wizard Spells</a><a class="headerlink" href="#advancedclassguide-spells-spelllists-5th-level-sorcerer-wizard-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.feastonfear.html#advancedclassguide-spells-feastonfear"><span class="std std-ref">Feast on Fear</span></a>: Targets are panicked, and you gain temporary hit points.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.repairundead.html#advancedclassguide-spells-repairundead"><span class="std std-ref">Repair Undead, Mass</span></a>: Heals undead of 1d8 hp + 1/level; affects 1 undead/level.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.vampiricshadowshield.html#advancedclassguide-spells-vampiricshadowshield"><span class="std std-ref">Vampiric Shadow Shield</span></a>: As <a class="reference internal" href="corerulebook.spells.fireshield.html#corerulebook-spells-fireshield-fire-shield"><span class="std std-ref">fire shield</span></a>, except attackers take negative energy damage and attacks heal you.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.whipofcentipedes.html#advancedclassguide-spells-whipofcentipedes"><span class="std std-ref">Whip of Centipedes</span></a>: Create a whip made of poisonous centipedes.</p>
+</div>
+<div class="section" id="advancedclassguide-spells-spelllists-6th-level-sorcerer-wizard-spells">
+<span id="id15"></span><h3><a class="toc-backref" href="#id97">6th-Level Sorcerer/Wizard Spells</a><a class="headerlink" href="#advancedclassguide-spells-spelllists-6th-level-sorcerer-wizard-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.bansheeblast.html#advancedclassguide-spells-bansheeblast"><span class="std std-ref">Banshee Blast</span></a>: Cone deals 1d4 per level and panics creatures.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.sonicform.html#advancedclassguide-spells-sonicform"><span class="std std-ref">Sonic Form</span></a>: Turn yourself into a creature of semisolid sound.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.spellcrash.html#advancedclassguide-spells-spellcrash"><span class="std std-ref">Spellcrash</span></a>: Target loses a 5th-level prepared spell or spell slot.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.whipofants.html#advancedclassguide-spells-whipofants"><span class="std std-ref">Whip of Ants</span></a>: Create a whip made of army ants.</p>
+</div>
+<div class="section" id="advancedclassguide-spells-spelllists-7th-level-sorcerer-wizard-spells">
+<span id="id16"></span><h3><a class="toc-backref" href="#id98">7th-Level Sorcerer/Wizard Spells</a><a class="headerlink" href="#advancedclassguide-spells-spelllists-7th-level-sorcerer-wizard-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.dimensionalbounce.html#advancedclassguide-spells-dimensionalbounce"><span class="std std-ref">Dimensional Bounce</span></a>: Teleport multiple times between two designated locations.</p>
+</div>
+<div class="section" id="advancedclassguide-spells-spelllists-8th-level-sorcerer-wizard-spells">
+<span id="id17"></span><h3><a class="toc-backref" href="#id99">8th-Level Sorcerer/Wizard Spells</a><a class="headerlink" href="#advancedclassguide-spells-spelllists-8th-level-sorcerer-wizard-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.spellcrash.html#advancedclassguide-spells-spellcrash"><span class="std std-ref">Spellcrash, Greater</span></a>: Target loses a 7th-level prepared spell or spell slot.</p>
+</div>
+</div>
+<div class="section" id="summoner-spells">
+<span id="advancedclassguide-spells-spelllists-summoner-spells"></span><h2><a class="toc-backref" href="#id100">Summoner Spells</a><a class="headerlink" href="#summoner-spells" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="st-level-summoner-spells">
+<span id="advancedclassguide-spells-spelllists-1st-level-summoner-spells"></span><h3><a class="toc-backref" href="#id101">1st-Level Summoner Spells</a><a class="headerlink" href="#st-level-summoner-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.blurredmovement.html#advancedclassguide-spells-blurredmovement"><span class="std std-ref">Blurred Movement</span></a>: As <a class="reference internal" href="corerulebook.spells.blur.html#corerulebook-spells-blur-blur"><span class="std std-ref">blur</span></a>, but only while you are moving.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.glueseal.html#advancedclassguide-spells-glueseal"><span class="std std-ref">Glue Seal</span></a>: Makes one 5-ft.-square or one object sticky.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.longarm.html#advancedclassguide-spells-longarm"><span class="std std-ref">Long Arm</span></a>: Your arms lengthen, giving you extra reach.</p>
+</div>
+<div class="section" id="nd-level-summoner-spells">
+<span id="advancedclassguide-spells-spelllists-2nd-level-summoner-spells"></span><h3><a class="toc-backref" href="#id102">2nd-Level Summoner Spells</a><a class="headerlink" href="#nd-level-summoner-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.bloodarmor.html#advancedclassguide-spells-bloodarmor"><span class="std std-ref">Blood Armor</span></a>: Your blood hardens when you are wounded, increasing your AC.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.timeshudder.html#advancedclassguide-spells-timeshudder"><span class="std std-ref">Time Shudder</span></a>: Nearby creatures are affected by <a class="reference internal" href="corerulebook.spells.haste.html#corerulebook-spells-haste-haste"><span class="std std-ref">haste</span></a> or <a class="reference internal" href="corerulebook.spells.slow.html#corerulebook-spells-slow-slow"><span class="std std-ref">slow</span></a> each round.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.whipofspiders.html#advancedclassguide-spells-whipofspiders"><span class="std std-ref">Whip of Spiders</span></a>: Create a whip made of poisonous spiders.</p>
+</div>
+<div class="section" id="rd-level-summoner-spells">
+<span id="advancedclassguide-spells-spelllists-3rd-level-summoner-spells"></span><h3><a class="toc-backref" href="#id103">3rd-Level Summoner Spells</a><a class="headerlink" href="#rd-level-summoner-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.creepingice.html#advancedclassguide-spells-creepingice"><span class="std std-ref">Creeping Ice</span></a>: Sheet of ice slowly spreads outward on a horizontal surface.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.shieldcompanion.html#advancedclassguide-spells-shieldcompanion"><span class="std std-ref">Shield Companion</span></a>: As <a class="reference internal" href="corerulebook.spells.shieldother.html#corerulebook-spells-shieldother-shield-other"><span class="std std-ref">shield other</span></a>, but affecting your companion creature.</p>
+</div>
+<div class="section" id="th-level-summoner-spells">
+<span id="advancedclassguide-spells-spelllists-4th-level-summoner-spells"></span><h3><a class="toc-backref" href="#id104">4th-Level Summoner Spells</a><a class="headerlink" href="#th-level-summoner-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.adjustablepolymorph.html#advancedclassguide-spells-adjustablepolymorph"><span class="std std-ref">Adjustable Polymorph</span></a>: As <a class="reference internal" href="corerulebook.spells.alterself.html#corerulebook-spells-alterself-alter-self"><span class="std std-ref">alter self</span></a>, but you can change the shape as a swift action.</p>
+</div>
+<div class="section" id="advancedclassguide-spells-spelllists-5th-level-summoner-spells">
+<span id="id18"></span><h3><a class="toc-backref" href="#id105">5th-Level Summoner Spells</a><a class="headerlink" href="#advancedclassguide-spells-spelllists-5th-level-summoner-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.whipofcentipedes.html#advancedclassguide-spells-whipofcentipedes"><span class="std std-ref">Whip of Centipedes</span></a>: Create a whip made of poisonous centipedes.</p>
+</div>
+<div class="section" id="advancedclassguide-spells-spelllists-6th-level-summoner-spells">
+<span id="id19"></span><h3><a class="toc-backref" href="#id106">6th-Level Summoner Spells</a><a class="headerlink" href="#advancedclassguide-spells-spelllists-6th-level-summoner-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.dimensionalbounce.html#advancedclassguide-spells-dimensionalbounce"><span class="std std-ref">Dimensional Bounce</span></a>: Teleport multiple times between two designated locations.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.whipofants.html#advancedclassguide-spells-whipofants"><span class="std std-ref">Whip of Ants</span></a>: Create a whip made of army ants.</p>
+</div>
+</div>
+<div class="section" id="witch-spells">
+<span id="advancedclassguide-spells-spelllists-witch-spells"></span><h2><a class="toc-backref" href="#id107">Witch Spells</a><a class="headerlink" href="#witch-spells" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="st-level-witch-spells">
+<span id="advancedclassguide-spells-spelllists-1st-level-witch-spells"></span><h3><a class="toc-backref" href="#id108">1st-Level Witch Spells</a><a class="headerlink" href="#st-level-witch-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.adhesivespittle.html#advancedclassguide-spells-adhesivespittle"><span class="std std-ref">Adhesive Spittle</span></a>: Spit a tanglefoot bag at a creature.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.altermusicalinstrument.html#advancedclassguide-spells-altermusicalinstrument"><span class="std std-ref">Alter Musical Instrument</span></a>&gt;<sup>F</sup>: Make one instrument sound like a different kind of instrument.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.animalpurposetraining.html#advancedclassguide-spells-animalpurposetraining"><span class="std std-ref">Animal Purpose Training</span></a>: Animal gains a new general purpose.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.discernnextofkin.html#advancedclassguide-spells-discernnextofkin"><span class="std std-ref">Discern Next of Kin</span></a>: Read the target’s mind to learn about its family.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.disguiseweapon.html#advancedclassguide-spells-disguiseweapon"><span class="std std-ref">Disguise Weapon</span></a>: Changes one weapon’s appearance.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.gentlebreeze.html#advancedclassguide-spells-gentlebreeze"><span class="std std-ref">Gentle Breeze</span></a>: Light wind protects one target from clouds, gases, heat, and vapors.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.hexvulnerability.html#advancedclassguide-spells-hexvulnerability"><span class="std std-ref">Hex Vulnerability</span></a>: Reuse a hex on a specific target.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.longarm.html#advancedclassguide-spells-longarm"><span class="std std-ref">Long Arm</span></a>: Your arms lengthen, giving you extra reach.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.memorizepage.html#advancedclassguide-spells-memorizepage"><span class="std std-ref">Memorize Page</span></a><sup>F</sup>: Target perfectly memorizes one page of information.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.mirrorpolish.html#advancedclassguide-spells-mirrorpolish"><span class="std std-ref">Mirror Polish</span></a>: Polish a metal item until it’s usable as a mirror.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.nauseatingdart.html#advancedclassguide-spells-nauseatingdart"><span class="std std-ref">Nauseating Dart</span></a>: Poisonous stinger deals 1d2 damage and sickens target.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.sunderingshards.html#advancedclassguide-spells-sunderingshards"><span class="std std-ref">Sundering Shards</span></a>: Sundered item explodes, dealing 1d6 damage to adjacent creatures.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.waveshield.html#advancedclassguide-spells-waveshield"><span class="std std-ref">Wave Shield</span></a>: Water blunts one incoming attack or fire effect.</p>
+</div>
+<div class="section" id="nd-level-witch-spells">
+<span id="advancedclassguide-spells-spelllists-2nd-level-witch-spells"></span><h3><a class="toc-backref" href="#id109">2nd-Level Witch Spells</a><a class="headerlink" href="#nd-level-witch-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.adhesiveblood.html#advancedclassguide-spells-adhesiveblood"><span class="std std-ref">Adhesive Blood</span></a>: Attackers’ weapons stick to your blood.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.aggressivethundercloud.html#advancedclassguide-spells-aggressivethundercloud"><span class="std std-ref">Aggressive Thundercloud</span></a>: Flying storm cloud deals 3d6 electricity damage.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.airstep.html#advancedclassguide-spells-airstep"><span class="std std-ref">Air Step</span></a>: Tread unsteadily on air, with limitations.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.anonymousinteraction.html#advancedclassguide-spells-anonymousinteraction"><span class="std std-ref">Anonymous Interaction</span></a>: Creatures forget details about you and conversations with you.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.beastspeak.html#advancedclassguide-spells-beastspeak"><span class="std std-ref">Beastspeak</span></a>: Speak normally while in animal form.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.bloodarmor.html#advancedclassguide-spells-bloodarmor"><span class="std std-ref">Blood Armor</span></a>: Your blood hardens when you are wounded, increasing your AC.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.bulletward.html#advancedclassguide-spells-bulletward"><span class="std std-ref">Bullet Ward</span></a><sup>F</sup>: Adamantine bullets intercept firearm attacks.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.buoyancy.html#advancedclassguide-spells-buoyancy"><span class="std std-ref">Buoyancy</span></a>: Targets easily float on water.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.climbingbeanstalk.html#advancedclassguide-spells-climbingbeanstalk"><span class="std std-ref">Climbing Beanstalk</span></a>: Create a beanstalk that is very easy to climb.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.companionlifelink.html#advancedclassguide-spells-companionlifelink"><span class="std std-ref">Companion Life Link</span></a>: Sense whenever your companion is wounded and call out to it in a time of need.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.crimsonconfession.html#advancedclassguide-spells-crimsonconfession"><span class="std std-ref">Crimson Confession</span></a>: Touching the marked object or area turns one’s skin red.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.euphoriccloud.html#advancedclassguide-spells-euphoriccloud"><span class="std std-ref">Euphoric Cloud</span></a><sup>M</sup>: Fog obscures vision and fascinates living creatures.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.extremeflexibility.html#advancedclassguide-spells-extremeflexibility"><span class="std std-ref">Extreme Flexibility</span></a>: Gain a bonus to AC, on <a class="reference internal" href="corerulebook.skills.escapeartist.html#corerulebook-skills-escapeartist-escape-artist"><span class="std std-ref">Escape Artist</span></a> checks, and when grappling.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.investigativemind.html#advancedclassguide-spells-investigativemind"><span class="std std-ref">Investigative Mind</span></a>: Roll twice and take the higher roll when using certain mental skills.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.lifepact.html#advancedclassguide-spells-lifepact"><span class="std std-ref">Life Pact</span></a>: Affected creatures automatically donate hp to stabilize fallen ally.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.mirrorhideaway.html#advancedclassguide-spells-mirrorhideaway"><span class="std std-ref">Mirror Hideaway</span></a>: As many as eight creatures hide in an extradimensional space.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.moltenorb.html#advancedclassguide-spells-moltenorb"><span class="std std-ref">Molten Orb</span></a>: Molten metal splash weapon deals 2d6 fire damage plus ongoing damage.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.riverwhip.html#advancedclassguide-spells-riverwhip"><span class="std std-ref">River Whip</span></a>: Create a whip of water that you wield as a weapon.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.silenttable.html#advancedclassguide-spells-silenttable"><span class="std std-ref">Silent Table</span></a>: Give yourself privacy by muffling sound leaving the area.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.stonediscus.html#advancedclassguide-spells-stonediscus"><span class="std std-ref">Stone Discus</span></a>: Flying discus deals bludgeoning or slashing damage.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.strickenheart.html#advancedclassguide-spells-strickenheart"><span class="std std-ref">Stricken Heart</span></a>: Touch attack deals 2d6 damage and staggers target.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.twilighthaze.html#advancedclassguide-spells-twilighthaze"><span class="std std-ref">Twilight Haze</span></a>: Illusory fog obscures vision.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.whipofspiders.html#advancedclassguide-spells-whipofspiders"><span class="std std-ref">Whip of Spiders</span></a>: Create a whip made of poisonous spiders.</p>
+</div>
+<div class="section" id="rd-level-witch-spells">
+<span id="advancedclassguide-spells-spelllists-3rd-level-witch-spells"></span><h3><a class="toc-backref" href="#id110">3rd-Level Witch Spells</a><a class="headerlink" href="#rd-level-witch-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.adjustabledisguise.html#advancedclassguide-spells-adjustabledisguise"><span class="std std-ref">Adjustable Disguise</span></a>: As <a class="reference internal" href="corerulebook.spells.disguiseself.html#corerulebook-spells-disguiseself-disguise-self"><span class="std std-ref">disguise self</span></a>, but you can change the disguise as a swift action.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.airgeyser.html#advancedclassguide-spells-airgeyser"><span class="std std-ref">Air Geyser</span></a>: Blast of air deals 2d6 bludgeoning damage and knocks opponent upward.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.anchoredstep.html#advancedclassguide-spells-anchoredstep"><span class="std std-ref">Anchored Step</span></a>: Vines beneath your feet stabilize you but slow you down.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.aurasight.html#advancedclassguide-spells-aurasight"><span class="std std-ref">Aura Sight</span></a>: Alignment auras become visible to you.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.barrowhaze.html#advancedclassguide-spells-barrowhaze"><span class="std std-ref">Barrow Haze</span></a>: Fog obscures the vision of others and extends the range of your hexes.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.disableconstruct.html#advancedclassguide-spells-disableconstruct"><span class="std std-ref">Disable Construct</span></a>: Touch attack makes a construct helpless for 1 round/level.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.heartofthemetal.html#advancedclassguide-spells-heartofthemetal"><span class="std std-ref">Heart of the Metal</span></a><sup>M</sup>: Enable weapons to overcome DR like adamantine, cold iron, or silver.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.hexglyph.html#advancedclassguide-spells-hexglyph"><span class="std std-ref">Hex Glyph</span></a><sup>M</sup>: Inscription casts your hex on those who pass it.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.mindlockedmessenger.html#advancedclassguide-spells-mindlockedmessenger"><span class="std std-ref">Mindlocked Messenger</span></a>: Target gains a message that can be given only to its intended recipient.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.nauseatingtrail.html#advancedclassguide-spells-nauseatingtrail"><span class="std std-ref">Nauseating Trail</span></a>&gt;: Creature leaves a trail of <a class="reference internal" href="corerulebook.spells.stinkingcloud.html#corerulebook-spells-stinkingcloud-stinking-cloud"><span class="std std-ref">stinking cloud</span></a> squares.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.piercedisguise.html#advancedclassguide-spells-piercedisguise"><span class="std std-ref">Pierce Disguise</span></a>: See through low-level magical disguises.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.polymorphfamiliar.html#advancedclassguide-spells-polymorphfamiliar"><span class="std std-ref">Polymorph Familiar</span></a>: Give your familiar the shape of another animal.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.silverdarts.html#advancedclassguide-spells-silverdarts"><span class="std std-ref">Silver Darts</span></a>: Cone of silver darts deals 1d6 piercing damage/level, more against unarmored targets.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.thornyentanglement.html#advancedclassguide-spells-thornyentanglement"><span class="std std-ref">Thorny Entanglement</span></a>: As <a class="reference internal" href="corerulebook.spells.entangle.html#corerulebook-spells-entangle-entangle"><span class="std std-ref">entangle</span></a>, plus plants make ranged attacks.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.unlivingrage.html#advancedclassguide-spells-unlivingrage"><span class="std std-ref">Unliving Rage</span></a>: As <a class="reference internal" href="corerulebook.spells.rage.html#corerulebook-spells-rage-rage"><span class="std std-ref">rage</span></a>, except affecting only undead.</p>
+</div>
+<div class="section" id="th-level-witch-spells">
+<span id="advancedclassguide-spells-spelllists-4th-level-witch-spells"></span><h3><a class="toc-backref" href="#id111">4th-Level Witch Spells</a><a class="headerlink" href="#th-level-witch-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.adjustablepolymorph.html#advancedclassguide-spells-adjustablepolymorph"><span class="std std-ref">Adjustable Polymorph</span></a>: As <a class="reference internal" href="corerulebook.spells.alterself.html#corerulebook-spells-alterself-alter-self"><span class="std std-ref">alter self</span></a>, but you can change the shape as a swift action.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.aggressivethundercloud.html#advancedclassguide-spells-aggressivethundercloud"><span class="std std-ref">Aggressive Thundercloud, Greater</span></a>: Flying storm cloud deals 6d6 electricity damage.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.antiincorporealshell.html#advancedclassguide-spells-antiincorporealshell"><span class="std std-ref">Anti-Incorporeal Shell</span></a>: Incorporeal creatures stay 10 ft. away from you.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.curseofburningsleep.html#advancedclassguide-spells-curseofburningsleep"><span class="std std-ref">Curse of Burning Sleep</span></a>: Creature catches fire the next time it sleeps for an hour.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.enchantmentfoil.html#advancedclassguide-spells-enchantmentfoil"><span class="std std-ref">Enchantment Foil</span></a>: Trick opponents who try to cast enchantments on you.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.mirrortransport.html#advancedclassguide-spells-mirrortransport"><span class="std std-ref">Mirror Transport</span></a>: Mirror becomes a multiple-use <a class="reference internal" href="corerulebook.spells.dimensiondoor.html#corerulebook-spells-dimensiondoor-dimension-door"><span class="std std-ref">dimension door</span></a>.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.persistentvigor.html#advancedclassguide-spells-persistentvigor"><span class="std std-ref">Persistent Vigor</span></a>: Gain fast healing 2, immunity to bleed, and faster recovery from diseases and poisons.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.speakwithhaunt.html#advancedclassguide-spells-speakwithhaunt"><span class="std std-ref">Speak with Haunt</span></a>: Haunt answers one question/2 levels.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.spellcrash.html#advancedclassguide-spells-spellcrash"><span class="std std-ref">Spellcrash, Lesser</span></a>: Target loses a 3rd-level prepared spell or spell slot.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.symboloflaughter.html#advancedclassguide-spells-symboloflaughter"><span class="std std-ref">Symbol of Laughter</span></a><sup>M</sup>: Triggered rune makes nearby creatures lose actions for 1 round/level.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.triggeredsuggestion.html#advancedclassguide-spells-triggeredsuggestion"><span class="std std-ref">Triggered Suggestion</span></a>: As <a class="reference internal" href="corerulebook.spells.suggestion.html#corerulebook-spells-suggestion-suggestion"><span class="std std-ref">suggestion</span></a>, but triggered only and target doesn’t remember the suggestion.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.unbearablebrightness.html#advancedclassguide-spells-unbearablebrightness"><span class="std std-ref">Unbearable Brightness</span></a>: Your glowing body dazzles or blinds others.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.wallofblindnessdeafness.html#advancedclassguide-spells-wallofblindnessdeafness"><span class="std std-ref">Wall of Blindness/Deafness</span></a>: Creatures that pass through a translucent wall are blinded or deafened.</p>
+</div>
+<div class="section" id="advancedclassguide-spells-spelllists-5th-level-witch-spells">
+<span id="id20"></span><h3><a class="toc-backref" href="#id112">5th-Level Witch Spells</a><a class="headerlink" href="#advancedclassguide-spells-spelllists-5th-level-witch-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.feastonfear.html#advancedclassguide-spells-feastonfear"><span class="std std-ref">Feast on Fear</span></a>: Targets are panicked, and you gain temporary hit points.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.hexglyph.html#advancedclassguide-spells-hexglyph"><span class="std std-ref">Hex Glyph, Greater</span></a><sup>M</sup>: Inscription casts your hex or major hex on those who pass it.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.whipofcentipedes.html#advancedclassguide-spells-whipofcentipedes"><span class="std std-ref">Whip of Centipedes</span></a>: Create a whip made of poisonous centipedes.</p>
+</div>
+<div class="section" id="advancedclassguide-spells-spelllists-6th-level-witch-spells">
+<span id="id21"></span><h3><a class="toc-backref" href="#id113">6th-Level Witch Spells</a><a class="headerlink" href="#advancedclassguide-spells-spelllists-6th-level-witch-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.bansheeblast.html#advancedclassguide-spells-bansheeblast"><span class="std std-ref">Banshee Blast</span></a>: Cone deals 1d4 per level and panics creatures.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.spellcrash.html#advancedclassguide-spells-spellcrash"><span class="std std-ref">Spellcrash</span></a>: Target loses a 5th-level prepared spell or spell slot.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.whipofants.html#advancedclassguide-spells-whipofants"><span class="std std-ref">Whip of Ants</span></a>: Create a whip made of army ants.</p>
+</div>
+<div class="section" id="advancedclassguide-spells-spelllists-7th-level-witch-spells">
+<span id="id22"></span><h3><a class="toc-backref" href="#id114">7th-Level Witch Spells</a><a class="headerlink" href="#advancedclassguide-spells-spelllists-7th-level-witch-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.dimensionalbounce.html#advancedclassguide-spells-dimensionalbounce"><span class="std std-ref">Dimensional Bounce</span></a>: Teleport multiple times between two designated locations.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.fairyringretreat.html#advancedclassguide-spells-fairyringretreat"><span class="std std-ref">Fairy Ring Retreat</span></a>: Toadstool circle leads to an extradimensional meadow.</p>
+<p><a class="reference internal" href="advancedclassguide.spells.familiardouble.html#advancedclassguide-spells-familiardouble"><span class="std std-ref">Familiar Double</span></a>: As <a class="reference internal" href="corerulebook.spells.projectimage.html#corerulebook-spells-projectimage-project-image"><span class="std std-ref">project image</span></a>, but the image follows your familiar.</p>
+</div>
+<div class="section" id="advancedclassguide-spells-spelllists-8th-level-witch-spells">
+<span id="id23"></span><h3><a class="toc-backref" href="#id115">8th-Level Witch Spells</a><a class="headerlink" href="#advancedclassguide-spells-spelllists-8th-level-witch-spells" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="advancedclassguide.spells.spellcrash.html#advancedclassguide-spells-spellcrash"><span class="std std-ref">Spellcrash, Greater</span></a>: Target loses a 7th-level prepared spell or spell slot.</p>
+</div>
+</div>
+</div>
+
+</body>

@@ -1,0 +1,148 @@
+
+.. _`bestiary3.lizard`:
+
+.. contents:: \ 
+
+.. _`bestiary3.lizard#lizard_giant_gecko`:
+
+Lizard, Giant Gecko
+********************
+
+With large bulging eyes to spot prey from afar, this oversized, smooth-scaled lizard has splayed, padded feet and a toothy maw.
+
+.. _`bestiary3.lizard#giant_gecko`:
+
+Giant Gecko
+============
+
+**CR 1** 
+
+XP 400
+
+N Medium animal 
+
+\ **Init**\  +6; \ **Senses**\  low-light vision; :ref:`Perception <corerulebook.skills.perception#perception>`\  +6
+
+.. _`bestiary3.lizard#defense`:
+
+Defense
+========
+
+\ **AC**\  14, touch 12, flat-footed 12 (+2 Dex, +2 natural)
+
+\ **hp**\  11 (2d8+2)
+
+\ **Fort**\  +4, \ **Ref**\  +5, \ **Will**\  +2
+
+.. _`bestiary3.lizard#offense`:
+
+Offense
+========
+
+\ **Speed**\  40 ft., climb 40 ft.
+
+\ **Melee**\  bite +2 (2d4+1)
+
+.. _`bestiary3.lizard#statistics`:
+
+Statistics
+===========
+
+\ **Str**\  13, \ **Dex**\  15, \ **Con**\  12, \ **Int**\  2, \ **Wis**\  14, \ **Cha**\  7
+
+\ **Base Atk**\  +1; \ **CMB**\  +2; \ **CMD**\  14 (18 vs. trip)
+
+\ **Feats**\  :ref:`Improved Initiative <corerulebook.feats#improved_initiative>`
+
+\ **Skills**\  :ref:`Climb <corerulebook.skills.climb#climb>`\  +21, :ref:`Perception <corerulebook.skills.perception#perception>`\  +6; \ **Racial Modifiers**\  +8 :ref:`Climb <corerulebook.skills.climb#climb>`
+
+\ **SQ**\  expert climber
+
+.. _`bestiary3.lizard#ecology`:
+
+Ecology
+========
+
+\ **Environment**\  warm forests or mountains
+
+\ **Organization**\  solitary, pair, or nest (3–6)
+
+\ **Treasure**\  none
+
+.. _`bestiary3.lizard#special_abilities`:
+
+Special Abilities
+==================
+
+\ **Expert Climber (Ex)**\  A gecko's feet allow it to climb virtually any surface, no matter how slick or sheer. In effect, geckos are treated as constantly being under a natural version of the spell :ref:`spider climb <corerulebook.spells.spiderclimb#spider_climb>`\ .
+
+These lizards are mostly docile and shy away from attacking creatures larger than a cat or dog. Despite their shyness, they are ultimately curious creatures, and often approach bigger creatures simply to investigate. Of course, a giant gecko is more than capable of defending itself, biting creatures that react violently to the lizard when fleeing is not an option. 
+
+Some humanoids train giant geckos as bestial guardians. Smaller humanoids (in particular, goblins) can even use the creatures as mounts, taking advantage of their superior climbing skills to attack from seemingly impossible positions and angles. A giant gecko measures 8 feet from nose to tail and weighs 120 pounds. Coloration among giant geckos can vary wildly, though most are some shade of green.
+
+.. _`bestiary3.lizard#lizard_giant_chameleon`:
+
+Lizard, Giant Chameleon
+************************
+
+Nearly invisible in its surroundings, this scaly lizard's eyes dart about independently of each other.
+
+.. _`bestiary3.lizard#giant_chameleon`:
+
+Giant Chameleon
+================
+
+**CR 3** 
+
+XP 800
+
+N Large animal 
+
+\ **Init**\  +6; \ **Senses**\  low-light vision; :ref:`Perception <corerulebook.skills.perception#perception>`\  +4
+
+Defense
+========
+
+\ **AC**\  14, touch 11, flat-footed 12 (+2 Dex, +3 natural, –1 size)
+
+\ **hp**\  34 (4d8+16)
+
+\ **Fort**\  +8, \ **Ref**\  +6, \ **Will**\  +1
+
+Offense
+========
+
+\ **Speed**\  40 ft., climb 40 ft.
+
+\ **Melee**\  bite +5 (2d6+4) or tongue +5 touch (:ref:`grab <bestiary.universalmonsterrules#grab>`\ )
+
+\ **Space**\  10 ft.; \ **Reach**\  10 ft. (15 ft. with tongue)
+
+\ **Special Attacks**\  tongue, pull (tongue, 5 ft.)
+
+Statistics
+===========
+
+\ **Str**\  16, \ **Dex**\  15, \ **Con**\  18, \ **Int**\  2, \ **Wis**\  11, \ **Cha**\  7
+
+\ **Base Atk**\  +3; \ **CMB**\  +7 (+11 grapple); \ **CMD**\  19 (23 vs. trip)
+
+\ **Feats**\  :ref:`Improved Initiative <corerulebook.feats#improved_initiative>`\ , :ref:`Skill Focus <corerulebook.feats#skill_focus>`\  (:ref:`Stealth <corerulebook.skills.stealth#stealth>`\ )
+
+\ **Skills**\  :ref:`Climb <corerulebook.skills.climb#climb>`\  +15, :ref:`Perception <corerulebook.skills.perception#perception>`\  +4, :ref:`Stealth <corerulebook.skills.stealth#stealth>`\  +18 (+28 when still); \ **Racial Modifiers**\  +12 :ref:`Stealth <corerulebook.skills.stealth#stealth>`\  (+22 when still)
+
+Ecology
+========
+
+\ **Environment**\  warm forests and mountains
+
+\ **Organization**\  solitary, pair, or blend (3–6)
+
+\ **Treasure**\  none
+
+Special Abilities
+==================
+
+\ **Tongue (Ex)**\  A :ref:`giant <bestiary.creaturetypes#giant_subtype>`\  chameleon can :ref:`grab <bestiary.universalmonsterrules#grab>`\  a foe with its tongue and draw the victim to its mouth. This tongue attack has a reach of 15 feet. The attack does no damage, but allows the creature to :ref:`grab <bestiary.universalmonsterrules#grab>`\ . A :ref:`giant <bestiary.creaturetypes#giant_subtype>`\  chameleon does not gain the grappled condition while using its tongue in this manner.
+
+These large lizards have the ability to shift the pigments in their skin to match their surroundings. A giant chameleon is typically 11 feet long and weighs 160 pounds.

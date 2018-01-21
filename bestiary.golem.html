@@ -1,0 +1,505 @@
+
+
+
+
+
+<head>
+    <link rel="stylesheet" href="_static/srd.css" type="text/css" />
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/toggle_list.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+
+
+
+<body>
+    <div class="contents topic" id="id1">
+<span id="bestiary-golem"></span><p class="topic-title first"></p>
+<ul class="simple">
+<li><a class="reference internal" href="#golem" id="id44">Golem</a></li>
+<li><a class="reference internal" href="#constructing-a-golem" id="id45">Constructing a Golem</a></li>
+<li><a class="reference internal" href="#shield-guardians" id="id46">Shield Guardians</a></li>
+<li><a class="reference internal" href="#golem-clay" id="id47">Golem, Clay</a><ul>
+<li><a class="reference internal" href="#clay-golem" id="id48">Clay Golem</a></li>
+<li><a class="reference internal" href="#defense" id="id49">Defense</a></li>
+<li><a class="reference internal" href="#offense" id="id50">Offense</a></li>
+<li><a class="reference internal" href="#statistics" id="id51">Statistics</a></li>
+<li><a class="reference internal" href="#ecology" id="id52">Ecology</a></li>
+<li><a class="reference internal" href="#special-abilities" id="id53">Special Abilities</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#construction" id="id54">Construction</a><ul>
+<li><a class="reference internal" href="#id2" id="id55">Clay Golem</a></li>
+<li><a class="reference internal" href="#id3" id="id56">Construction</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#golem-flesh" id="id57">Golem, Flesh</a><ul>
+<li><a class="reference internal" href="#flesh-golem" id="id58">Flesh Golem</a></li>
+<li><a class="reference internal" href="#id4" id="id59">Defense</a></li>
+<li><a class="reference internal" href="#id5" id="id60">Offense</a></li>
+<li><a class="reference internal" href="#id6" id="id61">Statistics</a></li>
+<li><a class="reference internal" href="#id7" id="id62">Ecology</a></li>
+<li><a class="reference internal" href="#id8" id="id63">Special Abilities</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#id9" id="id64">Construction</a><ul>
+<li><a class="reference internal" href="#id10" id="id65">Flesh Golem</a></li>
+<li><a class="reference internal" href="#id11" id="id66">Construction</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#golem-ice" id="id67">Golem, Ice</a><ul>
+<li><a class="reference internal" href="#ice-golem" id="id68">Ice Golem</a></li>
+<li><a class="reference internal" href="#id12" id="id69">Defense</a></li>
+<li><a class="reference internal" href="#id13" id="id70">Offense</a></li>
+<li><a class="reference internal" href="#id14" id="id71">Statistics</a></li>
+<li><a class="reference internal" href="#id15" id="id72">Ecology</a></li>
+<li><a class="reference internal" href="#id16" id="id73">Special Abilities</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#id17" id="id74">Construction</a><ul>
+<li><a class="reference internal" href="#id18" id="id75">Ice Golem</a></li>
+<li><a class="reference internal" href="#id19" id="id76">Construction</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#golem-iron" id="id77">Golem, Iron</a><ul>
+<li><a class="reference internal" href="#iron-golem" id="id78">Iron Golem</a></li>
+<li><a class="reference internal" href="#id20" id="id79">Defense</a></li>
+<li><a class="reference internal" href="#id21" id="id80">Offense</a></li>
+<li><a class="reference internal" href="#id22" id="id81">Statistics</a></li>
+<li><a class="reference internal" href="#id23" id="id82">Ecology</a></li>
+<li><a class="reference internal" href="#id24" id="id83">Special Abilities</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#id25" id="id84">Construction</a><ul>
+<li><a class="reference internal" href="#id26" id="id85">Iron Golem</a></li>
+<li><a class="reference internal" href="#id27" id="id86">Construction</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#golem-stone" id="id87">Golem, Stone</a><ul>
+<li><a class="reference internal" href="#stone-golem" id="id88">Stone Golem</a></li>
+<li><a class="reference internal" href="#id28" id="id89">Defense</a></li>
+<li><a class="reference internal" href="#id29" id="id90">Offense</a></li>
+<li><a class="reference internal" href="#id30" id="id91">Statistics</a></li>
+<li><a class="reference internal" href="#id31" id="id92">Ecology</a></li>
+<li><a class="reference internal" href="#id32" id="id93">Special Abilities</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#id33" id="id94">Construction</a><ul>
+<li><a class="reference internal" href="#id34" id="id95">Stone Golem</a></li>
+<li><a class="reference internal" href="#id35" id="id96">Construction</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#golem-wood" id="id97">Golem, Wood</a><ul>
+<li><a class="reference internal" href="#wood-golem" id="id98">Wood Golem</a></li>
+<li><a class="reference internal" href="#id36" id="id99">Defense</a></li>
+<li><a class="reference internal" href="#id37" id="id100">Offense</a></li>
+<li><a class="reference internal" href="#id38" id="id101">Statistics</a></li>
+<li><a class="reference internal" href="#id39" id="id102">Ecology</a></li>
+<li><a class="reference internal" href="#id40" id="id103">Special Abilities</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#id41" id="id104">Construction</a><ul>
+<li><a class="reference internal" href="#id42" id="id105">Wood Golem</a></li>
+<li><a class="reference internal" href="#id43" id="id106">Construction</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="golem">
+<span id="bestiary-golem-golem"></span><h1><a class="toc-backref" href="#id44">Golem</a><a class="headerlink" href="#golem" title="Permalink to this headline">¶</a></h1>
+<p>Golems are magically created automatons of great power. They stand apart from other constructs in the nature of their animating force—golems are granted their magical life via an elemental spirit, typically that of an earth elemental. The process of creating a golem binds the spirit to the artificial body, merging it with this specially prepared vessel and subjecting it to the will of the golem’s creator.
+Being mindless, golems do nothing without orders from their creators. They follow instructions explicitly and are incapable of complex strategy or tactics. A golem’s creator can command it if the golem is within 60 feet and can see and hear its creator. If uncommanded, a golem usually follows its last instruction to the best of its ability, though if attacked it returns the attack. The creator can give the golem a simple command to govern its actions in his absence, or can order the golem to obey the commands of another, but the golem’s creator can always resume control by commanding the golem to obey him alone.</p>
+</div>
+<div class="section" id="constructing-a-golem">
+<span id="bestiary-golem-constructing-a-golem"></span><h1><a class="toc-backref" href="#id45">Constructing a Golem</a><a class="headerlink" href="#constructing-a-golem" title="Permalink to this headline">¶</a></h1>
+<p>The cost to create a golem includes the cost of the physical body and all the materials and spell components used in its creation. Each golem entry gives specific details on the materials required and the total cost for its creation.
+<em>Note</em>: The market price of a golem with more Hit Dice than the typical golem described in each entry is increased by 5,000 gp for each additional Hit Die it possesses beyond the standard for its kind, and increases by an additional 50,000 gp if the golem’s size increases. Building a golem with the advanced simple template increases its cost by 15,000 gp.</p>
+</div>
+<div class="section" id="shield-guardians">
+<span id="bestiary-golem-shield-guardians"></span><h1><a class="toc-backref" href="#id46">Shield Guardians</a><a class="headerlink" href="#shield-guardians" title="Permalink to this headline">¶</a></h1>
+<p>A spellcaster with enough talent, resources, and inspiration can create a special variant of a golem known as a shield guardian. Any true golem can be created as a shield guardian, but the choice to do so must be made during the golem’s construction—a completed golem cannot later be “upgraded” to function as a shield guardian.
+Shield guardians are designed to serve as bodyguards. When created, a shield guardian is keyed to a magical amulet that is constructed at the same time as (and as part of the cost of) the guardian. Henceforth, it regards the wearer of that amulet as its master, protecting and following that individual everywhere (unless specifically commanded not to do so). If a shield guardian’s amulet is destroyed, the guardian ceases to function until a new one is created. If the wearer dies but the amulet is intact, the shield guardian carries out the last command it was given.
+A shield guardian obeys its master’s verbal commands to the best of its ability, although it is not good for much beyond combat, protection, and simple manual labor. It can also be keyed to perform specific tasks at specific times or when certain conditions are met. The wearer of the amulet can call the shield guardian from any distance, and it will come as long as it is on the same plane.
+Shield guardians have the same statistics as the base golem, but with the following additional special qualities. A shield guardian’s CR is equal to the base golem’s CR + 2.
+<strong>Controlled (Ex)</strong> A shield guardian that has the berserk special attack cannot go berserk as long as the wearer of its amulet is within 30 feet.
+<strong>Fast Healing (Ex)</strong> A shield guardian has fast healing 5.
+<strong>Find Master (Su)</strong> As long as a shield guardian and its amulet are on the same plane, the shield guardian can locate the amulet’s wearer (or just the amulet, if it is removed after the guardian is called).
+<strong>Guard (Ex)</strong> If ordered to do so, a shield guardian moves to defend the wearer of its amulet. All attacks against the amulet wearer take a –2 penalty when the shield guardian is adjacent to its master.
+<strong>Shield Other (Sp)</strong> The wearer of a shield guardian’s amulet can activate this defensive ability as a standard action if within 100 feet of the shield guardian. Just as the spell of the same name, this ability transfers to the shield guardian half the damage that would be dealt to the amulet wearer (note that this ability does not provide the spell’s AC or save bonuses). Damage transferred in this manner bypasses any defensive abilities (such as immunity or damage reduction) the golem possesses.
+<strong>Spell Storing (Sp)</strong> A shield guardian can store one spell of 4th level or lower that is cast into it by another creature. It “casts” this spell when commanded to do so or when a predefined situation arises. Once this spell is used, the shield guardian can store another spell (or the same spell again).
+<strong>Construction</strong>: A shield guardian’s base materials cost an additional 25,000 gp above the base golem’s cost. The creature’s master may assemble the body or hire someone else to do the job. The <a class="reference internal" href="corerulebook.skills.craft.html#corerulebook-skills-craft-craft"><span class="std std-ref">Craft</span></a> check required to make the body is 4 higher than normal for the base golem’s kind. The keyed amulet is fashioned at the same time—it costs 20,000 gp above and beyond the shield guardian’s total cost. After the body is sculpted, the shield guardian is animated through an extended magical ritual that requires a specially prepared laboratory or workroom, similar to an alchemist’s laboratory and costing 500 gp to establish. If the creator is personally constructing the creature’s body, the building and the ritual can be performed together. The creator must have a minimum caster level of 2 higher than the base golem’s minimum required caster level. In addition, the following spells are added to the base golem’s requirements: <a class="reference internal" href="corerulebook.spells.discernlocation.html#corerulebook-spells-discernlocation-discern-location"><span class="std std-ref">discern location</span></a> and either <a class="reference internal" href="corerulebook.spells.shield.html#corerulebook-spells-shield-shield"><span class="std std-ref">shield</span></a> or <a class="reference internal" href="corerulebook.spells.shieldother.html#corerulebook-spells-shieldother-shield-other"><span class="std std-ref">shield other</span></a>.</p>
+</div>
+<div class="section" id="golem-clay">
+<span id="bestiary-golem-golem-clay"></span><h1><a class="toc-backref" href="#id47">Golem, Clay</a><a class="headerlink" href="#golem-clay" title="Permalink to this headline">¶</a></h1>
+<p><em>This lumbering figure is sculpted from soft clay. It wears filthy rags and crude jewelry, and its face is only vaguely humanoid.</em></p>
+<div class="section" id="clay-golem">
+<span id="bestiary-golem-clay-golem"></span><h2><a class="toc-backref" href="#id48">Clay Golem</a><a class="headerlink" href="#clay-golem" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 10</strong>
+<strong>XP 9,600</strong>
+N Large <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-construct"><span class="std std-ref">construct</span></a>
+<strong>Init</strong> –1; <strong>Senses</strong> darkvision 60 ft., low-light vision; <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> +0</p>
+</div>
+<div class="section" id="defense">
+<span id="bestiary-golem-defense"></span><h2><a class="toc-backref" href="#id49">Defense</a><a class="headerlink" href="#defense" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 24, touch 8, flat-footed 24 (–1 Dex, +16 natural, –1 size)
+<strong>hp</strong> 101 (13d10+30)
+<strong>Fort</strong> +4, <strong>Ref</strong> +3, <strong>Will</strong> +4
+<strong>DR</strong> 10/adamantine and bludgeoning; <strong>Immune</strong> <a class="reference internal" href="bestiary.universalmonsterrules.html#bestiary-universalmonsterrules-construct-traits"><span class="std std-ref">construct traits</span></a>, magic</p>
+</div>
+<div class="section" id="offense">
+<span id="bestiary-golem-offense"></span><h2><a class="toc-backref" href="#id50">Offense</a><a class="headerlink" href="#offense" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 20 ft.
+<strong>Melee</strong> 2 slams +19 (2d10+7 plus cursed wound)
+<strong>Space</strong> 10 ft.; <strong>Reach</strong> 10 ft.
+<strong>Special Attacks</strong> berserk, haste</p>
+</div>
+<div class="section" id="statistics">
+<span id="bestiary-golem-statistics"></span><h2><a class="toc-backref" href="#id51">Statistics</a><a class="headerlink" href="#statistics" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 24, <strong>Dex</strong> 9, <strong>Con</strong> —, <strong>Int</strong> —, <strong>Wis</strong> 11, <strong>Cha</strong> 1
+<strong>Base</strong> <strong>Atk</strong> +13; <strong>CMB</strong> +21; <strong>CMD</strong>30</p>
+</div>
+<div class="section" id="ecology">
+<span id="bestiary-golem-ecology"></span><h2><a class="toc-backref" href="#id52">Ecology</a><a class="headerlink" href="#ecology" title="Permalink to this headline">¶</a></h2>
+<p><strong>Environment</strong>any
+<strong>Organization</strong> solitary or gang (2–4)
+<strong>Treasure</strong> none</p>
+</div>
+<div class="section" id="special-abilities">
+<span id="bestiary-golem-special-abilities"></span><h2><a class="toc-backref" href="#id53">Special Abilities</a><a class="headerlink" href="#special-abilities" title="Permalink to this headline">¶</a></h2>
+<p><strong>Berserk (Ex)</strong> When a clay golem enters combat, there is a cumulative 1% chance each round that its elemental spirit breaks free and the golem goes berserk. This chance resets to 0% after one minute of inactivity. A berserk golem attacks the nearest living creature or smashes some object smaller than itself if no creature is within reach. Once it goes berserk, no known method can reestablish control.
+<strong>Cursed Wound (Ex)</strong>The damage a clay golem deals doesn’t heal naturally and resists magical healing. A character attempting to use magical healing on a creature damaged by a clay golem must succeed on a DC 26 caster level check, or the healing has no effect on the injured creature.
+<strong>Haste (Su)</strong> After it has engaged in at least 1 round of combat, a clay golem can haste itself once per day as a free action. The effect lasts 3 rounds and is otherwise the same as the spell.
+<strong>Immunity to Magic (Ex)</strong> A clay golem is immune to any spell or spell-like ability that allows spell resistance. In addition, certain spells and effects function differently against the creature, as noted below.</p>
+<blockquote>
+<div>â¢ A <a class="reference internal" href="corerulebook.spells.moveearth.html#corerulebook-spells-moveearth-move-earth"><span class="std std-ref">move earth</span></a> spell drives the golem back 120 feet and deals 3d12 points of damage to it (no save).
+â¢ A <a class="reference internal" href="corerulebook.spells.disintegrate.html#corerulebook-spells-disintegrate-disintegrate"><span class="std std-ref">disintegrate</span></a> spell slows the golem (as the <a class="reference internal" href="corerulebook.spells.slow.html#corerulebook-spells-slow-slow"><span class="std std-ref">slow</span></a> spell) for 1d6 rounds and deals 1d12 points of damage (no save).
+â¢ An <a class="reference internal" href="corerulebook.spells.earthquake.html#corerulebook-spells-earthquake-earthquake"><span class="std std-ref">earthquake</span></a> spell cast directly at a clay golem stops it from moving on its next turn and deals 5d10 points of damage (no save).
+â¢ Any magical attack against a clay golem that deals acid damage heals 1 point of damage for every 3 points of damage it would otherwise deal. If the amount of healing would cause the golem to exceed its full normal hit points, it gains any excess as temporary hit points. A clay golem gets no saving throw against magical attacks that deal acid damage.</div></blockquote>
+<p>A clay golem wears no clothing except for a metal or stiff leather garment around its hips. It stands over 8 feet tall and weighs 600 pounds.</p>
+</div>
+</div>
+<div class="section" id="construction">
+<span id="bestiary-golem-construction"></span><h1><a class="toc-backref" href="#id54">Construction</a><a class="headerlink" href="#construction" title="Permalink to this headline">¶</a></h1>
+<p>A clay golem’s body must be sculpted from a single block of clay weighing at least 1,000 pounds, treated with rare oils and powders worth 1,500 gp.</p>
+<div class="section" id="id2">
+<h2><a class="toc-backref" href="#id55">Clay Golem</a><a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<p><strong>CL</strong> 11th; <strong>Price</strong> 41,500 gp</p>
+</div>
+<div class="section" id="id3">
+<h2><a class="toc-backref" href="#id56">Construction</a><a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
+<p><strong>Requirements</strong> <a class="reference internal" href="bestiary.monsterfeats.html#craft construct (item creation)"><span class="std std-ref">Craft Construct</span></a>, <a class="reference internal" href="corerulebook.spells.animateobjects.html#corerulebook-spells-animateobjects-animate-objects"><span class="std std-ref">animate objects</span></a>, <a class="reference internal" href="corerulebook.spells.bless.html#corerulebook-spells-bless-bless"><span class="std std-ref">bless</span></a>, <a class="reference internal" href="corerulebook.spells.commune.html#corerulebook-spells-commune-commune"><span class="std std-ref">commune</span></a>, <a class="reference internal" href="corerulebook.spells.prayer.html#corerulebook-spells-prayer-prayer"><span class="std std-ref">prayer</span></a>, <a class="reference internal" href="corerulebook.spells.resurrection.html#corerulebook-spells-resurrection-resurrection"><span class="std std-ref">resurrection</span></a>, creator must be caster level 11th; <strong>Skill</strong> <a class="reference internal" href="corerulebook.skills.craft.html#corerulebook-skills-craft-craft"><span class="std std-ref">Craft</span></a> (sculptures) or <a class="reference internal" href="corerulebook.skills.craft.html#corerulebook-skills-craft-craft"><span class="std std-ref">Craft</span></a> (pottery) DC 16; <strong>Cost</strong> 21,500 gp</p>
+</div>
+</div>
+<div class="section" id="golem-flesh">
+<span id="bestiary-golem-golem-flesh"></span><h1><a class="toc-backref" href="#id57">Golem, Flesh</a><a class="headerlink" href="#golem-flesh" title="Permalink to this headline">¶</a></h1>
+<p><em>A hideous monstrosity crafted from body parts stitched together with thick string, wire, and metal staples lurches to horrific life.</em></p>
+<div class="section" id="flesh-golem">
+<span id="bestiary-golem-flesh-golem"></span><h2><a class="toc-backref" href="#id58">Flesh Golem</a><a class="headerlink" href="#flesh-golem" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 7</strong>
+<strong>XP 3,200</strong>
+N Large <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-construct"><span class="std std-ref">construct</span></a>
+<strong>Init</strong> –1; <strong>Senses</strong> darkvision 60 ft., low-light vision; <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> +0</p>
+</div>
+<div class="section" id="id4">
+<h2><a class="toc-backref" href="#id59">Defense</a><a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 20, touch 8, flat-footed 20; (–1 Dex, +12 natural, –1 size)
+<strong>hp</strong> 79 (9d10+30)
+<strong>Fort</strong> +3, <strong>Ref</strong> +2, <strong>Will</strong> +3
+<strong>DR</strong> 5/adamantine; <strong>Immune</strong> <a class="reference internal" href="bestiary.universalmonsterrules.html#bestiary-universalmonsterrules-construct-traits"><span class="std std-ref">construct traits</span></a>, magic</p>
+</div>
+<div class="section" id="id5">
+<h2><a class="toc-backref" href="#id60">Offense</a><a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 30 ft.
+<strong>Melee</strong> 2 slams +13 (2d8+5)
+<strong>Space</strong> 10 ft.; <strong>Reach</strong> 10 ft.
+<strong>Special Attacks</strong> berserk</p>
+</div>
+<div class="section" id="id6">
+<h2><a class="toc-backref" href="#id61">Statistics</a><a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 20, <strong>Dex</strong> 9, <strong>Con</strong> —, <strong>Int</strong> —, <strong>Wis</strong> 11, <strong>Cha</strong> 1
+<strong>Base</strong> <strong>Atk</strong> +9; <strong>CMB</strong> +15; <strong>CMD</strong>24
+<strong>Languages</strong> none</p>
+</div>
+<div class="section" id="id7">
+<h2><a class="toc-backref" href="#id62">Ecology</a><a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h2>
+<p><strong>Environment</strong>any
+<strong>Organization</strong> solitary or gang (2–4)
+<strong>Treasure</strong> none</p>
+</div>
+<div class="section" id="id8">
+<h2><a class="toc-backref" href="#id63">Special Abilities</a><a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h2>
+<p><strong>Berserk (Ex)</strong> When a flesh golem enters combat, there is a cumulative 1% chance each round that its elemental spirit breaks free and the golem goes berserk. The uncontrolled golem goes on a rampage, attacking the nearest living creature or smashing some object smaller than itself if no creature is within reach, then moving on to spread more destruction. The golem’s creator, if within 60 feet, can try to regain control by speaking firmly and persuasively to the golem, which requires a DC 19 Charisma check. It takes 1 minute of inactivity by the golem to reset the golem’s berserk chance to 0%.
+<strong>Immunity to Magic (Ex)</strong> A flesh golem is immune to any spell or spell-like ability that allows spell resistance. In addition, certain spells and effects function differently against the creature, as noted below.</p>
+<blockquote>
+<div>â¢ A magical attack that deals cold or fire damage slows a flesh golem (as the <a class="reference internal" href="corerulebook.spells.slow.html#corerulebook-spells-slow-slow"><span class="std std-ref">slow</span></a> spell) for 2d6 rounds (no save).
+â¢ A magical attack that deals electricity damage breaks any <a class="reference internal" href="corerulebook.spells.slow.html#corerulebook-spells-slow-slow"><span class="std std-ref">slow</span></a> effect on the golem and heals 1 point of damage for every 3 points of damage the attack would otherwise deal. If the amount of healing would cause the golem to exceed its full normal hit points, it gains any excess as temporary hit points. A flesh golem gets no saving throw against attacks that deal electricity damage.</div></blockquote>
+<p>A flesh golem is a ghoulish collection of stolen humanoid body parts, stitched together into a single composite form. Its cadaverous flesh has a sickly green or yellowish tint. A flesh golem wears whatever clothing its creator desires, usually just a ragged pair of trousers. It has no possessions and no weapons. A flesh golem stands 8 feet tall and weighs 500 pounds.
+A flesh golem cannot speak, although it can emit a hoarse roar of sorts. It walks and moves with a stiff-jointed gait, as if not in complete control of its body.
+Although most flesh golems are mindless, there are persistent rumors of unusual golems who somehow retain the memories of a previous life. The head (and thus brain) of such flesh golems must be just the right combination of fresh and (in its previous life) strong-willed, and even then luck and chance during the golem’s creation seem just as important in retaining the creature’s mind. Certainly most who construct flesh golems prefer mindless slaves over free-willed creations, and as a result intelligent flesh golems are rare indeed.</p>
+</div>
+</div>
+<div class="section" id="id9">
+<h1><a class="toc-backref" href="#id64">Construction</a><a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h1>
+<p>The pieces of a flesh golem must come from normal humanoid corpses that have not decayed significantly. Assembly requires a minimum of six different bodies—one for each limb, the torso (including head), and the brain. In some cases, more bodies may be necessary. Special unguents and bindings worth 500 gp are also required. Note that creating a flesh golem requires casting a spell with the evil descriptor.</p>
+<div class="section" id="id10">
+<h2><a class="toc-backref" href="#id65">Flesh Golem</a><a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h2>
+<p><strong>CL</strong> 8th; <strong>Price</strong> 20,500 gp</p>
+</div>
+<div class="section" id="id11">
+<h2><a class="toc-backref" href="#id66">Construction</a><a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h2>
+<p><strong>Requirements</strong> <a class="reference internal" href="bestiary.monsterfeats.html#craft construct (item creation)"><span class="std std-ref">Craft Construct</span></a>, <a class="reference internal" href="corerulebook.spells.animatedead.html#corerulebook-spells-animatedead-animate-dead"><span class="std std-ref">animate dead</span></a>, <a class="reference internal" href="corerulebook.spells.bullsstrength.html#bull's strength"><span class="std std-ref">bull’s strength</span></a>, <a class="reference internal" href="corerulebook.spells.geasquest.html#geas/quest"><span class="std std-ref">geas/quest</span></a>, <a class="reference internal" href="corerulebook.spells.limitedwish.html#corerulebook-spells-limitedwish-limited-wish"><span class="std std-ref">limited wish</span></a>, creator must be caster level 8th; <strong>Skill</strong> <a class="reference internal" href="corerulebook.skills.craft.html#corerulebook-skills-craft-craft"><span class="std std-ref">Craft</span></a> (leather) or <a class="reference internal" href="corerulebook.skills.heal.html#corerulebook-skills-heal-heal"><span class="std std-ref">Heal</span></a> DC 13; <strong>Cost</strong> 10,500 gp</p>
+</div>
+</div>
+<div class="section" id="golem-ice">
+<span id="bestiary-golem-golem-ice"></span><h1><a class="toc-backref" href="#id67">Golem, Ice</a><a class="headerlink" href="#golem-ice" title="Permalink to this headline">¶</a></h1>
+<p>This icy <a class="reference internal" href="corerulebook.spells.statue.html#corerulebook-spells-statue-statue"><span class="std std-ref">statue</span></a> stands a head taller than a normal human. A rime of frost coats it, and razor-sharp shards of ice adorn its limbs.</p>
+<div class="section" id="ice-golem">
+<span id="bestiary-golem-ice-golem"></span><h2><a class="toc-backref" href="#id68">Ice Golem</a><a class="headerlink" href="#ice-golem" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 5</strong>
+<strong>XP 1,600</strong>
+N Medium <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-construct"><span class="std std-ref">construct</span></a> (<a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-cold-subtype"><span class="std std-ref">cold</span></a>)
+<strong>Init</strong> –1; <strong>Senses</strong> darkvision 60 ft., low-light vision; <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> +0</p>
+</div>
+<div class="section" id="id12">
+<h2><a class="toc-backref" href="#id69">Defense</a><a class="headerlink" href="#id12" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 17, touch 9, flat-footed 17 (–1 Dex, +8 natural)
+<strong>hp</strong> 53 (6d10+20)
+<strong>Fort</strong> +2, <strong>Ref</strong> +1, <strong>Will</strong> +2
+<strong>DR</strong> 5/adamantine; <strong>Immune</strong> <a class="reference internal" href="bestiary.universalmonsterrules.html#bestiary-universalmonsterrules-construct-traits"><span class="std std-ref">construct traits</span></a>, cold, magic
+<strong>Weaknesses</strong> vulnerability to fire</p>
+</div>
+<div class="section" id="id13">
+<h2><a class="toc-backref" href="#id70">Offense</a><a class="headerlink" href="#id13" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 30 ft.
+<strong>Melee</strong> 2 slams +9 (1d6+3 plus 1d6 cold)
+<strong>Special Attacks</strong> <a class="reference internal" href="bestiary.universalmonsterrules.html#bestiary-universalmonsterrules-breath-weapon"><span class="std std-ref">breath weapon</span></a> (20-ft. cone, 3d6 cold damage, Reflex DC 13 half, usable once every 1d4 rounds), cold (1d6), icy destruction</p>
+</div>
+<div class="section" id="id14">
+<h2><a class="toc-backref" href="#id71">Statistics</a><a class="headerlink" href="#id14" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 16, <strong>Dex</strong> 9, <strong>Con</strong> —, <strong>Int</strong> —, <strong>Wis</strong> 11, <strong>Cha</strong> 1
+<strong>Base</strong> <strong>Atk</strong> +6; <strong>CMB</strong> +9; <strong>CMD</strong>18</p>
+</div>
+<div class="section" id="id15">
+<h2><a class="toc-backref" href="#id72">Ecology</a><a class="headerlink" href="#id15" title="Permalink to this headline">¶</a></h2>
+<p><strong>Environment</strong>any cold
+<strong>Organization</strong> solitary or gang (2–4)
+<strong>Treasure</strong> none</p>
+</div>
+<div class="section" id="id16">
+<h2><a class="toc-backref" href="#id73">Special Abilities</a><a class="headerlink" href="#id16" title="Permalink to this headline">¶</a></h2>
+<p><strong>Cold (Ex)</strong> An ice golem’s body generates intense cold, dealing 1d6 points of damage with its touch. Creatures attacking an ice golem with unarmed strikes or natural weapons take this same cold damage each time one of their attacks hits.
+<strong>Icy Destruction (Ex)</strong> When reduced to 0 hit points, an ice golem shatters in an explosion of jagged shards of ice. All creatures within a 10-foot burst take 3d6 points of slashing damage and 2d6 points of cold damage; a DC 13 Reflex save halves the damage. The save DC is Constitution-based.
+<strong>Immunity to Magic (Ex)</strong> An ice golem is immune to any spell or spell-like ability that allows spell resistance, with the exception of spells and spell-like abilities that have the Fire descriptor, which affect it normally. In addition, certain spells and effects function differently against the creature, as noted below.</p>
+<blockquote>
+<div>â¢ A magical attack that deals electricity damage slows an ice golem (as the <a class="reference internal" href="corerulebook.spells.slow.html#corerulebook-spells-slow-slow"><span class="std std-ref">slow</span></a> spell) for 2d6 rounds, with no saving throw.
+â¢ A magical attack that deals cold damage breaks any <a class="reference internal" href="corerulebook.spells.slow.html#corerulebook-spells-slow-slow"><span class="std std-ref">slow</span></a> effect on the golem and heals 1 point of damage for every 3 points of damage the attack would otherwise deal. If the amount of healing would cause the golem to exceed its full normal hit points, it gains any excess as temporary hit points. An ice golem gets no saving throw against cold effects.</div></blockquote>
+<p>Ice golems are humanoid automatons formed of carved ice. Their appearance can range from roughly chiseled figures of ice and snow to elaborately detailed ice sculptures and beautiful crystalline statues.
+Ice golems cannot speak, and move with the sound of cracking and popping ice. An ice golem stands 7 feet tall and weighs 500 pounds.</p>
+</div>
+</div>
+<div class="section" id="id17">
+<h1><a class="toc-backref" href="#id74">Construction</a><a class="headerlink" href="#id17" title="Permalink to this headline">¶</a></h1>
+<p>An ice golem’s body must be constructed from a single block of ice weighing at least 1,000 pounds. The ice is treated with magical powders and unguents worth at least 500 gp.</p>
+<div class="section" id="id18">
+<h2><a class="toc-backref" href="#id75">Ice Golem</a><a class="headerlink" href="#id18" title="Permalink to this headline">¶</a></h2>
+<p><strong>CL</strong> 12th; <strong>Price</strong> 18,500 gp</p>
+</div>
+<div class="section" id="id19">
+<h2><a class="toc-backref" href="#id76">Construction</a><a class="headerlink" href="#id19" title="Permalink to this headline">¶</a></h2>
+<p><strong>Requirements</strong> <a class="reference internal" href="bestiary.monsterfeats.html#craft construct (item creation)"><span class="std std-ref">Craft Construct</span></a>, <a class="reference internal" href="corerulebook.spells.chilltouch.html#corerulebook-spells-chilltouch-chill-touch"><span class="std std-ref">chill touch</span></a>, <a class="reference internal" href="corerulebook.spells.coneofcold.html#corerulebook-spells-coneofcold-cone-of-cold"><span class="std std-ref">cone of cold</span></a>, <a class="reference internal" href="corerulebook.spells.geasquest.html#geas/quest"><span class="std std-ref">geas/quest</span></a>, <a class="reference internal" href="corerulebook.spells.icestorm.html#corerulebook-spells-icestorm-ice-storm"><span class="std std-ref">ice storm</span></a>, <a class="reference internal" href="corerulebook.spells.resistenergy.html#corerulebook-spells-resistenergy-resist-energy"><span class="std std-ref">resist energy</span></a> (cold), creator must be caster level 12th; <strong>Skill</strong> <a class="reference internal" href="corerulebook.skills.craft.html#corerulebook-skills-craft-craft"><span class="std std-ref">Craft</span></a> (sculptures) DC 17; <strong>Cost</strong> 9,500 gp</p>
+</div>
+</div>
+<div class="section" id="golem-iron">
+<span id="bestiary-golem-golem-iron"></span><h1><a class="toc-backref" href="#id77">Golem, Iron</a><a class="headerlink" href="#golem-iron" title="Permalink to this headline">¶</a></h1>
+<p><em>This iron automaton stands twice as tall as a normal human. Its heavy footfalls shake the ground with bone-jarring force.</em></p>
+<div class="section" id="iron-golem">
+<span id="bestiary-golem-iron-golem"></span><h2><a class="toc-backref" href="#id78">Iron Golem</a><a class="headerlink" href="#iron-golem" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 13</strong>
+<strong>XP 25,600</strong>
+N Large <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-construct"><span class="std std-ref">construct</span></a>
+<strong>Init</strong> –1; <strong>Senses</strong> darkvision 60 ft., low-light vision; <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> +0</p>
+</div>
+<div class="section" id="id20">
+<h2><a class="toc-backref" href="#id79">Defense</a><a class="headerlink" href="#id20" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 28, touch 8, flat-footed 28 (–1 Dex, +20 natural, –1 size)
+<strong>hp</strong> 129 (18d10+30)
+<strong>Fort</strong> +6, <strong>Ref</strong> +5, <strong>Will</strong> +6
+<strong>DR</strong> 15/adamantine; <strong>Immune</strong> <a class="reference internal" href="bestiary.universalmonsterrules.html#bestiary-universalmonsterrules-construct-traits"><span class="std std-ref">construct traits</span></a>, magic</p>
+</div>
+<div class="section" id="id21">
+<h2><a class="toc-backref" href="#id80">Offense</a><a class="headerlink" href="#id21" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 20 ft.
+<strong>Melee</strong> 2 slams +28 (2d10+16/19–20)
+<strong>Space</strong> 10 ft.; <strong>Reach</strong> 10 ft.
+<strong>Special Attacks</strong> <a class="reference internal" href="bestiary.universalmonsterrules.html#bestiary-universalmonsterrules-breath-weapon"><span class="std std-ref">breath weapon</span></a>, powerful blows</p>
+</div>
+<div class="section" id="id22">
+<h2><a class="toc-backref" href="#id81">Statistics</a><a class="headerlink" href="#id22" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 32, <strong>Dex</strong> 9, <strong>Con</strong> —, <strong>Int</strong>—, <strong>Wis</strong> 11, <strong>Cha</strong> 1
+<strong>Base</strong> <strong>Atk</strong> +18; <strong>CMB</strong> +30; <strong>CMD</strong>39</p>
+</div>
+<div class="section" id="id23">
+<h2><a class="toc-backref" href="#id82">Ecology</a><a class="headerlink" href="#id23" title="Permalink to this headline">¶</a></h2>
+<p><strong>Environment</strong>any
+<strong>Organization</strong> solitary or gang (2–4)
+<strong>Treasure</strong> none</p>
+</div>
+<div class="section" id="id24">
+<h2><a class="toc-backref" href="#id83">Special Abilities</a><a class="headerlink" href="#id24" title="Permalink to this headline">¶</a></h2>
+<p><strong>Breath Weapon (Su)</strong>As a free action once every 1d4+1 rounds, an iron golem can exhale a 10-foot cube of poisonous gas. This gas cloud persists for 1 round; any creature within the area when the golem creates it (as well as any creature that passes through the cloud during the remainder of that round) is exposed to the cloud’s poisonous effects. This poison is magically created each time the golem uses this power.<em>Breath weapon</em>—inhaled; <em>save</em> Fort 19; <em>frequency</em> 1/round for 4 rounds; <em>effect</em> 1d4 Constitution damage; <em>cure</em> 2 saves. The save DC is Constitution-based.
+<strong>Immunity to Magic (Ex)</strong> An iron golem is immune to spells or spell-like abilities that allow spell resistance. Certain spells and effects function differently against it, as noted below.</p>
+<blockquote>
+<div><dl class="docutils">
+<dt>A magical attack that deals electricity damage slows an iron golem (as the <a class="reference internal" href="corerulebook.spells.slow.html#corerulebook-spells-slow-slow"><span class="std std-ref">slow</span></a> spell) for 3 rounds, with no saving throw.</dt>
+<dd>A magical attack that deals fire damage breaks any <a class="reference internal" href="corerulebook.spells.slow.html#corerulebook-spells-slow-slow"><span class="std std-ref">slow</span></a> effect on the golem and heals 1 point of damage for each 3 points of damage the attack would otherwise deal. If the amount of healing would cause the golem to exceed its full normal hit points, it gains any excess as temporary hit points. An iron golem gets no saving throw against fire effects.
+An iron golem is affected normally by rust attacks, such as those of a rust monster or a <a class="reference internal" href="corerulebook.spells.rustinggrasp.html#corerulebook-spells-rustinggrasp-rusting-grasp"><span class="std std-ref">rusting grasp</span></a> spell.</dd>
+</dl>
+</div></blockquote>
+<p><strong>Powerful Blows (Ex)</strong> An iron golem inflicts one and a half times its Strength modifier and threatens a critical hit on a 19–20 with its slam attacks.
+An iron golem has a humanoid body made from iron. It can be sculpted into any shape its creator desires, but it almost always displays armor of some sort, from simple and utilitarian to ceremonial and ornate. Its features are much smoother than those of a stone golem. Iron golems sometimes carry a weapon in one hand, though they rarely use these, relying instead on their slam attacks.
+An iron golem is 12 feet tall and weighs about 5,000 pounds. An iron golem cannot speak or make any vocal noise, nor does it have any distinguishable odor.
+Although the practice has fallen out of favor in modern times, the ancients of certain powerful civilizations once took great pride in crafting iron golems of tremendous size and strength. These golems, which are never smaller than Huge, still exist in remote parts of the world, mindlessly following the orders of a long-dead empire.</p>
+</div>
+</div>
+<div class="section" id="id25">
+<h1><a class="toc-backref" href="#id84">Construction</a><a class="headerlink" href="#id25" title="Permalink to this headline">¶</a></h1>
+<p>An iron golem’s body is sculpted from 5,000 pounds of iron, smelted with rare tinctures costing at least 10,000 gp.</p>
+<div class="section" id="id26">
+<h2><a class="toc-backref" href="#id85">Iron Golem</a><a class="headerlink" href="#id26" title="Permalink to this headline">¶</a></h2>
+<p><strong>CL</strong> 16th; <strong>Price</strong> 150,000 gp</p>
+</div>
+<div class="section" id="id27">
+<h2><a class="toc-backref" href="#id86">Construction</a><a class="headerlink" href="#id27" title="Permalink to this headline">¶</a></h2>
+<p><strong>Requirements</strong> <a class="reference internal" href="bestiary.monsterfeats.html#craft construct (item creation)"><span class="std std-ref">Craft Construct</span></a>, <a class="reference internal" href="corerulebook.spells.cloudkill.html#corerulebook-spells-cloudkill-cloudkill"><span class="std std-ref">cloudkill</span></a>, <a class="reference internal" href="corerulebook.spells.geasquest.html#geas/quest"><span class="std std-ref">geas/quest</span></a>, <a class="reference internal" href="corerulebook.spells.limitedwish.html#corerulebook-spells-limitedwish-limited-wish"><span class="std std-ref">limited wish</span></a>, <a class="reference internal" href="corerulebook.spells.polymorphanyobject.html#corerulebook-spells-polymorphanyobject-polymorph-any-object"><span class="std std-ref">polymorph any object</span></a>, creator must be caster level 16th; <strong>Skill</strong> <a class="reference internal" href="corerulebook.skills.craft.html#corerulebook-skills-craft-craft"><span class="std std-ref">Craft</span></a> (armor) or <a class="reference internal" href="corerulebook.skills.craft.html#corerulebook-skills-craft-craft"><span class="std std-ref">Craft</span></a> (weapons) DC 21; <strong>Cost</strong> 80,000 gp</p>
+</div>
+</div>
+<div class="section" id="golem-stone">
+<span id="bestiary-golem-golem-stone"></span><h1><a class="toc-backref" href="#id87">Golem, Stone</a><a class="headerlink" href="#golem-stone" title="Permalink to this headline">¶</a></h1>
+<p><em>This towering stone automaton bears the likeness of an archaic, armored warrior. It moves with ponderous but inexorable steps.</em></p>
+<div class="section" id="stone-golem">
+<span id="bestiary-golem-stone-golem"></span><h2><a class="toc-backref" href="#id88">Stone Golem</a><a class="headerlink" href="#stone-golem" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 11</strong>
+<strong>XP 12,800</strong>
+N Large <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-construct"><span class="std std-ref">construct</span></a>
+<strong>Init</strong> –1; <strong>Senses</strong> darkvision 60 ft., low-light vision; <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> +0</p>
+</div>
+<div class="section" id="id28">
+<h2><a class="toc-backref" href="#id89">Defense</a><a class="headerlink" href="#id28" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 26, touch 8, flat-footed 26 (–1 Dex, +18 natural, –1 size)
+<strong>hp</strong> 107 (14d10+30)
+<strong>Fort</strong> +4, <strong>Ref</strong> +3, <strong>Will</strong> +4
+<strong>DR</strong> 10/adamantine; <strong>Immune</strong> <a class="reference internal" href="bestiary.universalmonsterrules.html#bestiary-universalmonsterrules-construct-traits"><span class="std std-ref">construct traits</span></a>, magic</p>
+</div>
+<div class="section" id="id29">
+<h2><a class="toc-backref" href="#id90">Offense</a><a class="headerlink" href="#id29" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 20 ft.
+<strong>Melee</strong> 2 slams +22 (2d10+9)
+<strong>Space</strong> 10 ft.; <strong>Reach</strong> 10 ft.
+<strong>Special Attacks</strong> slow</p>
+</div>
+<div class="section" id="id30">
+<h2><a class="toc-backref" href="#id91">Statistics</a><a class="headerlink" href="#id30" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 28, <strong>Dex</strong> 9, <strong>Con</strong> —, <strong>Int</strong> —, <strong>Wis</strong> 11, <strong>Cha</strong> 1
+<strong>Base</strong> <strong>Atk</strong> +14; <strong>CMB</strong> +24; <strong>CMD</strong>33</p>
+</div>
+<div class="section" id="id31">
+<h2><a class="toc-backref" href="#id92">Ecology</a><a class="headerlink" href="#id31" title="Permalink to this headline">¶</a></h2>
+<p><strong>Environment</strong>any
+<strong>Organization</strong> solitary or gang (2–4)
+<strong>Treasure</strong> none</p>
+</div>
+<div class="section" id="id32">
+<h2><a class="toc-backref" href="#id93">Special Abilities</a><a class="headerlink" href="#id32" title="Permalink to this headline">¶</a></h2>
+<dl class="docutils">
+<dt><strong>Immunity to Magic (Ex)</strong> A stone golem is immune to any spell or spell-like ability that allows spell resistance. In addition, certain spells and effects function differently against the creature, as noted below.</dt>
+<dd><dl class="first last docutils">
+<dt>A <a class="reference internal" href="corerulebook.spells.transmuterocktomud.html#corerulebook-spells-transmuterocktomud-transmute-rock-to-mud"><span class="std std-ref">transmute rock to mud</span></a> spell slows a stone golem (as the <a class="reference internal" href="corerulebook.spells.slow.html#corerulebook-spells-slow-slow"><span class="std std-ref">slow</span></a> spell) for 2d6 rounds, with no saving throw, while <a class="reference internal" href="corerulebook.spells.transmutemudtorock.html#corerulebook-spells-transmutemudtorock-transmute-mud-to-rock"><span class="std std-ref">transmute mud to rock</span></a> heals all of its lost hit points.</dt>
+<dd>A <a class="reference internal" href="corerulebook.spells.stonetoflesh.html#corerulebook-spells-stonetoflesh-stone-to-flesh"><span class="std std-ref">stone to flesh</span></a> spell does not actually change the golem’s structure but negates its damage reduction and immunity to magic for 1 full round.</dd>
+</dl>
+</dd>
+</dl>
+<p><strong>Slow (Su)</strong>A stone golem can use a slow effect, as the spell, as a free action once every 2 rounds. The effect has a range of 10 feet in a burst centered on the golem and a duration of 7 rounds, requiring a DC 17 Will save to negate. The save DC is Constitution-based.
+A stone golem has a humanoid body made from stone, frequently stylized to suit its creator. For example, it might look like it is wearing armor, with a particular symbol carved on the breastplate, or have designs worked into the stone of its limbs. Its head is often carved to resemble a helmet or the head of some beast. While it may be sculpted to carry a stone shield or stone weapon such as a sword, these aesthetic choices do not affect its combat abilities.
+Like most golems, a stone golem cannot speak and makes no sound other than the grinding of stone against stone when it moves. A stone golem is 9 feet tall and weighs around 2,000 pounds.</p>
+</div>
+</div>
+<div class="section" id="id33">
+<h1><a class="toc-backref" href="#id94">Construction</a><a class="headerlink" href="#id33" title="Permalink to this headline">¶</a></h1>
+<p>A stone golem’s body is chiseled from a single block of hard stone, such as granite, weighing at least 3,000 pounds. The stone must be of exceptional quality, and costs 5,000 gp.</p>
+<div class="section" id="id34">
+<h2><a class="toc-backref" href="#id95">Stone Golem</a><a class="headerlink" href="#id34" title="Permalink to this headline">¶</a></h2>
+<p><strong>CL</strong> 14th; <strong>Price</strong> 105,000 gp</p>
+</div>
+<div class="section" id="id35">
+<h2><a class="toc-backref" href="#id96">Construction</a><a class="headerlink" href="#id35" title="Permalink to this headline">¶</a></h2>
+<p><strong>Requirements</strong> <a class="reference internal" href="bestiary.monsterfeats.html#craft construct (item creation)"><span class="std std-ref">Craft Construct</span></a>, <a class="reference internal" href="corerulebook.spells.antimagicfield.html#corerulebook-spells-antimagicfield-antimagic-field"><span class="std std-ref">antimagic field</span></a>, <a class="reference internal" href="corerulebook.spells.geasquest.html#geas/quest"><span class="std std-ref">geas/quest</span></a>, <a class="reference internal" href="corerulebook.spells.limitedwish.html#corerulebook-spells-limitedwish-limited-wish"><span class="std std-ref">limited wish</span></a>, <a class="reference internal" href="corerulebook.spells.symbolofstunning.html#corerulebook-spells-symbolofstunning-symbol-of-stunning"><span class="std std-ref">symbol of stunning</span></a>, creator must be caster level 14th; <strong>Skill</strong> <a class="reference internal" href="corerulebook.skills.craft.html#corerulebook-skills-craft-craft"><span class="std std-ref">Craft</span></a> (sculpture) or <a class="reference internal" href="corerulebook.skills.craft.html#corerulebook-skills-craft-craft"><span class="std std-ref">Craft</span></a> (stonemasonry) DC 19; <strong>Cost</strong> 55,000 gp</p>
+</div>
+</div>
+<div class="section" id="golem-wood">
+<span id="bestiary-golem-golem-wood"></span><h1><a class="toc-backref" href="#id97">Golem, Wood</a><a class="headerlink" href="#golem-wood" title="Permalink to this headline">¶</a></h1>
+<p><em>This human-sized automaton resembles a crude humanoid figure made of cast-off pieces of wood.</em></p>
+<div class="section" id="wood-golem">
+<span id="bestiary-golem-wood-golem"></span><h2><a class="toc-backref" href="#id98">Wood Golem</a><a class="headerlink" href="#wood-golem" title="Permalink to this headline">¶</a></h2>
+<p><strong>CR 6</strong>
+<strong>XP 2,400</strong>
+N Medium <a class="reference internal" href="bestiary.creaturetypes.html#bestiary-creaturetypes-construct"><span class="std std-ref">construct</span></a>
+<strong>Init</strong> +3; <strong>Senses</strong> darkvision 60 ft., low-light vision; <a class="reference internal" href="corerulebook.skills.perception.html#corerulebook-skills-perception-perception"><span class="std std-ref">Perception</span></a> +0</p>
+</div>
+<div class="section" id="id36">
+<h2><a class="toc-backref" href="#id99">Defense</a><a class="headerlink" href="#id36" title="Permalink to this headline">¶</a></h2>
+<p><strong>AC</strong> 19, touch 13, flat-footed 16 (+3 Dex, +6 natural)
+<strong>hp</strong> 64 (8d10+20)
+<strong>Fort</strong> +2, <strong>Ref</strong> +5, <strong>Will</strong> +5
+<strong>DR</strong> 5/adamantine; <strong>Immune</strong> <a class="reference internal" href="bestiary.universalmonsterrules.html#bestiary-universalmonsterrules-construct-traits"><span class="std std-ref">construct traits</span></a>, magic
+<strong>Weaknesses</strong> vulnerable to fire</p>
+</div>
+<div class="section" id="id37">
+<h2><a class="toc-backref" href="#id100">Offense</a><a class="headerlink" href="#id37" title="Permalink to this headline">¶</a></h2>
+<p><strong>Speed</strong> 30 ft.
+<strong>Melee</strong> 2 slams +12 (2d6+4)
+<strong>Special Attacks</strong> splintering</p>
+</div>
+<div class="section" id="id38">
+<h2><a class="toc-backref" href="#id101">Statistics</a><a class="headerlink" href="#id38" title="Permalink to this headline">¶</a></h2>
+<p><strong>Str</strong> 18, <strong>Dex</strong> 17, <strong>Con</strong> —, <strong>Int</strong> —, <strong>Wis</strong> 17, <strong>Cha</strong> 1
+<strong>Base</strong> <strong>Atk</strong> +8; <strong>CMB</strong> +12; <strong>CMD</strong>25</p>
+</div>
+<div class="section" id="id39">
+<h2><a class="toc-backref" href="#id102">Ecology</a><a class="headerlink" href="#id39" title="Permalink to this headline">¶</a></h2>
+<p><strong>Environment</strong>any
+<strong>Organization</strong> solitary or gang (2–4)
+<strong>Treasure</strong> none</p>
+</div>
+<div class="section" id="id40">
+<h2><a class="toc-backref" href="#id103">Special Abilities</a><a class="headerlink" href="#id40" title="Permalink to this headline">¶</a></h2>
+<dl class="docutils">
+<dt><strong>Immunity to Magic (Ex)</strong> A wood golem is immune to any spell or spell-like ability that allows spell resistance, with the exception of spells and spell-like abilities that have the Fire descriptor, which affect it normally. In addition, certain spells and effects function differently against the creature, as noted below.</dt>
+<dd><dl class="first last docutils">
+<dt><em>Warp wood</em> or <a class="reference internal" href="corerulebook.spells.woodshape.html#corerulebook-spells-woodshape-wood-shape"><span class="std std-ref">wood shape</span></a> slows a wood golem (as the <a class="reference internal" href="corerulebook.spells.slow.html#corerulebook-spells-slow-slow"><span class="std std-ref">slow</span></a> spell) for 2d6 rounds (no save).</dt>
+<dd><em>Repel wood</em>drives the golem back 60 feet and deals 2d12 points of damage to it (no save).
+A magical attack that deals cold damage breaks any <a class="reference internal" href="corerulebook.spells.slow.html#corerulebook-spells-slow-slow"><span class="std std-ref">slow</span></a> effect on the golem and heals 1 point of damage for every 3 points of damage the attack would otherwise deal. If the amount of healing would cause the golem to exceed its full normal hit points, it gains any excess as temporary hit points. A wood golem gets no saving throw against attacks that deal cold damage.</dd>
+</dl>
+</dd>
+</dl>
+<p><strong>Splintering (Su)</strong> As a free action once every 1d4+1 rounds, a wood golem can launch a barrage of razor-sharp wooden splinters from its body in a 20-foot-radius burst. All creatures caught within this area take 6d6 points of slashing damage (Reflex DC 14 halves). The save DC is Constitution-based.
+A wood golem is carved from rare woods, assembled into a roughly humanoid body with articulated limbs. Their creators usually leave their bodies almost unfinished, with individual pieces of lumber and unworked wood apparent and obvious as part of their construction. A wood golem stands 6-1/2 feet tall and weighs 400 pounds.</p>
+</div>
+</div>
+<div class="section" id="id41">
+<h1><a class="toc-backref" href="#id104">Construction</a><a class="headerlink" href="#id41" title="Permalink to this headline">¶</a></h1>
+<p>The pieces of a wood golem are assembled from blocks of fine wood and sprinkled with rare powders and crushed herbs worth at least 300 gp.</p>
+<div class="section" id="id42">
+<h2><a class="toc-backref" href="#id105">Wood Golem</a><a class="headerlink" href="#id42" title="Permalink to this headline">¶</a></h2>
+<p><strong>CL</strong> 7th; <strong>Price</strong> 19,300 gp</p>
+</div>
+<div class="section" id="id43">
+<h2><a class="toc-backref" href="#id106">Construction</a><a class="headerlink" href="#id43" title="Permalink to this headline">¶</a></h2>
+<p><strong>Requirements</strong> <a class="reference internal" href="bestiary.monsterfeats.html#craft construct (item creation)"><span class="std std-ref">Craft Construct</span></a>, <a class="reference internal" href="corerulebook.spells.alarm.html#corerulebook-spells-alarm-alarm"><span class="std std-ref">alarm</span></a>, <a class="reference internal" href="corerulebook.spells.animateobjects.html#corerulebook-spells-animateobjects-animate-objects"><span class="std std-ref">animate objects</span></a>, <a class="reference internal" href="corerulebook.spells.catsgrace.html#cat's grace"><span class="std std-ref">cat’s grace</span></a>, <a class="reference internal" href="corerulebook.spells.geasquest.html#geas/quest"><span class="std std-ref">geas/quest</span></a>, <a class="reference internal" href="corerulebook.spells.limitedwish.html#corerulebook-spells-limitedwish-limited-wish"><span class="std std-ref">limited wish</span></a>, creator must be caster level 12th; <strong>Skill</strong> <a class="reference internal" href="corerulebook.skills.craft.html#corerulebook-skills-craft-craft"><span class="std std-ref">Craft</span></a> (carpentry) DC 17; <strong>Cost</strong> 8,800 gp</p>
+</div>
+</div>
+
+</body>

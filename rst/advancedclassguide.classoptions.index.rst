@@ -1,0 +1,93 @@
+
+.. _`advancedclassguide.classoptions.index`:
+
+.. contents:: \ 
+
+.. _`advancedclassguide.classoptions.index#advanced_class_guide_archetypes`: `advancedclassguide.classoptions.index#archetypes_and_class_options`_
+
+.. _`advancedclassguide.classoptions.index#archetypes_and_class_options`:
+
+Archetypes and Class Options
+#############################
+
+Each base class in the Pathfinder Roleplaying Game draws upon a central idea—a basic concept representing a commonly held understanding of what a character of a certain class should be—and is designed to be a foundation for a wide array of characters. Within that basic concept, however, exists the potential for innumerable interpretations and refinements, ways for the rules to cater to a more specialized interpretation of the class. A member of the swashbuckler class, for example, could be a daring infiltrator, a queen's musketeer, or a masked avenger. Such choices are refined through background details, class options, feats, and skills, all to better forge the character the player imagines and make her more effective at manifesting her unique personality and pursuing her goals.
+
+Some character concepts are too close to existing classes to warrant being full classes of their own, yet prove compelling enough that they come up in play time and time again. For these situations, the Pathfinder Roleplaying Game has archetypes—sets of modified abilities that can be easily swapped out for those of a given class to help customize its focus. The following section details new rules options and alternate class features to help you create iconic fantasy characters.
+
+This section presents new archetypes or other options for all the classes in the \ *Pathfinder Roleplaying Game Core Rulebook*\ , \ *Pathfinder Roleplaying Game: Advanced Player's Guide*\ , \ *Pathfinder Roleplaying Game: Ultimate Magic*\ , and \ *Pathfinder Roleplaying Game: Ultimate Combat*\ , as well as all of the new classes introduced in this book. While most sections in this chapter focus on archetypes, a few focus on other new class options, or present a combination of the two. Many of the archetypes and options in this section allow members of classes from previous books to gain class features of the new classes presented in this book.
+
+:ref:`Alchemist <advancedclassguide.classoptions.alchemist>`
+
+:ref:`Arcanist <advancedclassguide.classoptions.arcanist>`
+
+:ref:`Barbarian <advancedclassguide.classoptions.barbarian>`
+
+:ref:`Bard <advancedclassguide.classoptions.bard>`
+
+:ref:`Bloodrager <advancedclassguide.classoptions.bloodrager>`
+
+:ref:`Brawler <advancedclassguide.classoptions.brawler>`
+
+:ref:`Cavalier <advancedclassguide.classoptions.cavalier>`
+
+:ref:`Cleric <advancedclassguide.classoptions.cleric>`
+
+:ref:`Druid <advancedclassguide.classoptions.druid>`
+
+:ref:`Fighter <advancedclassguide.classoptions.fighter>`
+
+:ref:`Gunslinger <advancedclassguide.classoptions.gunslinger>`
+
+:ref:`Hunter <advancedclassguide.classoptions.hunter>`
+
+:ref:`Inquisitor <advancedclassguide.classoptions.inquisitor>`
+
+:ref:`Investigator <advancedclassguide.classoptions.investigator>`
+
+:ref:`Magus <advancedclassguide.classoptions.magus>`
+
+:ref:`Monk <advancedclassguide.classoptions.monk>`
+
+:ref:`Oracle <advancedclassguide.classoptions.oracle>`
+
+:ref:`Paladin <advancedclassguide.classoptions.paladin>`
+
+:ref:`Ranger <advancedclassguide.classoptions.ranger>`
+
+:ref:`Rogue <advancedclassguide.classoptions.rogue>`
+
+:ref:`Shaman <advancedclassguide.classoptions.shaman>`
+
+:ref:`Skald <advancedclassguide.classoptions.skald>`
+
+:ref:`Slayer <advancedclassguide.classoptions.slayer>`
+
+:ref:`Sorcerer <advancedclassguide.classoptions.sorcerer>`
+
+:ref:`Summoner <advancedclassguide.classoptions.summoner>`
+
+:ref:`Swashbuckler <advancedclassguide.classoptions.swashbuckler>`
+
+:ref:`Warpriest <advancedclassguide.classoptions.warpriest>`
+
+:ref:`Witch <advancedclassguide.classoptions.witch>`
+
+:ref:`Wizard <advancedclassguide.classoptions.wizard>`
+
+.. _`advancedclassguide.classoptions.index#selecting_archetypes`:
+
+Selecting Archetypes
+*********************
+
+The primary way that archetypes (introduced in \ *Pathfinder Roleplaying Game: Advanced Player's Guide*\ ) modify base classes is by replacing class features. When a player selects a class for his character, he could choose to use the standard class features found in the class's original description, but he could instead choose to adopt an archetype. Each alternate class feature presented in an archetype replaces or alters a specific class feature from its base class. For example, the strangler archetype's neckbreaker class feature replaces the awesome blow and improved awesome blow features of the standard brawler class. Class features that are not specifically replaced function as described in the original version of the class.
+
+When an archetype includes multiple alternate class features, a character must take all of them—often blocking the character from ever gaining certain standard class features, but replacing them with other options. All other class features of the base class that aren't mentioned among the alternate class features remain unchanged and are acquired normally when a character reaches the appropriate level, unless otherwise noted. A character with an alternate class feature due to an archetype doesn't count as having the class feature that was replaced for the purpose of meeting any requirements or prerequisites.
+
+On the other hand, any alternate class feature described as altering an existing class feature otherwise functions as that original class feature, and is considered to be that class feature for the purpose of meeting any requirements or prerequisites, even if that feature is renamed to fit a new theme. For example, a class feature that alters the bard's bardic performance still counts as bardic performance for any prerequisite that requires that ability.
+
+A character can take more than one archetype and garner additional alternate class features, but none of the alternate class features can replace or alter the same class feature from the base class as the other alternate feature. For example, a warpriest could not be both a champion of fate and a disenchanter, because both archetypes replace the channel energy class feature with something else.
+
+If an archetype replaces a class feature that's part of a series of improvements or additions to the base class's ability (such as a fighter's weapon training or a ranger's favored enemy), the next time the character would gain that ability, it counts as the lower-level ability that was replaced by the archetype. In effect, all abilities in that series are delayed until the next time the class improves that ability. For example, if an archetype replaces a rogue's +2d6 sneak attack bonus at 3rd level, her sneak attack doesn't jump from +1d6 to +3d6 at 5th level—it improves to +2d6 just as if she had finally gained the increase for 3rd level. This adjustment continues at every level at which her sneak attack would improve, until at 19th level she has +9d6 instead of the +10d6 of a standard rogue.
+
+If an archetype replaces a class feature that has a series of improvements, but it does not mention one individual improvement, that class feature replaces the entire class feature and all of its improvements. For example, if a class feature says that it replaces trap sense without mentioning a specific bonus, it replaces all the benefits of trap sense.
+

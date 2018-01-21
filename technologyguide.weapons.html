@@ -1,0 +1,974 @@
+
+
+
+
+
+<head>
+    <link rel="stylesheet" href="_static/srd.css" type="text/css" />
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/toggle_list.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+
+
+
+<body>
+    <div class="contents topic" id="id1">
+<span id="technologyguide-weapons"></span><p class="topic-title first"></p>
+<ul class="simple">
+<li><a class="reference internal" href="#weapons" id="id34">Weapons</a><ul>
+<li><a class="reference internal" href="#arc-pistol" id="id35">Arc Pistol</a></li>
+<li><a class="reference internal" href="#construction" id="id36">Construction</a></li>
+<li><a class="reference internal" href="#arc-rifle" id="id37">Arc Rifle</a></li>
+<li><a class="reference internal" href="#id2" id="id38">Construction</a></li>
+<li><a class="reference internal" href="#atom-gun" id="id39">Atom Gun</a></li>
+<li><a class="reference internal" href="#id3" id="id40">Construction</a></li>
+<li><a class="reference internal" href="#autograpnel" id="id41">Autograpnel</a></li>
+<li><a class="reference internal" href="#id4" id="id42">Construction</a></li>
+<li><a class="reference internal" href="#chainsaw" id="id43">Chainsaw</a></li>
+<li><a class="reference internal" href="#id5" id="id44">Construction</a></li>
+<li><a class="reference internal" href="#dart-gun" id="id45">Dart Gun</a></li>
+<li><a class="reference internal" href="#id6" id="id46">Construction</a></li>
+<li><a class="reference internal" href="#death-ray" id="id47">Death Ray</a></li>
+<li><a class="reference internal" href="#id7" id="id48">Construction</a></li>
+<li><a class="reference internal" href="#emp-pistol" id="id49">EMP Pistol</a></li>
+<li><a class="reference internal" href="#id8" id="id50">Construction</a></li>
+<li><a class="reference internal" href="#emp-rifle" id="id51">EMP Rifle</a></li>
+<li><a class="reference internal" href="#id9" id="id52">Construction</a></li>
+<li><a class="reference internal" href="#flare-gun" id="id53">Flare Gun</a></li>
+<li><a class="reference internal" href="#id10" id="id54">Construction</a></li>
+<li><a class="reference internal" href="#gravity-pistol" id="id55">Gravity Pistol</a></li>
+<li><a class="reference internal" href="#id11" id="id56">Construction</a></li>
+<li><a class="reference internal" href="#gravity-rifle" id="id57">Gravity Rifle</a></li>
+<li><a class="reference internal" href="#id12" id="id58">Construction</a></li>
+<li><a class="reference internal" href="#grenade-launcher" id="id59">Grenade Launcher</a></li>
+<li><a class="reference internal" href="#id13" id="id60">Construction</a></li>
+<li><a class="reference internal" href="#technologyguide-weapons-id-rifle" id="id61">Id Rifle</a></li>
+<li><a class="reference internal" href="#id14" id="id62">Construction</a></li>
+<li><a class="reference internal" href="#laser-pistol" id="id63">Laser Pistol</a></li>
+<li><a class="reference internal" href="#id15" id="id64">Construction</a></li>
+<li><a class="reference internal" href="#laser-rifle" id="id65">Laser Rifle</a></li>
+<li><a class="reference internal" href="#id16" id="id66">Construction</a></li>
+<li><a class="reference internal" href="#laser-torch" id="id67">Laser Torch</a></li>
+<li><a class="reference internal" href="#id17" id="id68">Construction</a></li>
+<li><a class="reference internal" href="#mindrender" id="id69">Mindrender</a></li>
+<li><a class="reference internal" href="#id18" id="id70">Construction</a></li>
+<li><a class="reference internal" href="#monowhip" id="id71">Monowhip</a></li>
+<li><a class="reference internal" href="#id19" id="id72">Construction</a></li>
+<li><a class="reference internal" href="#nuclear-resonator" id="id73">Nuclear Resonator</a></li>
+<li><a class="reference internal" href="#id20" id="id74">Construction</a></li>
+<li><a class="reference internal" href="#null-blade" id="id75">Null Blade</a></li>
+<li><a class="reference internal" href="#id21" id="id76">Construction</a></li>
+<li><a class="reference internal" href="#plasmathrower" id="id77">Plasmathrower</a></li>
+<li><a class="reference internal" href="#id22" id="id78">Construction</a></li>
+<li><a class="reference internal" href="#rail-gun" id="id79">Rail Gun</a></li>
+<li><a class="reference internal" href="#id23" id="id80">Construction</a></li>
+<li><a class="reference internal" href="#rocket-launcher" id="id81">Rocket Launcher</a></li>
+<li><a class="reference internal" href="#id24" id="id82">Construction</a></li>
+<li><a class="reference internal" href="#sonic-pistol" id="id83">Sonic Pistol</a></li>
+<li><a class="reference internal" href="#id25" id="id84">Construction</a></li>
+<li><a class="reference internal" href="#sonic-rifle" id="id85">Sonic Rifle</a></li>
+<li><a class="reference internal" href="#id26" id="id86">Construction</a></li>
+<li><a class="reference internal" href="#stun-baton" id="id87">Stun Baton</a></li>
+<li><a class="reference internal" href="#id27" id="id88">Construction</a></li>
+<li><a class="reference internal" href="#stun-gun" id="id89">Stun Gun</a></li>
+<li><a class="reference internal" href="#id28" id="id90">Construction</a></li>
+<li><a class="reference internal" href="#vortex-gun" id="id91">Vortex Gun</a></li>
+<li><a class="reference internal" href="#id29" id="id92">Construction</a></li>
+<li><a class="reference internal" href="#x-laser" id="id93">X-Laser</a></li>
+<li><a class="reference internal" href="#id30" id="id94">Construction</a></li>
+<li><a class="reference internal" href="#zero-pistol" id="id95">Zero Pistol</a></li>
+<li><a class="reference internal" href="#id31" id="id96">Construction</a></li>
+<li><a class="reference internal" href="#zero-rifle" id="id97">Zero Rifle</a></li>
+<li><a class="reference internal" href="#id32" id="id98">Construction</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="weapons">
+<span id="technologyguide-weapons-weapons"></span><h1><a class="toc-backref" href="#id34">Weapons</a><a class="headerlink" href="#weapons" title="Permalink to this headline">¶</a></h1>
+<p>Each technological weapon has a full description, including a set of abbreviated statistics. This information is organized as follows.</p>
+<p><strong>Price</strong>: This is the cost (in gold pieces) to purchase the weapon if it’s available for sale. As with magic weapons, a technological weapon can be sold by PCs for half this value.</p>
+<p><strong>Type</strong>: This indicates whether the weapon is a light, one-handed, or two-handed melee or ranged weapon.</p>
+<p><strong>Proficiency</strong>: This entry lists whether the weapon is simple, martial, or exotic. If an existing weapon proficiency allows the new weapon’s use, that weapon proficiency is listed in parentheses. Note that Exotic Weapon Proficiency (heavy weaponry) works similarly to Exotic Weapon Proficiency (firearms) in that it allows access to a wide range of similar weapons.</p>
+<p>Some GMs may wish to replace Weapon Proficiency (firearms) with Weapon Proficiency (technological firearms) to further restrict access to these devices to player characters in their campaigns.</p>
+<p><strong>Damage</strong>: This is the weapon’s base damage. The type of damage dealt by the weapon is listed after the damage value. Most weapons list the damage dealt by Medium and Small versions of the weapon; weapons with only one damage entry deal the same amount of damage regardless of size.</p>
+<p><strong>Critical</strong>: This entry lists the weapon’s critical threat range and critical damage multiplier.</p>
+<p><strong>Range</strong>: This lists the weapon’s range increment; no listing is given for melee weapons that cannot be thrown. Unless otherwise noted, all firearms in this chapter are treated as projectile weapons for the purpose of determining their maximum range.</p>
+<p><strong>Capacity</strong>: Unless otherwise specified, this value is the maximum number of charges the weapon can hold.</p>
+<p><strong>Usage</strong>: This value lists the number of charges the weapon consumes from its capacity each time it is activated.</p>
+<p><strong>Special</strong>: This entry lists any special weapon qualities the weapon might have. New weapon qualities are listed below.</p>
+<p><strong>Weight</strong>: This is the weight of the weapon in pounds. The weights given are for Medium weapons. A Small weapon weighs half as much; a Large weapon weighs twice as much.</p>
+<p><em>Automatic</em>: This weapon can act as a semi-automatic weapon (see below), or it can fire a burst of shots with a single pull of the trigger to attack all creatures in a line. This line starts from any corner of the wielder’s space and extends to the limit of the weapon’s range or until it strikes a barrier it cannot penetrate. When using an automatic weapon to attack all creatures in a line, the wielder makes a separate attack roll against each creature in the line. Each creature in the line can be attacked with only one shot from each burst. Each attack roll takes a -2 penalty, and its damage cannot be modified by precision damage or damage-increasing feats such as Vital Strike. Effects that grant concealment, such as fog or smoke, or the <a class="reference internal" href="corerulebook.spells.blur.html#corerulebook-spells-blur-blur"><span class="std std-ref">blur</span></a>, <a class="reference internal" href="corerulebook.spells.invisibility.html#corerulebook-spells-invisibility-invisibility"><span class="std std-ref">invisibility</span></a>, or <a class="reference internal" href="corerulebook.spells.mirrorimage.html#corerulebook-spells-mirrorimage-mirror-image"><span class="std std-ref">mirror image</span></a> spells, do not affect an automatic weapon’s line attack. Roll to confirm each attack roll that threatens a critical hit separately. A single burst with an automatic weapon consumes 10 charges. When taking a full-attack action with an automatic weapon, the wielder can fire as many bursts in a round as he has attacks, provided he has enough charges to make all of the attacks.</p>
+<p><em>Semi-Automatic</em>: A semi-automatic weapon normally fires one shot as an attack. However, the user can take a full-attack action to fire twice, as if using the Rapid Shot feat (including taking a -2 penalty on all attacks). If the wielder has the Rapid Shot feat, she can use the additional shot from that as well, but the penalty for all shots fired in that round increases to -6.</p>
+<p><em>Slow-Firing</em>: A slow-firing weapon requires a full-round action to use, and thus cannot be used to make iterative attacks.</p>
+<p><em>Touch</em>: Attacks with the weapon resolve as touch attacks.</p>
+<p><strong>Description</strong>: This section describes the weapon’s abilities and appearance.</p>
+<p><strong>Construction</strong>: Certain requirements must be met for a character to craft a technological weapon. These requirements generally consist of having a feat and access to a particular kind of <a class="reference internal" href="technologyguide.crafting.html#technologyguide-crafting-crafting-laboratories"><span class="std std-ref">manufacturing facility</span></a>.</p>
+<p><strong>Craft</strong>: This is the Craft DC required to create the weapon. It is also the Knowledge (engineering) DC to correctly identify the weapon.</p>
+<p><strong>Cost</strong>: This is the cost in gold pieces to create the weapon. Generally this cost is equal to half the price of the weapon.</p>
+<table border="1" class="colwidths-auto contrast-reading-table docutils" id="id33">
+<caption><span class="caption-text">Technology Guide Weapons</span><a class="headerlink" href="#id33" title="Permalink to this table">¶</a></caption>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Martial Weapons</th>
+<th class="head">Price</th>
+<th class="head">Dmg (S)</th>
+<th class="head">Dmg (M)</th>
+<th class="head">Critical</th>
+<th class="head">Range</th>
+<th class="head">Capacity</th>
+<th class="head">Usage</th>
+<th class="head">Weight</th>
+<th class="head">Type<sup>1</sup></th>
+<th class="head">Special</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><em>One-Handed Melee Weapons</em></td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>Laser torch</td>
+<td>6,000 gp</td>
+<td>1d8</td>
+<td>1d10</td>
+<td>×3</td>
+<td>—</td>
+<td>10</td>
+<td>1 charge</td>
+<td>4 lbs.</td>
+<td>F</td>
+<td>Touch</td>
+</tr>
+<tr class="row-even"><td>Stun baton</td>
+<td>5,000 gp</td>
+<td>Special</td>
+<td>Special</td>
+<td>×2</td>
+<td>—</td>
+<td>10</td>
+<td>1 charge/round</td>
+<td>2 lbs.</td>
+<td>B and E (special)</td>
+<td>Touch</td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="colwidths-auto contrast-reading-table docutils">
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Exotic Weapons</th>
+<th class="head">Price</th>
+<th class="head">Dmg (S)</th>
+<th class="head">Dmg (M)</th>
+<th class="head">Critical</th>
+<th class="head">Range</th>
+<th class="head">Capacity</th>
+<th class="head">Usage</th>
+<th class="head">Weight</th>
+<th class="head">Type<sup>1</sup></th>
+<th class="head">Special</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><em>Light Melee Weapons</em></td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>Monowhip</td>
+<td>70,000 gp</td>
+<td>1d10</td>
+<td>2d6</td>
+<td>18-20/×3</td>
+<td>—</td>
+<td>10</td>
+<td>1 charge/round</td>
+<td>1 lb.</td>
+<td>S</td>
+<td>Performance, reach, touch</td>
+</tr>
+<tr class="row-even"><td><em>One-Handed Melee Weapons</em></td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>Null blade</td>
+<td>58,835 gp</td>
+<td>1d8</td>
+<td>1d10</td>
+<td>19-20/×2</td>
+<td>—</td>
+<td>10</td>
+<td>1 charge/round</td>
+<td>4 lbs.</td>
+<td>S</td>
+<td>—</td>
+</tr>
+<tr class="row-even"><td><em>Two-Handed Melee Weapons</em></td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>Chainsaw</td>
+<td>2,700 gp</td>
+<td>1d12</td>
+<td>3d6</td>
+<td>18-20/×2</td>
+<td>—</td>
+<td>10</td>
+<td>1 charge/hour</td>
+<td>10 lbs.</td>
+<td>S</td>
+<td>Deadly, distracting</td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="colwidths-auto contrast-reading-table docutils">
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">One-Handed Ranged Weapons (Firearms)</th>
+<th class="head">Price</th>
+<th class="head">Dmg (S)</th>
+<th class="head">Dmg (M)</th>
+<th class="head">Critical</th>
+<th class="head">Range</th>
+<th class="head">Capacity</th>
+<th class="head">Usage</th>
+<th class="head">Weight</th>
+<th class="head">Type<sup>1</sup></th>
+<th class="head">Special</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Arc pistol</td>
+<td>10,000 gp</td>
+<td>1d6</td>
+<td>1d8</td>
+<td>×2</td>
+<td>50 ft.</td>
+<td>10</td>
+<td>1 charge</td>
+<td>2 lbs.</td>
+<td>E</td>
+<td>Semi-automatic, touch</td>
+</tr>
+<tr class="row-odd"><td>Dart gun</td>
+<td>3,000 gp</td>
+<td>1d3</td>
+<td>1d4</td>
+<td>×2</td>
+<td>30 ft.</td>
+<td>1 nanite canister</td>
+<td>1 charge</td>
+<td>2 lbs.</td>
+<td>P</td>
+<td>—</td>
+</tr>
+<tr class="row-even"><td>Death ray</td>
+<td>140,000 gp</td>
+<td>Special</td>
+<td>Special</td>
+<td>—</td>
+<td>200 ft.<sup>2</sup></td>
+<td>1 nanite canister</td>
+<td>Varies</td>
+<td>1 lb.</td>
+<td>Special</td>
+<td>Slow-firing, touch</td>
+</tr>
+<tr class="row-odd"><td>EMP pistol</td>
+<td>12,000 gp</td>
+<td>1d10</td>
+<td>2d6</td>
+<td>×2</td>
+<td>50 ft.</td>
+<td>10</td>
+<td>1 charge</td>
+<td>2 lbs.</td>
+<td>E</td>
+<td>Semi-automatic, touch</td>
+</tr>
+<tr class="row-even"><td>Flare gun</td>
+<td>300 gp</td>
+<td>1d6</td>
+<td>1d8</td>
+<td>×3</td>
+<td>240 ft.</td>
+<td>1</td>
+<td>Disposable</td>
+<td>1 lb.</td>
+<td>F</td>
+<td>Slow-firing, touch</td>
+</tr>
+<tr class="row-odd"><td>Gravity pistol</td>
+<td>95,000 gp</td>
+<td>1d6</td>
+<td>1d8</td>
+<td>×2</td>
+<td>50 ft.</td>
+<td>10</td>
+<td>1 charge</td>
+<td>2 lbs.</td>
+<td>Force</td>
+<td>Semi-automatic, touch</td>
+</tr>
+<tr class="row-even"><td>Laser pistol</td>
+<td>10,000 gp</td>
+<td>1d6</td>
+<td>1d8</td>
+<td>×2</td>
+<td>50 ft.</td>
+<td>10</td>
+<td>1 charge</td>
+<td>2 lbs.</td>
+<td>F</td>
+<td>Semi-automatic, touch</td>
+</tr>
+<tr class="row-odd"><td>Mindrender</td>
+<td>56,000 gp</td>
+<td>Special</td>
+<td>Special</td>
+<td>×2</td>
+<td>40 ft.</td>
+<td>1 nanite canister</td>
+<td>2 charges</td>
+<td>2 lbs.</td>
+<td>Special</td>
+<td>Slow-firing, touch</td>
+</tr>
+<tr class="row-even"><td>Sonic pistol</td>
+<td>13,000 gp</td>
+<td>1d6</td>
+<td>1d8</td>
+<td>×2</td>
+<td>50 ft.</td>
+<td>10</td>
+<td>1 charge</td>
+<td>2 lbs.</td>
+<td>Sonic</td>
+<td>Semi-automatic, touch</td>
+</tr>
+<tr class="row-odd"><td>Stun gun</td>
+<td>3,000 gp</td>
+<td>1d6</td>
+<td>1d8</td>
+<td>×2</td>
+<td>20 ft.</td>
+<td>10</td>
+<td>1 charge 3</td>
+<td>lbs.</td>
+<td>—</td>
+<td>Nonlethal, semi-automatic, touch</td>
+</tr>
+<tr class="row-even"><td>Zero pistol</td>
+<td>10,000 gp</td>
+<td>1d6</td>
+<td>1d8</td>
+<td>×2</td>
+<td>50 ft.</td>
+<td>10</td>
+<td>1 charge</td>
+<td>2 lbs.</td>
+<td>C</td>
+<td>Semi-automatic, touch</td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="colwidths-auto contrast-reading-table docutils">
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Two-Handed Ranged Weapons (Firearms)</th>
+<th class="head">Price</th>
+<th class="head">Dmg (S)</th>
+<th class="head">Dmg (M)</th>
+<th class="head">Critical</th>
+<th class="head">Range</th>
+<th class="head">Capacity</th>
+<th class="head">Usage</th>
+<th class="head">Weight</th>
+<th class="head">Type<sup>1</sup></th>
+<th class="head">Special</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Arc rifle</td>
+<td>20,000 gp</td>
+<td>1d10</td>
+<td>2d6</td>
+<td>×2</td>
+<td>150 ft.</td>
+<td>20</td>
+<td>1 charge</td>
+<td>6 lbs.</td>
+<td>E</td>
+<td>Automatic, touch</td>
+</tr>
+<tr class="row-odd"><td>Autograpnel</td>
+<td>4,000 gp</td>
+<td>1d6+6</td>
+<td>1d8+6</td>
+<td>×3</td>
+<td>30 ft.</td>
+<td>20</td>
+<td>1 charge</td>
+<td>10 lbs.</td>
+<td>P</td>
+<td>Grapple, slow-firing</td>
+</tr>
+<tr class="row-even"><td>EMP rifle</td>
+<td>24,000 gp</td>
+<td>2d6</td>
+<td>3d6</td>
+<td>×2</td>
+<td>150 ft.</td>
+<td>20</td>
+<td>1 charge</td>
+<td>6 lbs.</td>
+<td>E</td>
+<td>Automatic, touch</td>
+</tr>
+<tr class="row-odd"><td>Gravity rifle</td>
+<td>165,000 gp</td>
+<td>1d10</td>
+<td>2d6</td>
+<td>×2</td>
+<td>150 ft.</td>
+<td>20</td>
+<td>1 charge</td>
+<td>6 lbs.</td>
+<td>Force</td>
+<td>Automatic, touch</td>
+</tr>
+<tr class="row-even"><td>Id rifle</td>
+<td>50,000 gp</td>
+<td>Special</td>
+<td>Special</td>
+<td>×2</td>
+<td>50 ft.</td>
+<td>1 nanite canister</td>
+<td>1 charge</td>
+<td>5 lbs.</td>
+<td>Special</td>
+<td>Slow-firing, touch</td>
+</tr>
+<tr class="row-odd"><td>Laser rifle</td>
+<td>20,000 gp</td>
+<td>1d10</td>
+<td>2d6</td>
+<td>×2</td>
+<td>150 ft.</td>
+<td>20</td>
+<td>1 charge</td>
+<td>6 lbs.</td>
+<td>F</td>
+<td>Automatic, touch</td>
+</tr>
+<tr class="row-even"><td>Sonic rifle</td>
+<td>26,000 gp</td>
+<td>1d10</td>
+<td>2d6</td>
+<td>×2</td>
+<td>150 ft.</td>
+<td>20</td>
+<td>1 charge</td>
+<td>6 lbs.</td>
+<td>Sonic</td>
+<td>Automatic, touch</td>
+</tr>
+<tr class="row-odd"><td>Zero rifle</td>
+<td>20,000 gp</td>
+<td>1d10</td>
+<td>2d6</td>
+<td>×2</td>
+<td>150 ft.</td>
+<td>20</td>
+<td>1 charge</td>
+<td>6 lbs.</td>
+<td>C</td>
+<td>Automatic, touch</td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="colwidths-auto contrast-reading-table docutils">
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Two-Handed Ranged Weapons (Heavy Weaponry)</th>
+<th class="head">Price</th>
+<th class="head">Dmg (S)</th>
+<th class="head">Dmg (M)</th>
+<th class="head">Critical</th>
+<th class="head">Range</th>
+<th class="head">Capacity</th>
+<th class="head">Usage</th>
+<th class="head">Weight</th>
+<th class="head">Type<sup>1</sup></th>
+<th class="head">Special</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Atom gun</td>
+<td>144,000 gp</td>
+<td>Special</td>
+<td>Special</td>
+<td>—</td>
+<td>40-ft. cone</td>
+<td>—</td>
+<td>—</td>
+<td>24 lbs.</td>
+<td>Special</td>
+<td>Scatter, slow-firing, touch</td>
+</tr>
+<tr class="row-odd"><td>Grenade launcher</td>
+<td>8,000 gp</td>
+<td>Varies</td>
+<td>Varies</td>
+<td>—</td>
+<td>100 ft.</td>
+<td>20</td>
+<td>(5 genades)</td>
+<td>1 grenade and 1 charge 8 lbs.</td>
+<td>Varies</td>
+<td>Slow-firing</td>
+</tr>
+<tr class="row-even"><td>Nuclear resonator</td>
+<td>90,000 gp</td>
+<td>Special</td>
+<td>Special</td>
+<td>18-20/×2</td>
+<td>80 ft.<sup>2</sup></td>
+<td>20</td>
+<td>5 charges</td>
+<td>11 lbs.</td>
+<td>Sonic</td>
+<td>Slow-firing, touch</td>
+</tr>
+<tr class="row-odd"><td>Plasmathrower</td>
+<td>30,000 gp</td>
+<td>2d10</td>
+<td>4d6</td>
+<td>19-20/×2</td>
+<td>60 ft.</td>
+<td>20</td>
+<td>2 charges</td>
+<td>15 lbs.</td>
+<td>E and F</td>
+<td>Automatic or slow-firing, scatter, touch</td>
+</tr>
+<tr class="row-even"><td>Rail gun</td>
+<td>30,000 gp</td>
+<td>3d8</td>
+<td>3d10</td>
+<td>×4</td>
+<td>200 ft.</td>
+<td>10</td>
+<td>1 charge</td>
+<td>14 lbs.</td>
+<td>B and P</td>
+<td>Slow-firing, touch</td>
+</tr>
+<tr class="row-odd"><td>Rocket launcher</td>
+<td>10,800 gp</td>
+<td>8d6</td>
+<td>12d6</td>
+<td>—</td>
+<td>120 ft.</td>
+<td>10</td>
+<td>1 (disposable)</td>
+<td>10 lbs.</td>
+<td>B and F</td>
+<td>Slow-firing, touch</td>
+</tr>
+<tr class="row-even"><td>Vortex gun</td>
+<td>182,000 gp</td>
+<td>8d6</td>
+<td>10d6</td>
+<td>19-20/×2</td>
+<td>100-ft. cone</td>
+<td>30</td>
+<td>10 charges</td>
+<td>15 lbs.</td>
+<td>Force</td>
+<td>Slow-firing, scatter, touch</td>
+</tr>
+<tr class="row-odd"><td>X-laser</td>
+<td>40,000 gp</td>
+<td>6d4</td>
+<td>5d6</td>
+<td>×4</td>
+<td>200 ft.</td>
+<td>20</td>
+<td>5 charges</td>
+<td>10 lbs.</td>
+<td>F</td>
+<td>Touch</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Notes:</strong></p>
+<ul class="simple">
+<li><sup>1</sup>A weapon with two types is both types if the entry specifies “and,” and is either type (wielder’s choice) if the entry specifies “or.” Damage types are abbreviated as follows: B (bludgeoning), C (cold), E (electricity), F (fire), P (piercing), and S (slashing).</li>
+<li><sup>2</sup>This weapon has either no range increment or a special range. See the text for more information.</li>
+</ul>
+<div class="section" id="arc-pistol">
+<span id="technologyguide-weapons-arc-pistol"></span><h2><a class="toc-backref" href="#id35">Arc Pistol</a><a class="headerlink" href="#arc-pistol" title="Permalink to this headline">¶</a></h2>
+<p><strong>Price</strong> 10,000 gp; <strong>Type</strong> one-handed ranged; <strong>Proficiency</strong> exotic (firearms); <strong>Dmg (M)</strong> 1d8 elec.; <strong>Dmg (s)</strong> 1d6 elec.; <strong>Critical</strong> ×2; <strong>Range</strong> 50 ft.; <strong>Capacity</strong> 0; <strong>Usage</strong> 1 charge; <strong>Special</strong> semi-automatic, touch; <strong>Weight</strong> 2 lbs.</p>
+<p>An arc pistol emits bolts of ionized particles that it then electrifies, creating a crackling beam of electricity between it and its target. Arc pistols gain a +2 circumstance bonus on attack rolls against targets that are metal or are wearing medium or heavy metal armor.</p>
+</div>
+<div class="section" id="construction">
+<span id="technologyguide-weapons-construction"></span><h2><a class="toc-backref" href="#id36">Construction</a><a class="headerlink" href="#construction" title="Permalink to this headline">¶</a></h2>
+<p><strong>Craft</strong> DC 23; <strong>Cost</strong> 5,000 gp</p>
+<p><a class="reference internal" href="technologyguide.feats.html#technologyguide-feats-craft-technological-arms-and-armor"><span class="std std-ref">Craft Technological Arms and Armor</span></a>, <a class="reference internal" href="technologyguide.crafting.html#technologyguide-crafting-crafting-laboratories"><span class="std std-ref">military lab</span></a></p>
+</div>
+<div class="section" id="arc-rifle">
+<span id="technologyguide-weapons-arc-rifle"></span><h2><a class="toc-backref" href="#id37">Arc Rifle</a><a class="headerlink" href="#arc-rifle" title="Permalink to this headline">¶</a></h2>
+<p><strong>Price</strong> 20,000 gp; <strong>Type</strong> two-handed ranged; <strong>Proficiency</strong> exotic (firearms); <strong>Dmg (M)</strong> 2d6 elec.; <strong>Dmg (S)</strong> 1d10 elec.; <strong>Critical</strong>  ×2; <strong>Range</strong> 150 ft.; <strong>Capacity</strong> 20; <strong>Usage</strong> 1 charge; <strong>Special</strong>  automatic, touch; <strong>Weight</strong>  6 lbs.</p>
+<p>An arc rifle is a larger, more powerful version of an arc pistol, and functions as such except for the differences listed here.</p>
+</div>
+<div class="section" id="id2">
+<h2><a class="toc-backref" href="#id38">Construction</a><a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<p><strong>Craft</strong> DC 27; <strong>Cost</strong> 10,000 gp</p>
+<p><a class="reference internal" href="technologyguide.feats.html#technologyguide-feats-craft-technological-arms-and-armor"><span class="std std-ref">Craft Technological Arms and Armor</span></a>, <a class="reference internal" href="technologyguide.crafting.html#technologyguide-crafting-crafting-laboratories"><span class="std std-ref">military lab</span></a></p>
+</div>
+<div class="section" id="atom-gun">
+<span id="technologyguide-weapons-atom-gun"></span><h2><a class="toc-backref" href="#id39">Atom Gun</a><a class="headerlink" href="#atom-gun" title="Permalink to this headline">¶</a></h2>
+<p><strong>Price</strong> 144,000 gp; <strong>Type</strong> two-handed ranged; <strong>Proficiency</strong>  exotic (heavy weaponry); <strong>Damage</strong> special (see text); <strong>Critical</strong>  —; <strong>Range</strong> 40-ft. cone; <strong>Capacity</strong> —; <strong>Usage</strong> —; <strong>Special</strong>  scatter, slow-firing, touch; <strong>Weight</strong>  24 lbs.</p>
+<p>An atom gun is a cruel weapon that harnesses the devastating energies of a miniaturized nuclear reactor to create a focused cone of radiation that blasts and sickens those caught in the beam. An atom gun’s range is relatively short, and the weapon can fire only scattering shots. The beams of radiation created when the wielder fires an atom gun do not fill the cone in a homogeneous area, and she must still make a ranged touch attack to irradiate a target. A creature struck by an atom gun attack suffers the <a class="reference internal" href="technologyguide.hazards.html#technologyguide-hazards-radiation"><span class="std std-ref">effects of medium radiation</span></a>. The small core of radioactive material in an atom gun is powerful enough to keep the weapon charged for tens of thousands of years, but the weapon becomes incredibly hot when fired, dealing 1d6 points of damage to the user and subsequently beginning a cool-down protocol, during which the weapon cannot be fired for 1 minute.</p>
+<p>An atom gun cannot be fired more than 3 times per day. A functional atom gun’s power source is shielded well, and the gun itself is not a source of dangerous radioactivity. If an atom gun gains the broken condition, it begins to leak radiation and becomes a source of low radiation to all creatures that touch it. An atom gun that gains the destroyed condition becomes a source of high radiation to those in contact with it, a source of medium radiation to those within 10 feet of it, and a source of low radiation to those within 30 feet of it.</p>
+</div>
+<div class="section" id="id3">
+<h2><a class="toc-backref" href="#id40">Construction</a><a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
+<p><strong>Craft</strong> DC 35; <strong>Cost</strong> 72,000 gp</p>
+<p><a class="reference internal" href="technologyguide.feats.html#technologyguide-feats-craft-technological-arms-and-armor"><span class="std std-ref">Craft Technological Arms and Armor</span></a>, <a class="reference internal" href="technologyguide.crafting.html#technologyguide-crafting-crafting-laboratories"><span class="std std-ref">military lab</span></a></p>
+</div>
+<div class="section" id="autograpnel">
+<span id="technologyguide-weapons-autograpnel"></span><h2><a class="toc-backref" href="#id41">Autograpnel</a><a class="headerlink" href="#autograpnel" title="Permalink to this headline">¶</a></h2>
+<p><strong>Price</strong> 4,000 gp; <strong>Type</strong> two-handed ranged; <strong>Proficiency</strong> exotic (firearms); <strong>Dmg (M)</strong> 1d8+6 pierc.; <strong>Dmg (S)</strong> 1d6+6 pierc.; <strong>Critical</strong>  ×3; <strong>Range</strong> 30 ft.; <strong>Capacity</strong> 20; <strong>Usage</strong> 1 charge; <strong>Special</strong>  grapple, slow-firing; <strong>Weight</strong>  10 lbs.</p>
+<p>An autograpnel looks like a rifle with a small adamantine spike protruding from its barrel. When fired, an autograpnel launches the spike with a muffled bang. The spike trails an incredibly strong and thin metal cable behind it. An instant after the spike punches into a solid target, tiny spurs lance out of it, anchoring the spike in place. An autograpnel’s cord is long enough to allow the grapnel to reach its maximum range of 300 feet, and the internal retraction motors are strong enough to hold up to 500 pounds of weight. If the grapnel misses its target, it can be rewound into the gun as a standard action; reattaching the grapnel to the gun barrel is a move action.</p>
+<p>An autograpnel strikes with an effective Strength score of 22 for the purposes of determining damage. If it strikes a creature, it remains lodged in the target and connected to the rifle and its wielder by the metal cord. This cord has AC 12, hardness 10, and 20 hp. A successful DC 32 Strength check is required to snap the cord. If the wielder retracts the cord while it’s attached to a creature, the autograpnel attempts a pull combat maneuver check with a CMB of +16. If used against objects, an autograpnel can pull an item that weighs 25 pounds or less back to the user as a full-round action, or it can pull a heavier object that weighs no more than 100 pounds back to the user at a speed of 20 feet.</p>
+<p>When attached to a solid object, the gun’s retraction rate can be set to maintain a taut line while the gun is attached to a harness worn to aid climbing checks.</p>
+</div>
+<div class="section" id="id4">
+<h2><a class="toc-backref" href="#id42">Construction</a><a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
+<p><strong>Craft</strong> DC 20; <strong>Cost</strong> 2,000 gp</p>
+<p><a class="reference internal" href="technologyguide.feats.html#technologyguide-feats-craft-technological-arms-and-armor"><span class="std std-ref">Craft Technological Arms and Armor</span></a>, <a class="reference internal" href="technologyguide.crafting.html#technologyguide-crafting-crafting-laboratories"><span class="std std-ref">military lab</span></a></p>
+</div>
+<div class="section" id="chainsaw">
+<span id="technologyguide-weapons-chainsaw"></span><h2><a class="toc-backref" href="#id43">Chainsaw</a><a class="headerlink" href="#chainsaw" title="Permalink to this headline">¶</a></h2>
+<p><strong>Price</strong> 2,700 gp; <strong>Type</strong> two-handed melee; <strong>Proficiency</strong> exotic; <strong>Dmg (M)</strong> 3d6 slash.; <strong>Dmg (S)</strong> 1d12 slash.; <strong>Critical</strong>  18-20/×2; <strong>Capacity</strong> 10; <strong>Usage</strong>  1 charge/hour; <strong>Special</strong>  deadly, distracting; <strong>Weight</strong>  10 lbs.</p>
+<p>Originally developed for use as tools, chainsaws work remarkably well as weapons and are often used by lunatics or those who want to intimidate their enemies. A chainsaw consists of a weighty housing for the engine and power source that is fitted with two handles, and a 2- to 3-foot-long blade extending from the front, around which a whirling, buzzing chain of razor-sharp cutting links spins at blinding speed when the weapon is activated. It’s a standard action to activate a chainsaw, and doing so consumes a charge of power. The chainsaw continues to run constantly after activation, draining an additional charge each hour. A dropped chainsaw automatically turns off unless it is set down carefully as a move action. The buzzing of a chainsaw’s blade is loud and distracting (but not deafening), causing anyone carrying an activated chainsaw to take a -10 penalty on Stealth checks. An activated chainsaw grants a proficient user a +2 morale bonus on Intimidate checks.</p>
+</div>
+<div class="section" id="id5">
+<h2><a class="toc-backref" href="#id44">Construction</a><a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h2>
+<p><strong>Craft</strong> DC 20; <strong>Cost</strong> 1,350 gp</p>
+<p><a class="reference internal" href="technologyguide.feats.html#technologyguide-feats-craft-technological-arms-and-armor"><span class="std std-ref">Craft Technological Arms and Armor</span></a>, <a class="reference internal" href="technologyguide.crafting.html#technologyguide-crafting-crafting-laboratories"><span class="std std-ref">military lab</span></a></p>
+</div>
+<div class="section" id="dart-gun">
+<span id="technologyguide-weapons-dart-gun"></span><h2><a class="toc-backref" href="#id45">Dart Gun</a><a class="headerlink" href="#dart-gun" title="Permalink to this headline">¶</a></h2>
+<p><strong>Price</strong> 3,000 gp; <strong>Type</strong> one-handed ranged; <strong>Proficiency</strong> exotic (firearms); <strong>Dmg (M)</strong> 1d4 pierc.; <strong>Dmg (S)</strong> 1d3 pierc.; <strong>Critical</strong>  ×2; <strong>Range</strong> 30 ft.; <strong>Capacity</strong> 1 canister; <strong>Usage</strong> 1 charge; <strong>Weight</strong>  2 lbs.</p>
+<p>A dart gun makes use of nanotechnology to craft a small pointed projectile that does minimal damage on its own. Unlike other nanotech weapons, the nanites that make up a dart do not have any additional effect on the target. Instead, a dart gun contains a small reservoir above its handle into which a single dose of a pharmaceutical, drug, poison, or even potion can be poured as a standard action. The next dart fired from the dart gun delivers that liquid into the target immediately upon a hit.</p>
+</div>
+<div class="section" id="id6">
+<h2><a class="toc-backref" href="#id46">Construction</a><a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h2>
+<p><strong>Craft</strong> DC 24; <strong>Cost</strong> 1,500 gp</p>
+<p><a class="reference internal" href="technologyguide.feats.html#technologyguide-feats-craft-technological-item"><span class="std std-ref">Craft Technological Item</span></a>, <a class="reference internal" href="technologyguide.crafting.html#technologyguide-crafting-crafting-laboratories"><span class="std std-ref">nanotech lab</span></a></p>
+</div>
+<div class="section" id="death-ray">
+<span id="technologyguide-weapons-death-ray"></span><h2><a class="toc-backref" href="#id47">Death Ray</a><a class="headerlink" href="#death-ray" title="Permalink to this headline">¶</a></h2>
+<p><strong>Price</strong> 140,000 gp; <strong>Type</strong> one-handed ranged; <strong>Proficiency</strong> exotic (firearms); <strong>Damage</strong> special; <strong>Critical</strong>  —; <strong>Range</strong> 200 ft.; <strong>Capacity</strong> 1 canister; <strong>Usage</strong> varies; <strong>Special</strong>  slow-firing, touch; <strong>Weight</strong>  1 lb.</p>
+<p>A death ray is a handheld, wand-like weapon that fires a harmless carrier beam of energy at a target. When the beam hits a target, the death ray then projects a stream of specialized nanites through the beam into the body of the target. When firing a death ray, the wielder must decide how many charges of nanites she is consuming, to a maximum of 10. Even if the wielder engineers a method of using a larger reserve of nanites than normally come in a canister, this maximum does not increase. Immediately upon being struck, the nanites inflict incredible pain on the target, which must succeed at a Fortitude saving throw to avoid a grisly fate (DC = 10 + twice the number of charges consumed by the attack). For example, if 1 charge is consumed, the target must succeed at a DC 12 Fortitude save to resist the death ray, but if all 10 charges are consumed in the attack, the DC to resist the effects is 30.</p>
+<p>If the target fails this save, it takes 100 points of damage as the nanites tear apart the victim’s cardiovascular system. On a successful saving throw, the victim takes only 6d6 points of damage. Creatures slain by a death ray die spectacularly, seeming to melt into a pool of blood that swiftly fades away. The victim’s gear is unaffected by this attack. A death ray has no effect on creatures that aren’t living (such as constructs or undead) and can’t penetrate a force field. The wielder can’t score critical hits with a death ray. A death ray has a maximum range of 200 feet with no range increment.</p>
+</div>
+<div class="section" id="id7">
+<h2><a class="toc-backref" href="#id48">Construction</a><a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h2>
+<p><strong>Craft</strong> DC 32; <strong>Cost</strong> 70,000 gp</p>
+<p><a class="reference internal" href="technologyguide.feats.html#technologyguide-feats-craft-technological-arms-and-armor"><span class="std std-ref">Craft Technological Arms and Armor</span></a>, <a class="reference internal" href="technologyguide.crafting.html#technologyguide-crafting-crafting-laboratories"><span class="std std-ref">nanotech lab</span></a></p>
+</div>
+<div class="section" id="emp-pistol">
+<span id="technologyguide-weapons-emp-pistol"></span><h2><a class="toc-backref" href="#id49">EMP Pistol</a><a class="headerlink" href="#emp-pistol" title="Permalink to this headline">¶</a></h2>
+<p><strong>Price</strong> 12,000 gp; <strong>Type</strong> one-handed ranged; <strong>Proficiency</strong> exotic (firearms); <strong>Dmg (M)</strong> 2d6 elec.; <strong>Dmg (S)</strong> 1d10 elec.; <strong>Critical</strong>  ×2; <strong>Range</strong> 50 ft.; <strong>Capacity</strong> 10; <strong>Usage</strong> 1 charge; <strong>Special</strong>  semi-automatic, touch; <strong>Weight</strong>  2 lbs.</p>
+<p>An EMP pistol emits a beam of electromagnetic energy that cannot harm living creatures, but deals terrible damage to robots. An EMP pistol can harm androids and creatures with cybernetic implants, but they take half damage from a hit. A creature that is critically hit by an EMP pistol and takes damage from that hit must succeed at a DC 15 Fortitude save or be staggered for 1d4 rounds.</p>
+</div>
+<div class="section" id="id8">
+<h2><a class="toc-backref" href="#id50">Construction</a><a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h2>
+<p><strong>Craft</strong> DC 25; <strong>Cost</strong> 6,000 gp</p>
+<p><a class="reference internal" href="technologyguide.feats.html#technologyguide-feats-craft-technological-arms-and-armor"><span class="std std-ref">Craft Technological Arms and Armor</span></a>, <a class="reference internal" href="technologyguide.crafting.html#technologyguide-crafting-crafting-laboratories"><span class="std std-ref">military lab</span></a></p>
+</div>
+<div class="section" id="emp-rifle">
+<span id="technologyguide-weapons-emp-rifle"></span><h2><a class="toc-backref" href="#id51">EMP Rifle</a><a class="headerlink" href="#emp-rifle" title="Permalink to this headline">¶</a></h2>
+<p><strong>Price</strong> 24,000 gp; <strong>Type</strong> two-handed ranged; <strong>Proficiency</strong> exotic (firearms); <strong>Dmg (M)</strong> 3d6 elec.; <strong>Dmg (S)</strong> 2d6 elec.; <strong>Critical</strong>  ×2; <strong>Range</strong> 150 ft.; <strong>Capacity</strong> 20; <strong>Usage</strong> 1 charge; <strong>Special</strong>  automatic, touch; <strong>Weight</strong>  6 lbs.</p>
+<p>An EMP rifle is a larger, more powerful version of an EMP pistol. It emits a beam of electromagnetic energy that can’t harm living creatures, but deals significant damage to robots. It functions as an EMP pistol except for the differences listed here.</p>
+</div>
+<div class="section" id="id9">
+<h2><a class="toc-backref" href="#id52">Construction</a><a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h2>
+<p><strong>Craft</strong> DC 29; <strong>Cost</strong> 12,000 gp</p>
+<p><a class="reference internal" href="technologyguide.feats.html#technologyguide-feats-craft-technological-arms-and-armor"><span class="std std-ref">Craft Technological Arms and Armor</span></a>, <a class="reference internal" href="technologyguide.crafting.html#technologyguide-crafting-crafting-laboratories"><span class="std std-ref">military lab</span></a></p>
+</div>
+<div class="section" id="flare-gun">
+<span id="technologyguide-weapons-flare-gun"></span><h2><a class="toc-backref" href="#id53">Flare Gun</a><a class="headerlink" href="#flare-gun" title="Permalink to this headline">¶</a></h2>
+<p><strong>Price</strong> 300 gp; <strong>Type</strong> one-handed ranged; <strong>Proficiency</strong> exotic (firearms); <strong>Dmg (M)</strong> 1d8 fire; <strong>Dmg (s)</strong> 1d6 fire; <strong>Critical</strong> ×3; <strong>Range</strong> 240 ft.; <strong>Capacity</strong> 1; <strong>Usage</strong>  disposable; <strong>Special</strong>  slow-firing, touch; <strong>Weight</strong>  1 lb.</p>
+<p>A flare gun looks like a wide-barreled pistol, and although it can be used in combat, the item’s primary use is to send signals. A flare gun and its ammunition (a small, rocket-propelled magnesium charge) are completely self-contained and disposable—once fired, a flare gun is useless. While a flare gun has excellent range, the flare tends to wobble and spiral in flight, incurring a 20% miss chance if it’s being used to target a specific point. The flare detonates once it hits a target or reaches its maximum range of 2,400 feet, bursting into a sphere of fire that illuminates a 120-foot-radius area for 1 minute as it drifts slowly back to the ground. Any creatures within 20 feet of the flare must succeed at a DC 12 Fortitude saving throw each round or be dazzled by the intense light for as long as they remain in the area. Creatures adjacent to a lit flare are also blinded for 1d4 rounds on a failed save. A creature struck by a flare takes 1d8 points of fire damage (1d6 points of fire damage from Small flare guns), and continues to take the same amount of fire damage each round until the flare is removed. Removing a flare is a full-round action.</p>
+</div>
+<div class="section" id="id10">
+<h2><a class="toc-backref" href="#id54">Construction</a><a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h2>
+<p><strong>Craft</strong> DC 18; <strong>Cost</strong> 150 gp</p>
+<p><a class="reference internal" href="technologyguide.feats.html#technologyguide-feats-craft-technological-arms-and-armor"><span class="std std-ref">Craft Technological Arms and Armor</span></a>, <a class="reference internal" href="technologyguide.crafting.html#technologyguide-crafting-crafting-laboratories"><span class="std std-ref">production lab</span></a></p>
+</div>
+<div class="section" id="gravity-pistol">
+<span id="technologyguide-weapons-gravity-pistol"></span><h2><a class="toc-backref" href="#id55">Gravity Pistol</a><a class="headerlink" href="#gravity-pistol" title="Permalink to this headline">¶</a></h2>
+<p><strong>Price</strong> 95,000 gp; <strong>Type</strong> one-handed ranged; <strong>Proficiency</strong> exotic (firearms); <strong>Dmg (M)</strong> 1d8 force; <strong>Dmg (S)</strong> 1d6 force; <strong>Critical</strong>  ×2; <strong>Range</strong> 50 ft.; <strong>Capacity</strong> 10; <strong>Usage</strong> 1 charge; <strong>Special</strong>  semi-automatic, touch; <strong>Weight</strong>  2 lbs.</p>
+<p>A gravity pistol is one of the most advanced pieces of technology found. It uses a focused beam of gravitons to create a bolt of force. A gravity pistol has two settings—switching between settings is a swift action. On its pulse setting, it can be used as a typical beam weapon, but on it sustained setting, holding the pistol’s trigger down creates a stable beam of gravitons rather than a short, destructive burst. In this mode, the gravity pistol can be used to move and manipulate objects at a distance, similar to a <a class="reference internal" href="corerulebook.spells.telekinesis.html#corerulebook-spells-telekinesis-telekinesis"><span class="std std-ref">telekinesis</span></a> spell in its sustained force or combat maneuver versions (a gravity pistol cannot duplicate the violent thrust option of a <a class="reference internal" href="corerulebook.spells.telekinesis.html#corerulebook-spells-telekinesis-telekinesis"><span class="std std-ref">telekinesis</span></a> spell). In this mode, a gravity pistol consumes 1 charge per round. The graviton beam can move objects weighing no more than 225 pounds up to 20 feet per round. A creature can negate this effect on an object in its possession with a successful DC 19 Reflex save. If used to perform a combat maneuver, the beam uses the wielder’s CMB, but uses her Intelligence modifier in place of her Strength or Dexterity modifier.</p>
+</div>
+<div class="section" id="id11">
+<h2><a class="toc-backref" href="#id56">Construction</a><a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h2>
+<p><strong>Craft</strong> DC 32; <strong>Cost</strong> 52,500 gp</p>
+<p><a class="reference internal" href="technologyguide.feats.html#technologyguide-feats-craft-technological-arms-and-armor"><span class="std std-ref">Craft Technological Arms and Armor</span></a>, <a class="reference internal" href="technologyguide.crafting.html#technologyguide-crafting-crafting-laboratories"><span class="std std-ref">graviton lab lab</span></a></p>
+</div>
+<div class="section" id="gravity-rifle">
+<span id="technologyguide-weapons-gravity-rifle"></span><h2><a class="toc-backref" href="#id57">Gravity Rifle</a><a class="headerlink" href="#gravity-rifle" title="Permalink to this headline">¶</a></h2>
+<p><strong>Price</strong> 165,000 gp; <strong>Type</strong> two-handed ranged; <strong>Proficiency</strong> exotic (firearms); <strong>Dmg (M)</strong> 2d6 force; <strong>Dmg (S)</strong> 1d10 force; <strong>Critical</strong>  ×2; <strong>Range</strong> 150 ft.; <strong>Capacity</strong> 20; <strong>Usage</strong> 1 charge; <strong>Special</strong>  automatic, touch; <strong>Weight</strong>  6 lbs.</p>
+<p>A gravity rifle is a larger, more powerful version of the gravity pistol, and functions as such except for the differences listed here. When a gravity rifle is on sustained setting, it can move objects weighing no more than 350 pounds up to 20 feet per round, and the wielder gains a +4 bonus on combat maneuver checks; she still substitutes her Intelligence modifier in place of her Strength or Dexterity modifier when calculating her CMB for these maneuvers.</p>
+</div>
+<div class="section" id="id12">
+<h2><a class="toc-backref" href="#id58">Construction</a><a class="headerlink" href="#id12" title="Permalink to this headline">¶</a></h2>
+<p><strong>Craft</strong> DC 34; <strong>Cost</strong> 82,500 gp</p>
+<p><a class="reference internal" href="technologyguide.feats.html#technologyguide-feats-craft-technological-arms-and-armor"><span class="std std-ref">Craft Technological Arms and Armor</span></a>, <a class="reference internal" href="technologyguide.crafting.html#technologyguide-crafting-crafting-laboratories"><span class="std std-ref">graviton lab</span></a></p>
+</div>
+<div class="section" id="grenade-launcher">
+<span id="technologyguide-weapons-grenade-launcher"></span><h2><a class="toc-backref" href="#id59">Grenade Launcher</a><a class="headerlink" href="#grenade-launcher" title="Permalink to this headline">¶</a></h2>
+<p><strong>Price</strong> 8,000 gp; <strong>Type</strong> two-handed ranged; <strong>Proficiency</strong>  exotic (heavy weaponry); <strong>Damage</strong> as grenade; <strong>Critical</strong>  —; <strong>Range</strong> 100 ft.; <strong>Capacity</strong> 20 (5 grenades); <strong>Usage</strong>  see text; <strong>Special</strong>  slow-firing; <strong>Weight</strong>  8 lbs.</p>
+<p>A grenade launcher is a bulky weapon that can fire any grenade a great distance. Grenades propelled by a launcher can be set to detonate upon impact or at the start of the wielder’s next turn. A grenade launcher requires charges to fire, but unless the weapon is also loaded with a grenade, any charges that are consumed are wasted. A grenade launcher can hold up to 5 grenades at a time. Loading a single grenade into a grenade launcher is a move action.</p>
+</div>
+<div class="section" id="id13">
+<h2><a class="toc-backref" href="#id60">Construction</a><a class="headerlink" href="#id13" title="Permalink to this headline">¶</a></h2>
+<p><strong>Craft</strong> DC 28; <strong>Cost</strong> 4,000 gp</p>
+<p><a class="reference internal" href="technologyguide.feats.html#technologyguide-feats-craft-technological-arms-and-armor"><span class="std std-ref">Craft Technological Arms and Armor</span></a>, <a class="reference internal" href="technologyguide.crafting.html#technologyguide-crafting-crafting-laboratories"><span class="std std-ref">military lab</span></a></p>
+</div>
+<div class="section" id="technologyguide-weapons-id-rifle">
+<span id="id-rifle"></span><h2><a class="toc-backref" href="#id61">Id Rifle</a><a class="headerlink" href="#technologyguide-weapons-id-rifle" title="Permalink to this headline">¶</a></h2>
+<p><strong>Price</strong> 50,000 gp; <strong>Type</strong> two-handed ranged; <strong>Proficiency</strong> exotic (firearms); <strong>Damage</strong> special; <strong>Critical</strong>  ×2; <strong>Range</strong> 50 ft.; <strong>Capacity</strong> 1 canister; <strong>Usage</strong> 1 charge; <strong>Special</strong>  slow-firing, touch; <strong>Weight</strong>  5 lbs.</p>
+<p>An id rifle looks like a sleek, low-caliber rifle made of burnished skymetal. It fires a tiny barb of solid nanites with a range increment of 50 feet. Although this barb does minimal damage on a hit, any creature damaged by an id rifle barb must succeed at a DC 16 Fortitude saving throw or have its central nervous system flooded with nanites that swiftly overwhelm the creature’s brain, reducing its mind to the instinctive level of an animal. The victim takes 1d4 points of Intelligence damage each round, but the total amount of damage taken can never equal the victim’s actual Intelligence score. Each round after the first, the victim can resist the Intelligence damage by succeeding at a DC 16 Fortitude saving throw, at which point the damage ceases. The recurring Intelligence damage automatically ends after 6 rounds. A victim already suffering from the effects of an id rifle who is affected by an additional shot has the save DC increased by 2 per additional shot.</p>
+<p>An id rifle has a microphone built into its stock. During any round in which a creature takes Intelligence damage from an id rifle, as a move action the wielder of that rifle can speak a short command into the microphone. Any applicable target within 50 feet of the wielder must then succeed at a DC 16 Will save to resist following the command, as if under the effect of a <a class="reference internal" href="corerulebook.spells.suggestion.html#corerulebook-spells-suggestion-suggestion"><span class="std std-ref">suggestion</span></a> spell. A victim follows only the latest suggestion spoken into the microphone, and abandons any previous suggestion if it fails a saving throw against a new suggestion. A victim continues to follow the suggestion for up to 5 hours after succumbing to its effects.</p>
+<p>The effects created by an id rifle are mind-affecting effects.</p>
+</div>
+<div class="section" id="id14">
+<h2><a class="toc-backref" href="#id62">Construction</a><a class="headerlink" href="#id14" title="Permalink to this headline">¶</a></h2>
+<p><strong>Craft</strong> DC 32; <strong>Cost</strong> 25,000 gp</p>
+<p><a class="reference internal" href="technologyguide.feats.html#technologyguide-feats-craft-technological-arms-and-armor"><span class="std std-ref">Craft Technological Arms and Armor</span></a>, <a class="reference internal" href="technologyguide.crafting.html#technologyguide-crafting-crafting-laboratories"><span class="std std-ref">nanotech lab</span></a></p>
+</div>
+<div class="section" id="laser-pistol">
+<span id="technologyguide-weapons-laser-pistol"></span><h2><a class="toc-backref" href="#id63">Laser Pistol</a><a class="headerlink" href="#laser-pistol" title="Permalink to this headline">¶</a></h2>
+<p><strong>Price</strong> 10,000 gp; <strong>Type</strong> one-handed ranged; <strong>Proficiency</strong> exotic (firearms); <strong>Dmg (M)</strong> 1d8 fire; <strong>Dmg (S)</strong> 1d6 fire; <strong>Critical</strong>  ×2; <strong>Range</strong> 50 ft.; <strong>Capacity</strong> 10; <strong>Usage</strong> 1 charge; <strong>Special</strong>  semi-automatic, touch; <strong>Weight</strong>  2 lbs.</p>
+<p>A laser pistol emits a beam of intensely focused light capable of burning anything it strikes. A laser attack can pass through force fields and force effects, such as a <a class="reference internal" href="corerulebook.spells.wallofforce.html#corerulebook-spells-wallofforce-wall-of-force"><span class="std std-ref">wall of force</span></a>, to strike a foe beyond without damaging that field. Objects like glass or other transparent barriers do not provide cover from lasers—but unlike force barriers, a transparent physical barrier still takes damage from a laser passing through it. Invisible creatures are immune to damage caused by a laser weapon. Fog, smoke, and other clouds provide cover in addition to concealment from laser attacks. Darkness (magical or otherwise) has no effect on lasers other than providing concealment, and though a laser consists of highly focused light, it does not provide any illumination.</p>
+</div>
+<div class="section" id="id15">
+<h2><a class="toc-backref" href="#id64">Construction</a><a class="headerlink" href="#id15" title="Permalink to this headline">¶</a></h2>
+<p><strong>Craft</strong> DC 23; <strong>Cost</strong> 5,000 gp</p>
+<p><a class="reference internal" href="technologyguide.feats.html#technologyguide-feats-craft-technological-arms-and-armor"><span class="std std-ref">Craft Technological Arms and Armor</span></a>, <a class="reference internal" href="technologyguide.crafting.html#technologyguide-crafting-crafting-laboratories"><span class="std std-ref">military lab</span></a></p>
+</div>
+<div class="section" id="laser-rifle">
+<span id="technologyguide-weapons-laser-rifle"></span><h2><a class="toc-backref" href="#id65">Laser Rifle</a><a class="headerlink" href="#laser-rifle" title="Permalink to this headline">¶</a></h2>
+<p><strong>Price</strong> 20,000 gp; <strong>Type</strong> two-handed ranged; <strong>Proficiency</strong> exotic (firearms); <strong>Dmg (M)</strong> 2d6 fire; <strong>Dmg (S)</strong> 1d10 fire; <strong>Critical</strong> ×2; <strong>Range</strong> 150 ft.; <strong>Capacity</strong> 20; <strong>Usage</strong>  1 charge; <strong>Special</strong>  automatic, touch; <strong>Weight</strong>  6 lbs.</p>
+<p>A laser rifle is a larger, more powerful version of a laser pistol, and functions as such except for the differences listed here.</p>
+</div>
+<div class="section" id="id16">
+<h2><a class="toc-backref" href="#id66">Construction</a><a class="headerlink" href="#id16" title="Permalink to this headline">¶</a></h2>
+<p><strong>Craft</strong> DC 27; <strong>Cost</strong> 10,000 gp</p>
+<p><a class="reference internal" href="technologyguide.feats.html#technologyguide-feats-craft-technological-arms-and-armor"><span class="std std-ref">Craft Technological Arms and Armor</span></a>, <a class="reference internal" href="technologyguide.crafting.html#technologyguide-crafting-crafting-laboratories"><span class="std std-ref">military lab</span></a></p>
+</div>
+<div class="section" id="laser-torch">
+<span id="technologyguide-weapons-laser-torch"></span><h2><a class="toc-backref" href="#id67">Laser Torch</a><a class="headerlink" href="#laser-torch" title="Permalink to this headline">¶</a></h2>
+<p><strong>Price</strong> 6,000 gp; <strong>Type</strong> one-handed melee; <strong>Proficiency</strong> martial; <strong>Dmg (M)</strong> 1d10 fire; <strong>Dmg (S)</strong> 1d8 fire; <strong>Critical</strong>  ×3; <strong>Capacity</strong> 10; <strong>Usage</strong>  1 charge; <strong>Special</strong>  touch; <strong>Weight</strong>  4 lbs.</p>
+<p>A laser torch is a handheld tool intended to cut through objects with great speed. When activated, a laser torch emits a beam of highly focused light, cutting and burning through surfaces up to 6 inches away. Attacks from a laser torch resolve as touch attacks and deal 1d10 points of fire damage. This damage is not modified further by Strength. When the laser torch is used as a tool or as a weapon to sunder, its damage bypasses up to 20 points of hardness, and damage is not halved (as is normally the case for energy damage applied to objects) unless the object is particularly fire-resistant. A laser torch’s cutting beam passes through force fields and force effects without damaging the field. Invisible objects and creatures can’t be harmed by a laser torch.</p>
+</div>
+<div class="section" id="id17">
+<h2><a class="toc-backref" href="#id68">Construction</a><a class="headerlink" href="#id17" title="Permalink to this headline">¶</a></h2>
+<p><strong>Craft</strong> DC 26; <strong>Cost</strong> 3,000 gp</p>
+<p><a class="reference internal" href="technologyguide.feats.html#technologyguide-feats-craft-technological-item"><span class="std std-ref">Craft Technological Item</span></a>, <a class="reference internal" href="technologyguide.crafting.html#technologyguide-crafting-crafting-laboratories"><span class="std std-ref">production lab</span></a></p>
+</div>
+<div class="section" id="mindrender">
+<span id="technologyguide-weapons-mindrender"></span><h2><a class="toc-backref" href="#id69">Mindrender</a><a class="headerlink" href="#mindrender" title="Permalink to this headline">¶</a></h2>
+<p><strong>Price</strong> 56,000 gp; <strong>Type</strong> one-handed ranged; <strong>Proficiency</strong> exotic (firearms); <strong>Damage</strong> 1 negative level plus staggered; <strong>Critical</strong>  ×2; <strong>Range</strong> 40 ft.; <strong>Capacity</strong> 1 canister; <strong>Usage</strong> 2 charges; <strong>Special</strong>  slow-firing, touch; <strong>Weight</strong>  2 lbs.</p>
+<p>A mindrender is a cruel weapon that emits a carrier wave of light which transmits a mass of nanites into the body of the creature struck. The victim must succeed at a DC 17 Fortitude save or it takes 1 negative level and is staggered for 1 round as the nanites flood the victim’s brain and suppress long term memories. If the victim succeeds, he’s instead sickened for 1d4 rounds and is immune to further attacks from a mindrender for 1 hour. A creature can attempt a new saving throw every 24 hours to remove the negative level. These are mind-affecting effects.</p>
+</div>
+<div class="section" id="id18">
+<h2><a class="toc-backref" href="#id70">Construction</a><a class="headerlink" href="#id18" title="Permalink to this headline">¶</a></h2>
+<p><strong>Craft</strong> DC 33; <strong>Cost</strong> 28,000 gp</p>
+<p><a class="reference internal" href="technologyguide.feats.html#technologyguide-feats-craft-technological-arms-and-armor"><span class="std std-ref">Craft Technological Arms and Armor</span></a>, <a class="reference internal" href="technologyguide.crafting.html#technologyguide-crafting-crafting-laboratories"><span class="std std-ref">nanotech lab</span></a></p>
+</div>
+<div class="section" id="monowhip">
+<span id="technologyguide-weapons-monowhip"></span><h2><a class="toc-backref" href="#id71">Monowhip</a><a class="headerlink" href="#monowhip" title="Permalink to this headline">¶</a></h2>
+<p><strong>Price</strong> 70,000 gp; <strong>Type</strong> light melee; <strong>Proficiency</strong> exotic (whip); <strong>Dmg (M)</strong> 2d6 slash.; <strong>Dmg (S)</strong> 1d10 slash.; <strong>Critical</strong>  18-20/×3; <strong>Capacity</strong> 10; <strong>Usage</strong>  1 charge/round; <strong>Special</strong>  performance, reach, touch; <strong>Weight</strong>  1 lb.</p>
+<p>A monowhip is a deadly melee weapon capable of inflicting horrible wounds, even in the hands of the weak. An inactive monowhip looks like a short metal baton, but when it’s activated, a small weight detaches, revealing a 15-foot-long monofilament length. Wielded like a whip, a monowhip slices deeply into targets and can inflict grievous critical hits with shocking ease. Attacks made with a monowhip resolve as touch attacks, and they ignore hardness as if the monofilament were made of adamantine. A monowhip’s damage cannot be enhanced by strength, as the monofilament slices with equal ease regardless of the force applied. Activating a monowhip is a move action; once activated, the whip consumes power incredibly quickly, at the rate of 1 charge per round.</p>
+</div>
+<div class="section" id="id19">
+<h2><a class="toc-backref" href="#id72">Construction</a><a class="headerlink" href="#id19" title="Permalink to this headline">¶</a></h2>
+<p><strong>Craft</strong> DC 32; <strong>Cost</strong> 35,000 gp</p>
+<p><a class="reference internal" href="technologyguide.feats.html#technologyguide-feats-craft-technological-arms-and-armor"><span class="std std-ref">Craft Technological Arms and Armor</span></a>, <a class="reference internal" href="technologyguide.crafting.html#technologyguide-crafting-crafting-laboratories"><span class="std std-ref">graviton lab</span></a></p>
+</div>
+<div class="section" id="nuclear-resonator">
+<span id="technologyguide-weapons-nuclear-resonator"></span><h2><a class="toc-backref" href="#id73">Nuclear Resonator</a><a class="headerlink" href="#nuclear-resonator" title="Permalink to this headline">¶</a></h2>
+<p><strong>Price</strong> 90,000 gp; <strong>Type</strong> two-handed ranged; <strong>Proficiency</strong>  exotic (heavy weaponry); <strong>Damage</strong> special (see text); <strong>Critical</strong>  18-20/×2; <strong>Range</strong> 80 ft.; <strong>Capacity</strong> 20; <strong>Usage</strong> 5 charges; <strong>Special</strong>  slow-firing, touch; <strong>Weight</strong>  11 lbs.</p>
+<p>A nuclear resonator is a bulky weapon that creates a droning shriek when fired—and even when it’s not being fired, it buzzes, whirs, and flashes. The wielder takes a -4 penalty on any Stealth checks made while it is active. It can be powered off completely to negate this penalty; either activating or deactivating is a standard action.</p>
+<p>When this weapon is fired, it creates a highly focused beam of sound that swiftly modulates to resonate at the atomic frequencies of the first target it strikes. The wielder make one attack roll when firing a nuclear resonator, then resolves that roll against the Armor Class of every creature in an 80 foot line from his position. The resonator’s beam tunes itself to the precise molecular structure of the first creature in the line he hits, dealing 9d6 points of sonic damage to that target. Any other targets of the same creature type in the line which are subsequently struck take 5d6 points of sonic damage, while creatures of different types than the initial target take 3d6 points of sonic damage. If the attack roll is a critical threat, choose one target hit by the attack to resolve the critical confirmation against. A creature that’s critically hit by a nuclear resonator must succeed at a DC 18 Fortitude saving throw to resist being stunned for 1 round and deafened for 1d6 rounds. A creature slain by a nuclear resonator is completely disintegrated (any gear carried remains unaffected).</p>
+<p>Force fields and force effects are not damaged by a nuclear resonator’s beam, and completely block its effects. The beam emitted by a nuclear resonator is a sonic effect, and cannot pass through an area of magical silence or an area under the effects of a signal jammer.</p>
+</div>
+<div class="section" id="id20">
+<h2><a class="toc-backref" href="#id74">Construction</a><a class="headerlink" href="#id20" title="Permalink to this headline">¶</a></h2>
+<p><strong>Craft</strong> DC 35; <strong>Cost</strong> 45,000 gp</p>
+<p><a class="reference internal" href="technologyguide.feats.html#technologyguide-feats-craft-technological-arms-and-armor"><span class="std std-ref">Craft Technological Arms and Armor</span></a>, <a class="reference internal" href="technologyguide.crafting.html#technologyguide-crafting-crafting-laboratories"><span class="std std-ref">military lab</span></a></p>
+</div>
+<div class="section" id="null-blade">
+<span id="technologyguide-weapons-null-blade"></span><h2><a class="toc-backref" href="#id75">Null Blade</a><a class="headerlink" href="#null-blade" title="Permalink to this headline">¶</a></h2>
+<p><strong>Price</strong> 58,835 gp; <strong>Type</strong> one-handed melee; <strong>Proficiency</strong>  exotic (bastard sword); <strong>Dmg (M)</strong> 1d10 slash.; <strong>Dmg (S)</strong> 1d8 slash.; <strong>Critical</strong>  19-20/×2; <strong>CL</strong>  11th; <strong>Capacity</strong> 10; <strong>Usage</strong>  1 charge/round; <strong>Aura</strong>  moderate abjuration; <strong>Weight</strong>  4 lbs.</p>
+<p>A potent fusion of magic, advanced science, and masterful weaponsmithing, <em>null blades</em> were devised as weapons against both magic and machine. <em>Null blades</em> incorporate an adamantine-noqual alloy in their blades, a closely guarded metallurgical secret. These weapons closely guarded, and when one falls into another’s hands, they spare no expense in their efforts to recover it.</p>
+<p>A <em>null blade</em> is a <em>+1 construct-bane bastard sword</em>—using it in this capacity does not consume any charges. The blade’s strange alloy penetrates hardness as if it were made of adamantine. The blade can be activated as a swift action. While it’s active, a shimmering field of green energy wraps around the blade, disrupting magic and technology alike, and the weapon’s enhancement bonus increases to +2. In addition, the first time in a round that an activated <em>null blade</em> strikes a creature or object, it consumes an additional charge and targets the creature or object struck with <a class="reference internal" href="corerulebook.spells.dispelmagic.html#corerulebook-spells-dispelmagic-dispel-magic"><span class="std std-ref">dispel magic</span></a> and <a class="reference internal" href="technologyguide.spells.html#technologyguide-spells-discharge"><span class="std std-ref">discharge</span></a>. If a technological item damaged by a <em>null blade</em> is used in the same round it took damage, it glitches as if it were <a class="reference internal" href="technologyguide.hazards.html#technologyguide-hazards-timeworn-technology"><span class="std std-ref">timeworn</span></a>.</p>
+</div>
+<div class="section" id="id21">
+<h2><a class="toc-backref" href="#id76">Construction</a><a class="headerlink" href="#id21" title="Permalink to this headline">¶</a></h2>
+<p><strong>Craft</strong> DC 30; <strong>Cost</strong> 33,835 gp</p>
+<p><a class="reference internal" href="corerulebook.feats.html#craft magic arms and armor (item creation)"><span class="std std-ref">Craft Magic Arms and Armor</span></a>, <a class="reference internal" href="technologyguide.feats.html#technologyguide-feats-craft-technological-arms-and-armor"><span class="std std-ref">Craft Technological Arms and Armor</span></a>, <a class="reference internal" href="technologyguide.crafting.html#technologyguide-crafting-crafting-laboratories"><span class="std std-ref">military lab</span></a>, <a class="reference internal" href="technologyguide.spells.html#technologyguide-spells-discharge"><span class="std std-ref">discharge</span></a>, <a class="reference internal" href="corerulebook.spells.dispelmagic.html#corerulebook-spells-dispelmagic-dispel-magic"><span class="std std-ref">dispel magic</span></a>, <a class="reference internal" href="corerulebook.spells.summonmonster.html#corerulebook-spells-summonmonster-summon-monster-i"><span class="std std-ref">summon monster I</span></a></p>
+</div>
+<div class="section" id="plasmathrower">
+<span id="technologyguide-weapons-plasmathrower"></span><h2><a class="toc-backref" href="#id77">Plasmathrower</a><a class="headerlink" href="#plasmathrower" title="Permalink to this headline">¶</a></h2>
+<p><strong>Price</strong> 30,000 gp; <strong>Type</strong> two-handed ranged; <strong>Proficiency</strong>  exotic (heavy weaponry); <strong>Dmg (M)</strong> 4d6 e and f; <strong>Dmg (S)</strong> 2d10 e and f; <strong>Critical</strong>  19-20/×2; <strong>Range</strong> 60 ft.; <strong>Capacity</strong> 20; <strong>Usage</strong> 2 charges; <strong>Special</strong> automatic or slow-firing, scatter, touch; <strong>Weight</strong>  15 lbs.</p>
+<p>A plasmathrower is a devastating weapon that fires blasts of superheated, electrically charged gas. This weapon has two firing modes: slow-firing and automatic. When used on the slow-firing setting, the weapon fires a scattering shot with no range increment; on the automatic setting, it fires individual bursts of plasma that can reach up to 3 range increments. Half the damage dealt by a plasmathrower is fire damage and the other half is electricity damage.</p>
+</div>
+<div class="section" id="id22">
+<h2><a class="toc-backref" href="#id78">Construction</a><a class="headerlink" href="#id22" title="Permalink to this headline">¶</a></h2>
+<p><strong>Craft</strong> DC 32; <strong>Cost</strong> 15,000 gp</p>
+<p><a class="reference internal" href="technologyguide.feats.html#technologyguide-feats-craft-technological-arms-and-armor"><span class="std std-ref">Craft Technological Arms and Armor</span></a>, <a class="reference internal" href="technologyguide.crafting.html#technologyguide-crafting-crafting-laboratories"><span class="std std-ref">military lab</span></a></p>
+</div>
+<div class="section" id="rail-gun">
+<span id="technologyguide-weapons-rail-gun"></span><h2><a class="toc-backref" href="#id79">Rail Gun</a><a class="headerlink" href="#rail-gun" title="Permalink to this headline">¶</a></h2>
+<p><strong>Price</strong> 30,000 gp; <strong>Type</strong> two-handed ranged; <strong>Proficiency</strong>  exotic (heavy weaponry); <strong>Dmg (M)</strong> 3d10 blu. and p; <strong>Dmg (S)</strong> 3d8 blu. and p; <strong>Critical</strong>  ×4; <strong>Range</strong> 200 ft.; <strong>Capacity</strong> 10; <strong>Usage</strong> 1 charge; <strong>Special</strong>  slow-firing, touch; <strong>Weight</strong>  14 lbs.</p>
+<p>A rail gun uses gravitons to compress raw metal scrap placed in its sequencing chamber into hyperdense shells that it then accelerates to astounding speed and fires from its electromagnetically charged barrel. The weapon’s rate of fire is slow compared to most other technological weapons, yet its relatively high damage combined with its potential for particularly grisly critical hits makes it a much sought-after weapon for long-range combat. Shots fired from a rail gun bypass an object’s first 10 points of hardness, and can completely penetrate targets without hardness.</p>
+<p>When making an attack with a rail gun, make a single attack roll and compare that result to the ACs of all creatures in a line extending out to the weapon’s maximum range. This weapon damages all targets with an AC equal to or lower than the attack roll. However, if the attack’s damage fails to penetrate any target’s hardness or damage reduction, this shot is blocked and cannot damage targets that are farther away.</p>
+</div>
+<div class="section" id="id23">
+<h2><a class="toc-backref" href="#id80">Construction</a><a class="headerlink" href="#id23" title="Permalink to this headline">¶</a></h2>
+<p><strong>Craft</strong> DC 32; <strong>Cost</strong> 15,000 gp</p>
+<p><a class="reference internal" href="technologyguide.feats.html#technologyguide-feats-craft-technological-arms-and-armor"><span class="std std-ref">Craft Technological Arms and Armor</span></a>, <a class="reference internal" href="technologyguide.crafting.html#technologyguide-crafting-crafting-laboratories"><span class="std std-ref">graviton lab</span></a></p>
+</div>
+<div class="section" id="rocket-launcher">
+<span id="technologyguide-weapons-rocket-launcher"></span><h2><a class="toc-backref" href="#id81">Rocket Launcher</a><a class="headerlink" href="#rocket-launcher" title="Permalink to this headline">¶</a></h2>
+<p><strong>Price</strong> 10,800 gp; <strong>Type</strong> two-handed ranged; <strong>Proficiency</strong>  exotic (heavy weaponry); <strong>Dmg (M)</strong> 6d6 f, 6d6 blu.; <strong>Dmg (S)</strong> 4d6 f, 4d6 blu.; <strong>Critical</strong>  —; <strong>Range</strong> 120 ft.; <strong>Capacity</strong> 10; <strong>Usage</strong>  1 (disposable); <strong>Special</strong>  slow-firing, touch; <strong>Weight</strong>  10 lbs.</p>
+<p>A newly created rocket launcher contains its entire load of rockets and energy charges. It cannot be reloaded, and once its final rocket is fired, the weapon is useless. Rockets fired from a rocket launcher can target a single target or a grid intersection. A creature that takes a direct hit from a rocket cannot attempt a saving throw to reduce the damage taken. When a rocket strikes its target, it explodes in a 30-foot-radius burst that deals fire and bludgeoning damage to all creatures within that area of effect—a successful DC 15 Reflex save halves the damage for all but the target. Some rocket launchers carry alternate loads, replacing the fire damage with electricity or cold damage, and there are rumors of rocket launchers capable of doing even more damage, firing gravity-based weapons or using radioactive payloads.</p>
+</div>
+<div class="section" id="id24">
+<h2><a class="toc-backref" href="#id82">Construction</a><a class="headerlink" href="#id24" title="Permalink to this headline">¶</a></h2>
+<p><strong>Craft</strong> DC 28; <strong>Cost</strong> 5,400 gp</p>
+<p><a class="reference internal" href="technologyguide.feats.html#technologyguide-feats-craft-technological-arms-and-armor"><span class="std std-ref">Craft Technological Arms and Armor</span></a>, <a class="reference internal" href="technologyguide.crafting.html#technologyguide-crafting-crafting-laboratories"><span class="std std-ref">military lab</span></a></p>
+</div>
+<div class="section" id="sonic-pistol">
+<span id="technologyguide-weapons-sonic-pistol"></span><h2><a class="toc-backref" href="#id83">Sonic Pistol</a><a class="headerlink" href="#sonic-pistol" title="Permalink to this headline">¶</a></h2>
+<p><strong>Price</strong> 13,000 gp; <strong>Type</strong> one-handed ranged; <strong>Proficiency</strong> exotic (firearms); <strong>Dmg (M)</strong> 1d8 sonic; <strong>Dmg (S)</strong> 1d6 sonic; <strong>Critical</strong>  ×2; <strong>Range</strong> 50 ft.; <strong>Capacity</strong> 10; <strong>Usage</strong> 1 charge; <strong>Special</strong>  semi-automatic, touch; <strong>Weight</strong>  2 lbs.</p>
+<p>A sonic pistol emits a blast of devastating sound waves that shatter and blast flesh, bone, and anything else they happen to strike. A creature critically hit by a sonic pistol must succeed at a DC 15 Fortitude save to resist being permanently deafened.</p>
+</div>
+<div class="section" id="id25">
+<h2><a class="toc-backref" href="#id84">Construction</a><a class="headerlink" href="#id25" title="Permalink to this headline">¶</a></h2>
+<p><strong>Craft</strong> DC 23; <strong>Cost</strong> 6,500 gp</p>
+<p><a class="reference internal" href="technologyguide.feats.html#technologyguide-feats-craft-technological-arms-and-armor"><span class="std std-ref">Craft Technological Arms and Armor</span></a>, <a class="reference internal" href="technologyguide.crafting.html#technologyguide-crafting-crafting-laboratories"><span class="std std-ref">military lab</span></a></p>
+</div>
+<div class="section" id="sonic-rifle">
+<span id="technologyguide-weapons-sonic-rifle"></span><h2><a class="toc-backref" href="#id85">Sonic Rifle</a><a class="headerlink" href="#sonic-rifle" title="Permalink to this headline">¶</a></h2>
+<p><strong>Price</strong> 26,000 gp; <strong>Type</strong> two-handed ranged; <strong>Proficiency</strong> exotic (firearms); <strong>Dmg (M)</strong> 2d6 sonic; <strong>Dmg (S)</strong> 1d10 sonic; <strong>Critical</strong>  ×2; <strong>Range</strong> 150 ft.; <strong>Capacity</strong> 20; <strong>Usage</strong> 1 charge; <strong>Special</strong>  automatic, touch; <strong>Weight</strong>  6 lbs.</p>
+<p>A sonic rifle is a larger, more powerful version of the sonic pistol, and functions as such except for the differences listed here.</p>
+</div>
+<div class="section" id="id26">
+<h2><a class="toc-backref" href="#id86">Construction</a><a class="headerlink" href="#id26" title="Permalink to this headline">¶</a></h2>
+<p><strong>Craft</strong> DC 27; <strong>Cost</strong> 13,000 gp</p>
+<p><a class="reference internal" href="technologyguide.feats.html#technologyguide-feats-craft-technological-arms-and-armor"><span class="std std-ref">Craft Technological Arms and Armor</span></a>, <a class="reference internal" href="technologyguide.crafting.html#technologyguide-crafting-crafting-laboratories"><span class="std std-ref">military lab</span></a></p>
+</div>
+<div class="section" id="stun-baton">
+<span id="technologyguide-weapons-stun-baton"></span><h2><a class="toc-backref" href="#id87">Stun Baton</a><a class="headerlink" href="#stun-baton" title="Permalink to this headline">¶</a></h2>
+<p><strong>Price</strong> 5,000 gp; <strong>Type</strong> light melee; <strong>Proficiency</strong> martial; <strong>Dmg (M)</strong> 1d8 e, 1d6 blu.; <strong>Dmg (S)</strong> 1d6 e,1d4 blu.; <strong>Critical</strong>  ×2; <strong>Capacity</strong> 10; <strong>Usage</strong>  1 charge/round; <strong>Special</strong>  touch; <strong>Weight</strong>  2 lbs.</p>
+<p>This slender rod has an insulated grip and a conductive tip. All bludgeoning damage dealt by an active stun baton is nonlethal, while the electrical charge can be either nonlethal or lethal. By activating a control in the handle as a swift action, the wielder can switch the attack between a nonlethal jolt and a lethal shock. On a confirmed critical hit, a target must succeed at a Fortitude saving throw (DC = 10 + the damage dealt by the critical hit) or be staggered for 1 round. When it’s not activated, a stun baton functions as a sap. A character who is proficient with saps is proficient with a stun baton.</p>
+</div>
+<div class="section" id="id27">
+<h2><a class="toc-backref" href="#id88">Construction</a><a class="headerlink" href="#id27" title="Permalink to this headline">¶</a></h2>
+<p><strong>Craft</strong> DC 24; <strong>Cost</strong> 2,500 gp</p>
+<p><a class="reference internal" href="technologyguide.feats.html#technologyguide-feats-craft-technological-arms-and-armor"><span class="std std-ref">Craft Technological Arms and Armor</span></a>, <a class="reference internal" href="technologyguide.crafting.html#technologyguide-crafting-crafting-laboratories"><span class="std std-ref">military lab</span></a></p>
+</div>
+<div class="section" id="stun-gun">
+<span id="technologyguide-weapons-stun-gun"></span><h2><a class="toc-backref" href="#id89">Stun Gun</a><a class="headerlink" href="#stun-gun" title="Permalink to this headline">¶</a></h2>
+<p><strong>Price</strong> 3,000 gp; <strong>Type</strong> one-handed ranged; <strong>Proficiency</strong> exotic (firearms); <strong>Dmg (M)</strong> 1d8 nonlethal; <strong>Dmg (S)</strong> 1d6 nonlethal; <strong>Critical</strong>  ×2; <strong>Range</strong> 20 ft.; <strong>Capacity</strong> 10; <strong>Usage</strong> 1 charge; <strong>Special</strong>  semi-automatic, touch; <strong>Weight</strong>  3 lbs.</p>
+<p>This weapon uses a sonic amplifier to produce powerful low-frequency blasts of energy that pummel targets. The weapon has a relatively short range, but the fact that it deals nonlethal damage at range and can knock targets prone makes it a favorite for those seeking to capture their foes alive. A hit by a stun gun deals nonlethal damage—on a critical hit, the gun can attempt a free trip combat maneuver check against the target (CMB = user’s base attack bonus + 10); this attempt doesn’t provoke attacks of opportunity.</p>
+</div>
+<div class="section" id="id28">
+<h2><a class="toc-backref" href="#id90">Construction</a><a class="headerlink" href="#id28" title="Permalink to this headline">¶</a></h2>
+<p><strong>Craft</strong> DC 22; <strong>Cost</strong> 1,500 gp</p>
+<p><a class="reference internal" href="technologyguide.feats.html#technologyguide-feats-craft-technological-arms-and-armor"><span class="std std-ref">Craft Technological Arms and Armor</span></a>, <a class="reference internal" href="technologyguide.crafting.html#technologyguide-crafting-crafting-laboratories"><span class="std std-ref">military lab</span></a></p>
+</div>
+<div class="section" id="vortex-gun">
+<span id="technologyguide-weapons-vortex-gun"></span><h2><a class="toc-backref" href="#id91">Vortex Gun</a><a class="headerlink" href="#vortex-gun" title="Permalink to this headline">¶</a></h2>
+<p><strong>Price</strong> 182,000 gp; <strong>Type</strong> two-handed ranged; <strong>Proficiency</strong>  exotic (heavy weaponry); <strong>Dmg (M)</strong> 10d6 force; <strong>Dmg (S)</strong> 8d6 force; <strong>Critical</strong>  19-20/×2; <strong>Range</strong> 100-ft. cone; <strong>Capacity</strong> 30; <strong>Usage</strong> 10 charges; <strong>Special</strong>  slow-firing, scatter, touch; <strong>Weight</strong>  15 lbs.</p>
+<p>A vortex gun looks like a sleek shotgun with three barrels arranged in a triangular formation. When this weapon is fired, the three barrels release a beam of gravitons that spiral around each other to create a 100-foot-long cone-shaped vortex of devastating energy. This energy tears, crushes, and twists everything in its path. Being struck by a vortex gun induces overwhelming vertigo in living victims. A living creature damaged by a vortex gun must succeed at a DC 18 Fortitude saving throw to avoid being nauseated for 1 round. A critical hit also allows the user of the gun to attempt a trip combat maneuver check against the target (CMB = user’s base attack bonus + 15); this attempt doesn’t provoke attacks of opportunity. Flying creatures struck by a vortex gun are affected as if they were struck by hurricane force winds. A creature protected by a force field takes no damage from a vortex gun but must succeed at a DC 18 Reflex save or the shot automatically depletes all of the force field’s remaining hit points.</p>
+</div>
+<div class="section" id="id29">
+<h2><a class="toc-backref" href="#id92">Construction</a><a class="headerlink" href="#id29" title="Permalink to this headline">¶</a></h2>
+<p><strong>Craft</strong> DC 33; <strong>Cost</strong> 91,000 gp</p>
+<p><a class="reference internal" href="technologyguide.feats.html#technologyguide-feats-craft-technological-arms-and-armor"><span class="std std-ref">Craft Technological Arms and Armor</span></a>, <a class="reference internal" href="technologyguide.crafting.html#technologyguide-crafting-crafting-laboratories"><span class="std std-ref">graviton lab</span></a></p>
+</div>
+<div class="section" id="x-laser">
+<span id="technologyguide-weapons-x-laser"></span><h2><a class="toc-backref" href="#id93">X-Laser</a><a class="headerlink" href="#x-laser" title="Permalink to this headline">¶</a></h2>
+<p><strong>Price</strong> 40,000 gp; <strong>Type</strong> two-handed ranged; <strong>Proficiency</strong>  exotic (heavy weaponry); <strong>Dmg (M)</strong> 5d6 fire; <strong>Dmg (S)</strong> 6d4 fire; <strong>Critical</strong> ×4; <strong>Range</strong> 200 ft.; <strong>Capacity</strong> 20; <strong>Usage</strong>  5 charges; <strong>Special</strong>  touch; <strong>Weight</strong>  10 lbs.</p>
+<p>An x-laser is a super-charged laser with devastating effects. It fires a highly focused, incredibly powerful beam of high-frequency light. An x-laser’s beam functions as a laser rifle’s beam, but it bores holes through any creature or object it damages. The beam is stopped if it cannot penetrate the hardness, fire resistance, or fire immunity of a barrier or creature. When making an attack with an x-laser, make a single attack roll and compare that result to the ACs of all creatures in a line extending out to the weapon’s maximum range. This weapon damages all targets with an AC equal to or lower than the attack roll. The hole created by an x-laser is less than an inch in diameter and serves primarily as evidence of the weapon’s discharge rather than significantly altering an object’s structural integrity beyond the damage the laser blast deals as part of the attack.</p>
+</div>
+<div class="section" id="id30">
+<h2><a class="toc-backref" href="#id94">Construction</a><a class="headerlink" href="#id30" title="Permalink to this headline">¶</a></h2>
+<p><strong>Craft</strong> DC 33; <strong>Cost</strong> 20,000 gp</p>
+<p><a class="reference internal" href="technologyguide.feats.html#technologyguide-feats-craft-technological-arms-and-armor"><span class="std std-ref">Craft Technological Arms and Armor</span></a>, <a class="reference internal" href="technologyguide.crafting.html#technologyguide-crafting-crafting-laboratories"><span class="std std-ref">military lab</span></a></p>
+</div>
+<div class="section" id="zero-pistol">
+<span id="technologyguide-weapons-zero-pistol"></span><h2><a class="toc-backref" href="#id95">Zero Pistol</a><a class="headerlink" href="#zero-pistol" title="Permalink to this headline">¶</a></h2>
+<p><strong>Price</strong> 10,000 gp; <strong>Type</strong> one-handed ranged; <strong>Proficiency</strong> exotic (firearms); <strong>Dmg (M)</strong> 1d8 cold; <strong>Dmg (S)</strong> 1d6 cold; <strong>Critical</strong>  ×2; <strong>Range</strong> 50 ft.; <strong>Capacity</strong> 10; <strong>Usage</strong> 1 charge; <strong>Special</strong>  semi-automatic, touch; <strong>Weight</strong>  2 lbs.</p>
+<p>A zero pistol fires a beam of freezing particles at high velocity, dealing cold damage to anything it strikes. Any creature critically hit by a zero pistol ray must succeed at a DC 15 Fortitude saving throw or become staggered by the cold for 1 round.</p>
+</div>
+<div class="section" id="id31">
+<h2><a class="toc-backref" href="#id96">Construction</a><a class="headerlink" href="#id31" title="Permalink to this headline">¶</a></h2>
+<p><strong>Craft</strong> DC 23; <strong>Cost</strong> 5,000 gp</p>
+<p><a class="reference internal" href="technologyguide.feats.html#technologyguide-feats-craft-technological-arms-and-armor"><span class="std std-ref">Craft Technological Arms and Armor</span></a>, <a class="reference internal" href="technologyguide.crafting.html#technologyguide-crafting-crafting-laboratories"><span class="std std-ref">military lab</span></a></p>
+</div>
+<div class="section" id="zero-rifle">
+<span id="technologyguide-weapons-zero-rifle"></span><h2><a class="toc-backref" href="#id97">Zero Rifle</a><a class="headerlink" href="#zero-rifle" title="Permalink to this headline">¶</a></h2>
+<p><strong>Price</strong> 20,000 gp; <strong>Type</strong> two-handed ranged; <strong>Proficiency</strong> exotic (firearms); <strong>Dmg (M)</strong> 2d6 cold; <strong>Dmg (S)</strong> 1d10 cold; <strong>Critical</strong>  ×2; <strong>Range</strong> 150 ft.; <strong>Capacity</strong> 20; <strong>Usage</strong> 1 charge; <strong>Special</strong>  automatic, touch; <strong>Weight</strong>  6 lbs.</p>
+<p>A zero rifle is a larger, more powerful version of the zero pistol, and functions as such except for the differences listed here.</p>
+</div>
+<div class="section" id="id32">
+<h2><a class="toc-backref" href="#id98">Construction</a><a class="headerlink" href="#id32" title="Permalink to this headline">¶</a></h2>
+<p><strong>Craft</strong> DC 27; <strong>Cost</strong> 10,000 gp</p>
+<p><a class="reference internal" href="technologyguide.feats.html#technologyguide-feats-craft-technological-arms-and-armor"><span class="std std-ref">Craft Technological Arms and Armor</span></a>, <a class="reference internal" href="technologyguide.crafting.html#technologyguide-crafting-crafting-laboratories"><span class="std std-ref">military lab</span></a></p>
+</div>
+</div>
+
+</body>

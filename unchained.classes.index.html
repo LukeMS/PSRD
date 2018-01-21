@@ -1,0 +1,798 @@
+
+
+
+
+
+<head>
+    <link rel="stylesheet" href="_static/srd.css" type="text/css" />
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/toggle_list.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+
+
+
+<body>
+    <div class="contents topic" id="id1">
+<span id="unchained-classes-index"></span><p class="topic-title first"></p>
+<ul class="simple">
+<li><a class="reference internal" href="#introduction" id="id4">Introduction</a></li>
+<li><a class="reference internal" href="#fractional-base-bonuses" id="id5">Fractional Base Bonuses</a><ul>
+<li><a class="reference internal" href="#base-attack-bonus" id="id6">Base Attack Bonus</a></li>
+<li><a class="reference internal" href="#base-save-bonuses" id="id7">Base Save Bonuses</a></li>
+<li><a class="reference internal" href="#bonuses-by-level" id="id8">Bonuses by Level</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#staggered-advancement" id="id9">Staggered Advancement</a><ul>
+<li><a class="reference internal" href="#using-staggered-advancement" id="id10">Using Staggered Advancement</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="introduction">
+<span id="unchained-classes-index-introduction"></span><h1><a class="toc-backref" href="#id4">Introduction</a><a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h1>
+<p>Since the release of the <em>Pathfinder Roleplaying Game Core Rulebook</em>, countless game sessions have revealed that certain classes have been pushing against their constraints, yearning to break free into something at once familiar and new. This chapter includes unchained versions of the barbarian, monk, rogue, and summoner, as well as subsystems that alter character advancement. These classes can be used alongside their original counterparts (although individual characters must use one version or the other exclusively). Some feats, rage powers, rogue talents, and other rules might not work with the unchained classes, and such rules should be reviewed before being used with the new versions. Finally, with the exception of the monk, these classes should work with any of the archetypes from previous books as long as the classes still have the appropriate class features to replace.</p>
+<p><a class="reference internal" href="unchained.classes.barbarian.html#unchained-classes-barbarian"><span class="std std-ref">Barbarian</span></a>: From a game balance perspective, the original barbarian serves her role admirably, but her mechanics require the player to recalculate numerous values once she enters a rage and keep track of a bevy of once-per-rage abilities. She can easily die in a fight due to the way that ending a rage lowers her hit points. The unchained barbarian significantly simplifies the rage bonus calculations, and  she gains temporary hit points instead of raising and later decreasing her current and maximum hit points. Finally, she gains stronger versions of some of the weakest rage powers.</p>
+<p><a class="reference internal" href="unchained.classes.monk.html#unchained-classes-monk"><span class="std std-ref">Monk</span></a>: The original monk has many disparate abilities, which don’t always work together and are inflexible. The unchained monk loosens up, gaining ki powers that allow greater customization. The unchained monk also has a full base attack bonus and an all-new flurry of blows.</p>
+<p><a class="reference internal" href="unchained.classes.rogue.html#unchained-classes-rogue"><span class="std std-ref">Rogue</span></a>: The original rogue has a niche thanks to her sneak attack and high number of skill ranks, but she is still somewhat underpowered. The unchained rogue can debilitate her enemies to dramatically alter her ability to hit or dodge them, gains a unique edge when using her favorite skills, and enjoys a significant boost to her rogue talents.</p>
+<p><a class="reference internal" href="unchained.classes.summoner.html#unchained-classes-summoner"><span class="std std-ref">Summoner</span></a>: The original summoner has plenty of innovative features, but he also lacks focus and theme.  The unchained summoner gains an eidolon that fits among existing outsiders, gaining additional abilities and plenty of thematic flavor. Additionally, he has a revised spell list more in line with similar casters.</p>
+<p><a class="reference internal" href="#unchained-classes-index-fractional-base-bonuses"><span class="std std-ref">Fractional Advancement</span></a>: Every class has a mathematical progression for its base attack bonus and saving throws. Sometimes, multiclassing leads to unusual results, and this system allows you to calculate in detail without rounding.</p>
+<p><a class="reference internal" href="#unchained-classes-index-staggered-advancement"><span class="std std-ref">Staggered Advancement</span></a>: It can feel a bit strange when a character picks up 10 new skills and a variety of other abilities all in one night. This system allows you to spread out advancement over the course of a level.</p>
+</div>
+<div class="section" id="fractional-base-bonuses">
+<span id="unchained-classes-index-fractional-base-bonuses"></span><h1><a class="toc-backref" href="#id5">Fractional Base Bonuses</a><a class="headerlink" href="#fractional-base-bonuses" title="Permalink to this headline">¶</a></h1>
+<p>Multiclass characters in the core rules are at a slight disadvantage when it comes to their statistics. This fractional base bonuses variant is designed to help multiclass characters fulfill their true potential and stand tall among their single-class peers. It is ideal for campaigns featuring many multiclass characters, particularly if those characters take levels in many different classes or prestige classes.</p>
+<p>Base attack bonuses and base save bonuses in the <em>Core Rulebook</em> progress at a fractional rate, but those fractions are eliminated because of rounding; it doesn’t make sense to distinguish a base attack bonus of +6-1/2 from a base attack bonus of +6 when a character with either bonus would hit AC 17 on a roll of 11 and miss on a 10. For ease of reference, the values in the class tables are rounded this way since it never makes a difference for single-class characters. However, for multiclass characters, this rounding often results in a base attack bonus that’s too low, as well as base save bonuses that are imbalanced. The following variant results in more accurate base bonuses for multiclass characters, based on the formulas behind the class progression tables rather than on the tables themselves.</p>
+<p>For example, a character who’s a 1st-level wizard and a 1st-level rogue has a base attack bonus (BAB) of +0 from each class, resulting in a total BAB of +0—worse than a 2nd-level wizard or 2nd-level rogue. But that’s only because each fraction was rounded down to 0 before adding them together; the character theoretically has a BAB of +3/4 from her rogue level and +1/2 from her wizard level. If the rounding was done after adding the fractional values together rather than before, the character would have a BAB of +1 (rounded down from +1-1/4)—the same as a 2nd-level wizard or rogue.</p>
+<span id="unchained-classes-index-fractional-bonuses-by-class-level"></span><table border="1" class="colwidths-auto contrast-reading-table docutils" id="id2">
+<caption><span class="caption-text">Fractional Bonuses by Class Level</span><a class="headerlink" href="#id2" title="Permalink to this table">¶</a></caption>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Class Level</th>
+<th class="head">Base Save Bonus (Good) *</th>
+<th class="head">Base Save Bonus (Poor)</th>
+<th class="head">Base Attack Bonus (d10 or d12)</th>
+<th class="head">Base Attack Bonus (d8)</th>
+<th class="head">Base Attack Bonus (d6)</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>1st</td>
+<td>+1/2</td>
+<td>+1/3</td>
+<td>+1</td>
+<td>+3/4</td>
+<td>+1/2</td>
+</tr>
+<tr class="row-odd"><td>2nd</td>
+<td>+1</td>
+<td>+2/3</td>
+<td>+2</td>
+<td>+1-1/2</td>
+<td>+1</td>
+</tr>
+<tr class="row-even"><td>3rd</td>
+<td>+1-1/2</td>
+<td>+1</td>
+<td>+3</td>
+<td>+2-1/4</td>
+<td>+1-1/2</td>
+</tr>
+<tr class="row-odd"><td>4th</td>
+<td>+2</td>
+<td>+1-1/3</td>
+<td>+4</td>
+<td>+3</td>
+<td>+2</td>
+</tr>
+<tr class="row-even"><td>5th</td>
+<td>+2-1/2</td>
+<td>+1-2/3</td>
+<td>+5</td>
+<td>+3-3/4</td>
+<td>+2-1/2</td>
+</tr>
+<tr class="row-odd"><td>6th</td>
+<td>+3</td>
+<td>+2</td>
+<td>+6</td>
+<td>+4-1/2</td>
+<td>+3</td>
+</tr>
+<tr class="row-even"><td>7th</td>
+<td>+3-1/2</td>
+<td>+2-1/3</td>
+<td>+7</td>
+<td>+5-1/4</td>
+<td>+3-1/2</td>
+</tr>
+<tr class="row-odd"><td>8th</td>
+<td>+4</td>
+<td>+2-2/3</td>
+<td>+8</td>
+<td>+6</td>
+<td>+4</td>
+</tr>
+<tr class="row-even"><td>9th</td>
+<td>+4-1/2</td>
+<td>+3</td>
+<td>+9</td>
+<td>+6-3/4</td>
+<td>+4-1/2</td>
+</tr>
+<tr class="row-odd"><td>10th</td>
+<td>+5</td>
+<td>+3-1/3</td>
+<td>+10</td>
+<td>+7-1/2</td>
+<td>+5</td>
+</tr>
+<tr class="row-even"><td>11th</td>
+<td>+5-1/2</td>
+<td>+3-2/3</td>
+<td>+11</td>
+<td>+8-1/4</td>
+<td>+5-1/2</td>
+</tr>
+<tr class="row-odd"><td>12th</td>
+<td>+6</td>
+<td>+4</td>
+<td>+12</td>
+<td>+9</td>
+<td>+6</td>
+</tr>
+<tr class="row-even"><td>13th</td>
+<td>+6-1/2</td>
+<td>+4-1/3</td>
+<td>+13</td>
+<td>+9-3/4</td>
+<td>+6-1/2</td>
+</tr>
+<tr class="row-odd"><td>14th</td>
+<td>+7</td>
+<td>+4-2/3</td>
+<td>+14</td>
+<td>+10-1/2</td>
+<td>+7</td>
+</tr>
+<tr class="row-even"><td>15th</td>
+<td>+7-1/2</td>
+<td>+5</td>
+<td>+15</td>
+<td>+11-1/4</td>
+<td>+7-1/2</td>
+</tr>
+<tr class="row-odd"><td>16th</td>
+<td>+8</td>
+<td>+5-1/3</td>
+<td>+16</td>
+<td>+12</td>
+<td>+8</td>
+</tr>
+<tr class="row-even"><td>17th</td>
+<td>+8-1/2</td>
+<td>+5-2/3</td>
+<td>+17</td>
+<td>+12-3/4</td>
+<td>+8-1/2</td>
+</tr>
+<tr class="row-odd"><td>18th</td>
+<td>+9</td>
+<td>+6</td>
+<td>+18</td>
+<td>+13-1/2</td>
+<td>+9</td>
+</tr>
+<tr class="row-even"><td>19th</td>
+<td>+9-1/2</td>
+<td>+6-1/3</td>
+<td>+19</td>
+<td>+14-1/4</td>
+<td>+9-1/2</td>
+</tr>
+<tr class="row-odd"><td>20th</td>
+<td>+10</td>
+<td>+6-2/3</td>
+<td>+20</td>
+<td>+15</td>
+<td>+10</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Notes:</strong></p>
+<ul class="simple">
+<li>* If at least one of the character’s classes has a good saving throw progression for the save in question, add 2 to the total save bonus.</li>
+</ul>
+<div class="section" id="base-attack-bonus">
+<span id="unchained-classes-index-base-attack-bonus"></span><h2><a class="toc-backref" href="#id6">Base Attack Bonus</a><a class="headerlink" href="#base-attack-bonus" title="Permalink to this headline">¶</a></h2>
+<p>There are three base attack bonus progressions. For classes with a d6 Hit Die, their BAB increases by 1/2 per level. For classes with a d8 Hit Die, their BAB increases by 3/4 per level. For classes with a d10 or d12 Hit Die, their BAB increases by 1 per level (so it’s not necessary to round the BAB for these classes). A multiclass character’s base attack bonus will only ever improve using this variant.</p>
+<p>For example, a character who’s a 2nd-level rogue and a 9th-level wizard would have a BAB of +5 in the core rules: +1 from her rogue levels and +4 from her wizard levels. Using the fractional system, that character’s BAB would be +6, with +1-1/2 from her rogue levels and +4-1/2 from her wizard levels—enough for her to gain a second attack at a +1 bonus.</p>
+</div>
+<div class="section" id="base-save-bonuses">
+<span id="unchained-classes-index-base-save-bonuses"></span><h2><a class="toc-backref" href="#id7">Base Save Bonuses</a><a class="headerlink" href="#base-save-bonuses" title="Permalink to this headline">¶</a></h2>
+<p>There are only two base saving throw progressions: good and poor. Good saves progress at a rate of +1/2 per level, while poor saves progress at +1/3 per level. Additionally, saving throw bonuses with a good saving throw progression start higher, effectively incorporating an additional +2 bonus. Under the core rules, this additional bonus stacks between classes, letting a character who’s a 1st-level barbarian and a 1st-level fighter have a +4 Fortitude save bonus while his Reflex and Will saves stagnate. However, this higher initial saving throw bonus is intended to act like the +3 bonus received on a class skill: you should get it only once for a particular type of saving throw, regardless of the number of classes in which you have levels. Under this variant, the +2 bonus at 1st level to a good save no longer stacks between classes, so a character’s strongest saves are sometimes decreased. However, the improvements to that character’s weakest saves usually make up the difference, and such characters are much less likely to leap ahead of (or fall dramatically behind) their single-class peers.</p>
+<p>When calculating each saving throw bonus, first determine whether each class you have levels in grants a good or poor saving throw progression for that type of save. To tell whether a class has a good or poor save progression for a particular saving throw, look at the 1st-level saving throw bonus it receives for that save in the core rules. If the bonus is +2, the class has a good save progression for that type of save. If it’s +0, the class has a poor save progression for that type of save. Next, for each class, find the value in the <a class="reference internal" href="#unchained-classes-index-fractional-bonuses-by-class-level"><span class="std std-ref">table above</span></a> corresponding to your level in that class and whether the saving throw progression is good or poor. Add the values from all your classes; if you have a good saving throw progression from at least one class, add 2 to the total (this is a one-time increase and doesn’t stack).</p>
+<p>For example, in a standard game, a character who’s a 5th-level cleric and a 2nd-level fighter would have a Fortitude base save bonus of +7, a Reflex base save bonus of +1, and a Will base save bonus of +4. In this variant, the same character would have a Fortitude base save bonus of +5 (rounded down from +5-1/2), a Reflex base save bonus of +2 (rounded down from +2-1/3), and a Will base save bonus of +5 (rounded down from +5-1/6).</p>
+<p>In the core Pathfinder rules, prestige classes advance at the same rate as base classes but have different class bonuses. These adjusted bonuses were meant to compensate for the leftover fractions from the character’s base classes, since the only way to gain a prestige class is via multiclassing—taking levels in both your original class and the prestige class—or racial Hit Dice. Because fractional base bonuses already account for those fractions, instead use the base save bonuses from the <a class="reference internal" href="#unchained-classes-index-fractional-bonuses-by-class-level"><span class="std std-ref">table above</span></a> just as you would for any other class. To tell whether a prestige class has a good or poor save progression for a saving throw, look at the 1st-level saving throw bonuses it receives for that save. If the bonus is +1, it has a good save progression. If it’s +0, it has a poor save progression.</p>
+</div>
+<div class="section" id="bonuses-by-level">
+<span id="unchained-classes-index-bonuses-by-level"></span><h2><a class="toc-backref" href="#id8">Bonuses by Level</a><a class="headerlink" href="#bonuses-by-level" title="Permalink to this headline">¶</a></h2>
+<p>The table above presents fractional values for the base save and base attack bonuses. To determine the total base save bonus or base attack bonus of a multiclass character, calculate the fractional values for each of the character’s classes using the table and add them together.</p>
+<p>This rule affects only multiclass characters, and such characters will have a number of attacks depending on their combined base attack bonuses from several classes. For this reason, the table does not list the multiple attacks gained by characters with a BAB of +6 or greater. Just remember that a second attack is gained when a character’s total BAB reaches +6, a third at +11, and a fourth at +16, just as normal. For a character who’s an 11th-level fighter and a 9th-level rogue, adding a BAB of +11 to a BAB of +6-3/4 yields a BAB of +17 (rounded down from +17-3/4), with additional attacks with BABs of +12, +7, and +2, respectively.</p>
+</div>
+</div>
+<div class="section" id="staggered-advancement">
+<span id="unchained-classes-index-staggered-advancement"></span><h1><a class="toc-backref" href="#id9">Staggered Advancement</a><a class="headerlink" href="#staggered-advancement" title="Permalink to this headline">¶</a></h1>
+<p>When increasing in level, characters often gain new abilities and powers seemingly overnight. The following advancement variant allows you to add some verisimilitude to the way in which your characters grow in power.</p>
+<p>Instead of gaining all your new abilities when you advance to the next level, you divide them among four XP tiers: 25%, 50%, 75%, and 100%. Each XP tier represents a specific percentage of the XP required to advance to the next level.</p>
+<div class="section" id="using-staggered-advancement">
+<span id="unchained-classes-index-using-staggered-advancement"></span><h2><a class="toc-backref" href="#id10">Using Staggered Advancement</a><a class="headerlink" href="#using-staggered-advancement" title="Permalink to this headline">¶</a></h2>
+<p>First, select the class in which you’ll gain your next level. You must meet all the prerequisites for that class level. Whenever you reach a new XP tier, gain the appropriate universal abilities and skill ranks for that class as detailed in Table 1–8: Staggered Advancement. Your feat, ability score, and spell progressions remain unchanged.</p>
+<p><strong>Universal Abilities</strong>: Universal abilities include your selected class’s base attack bonus, hit points (hp), and saving throw bonuses. At the 25%, 50%, and 75% XP tiers, you can select one of the following options.</p>
+<p><em>Base Attack Bonus</em>: Increase your selected class’s base attack bonus (if applicable).</p>
+<p><em>Hit Points</em>: Determine the number of hit points you would gain for advancing to the next level in your class and add 50% of those hit points (rounding down) to your hit point maximum. When you advance fully to the next level of your selected class, add the remaining hit points.</p>
+<p><em>Saving Throw Bonuses</em>: Increase your class’s saving throw bonuses (if applicable).</p>
+<p>Each of the above options can only be selected once per level. Additionally, the base attack bonuses and saving throw bonuses of some classes don’t increase each time they advance in level. If only one universal ability is applicable, incorporate it at the 75% tier. If two are applicable, incorporate one at the 50% tier and the other at the 75% tier (your choice).</p>
+<p><strong>Class Features</strong>: Characters gain all class features upon reaching the next level.</p>
+<p><strong>Skill Ranks</strong>: Determine the total number of skill ranks you would gain for advancing to the next level in your selected class, and allocate 50% of the skill ranks (rounding down) when you reach the 50% XP tier. When you advance fully to the next level, you can spend the remaining skill ranks.</p>
+<p>The following table assumes you are using the medium XP advancement track. If you use the fast or slow XP advancement track, you can use this table as a model from which to extrapolate the XP requirements for each XP tier.</p>
+<span id="unchained-classes-index-staggered-advancement-table"></span><table border="1" class="colwidths-auto contrast-reading-table docutils" id="id3">
+<caption><span class="caption-text">Staggered Advancement</span><a class="headerlink" href="#id3" title="Permalink to this table">¶</a></caption>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Character Level</th>
+<th class="head">XP</th>
+<th class="head">XP Tier</th>
+<th class="head">Universal Abilities</th>
+<th class="head">Class Abilities</th>
+<th class="head">Skill Ranks</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>1st</td>
+<td>0</td>
+<td>—</td>
+<td>As standard rules for a 1st-level character</td>
+<td>&#160;</td>
+<td>&#160;</td>
+</tr>
+<tr class="row-odd"><td>&#160;</td>
+<td>500</td>
+<td>25%</td>
+<td>BAB, 50% hp, or saves</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-even"><td>&#160;</td>
+<td>1,000</td>
+<td>50%</td>
+<td>BAB, 50% hp, or saves</td>
+<td>—</td>
+<td>50%</td>
+</tr>
+<tr class="row-odd"><td>&#160;</td>
+<td>1,500</td>
+<td>75%</td>
+<td>BAB, 50% hp, or saves</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-even"><td>2nd</td>
+<td>2,000</td>
+<td>—</td>
+<td>Remaining 50% of hp</td>
+<td>All</td>
+<td>Remaining 50%</td>
+</tr>
+<tr class="row-odd"><td>&#160;</td>
+<td>2,750</td>
+<td>25%</td>
+<td>BAB, 50% hp, or saves</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-even"><td>&#160;</td>
+<td>3,500</td>
+<td>50%</td>
+<td>BAB, 50% hp, or saves</td>
+<td>—</td>
+<td>50%</td>
+</tr>
+<tr class="row-odd"><td>&#160;</td>
+<td>4,250</td>
+<td>75%</td>
+<td>BAB, 50% hp, or saves</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-even"><td>3rd</td>
+<td>5,000</td>
+<td>—</td>
+<td>Remaining 50% of hp</td>
+<td>All</td>
+<td>Remaining 50%</td>
+</tr>
+<tr class="row-odd"><td>&#160;</td>
+<td>6,000</td>
+<td>25%</td>
+<td>BAB, 50% hp, or saves</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-even"><td>&#160;</td>
+<td>7,000</td>
+<td>50%</td>
+<td>BAB, 50% hp, or saves</td>
+<td>—</td>
+<td>50%</td>
+</tr>
+<tr class="row-odd"><td>&#160;</td>
+<td>8,000</td>
+<td>75%</td>
+<td>BAB, 50% hp, or saves</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-even"><td>4th</td>
+<td>9,000</td>
+<td>—</td>
+<td>Remaining 50% of hp</td>
+<td>All</td>
+<td>Remaining 50%</td>
+</tr>
+<tr class="row-odd"><td>&#160;</td>
+<td>10,500</td>
+<td>25%</td>
+<td>BAB, 50% hp, or saves</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-even"><td>&#160;</td>
+<td>12,000</td>
+<td>50%</td>
+<td>BAB, 50% hp, or saves</td>
+<td>—</td>
+<td>50%</td>
+</tr>
+<tr class="row-odd"><td>&#160;</td>
+<td>13,500</td>
+<td>75%</td>
+<td>BAB, 50% hp, or saves</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-even"><td>5th</td>
+<td>15,000</td>
+<td>—</td>
+<td>Remaining 50% of hp</td>
+<td>All</td>
+<td>Remaining 50%</td>
+</tr>
+<tr class="row-odd"><td>&#160;</td>
+<td>17,000</td>
+<td>25%</td>
+<td>BAB, 50% hp, or saves</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-even"><td>&#160;</td>
+<td>19,000</td>
+<td>50%</td>
+<td>BAB, 50% hp, or saves</td>
+<td>—</td>
+<td>50%</td>
+</tr>
+<tr class="row-odd"><td>&#160;</td>
+<td>21,000</td>
+<td>75%</td>
+<td>BAB, 50% hp, or saves</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-even"><td>6th</td>
+<td>23,000</td>
+<td>—</td>
+<td>Remaining 50% of hp</td>
+<td>All</td>
+<td>Remaining 50%</td>
+</tr>
+<tr class="row-odd"><td>&#160;</td>
+<td>26,000</td>
+<td>25%</td>
+<td>BAB, 50% hp, or saves</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-even"><td>&#160;</td>
+<td>29,000</td>
+<td>50%</td>
+<td>BAB, 50% hp, or saves</td>
+<td>—</td>
+<td>50%</td>
+</tr>
+<tr class="row-odd"><td>&#160;</td>
+<td>32,000</td>
+<td>75%</td>
+<td>BAB, 50% hp, or saves</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-even"><td>7th</td>
+<td>35,000</td>
+<td>—</td>
+<td>Remaining 50% of hp</td>
+<td>All</td>
+<td>Remaining 50%</td>
+</tr>
+<tr class="row-odd"><td>&#160;</td>
+<td>39,000</td>
+<td>25%</td>
+<td>BAB, 50% hp, or saves</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-even"><td>&#160;</td>
+<td>43,000</td>
+<td>50%</td>
+<td>BAB, 50% hp, or saves</td>
+<td>—</td>
+<td>50%</td>
+</tr>
+<tr class="row-odd"><td>&#160;</td>
+<td>47,000</td>
+<td>75%</td>
+<td>BAB, 50% hp, or saves</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-even"><td>8th</td>
+<td>51,000</td>
+<td>—</td>
+<td>Remaining 50% of hp</td>
+<td>All</td>
+<td>Remaining 50%</td>
+</tr>
+<tr class="row-odd"><td>&#160;</td>
+<td>57,000</td>
+<td>25%</td>
+<td>BAB, 50% hp, or saves</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-even"><td>&#160;</td>
+<td>63,000</td>
+<td>50%</td>
+<td>BAB, 50% hp, or saves</td>
+<td>—</td>
+<td>50%</td>
+</tr>
+<tr class="row-odd"><td>&#160;</td>
+<td>69,000</td>
+<td>75%</td>
+<td>BAB, 50% hp, or saves</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-even"><td>9th</td>
+<td>75,000</td>
+<td>—</td>
+<td>Remaining 50% of hp</td>
+<td>All</td>
+<td>Remaining 50%</td>
+</tr>
+<tr class="row-odd"><td>&#160;</td>
+<td>82,500</td>
+<td>25%</td>
+<td>BAB, 50% hp, or saves</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-even"><td>&#160;</td>
+<td>90,000</td>
+<td>50%</td>
+<td>BAB, 50% hp, or saves</td>
+<td>—</td>
+<td>50%</td>
+</tr>
+<tr class="row-odd"><td>&#160;</td>
+<td>97,500</td>
+<td>75%</td>
+<td>BAB, 50% hp, or saves</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-even"><td>10th</td>
+<td>105,000</td>
+<td>—</td>
+<td>Remaining 50% of hp</td>
+<td>All</td>
+<td>Remaining 50%</td>
+</tr>
+<tr class="row-odd"><td>&#160;</td>
+<td>117,500</td>
+<td>25%</td>
+<td>BAB, 50% hp, or saves</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-even"><td>&#160;</td>
+<td>130,000</td>
+<td>50%</td>
+<td>BAB, 50% hp, or saves</td>
+<td>—</td>
+<td>50%</td>
+</tr>
+<tr class="row-odd"><td>&#160;</td>
+<td>142,500</td>
+<td>75%</td>
+<td>BAB, 50% hp, or saves</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-even"><td>11th</td>
+<td>155,000</td>
+<td>—</td>
+<td>Remaining 50% of hp</td>
+<td>All</td>
+<td>Remaining 50%</td>
+</tr>
+<tr class="row-odd"><td>&#160;</td>
+<td>171,250</td>
+<td>25%</td>
+<td>BAB, 50% hp, or saves</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-even"><td>&#160;</td>
+<td>187,500</td>
+<td>50%</td>
+<td>BAB, 50% hp, or saves</td>
+<td>—</td>
+<td>50%</td>
+</tr>
+<tr class="row-odd"><td>&#160;</td>
+<td>203,750</td>
+<td>75%</td>
+<td>BAB, 50% hp, or saves</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-even"><td>12th</td>
+<td>220,000</td>
+<td>—</td>
+<td>Remaining 50% of hp</td>
+<td>All</td>
+<td>Remaining 50%</td>
+</tr>
+<tr class="row-odd"><td>&#160;</td>
+<td>243,750</td>
+<td>25%</td>
+<td>BAB, 50% hp, or saves</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-even"><td>&#160;</td>
+<td>267,500</td>
+<td>50%</td>
+<td>BAB, 50% hp, or saves</td>
+<td>—</td>
+<td>50%</td>
+</tr>
+<tr class="row-odd"><td>&#160;</td>
+<td>291,250</td>
+<td>75%</td>
+<td>BAB, 50% hp, or saves</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-even"><td>13th</td>
+<td>315,000</td>
+<td>—</td>
+<td>Remaining 50% of hp</td>
+<td>All</td>
+<td>Remaining 50%</td>
+</tr>
+<tr class="row-odd"><td>&#160;</td>
+<td>347,500</td>
+<td>25%</td>
+<td>BAB, 50% hp, or saves</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-even"><td>&#160;</td>
+<td>380,000</td>
+<td>50%</td>
+<td>BAB, 50% hp, or saves</td>
+<td>—</td>
+<td>50%</td>
+</tr>
+<tr class="row-odd"><td>&#160;</td>
+<td>412,500</td>
+<td>75%</td>
+<td>BAB, 50% hp, or saves</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-even"><td>14th</td>
+<td>445,000</td>
+<td>—</td>
+<td>Remaining 50% of hp</td>
+<td>All</td>
+<td>Remaining 50%</td>
+</tr>
+<tr class="row-odd"><td>&#160;</td>
+<td>492,500</td>
+<td>25%</td>
+<td>BAB, 50% hp, or saves</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-even"><td>&#160;</td>
+<td>540,000</td>
+<td>50%</td>
+<td>BAB, 50% hp, or saves</td>
+<td>—</td>
+<td>50%</td>
+</tr>
+<tr class="row-odd"><td>&#160;</td>
+<td>587,500</td>
+<td>75%</td>
+<td>BAB, 50% hp, or saves</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-even"><td>15th</td>
+<td>635,000</td>
+<td>—</td>
+<td>Remaining 50% of hp</td>
+<td>All</td>
+<td>Remaining 50%</td>
+</tr>
+<tr class="row-odd"><td>&#160;</td>
+<td>698,750</td>
+<td>25%</td>
+<td>BAB, 50% hp, or saves</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-even"><td>&#160;</td>
+<td>762,500</td>
+<td>50%</td>
+<td>BAB, 50% hp, or saves</td>
+<td>—</td>
+<td>50%</td>
+</tr>
+<tr class="row-odd"><td>&#160;</td>
+<td>826,250</td>
+<td>75%</td>
+<td>BAB, 50% hp, or saves</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-even"><td>16th</td>
+<td>890,000</td>
+<td>—</td>
+<td>Remaining 50% of hp</td>
+<td>All</td>
+<td>Remaining 50%</td>
+</tr>
+<tr class="row-odd"><td>&#160;</td>
+<td>992,500</td>
+<td>25%</td>
+<td>BAB, 50% hp, or saves</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-even"><td>&#160;</td>
+<td>1,095,000</td>
+<td>50%</td>
+<td>BAB, 50% hp, or saves</td>
+<td>—</td>
+<td>50%</td>
+</tr>
+<tr class="row-odd"><td>&#160;</td>
+<td>1,197,500</td>
+<td>75%</td>
+<td>BAB, 50% hp, or saves</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-even"><td>17th</td>
+<td>1,300,000</td>
+<td>—</td>
+<td>Remaining 50% of hp</td>
+<td>All</td>
+<td>Remaining 50%</td>
+</tr>
+<tr class="row-odd"><td>&#160;</td>
+<td>1,425,000</td>
+<td>25%</td>
+<td>BAB, 50% hp, or saves</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-even"><td>&#160;</td>
+<td>1,550,000</td>
+<td>50%</td>
+<td>BAB, 50% hp, or saves</td>
+<td>—</td>
+<td>50%</td>
+</tr>
+<tr class="row-odd"><td>&#160;</td>
+<td>1,675,000</td>
+<td>75%</td>
+<td>BAB, 50% hp, or saves</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-even"><td>18th</td>
+<td>1,800,000</td>
+<td>—</td>
+<td>Remaining 50% of hp</td>
+<td>All</td>
+<td>Remaining 50%</td>
+</tr>
+<tr class="row-odd"><td>&#160;</td>
+<td>1,987,500</td>
+<td>25%</td>
+<td>BAB, 50% hp, or saves</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-even"><td>&#160;</td>
+<td>2,175,000</td>
+<td>50%</td>
+<td>BAB, 50% hp, or saves</td>
+<td>—</td>
+<td>50%</td>
+</tr>
+<tr class="row-odd"><td>&#160;</td>
+<td>2,362,500</td>
+<td>75%</td>
+<td>BAB, 50% hp, or saves</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-even"><td>19th</td>
+<td>2,550,000</td>
+<td>—</td>
+<td>Remaining 50% of hp</td>
+<td>All</td>
+<td>Remaining 50%</td>
+</tr>
+<tr class="row-odd"><td>&#160;</td>
+<td>2,812,500</td>
+<td>25%</td>
+<td>BAB, 50% hp, or saves</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-even"><td>&#160;</td>
+<td>3,075,000</td>
+<td>50%</td>
+<td>BAB, 50% hp, or saves</td>
+<td>—</td>
+<td>50%</td>
+</tr>
+<tr class="row-odd"><td>&#160;</td>
+<td>3,337,500</td>
+<td>75%</td>
+<td>BAB, 50% hp, or saves</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="row-even"><td>20th</td>
+<td>3,600,000</td>
+<td>—</td>
+<td>Remaining 50% of hp</td>
+<td>All</td>
+<td>Remaining 50%</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+</body>
