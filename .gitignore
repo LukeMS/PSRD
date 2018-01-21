@@ -1,3 +1,16 @@
+sample_few_rst/
+html/
+cache/
+git-commit.bat
+*.rst
+*.html
+*.log
+*.lnk
+*.bz2p
+soup_tests.py
+*.sublime-project
+*.sublime-workspace
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

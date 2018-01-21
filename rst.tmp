@@ -1,0 +1,1071 @@
+
+.. _`monstercodex.ratfolk`:
+
+.. contents:: \ 
+
+.. _`monstercodex.ratfolk#monster_codex_ratfolk`: `monstercodex.ratfolk#ratfolk`_
+
+.. _`monstercodex.ratfolk#ratfolk`:
+
+Ratfolk
+********
+
+Living on the fringes of societies, ratfolk make a place for themselves through shrewd trading. They aren't powerful individually, but their large collectives give them both strength in numbers and the constant support of their families and loved ones. Though ratfolk can subdue enemies by swarming in combat, the greater threat comes from their inventiveness and collections of dangerous trinkets.
+
+The typical ratfolk must withstand a riot of conflicting desires that result from generations of communal living, keen intellects, and lives spent adapting to a multitude of environments. Ratfolk are short-lived but populous; many ratfolk pregnancies result in twins or triplets, so warrens can grow very quickly if provided a steady supply of food and economic opportunities. Yet despite their large populations, ratfolk warrens tend to be relatively compact. This is more a matter of choice than necessity, as the creatures are naturally gregarious and enjoy the company of others, including rats and similar rodents—which ratfolk's natural empathy allows them to handle with ease. Although ratfolk respect other cultures' concepts of personal space, among their own kind, they think little of squeezing past one another, crowding into a small space, or clambering over family members with little warning.
+
+Ratfolk have highly developed brains that quickly process, memorize, and analyze new information. In particular, ratfolk have exceptional spatial reasoning, understanding of causality, and raw curiosity. These traits not only enable them to predict how a material or device might change when manipulated in a particular way, but also encourage them to experiment unceasingly in times of peril and plenty. Although ratfolk live a meager fraction of the time that a human does, few of them fret about their brief lifespans; instead, they make up for it by spending much of their "idle" time exploring, experimenting, and experiencing what life has to offer.
+
+This eagerness to explore also manifests in ratfolk's relationships with each other, for even though each member values the community, she also endeavors to distinguish herself through her own accomplishments. The constant bustle of ratfolk pursuing their own projects creates a chaotic environment, yet despite their seemingly self-absorbed motivations, ratfolk research and tinker with the intention of using their inventions to strengthen the community and give it an edge in survival. They praise the achievements of individuals, and it is considered good manners for the one celebrated to recognize the host of others who helped her accomplish her goal, reinforcing the community's bonds.
+
+Ratfolk names are often short—a necessity when families are large and an adult must call out many names at once. If several ratfolk in a community have the same name, which is not uncommon, they're differentiated via nicknames. To further distinguish themselves, ratfolk wear unique jewelry or clothing with distinctive embroidery, or they may apply modest amounts of perfume to stand out.
+
+Outside the warren, ratfolk make a living through trade, and their demeanors change: the playfulness fades in favor of businesslike professionalism, and their curiosity and skills of observation are used to study those with whom they trade. They take care to observe cultural taboos and traditions wherever they go, and sometimes cover themselves so as not to discourage closed-minded customers. A trade caravan might travel for a year or more before returning to the warren. Embarking on a trade mission is an exciting prospect for younger ratfolk, who use the experience as an unofficial rite of passage as well as a chance to study other races' technology. It is not uncommon for a handful of ratfolk to leave the caravan along the way in search of local opportunities.
+
+The nearly incomprehensible bustle of a crowded warren belies the race's capacity to operate in an organized fashion. An outside threat quickly mobilizes ratfolk to defend their home. Warrens tend to be a jumble of narrow tunnels that connect larger living spaces, and defenders can fend off large numbers of attackers at strategic choke points. Years of living cheek by jowl allow ratfolk to fight in close proximity without interfering with one another; in fact, intruders often find it difficult to defend against the unpredictable attacks of a swarm of the small humanoids. Tunnels typically have easily removable supports near the warren so the ratfolk can collapse some entrances when attacked. As many of the adults hold off the attackers, others uncover escape routes and shepherd the young, sick, and weak to safety.
+
+Despite their high population density, ratfolk settlements are kept remarkably clean. It is unclear whether the cleanliness or scientific understanding came first, but ratfolk alchemists have an excellent understanding of disease and how it spreads, leading to the development of complex sanitation procedures that reduce the risk of a plague sweeping through the crowded populace. This meticulousness does not always translate into organization, though, and an immaculately clean workshop might still be a jumble of tools, half-finished projects, and esoteric blueprints.
+
+Ratfolk love to accumulate baubles, devices, and other small but exciting treasures. They place particularly high value on shiny objects—especially adornments like rings—and delicate mechanisms that can be disassembled, studied, and then pieced back together. Ratfolk practice a system of loose ownership in which one may borrow another's possession so long as it is returned when asked and taking it would not endanger its owner. This detachment makes ratfolk willing to trade away even prized possessions so long as doing so means gaining something even better. Ratfolk's love of shiny things illustrates another contradiction—while they delight in radiance, they favor living in dark places. A sparkling trinket is certain to fascinate ratfolk, but a bright flash of light or unexpected glow unsettles them.
+
+Full statistics for ratfolk can be found in their :ref:`Bestiary entry <bestiary3.ratfolk>`\ .
+
+.. _`monstercodex.ratfolk#ratfolk_new_rules`: `monstercodex.ratfolk#new_rules`_
+
+.. _`monstercodex.ratfolk#new_rules`:
+
+New Rules
+##########
+
+The following section details alternate racial traits, feats, gear, and magic items favored by ratfolk.
+
+.. _`monstercodex.ratfolk#ratfolk_alternate_racial_traits`: `monstercodex.ratfolk#alternate_racial_traits`_
+
+.. _`monstercodex.ratfolk#alternate_racial_traits`:
+
+Alternate Racial Traits
+************************
+
+The following racial traits may be selected instead of existing ratfolk racial traits.
+
+\ **Cheek Pouches**\ : Some ratfolk have developed stretchy cheek pouches that they can use to hold and carry small loads up to 1 cubic foot in volume and 10 pounds in weight, such as light weapons, potions, scrolls, and similar objects. Such a ratfolk can transfer a held object to his cheek pouches or extract an object from his cheek pouches as a swift action. As a move action that provokes an attack of opportunity, the ratfolk can instead massage all of the items held in the cheek pouches onto the ground in the square it occupies. As long as the ratfolk has at least one object in its cheek pouches, its speech is difficult to understand, and it has a 20% spell failure chance when casting spells with verbal components. This racial trait replaces swarming.
+
+\ **Cleanliness**\ : Ratfolk strive to keep themselves and each other immaculately clean, to make it difficult for disease to spread. A ratfolk with this racial trait gains a +2 bonus on saving throws against disease, and whenever she exceeds the save DC to recover from a disease effect by 5 or more, she is treated as though she had succeeded at two consecutive saving throws. This racial trait replaces rodent empathy.
+
+\ **Lab Rat**\ : For every ingenious ratfolk inventor, there is another who must inevitably test the invention. Those who survive enough experiments sometimes develop strange metabolic quirks that grant them heightened resilience and, on occasion, fortunate side effects when consuming alchemical or magical draughts. As a result, they gain a +1 racial bonus on saving throws against poison, alchemical weapons, and harmful effects from drinking potions or elixirs. In addition, once per day such a ratfolk can either increase the caster level of a potion he consumes by 1 or double the duration of an alchemical remedy he consumes or applies to himself (to a maximum of 4 hours). This racial trait replaces tinker.
+
+\ **Surface Sprinter**\ : Some ratfolk spend as much time as they can aboveground and become very fast runners. This comes at the cost of their night vision, which becomes less acute after years of sunlight. These ratfolk gain low-light vision and have a base speed of 30 feet. This racial trait replaces darkvision and slow speed.
+
+.. _`monstercodex.ratfolk#ratfolk_feats`:
+
+Ratfolk Feats
+**************
+
+Ratfolk have access to the following feats.
+
+.. _`monstercodex.ratfolk#gnawer`:
+
+Gnawer
+=======
+
+Thanks to your teeth's strength and quick growth, you are able to chew through nearly any obstacle given sufficient time.
+
+\ **Prerequisites**\ : Sharptooth \*, ratfolk.
+
+\ **Benefit**\ : Damage dealt by your bite attack ignores an amount of hardness equal to 3 plus half your character level. You can spend a full-round action to deal double your bite damage to an unattended, inanimate object.
+
+\ **Special**\ : If you have the Burrowing Teeth feat, you can burrow through solid stone at a speed of 5 feet per 10 minutes.
+
+.. _`monstercodex.ratfolk#pack_rat`:
+
+Pack Rat
+=========
+
+You collect all sorts of things, and frequently lose and refind things you acquired.
+
+\ **Prerequisite**\ : Ratfolk.
+
+\ **Benefit**\ : Once per day, when confronted with a situation that calls for a particular mundane item, you happen to have such an item on your person. The item must cost no more than 25 gp plus 5 gp per level, and you must pay its cost when you "find" it (in other words, the money you thought you had on your person was actually the item). The item must be something you can easily carry—for example, if you are on foot and have only a backpack, you could not have a large iron cauldron. You can't find magical items using this feat, nor can you have specific items, such as the key to a particular door. If you are stripped of your equipment or possessions, you lose the benefits of this feat until you have at least a day to resupply and acquire new items.
+
+.. _`monstercodex.ratfolk#shared_stash`: `monstercodex.ratfolk#shared_stash_(teamwork)`_
+
+.. _`monstercodex.ratfolk#shared_stash_(teamwork)`:
+
+Shared Stash (Teamwork)
+========================
+
+You are adept at borrowing from your allies even in the middle of combat.
+
+\ **Prerequisites**\ : :ref:`Quick Draw <corerulebook.feats#quick_draw>`\ , base attack bonus +1, :ref:`Sleight of Hand <corerulebook.skills.sleightofhand#sleight_of_hand>`\  1 rank, swarming racial trait.
+
+\ **Benefit**\ : While you are in the same square as a willing ally who also has this feat, you can draw a weapon from that creature as a free action or draw a hidden weapon or any other object as a move action. You can also take a held object from a willing ally in the same square as you as a free action. Drawing or taking an object (but not a weapon) in this way provokes an attack of opportunity.
+
+.. _`monstercodex.ratfolk#sharptooth`:
+
+Sharptooth
+===========
+
+Your teeth are especially sharp and sturdy.
+
+\ **Prerequisite**\ : Ratfolk.
+
+\ **Benefit**\ : You gain a bite attack. This is a primary natural attack that deals 1d3 points of damage.
+
+.. _`monstercodex.ratfolk#ratfolk_equipment`:
+
+Ratfolk Equipment
+******************
+
+Ratfolk have access to the following equipment.
+
+.. _`monstercodex.ratfolk#rhinarium_paste`:
+
+Rhinarium Paste
+================
+
+\ **Price**\  75 gp; \ **Weight**\  1/2 lb.
+
+When applied to the nose as a standard action, this alchemical paste traps airborne particles and sharpens your olfactory receptors, heightening your sense of smell. You gain the scent ability, except you can detect creatures and odors at only half the distance. If you already have the scent ability, rhinarium paste increases the range at which you can detect creatures by 50%. Rhinarium paste's effects lasts for 1 hour. Crafting this item requires a successful DC 20 :ref:`Craft <corerulebook.skills.craft#craft>`\  (alchemy) check.
+
+.. _`monstercodex.ratfolk#riding_rat`:
+
+Riding Rat
+===========
+
+\ **Common**\ : \ *Price*\  50 gp; \ *Weight*\  50 lbs.
+
+\ **Combat trained**\ : \ *Price*\  75 gp; \ *Weight*\  50 lbs.
+
+Horses, ponies, and other draft animals are ill-suited to living underground for long stretches, so the ratfolk bred a particularly strong type of dire rat to assist in pulling their wagons and serving as mounts for caravan scouts. As rodents, riding rats respond favorably to ratfolk's commands, and the animals' hardiness and omnivorous diet make them very easy to care for even on long journeys through inhospitable terrain. Use the statistics for a dire rat with the giant simple template. A ratfolk with the animal companion, mount, or similar class feature can select a riding rat as her mount.
+
+.. _`monstercodex.ratfolk#riding_rat_companions`:
+
+Riding Rat Companions
+======================
+
+\ **Starting Statistics**\ : \ **Size**\  Medium; \ **Speed**\  40 ft., climb 20 ft., swim 20 ft.; \ **AC**\  +1 natural armor; \ **Attack**\  bite (1d6); \ **Ability Scores**\  Str 14, Dex 15, Con 17, Int 2, Wis 13, Cha 4; \ **Special Qualities**\  low-light vision, scent.
+
+\ **4th-Level Advancement**\ : \ **AC**\  +2 natural armor; \ **Ability Scores**\  Str +2, Dex +2; \ **Bonus Feat**\  :ref:`Endurance <corerulebook.feats#endurance>`\ .
+
+.. _`monstercodex.ratfolk#ratfolk_magic_items`:
+
+Ratfolk Magic Items
+********************
+
+Ratfolk item crafters often make magic weapons with the following weapon special abilities.
+
+.. _`monstercodex.ratfolk#catalytic_weapon_special_ability`: `monstercodex.ratfolk#catalytic`_
+
+.. _`monstercodex.ratfolk#catalytic`:
+
+Catalytic
+==========
+
+\ **Price**\  +1 bonus; \ **Aura**\  strong evocation; \ **CL**\  12th; \ **Weight**\  —
+
+This ability can be placed only on a :ref:`corrosive <advancedplayersguide.magicitems.weapons#corrosive>`\  or :ref:`corrosive burst <advancedplayersguide.magicitems.weapons#corrosive_burst>`\  weapon. When the wielder of a \ *catalytic*\  weapon hits a creature, the weapon triggers a devastating chemical reaction that burns the struck creature. The creature struck must succeed at a DC 15 Fortitude save, or take 1d6 points of acid damage at the start of its turn for 1d4 rounds. Successive hits with the \ *catalytic*\  weapon increase the duration but don't add to the damage. The creature can attempt to neutralize the reaction as a full-round action as if it were on fire (including bonuses for dropping and rolling on the ground or jumping into water). Anyone who hits a creature subject to this chemical reaction with a natural weapon or unarmed strike takes 1d6 points of acid damage.
+
+.. _`monstercodex.ratfolk#construction_requirements`:
+
+Construction Requirements
+==========================
+
+\ **Cost**\  +1 bonus
+
+:ref:`Craft Magic Arms and Armor <corerulebook.feats#craft_magic_arms_and_armor>`\ , :ref:`acid arrow <corerulebook.spells.acidarrow#acid_arrow>`\  
+
+.. _`monstercodex.ratfolk#virulent_weapon_special_ability`: `monstercodex.ratfolk#virulent`_
+
+.. _`monstercodex.ratfolk#virulent`:
+
+Virulent
+=========
+
+\ **Price**\  +1 bonus; \ **Aura**\  faint necromancy; \ **CL**\  5th; \ **Weight**\  —
+
+A \ *virulent*\  weapon magically intensifies any poison it delivers. The saving throw DC of any poison applied to either a \ *virulent*\  weapon or any ammunition fired from it increases by a number equal to the weapon's enhancement bonus. The duration of the poison increases by a number of rounds equal to the \ *virulent*\  weapon's enhancement bonus.
+
+Construction Requirements
+==========================
+
+\ **Cost**\  +1 bonus
+
+:ref:`Craft Magic Arms and Armor <corerulebook.feats#craft_magic_arms_and_armor>`\ , :ref:`pernicious poison <ultimatemagic.spells.perniciouspoison#pernicious_poison>`\  
+
+.. _`monstercodex.ratfolk#example_ratfolk`:
+
+Example Ratfolk
+################
+
+.. _`monstercodex.ratfolk#ratfolk_scroungers`:
+
+Ratfolk Scroungers
+*******************
+
+Ratfolk are adept at finding and disarming traps, which they scavenge to add to their warrens' defenses.
+
+.. _`monstercodex.ratfolk#ratfolk_tinkerer`:
+
+Ratfolk Tinkerer
+=================
+
+**CR 1** 
+
+XP 400
+
+Ratfolk rogue 2
+
+N Small humanoid (ratfolk)
+
+\ **Init**\  +7; \ **Senses**\  darkvision 60 ft.; :ref:`Perception <corerulebook.skills.perception#perception>`\  +6
+
+.. _`monstercodex.ratfolk#defense`:
+
+Defense
+========
+
+\ **AC**\  16, touch 14, flat-footed 13 (+2 armor, +3 Dex, +1 size)
+
+\ **hp**\  16 (2d8+4)
+
+\ **Fort**\  +1, \ **Ref**\  +6, \ **Will**\  –1
+
+\ **Defensive Abilities**\  evasion
+
+.. _`monstercodex.ratfolk#offense`:
+
+Offense
+========
+
+\ **Speed**\  20 ft.
+
+\ **Melee**\  mwk dagger +6 (1d3/19–20)
+
+\ **Ranged**\  light crossbow +5 (1d6/19–20)
+
+\ **Special Attacks**\  sneak attack +1d6, swarming
+
+.. _`monstercodex.ratfolk#tactics`:
+
+Tactics
+========
+
+\ **Before Combat**\  If he can, the tinkerer sets an ambush in an area with multiple entrances and exits.
+
+\ **During Combat**\  The tinkerer shares his space with allies to make sneak attacks. If he needs to escape, the tinkerer uses his potion of :ref:`pass without trace <corerulebook.spells.passwithouttrace#pass_without_trace>`\  .
+
+.. _`monstercodex.ratfolk#statistics`:
+
+Statistics
+===========
+
+\ **Str**\  10, \ **Dex**\  17, \ **Con**\  13, \ **Int**\  16, \ **Wis**\  8, \ **Cha**\  10
+
+\ **Base Atk**\  +1; \ **CMB**\  +0; \ **CMD**\  13
+
+\ **Feats**\  :ref:`Improved Initiative <corerulebook.feats#improved_initiative>`\ , :ref:`Weapon Finesse <corerulebook.feats#weapon_finesse>`
+
+\ **Skills**\  :ref:`Acrobatics <corerulebook.skills.acrobatics#acrobatics>`\  +8 (+4 when jumping), :ref:`Appraise <corerulebook.skills.appraise#appraise>`\  +8, :ref:`Climb <corerulebook.skills.climb#climb>`\  +5, :ref:`Craft <corerulebook.skills.craft#craft>`\  (alchemy) +5, :ref:`Disable Device <corerulebook.skills.disabledevice#disable_device>`\  +11, :ref:`Escape Artist <corerulebook.skills.escapeartist#escape_artist>`\  +8, :ref:`Knowledge <corerulebook.skills.knowledge#knowledge>`\  (dungeoneering) +7, :ref:`Knowledge <corerulebook.skills.knowledge#knowledge>`\  (local) +7, :ref:`Perception <corerulebook.skills.perception#perception>`\  +6, :ref:`Sleight of Hand <corerulebook.skills.sleightofhand#sleight_of_hand>`\  +8, :ref:`Stealth <corerulebook.skills.stealth#stealth>`\  +12, :ref:`Swim <corerulebook.skills.swim#swim>`\  +5, :ref:`Use Magic Device <corerulebook.skills.usemagicdevice#use_magic_device>`\  +7
+
+\ **Languages**\  Common, Gnome, Goblin, Undercommon
+
+\ **SQ**\  rogue talents (finesse rogue), trapfinding +1
+
+\ **Combat Gear**\  potion of :ref:`cure light wounds <corerulebook.spells.curelightwounds#cure_light_wounds>`\ , potion of :ref:`pass without trace <corerulebook.spells.passwithouttrace#pass_without_trace>`\ , acid, alchemist's fire, mwk bolts (5), tanglefoot bag; \ **Other Gear**\  leather armor, light crossbow with 10 bolts, mwk dagger, mwk thieves' tools, 121 gp
+
+.. _`monstercodex.ratfolk#ratfolk_troubleshooter`:
+
+Ratfolk Troubleshooter
+=======================
+
+**CR 5** 
+
+XP 1,600
+
+Ratfolk rogue 6
+
+N Small humanoid (ratfolk)
+
+\ **Init**\  +4; \ **Senses**\  darkvision 60 ft.; :ref:`Perception <corerulebook.skills.perception#perception>`\  +12
+
+Defense
+========
+
+\ **AC**\  19, touch 15, flat-footed 15 (+4 armor, +4 Dex, +1 size)
+
+\ **hp**\  42 (6d8+12)
+
+\ **Fort**\  +5, \ **Ref**\  +10, \ **Will**\  +4
+
+\ **Defensive Abilities**\  evasion, trap sense +2, uncanny dodge
+
+Offense
+========
+
+\ **Speed**\  20 ft.
+
+\ **Melee**\  mwk rapier +10 (1d4/18–20)
+
+\ **Ranged**\  hand crossbow +9 (1d3/19–20)
+
+\ **Special Attacks**\  sneak attack +3d6, swarming
+
+Tactics
+========
+
+\ **During Combat**\  After drinking her potion of :ref:`invisibility <corerulebook.spells.invisibility#invisibility>`\ , the troubleshooter makes a sneak attack against her most vulnerable foe. If her enemies wear metal armor, she instead uses her wand of :ref:`shocking grasp <corerulebook.spells.shockinggrasp#shocking_grasp>`\  against them.
+
+Statistics
+===========
+
+\ **Str**\  11, \ **Dex**\  18, \ **Con**\  14, \ **Int**\  12, \ **Wis**\  12, \ **Cha**\  8
+
+\ **Base Atk**\  +4; \ **CMB**\  +3; \ **CMD**\  17
+
+\ **Feats**\  Deft Hands, Pack Rat \*, :ref:`Weapon Finesse <corerulebook.feats#weapon_finesse>`
+
+\ **Skills**\  :ref:`Acrobatics <corerulebook.skills.acrobatics#acrobatics>`\  +13 (+9 when jumping), :ref:`Appraise <corerulebook.skills.appraise#appraise>`\  +7, :ref:`Bluff <corerulebook.skills.bluff#bluff>`\  +5, :ref:`Climb <corerulebook.skills.climb#climb>`\  +6, :ref:`Craft <corerulebook.skills.craft#craft>`\  (alchemy) +3, :ref:`Diplomacy <corerulebook.skills.diplomacy#diplomacy>`\  +5, :ref:`Disable Device <corerulebook.skills.disabledevice#disable_device>`\  +20, :ref:`Escape Artist <corerulebook.skills.escapeartist#escape_artist>`\  +13, :ref:`Knowledge <corerulebook.skills.knowledge#knowledge>`\  (local) +10, :ref:`Perception <corerulebook.skills.perception#perception>`\  +12, :ref:`Sense Motive <corerulebook.skills.sensemotive#sense_motive>`\  +10, :ref:`Sleight of Hand <corerulebook.skills.sleightofhand#sleight_of_hand>`\  +6, :ref:`Stealth <corerulebook.skills.stealth#stealth>`\  +17, :ref:`Use Magic Device <corerulebook.skills.usemagicdevice#use_magic_device>`\  +10 
+
+\ **Languages**\  Common, Undercommon
+
+\ **SQ**\  rogue talents (fast stealth, quick disable, trap spotter), trapfinding +3
+
+\ **Combat Gear**\  \ *elixir of hiding*\ , potion of :ref:`cure light wounds <corerulebook.spells.curelightwounds#cure_light_wounds>`\ , potions of :ref:`invisibility <corerulebook.spells.invisibility#invisibility>`\  (2), wand of :ref:`shocking grasp <corerulebook.spells.shockinggrasp#shocking_grasp>`\  (CL 4th, 12 charges), acid (2); \ **Other Gear**\  \ *+1 studded leather*\ , hand crossbow with 10 bolts, mwk rapier, cloak of :ref:`resistance <corerulebook.spells.resistance#resistance>`\  +1, grappling hook, mwk thieves' tools, silk rope (50 ft.), 314 gp
+
+.. _`monstercodex.ratfolk#ratfolk_weapon_masters`:
+
+Ratfolk Weapon Masters
+=======================
+
+Because they trade so widely, ratfolk acquire interesting equipment—including black powder and rare metals.
+
+.. _`monstercodex.ratfolk#ratfolk_bravo`:
+
+Ratfolk Bravo
+==============
+
+**CR 2** 
+
+XP 600
+
+Ratfolk gunslinger 3
+
+N Small humanoid (ratfolk)
+
+\ **Init**\  +5; \ **Senses**\  darkvision 60 ft.; :ref:`Perception <corerulebook.skills.perception#perception>`\  +10
+
+Defense
+========
+
+\ **AC**\  18, touch 15, flat-footed 14 (+3 armor, +3 Dex, +1 dodge, +1 size)
+
+\ **hp**\  24 (3d10+3)
+
+\ **Fort**\  +4, \ **Ref**\  +6, \ **Will**\  +3
+
+\ **Defensive Abilities**\  nimble +1
+
+Offense
+========
+
+\ **Speed**\  20 ft.
+
+\ **Melee**\  mwk handaxe +5 (1d4/×3)
+
+\ **Ranged**\  mwk musket +8 (1d10/×4)
+
+\ **Special Attacks**\  grit (2), swarming
+
+Statistics
+===========
+
+\ **Str**\  11, \ **Dex**\  17, \ **Con**\  12, \ **Int**\  12, \ **Wis**\  14, \ **Cha**\  8
+
+\ **Base Atk**\  +3; \ **CMB**\  +2; \ **CMD**\  15
+
+\ **Feats**\  :ref:`Gunsmithing <ultimatecombat.ultimatecombatfeats#gunsmithing>`\ , :ref:`Point-Blank Shot <corerulebook.feats#point_blank_shot>`\ , :ref:`Rapid Reload <ultimatecombat.ultimatecombatfeats#rapid_reload>`\  (musket)
+
+\ **Skills**\  :ref:`Acrobatics <corerulebook.skills.acrobatics#acrobatics>`\  +9 (+5 when jumping), :ref:`Climb <corerulebook.skills.climb#climb>`\  +5, :ref:`Craft <corerulebook.skills.craft#craft>`\  (alchemy) +9, :ref:`Knowledge <corerulebook.skills.knowledge#knowledge>`\  (local) +6, :ref:`Perception <corerulebook.skills.perception#perception>`\  +10, :ref:`Sleight of Hand <corerulebook.skills.sleightofhand#sleight_of_hand>`\  +9, :ref:`Swim <corerulebook.skills.swim#swim>`\  +5
+
+\ **Languages**\  Common, Undercommon
+
+\ **SQ**\  deeds (deadeye, gunslinger initiative, gunslinger's dodge, pistol-whip, quick clear, utility shot), gunsmith
+
+\ **Combat Gear**\  oil of :ref:`silence <corerulebook.spells.silence#silence>`\ , potion of :ref:`cure light wounds <corerulebook.spells.curelightwounds#cure_light_wounds>`\ , alchemist's fire, black powder horns (2) with 20 doses of black powder, flare cartridges (5), paper cartridges (10); \ **Other Gear**\  mwk studded leather, mwk handaxe, mwk musket with 20 bullets, gunsmith's kit, 211 gp
+
+.. _`monstercodex.ratfolk#ratfolk_warden`:
+
+Ratfolk Warden
+===============
+
+**CR 4** 
+
+XP 1,200
+
+Ratfolk fighter 5
+
+N Small humanoid (ratfolk)
+
+\ **Init**\  +2; \ **Senses**\  darkvision 60 ft.; :ref:`Perception <corerulebook.skills.perception#perception>`\  +2
+
+Defense
+========
+
+\ **AC**\  21, touch 13, flat-footed 19 (+7 armor, +2 Dex, +1 shield, +1 size)
+
+\ **hp**\  42 (5d10+10)
+
+\ **Fort**\  +7, \ **Ref**\  +4, \ **Will**\  +2 (+1 vs. fear)
+
+\ **Defensive Abilities**\  bravery +1
+
+Offense
+========
+
+\ **Speed**\  20 ft.
+
+\ **Melee**\  mwk cold iron flail +11 (1d6+5), bite +2 (1d3+1) or short sword +8 (1d4+2/19–20), bite +2 (1d3+1)
+
+\ **Ranged**\  light crossbow +8 (1d6/19–20)
+
+\ **Special Attacks**\  swarming, weapon training (flails +1)
+
+Tactics
+========
+
+\ **During Combat**\  Focused on defending her allies against attacks, the warden tries to disarm enemies so they pose less of a threat.
+
+Statistics
+===========
+
+\ **Str**\  14, \ **Dex**\  15, \ **Con**\  14, \ **Int**\  14, \ **Wis**\  10, \ **Cha**\  8
+
+\ **Base Atk**\  +5; \ **CMB**\  +6 (+8 disarm or trip); \ **CMD**\  18 (20 vs. disarm or trip)
+
+\ **Feats**\  :ref:`Combat Expertise <corerulebook.feats#combat_expertise>`\ , :ref:`Improved Disarm <corerulebook.feats#improved_disarm>`\ , :ref:`Improved Trip <corerulebook.feats#improved_trip>`\ , Sharptooth \*, :ref:`Weapon Focus <corerulebook.feats#weapon_focus>`\  (flail), :ref:`Weapon Specialization <corerulebook.feats#weapon_specialization>`\  (flail)
+
+\ **Skills**\  :ref:`Climb <corerulebook.skills.climb#climb>`\  +8, :ref:`Craft <corerulebook.skills.craft#craft>`\  (alchemy) +4, :ref:`Handle Animal <corerulebook.skills.handleanimal#handle_animal>`\  +4, :ref:`Intimidate <corerulebook.skills.intimidate#intimidate>`\  +7, :ref:`Knowledge <corerulebook.skills.knowledge#knowledge>`\  (dungeoneering) +7, :ref:`Knowledge <corerulebook.skills.knowledge#knowledge>`\  (engineering) +7, :ref:`Perception <corerulebook.skills.perception#perception>`\  +2, :ref:`Survival <corerulebook.skills.survival#survival>`\  +7, :ref:`Swim <corerulebook.skills.swim#swim>`\  +8, :ref:`Use Magic Device <corerulebook.skills.usemagicdevice#use_magic_device>`\  +1
+
+\ **Languages**\  Common
+
+\ **SQ**\  armor training 1
+
+\ **Combat Gear**\  potion of :ref:`cure moderate wounds <corerulebook.spells.curemoderatewounds#cure_moderate_wounds>`\ , acid; \ **Other Gear**\  \ *+1 breastplate*\ , mwk light steel shield, light crossbow with 20 mwk bolts, mwk cold iron flail, short sword, cloak of :ref:`resistance <corerulebook.spells.resistance#resistance>`\  +1, 148 gp
+
+.. _`monstercodex.ratfolk#ratfolk_travelers`:
+
+Ratfolk Travelers
+==================
+
+Many nomadic ratfolk take on jobs that require travel.
+
+.. _`monstercodex.ratfolk#ratfolk_caravan_guard`:
+
+Ratfolk Caravan Guard
+======================
+
+**CR 3** 
+
+XP 800
+
+Ratfolk ranger 4
+
+N Small humanoid (ratfolk)
+
+\ **Init**\  +3; \ **Senses**\  low-light vision; :ref:`Perception <corerulebook.skills.perception#perception>`\  +11
+
+Defense
+========
+
+\ **AC**\  17, touch 14, flat-footed 14 (+3 armor, +3 Dex, +1 size)
+
+\ **hp**\  30 (4d10+4)
+
+\ **Fort**\  +5, \ **Ref**\  +7, \ **Will**\  +3
+
+Offense
+========
+
+\ **Speed**\  30 ft.
+
+\ **Melee**\  mwk scimitar +7 (1d4+1/18–20)
+
+\ **Ranged**\  mwk composite longbow +9 (1d6+1/×3)
+
+\ **Special Attacks**\  combat style (archery), favored enemy (magical beasts +2), swarming
+
+\ **Ranger Spells Prepared**\  (CL 1st; concentration +3)
+
+ 1st—:ref:`resist energy <corerulebook.spells.resistenergy#resist_energy>`\  
+
+Statistics
+===========
+
+\ **Str**\  12, \ **Dex**\  17, \ **Con**\  12, \ **Int**\  10, \ **Wis**\  14, \ **Cha**\  10
+
+\ **Base Atk**\  +4; \ **CMB**\  +4; \ **CMD**\  17
+
+\ **Feats**\  :ref:`Endurance <corerulebook.feats#endurance>`\ , :ref:`Point-Blank Shot <corerulebook.feats#point_blank_shot>`\ , :ref:`Precise Shot <corerulebook.feats#precise_shot>`\ , :ref:`Rapid Shot <corerulebook.feats#rapid_shot>`
+
+\ **Skills**\  :ref:`Climb <corerulebook.skills.climb#climb>`\  +6, :ref:`Craft <corerulebook.skills.craft#craft>`\  (alchemy) +2, :ref:`Handle Animal <corerulebook.skills.handleanimal#handle_animal>`\  +7, :ref:`Knowledge <corerulebook.skills.knowledge#knowledge>`\  (dungeoneering, geography, nature) +5, :ref:`Perception <corerulebook.skills.perception#perception>`\  +11, :ref:`Ride <corerulebook.skills.ride#ride>`\  +10, :ref:`Stealth <corerulebook.skills.stealth#stealth>`\  +14, :ref:`Survival <corerulebook.skills.survival#survival>`\  +9, :ref:`Use Magic Device <corerulebook.skills.usemagicdevice#use_magic_device>`\  +2
+
+\ **Languages**\  Common
+
+\ **SQ**\  favored terrain (desert +2), hunter's bond (animal companion, riding rat), surface sprinter \*, track +2, wild empathy +4
+
+\ **Combat Gear**\  \ *+1 frost arrows*\  (4), :ref:`sleep <corerulebook.spells.sleep#sleep>`\  arrows (2), alchemist's fire (2); \ **Other Gear**\  mwk studded leather, mwk composite longbow (+1 Str) with 20 arrows, mwk scimitar, 491 gp
+
+.. _`monstercodex.ratfolk#ratfolk_expedition_leader`:
+
+Ratfolk Expedition Leader
+==========================
+
+**CR 7** 
+
+XP 3,200
+
+Ratfolk ranger 8
+
+N Small humanoid (ratfolk)
+
+\ **Init**\  +3; \ **Senses**\  low-light vision; :ref:`Perception <corerulebook.skills.perception#perception>`\  +14
+
+Defense
+========
+
+\ **AC**\  20, touch 15, flat-footed 16 (+4 armor, +3 Dex, +1 dodge, +1 shield, +1 size)
+
+\ **hp**\  72 (8d10+24)
+
+\ **Fort**\  +9, \ **Ref**\  +10, \ **Will**\  +4
+
+Offense
+========
+
+\ **Speed**\  30 ft.
+
+\ **Melee**\  \ *+1 two-bladed sword*\  +9/+4 (1d3+4/19–20), mwk two-bladed sword +9/+4 (1d6+1/19–20)
+
+\ **Ranged**\  \ *+1 composite longbow*\  +13/+8 (1d6+3/×3)
+
+\ **Special Attacks**\  combat style (two-weapon), favored enemy (animals +2, humans +4), swarming
+
+\ **Ranger Spells Prepared**\  (CL 5th; concentration +6)
+
+ 2nd—:ref:`barkskin <corerulebook.spells.barkskin#barkskin>`\  
+
+ 1st—:ref:`endure elements <corerulebook.spells.endureelements#endure_elements>`\ , :ref:`longstrider <corerulebook.spells.longstrider#longstrider>`\  
+
+Statistics
+===========
+
+\ **Str**\  14, \ **Dex**\  16, \ **Con**\  14, \ **Int**\  12, \ **Wis**\  12, \ **Cha**\  8
+
+\ **Base Atk**\  +8; \ **CMB**\  +9; \ **CMD**\  23
+
+\ **Feats**\  :ref:`Dodge <corerulebook.feats#dodge>`\ , :ref:`Endurance <corerulebook.feats#endurance>`\ , :ref:`Exotic Weapon Proficiency <corerulebook.feats#exotic_weapon_proficiency>`\  (two-bladed sword), :ref:`Improved Two-Weapon Fighting <corerulebook.feats#improved_two_weapon_fighting>`\ , :ref:`Two-Weapon Defense <corerulebook.feats#two_weapon_defense>`\ , :ref:`Two-Weapon Fighting <corerulebook.feats#two_weapon_fighting>`\ , :ref:`Weapon Focus <corerulebook.feats#weapon_focus>`\  (two-bladed sword)
+
+\ **Skills**\  :ref:`Climb <corerulebook.skills.climb#climb>`\  +9, :ref:`Craft <corerulebook.skills.craft#craft>`\  (alchemy) +3, :ref:`Handle Animal <corerulebook.skills.handleanimal#handle_animal>`\  +6, :ref:`Heal <corerulebook.skills.heal#heal>`\  +8, :ref:`Knowledge <corerulebook.skills.knowledge#knowledge>`\  (dungeoneering, geography, nature) +8, :ref:`Perception <corerulebook.skills.perception#perception>`\  +14, :ref:`Ride <corerulebook.skills.ride#ride>`\  +10, :ref:`Spellcraft <corerulebook.skills.spellcraft#spellcraft>`\  +6, :ref:`Stealth <corerulebook.skills.stealth#stealth>`\  +18, :ref:`Survival <corerulebook.skills.survival#survival>`\  +12, :ref:`Swim <corerulebook.skills.swim#swim>`\  +7
+
+\ **Languages**\  Common, Gnoll
+
+\ **SQ**\  favored terrain (desert +4, urban +2), hunter's bond (companions), surface sprinter \*, swift tracker, track +4, wild empathy +7, woodland stride
+
+\ **Combat Gear**\  oil of :ref:`magic weapon <corerulebook.spells.magicweapon#magic_weapon>`\ , potion of :ref:`cure serious wounds <corerulebook.spells.cureseriouswounds#cure_serious_wounds>`\  ; \ **Other Gear**\  mithral chain shirt, \ *+1 composite longbow*\  (+2 Str) with 20 arrows, \ *+1/mwk two-bladed sword*\ , cloak of :ref:`resistance <corerulebook.spells.resistance#resistance>`\  +1, 149 gp
+
+.. _`monstercodex.ratfolk#ratfolk_sage`:
+
+Ratfolk Sage
+=============
+
+Magic is most useful to the warren when it provides insight, so diviners are held in high regard. Though the ratfolk sage prepares some offensive spells in case of attack—it's always good to be ready for danger—such things can be duplicated with alchemy and weaponry.
+
+Ratfolk Sage
+=============
+
+**CR 6** 
+
+XP 2,400
+
+Ratfolk diviner 7
+
+N Small humanoid (ratfolk)
+
+\ **Init**\  +9; \ **Senses**\  darkvision 60 ft.; :ref:`Perception <corerulebook.skills.perception#perception>`\  +4
+
+Defense
+========
+
+\ **AC**\  17, touch 13, flat-footed 15 (+4 armor, +2 Dex, +1 size)
+
+\ **hp**\  48 (7d6+21)
+
+\ **Fort**\  +6, \ **Ref**\  +5, \ **Will**\  +8
+
+Offense
+========
+
+\ **Speed**\  20 ft., climb 20 ft.
+
+\ **Melee**\  mwk quarterstaff +3 (1d4–2)
+
+\ **Ranged**\  light crossbow +6 (1d6/19–20)
+
+\ **Special Attacks**\  swarming
+
+\ **Arcane School Spell-Like Abilities**\  (CL 7th; concentration +12)
+
+ 8/day—diviner's fortune (+3)
+
+\ **Diviner Spells Prepared**\  (CL 7th; concentration +12)
+
+ 4th—:ref:`arcane eye <corerulebook.spells.arcaneeye#arcane_eye>`\ , :ref:`dimension door <corerulebook.spells.dimensiondoor#dimension_door>`\ , :ref:`wall of fire <corerulebook.spells.walloffire#wall_of_fire>`\  
+
+ 3rd—:ref:`dispel magic <corerulebook.spells.dispelmagic#dispel_magic>`\ , :ref:`haste <corerulebook.spells.haste#haste>`\ , :ref:`lightning bolt <corerulebook.spells.lightningbolt#lightning_bolt>`\  (DC 18), :ref:`tongues <corerulebook.spells.tongues#tongues>`\  
+
+ 2nd—:ref:`glitterdust <corerulebook.spells.glitterdust#glitterdust>`\  (DC 17), :ref:`invisibility <corerulebook.spells.invisibility#invisibility>`\ , :ref:`scorching ray <corerulebook.spells.scorchingray#scorching_ray>`\ , :ref:`see invisibility <corerulebook.spells.seeinvisibility#see_invisibility>`\ , :ref:`spider climb <corerulebook.spells.spiderclimb#spider_climb>`\  
+
+ 1st—:ref:`alarm <corerulebook.spells.alarm#alarm>`\ , :ref:`comprehend languages <corerulebook.spells.comprehendlanguages#comprehend_languages>`\ , :ref:`expeditious retreat <corerulebook.spells.expeditiousretreat#expeditious_retreat>`\ , :ref:`grease <corerulebook.spells.grease#grease>`\  (DC 16), :ref:`mage armor <corerulebook.spells.magearmor#mage_armor>`\ , :ref:`magic missile <corerulebook.spells.magicmissile#magic_missile>`\  (2)
+
+ 0 (at will)—:ref:`acid splash <corerulebook.spells.acidsplash#acid_splash>`\ , :ref:`dancing lights <corerulebook.spells.dancinglights#dancing_lights>`\ , :ref:`detect magic <corerulebook.spells.detectmagic#detect_magic>`\ , :ref:`message <corerulebook.spells.message#message>`\  
+
+ \ **Opposition Schools**\  enchantment, necromancy
+
+Tactics
+========
+
+\ **Before Combat**\  The ratfolk sage casts :ref:`mage armor <corerulebook.spells.magearmor#mage_armor>`\  on himself each morning. Because he avoids entering direct combat, if battle is imminent, the ratfolk sage casts :ref:`spider climb <corerulebook.spells.spiderclimb#spider_climb>`\  on himself and climbs to a defensible position. If he is with several allies, he uses his wand of :ref:`blur <corerulebook.spells.blur#blur>`\  and scrolls of :ref:`magic weapon <corerulebook.spells.magicweapon#magic_weapon>`\  on them and their weapons before he does so.
+
+\ **During Combat**\  The ratfolk sage casts :ref:`wall of fire <corerulebook.spells.walloffire#wall_of_fire>`\  to divide up the battlefield and trap the ratfolk's enemies. He then casts offensive spells until he runs out, at which point he uses a scroll of :ref:`magic weapon <corerulebook.spells.magicweapon#magic_weapon>`\  on his light crossbow before making attacks. If cornered, the sage uses :ref:`dimension door <corerulebook.spells.dimensiondoor#dimension_door>`\  to free himself.
+
+\ **Base Statistics**\  Without :ref:`mage armor <corerulebook.spells.magearmor#mage_armor>`\  and \ *spider climb*\ , the ratfolk sage's statistics are \ **AC**\  13, touch 13, flat-footed 11; \ **Speed**\  20 ft.; \ **Skills**\  :ref:`Climb <corerulebook.skills.climb#climb>`\  –2.
+
+Statistics
+===========
+
+\ **Str**\  6, \ **Dex**\  14, \ **Con**\  13, \ **Int**\  20, \ **Wis**\  14, \ **Cha**\  10
+
+\ **Base Atk**\  +3; \ **CMB**\  +0; \ **CMD**\  12
+
+\ **Feats**\  :ref:`Craft Wondrous Item <corerulebook.feats#craft_wondrous_item>`\ , :ref:`Great Fortitude <corerulebook.feats#great_fortitude>`\ , :ref:`Improved Initiative <corerulebook.feats#improved_initiative>`\ , :ref:`Scribe Scroll <corerulebook.feats#scribe_scroll>`\ , :ref:`Spell Penetration <corerulebook.feats#spell_penetration>`\ , :ref:`Toughness <corerulebook.feats#toughness>`
+
+\ **Skills**\  :ref:`Appraise <corerulebook.skills.appraise#appraise>`\  +15, :ref:`Climb <corerulebook.skills.climb#climb>`\  +6, :ref:`Craft <corerulebook.skills.craft#craft>`\  (alchemy) +7, :ref:`Knowledge <corerulebook.skills.knowledge#knowledge>`\  (arcana) +12, :ref:`Knowledge <corerulebook.skills.knowledge#knowledge>`\  (geography) +12, :ref:`Knowledge <corerulebook.skills.knowledge#knowledge>`\  (history) +12, :ref:`Knowledge <corerulebook.skills.knowledge#knowledge>`\  (planes) +12, :ref:`Linguistics <corerulebook.skills.linguistics#linguistics>`\  +15, :ref:`Perception <corerulebook.skills.perception#perception>`\  +4, :ref:`Spellcraft <corerulebook.skills.spellcraft#spellcraft>`\  +15, :ref:`Stealth <corerulebook.skills.stealth#stealth>`\  +13; \ **Racial Modifiers**\  +8 :ref:`Climb <corerulebook.skills.climb#climb>`\ , +2 :ref:`Craft <corerulebook.skills.craft#craft>`\  (alchemy), +2 :ref:`Perception <corerulebook.skills.perception#perception>`\ , +2 :ref:`Use Magic Device <corerulebook.skills.usemagicdevice#use_magic_device>`
+
+\ **Languages**\  Abyssal, Aklo, Common, Dark Folk, Draconic, Dwarven, Giant, Gnoll, Goblin, Infernal, Sylvan, Terran, Undercommon
+
+\ **SQ**\  arcane bond (staff), forewarned
+
+\ **Combat Gear**\  potion of :ref:`cure light wounds <corerulebook.spells.curelightwounds#cure_light_wounds>`\ , scroll of :ref:`clairaudience/clairvoyance <corerulebook.spells.clairaudienceclairvoyance#clairaudience_clairvoyance>`\ , scroll of :ref:`locate object <corerulebook.spells.locateobject#locate_object>`\ , scrolls of :ref:`magic weapon <corerulebook.spells.magicweapon#magic_weapon>`\  (4), wand of :ref:`blur <corerulebook.spells.blur#blur>`\  (13 charges), wand of :ref:`burning hands <corerulebook.spells.burninghands#burning_hands>`\  (CL 5th, 8 charges); \ **Other Gear**\  light crossbow with 10 bolts, mwk quarterstaff, cloak of :ref:`resistance <corerulebook.spells.resistance#resistance>`\  +1, \ *headband of vast intelligence +2*\ , spellbook (contains all prepared spells plus :ref:`clairaudience/clairvoyance <corerulebook.spells.clairaudienceclairvoyance#clairaudience_clairvoyance>`\ , :ref:`floating disk <corerulebook.spells.floatingdisk#floating_disk>`\ , :ref:`identify <corerulebook.spells.identify#identify>`\ , :ref:`locate object <corerulebook.spells.locateobject#locate_object>`\ , :ref:`magic weapon <corerulebook.spells.magicweapon#magic_weapon>`\ , :ref:`minor image <corerulebook.spells.minorimage#minor_image>`\ , and :ref:`shield <corerulebook.spells.shield#shield>`\  ), 92 gp
+
+.. _`monstercodex.ratfolk#ratfolk_chemist`:
+
+Ratfolk Chemist
+================
+
+Considered superior to spellcasting by many ratfolk, alchemy produces more items for sale and creates remedies that benefit the warren.
+
+Ratfolk Chemist
+================
+
+**CR 7** 
+
+XP 3,200
+
+Ratfolk alchemist 8
+
+N Small humanoid (ratfolk)
+
+\ **Init**\  +9; \ **Senses**\  darkvision 60 ft.; :ref:`Perception <corerulebook.skills.perception#perception>`\  +13
+
+Defense
+========
+
+\ **AC**\  26, touch 17, flat-footed 21 (+4 armor, +1 deflection, +5 Dex, +5 natural, +1 size)
+
+\ **hp**\  63 (8d8+24)
+
+\ **Fort**\  +9, \ **Ref**\  +14, \ **Will**\  +3; +6 vs. poison
+
+Offense
+========
+
+\ **Speed**\  20 ft.
+
+\ **Melee**\  dagger +6/+1 (1d3–1/19–20)
+
+\ **Ranged**\  light crossbow +12 (1d6/19–20) or bomb +12/+7 (4d6+4 cold or fire)
+
+\ **Special Attacks**\  bomb 12/day (4d6+4 cold or fire, DC 18), swarming
+
+\ **Alchemist Extracts Prepared**\  (CL 8th)
+
+ 3rd—:ref:`cure serious wounds <corerulebook.spells.cureseriouswounds#cure_serious_wounds>`\ , :ref:`fly <corerulebook.spells.fly>`\ , :ref:`heroism <corerulebook.spells.heroism#heroism>`\  
+
+ 2nd—:ref:`barkskin <corerulebook.spells.barkskin#barkskin>`\ , :ref:`bull's strength <corerulebook.spells.bullsstrength#bull_s_strength>`\ , :ref:`invisibility <corerulebook.spells.invisibility#invisibility>`\ , :ref:`resist energy <corerulebook.spells.resistenergy#resist_energy>`\ , :ref:`see invisibility <corerulebook.spells.seeinvisibility#see_invisibility>`\  
+
+ 1st—:ref:`comprehend languages <corerulebook.spells.comprehendlanguages#comprehend_languages>`\ , :ref:`crafter's fortune <advancedplayersguide.spells.craftersfortune#crafters_fortune>`\ , :ref:`negate aroma <advancedplayersguide.spells.negatearoma#negate_aroma>`\  (DC 15), :ref:`reduce person <corerulebook.spells.reduceperson#reduce_person>`\  (DC 15), :ref:`shield <corerulebook.spells.shield#shield>`\  
+
+Tactics
+========
+
+\ **Before Combat**\  The chemist imbibes her mutagen and extracts of :ref:`barkskin <corerulebook.spells.barkskin#barkskin>`\  and :ref:`fly <corerulebook.spells.fly>`\  . She gives infusions of :ref:`bull's strength <corerulebook.spells.bullsstrength#bull_s_strength>`\  and :ref:`heroism <corerulebook.spells.heroism#heroism>`\  to allies.
+
+\ **During Combat**\  The chemist drops bombs while flying above the fray.
+
+\ **Base Statistics**\  Without her mutagen and :ref:`barkskin <corerulebook.spells.barkskin#barkskin>`\ , the chemist's statistics are \ **Init**\  +7; \ **Senses**\ :ref:`Perception <corerulebook.skills.perception#perception>`\  +14; \ **AC**\  19, touch 15, flat-footed 16; \ **Ref**\  +12; \ **Ranged**\  light crossbow +10 (1d6/19–20) or bomb +10/+5 (4d6+4 cold or fire); \ **Dex**\  16, \ **Wis**\  12; \ **CMD**\  18; \ **Skills**\  :ref:`Heal <corerulebook.skills.heal#heal>`\  +8, :ref:`Perception <corerulebook.skills.perception#perception>`\  +14, :ref:`Profession <corerulebook.skills.profession#profession>`\  (herbalist) +12, :ref:`Survival <corerulebook.skills.survival#survival>`\  +8.
+
+Statistics
+===========
+
+\ **Str**\  8, \ **Dex**\  20, \ **Con**\  14, \ **Int**\  18, \ **Wis**\  10, \ **Cha**\  8
+
+\ **Base Atk**\  +6; \ **CMB**\  +4; \ **CMD**\  20
+
+\ **Feats**\  :ref:`Brew Potion <corerulebook.feats#brew_potion>`\ , :ref:`Improved Initiative <corerulebook.feats#improved_initiative>`\ , :ref:`Lightning Reflexes <corerulebook.feats#lightning_reflexes>`\ , :ref:`Point-Blank Shot <corerulebook.feats#point_blank_shot>`\ , :ref:`Precise Shot <corerulebook.feats#precise_shot>`\ , :ref:`Throw Anything <corerulebook.feats#throw_anything>`
+
+\ **Skills**\  :ref:`Appraise <corerulebook.skills.appraise#appraise>`\  +11, :ref:`Craft <corerulebook.skills.craft#craft>`\  (alchemy) +17, :ref:`Disable Device <corerulebook.skills.disabledevice#disable_device>`\  +16, :ref:`Heal <corerulebook.skills.heal#heal>`\  +7, :ref:`Knowledge <corerulebook.skills.knowledge#knowledge>`\  (arcana) +15, :ref:`Knowledge <corerulebook.skills.knowledge#knowledge>`\  (nature) +15, :ref:`Perception <corerulebook.skills.perception#perception>`\  +13, :ref:`Profession <corerulebook.skills.profession#profession>`\  (herbalist) +11, :ref:`Spellcraft <corerulebook.skills.spellcraft#spellcraft>`\  +11, :ref:`Survival <corerulebook.skills.survival#survival>`\  +7, :ref:`Use Magic Device <corerulebook.skills.usemagicdevice#use_magic_device>`\  +1; \ **Racial Modifiers**\  +2 :ref:`Craft <corerulebook.skills.craft#craft>`\  (alchemy), +2 :ref:`Perception <corerulebook.skills.perception#perception>`\ , +2 :ref:`Use Magic Device <corerulebook.skills.usemagicdevice#use_magic_device>`
+
+\ **Languages**\  Common, Draconic, Dwarven, Gnome, Undercommon
+
+\ **SQ**\  alchemy (alchemy crafting +8, identify potions), discoveries (fast bombs, frost bomb, infusion, precise bombs [4 squares]), mutagen (+4/–2, +2 natural, 80 minutes), poison use, swift alchemy, swift poisoning
+
+\ **Combat Gear**\  potions of :ref:`cure serious wounds <corerulebook.spells.cureseriouswounds#cure_serious_wounds>`\  (3), potion of :ref:`displacement <corerulebook.spells.displacement#displacement>`\ , potion of :ref:`invisibility <corerulebook.spells.invisibility#invisibility>`\ , acid (2), antitoxin (2), smokesticks (2), tanglefoot bags (2); \ **Other Gear**\  \ *+1 studded leather*\ , dagger, light crossbow with 10 bolts, cloak of :ref:`resistance <corerulebook.spells.resistance#resistance>`\  +1, \ *dust of dryness*\ , \ *elixir of truth*\ , \ *ring of protection +1*\ , formula book (contains prepared extracts plus :ref:`displacement <corerulebook.spells.displacement#displacement>`\ , :ref:`disguise self <corerulebook.spells.disguiseself#disguise_self>`\ , :ref:`endure elements <corerulebook.spells.endureelements#endure_elements>`\ , :ref:`enlarge person <corerulebook.spells.enlargeperson#enlarge_person>`\ , :ref:`expeditious retreat <corerulebook.spells.expeditiousretreat#expeditious_retreat>`\ , :ref:`identify <corerulebook.spells.identify#identify>`\ , and :ref:`jump <corerulebook.spells.jump#jump>`\  ), tindertwigs (10), 317 gp
+
+Ratfolk chemists are treasured members of ratfolk colonies. Not only do they provide the warren with excellent defensive capability, but their alchemical creations are valuable merchandise to sell or trade.
+
+.. _`monstercodex.ratfolk#ratfolk_elder`:
+
+Ratfolk Elder
+==============
+
+Since ratfolk have short lifespans, they heed the wisdom of those who attain old age. Many ratfolk aspire to become elders from a very young age, and try to get their hands on books and histories when they go into trade, intending to later study them. Often, aspiring leaders pursue the healing arts to keep the rest of the warren healthy—and to ensure they live long enough to pass on their knowledge.
+
+Ratfolk Elder
+==============
+
+**CR 8** 
+
+XP 4,800
+
+N Small humanoid (ratfolk)
+
+\ **Init**\  +4; \ **Senses**\  darkvision 60 ft.; :ref:`Perception <corerulebook.skills.perception#perception>`\  +6
+
+Defense
+========
+
+\ **AC**\  19, touch 11, flat-footed 19 (+7 armor, +1 shield, +1 size)
+
+\ **hp**\  80 (9d8+36)
+
+\ **Fort**\  +12, \ **Ref**\  +5, \ **Will**\  +12
+
+Offense
+========
+
+\ **Speed**\  40 ft.
+
+\ **Melee**\  mwk light mace +8/+3 (1d4)
+
+\ **Ranged**\  light crossbow +7 (1d6/19–20)
+
+\ **Special Attacks**\  channel positive energy 7/day (DC 16, 5d6), swarming
+
+\ **Domain Spell-Like Abilities**\  (CL 9th; concentration +13)
+
+ 7/day—resistant touch +2
+
+ At will—dimensional hop (90 feet/day)
+
+\ **Cleric Spells Prepared**\  (CL 9th; concentration +13)
+
+ 5th—:ref:`teleport <corerulebook.spells.teleport#teleport>`\  \ :sup:`D`\ , :ref:`wall of stone <corerulebook.spells.wallofstone#wall_of_stone>`\  (DC 19)
+
+ 4th—:ref:`dimension door <corerulebook.spells.dimensiondoor#dimension_door>`\  \ :sup:`D`\ , :ref:`dismissal <corerulebook.spells.dismissal#dismissal>`\  (DC 18), :ref:`freedom of movement <corerulebook.spells.freedomofmovement#freedom_of_movement>`\ , :ref:`summon monster IV <corerulebook.spells.summonmonster#summon_monster_iv>`\  
+
+ 3rd—:ref:`dispel magic <corerulebook.spells.dispelmagic#dispel_magic>`\ , :ref:`magic vestment <corerulebook.spells.magicvestment#magic_vestment>`\ , :ref:`meld into stone <corerulebook.spells.meldintostone#meld_into_stone>`\ , :ref:`protection from energy <corerulebook.spells.protectionfromenergy#protection_from_energy>`\  \ :sup:`D`\ , :ref:`stone shape <corerulebook.spells.stoneshape#stone_shape>`\  
+
+ 2nd—:ref:`bull's strength <corerulebook.spells.bullsstrength#bull_s_strength>`\ , :ref:`calm emotions <corerulebook.spells.calmemotions#calm_emotions>`\  (DC 16), :ref:`darkness <corerulebook.spells.darkness#darkness>`\ , :ref:`shield other <corerulebook.spells.shieldother#shield_other>`\  \ :sup:`D`\ , :ref:`sound burst <corerulebook.spells.soundburst#sound_burst>`\  (DC 16), :ref:`zone of truth <corerulebook.spells.zoneoftruth#zone_of_truth>`\  (DC 16)
+
+ 1st—:ref:`bless <corerulebook.spells.bless#bless>`\ , :ref:`command <corerulebook.spells.command#command>`\  (DC 15), :ref:`endure elements <corerulebook.spells.endureelements#endure_elements>`\ , :ref:`longstrider <corerulebook.spells.longstrider#longstrider>`\  \ :sup:`D`\ , :ref:`sanctuary <corerulebook.spells.sanctuary#sanctuary>`\  (DC 15), :ref:`shield of faith <corerulebook.spells.shieldoffaith#shield_of_faith>`\  
+
+ 0 (at will)—:ref:`create water <corerulebook.spells.createwater#create_water>`\ , :ref:`detect poison <corerulebook.spells.detectpoison#detect_poison>`\ , :ref:`guidance <corerulebook.spells.guidance#guidance>`\ , :ref:`mending <corerulebook.spells.mending#mending>`\  
+
+ \ **D**\  domain spell; \ **Domains**\  Protection, Travel
+
+Tactics
+========
+
+\ **Before Combat**\  The elder casts :ref:`longstrider <corerulebook.spells.longstrider#longstrider>`\  on herself, and :ref:`bear's endurance <corerulebook.spells.bearsendurance#bear_s_endurance>`\ , :ref:`bull's strength <corerulebook.spells.bullsstrength#bull_s_strength>`\ , and :ref:`magic vestment <corerulebook.spells.magicvestment#magic_vestment>`\  and on allies who will enter combat. She chooses one vulnerable ally to protect with :ref:`shield other <corerulebook.spells.shieldother#shield_other>`\  .
+
+\ **During Combat**\  The elder focuses on healing her allies and counteracting her enemies' spells while staying out of harm's way. If the group needs to escape, she assists the evacuation by casting :ref:`teleport <corerulebook.spells.teleport#teleport>`\  (if a small number of allies are with her) or :ref:`wall of stone <corerulebook.spells.wallofstone#wall_of_stone>`\  (if a large number of ratfolk are with her).
+
+\ **Base Statistics**\ Without :ref:`longstrider <corerulebook.spells.longstrider#longstrider>`\ , the elder's statistics are \ **Speed**\  30 ft.
+
+Statistics
+===========
+
+\ **Str**\  10, \ **Dex**\  10, \ **Con**\  14, \ **Int**\  12, \ **Wis**\  18, \ **Cha**\  14
+
+\ **Base Atk**\  +6; \ **CMB**\  +5; \ **CMD**\  15
+
+\ **Feats**\  :ref:`Extra Channel <corerulebook.feats#extra_channel>`\ , :ref:`Great Fortitude <corerulebook.feats#great_fortitude>`\ , :ref:`Improved Initiative <corerulebook.feats#improved_initiative>`\ , :ref:`Selective Channeling <corerulebook.feats#selective_channeling>`\ , :ref:`Toughness <corerulebook.feats#toughness>`
+
+\ **Skills**\  :ref:`Appraise <corerulebook.skills.appraise#appraise>`\  +5, :ref:`Craft <corerulebook.skills.craft#craft>`\  (alchemy) +3, :ref:`Diplomacy <corerulebook.skills.diplomacy#diplomacy>`\  +14, :ref:`Heal <corerulebook.skills.heal#heal>`\  +12, :ref:`Knowledge <corerulebook.skills.knowledge#knowledge>`\  (religion) +9, :ref:`Perception <corerulebook.skills.perception#perception>`\  +6, :ref:`Sense Motive <corerulebook.skills.sensemotive#sense_motive>`\  +14, :ref:`Use Magic Device <corerulebook.skills.usemagicdevice#use_magic_device>`\  +4; \ **Racial Modifiers**\  +2 :ref:`Craft <corerulebook.skills.craft#craft>`\  (alchemy), +2 :ref:`Perception <corerulebook.skills.perception#perception>`\ , +2 :ref:`Use Magic Device <corerulebook.skills.usemagicdevice#use_magic_device>`
+
+\ **Languages**\  Celestial, Common
+
+\ **SQ**\  agile feet (7/day), aura of protection (+1 deflection, energy resistance 5, 9 rounds/day), +10 base speed from Travel domain
+
+\ **Combat Gear**\  scroll of :ref:`bear's endurance <corerulebook.spells.bearsendurance#bear_s_endurance>`\ , scroll of :ref:`invisibility purge <corerulebook.spells.invisibilitypurge#invisibility_purge>`\ , scroll of :ref:`sending <corerulebook.spells.sending#sending>`\ , wand of :ref:`cure moderate wounds <corerulebook.spells.curemoderatewounds#cure_moderate_wounds>`\  (15 charges); \ **Other Gear**\  \ *+1 chainmail*\ , light steel shield, light crossbow with 10 bolts, mwk light mace, cloak of :ref:`resistance <corerulebook.spells.resistance#resistance>`\  +1, \ *headband of inspired wisdom +2*\ , silver holy symbol, spell component pouch, sunrod, pair of platinum rings (worth 50 gp total), 768 gp
+
+.. _`monstercodex.ratfolk#kirrix`:
+
+Kirrix
+*******
+
+\ *This sleek, weasel-like rodent has exaggerated whiskers and six short but stout legs.*\  
+
+Kirrix
+=======
+
+**CR 3** 
+
+XP 800
+
+N Large magical beast
+
+\ **Init**\  +6; \ **Senses**\  blindsense 10 ft., darkvision 60 ft., low-light vision, scent; :ref:`Perception <corerulebook.skills.perception#perception>`\  +9
+
+Defense
+========
+
+\ **AC**\  14, touch 11, flat-footed 12 (+2 Dex, +3 natural, –1 size)
+
+\ **hp**\  34 (4d10+12)
+
+\ **Fort**\  +7, \ **Ref**\  +6, \ **Will**\  +2
+
+\ **Immune**\  disease
+
+Offense
+========
+
+\ **Speed**\  30 ft., burrow 10 ft., climb 20 ft.
+
+\ **Melee**\  bite +7 (1d8+6)
+
+\ **Space**\  10 ft.; \ **Reach**\  5 ft.
+
+\ **Special Attacks**\  expel pathogens
+
+Statistics
+===========
+
+\ **Str**\  18, \ **Dex**\  15, \ **Con**\  17, \ **Int**\  5, \ **Wis**\  12, \ **Cha**\  8
+
+\ **Base Atk**\  +4; \ **CMB**\  +9; \ **CMD**\  21 (29 vs. trip)
+
+\ **Feats**\  :ref:`Improved Initiative <corerulebook.feats#improved_initiative>`\ , :ref:`Skill Focus <corerulebook.feats#skill_focus>`\  (:ref:`Perception <corerulebook.skills.perception#perception>`\ )
+
+\ **Skills**\  :ref:`Climb <corerulebook.skills.climb#climb>`\  +12, :ref:`Perception <corerulebook.skills.perception#perception>`\  +9, :ref:`Stealth <corerulebook.skills.stealth#stealth>`\  +3
+
+\ **Languages**\  Common (can't speak)
+
+\ **SQ**\  compression, harbor pathogens
+
+.. _`monstercodex.ratfolk#ecology`:
+
+Ecology
+========
+
+\ **Environment**\  any underground
+
+\ **Organization**\  solitary, pair, or pack (3–6)
+
+\ **Treasure**\  none
+
+.. _`monstercodex.ratfolk#special_abilities`:
+
+Special Abilities
+==================
+
+\ **Expel Pathogens (Ex)**\  When a kirrix hits with its bite attack, it can infect its target using its harbor pathogens ability (if any) with one disease it has stored, even if that disease can't normally be contracted via an injury. It can do this a number of times per day equal to its Constitution modifier. Alternatively, a kirrix can expend two uses of this ability to spray a disease in a 15-foot cone, exposing all creatures in the cone to the disease even if it can't normally be contracted by contact. Doing so depletes the kirrix's reserve of that disease.
+
+\ **Harbor Pathogens (Ex)**\  A kirrix's body has innate features that let it clean up and contain diseases within ratfolk warrens. A kirrix collects diseases by consuming them off of objects or from the air (typically contact, ingested, or inhaled diseases), by ministering to a diseased creature (typically ingested or injury diseases), or by fighting a creature that imparts diseases and being subjected to one. The kirrix can store up to two types of diseases at a time in an organ near its throat. (A typical kirrix has filth fever and bubonic plague stored.) A kirrix can harmlessly digest an unwanted disease as a full-round action. If the creature consumes a mold or another substance that causes disease, it clears the surface of disease. If it ingests a diseased creature's blood (either by licking an open wound or biting the creature), it can produce an antiplague secretion, which it can use on itself or apply to others. Treat this as though the kirrix were using the :ref:`Heal <corerulebook.skills.heal#heal>`\  skill to treat disease with a +12 bonus.
+
+Ratfolk have just as much enthusiasm for alchemy as they do for rodents, and they combined these two interests to create the kirrix—the result of generations of riding rat husbandry combined with regular infusions. These alchemical modifications have given kirrixes six legs and the ability to consume and transmit diseases without ill effect to the creatures themselves.
+
+Many ratfolk settlements raise these gregarious creatures, with whom the ratfolk share their warrens in a symbiotic relationship. The kirrixes prowl the ratfolk tunnels and act as scavengers—searching for unfamiliar scents, consuming detritus, and removing harmful diseases from the ratfolk settlement. If the warren comes under attack, the kirrixes act as guards, and squeeze through or block tunnels as necessary to buy time for their ratfolk allies to escape.
+
+A typical adult kirrix is 9 feet long and usually weighs under 500 pounds.
+
+.. _`monstercodex.ratfolk#ratfolk_encounters`: `monstercodex.ratfolk#encounters`_
+
+.. _`monstercodex.ratfolk#encounters`:
+
+Encounters
+###########
+
+Ratfolk travel far and wide in search of new discoveries and economic opportunities. As a result, adventurers might encounter them in a wide variety of circumstances and group compositions.
+
+.. _`monstercodex.ratfolk#ratfolk_advance_scouts_(cr_6)`:
+
+Ratfolk Advance Scouts (CR 6)
+******************************
+
+Traveling groups of ratfolk often send a small team of scouts several miles ahead to survey the lay of the land and check for dangerous creatures before risking the entire caravan.
+
+.. _`monstercodex.ratfolk#ratfolk_caravan_guards_(3)`:
+
+Ratfolk Caravan Guards (3)
+===========================
+
+**CR 3** 
+
+XP 800 each
+
+\ **hp**\  30 each
+
+.. _`monstercodex.ratfolk#riding_rats`: `monstercodex.ratfolk#riding_rats_(3)`_
+
+.. _`monstercodex.ratfolk#riding_rats_(3)`:
+
+Riding Rats (3)
+================
+
+**CR —** 
+
+XP —
+
+N Medium animal
+
+\ **Init**\  +2; \ **Senses**\  low-light vision, scent; :ref:`Perception <corerulebook.skills.perception#perception>`\  +5
+
+Defense
+========
+
+\ **AC**\  13, touch 12, flat-footed 11 (+2 Dex, +1 natural)
+
+\ **hp**\  18 (2d8+9)
+
+\ **Fort**\  +6, \ **Ref**\  +5, \ **Will**\  +1
+
+Offense
+========
+
+\ **Speed**\  40 ft., climb 20 ft., swim 20 ft.
+
+\ **Melee**\  bite +3 (1d6+3)
+
+Statistics
+===========
+
+\ **Str**\  14, \ **Dex**\  15, \ **Con**\  17, \ **Int**\  2, \ **Wis**\  13, \ **Cha**\  4
+
+\ **Base Atk**\  +1; \ **CMB**\  +3; \ **CMD**\  15 (19 vs. trip)
+
+\ **Feats**\  :ref:`Toughness <corerulebook.feats#toughness>`
+
+\ **Skills**\  :ref:`Climb <corerulebook.skills.climb#climb>`\  +10, :ref:`Perception <corerulebook.skills.perception#perception>`\  +5, :ref:`Stealth <corerulebook.skills.stealth#stealth>`\  +6, :ref:`Swim <corerulebook.skills.swim#swim>`\  +10
+
+\ **SQ**\  tricks (attack [all creatures], defend, fetch, heel, track, work)
+
+.. _`monstercodex.ratfolk#ratfolk_caravan_(cr_9)`:
+
+Ratfolk Caravan (CR 9)
+***********************
+
+Ratfolk tend to form large caravans when traveling from one trading hub to another. A typical caravan consists of a dozen ratfolk tradesmen driving wagons drawn by riding rats, led and guarded by experienced explorers.
+
+.. _`monstercodex.ratfolk#ratfolk_(12)`:
+
+Ratfolk (12)
+=============
+
+**CR 1/3** 
+
+XP 135 each
+
+\ **hp**\  8 each
+
+.. _`monstercodex.ratfolk#ratfolk_caravan_guards_(4)`:
+
+Ratfolk Caravan Guards (4)
+===========================
+
+**CR 3** 
+
+XP 800 each
+
+\ **hp**\  30 each
+
+Ratfolk Expedition Leader
+==========================
+
+**CR 7** 
+
+XP 3,200
+
+\ **hp**\  72
+
+.. _`monstercodex.ratfolk#riding_rats_(4)`:
+
+Riding Rats (4)
+================
+
+**CR —** 
+
+XP —
+
+\ **hp**\  18 each (see above)
+
+.. _`monstercodex.ratfolk#colonists_(cr_10)`:
+
+Colonists (CR 10)
+******************
+
+When a warren becomes too crowded, several dozen ratfolk band together to found a new one. A sage usually leads this band, bringing with him any useful texts and knowledge.
+
+.. _`monstercodex.ratfolk#ratfolk_(18)`:
+
+Ratfolk (18)
+=============
+
+**CR 1/3** 
+
+XP 135 each
+
+\ **hp**\  8 each
+
+Ratfolk Sage
+=============
+
+**CR 6** 
+
+XP 2,400
+
+\ **hp**\  48
+
+.. _`monstercodex.ratfolk#ratfolk_tinkerers_(4)`:
+
+Ratfolk Tinkerers (4)
+======================
+
+**CR 1** 
+
+XP 400 each
+
+\ **hp**\  16 each
+
+.. _`monstercodex.ratfolk#ratfolk_wardens_(2)`:
+
+Ratfolk Wardens (2)
+====================
+
+**CR 4** 
+
+XP 1,200 each
+
+\ **hp**\  42 each
+

@@ -1,0 +1,456 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic);
+
+
+@-ms-viewport{
+  width: device-width;
+}
+
+
+/* ##########  Global  ########## */
+body, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+ul.special > li > ul {
+    display: none;
+}
+
+img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+
+}
+
+body {
+    width: 97.5%;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.5%;
+
+    font-size: 100%;
+    font-family: 'PT Serif', serif;
+    background: #fffdf8;
+
+    overflow: auto; 
+}
+
+body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2, h3, h4, h5, h6 {
+  font-size-adjust: 0.5;
+}
+
+
+/* size 1 */
+.document {
+  /* equivalent to 16px */
+  font-size: 1em;
+  /* equivalent to 20px */
+  line-height: 1.25;
+}
+
+/* size 2 */
+@media (min-width: 43.75em) {
+    .document {
+        /* equivalent to 16px */
+        font-size: 1em;
+        /* equivalent to 22px */
+        line-height: 1.375;
+    }
+}
+
+
+/* size 1 */
+p {
+    margin: 0.75em 0;
+    text-indent: 1.5em;
+}
+
+/* size 2 */
+@media (min-width: 43.75em) {
+    p {
+        margin: 1em 0;
+        text-indent: 2em;
+
+    }
+}
+
+
+/* general */
+h1 {
+    font: normal 32px 'PT Serif', serif;
+    margin: 30px 0 10px 0;
+    border-top: 1px solid #8D8D8D;
+}
+
+/* size 1 */
+h1 {
+
+    /* 2x body copy size = 32px */
+    font-size: 2em;
+    /* 45px / 36px */
+    line-height: 1.25;
+}
+
+/* size 2 */
+@media (min-width: 43.75em) {
+    h1 {
+        /* 2.5x body copy size = 40px */
+        font-size: 2.5em;
+        line-height: 1.125;
+    }
+}
+
+/* size 3 */
+@media (min-width: 56.25em) {
+    h1 {
+        /* 3x body copy size = 48px */
+        font-size: 3em;
+        /* keep to a multiple of the 20px line height and something more appropriate for display headings */
+        line-height: 1.05;
+    }
+}
+
+
+/* general */
+h2 {
+    border-top: 0.5px solid #C0C0C0;
+    font: normal 26px 'PT Serif', serif;
+    margin: 20px 0 7px 0;
+}
+
+/* size 1 */
+h2 {
+      /* 1.625x body copy size = 26px */
+      font-size: 1.625em;
+      /* 30px / 26px */
+      line-height: 1.15384615;
+}
+
+/* size 2 */
+@media (min-width: 43.75em) {
+    h2 {
+        /* 2x body copy size = 32px */
+        font-size: 2em;
+        line-height: 1.25;
+    }
+}
+
+/* size 3 */
+@media (min-width: 56.25em) {
+    h2 {
+        /* 2.25x body copy size = 36px */
+        font-size: 2.25em;
+        line-height: 1.25;
+    }
+}
+
+
+/* general */
+h3 {
+    border-top: 0.25px solid #DADADA;
+    font: normal 20px 'PT Serif', serif;
+    margin: 15px 0 4px 0;
+}
+
+/* size 1 */
+h3 {
+    /* 1.375x body copy size = 22px */
+    font-size: 1.375em;
+    /* 25px / 22px */
+    line-height: 1.13636364;
+}
+
+/* size 2 */
+@media (min-width: 43.75em) {
+    h3 {
+        /* 1.5x body copy size = 24px */
+        font-size: 1.5em;
+        line-height: 1.25;
+    }
+}
+
+/* size 3 */
+@media (min-width: 56.25em) {
+    h3 {
+        /* 1.75x body copy size = 28px */
+        font-size: 1.75em;
+        line-height: 1.25;
+    }
+}
+
+
+/* general */
+h4 {
+    /* 1.125x body copy size = 18px */
+    font-size: 1.125em;
+    line-height: 1.11111111;
+}
+
+/* size 2 */
+@media (min-width: 43.75em) {
+    h4 {
+        /* (22px / 18px */
+        line-height: 1.22222222;
+    }
+}
+
+
+/* general */
+h5, h6 {
+    font-size: 1em;
+    line-height: 1;
+}
+
+/* size 2 */
+@media (min-width: 43.75em) {
+    h5, h6 {
+        line-height: 1.11111111;
+    }
+}
+
+hr {
+    margin: 5px auto;
+    border: 0;
+    border-top: 1px solid #bbb;
+}
+
+sup {
+    line-height: 0;
+}
+
+li, li > p {
+    /* top, right, bottom, left*/
+    margin: 1px;
+    text-indent: unset;
+}
+/* ##########  End Global  ########## */
+
+
+/* ##########  Header  ########## */
+#header {
+    top: 0px;
+    height: auto;
+    width: 100%;
+    border-bottom: 1px solid #bbb;
+}
+/* ##########  End Header  ########## */
+
+
+/* ##########  Figure  ########## */
+figure {
+    float: right;
+    text-align: left;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    border: thin silver solid;
+    margin: 0.5em 0 0.5em 0.5em;
+    padding: 0.5em;
+    display: table;
+    width: auto;
+}
+/* for small pictures widt: 1px makes the figcaption wrap */
+
+figcaption {
+    margin: 0.5em;
+    font-size: 12px;
+    font-family: 'PT Serif', serif;
+}
+/* ##########  End Figure  ########## */
+
+
+/* ##########  Buttons  ########## */
+.button, input[type=button], input[type=submit], button {
+    text-decoration: none;
+    border-color:#888;
+    border-color:rgba(0, 0, 0, 0.56);
+    cursor: pointer;
+    outline: none;
+    color:#111;
+    font-family:"Lucida Grande","Lucida Sans","Lucida Sans Unicode","Segoe UI",Verdana,sans-serif;
+    display:inline-block;
+    vertical-align:top;
+    position:relative;
+    font-size:12px;
+    font-weight:bold;
+    text-align:center;
+    background-color:#aaa;
+    background-image:url(gradient.png);
+    background-image: -moz-linear-gradient(top, rgba(255,255,255,.75), rgba(255,255,255,0));
+    background-image: -o-linear-gradient(top, rgba(255,255,255,.75), rgba(255,255,255,0));
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(255,255,255,.75)), to(rgba(255,255,255,0)));
+    background-image: linear-gradient(top, rgba(255,255,255,.75), rgba(255,255,255,0));
+    background-repeat:repeat-x;
+    text-shadow:1px 1px 0 rgba(255,255,255,.67);
+    line-height:2;
+    margin:0 0 2em 1em;
+    padding:0 1em;
+    height:2em;
+    -moz-box-shadow:1px 1px 0 rgba(255,255,255,.5) inset, -1px -1px 0 rgba(255,255,255,.5) inset;
+    -webkit-box-shadow:1px 1px 0 rgba(255,255,255,.5) inset, -1px -1px 0 rgba(255,255,255,.5) inset;
+    box-shadow:1px 1px 0 rgba(255,255,255,.5) inset, -1px -1px 0 rgba(255,255,255,.5) inset;
+    -webkit-transition: background .185s linear;
+    -moz-transition: all .185s linear;
+    -o-transition: all .185s linear;
+    transition: all .185s linear;
+    /** Make the text unselectable **/
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+.button, .button:after, button, button:after, input[type=submit], input[type=button] {
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    border-radius:4px;
+    border-width:1px;
+    border-style:solid;
+
+}
+.button:after, button:after{
+    display:block;
+    position:absolute;
+    content:' ';
+    width:100%;
+    height:100%;
+    border-color: transparent transparent #ccc;
+    border-color: transparent transparent rgba(255, 255, 255, 0.67);
+    bottom:-2px;
+    left:-1px;
+}
+.button:active, button:active, input[type=submit]:active, input[type=button]:active {
+    line-height:2.2;
+    -moz-box-shadow
+        :0 .33em 1em rgba(0,0,0,.67) inset,
+        1px 1px 0 rgba(255,255,255,.25) inset, 
+        -1px -1px 0 rgba(255,255,255,.25) inset;
+    -webkit-box-shadow:
+        0 .33em 2em rgba(0,0,0,.67) inset,
+        1px 1px 0 rgba(255,255,255,.25) inset, 
+        -1px -1px 0 rgba(255,255,255,.25) inset;
+    box-shadow:
+        0 .33em 2em rgba(0,0,0,.67) inset,
+        1px 1px 0 rgba(255,255,255,.25) inset, 
+        -1px -1px 0 rgba(255,255,255,.25) inset;
+        -webkit-transition: line-height .1s linear;
+        -moz-transition: all .1s linear;
+        -o-transition: all .1s linear;
+        transition: all .1s linear;
+}
+.button.bg, .button.bg:hover, .button.bg:focus {
+    background-image: -moz-linear-gradient(top, rgba(255,255,255,.75), rgba(255,255,255,0));
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(255,255,255,.75)), to(rgba(255,255,255,0)));
+}
+/* ##########  end Buttons  ########## */
+
+
+/* ##########  Links/Type  ########## */
+a {
+    color: #33337C;
+    text-decoration: none;
+}
+
+a:active, a:hover {
+    text-decoration: underline;
+}
+/* ##########  end Links/Type  ########## */
+
+
+/* ##########  Tables  ########## */
+table {
+    font-family: 'Lato', sans;
+    border-collapse: collapse;
+    margin: 10px 0 20px 0;
+    text-align: left;
+    width: auto;
+    max-width: 100%;
+}
+
+tr {
+    width: auto;
+    max-width: 100%;
+}
+
+td > p, th > p {
+    /* top, right, bottom, left*/
+    margin: 1px;
+    text-indent: unset;
+}
+
+
+caption {
+    font: bold 18px 'PT Serif', serif;
+}
+
+th {
+    border-bottom: 2px solid #585858;
+    vertical-align: bottom;
+    font-size: 15px;
+    padding: 5px 10px 5px 10px;
+    max-width: 100%;
+}
+
+th:first-child {
+    text-align: left;
+}
+
+td {
+    vertical-align: top;
+    max-width: 100%;
+}
+
+tbody tr:nth-child(odd) td {
+    background: rgba(0, 0, 0, 0.05);
+    width: auto;
+    max-width: 100%;
+}
+
+tbody tr {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+tbody th {
+    padding: 15px 10px 5px 10px;
+}
+
+tbody td {
+    /* top, right, bottom, left*/
+    padding: 1px 10px 1px 10px;
+}
+
+
+tfoot {
+    border-top: 2px solid #ccc;
+}
+
+tfoot td {
+    font-size: 12px;
+    padding: 5px 0 0 0;
+}
+
+tr:last-child {
+    border-bottom: 1px solid #585858;
+}
+
+.indent-1 {
+    text-indent: 10px;
+}
+
+.indent-2 {
+    text-indent: 20px;
+}
+
+div.table {
+    width: auto;
+    max-width: 85%;
+}
+/* ##########  end Tables  ########## */
+
+
+/* ##########  Literal block  ########## */
+pre {
+    white-space: pre-wrap;
+}
+/* ##########  end Literal block  ########## */
+
