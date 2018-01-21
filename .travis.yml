@@ -7,6 +7,7 @@ cache:
     - $TRAVIS_BUILD_DIR/cache
     - $TRAVIS_BUILD_DIR/html
     - $TRAVIS_BUILD_DIR/rst
+    - $TRAVIS_BUILD_DIR/build
 
 install:
   - pip install sphinx beautifulsoup4 lxml
@@ -16,14 +17,16 @@ script:
   - python -u ./prd.py
 
 after_success:
+  - cd $TRAVIS_BUILD_DIR
   - make html
+  - cp -r rst build/html/rst
 
 # Deploy using travis builtin GitHub Pages support
 deploy:
   provider: pages
   # target_branch: gh-pages # Branch to force push to, defaults to gh-pages
   skip_cleanup: true
-  local_dir: $TRAVIS_BUILD_DIR/build/html
+  local_dir: build/html
   github_token: $GITHUB_API_KEY
   on:
     branch: master

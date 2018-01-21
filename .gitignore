@@ -2,7 +2,7 @@ sample_few_rst/
 html/
 cache/
 git-commit.bat
-*.rst
+rst/*.rst
 *.html
 *.log
 *.lnk
