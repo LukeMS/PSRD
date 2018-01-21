@@ -18,7 +18,7 @@ import prd_fixes
 
 PARSER = None
 
-INDEX = "http://paizo.com/pathfinderRPG/prd/index.html"
+INDEX = "https://paizo.com/pathfinderRPG/prd/index.html"
 
 OGL = "/pathfinderRPG/prd/openGameLicense.html"
 
@@ -35,8 +35,8 @@ OFFLINE = False
 # OVERWRITE, HALT_ON_ERROR = "all", False
 # OVERWRITE, HALT_ON_ERROR = "all", True
 # OVERWRITE, HALT_ON_ERROR = True, False
-OVERWRITE, HALT_ON_ERROR = False, True
-
+# OVERWRITE, HALT_ON_ERROR = False, True
+OVERWRITE, HALT_ON_ERROR = False, False
 
 order = sorted
 
@@ -565,8 +565,8 @@ def standard_ref(_ref, current=None):
         ref = "/pathfinderRPG" + ref.replace("/prd/", "/prd/coreRulebook/")
     elif ref.startswith("/pathfinder/prd"):
         ref = ref.replace("/pathfinder/prd", "/pathfinderRPG/prd")
-    elif ref.startswith("http://paizo.com"):
-        ref = ref.replace("http://paizo.com", "")
+    elif ref.startswith("https://paizo.com"):
+        ref = ref.replace("https://paizo.com", "")
     elif ref.startswith("/prd/"):
         ref = ref.replace("/prd/", "/pathfinderRPG/prd/")
 
@@ -737,7 +737,7 @@ def get_page(url):
 
     cache_path = os.path.join("html", html).lower().replace("\\", "/")
 
-    url = "http://paizo.com" + url
+    url = "https://paizo.com" + url
 
     if os.path.isfile(cache_path):
         with codecs.open(cache_path, "r", "utf-8") as f:
@@ -1424,7 +1424,7 @@ def _parse_href_local(ref, text):
 
 def parse_href(href):
     """
-    #`Python <http://www.python.org/>`_
+    #`Python <https://www.python.org/>`_
 
     <a href="/pathfinderRPG/prd/advancedPlayersGuide/baseClasses/summoner.html#summon-monster-i">
 

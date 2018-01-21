@@ -13,12 +13,11 @@ install:
 
 script:
   - cd $TRAVIS_BUILD_DIR
-  - ls -A
-  - mkdir -p "cache" "html" "rst"
+  - mkdir -p "cache" "html" "rst" && ls -A
   - python -u ./prd.py
 
 after_success:
-  - make html
+#  - make html
 
 # Deploy using travis builtin GitHub Pages support
 deploy:
