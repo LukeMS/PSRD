@@ -18,7 +18,7 @@ import prd_fixes
 
 PARSER = None
 
-INDEX = "https://paizo.com/pathfinderRPG/prd/index.html"
+INDEX = "/pathfinderRPG/prd/index.html"
 
 OGL = "/pathfinderRPG/prd/openGameLicense.html"
 
@@ -363,7 +363,7 @@ def _standard_ref(_ref, anchor, ref, current=None):
 
     # raise an error because we wont' handle external links here
     if ref.startswith("http") or ref.startswith("www") or ".com/" in ref:
-        err = string.format("ref: {}, current: {}".format(ref, current))
+        err = str.format("ref: {}, current: {}".format(ref, current))
         raise ExternalLinkError(err)
 
     # should be a root / core relative path
@@ -642,6 +642,7 @@ def _get_links(url=INDEX, recursive=1):
     xassert(url)
     text = get_page(url)
     soup = get_soup(text)
+    PARSER.current = url
 
     links = []
     for ref in soup.findAll('a', href=True):
@@ -674,9 +675,9 @@ def _get_links(url=INDEX, recursive=1):
         recursive_sets = [
             _get_links(url, recursive + 1)
             for url in order(list(data))
-            if url not in LINK_PAGES_DONE]
+            if url not in PARSER.link_pages_done]
         data = data.union(*recursive_sets)
-    LINK_PAGES_DONE[url] = True
+    PARSER.link_pages_done[url] = True
     return data
 
 
@@ -693,7 +694,7 @@ def get_links():
         links = _get_links()
         links = list(links)
         for i, link in enumerate(links):
-            fix = prd_fixes.url.get(alt_url, None)
+            fix = prd_fixes.url.get(link, None)
             if fix is not None:
                 links[i] = fix
         links = set(links)
@@ -1794,6 +1795,7 @@ class Html2Rst(object):
 
     def __init__(self):
         self.cache_test = {}
+        self.link_pages_done = {}
 
     def _parse_rst(self, html):
         self.soup = soup = BeautifulSoup(html, "lxml")
@@ -2023,9 +2025,17 @@ class Html2Rst(object):
         # raise ManualBreakError(rst)
         # raise ManualBreakError(rst_path)
 
+    def copy_hard_patches(self):
+            sources = [source for source in next(os.walk("new_html"))[2]]
+            for f in sources:
+                src = os.path.join("new_html", f)
+                dst = os.path.join("html", f)
+                shutil.copy2(src, dst)
+
     def parse_all(self):
         global requests
         requests = RequestsInterface()
+        self.copy_hard_patches()
         try:
             links = get_links()
             check_links(links)
@@ -2054,6 +2064,11 @@ class Html2Rst(object):
 
 def main():
     global PARSER
+
+    os.makedirs("cache", exist_ok=True)
+    os.makedirs("html", exist_ok=True)
+    os.makedirs("rst", exist_ok=True)
+
     PARSER = Html2Rst()
     PARSER.parse_all()
     create_index()

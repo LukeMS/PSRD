@@ -249,6 +249,14 @@ patches = {
 
         (sub_asterisks, None, None),
 
+        (str.replace,
+         'http://paizo.com/pathfinderRPG/prd/',
+         '/pathfinderRPG/prd/'),
+
+        (str.replace,
+         'https://paizo.com/pathfinderRPG/prd/',
+         '/pathfinderRPG/prd/'),
+
         # (issue_warnings, True, None)
     ],
 

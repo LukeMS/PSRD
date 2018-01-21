@@ -9,15 +9,14 @@ cache:
     - $TRAVIS_BUILD_DIR/rst
 
 install:
-  - pip install sphinx beautifulsoup4
+  - pip install sphinx beautifulsoup4 lxml
 
 script:
   - cd $TRAVIS_BUILD_DIR
-  - mkdir -p "cache" "html" "rst" && ls -A
   - python -u ./prd.py
 
 after_success:
-#  - make html
+  - make html
 
 # Deploy using travis builtin GitHub Pages support
 deploy:
